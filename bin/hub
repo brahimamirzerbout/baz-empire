@@ -1,0 +1,265 @@
+#!/bin/bash
+# hub — Launch Nova agent fleet in a tinted Terminal window
+#
+# Linux adaptation of the macOS hub script. The original uses AppleScript
+# to control Terminal.app and set background colors. This version uses
+# gnome-terminal (available on this Debian box) with an OSC 11 escape
+# sequence to tint the background.
+#
+# Usage:
+#   hub                # Launch Nova in a tinted window (default layout)
+#   hub --no-ping      # Launch without startup ping to inbox
+#   hub --kill         # Close the agent Terminal window
+#   hub --restart      # Kill + relaunch
+#   hub --layout       # Reposition existing window
+#   hub --tiny         # Tiny panel mode (260px wide)
+#   hub --full         # Full-screen mode
+#
+# Once running:
+#   - Click the window to type directly to Nova (co-chat)
+#   - Use 'dispatch nova "<task>"' to send work
+#   - Results land in ~/.nova/shared/sync/nova-outbox.md
+
+set -euo pipefail
+
+# ─── Parse Arguments ────────────────────────────────────────
+NO_PING=false
+KILL_MODE=false
+RESTART_MODE=false
+LAYOUT_ONLY=false
+LAYOUT_MODE=""  # compact (default), tiny, or full
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --no-ping)   NO_PING=true; shift ;;
+    --kill)      KILL_MODE=true; shift ;;
+    --restart)   RESTART_MODE=true; shift ;;
+    --layout)    LAYOUT_ONLY=true; shift ;;
+    --compact)   LAYOUT_MODE="compact"; shift ;;
+    --tiny)      LAYOUT_MODE="tiny"; shift ;;
+    --full)      LAYOUT_MODE="full"; shift ;;
+    -h|--help)
+      echo "hub — Launch Nova agent"
+      echo ""
+      echo "Usage: hub [options]"
+      echo ""
+      echo "Options:"
+      echo "  --no-ping        Skip startup ping to inbox"
+      echo "  --kill           Close the agent Terminal window"
+      echo "  --restart        Kill + relaunch"
+      echo "  --layout         Reposition existing window"
+      echo "  --tiny           Tiny panel mode"
+      echo "  --full           Full-screen mode"
+      exit 0
+      ;;
+    *) shift ;;
+  esac
+done
+
+# ─── Agent Config (edit if you add more agents later) ─────
+AGENT="nova"
+EMOJI="✨"
+LABEL="NOVA"
+MODEL="minimax-m3"
+AGENT_DIR="$HOME/.nova"
+BG_COLOR="56, 24, 80"   # RGB — Nova purple (tweak to taste)
+
+# ─── Pick a terminal emulator ───────────────────────────────
+TERM_CMD=""
+if command -v gnome-terminal >/dev/null 2>&1; then
+  TERM_CMD="gnome-terminal"
+elif command -v konsole >/dev/null 2>&1; then
+  TERM_CMD="konsole"
+elif command -v xterm >/dev/null 2>&1; then
+  TERM_CMD="xterm"
+elif command -v alacritty >/dev/null 2>&1; then
+  TERM_CMD="alacritty"
+elif command -v kitty >/dev/null 2>&1; then
+  TERM_CMD="kitty"
+else
+  echo "❌ No supported terminal emulator found (tried gnome-terminal, konsole, xterm, alacritty, kitty)" >&2
+  exit 1
+fi
+
+# ─── Kill / Restart Mode ─────────────────────────────────────
+if [[ "$KILL_MODE" == true || "$RESTART_MODE" == true ]]; then
+  echo "🔪 Closing agent processes..."
+  pkill -f "hub-launch-${AGENT}" 2>/dev/null || true
+  pkill -f "^${AGENT_DIR}/launch$" 2>/dev/null || true
+  pkill -f "bash ${AGENT_DIR}/launch" 2>/dev/null || true
+  sleep 0.3
+
+  # Best-effort window close — gnome-terminal doesn't expose easy CLI close,
+  # so kill any gnome-terminal processes that are running our launch script.
+  if [[ "$TERM_CMD" == "gnome-terminal" ]]; then
+    # Find gnome-terminal PIDs whose parent launched our script via `do script`.
+    pkill -f "gnome-terminal.*${AGENT_DIR}/launch" 2>/dev/null || true
+  fi
+
+  echo "✅ Agent windows closed."
+  [[ "$KILL_MODE" == true ]] && exit 0
+  sleep 1
+fi
+
+# ─── Screen Layout ─────────────────────────────────────────
+# No AppleScript → read screen size via xdpyinfo or xrandr. Fall back to 1920x1080.
+SCREEN_W=1920
+SCREEN_H=1080
+if command -v xdpyinfo >/dev/null 2>&1; then
+  read -r SCREEN_W SCREEN_H < <(xdpyinfo 2>/dev/null | awk '/dimensions:/ {print $2; exit}' | tr 'x' ' ')
+fi
+if command -v xrandr >/dev/null 2>&1 && [[ -z "${SCREEN_W:-}" || "$SCREEN_W" == "1920" ]]; then
+  CURR=$(xrandr --current 2>/dev/null | awk '/\*/ {print $1; exit}')
+  if [[ -n "$CURR" ]]; then
+    SCREEN_W="${CURR%x*}"
+    SCREEN_H="${CURR#*x}"
+  fi
+fi
+
+MENU_BAR=28
+PAD=12
+
+case "$LAYOUT_MODE" in
+  tiny)
+    WIN_W=260
+    WIN_H=$(( SCREEN_H - MENU_BAR - PAD * 2 ))
+    [[ $WIN_H -gt 900 ]] && WIN_H=900
+    ;;
+  compact|"")
+    WIN_W=320
+    WIN_H=$(( SCREEN_H - MENU_BAR - PAD * 2 ))
+    [[ $WIN_H -gt 1000 ]] && WIN_H=1000
+    ;;
+  full)
+    WIN_W=$(( SCREEN_W - PAD * 2 ))
+    WIN_H=$(( SCREEN_H - MENU_BAR - PAD * 2 ))
+    [[ $WIN_H -gt 1400 ]] && WIN_H=1400
+    ;;
+esac
+
+# Dock right edge
+X=$(( SCREEN_W - PAD - WIN_W ))
+Y=$(( MENU_BAR + PAD ))
+
+# ─── Layout-Only Mode ──────────────────────────────────────
+# Re-tinting existing window: gnome-terminal has no CLI for this without
+# sending escape codes to the running PTY. Best we can do is warn.
+if [[ "$LAYOUT_ONLY" == true ]]; then
+  echo "📐 Layout-only mode: gnome-terminal does not expose geometry via CLI."
+  echo "   Close the window and run 'hub' again with the desired size flag."
+  exit 0
+fi
+
+# ─── Startup Ping ─────────────────────────────────────────
+if [[ "$NO_PING" == false ]]; then
+  TIMESTAMP=$(date +%Y-%m-%d\ %H:%M)
+  INBOX="$HOME/.nova/shared/sync/nova-inbox.md"
+  mkdir -p "$(dirname "$INBOX")"
+  [[ ! -f "$INBOX" ]] && touch "$INBOX"
+  echo "" >> "$INBOX"
+  echo "## Hub Ping — $TIMESTAMP" >> "$INBOX"
+  echo "- [~] [HUB] Nova launched. Check for tasks and respond when ready. | Priority: Medium | Added: $TIMESTAMP" >> "$INBOX"
+fi
+
+# ─── Launch ────────────────────────────────────────────────
+echo "🚀 Launching ${EMOJI} ${LABEL}..."
+echo "   Screen: ${SCREEN_W}×${SCREEN_H} | Window: ${WIN_W}×${WIN_H} at (${X}, ${Y})"
+echo "   Terminal: $TERM_CMD"
+echo ""
+
+# Parse background color for OSC 11 escape
+IFS=', ' read -r BG_R BG_G BG_B <<< "$BG_COLOR"
+BG_HEX=$(printf '#%02x%02x%02x' "$BG_R" "$BG_G" "$BG_B")
+
+# Temp launch script that tints, then runs the agent
+TMP="/tmp/hub-launch-${AGENT}.sh"
+cat > "$TMP" <<SCRIPTEOF
+#!/bin/bash
+cd "${AGENT_DIR}"
+printf '\033]11;${BG_HEX}\007'
+clear
+echo ''
+echo '  ${EMOJI}  ${LABEL}'
+echo '  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━'
+echo '  Model:  ${MODEL}'
+echo '  Home:   ${AGENT_DIR}'
+echo '  Type to chat. Ctrl+C to stop, then exit to close window.'
+echo ''
+echo '  Starting session (workspace auto-loading)...'
+echo ''
+"${AGENT_DIR}/launch"
+echo ''
+echo '  ${EMOJI}  ${LABEL} — session ended'
+echo '  Type exit to close this window.'
+SCRIPTEOF
+chmod +x "$TMP"
+
+# Compute approximate columns/rows from pixels (8x16 px per char is a sane default for monospace).
+CHAR_W=8
+CHAR_H=16
+WIN_COLS=$(( WIN_W / CHAR_W ))
+WIN_ROWS=$(( WIN_H / CHAR_H ))
+[[ $WIN_COLS -lt 40 ]] && WIN_COLS=40
+[[ $WIN_ROWS -lt 12 ]] && WIN_ROWS=12
+
+# Open in the chosen terminal emulator
+case "$TERM_CMD" in
+  gnome-terminal)
+    gnome-terminal \
+      --title="${EMOJI} ${LABEL}" \
+      --working-directory="${AGENT_DIR}" \
+      --geometry=${WIN_COLS}x${WIN_ROWS} \
+      -- bash "${TMP}" \
+      >/dev/null 2>&1 &
+    WIN_PID=$!
+    ;;
+  konsole)
+    konsole \
+      --title "${EMOJI} ${LABEL}" \
+      --workdir "${AGENT_DIR}" \
+      -e bash "${TMP}" \
+      >/dev/null 2>&1 &
+    WIN_PID=$!
+    ;;
+  xterm)
+    # xterm doesn't support geometry + title via all flags consistently; use -T and -geometry.
+    XTERM_BG="${BG_HEX#\#}"
+    xterm \
+      -T "${EMOJI} ${LABEL}" \
+      -geometry "${WIN_COLS}x${WIN_ROWS}+${X}+${Y}" \
+      -bg "#${XTERM_BG}" \
+      -e bash "${TMP}" \
+      >/dev/null 2>&1 &
+    WIN_PID=$!
+    ;;
+  alacritty)
+    alacritty \
+      --title "${EMOJI} ${LABEL}" \
+      --working-directory "${AGENT_DIR}" \
+      -e bash "${TMP}" \
+      >/dev/null 2>&1 &
+    WIN_PID=$!
+    ;;
+  kitty)
+    kitty \
+      --title "${EMOJI} ${LABEL}" \
+      --directory "${AGENT_DIR}" \
+      bash "${TMP}" \
+      >/dev/null 2>&1 &
+    WIN_PID=$!
+    ;;
+esac
+
+sleep 0.3
+
+echo "═════════════════════════════════════════════════════════════"
+echo "  🛸  ${EMOJI} ${LABEL} online (pid ${WIN_PID:-?})"
+echo "═════════════════════════════════════════════════════════════"
+echo ""
+echo "  Window: ${WIN_W}×${WIN_H} at (${X}, ${Y})"
+echo ""
+echo "  Commands:"
+echo "    hub --restart          Kill + relaunch"
+echo "    hub --kill             Close window"
+echo "    hub --layout           Reposition window"
+echo "    dispatch nova \"<task>\" Send work (see setup step 8)"

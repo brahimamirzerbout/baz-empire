@@ -1,0 +1,12 @@
+#!/bin/bash
+# Manages the Marketing Hub savage mode prototype dev server
+PROTO=~/empire/prototype/marketing-hub-savage
+PORT="${PORT:-3070}"
+case "${1:-status}" in
+  dev)    cd "$PROTO" && npm run dev -- -p $PORT ;;
+  build)  cd "$PROTO" && npm run build ;;
+  start)  cd "$PROTO" && npm start -- -p $PORT ;;
+  stop)   pkill -f "next.*-p $PORT" ;;
+  status) curl -s -o /dev/null -w "Port $PORT: HTTP %{http_code}\n" --max-time 2 http://localhost:$PORT 2>&1 ;;
+  *) echo "Usage: hub-prototype {dev|build|start|stop|status}"; exit 1 ;;
+esac

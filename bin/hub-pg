@@ -1,0 +1,9 @@
+#!/bin/bash
+# Start/stop/status the local Postgres for Marketing Hub prototype
+export PATH=/usr/lib/postgresql/18/bin:$PATH
+case "${1:-status}" in
+  start)  pg_ctl -D ~/pgdata-uzer -l ~/pgdata-uzer/log -o "-p 55432 -k ~/pgsock" start ;;
+  stop)   pg_ctl -D ~/pgdata-uzer -l ~/pgdata-uzer/log stop ;;
+  status) pg_isready -h ~/pgsock -p 55432 -U uzer -d hub_savage ;;
+  *) echo "Usage: hub-pg {start|stop|status}"; exit 1 ;;
+esac

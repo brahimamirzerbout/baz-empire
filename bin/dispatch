@@ -1,0 +1,88 @@
+#!/bin/bash
+# dispatch — Send work to a running or new Nova agent
+#
+# Linux adaptation: model name updated to `minimax-m3` (default on this box).
+# Everything else is the same as the macOS guide.
+#
+# Usage:
+#   dispatch nova "<task>"           # Sync mode — writes to inbox
+#   dispatch nova "<task>" --live    # Live mode — spawns new process
+#   dispatch nova "<task>" --background
+#
+# Sync mode is fastest when Nova is already running in `hub`.
+
+set -euo pipefail
+
+AGENT="nova"
+TASK=""
+MODE="sync"
+THINKING="medium"
+TIMESTAMP=$(date +%Y-%m-%d_%H:%M:%S)
+
+while [[ $# -gt 0 ]]; do
+  case "$1" in
+    --live)       MODE="live"; shift ;;
+    --background) MODE="background"; shift ;;
+    --sync)       MODE="sync"; shift ;;
+    --thinking)   THINKING="$2"; shift 2 ;;
+    *)
+      TASK="${TASK:+$TASK }$1"
+      shift
+      ;;
+  esac
+done
+
+if [[ -z "$TASK" ]]; then
+  echo "❌ No task specified"
+  echo "Usage: dispatch nova \"<task>\" [--live|--background]"
+  exit 1
+fi
+
+INBOX="$HOME/.nova/shared/sync/${AGENT}-inbox.md"
+OUTBOX="$HOME/.nova/shared/sync/${AGENT}-outbox.md"
+mkdir -p "$(dirname "$INBOX")"
+[[ ! -f "$INBOX" ]] && touch "$INBOX"
+[[ ! -f "$OUTBOX" ]] && touch "$OUTBOX"
+
+# ── Sync mode ──
+if [[ "$MODE" == "sync" ]]; then
+  echo "- [ ] [NOVA] $TASK | Priority: High | Added: $TIMESTAMP" >> "$INBOX"
+  echo "✅ Task queued in ${AGENT}'s inbox"
+  echo "📋 Task: $TASK"
+  echo "📂 Inbox: $INBOX"
+  exit 0
+fi
+
+# ── Live / Background mode ──
+MODEL="minimax-m3"
+SESSION_DIR="$HOME/.nova/sessions"
+mkdir -p "$SESSION_DIR"
+
+if [[ "$MODE" == "background" ]]; then
+  SAVE_PATH="/tmp/dispatch-${AGENT}-${TIMESTAMP//[: ]/_}.txt"
+  nohup bash -c "
+    echo '[$TIMESTAMP] Dispatching to $AGENT...' > '$SAVE_PATH'
+    echo 'Task: $TASK' >> '$SAVE_PATH'
+    echo '---' >> '$SAVE_PATH'
+    echo '$TASK' | pi --print \
+      --model $MODEL \
+      --thinking $THINKING \
+      --session-dir '$SESSION_DIR' \
+      >> '$SAVE_PATH' 2>&1
+    echo '---' >> '$SAVE_PATH'
+    echo '[$TIMESTAMP] Complete.' >> '$SAVE_PATH'
+  " &>/dev/null &
+  echo "🚀 Dispatched to $AGENT in background"
+  echo "📡 Results: $SAVE_PATH"
+  exit 0
+fi
+
+# Foreground live mode
+echo "🚀 Dispatching to $AGENT (live)..."
+echo "📋 Task: $TASK"
+echo ""
+echo "$TASK" | pi --print \
+  --model "$MODEL" \
+  --thinking "$THINKING" \
+  --session-dir "$SESSION_DIR" \
+  2>&1

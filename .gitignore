@@ -1,0 +1,75 @@
+# OS
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# Project subdirectories (they have their own repos)
+/baz/
+/marketing-hub/
+/nova-with-bank/
+
+# System files
+.ICEauthority
+.Xauthority
+.bash_history
+.bash_logout
+.bashrc
+.bashrc.d/
+.bashrc.original
+.bashrc.save
+.bashrc.save.1
+.cache/
+.config/
+.dbus/
+.dmrc
+.emulator_console_auth_token
+.env.local
+.face
+.face.icon
+.git-credentials
+.gitconfig
+.gnupg/
+.java/
+.local/
+.mozilla/
+.next/
+.npm/
+.pi/
+.pki/
+.pm2/
+.prefix
+.profile
+.ssh/
+.sudo_as_admin_successful
+.supabase/
+.var/
+.viminfo
+.vscode-oss/
+.wget-hsts
+.xsession
+.xsession-errors
+.xsession-errors.old
+.zprofile
+.zshenv
+.zshrc
+
+# Project files
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+pnpm-workspace.yaml
+
+# Other config
+.android/
+.anydesk/
+.gemini/
+.tsignore
+
+# Scripts
+big-moves.sh
+clone_repos.py
+demon-time.sh
+fix-boot.sh
+fix-frankendebian.sh

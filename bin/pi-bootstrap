@@ -1,0 +1,79 @@
+#!/bin/bash
+# pi-bootstrap — Dynamically build AGENTS.md for a pi agent
+# Usage: pi-bootstrap <agent-name>
+# e.g.: pi-bootstrap nova
+#
+# Merges identity (system-prompt, SOUL, IDENTITY, USER),
+# workflow rules (AGENTS-source.md), memory, shared context,
+# and inbox into a single AGENTS.md that pi auto-discovers.
+
+AGENT_NAME="${1:?Usage: pi-bootstrap <agent-name>}"
+
+# Resolve agent dir (vault first, then legacy ~/.pi/agents fallback)
+AGENT_DIR=""
+for candidate in \
+  "/Volumes/Noira/Noira/[##] Vault/Noira-OS/01 Nova/Agents/$AGENT_NAME" \
+  "$HOME/Nova/Nova-OS/01 Nova/Agents/$AGENT_NAME" \
+  "$HOME/.nova"; do
+  if [ -d "$candidate" ]; then
+    AGENT_DIR="$candidate"
+    break
+  fi
+done
+
+if [ -z "$AGENT_DIR" ]; then
+  echo "ERROR: Agent directory not found (checked vault + ~/.nova)" >&2
+  exit 1
+fi
+
+# Shared dir (single-agent: same as agent dir, or sibling)
+SHARED_DIR="$AGENT_DIR/shared"
+[[ ! -d "$SHARED_DIR" ]] && SHARED_DIR="$HOME/.nova/shared"
+
+OUTPUT="$AGENT_DIR/AGENTS.md"
+
+# Start fresh
+> "$OUTPUT"
+
+# ── 1. IDENTITY (who am I) ──
+[[ -f "$AGENT_DIR/IDENTITY.md" ]] && { cat "$AGENT_DIR/IDENTITY.md" >> "$OUTPUT"; echo -e "\n---\n" >> "$OUTPUT"; }
+[[ -f "$AGENT_DIR/SOUL.md"     ]] && { cat "$AGENT_DIR/SOUL.md"     >> "$OUTPUT"; echo -e "\n---\n" >> "$OUTPUT"; }
+[[ -f "$AGENT_DIR/USER.md"     ]] && { cat "$AGENT_DIR/USER.md"     >> "$OUTPUT"; echo -e "\n---\n" >> "$OUTPUT"; }
+
+# ── 2. TOOLS ──
+[[ -f "$AGENT_DIR/TOOLS.md"    ]] && { cat "$AGENT_DIR/TOOLS.md"    >> "$OUTPUT"; echo -e "\n---\n" >> "$OUTPUT"; }
+
+# ── 3. WORKFLOW RULES (from AGENTS-source.md) ──
+[[ -f "$AGENT_DIR/AGENTS-source.md" ]] && { cat "$AGENT_DIR/AGENTS-source.md" >> "$OUTPUT"; echo -e "\n---\n" >> "$OUTPUT"; }
+
+# ── 4. MEMORY (long-term) ──
+if [ -f "$AGENT_DIR/MEMORY.md" ]; then
+  echo -e "\n## Long-Term Memory\n" >> "$OUTPUT"
+  cat "$AGENT_DIR/MEMORY.md" >> "$OUTPUT"
+  echo -e "\n---\n" >> "$OUTPUT"
+fi
+
+# ── 5. DAILY MEMORY ──
+TODAY=$(date +%Y-%m-%d)
+YESTERDAY=$(date -d 'yesterday' +%Y-%m-%d 2>/dev/null || echo "")
+if [ -f "$AGENT_DIR/memory/$TODAY.md" ]; then
+  echo -e "\n## Daily Memory ($TODAY)\n" >> "$OUTPUT"
+  cat "$AGENT_DIR/memory/$TODAY.md" >> "$OUTPUT"
+  echo -e "\n---\n" >> "$OUTPUT"
+fi
+if [ -n "$YESTERDAY" ] && [ -f "$AGENT_DIR/memory/$YESTERDAY.md" ]; then
+  echo -e "\n## Daily Memory ($YESTERDAY)\n" >> "$OUTPUT"
+  cat "$AGENT_DIR/memory/$YESTERDAY.md" >> "$OUTPUT"
+  echo -e "\n---\n" >> "$OUTPUT"
+fi
+
+# ── 6. AGENT INBOX ──
+if [ -f "$SHARED_DIR/sync/${AGENT_NAME}-inbox.md" ]; then
+  echo -e "\n## Inbox — Tasks Assigned to Me\n" >> "$OUTPUT"
+  cat "$SHARED_DIR/sync/${AGENT_NAME}-inbox.md" >> "$OUTPUT"
+  echo "" >> "$OUTPUT"
+fi
+
+# Done
+SIZE=$(wc -c < "$OUTPUT" | tr -d ' ')
+echo "✅ Bootstrapped $AGENT_NAME → AGENTS.md (${SIZE} bytes)"
