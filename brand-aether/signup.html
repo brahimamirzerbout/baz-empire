@@ -7,8 +7,9 @@
   <meta name="description" content="Create your Æther account.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="aether.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>Æ</text></svg>">
   <style>
     .auth-page {
       min-height: 100vh;
@@ -132,10 +133,17 @@
       .auth-illustration { display: none; }
       .auth-form { padding: var(--space-8) var(--space-4); }
     }
+    @media print {
+      .auth-illustration { display: none; }
+      .auth-page { grid-template-columns: 1fr; }
+    }
   </style>
 </head>
 <body>
-  <div class="auth-page">
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <div class="auth-page" id="main">
     <div class="auth-form">
       <div class="auth-form__header">
         <a href="index.html" class="logo logo--compact" style="margin-bottom:var(--space-6);">
@@ -175,6 +183,10 @@
       <div class="auth-illustration__content">
         <p class="auth-illustration__title">One seed.<br><em>Infinite consistency.</em></p>
         <p class="auth-illustration__desc">Change three CSS variables and rebrand the world. The cascade is the algorithm.</p>
+        <div class="auth-illustration__code">
+          <span class="cm">/* Your brand, one line */</span><br>
+          <span style="color:hsl(200,70%,70%);">--seed-hue</span>: <span class="hl">240</span>;
+        </div>
       </div>
     </div>
   </div>

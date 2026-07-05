@@ -7,8 +7,9 @@
   <meta name="description" content="Sign in to your Æther account.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="aether.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>Æ</text></svg>">
   <style>
     .auth-page {
       min-height: 100vh;
@@ -174,7 +175,10 @@
   </style>
 </head>
 <body>
-  <div class="auth-page">
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <div class="auth-page" id="main">
     <div class="auth-form">
       <div class="auth-form__header">
         <a href="index.html" class="logo logo--compact" style="margin-bottom:var(--space-6);">
@@ -198,7 +202,7 @@
           <input type="password" id="password" class="input" placeholder="••••••••" required autocomplete="current-password">
         </div>
         <div style="display:flex;justify-content:flex-end;margin-bottom:var(--space-6);">
-          <a href="#" style="font-size:var(--text-sm);" tabindex="-1">Forgot password?</a>
+          <a href="#" style="font-size:var(--text-sm);" tabindex="-1" aria-disabled="true">Forgot password?</a>
         </div>
         <button type="submit" id="submit-btn" class="btn btn--primary btn--lg btn--block">Sign In</button>
       </form>
@@ -206,10 +210,10 @@
       <div class="auth-form__divider">or continue with</div>
 
       <div style="display:grid;grid-template-columns:1fr 1fr;gap:var(--space-3);">
-        <button class="btn btn--outline" onclick="alert('OAuth sign in not yet configured')">
+        <button class="btn btn--outline" disabled title="Coming soon">
           <span style="font-size:var(--text-md);margin-right:var(--space-2);">G</span> Google
         </button>
-        <button class="btn btn--outline" onclick="alert('OAuth sign in not yet configured')">
+        <button class="btn btn--outline" disabled title="Coming soon">
           <span style="font-size:var(--text-md);margin-right:var(--space-2);"></span> Apple
         </button>
       </div>

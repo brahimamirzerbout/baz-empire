@@ -8,10 +8,13 @@
    ═══════════════════════════════════════════════════════════════════════ */
 
 :root {
+  color-scheme: light dark;
+
   /* ━━━ Seed ━━━ Change these three values to rebrand the entire system ━━━ */
-  --seed-hue: 41;
+  --seed-hue: 240;
   --seed-sat: 72%;
   --seed-lum: 50%;
+  --seed-sat-dark: 50%;
 
   /* ━━━ Derived Palette ━━━ HSL math from the seed ━━━ */
   --color-primary:      hsl(var(--seed-hue), var(--seed-sat), var(--seed-lum));
@@ -25,9 +28,9 @@
   --color-primary-70:   hsl(var(--seed-hue), var(--seed-sat), 32%);
   --color-primary-80:   hsl(var(--seed-hue), var(--seed-sat), 22%);
   --color-primary-90:   hsl(var(--seed-hue), var(--seed-sat), 12%);
-  --color-accent:       hsl(calc(var(--seed-hue) + 30), 85%, 55%);
-  --color-accent-10:    hsl(calc(var(--seed-hue) + 30), 85%, 93%);
-  --color-accent-20:    hsl(calc(var(--seed-hue) + 30), 85%, 82%);
+  --color-accent:       hsl(calc(var(--seed-hue) + 30), var(--seed-sat), 55%);
+  --color-accent-10:    hsl(calc(var(--seed-hue) + 30), var(--seed-sat), 93%);
+  --color-accent-20:    hsl(calc(var(--seed-hue) + 30), var(--seed-sat), 82%);
 
   /* ── Semantic Colors (fixed hue for accessibility) ── */
   --color-success:      hsl(152, 68%, 38%);
@@ -195,6 +198,10 @@
   --shadow-2xl: 0 25px 50px -12px rgba(0,0,0,.16);
   --shadow-inner: inset 0 2px 4px 0 rgba(0,0,0,.04);
 
+  /* ━━━ Hero Glow ━━━ Override in dark mode ━━━ ━━━ ━━━ ━━━ ━━━ */
+  --hero-glow-primary: var(--color-primary-10);
+  --hero-glow-accent:  var(--color-accent-10);
+
   /* ━━━ Transitions ━━━ ━━━ ━━━ ━━━ ━━━ ━━━ ━━━ ━━━ ━━━ ━━━ ━━━ ━━━ */
   --ease-default:    cubic-bezier(0.2, 0, 0, 1);
   --ease-in:         cubic-bezier(0.4, 0, 1, 1);
@@ -246,16 +253,16 @@
     --color-neutral-90:  hsl(var(--seed-hue), 0.3%, 95%);
     --color-neutral-100:  hsl(var(--seed-hue), 0.2%, 98%);
 
-    /* ── Primary tints (dark bg versions) ── */
-    --color-primary-5:   hsl(var(--seed-hue), var(--seed-sat), 8%);
-    --color-primary-10:  hsl(var(--seed-hue), var(--seed-sat), 14%);
-    --color-primary-20:  hsl(var(--seed-hue), var(--seed-sat), 22%);
-    --color-primary-30:  hsl(var(--seed-hue), var(--seed-sat), 32%);
-    --color-primary-40:  hsl(var(--seed-hue), var(--seed-sat), 44%);
+    /* ── Primary tints (dark bg versions, calmer sat) ── */
+    --color-primary-5:   hsl(var(--seed-hue), var(--seed-sat-dark), 8%);
+    --color-primary-10:  hsl(var(--seed-hue), var(--seed-sat-dark), 14%);
+    --color-primary-20:  hsl(var(--seed-hue), var(--seed-sat-dark), 22%);
+    --color-primary-30:  hsl(var(--seed-hue), var(--seed-sat-dark), 32%);
+    --color-primary-40:  hsl(var(--seed-hue), var(--seed-sat-dark), 44%);
 
     /* ── Accent tints ── */
-    --color-accent-10:   hsl(calc(var(--seed-hue) + 30), 85%, 14%);
-    --color-accent-20:   hsl(calc(var(--seed-hue) + 30), 85%, 22%);
+    --color-accent-10:   hsl(calc(var(--seed-hue) + 30), 0%, 14%);
+    --color-accent-20:   hsl(calc(var(--seed-hue) + 30), 0%, 22%);
 
     /* ── Status colors adjust for dark bg ── */
     --color-success:     hsl(152, 60%, 52%);
@@ -272,7 +279,7 @@
     --fg:              var(--color-neutral-80);
     --fg-muted:        var(--color-neutral-50);
     --fg-subtle:       var(--color-neutral-40);
-    --fg-on-primary:   hsl(var(--seed-hue), var(--seed-sat), 98%);
+    --fg-on-primary:   hsl(var(--seed-hue), var(--seed-sat-dark), 98%);
     --fg-inverse:      var(--color-neutral-90);
     --bg:              var(--color-neutral-0);
     --bg-muted:        var(--color-neutral-5);
@@ -282,15 +289,15 @@
     --border-strong:   hsl(var(--seed-hue), 4%, 26%);
 
     /* ── Primary semantic flips for dark mode ── */
-    --color-primary-fg:         hsl(var(--seed-hue), var(--seed-sat), 68%);
-    --color-primary-fg-muted:   hsl(var(--seed-hue), var(--seed-sat), 58%);
-    --color-primary-fg-subtle:  hsl(var(--seed-hue), var(--seed-sat), 48%);
-    --color-primary-hover:      hsl(var(--seed-hue), var(--seed-sat), 56%);
-    --color-primary-active:     hsl(var(--seed-hue), var(--seed-sat), 48%);
-    --color-primary-border:     hsl(var(--seed-hue), var(--seed-sat), 44%);
-    --color-primary-bg:         hsl(var(--seed-hue), var(--seed-sat), 14%);
-    --color-primary-bg-hover:   hsl(var(--seed-hue), var(--seed-sat), 22%);
-    --color-primary-bg-subtle:  hsl(var(--seed-hue), var(--seed-sat), 8%);
+    --color-primary-fg:         hsl(var(--seed-hue), var(--seed-sat-dark), 68%);
+    --color-primary-fg-muted:   hsl(var(--seed-hue), var(--seed-sat-dark), 58%);
+    --color-primary-fg-subtle:  hsl(var(--seed-hue), var(--seed-sat-dark), 48%);
+    --color-primary-hover:      hsl(var(--seed-hue), var(--seed-sat-dark), 56%);
+    --color-primary-active:     hsl(var(--seed-hue), var(--seed-sat-dark), 48%);
+    --color-primary-border:     hsl(var(--seed-hue), var(--seed-sat-dark), 44%);
+    --color-primary-bg:         hsl(var(--seed-hue), var(--seed-sat-dark), 14%);
+    --color-primary-bg-hover:   hsl(var(--seed-hue), var(--seed-sat-dark), 22%);
+    --color-primary-bg-subtle:  hsl(var(--seed-hue), var(--seed-sat-dark), 8%);
 
     /* ── Status semantic flips ── */
     --color-success-fg:        hsl(152, 60%, 60%);
@@ -305,8 +312,12 @@
     --color-danger-hover:       hsl(0, 70%, 52%);
 
     /* ── Ring adjusts for contrast ── */
-    --ring-color:       hsl(var(--seed-hue), var(--seed-sat), 60%);
+    --ring-color:       hsl(var(--seed-hue), var(--seed-sat-dark), 60%);
     --ring-offset-color: var(--color-neutral-0);
+
+    /* ── Hero glow bolder in dark ── */
+    --hero-glow-primary: var(--color-primary-20);
+    --hero-glow-accent:  var(--color-accent-20);
 
     /* ── Shadows heavier ── */
     --shadow-xs:  0 1px 2px 0 rgba(0,0,0,.2);

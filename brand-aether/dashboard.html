@@ -7,8 +7,9 @@
   <meta name="description" content="Your Æther dashboard.">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="aether.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>Æ</text></svg>">
   <style>
     .dash-header {
       display: flex;
@@ -70,6 +71,9 @@
   </style>
 </head>
 <body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
   <div class="dash-header">
     <div style="display:flex;align-items:center;gap:var(--space-4);">
       <a href="index.html" class="logo logo--compact">
@@ -84,7 +88,7 @@
     </div>
   </div>
 
-  <div class="dash-body">
+  <div class="dash-body" id="main">
     <h1 style="font-size:var(--text-2xl);font-weight:var(--weight-extra);color:var(--fg);margin-bottom:var(--space-2);">Dashboard</h1>
     <p style="color:var(--fg-muted);margin-bottom:var(--space-8);">Welcome to your Æther dashboard. Here's your brand at a glance.</p>
 
@@ -133,13 +137,13 @@
       window.location.href = 'login.html';
     } else {
       document.getElementById('user-email').textContent = session.user.email;
-      document.getElementById('dash-hue').textContent = getComputedStyle(document.documentElement).getPropertyValue('--seed-hue').trim() || '41';
+      document.getElementById('dash-hue').textContent = getComputedStyle(document.documentElement).getPropertyValue('--seed-hue').trim() || '240';
       document.getElementById('session-user').textContent = 'User ID: ' + session.user.id;
       document.getElementById('session-created').textContent = 'Created: ' + new Date(session.created_at).toLocaleString();
       document.getElementById('session-expires').textContent = 'Expires: ' + new Date(session.expires_at * 1000).toLocaleString();
 
       const root = document.documentElement;
-      const hue = getComputedStyle(root).getPropertyValue('--seed-hue').trim() || '41';
+      const hue = getComputedStyle(root).getPropertyValue('--seed-hue').trim() || '240';
       const sat = getComputedStyle(root).getPropertyValue('--seed-sat').trim() || '72%';
       const strip = document.getElementById('palette-strip');
       [5, 10, 20, 30, 40, 50, 60, 70, 80, 90].forEach(l => {

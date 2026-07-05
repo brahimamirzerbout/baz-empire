@@ -8,7 +8,7 @@ DO $$ BEGIN
     user_id     UUID REFERENCES auth.users(id) ON DELETE CASCADE,
     name        TEXT NOT NULL,
     description TEXT DEFAULT '',
-    seed_hue    INTEGER DEFAULT 41 NOT NULL,
+    seed_hue    INTEGER DEFAULT 240 NOT NULL,
     seed_sat    INTEGER DEFAULT 72 NOT NULL,
     seed_lum    INTEGER DEFAULT 50 NOT NULL,
     created_at  TIMESTAMPTZ DEFAULT now(),
@@ -18,7 +18,7 @@ END $$;
 
 DO $$ BEGIN
   ALTER TABLE public.projects ADD COLUMN IF NOT EXISTS user_id UUID REFERENCES auth.users(id) ON DELETE CASCADE;
-  ALTER TABLE public.projects ADD COLUMN IF NOT EXISTS seed_hue INTEGER DEFAULT 41 NOT NULL;
+  ALTER TABLE public.projects ADD COLUMN IF NOT EXISTS seed_hue INTEGER DEFAULT 240 NOT NULL;
   ALTER TABLE public.projects ADD COLUMN IF NOT EXISTS seed_sat INTEGER DEFAULT 72 NOT NULL;
   ALTER TABLE public.projects ADD COLUMN IF NOT EXISTS seed_lum INTEGER DEFAULT 50 NOT NULL;
   ALTER TABLE public.projects ADD COLUMN IF NOT EXISTS description TEXT DEFAULT '';

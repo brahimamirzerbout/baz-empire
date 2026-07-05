@@ -226,6 +226,20 @@
       .feature-grid { grid-template-columns: 1fr; }
       .token-grid { grid-template-columns: repeat(3, 1fr); }
     }
+    @media (prefers-color-scheme: dark) {
+      .code-window {
+        background: hsl(220, 0.5%, 6%);
+        color: hsl(220, 0.3%, 92%);
+        border-color: hsl(220, 0.8%, 18%);
+      }
+      .code-window__bar {
+        background: hsl(220, 0.5%, 10%);
+        border-bottom-color: hsl(220, 0.8%, 18%);
+      }
+      .code-window__title { color: hsl(220, 2%, 50%); }
+      .code-window__body .tok-comment,
+      .code-window__body .tok-punct { color: hsl(220, 2%, 48%); }
+    }
     @media print {
       .hero-anim, .code-window, .no-print { display: none; }
       .hero { min-height: auto; padding: var(--space-8) var(--space-4); }
@@ -347,15 +361,15 @@
       <p class="section__subheading">This page is styled by Æther. The slider below changes one CSS variable. Every token, every component, every color follows.</p>
       <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-lg);margin-bottom:var(--space-8);">
         <div class="input-group" style="margin-bottom:var(--space-6);">
-          <label class="input-group__label" for="hue-slider">Seed Hue — <code id="hue-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary-fg);">41</code></label>
-          <input type="range" id="hue-slider" min="0" max="360" value="41" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
+          <label class="input-group__label" for="hue-slider">Seed Hue — <code id="hue-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary-fg);">240</code></label>
+          <input type="range" id="hue-slider" min="0" max="360" value="240" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
           <p class="input-group__hint">0 = red · 60 = yellow · 120 = green · 180 = cyan · 240 = blue · 300 = magenta</p>
         </div>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));gap:var(--space-4);">
           <div class="input-group">
             <label class="input-group__label" for="sat-slider">Saturation</label>
-            <input type="range" id="sat-slider" min="0" max="100" value="72" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
-            <p class="input-group__hint" id="sat-value">72%</p>
+            <input type="range" id="sat-slider" min="0" max="100" value="0" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
+            <p class="input-group__hint" id="sat-value">0%</p>
           </div>
           <div class="input-group">
             <label class="input-group__label">Primary</label>
@@ -534,8 +548,8 @@
         <div class="code-window__body">
 <span class="tok-comment">/* Change these 3 values to rebrand everything */</span>
 <span class="tok-keyword">:root</span> <span class="tok-punct">{</span>
-  <span class="tok-prop">--seed-hue</span><span class="tok-punct">:</span> <span class="tok-value">41</span><span class="tok-punct">;</span>          <span class="tok-comment">/* 0–360 → brand color */</span>
-  <span class="tok-prop">--seed-sat</span><span class="tok-punct">:</span> <span class="tok-value">72%</span><span class="tok-punct">;</span>         <span class="tok-comment">/* 0–100% → vividness */</span>
+  <span class="tok-prop">--seed-hue</span><span class="tok-punct">:</span> <span class="tok-value">240</span><span class="tok-punct">;</span>            <span class="tok-comment">/* 0–360 → brand color */</span>
+  <span class="tok-prop">--seed-sat</span><span class="tok-punct">:</span> <span class="tok-value">0%</span><span class="tok-punct">;</span>          <span class="tok-comment">/* 0–100% → vividness */</span>
   <span class="tok-prop">--seed-lum</span><span class="tok-punct">:</span> <span class="tok-value">50%</span><span class="tok-punct">;</span>         <span class="tok-comment">/* 0–100% → lightness */</span>
 
   <span class="tok-comment">/* 254 tokens derived automatically ↓ */</span>
@@ -605,9 +619,9 @@
         </a>
         <p class="footer__tagline">Algorithmically extracted brand assets from the shared UI aether. One seed, infinite consistency.</p>
         <div class="footer__social">
-          <a href="#" class="footer__social-link" title="GitHub" aria-label="GitHub">⌥</a>
-          <a href="#" class="footer__social-link" title="Twitter" aria-label="Twitter">✦</a>
-          <a href="#" class="footer__social-link" title="Dribbble" aria-label="Dribbble">◉</a>
+          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="GitHub" aria-label="GitHub">⌥</a>
+          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="Twitter" aria-label="Twitter">✦</a>
+          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="Dribbble" aria-label="Dribbble">◉</a>
         </div>
       </div>
       <div class="footer__column">
@@ -661,6 +675,7 @@
       const sat = satSlider.value;
       root.style.setProperty('--seed-hue', hue);
       root.style.setProperty('--seed-sat', sat + '%');
+      root.style.setProperty('--seed-sat-dark', sat + '%');
       hueValue.textContent = hue;
       satValue.textContent = sat + '%';
       renderPalettes(hue, sat);

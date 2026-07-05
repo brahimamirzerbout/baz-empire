@@ -30,7 +30,7 @@
     </nav>
     <div class="header__actions no-print">
       <a href="login.html" class="btn btn--ghost btn--sm">Sign In</a>
-      <a href="login.html" class="btn btn--primary btn--sm">Get Started</a>
+      <a href="#seed" class="btn btn--primary btn--sm">Explore Seed</a>
     </div>
     <button class="header__toggle" onclick="document.getElementById('header').classList.toggle('header--open')" aria-label="Toggle navigation">☰</button>
   </header>
@@ -58,8 +58,8 @@
           <p class="input-group__hint">0 = red · 60 = yellow · 120 = green · 240 = blue · 300 = magenta</p>
         </div>
         <div class="input-group" style="margin-bottom:var(--space-8);">
-          <label class="input-group__label" for="sat-slider">Saturation — <code id="sat-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary);">72%</code></label>
-          <input type="range" id="sat-slider" min="0" max="100" value="72" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
+          <label class="input-group__label" for="sat-slider">Saturation — <code id="sat-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary);">0%</code></label>
+          <input type="range" id="sat-slider" min="0" max="100" value="0" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
         </div>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(4rem,1fr));gap:var(--space-2);margin-bottom:var(--space-6);" id="palette-preview">
         </div>
@@ -539,38 +539,32 @@
         </a>
         <p class="footer__tagline">Algorithmically extracted brand assets from the shared UI aether. One seed, infinite consistency.</p>
         <div class="footer__social">
-          <a href="#" class="footer__social-link" title="GitHub" aria-label="GitHub">⌥</a>
-          <a href="#" class="footer__social-link" title="Twitter" aria-label="Twitter">✦</a>
-          <a href="#" class="footer__social-link" title="Dribbble" aria-label="Dribbble">◉</a>
+          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="GitHub" aria-label="GitHub">⌥</a>
+          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="Twitter" aria-label="Twitter">✦</a>
+          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="Dribbble" aria-label="Dribbble">◉</a>
         </div>
       </div>
       <div class="footer__column">
         <h4>Components</h4>
         <ul>
-          <li><a href="#">Headers</a></li>
-          <li><a href="#">Footers</a></li>
-          <li><a href="#">Cards</a></li>
-          <li><a href="#">Papers</a></li>
-          <li><a href="#">Documents</a></li>
+          <li><a href="#cards">Cards</a></li>
+          <li><a href="#paper">Papers</a></li>
+          <li><a href="#document">Documents</a></li>
         </ul>
       </div>
       <div class="footer__column">
         <h4>Primitives</h4>
         <ul>
-          <li><a href="#">Buttons</a></li>
-          <li><a href="#">Badges</a></li>
-          <li><a href="#">Alerts</a></li>
-          <li><a href="#">Inputs</a></li>
-          <li><a href="#">Tables</a></li>
+          <li><a href="#components">Components</a></li>
+          <li><a href="index.html">Landing</a></li>
         </ul>
       </div>
       <div class="footer__column">
         <h4>Resources</h4>
         <ul>
-          <li><a href="#">Token Reference</a></li>
-          <li><a href="#">Design Guide</a></li>
-          <li><a href="#">Changelog</a></li>
-          <li><a href="#">License</a></li>
+          <li><a href="https://github.com/brahimamirzerbout/baz-empire">Source</a></li>
+          <li><a href="index.html#tokens">Token Reference</a></li>
+          <li><a href="index.html#code">Design Guide</a></li>
         </ul>
       </div>
     </div>
@@ -598,6 +592,7 @@
       const sat = satSlider.value;
       root.style.setProperty('--seed-hue', hue);
       root.style.setProperty('--seed-sat', sat + '%');
+      root.style.setProperty('--seed-sat-dark', sat + '%');
       hueValue.textContent = hue;
       satValue.textContent = sat + '%';
       renderPalette(hue, sat);
