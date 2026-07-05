@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Æther — Algorithmic Brand System</title>
+  <meta name="description" content="One seed. Infinite consistency. Every color, shadow, and spacing value computed from three CSS variables. Zero runtime.">
+  <meta property="og:title" content="Æther — Algorithmic Brand System">
+  <meta property="og:description" content="Change three CSS variables. Rebrand everything.">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aether.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>Æ</text></svg>">
+  <style>
+    .hero-anim {
+      position: absolute;
+      inset: 0;
+      overflow: hidden;
+      pointer-events: none;
+      z-index: 0;
+    }
+    .hero-anim__orb {
+      position: absolute;
+      border-radius: var(--radius-full);
+      filter: blur(80px);
+      opacity: 0.3;
+      animation: orb-float 20s ease-in-out infinite alternate;
+    }
+    .hero-anim__orb--1 {
+      width: 40rem; height: 40rem;
+      background: var(--color-primary);
+      top: -15rem; right: -10rem;
+      animation-delay: 0s;
+    }
+    .hero-anim__orb--2 {
+      width: 30rem; height: 30rem;
+      background: var(--color-accent);
+      bottom: -10rem; left: -8rem;
+      animation-delay: -7s;
+    }
+    .hero-anim__orb--3 {
+      width: 20rem; height: 20rem;
+      background: var(--color-primary);
+      top: 50%; left: 50%;
+      animation-delay: -14s;
+    }
+    @keyframes orb-float {
+      0%   { transform: translate(0, 0) scale(1); }
+      33%  { transform: translate(3rem, -2rem) scale(1.05); }
+      66%  { transform: translate(-2rem, 3rem) scale(0.95); }
+      100% { transform: translate(1rem, -1rem) scale(1.02); }
+    }
+    @media (prefers-reduced-motion: reduce) {
+      .hero-anim__orb { animation: none; }
+    }
+    .code-window {
+      background: var(--color-neutral-90);
+      color: var(--color-neutral-10);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-2xl);
+      border: 1px solid var(--color-neutral-80);
+    }
+    .code-window__bar {
+      display: flex;
+      align-items: center;
+      gap: var(--space-2);
+      padding: var(--space-3) var(--space-4);
+      background: var(--color-neutral-80);
+      border-bottom: 1px solid var(--color-neutral-70);
+    }
+    .code-window__dot {
+      width: 0.75rem; height: 0.75rem;
+      border-radius: var(--radius-full);
+    }
+    .code-window__dot--red { background: hsl(0, 78%, 56%); }
+    .code-window__dot--yellow { background: hsl(38, 92%, 50%); }
+    .code-window__dot--green { background: hsl(152, 68%, 42%); }
+    .code-window__title {
+      flex: 1;
+      text-align: center;
+      font-family: var(--font-mono);
+      font-size: var(--text-xs);
+      color: var(--color-neutral-40);
+    }
+    .code-window__body {
+      padding: var(--space-5) var(--space-6);
+      font-family: var(--font-mono);
+      font-size: var(--text-sm);
+      line-height: var(--leading-relaxed);
+      overflow-x: auto;
+    }
+    .code-window__body .tok-keyword { color: hsl(280, 68%, 70%); }
+    .code-window__body .tok-prop { color: hsl(200, 70%, 70%); }
+    .code-window__body .tok-value { color: hsl(152, 60%, 65%); }
+    .code-window__body .tok-comment { color: var(--color-neutral-50); font-style: italic; }
+    .code-window__body .tok-string { color: hsl(38, 80%, 70%); }
+    .code-window__body .tok-punct { color: var(--color-neutral-50); }
+    .feature-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      gap: var(--space-6);
+    }
+    .feature {
+      padding: var(--space-6);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+      transition:
+        box-shadow var(--duration-normal) var(--ease-default),
+        border-color var(--duration-normal) var(--ease-default);
+    }
+    .feature:hover {
+      box-shadow: var(--shadow-lg);
+      border-color: var(--color-primary-border);
+    }
+    .feature__icon {
+      width: 3rem;
+      height: 3rem;
+      display: grid;
+      place-items: center;
+      border-radius: var(--radius-lg);
+      background: var(--color-primary-bg);
+      color: var(--color-primary-fg);
+      font-size: var(--text-md);
+      margin-bottom: var(--space-4);
+    }
+    .feature__title {
+      font-family: var(--font-sans);
+      font-size: var(--text-md);
+      font-weight: var(--weight-bold);
+      color: var(--fg);
+      margin-bottom: var(--space-2);
+    }
+    .feature__desc {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      color: var(--fg-muted);
+      line-height: var(--leading-relaxed);
+    }
+    .stat-row {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+      gap: var(--space-6);
+    }
+    .stat {
+      text-align: center;
+      padding: var(--space-6);
+    }
+    .stat__number {
+      font-family: var(--font-sans);
+      font-size: var(--text-3xl);
+      font-weight: var(--weight-black);
+      color: var(--color-primary-fg);
+      line-height: var(--leading-none);
+    }
+    .stat__label {
+      font-family: var(--font-sans);
+      font-size: var(--text-sm);
+      color: var(--fg-muted);
+      margin-top: var(--space-2);
+    }
+    .cta {
+      text-align: center;
+      padding: var(--space-24) var(--space-6);
+      background: linear-gradient(
+        135deg,
+        var(--color-primary-bg) 0%,
+        var(--color-primary-bg-subtle) 50%,
+        transparent 100%
+      );
+      border-radius: var(--radius-2xl);
+      border: 1px solid var(--color-primary-bg-hover);
+    }
+    .cta__title {
+      font-family: var(--font-sans);
+      font-size: var(--text-2xl);
+      font-weight: var(--weight-extra);
+      color: var(--fg);
+      margin-bottom: var(--space-3);
+    }
+    .cta__desc {
+      font-family: var(--font-sans);
+      font-size: var(--text-md);
+      color: var(--fg-muted);
+      max-width: 40ch;
+      margin: 0 auto var(--space-6);
+      line-height: var(--leading-relaxed);
+    }
+    .token-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));
+      gap: var(--space-3);
+    }
+    .token-swatch {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      transition: transform var(--duration-fast) var(--ease-bounce);
+    }
+    .token-swatch:hover {
+      transform: scale(1.05);
+    }
+    .token-swatch__color {
+      height: 3rem;
+    }
+    .token-swatch__info {
+      padding: var(--space-2) var(--space-3);
+      background: var(--bg);
+      font-family: var(--font-mono);
+      font-size: var(--text-2xs);
+    }
+    .token-swatch__name {
+      color: var(--fg);
+      font-weight: var(--weight-semi);
+    }
+    .token-swatch__value {
+      color: var(--fg-subtle);
+      margin-top: 2px;
+    }
+    @media (max-width: 768px) {
+      .stat-row { grid-template-columns: repeat(2, 1fr); }
+      .feature-grid { grid-template-columns: 1fr; }
+      .token-grid { grid-template-columns: repeat(3, 1fr); }
+    }
+    @media print {
+      .hero-anim, .code-window, .no-print { display: none; }
+      .hero { min-height: auto; padding: var(--space-8) var(--space-4); }
+    }
+  </style>
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="header" id="header">
+    <div class="header__brand">
+      <a href="#" class="logo logo--compact">
+        <span class="logo__mark">Æ</span>
+        <span class="logo__wordmark">Aether</span>
+      </a>
+    </div>
+    <nav class="header__nav" aria-label="Primary">
+      <a href="#features" class="header__link">Features</a>
+      <a href="#components" class="header__link">Components</a>
+      <a href="#tokens" class="header__link">Tokens</a>
+      <a href="#code" class="header__link">Code</a>
+      <a href="showcase.html" class="header__link">Showcase</a>
+    </nav>
+    <div class="header__actions no-print">
+      <a href="login.html" class="btn btn--ghost btn--sm">Sign In</a>
+      <a href="showcase.html" class="btn btn--primary btn--sm">Get Started</a>
+    </div>
+    <button class="header__toggle" onclick="document.getElementById('header').classList.toggle('header--open')" aria-label="Toggle navigation">☰</button>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="hero">
+      <div class="hero-anim" aria-hidden="true">
+        <div class="hero-anim__orb hero-anim__orb--1"></div>
+        <div class="hero-anim__orb hero-anim__orb--2"></div>
+        <div class="hero-anim__orb hero-anim__orb--3"></div>
+      </div>
+      <span class="section__label">Open-Source Design System</span>
+      <h1 class="hero__title">Brand assets,<br><em>algorithmically derived</em></h1>
+      <p class="hero__desc">Three CSS variables define an entire brand system. Change the seed — watch 254 tokens, 18 components, and every shadow recompose. Zero JavaScript. Zero build step. The cascade is the algorithm.</p>
+      <div class="hero__actions no-print">
+        <a href="showcase.html" class="btn btn--primary btn--lg">Explore Showcase</a>
+        <a href="#code" class="btn btn--outline btn--lg">See the Code</a>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="stat-row">
+        <div class="stat">
+          <div class="stat__number">3</div>
+          <div class="stat__label">Seed variables</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">254</div>
+          <div class="stat__label">Derived tokens</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">18</div>
+          <div class="stat__label">Components</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">0</div>
+          <div class="stat__label">Dependencies</div>
+        </div>
+        <div class="stat">
+          <div class="stat__number">0</div>
+          <div class="stat__label">JavaScript required</div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded separator--sparse">
+
+    <section class="section" id="features">
+      <span class="section__label">Why Æther</span>
+      <h2 class="section__heading">Every value derived. Nothing hardcoded.</h2>
+      <p class="section__subheading">Change a single hue and watch the entire system transform. Dark mode, reduced motion, high contrast — all automatic.</p>
+      <div class="feature-grid">
+        <div class="feature">
+          <div class="feature__icon">🌱</div>
+          <div class="feature__title">One Seed</div>
+          <div class="feature__desc">Three CSS custom properties define every color, shadow, and spacing value. Change the seed, rebrand the world.</div>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">🌙</div>
+          <div class="feature__title">Dark Mode</div>
+          <div class="feature__desc">Automatic via <code style="font-family:var(--font-mono);font-size:0.9em;padding:0.1em 0.4em;background:var(--bg-subtle);border-radius:var(--radius-sm);">prefers-color-scheme</code>. 30+ tokens flip including semantic aliases. Zero config.</div>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">♿</div>
+          <div class="feature__title">Accessible</div>
+          <div class="feature__desc">Focus rings on every interactive element. Reduced motion respected. High contrast supported. WCAG AA contrast ratios.</div>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">⚡</div>
+          <div class="feature__title">Zero Runtime</div>
+          <div class="feature__desc">Pure CSS custom properties. No JavaScript. No build step. No npm install. The cascade is the algorithm.</div>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">🖨️</div>
+          <div class="feature__title">Print Ready</div>
+          <div class="feature__desc">Every surface includes <code style="font-family:var(--font-mono);font-size:0.9em;padding:0.1em 0.4em;background:var(--bg-subtle);border-radius:var(--radius-sm);">@media print</code> styles that strip decorative chrome for clean output.</div>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">📐</div>
+          <div class="feature__title">Mathematical Scale</div>
+          <div class="feature__desc">Typography on a 1.25× Major Third scale. Spacing on a base-4 rhythm. Radii, shadows, durations — all systematic.</div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded separator--sparse">
+
+    <section class="section" id="seed-demo">
+      <span class="section__label">Live Demo</span>
+      <h2 class="section__heading">Drag the hue. Watch everything recompute.</h2>
+      <p class="section__subheading">This page is styled by Æther. The slider below changes one CSS variable. Every token, every component, every color follows.</p>
+      <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-lg);margin-bottom:var(--space-8);">
+        <div class="input-group" style="margin-bottom:var(--space-6);">
+          <label class="input-group__label" for="hue-slider">Seed Hue — <code id="hue-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary-fg);">41</code></label>
+          <input type="range" id="hue-slider" min="0" max="360" value="41" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
+          <p class="input-group__hint">0 = red · 60 = yellow · 120 = green · 180 = cyan · 240 = blue · 300 = magenta</p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));gap:var(--space-4);">
+          <div class="input-group">
+            <label class="input-group__label" for="sat-slider">Saturation</label>
+            <input type="range" id="sat-slider" min="0" max="100" value="72" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
+            <p class="input-group__hint" id="sat-value">72%</p>
+          </div>
+          <div class="input-group">
+            <label class="input-group__label">Primary</label>
+            <div style="height:2.5rem;border-radius:var(--radius-md);background:var(--color-primary);"></div>
+          </div>
+          <div class="input-group">
+            <label class="input-group__label">Accent</label>
+            <div style="height:2.5rem;border-radius:var(--radius-md);background:var(--color-accent);"></div>
+          </div>
+        </div>
+      </div>
+      <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Derived Palette</h3>
+      <div id="palette-preview" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(5rem,1fr));gap:var(--space-2);margin-bottom:var(--space-10);"></div>
+      <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Component Preview</h3>
+      <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(16rem,1fr));gap:var(--space-4);">
+        <div>
+          <div class="btn-group" style="flex-direction:column;align-items:stretch;">
+            <button class="btn btn--primary">Primary Button</button>
+            <button class="btn btn--secondary">Secondary Button</button>
+            <button class="btn btn--outline">Outline Button</button>
+          </div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:var(--space-3);">
+          <div class="badge badge--primary"><span class="badge__dot"></span> Primary</div>
+          <div class="badge badge--success"><span class="badge__dot"></span> Success</div>
+          <div class="badge badge--warning"><span class="badge__dot"></span> Warning</div>
+          <div class="badge badge--danger"><span class="badge__dot"></span> Danger</div>
+        </div>
+        <div style="display:flex;flex-direction:column;gap:var(--space-3);">
+          <div class="alert alert--info"><span class="alert__icon">ℹ️</span><div class="alert__content"><div class="alert__title">Info</div><div class="alert__text">Every color is derived.</div></div></div>
+          <div class="alert alert--success"><span class="alert__icon">✅</span><div class="alert__content"><div class="alert__title">Success</div><div class="alert__text">Brand assets deployed.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded separator--sparse">
+
+    <section class="section" id="components">
+      <span class="section__label">Components</span>
+      <h2 class="section__heading">18 components, one truth</h2>
+      <p class="section__subheading">Every component inherits from the seed. Headers, footers, cards, documents, inputs, avatars — all algorithmically consistent.</p>
+      <div class="feature-grid" style="grid-template-columns:repeat(auto-fill,minmax(14rem,1fr));">
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🏷️</div>
+          <div class="feature__title">Logo</div>
+          <div class="feature__desc">Wordmark + mark, compact, icon, on-dark</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🧭</div>
+          <div class="feature__title">Header</div>
+          <div class="feature__desc">Sticky glassmorphism nav, scroll shadow, mobile</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🦶</div>
+          <div class="feature__title">Footer</div>
+          <div class="feature__desc">4-column grid, social links, responsive</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🃏</div>
+          <div class="feature__title">Card</div>
+          <div class="feature__desc">5 variants, stretch links, responsive grid</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">📄</div>
+          <div class="feature__title">Paper</div>
+          <div class="feature__desc">Long-form article surface, typography, code</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">📋</div>
+          <div class="feature__title">Document</div>
+          <div class="feature__desc">Invoice, contract, letter, report template</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🔘</div>
+          <div class="feature__title">Button</div>
+          <div class="feature__desc">6 variants × 5 sizes, icon, block, group</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">📝</div>
+          <div class="feature__title">Input</div>
+          <div class="feature__desc">Text, select, checkbox, radio, toggle</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">👤</div>
+          <div class="feature__title">Avatar</div>
+          <div class="feature__desc">6 sizes, status dots, stack with counter</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">💀</div>
+          <div class="feature__title">Skeleton</div>
+          <div class="feature__desc">Shimmer loading, reduced-motion safe</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🔔</div>
+          <div class="feature__title">Toast</div>
+          <div class="feature__desc">Notification toasts, enter/exit animation</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🪟</div>
+          <div class="feature__title">Modal</div>
+          <div class="feature__desc">Dialog overlay, 4 sizes, responsive</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">📊</div>
+          <div class="feature__title">Table</div>
+          <div class="feature__desc">Striped, compact, responsive, printable</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🏷</div>
+          <div class="feature__title">Badge</div>
+          <div class="feature__desc">6 colors, 3 sizes, dot indicator</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">⚠️</div>
+          <div class="feature__title">Alert</div>
+          <div class="feature__desc">4 severities, dark-mode safe</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">🍞</div>
+          <div class="feature__title">Breadcrumb</div>
+          <div class="feature__desc">Navigation trail, focus rings</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">📑</div>
+          <div class="feature__title">Tabs</div>
+          <div class="feature__desc">Active indicator, focus, overflow</div>
+        </div>
+        <div class="feature" style="text-align:center;">
+          <div class="feature__icon" style="margin-inline:auto;">💬</div>
+          <div class="feature__title">Tooltip</div>
+          <div class="feature__desc">Top/bottom, reduced-motion safe</div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded separator--sparse">
+
+    <section class="section" id="tokens">
+      <span class="section__label">Tokens</span>
+      <h2 class="section__heading">254 tokens from 3 seeds</h2>
+      <p class="section__subheading">Every value is computed. Change <code style="font-family:var(--font-mono);font-size:0.9em;padding:0.1em 0.4em;background:var(--bg-subtle);border-radius:var(--radius-sm);">--seed-hue</code> and the entire palette recomputes.</p>
+      <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Primary Palette</h3>
+      <div id="primary-palette" class="token-grid" style="margin-bottom:var(--space-8);"></div>
+      <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Neutral Palette</h3>
+      <div id="neutral-palette" class="token-grid" style="margin-bottom:var(--space-8);"></div>
+      <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Status Colors</h3>
+      <div class="token-grid" style="margin-bottom:var(--space-8);">
+        <div class="token-swatch"><div class="token-swatch__color" style="background:var(--color-success);"></div><div class="token-swatch__info"><div class="token-swatch__name">Success</div><div class="token-swatch__value">hsl(152, 68%, 38%)</div></div></div>
+        <div class="token-swatch"><div class="token-swatch__color" style="background:var(--color-warning);"></div><div class="token-swatch__info"><div class="token-swatch__name">Warning</div><div class="token-swatch__value">hsl(38, 92%, 45%)</div></div></div>
+        <div class="token-swatch"><div class="token-swatch__color" style="background:var(--color-danger);"></div><div class="token-swatch__info"><div class="token-swatch__name">Danger</div><div class="token-swatch__value">hsl(0, 78%, 50%)</div></div></div>
+      </div>
+      <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Typography Scale</h3>
+      <div style="display:flex;flex-direction:column;gap:var(--space-2);margin-bottom:var(--space-8);">
+        <div style="display:flex;align-items:baseline;gap:var(--space-4);font-family:var(--font-sans);"><code style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--fg-subtle);min-width:6rem;">--text-4xl</code><span style="font-size:var(--text-4xl);font-weight:var(--weight-black);line-height:var(--leading-tight);">Display</span></div>
+        <div style="display:flex;align-items:baseline;gap:var(--space-4);font-family:var(--font-sans);"><code style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--fg-subtle);min-width:6rem;">--text-2xl</code><span style="font-size:var(--text-2xl);font-weight:var(--weight-extra);line-height:var(--leading-tight);">Heading</span></div>
+        <div style="display:flex;align-items:baseline;gap:var(--space-4);font-family:var(--font-sans);"><code style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--fg-subtle);min-width:6rem;">--text-md</code><span style="font-size:var(--text-md);font-weight:var(--weight-bold);line-height:var(--leading-snug);">Subheading</span></div>
+        <div style="display:flex;align-items:baseline;gap:var(--space-4);font-family:var(--font-sans);"><code style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--fg-subtle);min-width:6rem;">--text-base</code><span style="font-size:var(--text-base);line-height:var(--leading-relaxed);">Body text at default size, designed for comfortable reading.</span></div>
+        <div style="display:flex;align-items:baseline;gap:var(--space-4);font-family:var(--font-sans);"><code style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--fg-subtle);min-width:6rem;">--text-sm</code><span style="font-size:var(--text-sm);color:var(--fg-muted);">Secondary text and captions</span></div>
+        <div style="display:flex;align-items:baseline;gap:var(--space-4);font-family:var(--font-sans);"><code style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--fg-subtle);min-width:6rem;">--text-xs</code><span style="font-size:var(--text-xs);color:var(--fg-subtle);">Micro labels and badges</span></div>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded separator--sparse">
+
+    <section class="section" id="code">
+      <span class="section__label">The Code</span>
+      <h2 class="section__heading">Three seeds. The cascade does the rest.</h2>
+      <p class="section__subheading">This is the entire configuration. Everything else is derived.</p>
+      <div class="code-window" style="max-width:var(--container-md);margin:0 auto;">
+        <div class="code-window__bar">
+          <span class="code-window__dot code-window__dot--red"></span>
+          <span class="code-window__dot code-window__dot--yellow"></span>
+          <span class="code-window__dot code-window__dot--green"></span>
+          <span class="code-window__title">tokens/aether.css</span>
+        </div>
+        <div class="code-window__body">
+<span class="tok-comment">/* Change these 3 values to rebrand everything */</span>
+<span class="tok-keyword">:root</span> <span class="tok-punct">{</span>
+  <span class="tok-prop">--seed-hue</span><span class="tok-punct">:</span> <span class="tok-value">41</span><span class="tok-punct">;</span>          <span class="tok-comment">/* 0–360 → brand color */</span>
+  <span class="tok-prop">--seed-sat</span><span class="tok-punct">:</span> <span class="tok-value">72%</span><span class="tok-punct">;</span>         <span class="tok-comment">/* 0–100% → vividness */</span>
+  <span class="tok-prop">--seed-lum</span><span class="tok-punct">:</span> <span class="tok-value">50%</span><span class="tok-punct">;</span>         <span class="tok-comment">/* 0–100% → lightness */</span>
+
+  <span class="tok-comment">/* 254 tokens derived automatically ↓ */</span>
+  <span class="tok-prop">--color-primary</span><span class="tok-punct">:</span>      <span class="tok-value">hsl(var(--seed-hue), var(--seed-sat), var(--seed-lum))</span><span class="tok-punct">;</span>
+  <span class="tok-prop">--color-primary-10</span><span class="tok-punct">:</span>   <span class="tok-value">hsl(var(--seed-hue), var(--seed-sat), 93%)</span><span class="tok-punct">;</span>
+  <span class="tok-prop">--color-accent</span><span class="tok-punct">:</span>       <span class="tok-value">hsl(calc(var(--seed-hue) + 30), 85%, 55%)</span><span class="tok-punct">;</span>
+  <span class="tok-prop">--fg</span><span class="tok-punct">:</span>              <span class="tok-value">var(--color-neutral-70)</span><span class="tok-punct">;</span>
+  <span class="tok-prop">--bg</span><span class="tok-punct">:</span>              <span class="tok-value">var(--color-neutral-0)</span><span class="tok-punct">;</span>
+  <span class="tok-prop">--border</span><span class="tok-punct">:</span>           <span class="tok-value">var(--color-neutral-10)</span><span class="tok-punct">;</span>
+  <span class="tok-prop">--ring-color</span><span class="tok-punct">:</span>      <span class="tok-value">var(--color-primary-40)</span><span class="tok-punct">;</span>
+<span class="tok-punct">}</span>
+
+<span class="tok-comment">/* Dark mode flips 30+ tokens automatically */</span>
+<span class="tok-keyword">@media</span> (<span class="tok-prop">prefers-color-scheme: dark</span>) <span class="tok-punct">{</span>
+  <span class="tok-keyword">:root</span> <span class="tok-punct">{</span>
+    <span class="tok-prop">--fg</span><span class="tok-punct">:</span>  <span class="tok-value">var(--color-neutral-80)</span><span class="tok-punct">;</span>
+    <span class="tok-prop">--bg</span><span class="tok-punct">:</span>  <span class="tok-value">var(--color-neutral-0)</span><span class="tok-punct">;</span>
+  <span class="tok-punct">}</span>
+<span class="tok-punct">}</span>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded separator--sparse">
+
+    <section class="section" id="accessibility">
+      <span class="section__label">Accessibility</span>
+      <h2 class="section__heading">Built in, not bolted on</h2>
+      <p class="section__subheading">Every component includes focus rings, reduced-motion support, and high-contrast mode. No opt-in required.</p>
+      <div class="feature-grid" style="grid-template-columns:repeat(auto-fit,minmax(18rem,1fr));">
+        <div class="feature">
+          <div class="feature__icon">🎯</div>
+          <div class="feature__title">Focus Rings</div>
+          <div class="feature__desc">19 <code style="font-family:var(--font-mono);font-size:0.9em;padding:0.1em 0.4em;background:var(--bg-subtle);border-radius:var(--radius-sm);">:focus-visible</code> rules across all interactive elements.</div>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">🛑</div>
+          <div class="feature__title">Reduced Motion</div>
+          <div class="feature__desc">All durations zeroed to 0ms, easing curves linearized when <code style="font-family:var(--font-mono);font-size:0.9em;padding:0.1em 0.4em;background:var(--bg-subtle);border-radius:var(--radius-sm);">prefers-reduced-motion</code> is active.</div>
+        </div>
+        <div class="feature">
+          <div class="feature__icon">🔲</div>
+          <div class="feature__title">High Contrast</div>
+          <div class="feature__desc">Borders strengthen and focus rings widen when <code style="font-family:var(--font-mono);font-size:0.9em;padding:0.1em 0.4em;background:var(--bg-subtle);border-radius:var(--radius-sm);">prefers-contrast: more</code> is active.</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="cta">
+      <div class="cta">
+        <h2 class="cta__title">Start building with Æther</h2>
+        <p class="cta__desc">Copy the CSS. Import one file. Change three variables. That's it. No npm, no build step, no JavaScript.</p>
+        <div class="btn-group" style="justify-content:center;">
+          <a href="showcase.html" class="btn btn--primary btn--lg">Explore Showcase</a>
+          <a href="#code" class="btn btn--outline btn--lg">View Source</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#" class="logo">
+          <span class="logo__mark">Æ</span>
+          <span class="logo__wordmark">Aether</span>
+        </a>
+        <p class="footer__tagline">Algorithmically extracted brand assets from the shared UI aether. One seed, infinite consistency.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" title="GitHub" aria-label="GitHub">⌥</a>
+          <a href="#" class="footer__social-link" title="Twitter" aria-label="Twitter">✦</a>
+          <a href="#" class="footer__social-link" title="Dribbble" aria-label="Dribbble">◉</a>
+        </div>
+      </div>
+      <div class="footer__column">
+        <h4>System</h4>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#components">Components</a></li>
+          <li><a href="#tokens">Tokens</a></li>
+          <li><a href="#accessibility">Accessibility</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4>Explore</h4>
+        <ul>
+          <li><a href="showcase.html">Showcase</a></li>
+          <li><a href="#code">Source Code</a></li>
+          <li><a href="#">Changelog</a></li>
+          <li><a href="#">License</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4>Principles</h4>
+        <ul>
+          <li><a href="#">Zero Runtime</a></li>
+          <li><a href="#">Algorithmic Design</a></li>
+          <li><a href="#">Accessible First</a></li>
+          <li><a href="#">Print Ready</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Æther Design Systems. All tokens derived.</span>
+      <span>Zero runtime. Pure cascade. CSS Custom Properties.</span>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.getElementById('header');
+    const onScroll = () => header.classList.toggle('header--scrolled', window.scrollY > 10);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    const root = document.documentElement;
+    const hueSlider = document.getElementById('hue-slider');
+    const satSlider = document.getElementById('sat-slider');
+    const hueValue = document.getElementById('hue-value');
+    const satValue = document.getElementById('sat-value');
+
+    function updateSeed() {
+      const hue = hueSlider.value;
+      const sat = satSlider.value;
+      root.style.setProperty('--seed-hue', hue);
+      root.style.setProperty('--seed-sat', sat + '%');
+      hueValue.textContent = hue;
+      satValue.textContent = sat + '%';
+      renderPalettes(hue, sat);
+    }
+
+    function renderPalettes(hue, sat) {
+      const primaryEl = document.getElementById('primary-palette');
+      const primaryStops = [5, 10, 20, 30, 40, 50, 60, 70, 80, 90];
+      primaryEl.innerHTML = primaryStops.map(l =>
+        `<div class="token-swatch">
+          <div class="token-swatch__color" style="background:hsl(${hue},${sat}%,${l}%);"></div>
+          <div class="token-swatch__info">
+            <div class="token-swatch__name">primary-${l}</div>
+            <div class="token-swatch__value">${l}%</div>
+          </div>
+        </div>`
+      ).join('');
+
+      const neutralEl = document.getElementById('neutral-palette');
+      const neutralStops = [0, 5, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+      neutralEl.innerHTML = neutralStops.map(l => {
+        const satN = l > 50 ? 0.3 : l < 20 ? 8 : 4;
+        return `<div class="token-swatch">
+          <div class="token-swatch__color" style="background:hsl(${hue},${satN}%,${l}%);"></div>
+          <div class="token-swatch__info">
+            <div class="token-swatch__name">neutral-${l}</div>
+            <div class="token-swatch__value">${l}%</div>
+          </div>
+        </div>`;
+      }).join('');
+    }
+
+    hueSlider.addEventListener('input', updateSeed);
+    satSlider.addEventListener('input', updateSeed);
+    updateSeed();
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.header__link');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.toggle('header__link--active',
+              link.getAttribute('href') === '#' + entry.target.id);
+          });
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    sections.forEach(s => observer.observe(s));
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          header.classList.remove('header--open');
+        }
+      });
+    });
+  </script>
+</body>
+</html>

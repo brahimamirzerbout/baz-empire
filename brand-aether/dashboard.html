@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard — Æther</title>
+  <meta name="description" content="Your Æther dashboard.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aether.css">
+  <style>
+    .dash-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: var(--space-4) var(--space-6);
+      background: var(--bg);
+      border-bottom: 1px solid var(--border);
+    }
+    .dash-body {
+      max-width: var(--container-xl);
+      margin: 0 auto;
+      padding: var(--space-8) var(--space-6);
+    }
+    .dash-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+      gap: var(--space-6);
+      margin-bottom: var(--space-10);
+    }
+    .dash-card {
+      padding: var(--space-6);
+      background: var(--bg);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-xl);
+    }
+    .dash-card__label {
+      font-size: var(--text-xs);
+      text-transform: uppercase;
+      letter-spacing: var(--tracking-wider);
+      color: var(--fg-subtle);
+      margin-bottom: var(--space-1);
+    }
+    .dash-card__value {
+      font-size: var(--text-2xl);
+      font-weight: var(--weight-black);
+      color: var(--fg);
+    }
+    .dash-card__change {
+      font-size: var(--text-xs);
+      color: var(--color-success-fg);
+      margin-top: var(--space-1);
+    }
+    .dash-card__change--negative { color: var(--color-danger-fg); }
+    .dash-seed-preview {
+      display: flex;
+      gap: var(--space-2);
+      margin-top: var(--space-4);
+    }
+    .dash-seed-preview > div {
+      width: 2rem;
+      height: 2rem;
+      border-radius: var(--radius-md);
+    }
+    #user-email {
+      font-size: var(--text-sm);
+      color: var(--fg-muted);
+    }
+  </style>
+</head>
+<body>
+  <div class="dash-header">
+    <div style="display:flex;align-items:center;gap:var(--space-4);">
+      <a href="index.html" class="logo logo--compact">
+        <span class="logo__mark">Æ</span>
+        <span class="logo__wordmark">Aether</span>
+      </a>
+      <span id="user-email"></span>
+    </div>
+    <div class="btn-group">
+      <a href="showcase.html" class="btn btn--ghost btn--sm">Showcase</a>
+      <button id="sign-out-btn" class="btn btn--outline btn--sm">Sign Out</button>
+    </div>
+  </div>
+
+  <div class="dash-body">
+    <h1 style="font-size:var(--text-2xl);font-weight:var(--weight-extra);color:var(--fg);margin-bottom:var(--space-2);">Dashboard</h1>
+    <p style="color:var(--fg-muted);margin-bottom:var(--space-8);">Welcome to your Æther dashboard. Here's your brand at a glance.</p>
+
+    <div class="dash-grid">
+      <div class="dash-card">
+        <div class="dash-card__label">Seed Hue</div>
+        <div class="dash-card__value" id="dash-hue"></div>
+      </div>
+      <div class="dash-card">
+        <div class="dash-card__label">Derived Tokens</div>
+        <div class="dash-card__value">254</div>
+      </div>
+      <div class="dash-card">
+        <div class="dash-card__label">Components</div>
+        <div class="dash-card__value">18</div>
+      </div>
+      <div class="dash-card">
+        <div class="dash-card__label">Dependencies</div>
+        <div class="dash-card__value">0</div>
+        <div class="dash-card__change" style="color:var(--color-success-fg);">Zero runtime ✓</div>
+      </div>
+    </div>
+
+    <div class="dash-card" style="margin-bottom:var(--space-6);">
+      <div class="dash-card__label">Live Palette Preview</div>
+      <div class="dash-seed-preview" id="palette-strip"></div>
+    </div>
+
+    <div class="dash-card">
+      <div class="dash-card__label">Session Info</div>
+      <div style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--fg-subtle);margin-top:var(--space-2);">
+        <div id="session-user"></div>
+        <div id="session-created"></div>
+        <div id="session-expires"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/config.js"></script>
+  <script type="module">
+    import { getSupabase, signOut, getSession } from './js/supabase.js';
+
+    const session = await getSession();
+
+    if (!session) {
+      window.location.href = 'login.html';
+    } else {
+      document.getElementById('user-email').textContent = session.user.email;
+      document.getElementById('dash-hue').textContent = getComputedStyle(document.documentElement).getPropertyValue('--seed-hue').trim() || '41';
+      document.getElementById('session-user').textContent = 'User ID: ' + session.user.id;
+      document.getElementById('session-created').textContent = 'Created: ' + new Date(session.created_at).toLocaleString();
+      document.getElementById('session-expires').textContent = 'Expires: ' + new Date(session.expires_at * 1000).toLocaleString();
+
+      const root = document.documentElement;
+      const hue = getComputedStyle(root).getPropertyValue('--seed-hue').trim() || '41';
+      const sat = getComputedStyle(root).getPropertyValue('--seed-sat').trim() || '72%';
+      const strip = document.getElementById('palette-strip');
+      [5, 10, 20, 30, 40, 50, 60, 70, 80, 90].forEach(l => {
+        const el = document.createElement('div');
+        el.style.background = `hsl(${hue}, ${sat}, ${l}%)`;
+        strip.appendChild(el);
+      });
+    }
+
+    document.getElementById('sign-out-btn').addEventListener('click', async () => {
+      await signOut();
+      window.location.href = 'index.html';
+    });
+  </script>
+</body>
+</html>

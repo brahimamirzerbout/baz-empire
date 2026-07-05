@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Create Account — Æther</title>
+  <meta name="description" content="Create your Æther account.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aether.css">
+  <style>
+    .auth-page {
+      min-height: 100vh;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+    .auth-form {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: var(--space-12) var(--space-10);
+      max-width: 28rem;
+      margin: 0 auto;
+      width: 100%;
+    }
+    .auth-form__header {
+      margin-bottom: var(--space-8);
+    }
+    .auth-form__title {
+      font-size: var(--text-2xl);
+      font-weight: var(--weight-extra);
+      color: var(--fg);
+      letter-spacing: var(--tracking-tight);
+      margin-bottom: var(--space-2);
+    }
+    .auth-form__subtitle {
+      font-size: var(--text-sm);
+      color: var(--fg-muted);
+    }
+    .auth-form__footer {
+      text-align: center;
+      margin-top: var(--space-6);
+      font-size: var(--text-sm);
+      color: var(--fg-muted);
+    }
+    .auth-form__footer a { font-weight: var(--weight-medium); }
+    .auth-form__error {
+      padding: var(--space-3) var(--space-4);
+      background: var(--color-danger-bg);
+      color: var(--color-danger-fg);
+      border-radius: var(--radius-md);
+      font-size: var(--text-sm);
+      margin-bottom: var(--space-4);
+      display: none;
+    }
+    .auth-form__success {
+      padding: var(--space-3) var(--space-4);
+      background: var(--color-success-bg);
+      color: var(--color-success-fg);
+      border-radius: var(--radius-md);
+      font-size: var(--text-sm);
+      margin-bottom: var(--space-4);
+      display: none;
+    }
+    .auth-illustration {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      background: radial-gradient(ellipse 80% 50% at 50% 0%, var(--color-primary-10) 0%, transparent 70%), var(--bg-muted);
+      padding: var(--space-10);
+      position: relative;
+      overflow: hidden;
+    }
+    .auth-illustration::before {
+      content: "";
+      position: absolute;
+      width: 30rem; height: 30rem;
+      border-radius: var(--radius-full);
+      background: radial-gradient(circle, var(--color-primary-bg-subtle), transparent 70%);
+      top: -5rem; right: -5rem;
+      pointer-events: none;
+    }
+    .auth-illustration::after {
+      content: "";
+      position: absolute;
+      width: 20rem; height: 20rem;
+      border-radius: var(--radius-full);
+      background: radial-gradient(circle, var(--color-accent-10), transparent 60%);
+      bottom: -3rem; left: -3rem;
+      pointer-events: none;
+    }
+    .auth-illustration__content {
+      position: relative;
+      z-index: var(--z-above);
+      text-align: center;
+      max-width: 28rem;
+    }
+    .auth-illustration__title {
+      font-size: var(--text-3xl);
+      font-weight: var(--weight-black);
+      line-height: var(--leading-tight);
+      letter-spacing: var(--tracking-tighter);
+      color: var(--fg);
+      margin-bottom: var(--space-4);
+    }
+    .auth-illustration__title em {
+      font-style: normal;
+      background: linear-gradient(135deg, var(--color-primary), var(--color-accent));
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+    }
+    .auth-illustration__desc {
+      font-size: var(--text-md);
+      color: var(--fg-muted);
+      line-height: var(--leading-relaxed);
+    }
+    .spinner {
+      display: inline-block;
+      width: 1rem; height: 1rem;
+      border: 2px solid var(--fg-on-primary);
+      border-top-color: transparent;
+      border-radius: var(--radius-full);
+      animation: spin 0.6s linear infinite;
+      vertical-align: middle;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    @media (max-width: 768px) {
+      .auth-page { grid-template-columns: 1fr; }
+      .auth-illustration { display: none; }
+      .auth-form { padding: var(--space-8) var(--space-4); }
+    }
+  </style>
+</head>
+<body>
+  <div class="auth-page">
+    <div class="auth-form">
+      <div class="auth-form__header">
+        <a href="index.html" class="logo logo--compact" style="margin-bottom:var(--space-6);">
+          <span class="logo__mark">Æ</span>
+          <span class="logo__wordmark">Aether</span>
+        </a>
+        <h1 class="auth-form__title">Create your account</h1>
+        <p class="auth-form__subtitle">Start your 14-day free trial. No credit card required.</p>
+      </div>
+
+      <div id="auth-error" class="auth-form__error"></div>
+      <div id="auth-success" class="auth-form__success"></div>
+
+      <form id="signup-form">
+        <div class="input-group" style="margin-bottom:var(--space-4);">
+          <label class="input-group__label" for="full-name">Full Name</label>
+          <input type="text" id="full-name" class="input" placeholder="Ada Lovelace" required>
+        </div>
+        <div class="input-group" style="margin-bottom:var(--space-4);">
+          <label class="input-group__label" for="email">Email</label>
+          <input type="email" id="email" class="input" placeholder="you@example.com" required autocomplete="email">
+        </div>
+        <div class="input-group" style="margin-bottom:var(--space-2);">
+          <label class="input-group__label" for="password">Password</label>
+          <input type="password" id="password" class="input" placeholder="••••••••" required autocomplete="new-password" minlength="6">
+          <p class="input-group__hint">At least 6 characters</p>
+        </div>
+        <button type="submit" id="submit-btn" class="btn btn--primary btn--lg btn--block">Create Account</button>
+      </form>
+
+      <p class="auth-form__footer">
+        Already have an account? <a href="login.html">Sign in</a>
+      </p>
+    </div>
+
+    <div class="auth-illustration">
+      <div class="auth-illustration__content">
+        <p class="auth-illustration__title">One seed.<br><em>Infinite consistency.</em></p>
+        <p class="auth-illustration__desc">Change three CSS variables and rebrand the world. The cascade is the algorithm.</p>
+      </div>
+    </div>
+  </div>
+
+  <script src="/js/config.js"></script>
+  <script type="module">
+    import { signUp } from './js/supabase.js';
+
+    const form = document.getElementById('signup-form');
+    const nameInput = document.getElementById('full-name');
+    const emailInput = document.getElementById('email');
+    const passwordInput = document.getElementById('password');
+    const submitBtn = document.getElementById('submit-btn');
+    const errorEl = document.getElementById('auth-error');
+    const successEl = document.getElementById('auth-success');
+
+    form.addEventListener('submit', async (e) => {
+      e.preventDefault();
+      errorEl.style.display = 'none';
+      successEl.style.display = 'none';
+
+      submitBtn.disabled = true;
+      submitBtn.innerHTML = '<span class="spinner"></span> Creating account…';
+
+      const { data, error } = await signUp(emailInput.value, passwordInput.value);
+
+      submitBtn.disabled = false;
+      submitBtn.textContent = 'Create Account';
+
+      if (error) {
+        errorEl.textContent = error.message;
+        errorEl.style.display = 'block';
+        return;
+      }
+
+      successEl.textContent = data.user?.identities?.length === 0
+        ? 'An account with this email already exists. Please sign in.'
+        : 'Account created! Check your email to confirm. Redirecting…';
+      successEl.style.display = 'block';
+
+      if (data.user?.identities?.length !== 0) {
+        setTimeout(() => { window.location.href = 'dashboard.html'; }, 2000);
+      }
+    });
+  </script>
+</body>
+</html>

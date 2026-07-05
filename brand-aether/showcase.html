@@ -1,0 +1,656 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Æther — Brand Asset System</title>
+  <meta name="description" content="Algorithmically extracted digital brand assets from the shared UI aether. One seed. Infinite consistency.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="aether.css">
+</head>
+<body>
+
+  <a href="#main" class="skip-link">Skip to content</a>
+
+  <header class="header" id="header">
+    <div class="header__brand">
+      <a href="#" class="logo logo--compact">
+        <span class="logo__mark">Æ</span>
+        <span class="logo__wordmark">Aether</span>
+      </a>
+    </div>
+    <nav class="header__nav" aria-label="Primary">
+      <a href="#seed" class="header__link header__link--active">Seed</a>
+      <a href="#cards" class="header__link">Cards</a>
+      <a href="#paper" class="header__link">Paper</a>
+      <a href="#document" class="header__link">Documents</a>
+      <a href="#components" class="header__link">Components</a>
+    </nav>
+    <div class="header__actions no-print">
+      <a href="login.html" class="btn btn--ghost btn--sm">Sign In</a>
+      <a href="login.html" class="btn btn--primary btn--sm">Get Started</a>
+    </div>
+    <button class="header__toggle" onclick="document.getElementById('header').classList.toggle('header--open')" aria-label="Toggle navigation">☰</button>
+  </header>
+
+  <main id="main">
+
+    <section class="hero" id="hero">
+      <span class="section__label">Open-Source Design System</span>
+      <h1 class="hero__title">Brand assets,<br><em>algorithmically derived</em></h1>
+      <p class="hero__desc">One seed. Infinite consistency. Every color, shadow, and spacing value is computed from three variables. Change the seed — rebrand the world.</p>
+      <div class="hero__actions">
+        <a href="#seed" class="btn btn--primary btn--lg">Explore the Seed</a>
+        <a href="#document" class="btn btn--secondary btn--lg">View Document</a>
+      </div>
+    </section>
+
+    <section class="section" id="seed">
+      <span class="section__label">The Aether</span>
+      <h2 class="section__heading">Change the seed. Watch everything recompute.</h2>
+      <p class="section__subheading">Every visual property is derived from these three values. Drag the hue slider and see the entire system transform in real time.</p>
+      <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-md);">
+        <div class="input-group" style="margin-bottom:var(--space-6);">
+          <label class="input-group__label" for="hue-slider">Seed Hue — <code id="hue-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary);">240</code></label>
+          <input type="range" id="hue-slider" min="0" max="360" value="240" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
+          <p class="input-group__hint">0 = red · 60 = yellow · 120 = green · 240 = blue · 300 = magenta</p>
+        </div>
+        <div class="input-group" style="margin-bottom:var(--space-8);">
+          <label class="input-group__label" for="sat-slider">Saturation — <code id="sat-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary);">72%</code></label>
+          <input type="range" id="sat-slider" min="0" max="100" value="72" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(4rem,1fr));gap:var(--space-2);margin-bottom:var(--space-6);" id="palette-preview">
+        </div>
+        <p style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--fg-subtle);text-align:center;">
+          CSS Custom Properties recomputing via <code>--seed-hue</code> and <code>--seed-sat</code>
+        </p>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded">
+
+    <section class="section" id="cards">
+      <span class="section__label">Components</span>
+      <h2 class="section__heading">Cards</h2>
+      <p class="section__subheading">Content containers that inherit their soul from the aether. Four variants, one truth.</p>
+      <div class="card-grid" style="margin-bottom:var(--space-12);">
+        <article class="card">
+          <div style="background:linear-gradient(135deg,var(--color-primary-bg-hover),var(--color-primary-bg));aspect-ratio:16/9;display:grid;place-items:center;">
+            <span style="font-size:3rem;" aria-hidden="true">🏗️</span>
+          </div>
+          <div class="card__body">
+            <span class="card__tag">Architecture</span>
+            <h3 class="card__title"><a href="#">Token-Driven Design</a></h3>
+            <p class="card__desc">Every color, spacing value, and shadow is computed from a single hue seed. Change the seed, rebrand the world.</p>
+          </div>
+          <div class="card__footer">
+            <span>5 min read</span>
+            <a href="#" class="btn btn--ghost btn--sm">Read →</a>
+          </div>
+        </article>
+        <article class="card card--highlight">
+          <div style="background:linear-gradient(135deg,var(--color-accent),var(--color-primary));aspect-ratio:16/9;display:grid;place-items:center;">
+            <span style="font-size:3rem;color:var(--fg-on-primary);" aria-hidden="true">⚡</span>
+          </div>
+          <div class="card__body">
+            <span class="card__tag" style="background:var(--color-accent-10);color:var(--color-accent);">Performance</span>
+            <h3 class="card__title"><a href="#">Zero Runtime Cost</a></h3>
+            <p class="card__desc">Pure CSS variables. No JavaScript. No build step. The algorithm is the cascade itself.</p>
+          </div>
+          <div class="card__footer">
+            <span>3 min read</span>
+            <a href="#" class="btn btn--ghost btn--sm">Read →</a>
+          </div>
+        </article>
+        <article class="card card--ghost">
+          <div class="card__body" style="min-height:14rem;display:flex;flex-direction:column;align-items:center;justify-content:center;text-align:center;">
+            <span style="font-size:2.5rem;margin-bottom:var(--space-3);" aria-hidden="true">✦</span>
+            <h3 class="card__title">Add Your Own</h3>
+            <p class="card__desc">The aether extends infinitely. Every new component inherits the tokens automatically.</p>
+            <a href="#" class="btn btn--secondary btn--sm" style="margin-top:var(--space-4);">Create</a>
+          </div>
+        </article>
+      </div>
+
+      <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Cards with Avatars</h3>
+      <div class="card-grid card-grid--2">
+        <article class="card card--flat">
+          <div class="card__body">
+            <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-3);">
+              <div class="avatar avatar--md" style="background:var(--color-primary-bg-hover);color:var(--color-primary-fg-muted);">Æ</div>
+              <div>
+                <div style="font-weight:var(--weight-semi);font-size:var(--text-sm);">Aether Team</div>
+                <div style="font-size:var(--text-xs);color:var(--fg-subtle);">2 hours ago</div>
+              </div>
+              <span class="badge badge--success badge--sm" style="margin-left:auto;"><span class="badge__dot"></span> Live</span>
+            </div>
+            <h3 class="card__title">Real-Time Token Sync</h3>
+            <p class="card__desc">Change a single CSS variable and watch every component update instantly. No rebuild required.</p>
+          </div>
+        </article>
+        <article class="card card--flat">
+          <div class="card__body">
+            <div style="display:flex;align-items:center;gap:var(--space-3);margin-bottom:var(--space-3);">
+              <div class="avatar avatar--md" style="background:var(--color-accent-10);color:var(--color-accent);">⚡</div>
+              <div>
+                <div style="font-weight:var(--weight-semi);font-size:var(--text-sm);">Performance</div>
+                <div style="font-size:var(--text-xs);color:var(--fg-subtle);">yesterday</div>
+              </div>
+              <span class="badge badge--primary badge--sm" style="margin-left:auto;">v2.0</span>
+            </div>
+            <h3 class="card__title">Sub-Millisecond Recomputation</h3>
+            <p class="card__desc">The browser's CSS engine is the runtime. Zero JavaScript. Zero layout thrash. Pure cascade.</p>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded">
+
+    <section class="section" id="paper">
+      <span class="section__label">Surface</span>
+      <h2 class="section__heading">Paper</h2>
+      <p class="section__subheading">Long-form content surfaces for articles, guides, and documentation.</p>
+      <div class="paper" style="max-width:var(--container-lg);margin-inline:auto;">
+        <div class="paper__header">
+          <h1 class="paper__title">The Algorithm Is the Design</h1>
+          <p class="paper__subtitle">How aether tokens create consistency without constraint</p>
+          <div class="paper__meta">
+            <span class="paper__meta-item">📅 June 2026</span>
+            <span class="paper__meta-item">
+              <span class="avatar avatar--xs" style="background:var(--color-primary-bg-hover);color:var(--color-primary-fg-muted);display:inline-flex;font-size:var(--text-2xs);">Æ</span>
+              Aether Team
+            </span>
+            <span class="paper__meta-item">⏱ 8 min read</span>
+            <span class="paper__meta-item"><span class="badge badge--primary badge--sm"><span class="badge__dot"></span> Design Systems</span></span>
+          </div>
+        </div>
+        <div class="paper__body">
+          <p>Traditional design systems are museums. You walk through, admire the exhibits, and try your best not to touch anything. The aether is different. It's a <strong>living algorithm</strong> — a mathematical relationship between values that guarantees harmony without dictating form.</p>
+          <h2>The Seed</h2>
+          <p>Everything begins with three variables: a hue, a saturation, and a luminance. From these, the entire palette is computed using perceptually uniform color math. No guessing. No squinting at hex values. The HSL color model ensures that every derived shade is in harmony with the seed.</p>
+          <blockquote>
+            "The constraint is not a prison — it is a compass. The algorithm points the way; the designer walks the path."
+          </blockquote>
+          <h2>The Cascade</h2>
+          <p>CSS custom properties are the runtime. When you change <code>--seed-hue: 240</code> to <code>--seed-hue: 15</code>, every component, every shadow, every border color recomputes. The brand shifts from <em>indigo authority</em> to <em>amber warmth</em> — without touching a single component file.</p>
+          <h3>Derived Values</h3>
+          <ul>
+            <li><strong>Colors</strong> — 11 primary stops + full neutral palette computed via HSL offsets</li>
+            <li><strong>Typography</strong> — a modular scale (1.25×) with per-size line-height tuning</li>
+            <li><strong>Spacing</strong> — base-4 rhythm grid that creates visual silence</li>
+            <li><strong>Shadows</strong> — layered, calibrated opacity stops that feel natural</li>
+            <li><strong>Transitions</strong> — five easing curves + four duration levels, reduced-motion aware</li>
+          </ul>
+          <p>And every one of these — every token — feeds into semantic aliases. <code>--fg</code>, <code>--bg</code>, <code>--border</code>, <code>--ring</code>. These aliases flip automatically in dark mode. Components never reference raw palette values directly. They speak in semantic terms. This is the aether.</p>
+        </div>
+        <div class="paper__footer">
+          <span class="badge badge--success"><span class="badge__dot"></span> Published</span>
+          <div class="btn-group">
+            <button class="btn btn--ghost btn--sm">Share</button>
+            <button class="btn btn--secondary btn--sm">Bookmark</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded">
+
+    <section class="section" id="document">
+      <span class="section__label">Formal</span>
+      <h2 class="section__heading">Documents</h2>
+      <p class="section__subheading">Invoices, contracts, letters, and reports. Every surface inherits the brand.</p>
+      <div class="document">
+        <div class="document__header">
+          <div class="document__header-info">
+            <a href="#" class="logo logo--compact" style="margin-bottom:var(--space-3);">
+              <span class="logo__mark">Æ</span>
+              <span class="logo__wordmark">Aether</span>
+            </a>
+            <h1>Invoice #AE-2026-0042</h1>
+            <p>Brand Asset Delivery</p>
+          </div>
+          <div class="document__header-meta">
+            Date: July 4, 2026<br>
+            Due: August 4, 2026<br>
+            Status: <span class="badge badge--success badge--sm"><span class="badge__dot"></span> Paid</span>
+          </div>
+        </div>
+        <div class="document__body">
+          <div class="document__addresses">
+            <div>
+              <div class="document__address-label">From</div>
+              <div class="document__address-body">
+                <strong>Aether Design Systems Inc.</strong><br>
+                42 Algorithmic Way<br>
+                Cascade City, CS 00000
+              </div>
+            </div>
+            <div>
+              <div class="document__address-label">To</div>
+              <div class="document__address-body">
+                <strong>The Endeavour</strong><br>
+                Your Address Here<br>
+                Your City, ST 00000
+              </div>
+            </div>
+          </div>
+          <table class="document__table">
+            <thead>
+              <tr>
+                <th>Description</th>
+                <th>Qty</th>
+                <th class="amount">Rate</th>
+                <th class="amount">Amount</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="description">Brand Token System — Full Palette</td>
+                <td>1</td>
+                <td class="amount">$4,200</td>
+                <td class="amount">$4,200</td>
+              </tr>
+              <tr>
+                <td class="description">Header Component — Responsive Navigation</td>
+                <td>1</td>
+                <td class="amount">$1,800</td>
+                <td class="amount">$1,800</td>
+              </tr>
+              <tr>
+                <td class="description">Footer Component — 4-Column Grid</td>
+                <td>1</td>
+                <td class="amount">$1,200</td>
+                <td class="amount">$1,200</td>
+              </tr>
+              <tr>
+                <td class="description">Card System — 4 Variants + Grid</td>
+                <td>1</td>
+                <td class="amount">$2,400</td>
+                <td class="amount">$2,400</td>
+              </tr>
+              <tr>
+                <td class="description">Paper + Document Templates</td>
+                <td>1</td>
+                <td class="amount">$3,000</td>
+                <td class="amount">$3,000</td>
+              </tr>
+            </tbody>
+          </table>
+          <div class="document__totals">
+            <div class="document__totals-inner">
+              <div class="document__totals-row">
+                <span>Subtotal</span>
+                <span>$12,600</span>
+              </div>
+              <div class="document__totals-row">
+                <span>Tax (8%)</span>
+                <span>$1,008</span>
+              </div>
+              <div class="document__totals-row document__totals-row--grand">
+                <span>Total</span>
+                <span>$13,608</span>
+              </div>
+            </div>
+          </div>
+          <div class="document__seal">
+            ✓ AUTHENTICATED — Aether Brand Asset Delivery Confirmed
+          </div>
+        </div>
+        <div class="document__footer">
+          Aether Design Systems Inc. · 42 Algorithmic Way, Cascade City · hello@aether.design<br>
+          Thank you for your business. All assets are algorithmically guaranteed.
+        </div>
+      </div>
+    </section>
+
+    <hr class="separator separator--faded">
+
+    <section class="section" id="components">
+      <span class="section__label">Primitives</span>
+      <h2 class="section__heading">Every Component</h2>
+      <p class="section__subheading">Buttons, badges, alerts, inputs, avatars, skeletons, tables, tooltips, tabs — all derived from the seed.</p>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Breadcrumb</h3>
+        <nav class="breadcrumb" aria-label="Breadcrumb">
+          <div class="breadcrumb__item"><a href="#">Home</a></div>
+          <span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <div class="breadcrumb__item"><a href="#">Components</a></div>
+          <span class="breadcrumb__sep" aria-hidden="true">›</span>
+          <div class="breadcrumb__item breadcrumb__item--current" aria-current="page">Breadcrumb</div>
+        </nav>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Tabs</h3>
+        <div class="tabs">
+          <button class="tabs__tab tabs__tab--active">Overview</button>
+          <button class="tabs__tab">Analytics</button>
+          <button class="tabs__tab">Settings</button>
+          <button class="tabs__tab">Members</button>
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Buttons</h3>
+        <div style="display:flex;flex-direction:column;gap:var(--space-4);">
+          <div class="btn-group">
+            <button class="btn btn--primary">Primary</button>
+            <button class="btn btn--secondary">Secondary</button>
+            <button class="btn btn--outline">Outline</button>
+            <button class="btn btn--ghost">Ghost</button>
+            <button class="btn btn--danger">Danger</button>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn--primary btn--xs">Extra Small</button>
+            <button class="btn btn--primary btn--sm">Small</button>
+            <button class="btn btn--primary">Default</button>
+            <button class="btn btn--primary btn--lg">Large</button>
+            <button class="btn btn--primary btn--xl">Extra Large</button>
+          </div>
+          <div class="btn-group">
+            <button class="btn btn--primary" disabled>Disabled</button>
+            <button class="btn btn--primary btn--block" style="max-width:16rem;">Block</button>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Badges</h3>
+        <div class="btn-group">
+          <span class="badge badge--primary"><span class="badge__dot"></span> Primary</span>
+          <span class="badge badge--success"><span class="badge__dot"></span> Success</span>
+          <span class="badge badge--warning"><span class="badge__dot"></span> Warning</span>
+          <span class="badge badge--danger"><span class="badge__dot"></span> Danger</span>
+          <span class="badge badge--neutral">Neutral</span>
+          <span class="badge badge--accent">Accent</span>
+          <span class="badge badge--success badge--sm"><span class="badge__dot"></span> Small</span>
+          <span class="badge badge--primary badge--lg"><span class="badge__dot"></span> Large</span>
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Avatars</h3>
+        <div style="display:flex;align-items:center;gap:var(--space-3);flex-wrap:wrap;">
+          <div class="avatar avatar--xs" style="background:var(--color-primary-bg-hover);color:var(--color-primary-fg-muted);">Æ</div>
+          <div class="avatar avatar--sm" style="background:var(--color-primary-bg-hover);color:var(--color-primary-fg-muted);">Æ</div>
+          <div class="avatar avatar--md" style="background:var(--color-primary-bg-hover);color:var(--color-primary-fg-muted);">Æ</div>
+          <div class="avatar avatar--lg" style="background:var(--color-primary-bg-hover);color:var(--color-primary-fg-muted);">Æ</div>
+          <div class="avatar avatar--xl" style="background:var(--color-primary-bg-hover);color:var(--color-primary-fg-muted);">Æ</div>
+          <div class="avatar avatar--2xl" style="background:linear-gradient(135deg,var(--color-primary),var(--color-accent));color:var(--fg-on-primary);">Æ</div>
+          <span style="width:var(--space-4);"></span>
+          <div class="avatar avatar--lg" style="background:var(--color-success-10);color:var(--color-success);">✓</div>
+          <div class="avatar avatar--lg" style="background:var(--color-warning-10);color:var(--color-warning);">⚠</div>
+          <div class="avatar avatar--lg" style="background:var(--color-danger-10);color:var(--color-danger);">✕</div>
+        </div>
+        <div style="margin-top:var(--space-4);display:flex;align-items:center;gap:var(--space-4);">
+          <div class="avatar-stack" style="position:relative; z-index:5;">
+            <div class="avatar avatar--md" style="background:var(--color-primary-bg-hover);color:var(--color-primary-fg-muted);position:relative;z-index:5;">A</div>
+            <div class="avatar avatar--md" style="background:var(--color-accent-10);color:var(--color-accent);position:relative;z-index:4;">B</div>
+            <div class="avatar avatar--md" style="background:var(--color-success-10);color:var(--color-success);position:relative;z-index:3;">C</div>
+            <div class="avatar-stack__more">+5</div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Alerts</h3>
+        <div style="display:flex;flex-direction:column;gap:var(--space-3);max-width:42rem;">
+          <div class="alert alert--info">
+            <span class="alert__icon">ℹ️</span>
+            <div class="alert__content">
+              <div class="alert__title">Information</div>
+              <div class="alert__text">The aether seed has been updated. All components will recompute automatically.</div>
+            </div>
+          </div>
+          <div class="alert alert--success">
+            <span class="alert__icon">✅</span>
+            <div class="alert__content">
+              <div class="alert__title">Success</div>
+              <div class="alert__text">Brand assets deployed to production.</div>
+            </div>
+          </div>
+          <div class="alert alert--warning">
+            <span class="alert__icon">⚠️</span>
+            <div class="alert__content">
+              <div class="alert__title">Warning</div>
+              <div class="alert__text">Token drift detected. Consider re-synchronizing your seed values.</div>
+            </div>
+          </div>
+          <div class="alert alert--danger">
+            <span class="alert__icon">🚫</span>
+            <div class="alert__content">
+              <div class="alert__title">Error</div>
+              <div class="alert__text">Invalid hue value. Must be between 0–360.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Form Inputs</h3>
+        <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(14rem,1fr));gap:var(--space-4);max-width:42rem;">
+          <div class="input-group">
+            <label class="input-group__label" for="demo-name">Full Name</label>
+            <input type="text" id="demo-name" class="input" placeholder="Ada Lovelace">
+          </div>
+          <div class="input-group">
+            <label class="input-group__label" for="demo-email">Email</label>
+            <input type="email" id="demo-email" class="input" placeholder="ada@aether.design">
+          </div>
+          <div class="input-group">
+            <label class="input-group__label" for="demo-select">Role</label>
+            <select id="demo-select" class="select">
+              <option>Designer</option>
+              <option>Developer</option>
+              <option>Both</option>
+            </select>
+          </div>
+          <div class="input-group">
+            <label class="input-group__label" for="demo-error">API Key</label>
+            <input type="text" id="demo-error" class="input input--error" value="invalid-key">
+            <span class="input-group__error">Invalid API key format</span>
+          </div>
+        </div>
+        <div style="display:flex;gap:var(--space-4);margin-top:var(--space-4);flex-wrap:wrap;align-items:center;">
+          <label class="check">
+            <input type="checkbox" class="check__box" checked>
+            Accept terms
+          </label>
+          <label class="check">
+            <input type="checkbox" class="check__box">
+            Subscribe to updates
+          </label>
+          <label class="toggle">
+            <input type="checkbox" class="toggle__input">
+            <div class="toggle__track"></div>
+            Dark mode
+          </label>
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Data Table</h3>
+        <div class="table-wrapper" style="max-width:42rem;">
+          <table class="table table--striped">
+            <thead>
+              <tr>
+                <th>Token</th>
+                <th>Value</th>
+                <th>Category</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr><td><code style="font-family:var(--font-mono);font-size:var(--text-xs);background:var(--bg-subtle);padding:0.1em 0.4em;border-radius:var(--radius-sm);">--seed-hue</code></td><td>240</td><td><span class="badge badge--primary badge--sm">Seed</span></td></tr>
+              <tr><td><code style="font-family:var(--font-mono);font-size:var(--text-xs);background:var(--bg-subtle);padding:0.1em 0.4em;border-radius:var(--radius-sm);">--seed-sat</code></td><td>72%</td><td><span class="badge badge--primary badge--sm">Seed</span></td></tr>
+              <tr><td><code style="font-family:var(--font-mono);font-size:var(--text-xs);background:var(--bg-subtle);padding:0.1em 0.4em;border-radius:var(--radius-sm);">--ratio</code></td><td>1.25</td><td><span class="badge badge--accent badge--sm">Typography</span></td></tr>
+              <tr><td><code style="font-family:var(--font-mono);font-size:var(--text-xs);background:var(--bg-subtle);padding:0.1em 0.4em;border-radius:var(--radius-sm);">--radius-xl</code></td><td>1rem</td><td><span class="badge badge--neutral badge--sm">Radii</span></td></tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Skeleton Loading</h3>
+        <div class="card-grid" style="max-width:40rem;">
+          <div class="skeleton-card">
+            <div class="skeleton-card__image skeleton skeleton--image"></div>
+            <div class="skeleton-card__body">
+              <div class="skeleton skeleton--heading" style="width:60%;"></div>
+              <div class="skeleton skeleton--text" style="width:100%;"></div>
+              <div class="skeleton skeleton--text skeleton--w75"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Separators</h3>
+        <div style="display:flex;flex-direction:column;gap:var(--space-3);max-width:24rem;">
+          <hr class="separator separator--line">
+          <hr class="separator separator--dashed">
+          <hr class="separator separator--thick">
+          <hr class="separator separator--faded">
+        </div>
+      </div>
+
+      <div style="margin-bottom:var(--space-10);">
+        <h3 style="font-size:var(--text-md);font-weight:var(--weight-bold);color:var(--fg);margin-bottom:var(--space-4);">Tooltips</h3>
+        <div class="btn-group">
+          <span class="tooltip" data-tooltip="Copy to clipboard"><button class="btn btn--outline btn--sm">📋 Copy</button></span>
+          <span class="tooltip" data-tooltip="Download assets"><button class="btn btn--outline btn--sm">⬇ Download</button></span>
+          <span class="tooltip" data-tooltip="Share this page"><button class="btn btn--outline btn--sm">↗ Share</button></span>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer__grid">
+      <div class="footer__brand">
+        <a href="#" class="logo">
+          <span class="logo__mark">Æ</span>
+          <span class="logo__wordmark">Aether</span>
+        </a>
+        <p class="footer__tagline">Algorithmically extracted brand assets from the shared UI aether. One seed, infinite consistency.</p>
+        <div class="footer__social">
+          <a href="#" class="footer__social-link" title="GitHub" aria-label="GitHub">⌥</a>
+          <a href="#" class="footer__social-link" title="Twitter" aria-label="Twitter">✦</a>
+          <a href="#" class="footer__social-link" title="Dribbble" aria-label="Dribbble">◉</a>
+        </div>
+      </div>
+      <div class="footer__column">
+        <h4>Components</h4>
+        <ul>
+          <li><a href="#">Headers</a></li>
+          <li><a href="#">Footers</a></li>
+          <li><a href="#">Cards</a></li>
+          <li><a href="#">Papers</a></li>
+          <li><a href="#">Documents</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4>Primitives</h4>
+        <ul>
+          <li><a href="#">Buttons</a></li>
+          <li><a href="#">Badges</a></li>
+          <li><a href="#">Alerts</a></li>
+          <li><a href="#">Inputs</a></li>
+          <li><a href="#">Tables</a></li>
+        </ul>
+      </div>
+      <div class="footer__column">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Token Reference</a></li>
+          <li><a href="#">Design Guide</a></li>
+          <li><a href="#">Changelog</a></li>
+          <li><a href="#">License</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 Æther Design Systems. All tokens derived.</span>
+      <span>Zero runtime. Pure cascade. CSS Custom Properties.</span>
+    </div>
+  </footer>
+
+  <script>
+    const header = document.getElementById('header');
+    const onScroll = () => header.classList.toggle('header--scrolled', window.scrollY > 10);
+    window.addEventListener('scroll', onScroll, { passive: true });
+    onScroll();
+
+    const root = document.documentElement;
+    const hueSlider = document.getElementById('hue-slider');
+    const satSlider = document.getElementById('sat-slider');
+    const hueValue = document.getElementById('hue-value');
+    const satValue = document.getElementById('sat-value');
+    const paletteEl = document.getElementById('palette-preview');
+
+    function updateSeed() {
+      const hue = hueSlider.value;
+      const sat = satSlider.value;
+      root.style.setProperty('--seed-hue', hue);
+      root.style.setProperty('--seed-sat', sat + '%');
+      hueValue.textContent = hue;
+      satValue.textContent = sat + '%';
+      renderPalette(hue, sat);
+    }
+
+    function renderPalette(hue, sat) {
+      const stops = [5, 10, 20, 30, 40, 50, 60, 70, 80, 90];
+      paletteEl.innerHTML = stops.map(l =>
+        `<div style="
+          background: hsl(${hue}, ${sat}%, ${l}%);
+          border-radius: var(--radius-md);
+          height: 2.5rem;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          padding-bottom: 4px;
+          font-family: var(--font-mono);
+          font-size: var(--text-2xs);
+          color: ${l > 55 ? 'var(--fg-on-primary)' : 'var(--fg)'};
+          text-shadow: ${l > 55 ? '0 1px 2px rgba(0,0,0,.3)' : 'none'};
+        ">${l}%</div>`
+      ).join('');
+    }
+
+    hueSlider.addEventListener('input', updateSeed);
+    satSlider.addEventListener('input', updateSeed);
+    updateSeed();
+
+    const sections = document.querySelectorAll('section[id]');
+    const navLinks = document.querySelectorAll('.header__link');
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          navLinks.forEach(link => {
+            link.classList.toggle('header__link--active',
+              link.getAttribute('href') === '#' + entry.target.id);
+          });
+        }
+      });
+    }, { rootMargin: '-20% 0px -70% 0px' });
+    sections.forEach(s => observer.observe(s));
+
+    document.querySelectorAll('a[href^="#"]').forEach(a => {
+      a.addEventListener('click', e => {
+        const target = document.querySelector(a.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          header.classList.remove('header--open');
+        }
+      });
+    });
+  </script>
+
+</body>
+</html>
