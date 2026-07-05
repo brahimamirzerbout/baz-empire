@@ -361,8 +361,8 @@
       <p class="section__subheading">This page is styled by Æther. The slider below changes one CSS variable. Every token, every component, every color follows.</p>
       <div style="background:var(--bg);border:1px solid var(--border);border-radius:var(--radius-xl);padding:var(--space-8);box-shadow:var(--shadow-lg);margin-bottom:var(--space-8);">
         <div class="input-group" style="margin-bottom:var(--space-6);">
-          <label class="input-group__label" for="hue-slider">Seed Hue — <code id="hue-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary-fg);">240</code></label>
-          <input type="range" id="hue-slider" min="0" max="360" value="240" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
+          <label class="input-group__label" for="hue-slider">Seed Hue — <code id="hue-value" style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--color-primary-fg);">0</code></label>
+          <input type="range" id="hue-slider" min="0" max="360" value="0" style="width:100%;accent-color:var(--color-primary);cursor:pointer;height:8px;">
           <p class="input-group__hint">0 = red · 60 = yellow · 120 = green · 180 = cyan · 240 = blue · 300 = magenta</p>
         </div>
         <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(10rem,1fr));gap:var(--space-4);">
@@ -548,14 +548,14 @@
         <div class="code-window__body">
 <span class="tok-comment">/* Change these 3 values to rebrand everything */</span>
 <span class="tok-keyword">:root</span> <span class="tok-punct">{</span>
-  <span class="tok-prop">--seed-hue</span><span class="tok-punct">:</span> <span class="tok-value">240</span><span class="tok-punct">;</span>            <span class="tok-comment">/* 0–360 → brand color */</span>
+  <span class="tok-prop">--seed-hue</span><span class="tok-punct">:</span> <span class="tok-value">0</span><span class="tok-punct">;</span>            <span class="tok-comment">/* 0–360 → brand color */</span>
   <span class="tok-prop">--seed-sat</span><span class="tok-punct">:</span> <span class="tok-value">0%</span><span class="tok-punct">;</span>          <span class="tok-comment">/* 0–100% → vividness */</span>
   <span class="tok-prop">--seed-lum</span><span class="tok-punct">:</span> <span class="tok-value">50%</span><span class="tok-punct">;</span>         <span class="tok-comment">/* 0–100% → lightness */</span>
 
   <span class="tok-comment">/* 254 tokens derived automatically ↓ */</span>
   <span class="tok-prop">--color-primary</span><span class="tok-punct">:</span>      <span class="tok-value">hsl(var(--seed-hue), var(--seed-sat), var(--seed-lum))</span><span class="tok-punct">;</span>
   <span class="tok-prop">--color-primary-10</span><span class="tok-punct">:</span>   <span class="tok-value">hsl(var(--seed-hue), var(--seed-sat), 93%)</span><span class="tok-punct">;</span>
-  <span class="tok-prop">--color-accent</span><span class="tok-punct">:</span>       <span class="tok-value">hsl(calc(var(--seed-hue) + 30), 85%, 55%)</span><span class="tok-punct">;</span>
+  <span class="tok-prop">--color-accent</span><span class="tok-punct">:</span>       <span class="tok-value">hsl(calc(var(--seed-hue) + 30), var(--seed-sat), 55%)</span><span class="tok-punct">;</span>
   <span class="tok-prop">--fg</span><span class="tok-punct">:</span>              <span class="tok-value">var(--color-neutral-70)</span><span class="tok-punct">;</span>
   <span class="tok-prop">--bg</span><span class="tok-punct">:</span>              <span class="tok-value">var(--color-neutral-0)</span><span class="tok-punct">;</span>
   <span class="tok-prop">--border</span><span class="tok-punct">:</span>           <span class="tok-value">var(--color-neutral-10)</span><span class="tok-punct">;</span>

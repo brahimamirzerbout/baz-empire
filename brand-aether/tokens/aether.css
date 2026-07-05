@@ -11,10 +11,10 @@
   color-scheme: light dark;
 
   /* ━━━ Seed ━━━ Change these three values to rebrand the entire system ━━━ */
-  --seed-hue: 240;
-  --seed-sat: 72%;
+  --seed-hue: 0;
+  --seed-sat: 0%;
   --seed-lum: 50%;
-  --seed-sat-dark: 50%;
+  --seed-sat-dark: 0%;
 
   /* ━━━ Derived Palette ━━━ HSL math from the seed ━━━ */
   --color-primary:      hsl(var(--seed-hue), var(--seed-sat), var(--seed-lum));
