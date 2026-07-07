@@ -1,0 +1,5 @@
+com.google.android.apps.docs
+com.google.android.apps.photos
+com.google.android.apps.tachyon
+com.google.android.music
+com.google.android.videos

@@ -1,0 +1,74 @@
+# FULL DEBLOAT SET — CPH1801 / OPPO F7 / Android 7.1.1 / ColorOS 5
+# Method: pm uninstall --user 0  (reversible: pm install-existing)
+# All entries vetted against never-touch.txt. Consumer apps you may want
+# back (Maps/Gmail/YouTube/etc.) are reversible via restore.sh.
+
+# ── OPPO apps / diagnostics / promo ──
+com.oppo.market
+com.oppo.usercenter
+com.oppo.ota
+com.oppoex.afterservice
+com.oppo.operationManual
+com.oppo.partnerbrowsercustomizations
+com.oppo.logkitsdservice
+com.oppo.oppologkit
+com.oppo.bttestmode
+com.oppo.engineermode
+com.oppo.rftoolkit
+com.oppo.wifirf
+com.oppo.music
+
+# ── ColorOS consumer apps / promo / telemetry / China-specific / auto-update / kids / games ──
+com.coloros.avastofferwall
+com.coloros.activation
+com.coloros.sau
+com.coloros.sauhelper
+com.coloros.phonenoareainquire
+com.coloros.childrenspace
+com.coloros.gamespace
+com.coloros.gamespacesdk
+com.coloros.gallery3d
+com.coloros.video
+com.coloros.weather
+com.coloros.weather.service
+com.coloros.widget.smallweather
+com.coloros.compass
+com.coloros.soundrecorder
+com.coloros.filemanager
+com.coloros.photoeffects
+com.coloros.pictorial
+
+# ── NearMe telemetry / cloud / forced update / theme store ──
+com.nearme.gamecenter
+com.nearme.statistics.rom
+com.nearme.atlas
+com.nearme.themespace
+com.nearme.ocloud
+com.nearme.romupdate
+
+# ── Facebook background bloat (battery/privacy) ──
+com.facebook.system
+com.facebook.appmanager
+com.facebook.services
+
+# ── Adware / China / game overlay / CleanMaster ──
+com.cleanmaster.sdk
+com.baidu.map.location
+com.supercell.clashofclans.overlay
+
+# ── AOSP optional: printing / DLNA / SIM toolkit / ANT+ ──
+com.android.printspooler
+com.android.dlna.service
+com.android.stk
+com.dsi.ant.server
+
+# ── Google consumer apps + search + feedback/print recommend ──
+com.google.android.googlequicksearchbox
+com.google.android.apps.maps
+com.google.android.calendar
+com.google.android.gm
+com.google.android.keep
+com.google.android.youtube
+com.google.android.apps.tachyon
+com.google.android.feedback
+com.google.android.printservice.recommendation
