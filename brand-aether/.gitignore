@@ -7,3 +7,8 @@ supabase/.branches
 *.log
 .vercel
 .env*
+Baz-Marketing-Website-Prototype/
+Downloads/BAZ-Brand-Assets/
+FlowDeck/
+baz-agent-system/
+harness-memory/
