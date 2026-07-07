@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630" fill="none">
+  <defs>
+    <radialGradient id="og-glow" cx="50%" cy="45%" r="45%"><stop offset="0%" stop-color="#ffffff" stop-opacity="0.15"/><stop offset="60%" stop-color="#ffffff" stop-opacity="0.04"/><stop offset="100%" stop-color="#b87adb" stop-opacity="0"/></radialGradient>
+    <pattern id="og-grid" width="34" height="34" patternUnits="userSpaceOnUse"><rect width="34" height="34" fill="none"/><circle cx="0" cy="0" r="0.5" fill="#ffffff" opacity="0.08"/></pattern>
+  </defs>
+  <rect width="1200" height="630" fill="#b87adb"/>
+  <rect width="1200" height="630" fill="url(#og-grid)"/>
+  <rect width="1200" height="630" fill="url(#og-glow)"/>
+  <rect x="55" y="0" width="1090" height="2" fill="#ffffff" opacity="0.377"/>
+  
+    <rect x="388" y="175" width="7" height="240" rx="4" fill="#ffffff" opacity="1"/>
+    <rect x="388" y="175" width="79" height="7" rx="4" fill="#ffffff"/>
+    <rect x="388" y="254" width="79" height="7" rx="4" fill="#ffffff"/>
+    <rect x="459" y="175" width="7" height="86" rx="4" fill="#ffffff"/>
+    <path d="M 467 175 Q 515 175 515 218 Q 515 261 467 261" fill="#ffffff"/>
+    <rect x="459" y="338" width="7" height="7" rx="4" fill="#ffffff"/>
+    <path d="M 467 261 Q 525 261 525 324 Q 525 415 467 415" fill="#ffffff" opacity="0.9"/>
+    <g transform="translate(542, 175)">
+      <path d="M 0 240 L 64 0 L 127 240 H 106 L 93 185 H 34 L 21 240 Z M 42 127 L 64 64 L 85 127 Z" fill="#ffffff"/>
+    </g>
+    <g transform="translate(688, 175)">
+      <rect x="0" y="0" width="103" height="7" rx="4" fill="#ffffff"/>
+      <rect x="0" y="233" width="103" height="7" rx="4" fill="#ffffff"/>
+      <rect x="96" y="0" width="7" height="240" rx="4" fill="#ffffff" opacity="0.6"/>
+      <line x1="0" y1="7" x2="96" y2="233" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+    </g>
+  <rect x="55" y="628" width="1090" height="2" fill="#ffffff" opacity="0.377"/>
+  <text x="600" y="470" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="21" fill="#ffffff" opacity="0.55">The growth partner for ambitious businesses.</text>
+</svg>

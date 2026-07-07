@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 120" width="600" height="120" fill="none">
+  <rect width="600" height="120" fill="#ffffff"/>
+  <rect x="21" y="0" width="558" height="2" fill="#0a0a0d" opacity="0.377"/>
+  
+    <rect x="21" y="13" width="2" height="68" rx="1" fill="#0a0a0d" opacity="1"/>
+    <rect x="21" y="13" width="22" height="2" rx="1" fill="#0a0a0d"/>
+    <rect x="21" y="35" width="22" height="2" rx="1" fill="#0a0a0d"/>
+    <rect x="41" y="13" width="2" height="24" rx="1" fill="#0a0a0d"/>
+    <path d="M 43 13 Q 57 13 57 25 Q 57 37 43 37" fill="#0a0a0d"/>
+    <rect x="41" y="59" width="2" height="2" rx="1" fill="#0a0a0d"/>
+    <path d="M 43 37 Q 60 37 60 55 Q 60 81 43 81" fill="#0a0a0d" opacity="0.9"/>
+    <g transform="translate(65, 13)">
+      <path d="M 0 68 L 18 0 L 36 68 H 30 L 26 53 H 10 L 6 68 Z M 12 36 L 18 18 L 24 36 Z" fill="#0a0a0d"/>
+    </g>
+    <g transform="translate(106, 13)">
+      <rect x="0" y="0" width="29" height="2" rx="1" fill="#0a0a0d"/>
+      <rect x="0" y="66" width="29" height="2" rx="1" fill="#0a0a0d"/>
+      <rect x="27" y="0" width="2" height="68" rx="1" fill="#0a0a0d" opacity="0.6"/>
+      <line x1="0" y1="2" x2="27" y2="66" stroke="#0a0a0d" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  <text x="162" y="47" font-family="Inter, -apple-system, sans-serif" font-size="13" fill="#0a0a0d" opacity="0.55">BAZ Marketing Agency</text>
+  <text x="162" y="65" font-family="Inter, -apple-system, sans-serif" font-size="11" fill="#0a0a0d" opacity="0.4">The growth partner for ambitious businesses.</text>
+  <rect x="21" y="118" width="558" height="2" fill="#0a0a0d" opacity="0.377"/>
+</svg>

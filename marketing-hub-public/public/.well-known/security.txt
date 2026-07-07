@@ -1,0 +1,6 @@
+Contact: mailto:hello@bazempire.io
+Expires: 2027-12-31T23:59:59z
+Preferred-Languages: en, fr, ar
+Canonical: https://bazempire.com/.well-known/security.txt
+Hiring: https://bazempire.com/careers
+Policy: https://bazempire.com/trust

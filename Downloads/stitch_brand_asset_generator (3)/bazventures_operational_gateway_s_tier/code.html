@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BAZventures // Architecture of Alpha</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;family=Poppins:wght@100..900&amp;family=JetBrains+Mono:wght@100..800&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        /* Custom scrollbar for technical precision feel */
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #131313; }
+        ::-webkit-scrollbar-thumb { background: #e7c274; }
+        
+        /* Remove all rounded corners as per style guidance */
+        * { border-radius: 0 !important; }
+
+        .watermark-bg {
+            background-image: url('https://lh3.googleusercontent.com/aida/AP1WRLvnbn_XYoCoWrT5RXFAL4K4g_MjtYHr50DGGW3na6ogEAY87jSvNn12gDViPDNy4eucCloCqNgtYpiavIYk6QKsw_LbZqQ7vf0n8Gc0hEVPZUApQGdrA5YsMNMAB1sTM3qRG6x3VEEPk4Ff3WUrMQYmRWfxiEe8CCDAfUZPmJK51-3nH7Q0pCqe2svb_bqKRPEZN_6FUQGiKVlB2qC49bkF4nPXAtQyni2_8HuJ0bUGPzwUp34IT0qmngg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 60%;
+            opacity: 0.05;
+            pointer-events: none;
+        }
+    </style>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-primary-fixed": "#261a00",
+                    "error-container": "#93000a",
+                    "secondary-fixed-dim": "#c6c6c7",
+                    "surface-tint": "#e7c274",
+                    "on-secondary-container": "#b4b5b5",
+                    "on-secondary-fixed-variant": "#454747",
+                    "surface-container-lowest": "#0e0e0e",
+                    "gold-light": "#E5C97A",
+                    "surface-container-high": "#2a2a2a",
+                    "primary-fixed": "#ffdf9f",
+                    "on-primary-fixed-variant": "#5b4300",
+                    "on-tertiary-fixed-variant": "#5e4105",
+                    "outline": "#998f7f",
+                    "primary": "#e7c274",
+                    "tertiary-fixed-dim": "#eac07a",
+                    "tertiary-fixed": "#ffdeab",
+                    "on-error": "#690005",
+                    "stone": "#B0AAA5",
+                    "on-surface-variant": "#d0c5b3",
+                    "inverse-primary": "#765a16",
+                    "on-surface": "#e2e2e2",
+                    "ink-black": "#0A0A0A",
+                    "tertiary": "#eac07a",
+                    "navy": "#24364A",
+                    "outline-variant": "#4d4638",
+                    "secondary-fixed": "#e2e2e2",
+                    "background": "#131313",
+                    "surface-container-low": "#1b1b1b",
+                    "on-tertiary-container": "#543900",
+                    "on-secondary": "#2f3131",
+                    "on-primary-container": "#513b00",
+                    "surface-dim": "#131313",
+                    "error": "#ffb4ab",
+                    "sand": "#E8E4E0",
+                    "surface-container": "#1f1f1f",
+                    "tertiary-container": "#cba360",
+                    "inverse-surface": "#e2e2e2",
+                    "surface-bright": "#393939",
+                    "inverse-on-surface": "#303030",
+                    "primary-container": "#c8a55a",
+                    "charcoal": "#1F2933",
+                    "on-error-container": "#ffdad6",
+                    "on-primary": "#402d00",
+                    "secondary": "#c6c6c7",
+                    "on-secondary-fixed": "#1a1c1c",
+                    "on-tertiary": "#422c00",
+                    "secondary-container": "#454747",
+                    "surface-variant": "#353535",
+                    "on-background": "#e2e2e2",
+                    "primary-fixed-dim": "#e7c274",
+                    "surface": "#131313",
+                    "on-tertiary-fixed": "#271900",
+                    "surface-container-highest": "#353535"
+            },
+            "spacing": {
+                    "stack-sm": "1rem",
+                    "stack-md": "4rem",
+                    "gutter": "2rem",
+                    "container-max": "1280px",
+                    "section-py-mobile": "6rem",
+                    "section-py-desktop": "8rem"
+            },
+            "fontFamily": {
+                    "label-micro": ["Outfit"],
+                    "body-lg": ["Poppins"],
+                    "body-md": ["Poppins"],
+                    "headline-sm": ["Outfit"],
+                    "technical-data": ["JetBrains Mono"],
+                    "headline-lg-mobile": ["Outfit"],
+                    "headline-lg": ["Outfit"],
+                    "label-eyebrow": ["Outfit"],
+                    "headline-md": ["Outfit"]
+            },
+            "fontSize": {
+                    "label-micro": ["10px", {"lineHeight": "1.0", "letterSpacing": "0.2em", "fontWeight": "500"}],
+                    "body-lg": ["20px", {"lineHeight": "1.6", "fontWeight": "300"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-sm": ["24px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                    "technical-data": ["14px", {"lineHeight": "1.5", "letterSpacing": "0.05em", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["48px", {"lineHeight": "1.1", "fontWeight": "400"}],
+                    "headline-lg": ["88px", {"lineHeight": "1.05", "letterSpacing": "-0.02em", "fontWeight": "400"}],
+                    "label-eyebrow": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.3em", "fontWeight": "600"}],
+                    "headline-md": ["56px", {"lineHeight": "1.1", "fontWeight": "400"}]
+            }
+          },
+        },
+      }
+    </script>
+</head>
+<body class="bg-background text-on-background font-body-md selection:bg-primary selection:text-ink-black">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 h-16 bg-background/72 backdrop-blur-[18px] border-b border-white/10">
+<div class="flex justify-between items-center px-gutter max-w-container-max mx-auto w-full h-full">
+<div class="font-headline-sm text-headline-sm font-bold tracking-tighter text-on-surface uppercase">
+                BAZventures
+            </div>
+<div class="hidden md:flex items-center gap-8">
+<a class="text-primary border-b border-primary pb-1 font-bold font-label-eyebrow text-label-eyebrow transition-colors duration-300" href="#">Command</a>
+<a class="text-on-surface-variant font-label-eyebrow text-label-eyebrow hover:text-primary transition-colors duration-300" href="#">Engine</a>
+<a class="text-on-surface-variant font-label-eyebrow text-label-eyebrow hover:text-primary transition-colors duration-300" href="#">Gateway</a>
+<a class="text-on-surface-variant font-label-eyebrow text-label-eyebrow hover:text-primary transition-colors duration-300" href="#">Architecture</a>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden sm:flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-[20px]">terminal</span>
+<span class="material-symbols-outlined text-[20px]">notifications_active</span>
+</div>
+<button class="bg-primary text-on-primary-fixed px-6 py-2 font-label-eyebrow text-label-eyebrow font-bold uppercase tracking-widest">
+                    Deploy Alpha
+                </button>
+</div>
+</div>
+</nav>
+<main class="relative pt-16">
+<!-- Hero Section -->
+<section class="relative min-h-[90vh] flex flex-col justify-center items-center overflow-hidden border-b border-white/10 px-gutter">
+<div class="absolute inset-0 watermark-bg z-0"></div>
+<div class="relative z-10 max-w-container-max mx-auto text-center">
+<p class="font-label-eyebrow text-label-eyebrow text-primary uppercase mb-stack-sm tracking-[0.4em]">Operational Gateway V1.0</p>
+<h1 class="font-headline-lg-mobile md:text-headline-lg md:font-headline-lg uppercase mb-stack-sm leading-[0.9] tracking-tighter">
+                    Architecture <br/>of Alpha
+                </h1>
+<p class="max-w-2xl mx-auto font-body-lg text-body-lg text-on-surface-variant mb-stack-md px-4">
+                    We turn engineering credibility into revenue. BAZventures builds AI-driven growth systems for teams that demand technical precision.
+                </p>
+<div class="flex flex-col md:flex-row gap-4 justify-center">
+<button class="bg-primary text-on-primary-fixed px-10 py-4 font-label-eyebrow text-label-eyebrow font-bold uppercase tracking-widest">Execute Protocol</button>
+<button class="border border-primary text-primary px-10 py-4 font-label-eyebrow text-label-eyebrow font-bold uppercase tracking-widest">View Engine Logs</button>
+</div>
+</div>
+<!-- Stats Bar -->
+<div class="absolute bottom-0 left-0 w-full bg-surface-container-lowest border-t border-white/10 py-8">
+<div class="max-w-container-max mx-auto px-gutter grid grid-cols-2 md:grid-cols-4 gap-8">
+<div class="flex flex-col">
+<span class="font-technical-data text-technical-data text-stone uppercase">Managed Spend</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">$2.4B+</span>
+</div>
+<div class="flex flex-col">
+<span class="font-technical-data text-technical-data text-stone uppercase">Avg ROAS Increase</span>
+<span class="font-headline-sm text-headline-sm text-primary">+148%</span>
+</div>
+<div class="flex flex-col">
+<span class="font-technical-data text-technical-data text-stone uppercase">Nova AI Latency</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">12ms</span>
+</div>
+<div class="flex flex-col">
+<span class="font-technical-data text-technical-data text-stone uppercase">Core Pillars</span>
+<span class="font-headline-sm text-headline-sm text-on-surface">04</span>
+</div>
+</div>
+</div>
+</section>
+<!-- Capabilities Section -->
+<section class="py-section-py-mobile md:py-section-py-desktop max-w-container-max mx-auto px-gutter">
+<div class="flex flex-col md:flex-row justify-between items-end mb-stack-md border-l-2 border-primary pl-8">
+<div>
+<p class="font-label-eyebrow text-label-eyebrow text-primary uppercase mb-2">Technical Core</p>
+<h2 class="font-headline-md text-headline-md uppercase leading-none">Systematic <br/>Superiority</h2>
+</div>
+<div class="max-w-md hidden md:block text-right">
+<p class="font-technical-data text-technical-data text-on-surface-variant">
+                        Our proprietary stack operates at the intersection of quantitative analysis and generative infrastructure. No waste, only performance.
+                    </p>
+</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-0 border border-white/10">
+<!-- Cap 1 -->
+<div class="bg-charcoal p-10 border-r border-b lg:border-b-0 border-white/10 group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">dynamic_feed</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-4">Performance Loop</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Real-time bidding optimization powered by low-latency neural feedback loops.</p>
+</div>
+<!-- Cap 2 -->
+<div class="bg-charcoal p-10 border-r border-b lg:border-b-0 border-white/10 group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">insights</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-4">Nova AI Insights</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Pattern recognition across multi-billion dollar data sets for predictive scaling.</p>
+</div>
+<!-- Cap 3 -->
+<div class="bg-charcoal p-10 border-r border-b lg:border-b-0 border-white/10 group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">query_stats</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-4">Attribution Modeling</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Deterministic mapping of every conversion event to high-precision signal sources.</p>
+</div>
+<!-- Cap 4 -->
+<div class="bg-charcoal p-10 border-white/10 group">
+<span class="material-symbols-outlined text-primary text-4xl mb-6">architecture</span>
+<h3 class="font-headline-sm text-headline-sm uppercase text-on-surface mb-4">Creative Forge</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">Automated generative asset creation tested against rigid performance heuristics.</p>
+</div>
+</div>
+</section>
+<!-- Case Study Section -->
+<section class="bg-surface-container-low border-y border-white/10 overflow-hidden">
+<div class="max-w-container-max mx-auto px-gutter grid grid-cols-1 lg:grid-cols-12 min-h-[600px]">
+<div class="lg:col-span-5 py-section-py-mobile flex flex-col justify-center border-r border-white/10 lg:pr-12">
+<p class="font-label-eyebrow text-label-eyebrow text-primary uppercase mb-stack-sm tracking-[0.2em]">Featured Protocol Result</p>
+<h2 class="font-headline-md text-headline-md uppercase leading-[1.1] mb-8">Redefining the Luxury Automotive Digital Journey</h2>
+<div class="mb-10 space-y-4">
+<div class="flex justify-between items-center border-b border-white/10 pb-4">
+<span class="font-technical-data text-technical-data text-stone">Client</span>
+<span class="font-technical-data text-technical-data text-on-surface">Alpha One Motors</span>
+</div>
+<div class="flex justify-between items-center border-b border-white/10 pb-4">
+<span class="font-technical-data text-technical-data text-stone">KPI Lift</span>
+<span class="font-technical-data text-technical-data text-primary">+212% Efficiency</span>
+</div>
+<div class="flex justify-between items-center">
+<span class="font-technical-data text-technical-data text-stone">Status</span>
+<span class="font-technical-data text-technical-data text-on-surface">OPERATIONAL</span>
+</div>
+</div>
+<blockquote class="relative border-l-4 border-primary pl-8 py-4 italic text-on-surface-variant font-body-lg">
+                        "BAZ doesn’t just run ads; they architect growth systems."
+                        <footer class="mt-4 not-italic">
+<span class="font-technical-data text-technical-data text-on-surface font-bold uppercase">— Julian Draxler</span>
+</footer>
+</blockquote>
+</div>
+<div class="lg:col-span-7 relative bg-charcoal min-h-[400px]">
+<img class="absolute inset-0 w-full h-full object-cover grayscale brightness-75 hover:grayscale-0 transition-all duration-1000" data-alt="A cinematic, high-contrast shot of a sleek, black luxury sports car illuminated by sharp studio lights in a dark industrial hangar. The atmosphere is elite and technical, with visible carbon fiber details and a cool, clinical blue-and-gold ambient glow. The visual style is premium editorial photography, emphasizing precision engineering and architectural surfaces." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAj3zNAPmNdYnPwzr89sOcusDvenyyCzmG8RBpkX6PRV4omx8aP1ZlcTXwJaN0Mnpe6HxeV9z9LfU4hKtAWyfMhQoELcVd0BNhGc6rQB2vgeSaCRn9I_kpudoBhpHVzdYP5829XHDqylryco1LlzghajWIweNgloX0L8s0RWu2vRj23ee5UkRuhAI9HyhSoMzGFLr1plWgSroJtmzqC_OZgDvGqdWCwItn5KUaLbJQBS3acYhTsEka-"/>
+<div class="absolute inset-0 bg-gradient-to-r from-surface-container-low to-transparent lg:block hidden"></div>
+</div>
+</div>
+</section>
+<!-- Final CTA / Contact Area -->
+<section class="py-section-py-desktop relative overflow-hidden">
+<div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 watermark-bg w-full h-full opacity-[0.03]"></div>
+<div class="max-w-3xl mx-auto text-center px-gutter relative z-10">
+<h2 class="font-headline-md text-headline-md uppercase mb-8 leading-tight">Ready to Audit Your Infrastructure?</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mb-stack-md">
+                    We only partner with four new engineering-led teams per quarter. Request a system diagnostic to see if your architecture qualifies for the Alpha Protocol.
+                </p>
+<div class="flex flex-col sm:flex-row gap-4 items-center justify-center">
+<input class="bg-charcoal border border-white/20 text-on-surface font-technical-data text-technical-data px-6 py-4 w-full sm:w-80 focus:border-primary focus:ring-0 outline-none" placeholder="ENTER_HQ_EMAIL_ADDRESS" type="email"/>
+<button class="bg-primary text-on-primary-fixed px-8 py-4 font-label-eyebrow text-label-eyebrow font-bold uppercase tracking-widest whitespace-nowrap">Initialize Audit</button>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-background border-t border-white/10">
+<div class="max-w-container-max mx-auto px-gutter py-12 flex flex-col md:flex-row justify-between items-center">
+<div class="mb-8 md:mb-0">
+<div class="font-headline-sm text-headline-sm text-on-surface uppercase font-bold mb-2">BAZventures</div>
+<p class="font-label-micro text-label-micro text-stone">© 2024 BAZventures // Technical Marketing Protocol</p>
+</div>
+<div class="flex flex-wrap justify-center gap-8">
+<a class="font-label-micro text-label-micro text-stone hover:text-primary transition-colors uppercase" href="#">Privacy</a>
+<a class="font-label-micro text-label-micro text-stone hover:text-primary transition-colors uppercase" href="#">Terms</a>
+<a class="font-label-micro text-label-micro text-stone hover:text-primary transition-colors uppercase" href="#">API_DOCS</a>
+<a class="font-label-micro text-label-micro text-stone hover:text-primary transition-colors uppercase" href="#">System_Status</a>
+</div>
+<div class="mt-8 md:mt-0 flex gap-4">
+<span class="font-technical-data text-[10px] border border-white/10 px-2 py-1 text-stone">SSL: SECURED</span>
+<span class="font-technical-data text-[10px] border border-primary/40 px-2 py-1 text-primary">NODE: ACTIVE</span>
+</div>
+</div>
+</footer>
+<script>
+        // Micro-interaction: Smooth entrance for technical elements
+        document.addEventListener('DOMContentLoaded', () => {
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100');
+                        entry.target.classList.remove('translate-y-4');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('section > div').forEach(el => {
+                el.classList.add('transition-all', 'duration-700', 'opacity-0', 'translate-y-4');
+                observer.observe(el);
+            });
+        });
+    </script>
+</body></html>

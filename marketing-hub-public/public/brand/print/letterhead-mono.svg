@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2550 3300" width="2550" height="3300" fill="none">
+  <rect width="2550" height="3300" fill="#0a0a0d"/>
+  <rect x="89" y="89" width="2372" height="2" fill="#faf9fa" opacity="0.377"/>
+  
+    <rect x="89" y="144" width="2" height="68" rx="1" fill="#faf9fa" opacity="0.9"/>
+    <rect x="89" y="144" width="22" height="2" rx="1" fill="#faf9fa"/>
+    <rect x="89" y="166" width="22" height="2" rx="1" fill="#faf9fa"/>
+    <rect x="109" y="144" width="2" height="24" rx="1" fill="#faf9fa"/>
+    <path d="M 111 144 Q 125 144 125 156 Q 125 168 111 168" fill="#faf9fa"/>
+    <rect x="109" y="190" width="2" height="2" rx="1" fill="#faf9fa"/>
+    <path d="M 111 168 Q 128 168 128 186 Q 128 212 111 212" fill="#faf9fa" opacity="0.9"/>
+    <g transform="translate(133, 144)">
+      <path d="M 0 68 L 18 0 L 36 68 H 30 L 26 53 H 10 L 6 68 Z M 12 36 L 18 18 L 24 36 Z" fill="#faf9fa"/>
+    </g>
+    <g transform="translate(174, 144)">
+      <rect x="0" y="0" width="29" height="2" rx="1" fill="#faf9fa"/>
+      <rect x="0" y="66" width="29" height="2" rx="1" fill="#faf9fa"/>
+      <rect x="27" y="0" width="2" height="68" rx="1" fill="#faf9fa" opacity="0.6"/>
+      <line x1="0" y1="2" x2="27" y2="66" stroke="#faf9fa" stroke-width="2" stroke-linecap="round"/>
+    </g>
+  <rect x="89" y="3211" width="2372" height="2" fill="#faf9fa" opacity="0.377"/>
+</svg>

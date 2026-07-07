@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Nova AI | BAZ Ventures</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-secondary-fixed-variant": "#3e4853",
+                        "on-secondary-container": "#acb6c3",
+                        "on-secondary": "#27313c",
+                        "tertiary-container": "#a7aaad",
+                        "surface-container": "#192127",
+                        "tertiary": "#c4c7ca",
+                        "on-background": "#dbe3ec",
+                        "primary-fixed-dim": "#e7c274",
+                        "inverse-on-surface": "#293138",
+                        "background": "#0c141a",
+                        "on-surface-variant": "#d0c5b3",
+                        "tertiary-fixed": "#e0e3e6",
+                        "on-primary-fixed": "#261a00",
+                        "error-container": "#93000a",
+                        "surface-container-lowest": "#070f15",
+                        "surface-variant": "#2e363c",
+                        "primary": "#e7c274",
+                        "outline-variant": "#4d4638",
+                        "surface-container-highest": "#2e363c",
+                        "on-primary": "#402d00",
+                        "surface-tint": "#e7c274",
+                        "surface-dim": "#0c141a",
+                        "primary-fixed": "#ffdf9f",
+                        "primary-container": "#c8a55a",
+                        "outline": "#998f7f",
+                        "surface-container-low": "#151c23",
+                        "on-error-container": "#ffdad6",
+                        "on-tertiary-fixed": "#191c1e",
+                        "on-primary-container": "#513b00",
+                        "secondary-fixed-dim": "#bdc7d5",
+                        "surface-container-high": "#232b31",
+                        "on-error": "#690005",
+                        "secondary": "#bdc7d5",
+                        "tertiary-fixed-dim": "#c4c7ca",
+                        "on-tertiary-container": "#3b3f41",
+                        "secondary-fixed": "#d9e3f1",
+                        "surface-bright": "#323a41",
+                        "error": "#ffb4ab"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "4px",
+                        "lg": "4px",
+                        "xl": "4px",
+                        "full": "9999px"
+                    },
+                    "spacing": {
+                        "gutter": "24px",
+                        "section_padding": "64px",
+                        "container_gap": "16px",
+                        "margin_edge": "40px",
+                        "sidebar_width": "260px"
+                    },
+                    "fontFamily": {
+                        "data-display": ["JetBrains Mono"],
+                        "data-small": ["JetBrains Mono"],
+                        "headline-md": ["Outfit"],
+                        "headline-lg": ["Outfit"],
+                        "label-caps": ["Outfit"],
+                        "body-lg": ["Outfit"],
+                        "display-lg": ["Outfit"],
+                        "body-md": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "data-display": ["28px", {"lineHeight": "1", "fontWeight": "500"}],
+                        "data-small": ["14px", {"lineHeight": "1", "fontWeight": "400"}],
+                        "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                        "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                        "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}],
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .sidebar-scroll::-webkit-scrollbar {
+            width: 4px;
+        }
+        .sidebar-scroll::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .sidebar-scroll::-webkit-scrollbar-thumb {
+            background: #2d3748;
+            border-radius: 2px;
+        }
+        .glass-panel {
+            background: rgba(31, 41, 51, 0.7);
+            backdrop-filter: blur(20px);
+        }
+        .chat-input-container {
+            border-top: 1px solid #4d4638;
+        }
+        .bax-watermark {
+            pointer-events: none;
+            user-select: none;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-primary selection:text-on-primary">
+<!-- TopAppBar -->
+<header class="fixed top-0 z-50 flex justify-between items-center w-full px-margin_edge h-16 bg-surface dark:bg-surface border-b border-outline-variant">
+<div class="flex items-center gap-6">
+<span class="text-body-lg font-headline-lg font-bold text-on-surface tracking-tight">BAZ Ventures</span>
+<nav class="hidden lg:flex items-center gap-8">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-label-caps font-label-caps" href="#">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-label-caps font-label-caps" href="#">Methodology</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-label-caps font-label-caps" href="#">Insights</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-label-caps font-label-caps" href="#">Pricing</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative hidden sm:block">
+<input class="bg-surface-container-low border-outline-variant text-on-surface-variant text-body-md px-4 py-1.5 w-64 focus:border-primary outline-none transition-all" placeholder="Search..." type="text"/>
+<span class="material-symbols-outlined absolute right-3 top-1/2 -translate-y-1/2 text-on-surface-variant text-sm">search</span>
+</div>
+<button class="text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined">wb_sunny</span>
+</button>
+<button class="text-on-surface-variant hover:text-primary transition-colors relative">
+<span class="material-symbols-outlined">notifications</span>
+<span class="absolute top-0 right-0 w-2 h-2 bg-error rounded-full"></span>
+</button>
+<div class="w-8 h-8 bg-primary-container flex items-center justify-center font-bold text-on-primary-container text-xs cursor-pointer">
+                JD
+            </div>
+</div>
+</header>
+<!-- SideNavBar -->
+<aside class="fixed left-0 top-16 h-[calc(100vh-64px)] w-sidebar_width bg-surface-container-lowest dark:bg-surface-container-lowest border-r border-outline-variant flex flex-col py-gutter z-40">
+<div class="px-6 mb-8 flex flex-col gap-1">
+<span class="text-label-caps font-bold text-on-surface-variant opacity-50">COMMAND</span>
+<span class="text-body-md font-body-md text-on-surface font-semibold">Marketing Agency</span>
+</div>
+<nav class="flex-1 overflow-y-auto sidebar-scroll">
+<div class="space-y-1">
+<!-- Dashboard -->
+<a class="text-on-surface-variant hover:text-on-surface hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]">dashboard</span>
+<span class="text-label-caps font-label-caps">Dashboard</span>
+</a>
+<!-- Cockpit -->
+<a class="text-on-surface-variant hover:text-on-surface hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]">settings_input_component</span>
+<span class="text-label-caps font-label-caps">Cockpit</span>
+</a>
+<!-- Triangle Loop -->
+<a class="text-on-surface-variant hover:text-on-surface hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]">change_history</span>
+<span class="text-label-caps font-label-caps">Triangle Loop</span>
+</a>
+<!-- Nova AI (Active) -->
+<a class="bg-error text-on-error border-l-4 border-primary px-4 py-2 flex items-center gap-3 active:scale-[0.99] transition-all duration-150" href="#">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">smart_toy</span>
+<span class="text-label-caps font-label-caps">Nova AI</span>
+</a>
+<div class="mt-6 mb-2 px-4">
+<span class="text-label-caps font-bold text-on-surface-variant opacity-30 text-[10px]">GROW</span>
+</div>
+<a class="text-on-surface-variant hover:text-on-surface px-4 py-2 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined text-[20px]">bolt</span>
+<span class="text-label-caps font-label-caps">Sequences</span>
+</a>
+<a class="text-on-surface-variant hover:text-on-surface px-4 py-2 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined text-[20px]">query_stats</span>
+<span class="text-label-caps font-label-caps">Attribution</span>
+</a>
+<a class="text-on-surface-variant hover:text-on-surface px-4 py-2 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined text-[20px]">bar_chart</span>
+<span class="text-label-caps font-label-caps">Analytics</span>
+</a>
+<div class="mt-6 mb-2 px-4">
+<span class="text-label-caps font-bold text-on-surface-variant opacity-30 text-[10px]">INTEL</span>
+</div>
+<a class="text-on-surface-variant hover:text-on-surface px-4 py-2 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined text-[20px]">rss_feed</span>
+<span class="text-label-caps font-label-caps">The Wire</span>
+</a>
+<a class="text-on-surface-variant hover:text-on-surface px-4 py-2 flex items-center gap-3" href="#">
+<span class="material-symbols-outlined text-[20px]">explore</span>
+<span class="text-label-caps font-label-caps">Marketing Dive</span>
+</a>
+</div>
+</nav>
+<div class="mt-auto border-t border-outline-variant pt-4 px-4">
+<a class="text-on-surface-variant hover:text-on-surface px-2 py-2 flex items-center gap-3 mb-2" href="#">
+<span class="material-symbols-outlined text-[20px]">settings</span>
+<span class="text-label-caps font-label-caps">Settings</span>
+</a>
+<div class="flex items-center gap-3 px-2 py-2">
+<div class="w-8 h-8 bg-surface-variant border border-outline-variant flex items-center justify-center">
+<span class="material-symbols-outlined text-sm">support_agent</span>
+</div>
+<div class="flex flex-col">
+<span class="text-[10px] font-label-caps text-on-surface-variant uppercase">Support</span>
+<span class="text-data-small font-data-small text-primary">Connected</span>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="ml-sidebar_width mt-16 min-h-[calc(100vh-64px)] flex flex-col relative overflow-hidden">
+<!-- BAZ Watermark Background -->
+<div class="absolute inset-0 flex items-center justify-center bax-watermark overflow-hidden">
+<span class="text-[40vw] font-black text-on-surface opacity-[0.04] leading-none select-none">BAZ</span>
+</div>
+<section class="flex-1 flex flex-col items-center justify-center px-margin_edge relative z-10 py-section_padding">
+<div class="max-w-3xl w-full text-center mb-12">
+<div class="inline-flex items-center gap-2 mb-6 px-4 py-2 bg-primary-container/10 border border-primary/20">
+<span class="material-symbols-outlined text-primary text-sm" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<span class="text-label-caps font-label-caps text-primary">NOVA COMMAND v2.4</span>
+</div>
+<h1 class="font-display-lg text-display-lg text-on-surface tracking-tight mb-8">What should I work on this week?</h1>
+<div class="flex flex-wrap justify-center gap-3 mb-12">
+<button class="bg-surface-container-high hover:bg-surface-variant border border-outline-variant text-on-surface-variant hover:text-primary transition-all px-6 py-3 flex items-center gap-3 text-label-caps font-label-caps group">
+<span class="material-symbols-outlined text-sm group-hover:scale-110 transition-transform">analytics</span>
+                        What's my win rate?
+                    </button>
+<button class="bg-surface-container-high hover:bg-surface-variant border border-outline-variant text-on-surface-variant hover:text-primary transition-all px-6 py-3 flex items-center gap-3 text-label-caps font-label-caps group">
+<span class="material-symbols-outlined text-sm group-hover:scale-110 transition-transform">event_note</span>
+                        Show me this week's digest
+                    </button>
+<button class="bg-surface-container-high hover:bg-surface-variant border border-outline-variant text-on-surface-variant hover:text-primary transition-all px-6 py-3 flex items-center gap-3 text-label-caps font-label-caps group">
+<span class="material-symbols-outlined text-sm group-hover:scale-110 transition-transform">trending_up</span>
+                        Predict Q4 performance
+                    </button>
+<button class="bg-surface-container-high hover:bg-surface-variant border border-outline-variant text-on-surface-variant hover:text-primary transition-all px-6 py-3 flex items-center gap-3 text-label-caps font-label-caps group">
+<span class="material-symbols-outlined text-sm group-hover:scale-110 transition-transform">bug_report</span>
+                        Audit attribution gaps
+                    </button>
+</div>
+</div>
+<!-- Bento Contextual Data (Briefing) -->
+<div class="max-w-5xl w-full grid grid-cols-1 md:grid-cols-3 gap-container_gap mb-24 opacity-80 hover:opacity-100 transition-opacity">
+<div class="bg-surface-container-low border border-outline-variant p-6">
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-caps font-label-caps text-on-surface-variant">PIPELINE VELOCITY</span>
+<span class="material-symbols-outlined text-primary">speed</span>
+</div>
+<div class="text-data-display font-data-display text-on-surface mb-2">0.43<span class="text-body-md"> wins/day</span></div>
+<div class="text-data-small font-data-small text-error">-4% from last week</div>
+</div>
+<div class="bg-surface-container-low border border-outline-variant p-6">
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-caps font-label-caps text-on-surface-variant">ACTIVE SEQUENCES</span>
+<span class="material-symbols-outlined text-primary">bolt</span>
+</div>
+<div class="text-data-display font-data-display text-on-surface mb-2">68</div>
+<div class="text-data-small font-data-small text-primary">+12 new entries</div>
+</div>
+<div class="bg-surface-container-low border border-outline-variant p-6">
+<div class="flex items-center justify-between mb-4">
+<span class="text-label-caps font-label-caps text-on-surface-variant">HUB STATUS</span>
+<span class="material-symbols-outlined text-primary">online_prediction</span>
+</div>
+<div class="text-data-display font-data-display text-primary mb-2">WARMING</div>
+<div class="text-data-small font-data-small text-on-surface-variant">Triangle loop active</div>
+</div>
+</div>
+</section>
+<!-- Persistent Floating Input -->
+<div class="fixed bottom-0 left-sidebar_width right-0 px-margin_edge pb-margin_edge z-30">
+<div class="max-w-4xl mx-auto glass-panel border border-outline-variant p-4 shadow-2xl">
+<div class="flex items-end gap-4">
+<div class="flex-1 relative">
+<textarea class="w-full bg-surface-container-lowest border-none focus:ring-0 text-on-surface font-body-md py-3 px-4 resize-none placeholder:text-on-surface-variant/40" placeholder="Type a command or ask Nova for insights..." rows="1" style="min-height: 48px;"></textarea>
+</div>
+<div class="flex items-center gap-2 mb-1.5">
+<button class="w-10 h-10 flex items-center justify-center text-on-surface-variant hover:text-primary transition-colors">
+<span class="material-symbols-outlined">attach_file</span>
+</button>
+<button class="bg-primary text-on-primary px-6 h-10 font-label-caps text-label-caps flex items-center gap-2 hover:bg-primary-fixed-dim transition-colors">
+                            EXECUTE
+                            <span class="material-symbols-outlined text-sm">send</span>
+</button>
+</div>
+</div>
+<div class="mt-2 flex items-center gap-4 px-1">
+<div class="flex items-center gap-2">
+<span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>
+<span class="text-data-small font-data-small text-on-surface-variant">Nova is online</span>
+</div>
+<div class="h-3 w-[1px] bg-outline-variant"></div>
+<span class="text-data-small font-data-small text-on-surface-variant/60">Press ⌘+K for rapid commands</span>
+</div>
+</div>
+</div>
+</main>
+<!-- Footer -->
+<footer class="ml-sidebar_width flex justify-between items-center px-margin_edge py-4 w-full bg-surface-container dark:bg-surface-container border-t border-outline-variant text-on-surface-variant text-data-small font-data-small">
+<p>© 2024 BAZ Ventures. All rights reserved.</p>
+<div class="flex gap-6">
+<a class="hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="hover:text-primary transition-colors" href="#">Terms of Service</a>
+<span class="text-primary flex items-center gap-2">
+<span class="w-1.5 h-1.5 bg-primary rounded-full"></span>
+                Status: Operational
+            </span>
+</div>
+</footer>
+<script>
+        // Micro-interaction for the textarea auto-resize
+        const textarea = document.querySelector('textarea');
+        textarea.addEventListener('input', function() {
+            this.style.height = 'auto';
+            this.style.height = (this.scrollHeight) + 'px';
+        });
+
+        // Atmospheric mouse glow effect on bento cards
+        document.addEventListener('mousemove', (e) => {
+            const cards = document.querySelectorAll('.bg-surface-container-low');
+            cards.forEach(card => {
+                const rect = card.getBoundingClientRect();
+                const x = e.clientX - rect.left;
+                const y = e.clientY - rect.top;
+                card.style.setProperty('--mouse-x', `${x}px`);
+                card.style.setProperty('--mouse-y', `${y}px`);
+            });
+        });
+    </script>
+</body></html>

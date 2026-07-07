@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" fill="none">
+  <!-- BAZ Shimmer Texture — for headers, hero sections, luxury accents
+       Diagonal lines with golden-ratio opacity progression
+  -->
+  <defs>
+    <pattern id="baz-shimmer" x="0" y="0" width="8" height="400" patternUnits="userSpaceOnUse" patternTransform="rotate(-15)">
+      <line x1="0" y1="0" x2="0" y2="400" stroke="#b87adb" stroke-width="0.5" opacity="0.055"/>
+    </pattern>
+    <linearGradient id="shimmer-fade" x1="0" y1="0" x2="400" y2="400" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#b87adb" stop-opacity="0"/>
+      <stop offset="38.2%" stop-color="#b87adb" stop-opacity="0.04"/>
+      <stop offset="61.8%" stop-color="#b87adb" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#b87adb" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#baz-shimmer)"/>
+  <rect width="400" height="400" fill="url(#shimmer-fade)"/>
+</svg>

@@ -3,12 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Æther — Algorithmic Brand System</title>
-  <meta name="description" content="One seed. Infinite consistency. Every color, shadow, and spacing value computed from three CSS variables. Zero runtime.">
+  <title>Æther — Algorithmic Brand System | Zero-JS CSS Design Tokens</title>
+  <meta name="description" content="Æther is an open-source algorithmic brand system: three CSS variables generate 254 design tokens, 18 components, and every shadow. Zero JavaScript, zero build step — the cascade is the algorithm.">
+  <meta name="robots" content="index,follow">
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0b0b0b" media="(prefers-color-scheme: dark)">
   <meta property="og:title" content="Æther — Algorithmic Brand System">
-  <meta property="og:description" content="Change three CSS variables. Rebrand everything.">
+  <meta property="og:description" content="Three CSS variables. 254 derived tokens. Rebrand everything by changing one seed.">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Æther — Algorithmic Brand System">
+  <meta name="twitter:description" content="Three CSS variables. 254 derived tokens. Zero JavaScript. The cascade is the algorithm.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "SoftwareApplication",
+    "name": "Æther",
+    "applicationCategory": "DesignApplication",
+    "operatingSystem": "Any (web)",
+    "description": "Open-source algorithmic brand system. Three CSS variables derive 254 design tokens and 18 components. Zero JavaScript, zero build step.",
+    "offers": { "@type": "Offer", "price": "0", "priceCurrency": "USD" },
+    "featureList": ["Algorithmic token derivation", "Automatic dark mode", "WCAG AA accessibility", "Print-ready", "Zero runtime"]
+  }
+  </script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
@@ -286,6 +303,7 @@
         <a href="showcase.html" class="btn btn--primary btn--lg">Explore Showcase</a>
         <a href="#code" class="btn btn--outline btn--lg">See the Code</a>
       </div>
+      <p class="hero__trust" style="margin-top:var(--space-5);font-size:var(--text-sm);color:var(--fg-subtle);font-family:var(--font-mono);">Free &amp; open-source · MIT · zero dependencies · no build step</p>
     </section>
 
     <section class="section">
@@ -619,9 +637,7 @@
         </a>
         <p class="footer__tagline">Algorithmically extracted brand assets from the shared UI aether. One seed, infinite consistency.</p>
         <div class="footer__social">
-          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="GitHub" aria-label="GitHub">⌥</a>
-          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="Twitter" aria-label="Twitter">✦</a>
-          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="Dribbble" aria-label="Dribbble">◉</a>
+          <a href="https://github.com/brahimamirzerbout/baz-empire" class="footer__social-link" title="GitHub" aria-label="GitHub" rel="noopener">⌥</a>
         </div>
       </div>
       <div class="footer__column">
@@ -718,8 +734,10 @@
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           navLinks.forEach(link => {
-            link.classList.toggle('header__link--active',
-              link.getAttribute('href') === '#' + entry.target.id);
+            const active = link.getAttribute('href') === '#' + entry.target.id;
+            link.classList.toggle('header__link--active', active);
+            if (active) link.setAttribute('aria-current', 'true');
+            else link.removeAttribute('aria-current');
           });
         }
       });

@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Triangle Loop | BAZ Ventures</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "on-tertiary-fixed-variant": "#3b4854",
+                        "inverse-primary": "#765a16",
+                        "tertiary-fixed": "#d6e4f3",
+                        "on-primary-fixed": "#261a00",
+                        "on-tertiary-container": "#33404c",
+                        "secondary": "#bdc7d5",
+                        "on-tertiary-fixed": "#101d28",
+                        "on-secondary-fixed-variant": "#3e4853",
+                        "on-background": "#e0e3e6",
+                        "surface-bright": "#363a3c",
+                        "primary-container": "#c8a55a",
+                        "surface-variant": "#323538",
+                        "tertiary": "#bac8d7",
+                        "error": "#ffb4ab",
+                        "surface-container-low": "#191c1e",
+                        "tertiary-fixed-dim": "#bac8d7",
+                        "surface": "#101416",
+                        "primary-fixed-dim": "#e7c274",
+                        "outline-variant": "#4d4638",
+                        "surface-container": "#1d2022",
+                        "secondary-container": "#3e4853",
+                        "on-tertiary": "#25323d",
+                        "on-primary-container": "#513b00",
+                        "inverse-surface": "#e0e3e6",
+                        "surface-container-highest": "#323538",
+                        "primary-fixed": "#ffdf9f",
+                        "error-container": "#93000a",
+                        "primary": "#e7c274",
+                        "on-secondary-container": "#acb6c3",
+                        "on-secondary-fixed": "#121d26",
+                        "outline": "#998f7f",
+                        "surface-tint": "#e7c274",
+                        "surface-container-lowest": "#0b0f11",
+                        "on-secondary": "#27313c",
+                        "secondary-fixed-dim": "#bdc7d5",
+                        "background": "#101416",
+                        "secondary-fixed": "#d9e3f1",
+                        "on-error-container": "#ffdad6",
+                        "on-primary": "#402d00",
+                        "on-surface-variant": "#d0c5b3",
+                        "on-error": "#690005",
+                        "on-surface": "#e0e3e6",
+                        "surface-dim": "#101416",
+                        "tertiary-container": "#9eabba",
+                        "surface-container-high": "#272a2d",
+                        "on-primary-fixed-variant": "#5b4300",
+                        "inverse-on-surface": "#2d3133"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "unit": "4px",
+                        "gutter": "24px",
+                        "margin_mobile": "16px",
+                        "sidebar_width": "260px",
+                        "margin_desktop": "40px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Outfit"],
+                        "body-sm": ["Poppins"],
+                        "body-md": ["Poppins"],
+                        "headline-lg-mobile": ["Outfit"],
+                        "label-caps": ["Outfit"],
+                        "headline-sm": ["Outfit"],
+                        "headline-lg": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "body-sm": ["12px", {"lineHeight": "20px", "fontWeight": "400"}],
+                        "body-md": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                        "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "500"}],
+                        "label-caps": ["11px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                        "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "500"}],
+                        "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+        }
+        .node-pulse {
+            animation: pulse 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 0.3; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.05); }
+        }
+        .connection-line {
+            stroke-dasharray: 8;
+            animation: dash 30s linear infinite;
+        }
+        @keyframes dash {
+            to { stroke-dashoffset: -1000; }
+        }
+        .ghost-watermark {
+            position: absolute;
+            font-size: 20rem;
+            font-weight: 900;
+            color: #ffffff;
+            opacity: 0.02;
+            pointer-events: none;
+            z-index: 0;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            letter-spacing: -0.05em;
+        }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #0b0f11; }
+        ::-webkit-scrollbar-thumb { background: #323538; border-radius: 2px; }
+        
+        .architectural-shadow {
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+        }
+    </style>
+</head>
+<body class="bg-background text-on-surface font-body-md selection:bg-primary/30">
+<!-- Top Navigation -->
+<header class="bg-surface/90 backdrop-blur-xl border-b border-white/5 fixed top-0 z-50 w-full flex justify-between items-center px-margin_desktop h-20">
+<div class="flex items-center gap-10">
+<div class="font-display-lg text-[24px] font-bold tracking-tight text-white">BAZ <span class="font-light text-primary">Ventures</span></div>
+<nav class="hidden md:flex gap-8 items-center h-full">
+<a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-white transition-colors" href="#">Services</a>
+<a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-white transition-colors" href="#">Marketing Hub</a>
+<a class="font-label-caps text-label-caps uppercase text-primary border-b border-primary/50 pb-1" href="#">Hub Dashboard</a>
+<a class="font-label-caps text-label-caps uppercase text-on-surface-variant hover:text-white transition-colors" href="#">Methodology</a>
+</nav>
+</div>
+<div class="flex items-center gap-6">
+<div class="hidden lg:flex items-center bg-surface-container-highest/30 border border-white/5 px-4 py-2 rounded">
+<span class="material-symbols-outlined text-[18px] mr-2 text-on-surface-variant" data-icon="search">search</span>
+<span class="text-[11px] font-label-caps uppercase text-on-surface-variant">Search...</span>
+</div>
+<button class="bg-primary text-on-primary px-8 py-2.5 rounded-sm font-label-caps uppercase tracking-[0.2em] hover:bg-primary-fixed-dim transition-colors">Talk to us</button>
+</div>
+</header>
+<div class="flex pt-20 h-screen overflow-hidden">
+<!-- Sidebar Navigation -->
+<aside class="bg-surface-container-lowest border-r border-white/5 w-sidebar_width hidden lg:flex flex-col py-8 px-6 gap-2 shrink-0">
+<div class="mb-10">
+<h3 class="font-headline-sm text-primary text-sm font-bold uppercase tracking-widest">Command</h3>
+<p class="text-[10px] uppercase tracking-[0.3em] text-on-surface-variant opacity-40 mt-1">Marketing Ops</p>
+</div>
+<div class="space-y-1">
+<a class="flex items-center gap-4 px-4 py-3 rounded text-on-surface-variant hover:text-white hover:bg-surface-container-high transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary" data-icon="dashboard">dashboard</span>
+<span class="font-label-caps uppercase text-[12px]">Dashboard</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 rounded text-on-surface-variant hover:text-white hover:bg-surface-container-high transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary" data-icon="speed">speed</span>
+<span class="font-label-caps uppercase text-[12px]">Cockpit</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 rounded bg-surface-container-high text-primary border-r-2 border-primary group" href="#">
+<span class="material-symbols-outlined text-[20px]" data-icon="cyclone">cyclone</span>
+<span class="font-label-caps uppercase text-[12px]">Triangle Loop</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 rounded text-on-surface-variant hover:text-white hover:bg-surface-container-high transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary" data-icon="psychology">psychology</span>
+<span class="font-label-caps uppercase text-[12px]">Nova AI</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 rounded text-on-surface-variant hover:text-white hover:bg-surface-container-high transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary" data-icon="account_tree">account_tree</span>
+<span class="font-label-caps uppercase text-[12px]">Sequences</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-3 rounded text-on-surface-variant hover:text-white hover:bg-surface-container-high transition-all group" href="#">
+<span class="material-symbols-outlined text-[20px] group-hover:text-primary" data-icon="analytics">analytics</span>
+<span class="font-label-caps uppercase text-[12px]">Attribution</span>
+</a>
+</div>
+<div class="mt-auto pt-8 border-t border-white/5">
+<a class="flex items-center gap-4 px-4 py-2 text-on-surface-variant hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-[18px]" data-icon="settings">settings</span>
+<span class="font-label-caps uppercase text-[11px]">Settings</span>
+</a>
+<a class="flex items-center gap-4 px-4 py-2 text-on-surface-variant hover:text-primary transition-all" href="#">
+<span class="material-symbols-outlined text-[18px]" data-icon="help_outline">help_outline</span>
+<span class="font-label-caps uppercase text-[11px]">Support</span>
+</a>
+<button class="w-full mt-6 bg-surface-container border border-white/5 text-primary py-3 text-[10px] font-bold uppercase tracking-[0.2em] rounded hover:bg-primary hover:text-on-primary transition-all">Open full Hub</button>
+</div>
+</aside>
+<!-- Main Content Canvas -->
+<main class="flex-1 overflow-y-auto relative bg-background scroll-smooth">
+<div class="ghost-watermark">ARCH</div>
+<div class="max-w-[1400px] mx-auto px-margin_desktop py-12 relative z-10 w-full">
+<!-- Header Section -->
+<div class="flex flex-col lg:flex-row justify-between items-start lg:items-end mb-16 gap-8">
+<div>
+<div class="flex items-center gap-4 mb-6">
+<span class="material-symbols-outlined text-primary text-2xl" data-icon="show_chart">show_chart</span>
+<div class="h-px w-12 bg-primary/30"></div>
+<span class="font-label-caps text-primary uppercase tracking-[0.4em]">Autonomous Loop</span>
+</div>
+<h1 class="font-display-lg text-[64px] leading-tight mb-4 text-white">Triangle Loop</h1>
+<p class="font-body-md text-on-surface-variant max-w-2xl text-[16px] leading-relaxed opacity-80">
+                        Continuous data synchronization between Marketing and Sales, mediated by Nova AI reasoning engines. System architecture runs on a 60-second synchronous tick.
+                    </p>
+</div>
+<div class="flex items-center gap-8 bg-surface-container-low p-6 border border-white/5 rounded">
+<div class="flex flex-col items-end">
+<span class="text-[10px] text-on-surface-variant uppercase tracking-[0.3em] mb-1">System Integrity</span>
+<span class="text-primary font-display-lg text-2xl leading-none">99.8%</span>
+</div>
+<button class="bg-white text-black px-10 py-5 flex items-center gap-4 rounded-sm font-label-caps uppercase tracking-[0.2em] hover:bg-primary-fixed transition-all active:scale-95 shadow-2xl">
+<span class="material-symbols-outlined" data-icon="play_arrow">play_arrow</span>
+                        Run tick
+                    </button>
+</div>
+</div>
+<!-- Bento Grid Visualization Area -->
+<div class="grid grid-cols-12 gap-gutter">
+<!-- Main Diagram Area -->
+<div class="col-span-12 bg-black border border-white/10 rounded overflow-hidden relative min-h-[650px] flex items-center justify-center architectural-shadow">
+<!-- Architectural Grid Overlay -->
+<div class="absolute inset-0 opacity-[0.03] pointer-events-none" style="background-image: radial-gradient(circle, #fff 1px, transparent 1px); background-size: 40px 40px;"></div>
+<!-- SVG Node Diagram -->
+<svg class="w-full max-w-4xl relative z-20" viewbox="0 0 800 500">
+<defs>
+<filter id="glow">
+<fegaussianblur result="coloredBlur" stddeviation="3.5"></fegaussianblur>
+<femerge>
+<femergenode in="coloredBlur"></femergenode>
+<femergenode in="SourceGraphic"></femergenode>
+</femerge>
+</filter>
+</defs>
+<!-- Connection Lines -->
+<path class="connection-line" d="M400 80 L620 380" fill="none" filter="url(#glow)" stroke="#e7c274" stroke-width="1.5"></path>
+<path class="connection-line" d="M620 380 L180 380" fill="none" filter="url(#glow)" stroke="#e7c274" stroke-width="1.5"></path>
+<path class="connection-line" d="M180 380 L400 80" fill="none" filter="url(#glow)" stroke="#e7c274" stroke-width="1.5"></path>
+<!-- Dashed Internal Logic Lines -->
+<line stroke="#323538" stroke-dasharray="4" stroke-width="1" x1="400" x2="400" y1="80" y2="380"></line>
+<!-- Nodes -->
+<g transform="translate(400, 80)">
+<circle class="node-pulse" fill="#000" r="48" stroke="#e7c274" stroke-width="1"></circle>
+<circle fill="transparent" r="40" stroke="#e7c274" stroke-dasharray="2 4" stroke-width="0.5"></circle>
+<text class="font-label-caps uppercase tracking-widest text-[10px]" dy="5" fill="#fff" text-anchor="middle">Marketing</text>
+</g>
+<g transform="translate(620, 380)">
+<circle fill="#000" r="48" stroke="#e7c274" stroke-width="1"></circle>
+<circle fill="transparent" r="40" stroke="#e7c274" stroke-dasharray="2 4" stroke-width="0.5"></circle>
+<text class="font-label-caps uppercase tracking-widest text-[10px]" dy="5" fill="#fff" text-anchor="middle">Sales</text>
+</g>
+<g transform="translate(180, 380)">
+<circle fill="#000" filter="url(#glow)" r="48" stroke="#e7c274" stroke-width="1"></circle>
+<circle fill="transparent" r="40" stroke="#e7c274" stroke-dasharray="2 4" stroke-width="0.5"></circle>
+<text class="font-label-caps uppercase tracking-widest text-[10px]" dy="5" fill="#e7c274" text-anchor="middle">Nova</text>
+</g>
+<!-- Labels -->
+<text class="text-[8px] font-label-caps uppercase tracking-[0.3em]" fill="#998f7f" transform="rotate(50, 520, 220)" x="520" y="220">score → route</text>
+<text class="text-[8px] font-label-caps uppercase tracking-[0.3em]" fill="#998f7f" transform="rotate(-50, 280, 220)" x="280" y="220">reason → act</text>
+<text class="text-[9px] font-bold font-label-caps uppercase tracking-[0.5em]" fill="#e7c274" x="412" y="280">step</text>
+</svg>
+<!-- Status Label -->
+<div class="absolute bottom-10 left-10 flex items-center gap-6 bg-black/60 backdrop-blur-md px-6 py-3 border border-white/10 rounded">
+<div class="flex items-center gap-3">
+<div class="w-1.5 h-1.5 rounded-full bg-primary animate-pulse shadow-[0_0_10px_#e7c274]"></div>
+<span class="text-[10px] font-label-caps uppercase tracking-[0.2em] text-on-surface">Live Sync Active</span>
+</div>
+<div class="h-4 w-px bg-white/10"></div>
+<span class="text-[10px] font-label-caps uppercase tracking-[0.2em] text-on-surface-variant">Last Tick: 42s ago</span>
+</div>
+</div>
+<!-- Description Cards -->
+<div class="col-span-12 md:col-span-4 bg-surface-container-low border border-white/5 p-10 rounded hover:border-primary/40 transition-all group architectural-shadow">
+<div class="flex items-center justify-between mb-8">
+<h3 class="font-headline-sm text-white uppercase tracking-widest">01 / Score</h3>
+<span class="material-symbols-outlined text-primary/20 group-hover:text-primary transition-colors" data-icon="filter_alt">filter_alt</span>
+</div>
+<p class="text-on-surface-variant font-body-md text-sm mb-8 leading-relaxed">
+                        Touchpoint weight + recency + channel mix processed by Nova reasoning. Every lead receives a normalized 0-100 score updated every tick.
+                    </p>
+<div class="flex gap-4">
+<div class="flex-1 border-t border-white/10 pt-3">
+<span class="block text-[10px] uppercase text-on-surface-variant mb-1">Recency</span>
+<span class="font-bold text-primary text-xs">40%</span>
+</div>
+<div class="flex-1 border-t border-white/10 pt-3">
+<span class="block text-[10px] uppercase text-on-surface-variant mb-1">Volume</span>
+<span class="font-bold text-primary text-xs">60%</span>
+</div>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4 bg-surface-container-low border border-white/5 p-10 rounded hover:border-primary/40 transition-all group architectural-shadow">
+<div class="flex items-center justify-between mb-8">
+<h3 class="font-headline-sm text-white uppercase tracking-widest">02 / Route</h3>
+<span class="material-symbols-outlined text-primary/20 group-hover:text-primary transition-colors" data-icon="account_tree">account_tree</span>
+</div>
+<p class="text-on-surface-variant font-body-md text-sm mb-8 leading-relaxed">
+                        High-intent leads are auto-enrolled into sequence pairs. Nova determines the optimal SDR personality pairing based on lead firmographics.
+                    </p>
+<div class="flex gap-4">
+<div class="flex-1 border-t border-white/10 pt-3">
+<span class="block text-[10px] uppercase text-on-surface-variant mb-1">Type</span>
+<span class="font-bold text-primary text-xs">Dynamic AI</span>
+</div>
+<div class="flex-1 border-t border-white/10 pt-3">
+<span class="block text-[10px] uppercase text-on-surface-variant mb-1">Load Balance</span>
+<span class="font-bold text-primary text-xs">Active</span>
+</div>
+</div>
+</div>
+<div class="col-span-12 md:col-span-4 bg-surface-container-low border border-white/5 p-10 rounded hover:border-primary/40 transition-all group architectural-shadow">
+<div class="flex items-center justify-between mb-8">
+<h3 class="font-headline-sm text-white uppercase tracking-widest">03 / Step</h3>
+<span class="material-symbols-outlined text-primary/20 group-hover:text-primary transition-colors" data-icon="forward">forward</span>
+</div>
+<p class="text-on-surface-variant font-body-md text-sm mb-8 leading-relaxed">
+                        Continuous progression logic. Reply events trigger immediate sequence pauses. Meetings booked promote CRM lifecycle stages in real-time.
+                    </p>
+<div class="flex gap-4">
+<div class="flex-1 border-t border-white/10 pt-3">
+<span class="block text-[10px] uppercase text-on-surface-variant mb-1">Automation</span>
+<span class="font-bold text-primary text-xs">100%</span>
+</div>
+<div class="flex-1 border-t border-white/10 pt-3">
+<span class="block text-[10px] uppercase text-on-surface-variant mb-1">Feedback</span>
+<span class="font-bold text-primary text-xs">Circular</span>
+</div>
+</div>
+</div>
+<!-- Secondary Row -->
+<div class="col-span-12 md:col-span-6 bg-surface-container-low/50 border border-white/5 p-10 rounded opacity-60 hover:opacity-100 transition-all architectural-shadow">
+<h3 class="font-headline-sm text-white uppercase tracking-widest mb-6">04 / Close &amp; Cleanup</h3>
+<p class="text-on-surface-variant font-body-md text-sm leading-relaxed max-w-lg">
+                        Probabilistic closing logic for high-confidence deals. Stale leads are purged at the 45-day mark to maintain pipeline hygiene and reporting accuracy.
+                    </p>
+</div>
+<div class="col-span-12 md:col-span-6 bg-white p-10 rounded hover:bg-primary transition-all cursor-pointer group flex items-center justify-between shadow-2xl">
+<div class="max-w-md">
+<h3 class="font-headline-sm text-black uppercase tracking-widest mb-4 font-bold">Methodology Whitepaper</h3>
+<p class="text-black/70 font-body-md text-sm leading-relaxed">
+                            Deep dive into the architectural principles of the Triangle Loop and how we scale B2B outbound performance.
+                        </p>
+</div>
+<span class="material-symbols-outlined text-black text-5xl group-hover:translate-x-4 transition-transform" data-icon="arrow_right_alt">arrow_right_alt</span>
+</div>
+</div>
+</div>
+<!-- Footer Section -->
+<footer class="bg-surface-container-lowest border-t border-white/5 w-full mt-32">
+<div class="flex flex-col md:flex-row justify-between items-center px-margin_desktop py-12 w-full max-w-[1400px] mx-auto">
+<div class="mb-8 md:mb-0">
+<div class="font-display-lg text-[20px] font-bold text-white mb-2">BAZ <span class="font-light text-primary">Ventures</span></div>
+<p class="font-body-sm text-[11px] text-on-surface-variant uppercase tracking-[0.2em]">© 2024 Architectural Monograph System</p>
+</div>
+<div class="flex flex-wrap justify-center gap-10">
+<a class="font-label-caps text-[11px] uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors" href="#">Privacy</a>
+<a class="font-label-caps text-[11px] uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors" href="#">Terms</a>
+<a class="font-label-caps text-[11px] uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors" href="#">System Status</a>
+<a class="font-label-caps text-[11px] uppercase tracking-widest text-on-surface-variant hover:text-white transition-colors" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</main>
+</div>
+<!-- Floating Cookie Consent -->
+<div class="fixed bottom-10 right-10 z-[100] bg-white text-black p-10 max-w-sm rounded shadow-[0_20px_50px_rgba(0,0,0,0.8)] border border-black/5 transform transition-all duration-700" id="cookie-consent">
+<div class="flex items-center gap-4 mb-6">
+<span class="material-symbols-outlined text-primary" data-icon="cookie">cookie</span>
+<h4 class="font-display-lg text-lg font-bold uppercase tracking-widest">Privacy Framework</h4>
+</div>
+<p class="text-sm text-black/70 leading-relaxed mb-8">
+        We utilize first-party architectural telemetry to optimize the interface. No third-party surveillance is implemented.
+    </p>
+<div class="flex gap-4">
+<button class="flex-1 bg-black text-white px-6 py-4 rounded-sm text-[11px] font-bold uppercase tracking-widest hover:bg-gray-900 transition-colors" onclick="document.getElementById('cookie-consent').classList.add('opacity-0', 'translate-y-10', 'pointer-events-none')">Acknowledge</button>
+<button class="flex-1 border border-black/10 px-6 py-4 rounded-sm text-[11px] font-bold uppercase tracking-widest hover:bg-black/5 transition-colors" onclick="document.getElementById('cookie-consent').classList.add('opacity-0', 'translate-y-10', 'pointer-events-none')">Decline</button>
+</div>
+</div>
+<script>
+    // Visual Node Interactions
+    document.querySelectorAll('circle').forEach(circle => {
+        circle.addEventListener('mouseenter', () => {
+            circle.style.strokeWidth = '2px';
+            circle.style.filter = 'drop-shadow(0 0 10px #e7c274)';
+        });
+        circle.addEventListener('mouseleave', () => {
+            circle.style.strokeWidth = '1px';
+            circle.style.filter = 'none';
+        });
+    });
+
+    // Scroll Header Shadow
+    window.addEventListener('scroll', () => {
+        const header = document.querySelector('header');
+        if (window.scrollY > 10) {
+            header.classList.add('shadow-2xl', 'bg-surface/95');
+        } else {
+            header.classList.remove('shadow-2xl', 'bg-surface/95');
+        }
+    });
+</script>
+</body></html>

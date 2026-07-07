@@ -1,0 +1,20 @@
+{
+  "name": "ROI Marketing",
+  "short_name": "ROI Marketing",
+  "description": "You don't spend on marketing. You invest in ROI.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a0f",
+  "theme_color": "#000000",
+  "orientation": "any",
+  "icons": [
+    { "src": "/favicon.svg", "sizes": "any", "type": "image/svg+xml", "purpose": "any maskable" }
+  ],
+  "categories": ["business", "productivity", "marketing"],
+  "shortcuts": [
+    { "name": "Dashboard", "url": "/" },
+    { "name": "Cockpit", "url": "/cockpit" },
+    { "name": "Loyalty", "url": "/loyalty" },
+    { "name": "Strategist", "url": "/strategist" }
+  ]
+}

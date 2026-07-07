@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" fill="none">
+  <!-- BAZ Logo — Horizontal (for letterheads, headers, email signatures)
+       Æther Design System
+       Background: transparent (for dark/light backgrounds)
+       Primary: #b87adb (violet hsl(270,85%,72%))
+       Secondary: #e8d5f5 (violet-200, for subtle marks)
+  -->
+  
+  <!-- Icon mark -->
+  <g transform="translate(0, 20)">
+    <rect x="4" y="4" width="152" height="152" rx="34" fill="#b87adb"/>
+    <rect x="32" y="40" width="8" height="72" rx="4" fill="#0a0a0d"/>
+    <rect x="32" y="40" width="48" height="8" rx="4" fill="#0a0a0d"/>
+    <rect x="72" y="40" width="8" height="32" rx="4" fill="#0a0a0d"/>
+    <path d="M 80 40 Q 98 40 98 56 Q 98 72 80 72" fill="#0a0a0d"/>
+    <rect x="32" y="72" width="48" height="8" rx="4" fill="#0a0a0d"/>
+    <rect x="72" y="72" width="8" height="40" rx="4" fill="#0a0a0d"/>
+    <path d="M 80 72 Q 104 72 104 92 Q 104 112 80 112" fill="#0a0a0d"/>
+  </g>
+  
+  <!-- Wordmark -->
+  <g transform="translate(190, 30)">
+    <!-- B -->
+    <text x="0" y="120" font-family="Fraunces, Georgia, serif" font-size="140" font-weight="700" fill="#b87adb" letter-spacing="-2">B</text>
+    <!-- A -->
+    <text x="88" y="120" font-family="Fraunces, Georgia, serif" font-size="140" font-weight="700" fill="#b87adb" letter-spacing="-2">A</text>
+    <!-- Z -->
+    <text x="178" y="120" font-family="Fraunces, Georgia, serif" font-size="140" font-weight="700" fill="#b87adb" letter-spacing="-2">Z</text>
+    
+    <!-- Tagline -->
+    <text x="0" y="172" font-family="Inter, -apple-system, sans-serif" font-size="21" font-weight="400" fill="#e8d5f5" letter-spacing="5" text-transform="uppercase">GROWTH PARTNER</text>
+  </g>
+  
+  <!-- Accent line -->
+  <line x1="190" y1="140" x2="510" y2="140" stroke="#b87adb" stroke-width="1" opacity="0.377"/>
+</svg>

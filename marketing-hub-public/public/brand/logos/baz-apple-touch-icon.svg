@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 180 180" fill="none">
+  <!-- BAZ Apple Touch Icon — 180×180
+       Violet fill, dark B letterform, Fibonacci radius 55
+  -->
+  <rect width="180" height="180" rx="55" fill="#b87adb"/>
+  <!-- Accent shimmer line -->
+  <rect x="21" y="21" width="138" height="2" rx="1" fill="#ffffff" opacity="0.236"/>
+  <!-- B letterform -->
+  <rect x="34" y="40" width="8" height="100" rx="4" fill="#0a0a0d"/>
+  <rect x="34" y="40" width="55" height="8" rx="4" fill="#0a0a0d"/>
+  <rect x="81" y="40" width="8" height="44" rx="4" fill="#0a0a0d"/>
+  <path d="M 89 40 Q 120 40 120 62 Q 120 84 89 84" fill="#0a0a0d"/>
+  <rect x="34" y="84" width="55" height="8" rx="4" fill="#0a0a0d"/>
+  <rect x="81" y="84" width="8" height="56" rx="4" fill="#0a0a0d"/>
+  <path d="M 89 84 Q 125 84 125 112 Q 125 140 89 140" fill="#0a0a0d"/>
+  <!-- Bottom shimmer -->
+  <rect x="21" y="157" width="138" height="2" rx="1" fill="#ffffff" opacity="0.236"/>
+</svg>

@@ -1,0 +1,205 @@
+{
+  "name": "BAZ Marketing Agency",
+  "shortName": "BAZ",
+  "tagline": "The growth partner for ambitious businesses.",
+  "colors": {
+    "accent": "#b87adb",
+    "void": "#0a0a0d",
+    "shadow": "#16141c",
+    "surface": "#211e28",
+    "card": "#2d2a35",
+    "raised": "#3a3644",
+    "hover": "#4b4559",
+    "focus": "#524d64",
+    "muted": "#6e6879",
+    "ink": "#faf9fa",
+    "inkSecondary": "#a4a0ab",
+    "success": "#4ade80",
+    "warning": "#f59e0b",
+    "danger": "#ef4444",
+    "info": "#60a5fa"
+  },
+  "typography": {
+    "display": {
+      "family": "Fraunces",
+      "weights": [
+        "100..900"
+      ]
+    },
+    "body": {
+      "family": "Inter",
+      "weights": [
+        "100..900"
+      ]
+    },
+    "mono": {
+      "family": "JetBrains Mono",
+      "weights": [
+        "100..800"
+      ]
+    }
+  },
+  "spacing": {
+    "xs": 3,
+    "sm": 5,
+    "md": 8,
+    "lg": 13,
+    "xl": 21,
+    "xxl": 34,
+    "xxxl": 55
+  },
+  "radius": {
+    "sm": 3,
+    "base": 5,
+    "md": 8,
+    "lg": 13,
+    "xl": 21,
+    "2xl": 34,
+    "full": 55,
+    "pill": 89
+  },
+  "duration": {
+    "instant": 89,
+    "swift": 144,
+    "fast": 233,
+    "normal": 377,
+    "smooth": 610,
+    "slowest": 987
+  },
+  "easing": {
+    "natural": [
+      0.618,
+      0,
+      0.618,
+      1
+    ],
+    "spring": {
+      "type": "spring",
+      "stiffness": 233,
+      "damping": 34,
+      "mass": 1
+    },
+    "glide": [
+      0.236,
+      0.618,
+      0.236,
+      1
+    ],
+    "snap": [
+      0.382,
+      0,
+      0.236,
+      1
+    ],
+    "float": [
+      0.618,
+      0,
+      0.382,
+      1
+    ]
+  },
+  "variants": [
+    {
+      "id": "dark",
+      "label": "Dark",
+      "fg": "#b87adb",
+      "bg": "#0a0a0d"
+    },
+    {
+      "id": "light",
+      "label": "Light",
+      "fg": "#0a0a0d",
+      "bg": "#ffffff"
+    },
+    {
+      "id": "mono",
+      "label": "Mono",
+      "fg": "#faf9fa",
+      "bg": "#0a0a0d"
+    },
+    {
+      "id": "accent",
+      "label": "Accent",
+      "fg": "#ffffff",
+      "bg": "#b87adb"
+    }
+  ],
+  "categories": [
+    {
+      "id": "logos",
+      "label": "Logos",
+      "assets": [
+        "logo-full-{variant}-{size}",
+        "logo-icon-{variant}-{size}",
+        "logo-horizontal-dark"
+      ]
+    },
+    {
+      "id": "social",
+      "label": "Social Media",
+      "assets": [
+        "og-image-{variant}",
+        "twitter-banner-{variant}",
+        "linkedin-banner-{variant}",
+        "facebook-cover-{variant}",
+        "youtube-banner-{variant}"
+      ]
+    },
+    {
+      "id": "app-icons",
+      "label": "App Icons",
+      "assets": [
+        "ios-{variant}-{size}",
+        "android-{variant}-{size}",
+        "favicon-{variant}-32"
+      ]
+    },
+    {
+      "id": "textures",
+      "label": "Textures",
+      "assets": [
+        "dot-grid-{variant}",
+        "shimmer-{variant}",
+        "noise-{variant}",
+        "watermark-{variant}",
+        "gradient-mesh"
+      ]
+    },
+    {
+      "id": "patterns",
+      "label": "Patterns",
+      "assets": [
+        "fibonacci-spiral",
+        "golden-ratio-grid",
+        "hexagonal-dots"
+      ]
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "assets": [
+        "header-{variant}",
+        "signature-{variant}"
+      ]
+    },
+    {
+      "id": "presentation",
+      "label": "Presentation",
+      "assets": [
+        "title-slide-{variant}",
+        "content-slide-{variant}"
+      ]
+    },
+    {
+      "id": "print",
+      "label": "Print",
+      "assets": [
+        "business-card-{variant}",
+        "letterhead-{variant}"
+      ]
+    }
+  ],
+  "designSystem": "Æther Fibonacci × Da Vinci × Material 3",
+  "version": "1.0.0",
+  "generatedAt": "2026-07-03T22:32:42.486Z"
+}

@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Triangle Loop | BAZ Ventures</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&amp;family=Outfit:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+    /* Custom Scrollbar for high-density navigation */
+    ::-webkit-scrollbar { width: 4px; }
+    ::-webkit-scrollbar-track { background: #070f15; }
+    ::-webkit-scrollbar-thumb { background: #2e363c; border-radius: 2px; }
+    ::-webkit-scrollbar-thumb:hover { background: #4d4638; }
+
+    .glass-effect {
+      backdrop-filter: blur(20px);
+      background: rgba(12, 20, 26, 0.85);
+    }
+
+    .node-pulse {
+      box-shadow: 0 0 20px rgba(231, 194, 116, 0.2);
+      animation: pulse 3s infinite ease-in-out;
+    }
+
+    @keyframes pulse {
+      0%, 100% { transform: scale(1); opacity: 1; }
+      50% { transform: scale(1.05); opacity: 0.9; }
+    }
+
+    .dashed-path {
+      stroke-dasharray: 4;
+      animation: dash 20s linear infinite;
+    }
+
+    @keyframes dash {
+      to { stroke-dashoffset: -100; }
+    }
+  </style>
+<script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          "colors": {
+            "on-secondary-fixed-variant": "#3e4853",
+            "on-secondary-container": "#acb6c3",
+            "on-secondary": "#27313c",
+            "tertiary-container": "#a7aaad",
+            "surface-container": "#192127",
+            "tertiary": "#c4c7ca",
+            "on-background": "#dbe3ec",
+            "primary-fixed-dim": "#e7c274",
+            "inverse-on-surface": "#293138",
+            "background": "#0c141a",
+            "on-surface-variant": "#d0c5b3",
+            "tertiary-fixed": "#e0e3e6",
+            "on-primary-fixed": "#261a00",
+            "error-container": "#93000a",
+            "surface-container-lowest": "#070f15",
+            "surface-variant": "#2e363c",
+            "primary": "#e7c274",
+            "outline-variant": "#4d4638",
+            "surface-container-highest": "#2e363c",
+            "on-primary": "#402d00",
+            "surface-tint": "#e7c274",
+            "surface-dim": "#0c141a",
+            "primary-fixed": "#ffdf9f",
+            "primary-container": "#c8a55a",
+            "outline": "#998f7f",
+            "surface-container-low": "#151c23",
+            "on-error-container": "#ffdad6",
+            "on-tertiary-fixed": "#191c1e",
+            "on-primary-container": "#513b00",
+            "secondary-fixed-dim": "#bdc7d5",
+            "surface-container-high": "#232b31",
+            "on-error": "#690005",
+            "secondary": "#bdc7d5",
+            "tertiary-fixed-dim": "#c4c7ca",
+            "on-tertiary-container": "#3b3f41",
+            "secondary-fixed": "#d9e3f1",
+            "surface-bright": "#323a41",
+            "error": "#ffb4ab"
+          },
+          "borderRadius": {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+          "spacing": {
+            "gutter": "24px",
+            "section_padding": "64px",
+            "container_gap": "16px",
+            "margin_edge": "40px",
+            "sidebar_width": "260px"
+          },
+          "fontFamily": {
+            "data-display": ["JetBrains Mono"],
+            "data-small": ["JetBrains Mono"],
+            "headline-md": ["Outfit"],
+            "headline-lg": ["Outfit"],
+            "label-caps": ["Outfit"],
+            "body-lg": ["Outfit"],
+            "display-lg": ["Outfit"],
+            "body-md": ["Outfit"]
+          },
+          "fontSize": {
+            "data-display": ["28px", {"lineHeight": "1", "fontWeight": "500"}],
+            "data-small": ["14px", {"lineHeight": "1", "fontWeight": "400"}],
+            "headline-md": ["24px", {"lineHeight": "1.3", "fontWeight": "500"}],
+            "headline-lg": ["32px", {"lineHeight": "1.2", "fontWeight": "500"}],
+            "label-caps": ["12px", {"lineHeight": "1", "letterSpacing": "0.1em", "fontWeight": "600"}],
+            "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+            "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+            "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}]
+          }
+        },
+      },
+    }
+  </script>
+</head>
+<body class="bg-background text-on-surface font-body-md min-h-screen overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 left-0 w-full z-50 h-16 flex justify-between items-center px-margin_edge bg-surface border-b border-outline-variant glass-effect">
+<div class="flex items-center gap-8">
+<div class="text-body-lg font-headline-lg font-bold text-on-surface flex items-center gap-2">
+<span class="w-8 h-8 bg-primary rounded-sm flex items-center justify-center text-on-primary">B</span>
+        BAZ Ventures
+      </div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-label-caps font-label-caps" href="#">Services</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-label-caps font-label-caps" href="#">Methodology</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-label-caps font-label-caps" href="#">Insights</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-label-caps font-label-caps" href="#">Pricing</a>
+</nav>
+</div>
+<div class="flex items-center gap-4">
+<div class="relative group">
+<span class="material-symbols-outlined text-on-surface-variant p-2 hover:bg-surface-variant rounded-full cursor-pointer transition-colors">search</span>
+</div>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">wb_sunny</span>
+<span class="material-symbols-outlined text-on-surface-variant cursor-pointer">notifications</span>
+<div class="w-8 h-8 rounded-full overflow-hidden border border-outline">
+<img class="w-full h-full object-cover" data-alt="A professional headshot of a business executive in a dark tailored suit, captured with sharp dramatic lighting that highlights contours, set against a dark architectural background with subtle gold accents, embodying authority and technical precision." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCd2YrqVngiTzyZDmRHHLSdpPD0uGN4kZHfrf7ZggnpPEOtd3ktXdTuIF6mPOYF6Lrg6wS53mEjTsW9lhfeyKMzY2PAcjZh1q-SVpDb-ashq40HkAs1W_V4gIblPY3LJbejecrN68-aaIX_CrOPolTU6nIcd-PpYL-MYLjrXw_HSnuzq7LmRdXEU1s2GWWFCUasIz6geCTRq6GoN18du6dn3luJkTg3qGZbWmsi7Gjt2WFSTdcAbgpx"/>
+</div>
+</div>
+</header>
+<!-- SideNavBar -->
+<aside class="fixed left-0 top-16 h-[calc(100vh-64px)] w-sidebar_width bg-surface-container-lowest border-r border-outline-variant glass-effect overflow-y-auto z-40 hidden md:flex flex-col py-gutter">
+<div class="px-6 mb-8">
+<div class="text-label-caps font-bold text-on-surface-variant opacity-50 uppercase tracking-widest mb-1">COMMAND</div>
+<div class="text-body-md font-body-md text-on-surface">Marketing Agency</div>
+</div>
+<nav class="flex flex-col gap-1 px-2">
+<!-- Active Section: Triangle Loop -->
+<a class="text-on-surface-variant hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-label-caps font-label-caps">Dashboard</span>
+</a>
+<a class="text-on-surface-variant hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined">settings_input_component</span>
+<span class="text-label-caps font-label-caps">Cockpit</span>
+</a>
+<a class="bg-error text-on-error border-l-4 border-primary px-4 py-2 flex items-center gap-3 scale-[0.99]" href="#">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">change_history</span>
+<span class="text-label-caps font-label-caps">Triangle Loop</span>
+</a>
+<a class="text-on-surface-variant hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined">smart_toy</span>
+<span class="text-label-caps font-label-caps">Nova AI</span>
+</a>
+<div class="mt-6 mb-2 px-4 text-[10px] text-on-surface-variant opacity-40 font-bold tracking-widest">GROW</div>
+<a class="text-on-surface-variant hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined">bolt</span>
+<span class="text-label-caps font-label-caps">Sequences</span>
+</a>
+<a class="text-on-surface-variant hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined">query_stats</span>
+<span class="text-label-caps font-label-caps">Attribution</span>
+</a>
+<a class="text-on-surface-variant hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined">bar_chart</span>
+<span class="text-label-caps font-label-caps">Analytics</span>
+</a>
+<div class="mt-6 mb-2 px-4 text-[10px] text-on-surface-variant opacity-40 font-bold tracking-widest">OPERATE</div>
+<a class="text-on-surface-variant hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined">assessment</span>
+<span class="text-label-caps font-label-caps">Reports</span>
+</a>
+<a class="text-on-surface-variant hover:bg-surface-variant px-4 py-2 flex items-center gap-3 transition-all duration-150" href="#">
+<span class="material-symbols-outlined">settings</span>
+<span class="text-label-caps font-label-caps">Settings</span>
+</a>
+</nav>
+</aside>
+<!-- Main Content Area -->
+<main class="md:ml-[260px] pt-16 min-h-screen">
+<div class="p-margin_edge max-w-[1600px] mx-auto">
+<!-- Header Section -->
+<header class="flex justify-between items-end mb-12">
+<div>
+<div class="flex items-center gap-3 mb-2">
+<span class="material-symbols-outlined text-primary text-[20px]">insights</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant tracking-[0.2em] uppercase">Autonomous Loop</span>
+</div>
+<h1 class="font-headline-lg text-headline-lg text-on-surface mb-2">Triangle Loop</h1>
+<p class="text-on-surface-variant font-body-md max-w-xl">Marketing <span class="mx-1 text-primary">↔</span> Sales <span class="mx-1 text-primary">↔</span> Nova. Execution cycles every 60s.</p>
+</div>
+<button class="bg-primary text-on-primary px-8 py-3 font-headline-md font-bold uppercase tracking-widest text-[14px] flex items-center gap-3 hover:opacity-90 transition-opacity">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">play_arrow</span>
+          Run Tick
+        </button>
+</header>
+<!-- Central Visual: Node Diagram Canvas -->
+<section class="mb-gutter">
+<div class="relative w-full aspect-[21/9] bg-surface-container-low border border-outline-variant overflow-hidden">
+<!-- Animated Background Layer -->
+<div class="absolute inset-0 opacity-10 pointer-events-none">
+
+</div>
+<!-- SVG Diagram Overlay -->
+<svg class="absolute inset-0 w-full h-full" viewbox="0 0 1000 400">
+<!-- Connection Paths -->
+<path class="dashed-path opacity-40" d="M500 80 L700 280" fill="none" stroke="url(#gradient-gold)" stroke-width="1.5"></path>
+<path class="dashed-path opacity-40" d="M700 280 L300 280" fill="none" stroke="url(#gradient-gold)" stroke-width="1.5"></path>
+<path class="dashed-path opacity-40" d="M300 280 L500 80" fill="none" stroke="url(#gradient-gold)" stroke-width="1.5"></path>
+<defs>
+<lineargradient id="gradient-gold" x1="0%" x2="100%" y1="0%" y2="100%">
+<stop offset="0%" style="stop-color:#e7c274;stop-opacity:1"></stop>
+<stop offset="100%" style="stop-color:#c8a55a;stop-opacity:1"></stop>
+</lineargradient>
+</defs>
+</svg>
+<!-- Nodes as HTML Elements for Interaction -->
+<div class="absolute inset-0 flex items-center justify-center">
+<!-- Marketing Node (Top) -->
+<div class="absolute top-[15%] left-1/2 -translate-x-1/2 flex flex-col items-center">
+<div class="w-24 h-24 rounded-full border-2 border-primary bg-background flex items-center justify-center node-pulse relative z-10">
+<span class="material-symbols-outlined text-primary text-3xl">hub</span>
+</div>
+<div class="mt-3 text-label-caps font-bold tracking-widest text-on-surface bg-surface-container px-3 py-1 border border-outline-variant">MARKETING</div>
+</div>
+<!-- Sales Node (Right) -->
+<div class="absolute bottom-[20%] right-[25%] flex flex-col items-center">
+<div class="w-24 h-24 rounded-full border-2 border-secondary bg-background flex items-center justify-center relative z-10">
+<span class="material-symbols-outlined text-secondary text-3xl">trending_up</span>
+</div>
+<div class="mt-3 text-label-caps font-bold tracking-widest text-on-surface bg-surface-container px-3 py-1 border border-outline-variant">SALES</div>
+</div>
+<!-- Nova AI Node (Left) -->
+<div class="absolute bottom-[20%] left-[25%] flex flex-col items-center">
+<div class="w-24 h-24 rounded-full border-2 border-error bg-background flex items-center justify-center relative z-10">
+<span class="material-symbols-outlined text-error text-3xl">smart_toy</span>
+</div>
+<div class="mt-3 text-label-caps font-bold tracking-widest text-on-surface bg-surface-container px-3 py-1 border border-outline-variant">NOVA AI</div>
+</div>
+<!-- Central Data Hub (Subtle) -->
+<div class="w-16 h-16 rounded-full border border-dashed border-outline-variant opacity-30 animate-spin" style="animation-duration: 20s"></div>
+</div>
+<!-- Bottom Legend/Label -->
+<div class="absolute bottom-6 left-1/2 -translate-x-1/2 flex gap-12 text-data-small font-data-small text-on-surface-variant opacity-60">
+<div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-primary"></span> Live Sync</div>
+<div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-secondary"></span> Active Loop</div>
+<div class="flex items-center gap-2"><span class="w-2 h-2 rounded-full bg-error"></span> AI Learning</div>
+</div>
+</div>
+</section>
+<!-- 6-Step Loop Logic: Bento Grid -->
+<section class="grid grid-cols-1 md:grid-cols-3 gap-container_gap mb-12">
+<!-- 1. Score -->
+<div class="p-gutter bg-surface-container border-l-2 border-primary">
+<div class="flex justify-between items-start mb-4">
+<span class="text-data-display font-data-display text-primary">01</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant">SCORE</span>
+</div>
+<p class="text-body-md text-on-surface-variant">Touchpoint weight + recency + channel mix → 0–100 lead score.</p>
+</div>
+<!-- 2. Route -->
+<div class="p-gutter bg-surface-container border-l-2 border-primary">
+<div class="flex justify-between items-start mb-4">
+<span class="text-data-display font-data-display text-primary">02</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant">ROUTE</span>
+</div>
+<p class="text-body-md text-on-surface-variant">Score ≥ 50 → enroll into least-loaded active sequence.</p>
+</div>
+<!-- 3. Step -->
+<div class="p-gutter bg-surface-container border-l-2 border-primary">
+<div class="flex justify-between items-start mb-4">
+<span class="text-data-display font-data-display text-primary">03</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant">STEP</span>
+</div>
+<p class="text-body-md text-on-surface-variant">Each enrollment advances daily. Reply pauses. Booking promotes.</p>
+</div>
+<!-- 4. Close -->
+<div class="p-gutter bg-surface-container border-l-2 border-outline-variant opacity-60">
+<div class="flex justify-between items-start mb-4">
+<span class="text-data-display font-data-display text-on-surface">04</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant">CLOSE</span>
+</div>
+<p class="text-body-md text-on-surface-variant">Deals with prob ≥ 80 auto-close as won. Stale → auto-lost at 45d.</p>
+</div>
+<!-- 5. Learn -->
+<div class="p-gutter bg-surface-container border-l-2 border-outline-variant opacity-60">
+<div class="flex justify-between items-start mb-4">
+<span class="text-data-display font-data-display text-on-surface">05</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant">LEARN</span>
+</div>
+<p class="text-body-md text-on-surface-variant">Wins feed back into Nova. Tomorrow is smarter than today.</p>
+</div>
+<!-- 6. Report -->
+<div class="p-gutter bg-surface-container border-l-2 border-outline-variant opacity-60">
+<div class="flex justify-between items-start mb-4">
+<span class="text-data-display font-data-display text-on-surface">06</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant">REPORT</span>
+</div>
+<p class="text-body-md text-on-surface-variant">Pipeline value, velocity, wins/day — one cockpit, no spreadsheets.</p>
+</div>
+</section>
+<!-- Warming Up Status & Counters -->
+<section class="bg-surface-container-high p-gutter border border-outline-variant">
+<div class="flex flex-col md:flex-row md:items-center justify-between gap-8">
+<div class="flex items-center gap-4">
+<div class="relative">
+<div class="w-3 h-3 rounded-full bg-primary animate-ping absolute"></div>
+<div class="w-3 h-3 rounded-full bg-primary relative"></div>
+</div>
+<div>
+<div class="text-label-caps font-label-caps text-primary tracking-widest">WARMING UP</div>
+<div class="text-data-small font-data-small text-on-surface-variant">Loop initialized 14m ago</div>
+</div>
+</div>
+<div class="grid grid-cols-2 md:grid-cols-4 gap-12 flex-grow max-w-4xl">
+<div class="flex flex-col">
+<span class="text-data-display font-data-display text-on-surface">34</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant opacity-60">SCORED 24H</span>
+</div>
+<div class="flex flex-col">
+<span class="text-data-display font-data-display text-on-surface">68</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant opacity-60">ACTIVE</span>
+</div>
+<div class="flex flex-col">
+<span class="text-data-display font-data-display text-primary">$532,729</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant opacity-60">PIPELINE</span>
+</div>
+<div class="flex flex-col">
+<span class="text-data-display font-data-display text-on-surface">0.43</span>
+<span class="text-label-caps font-label-caps text-on-surface-variant opacity-60">WINS/DAY</span>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="md:ml-[260px] bg-surface-container flex justify-between items-center px-margin_edge py-4 border-t border-outline-variant">
+<div class="text-data-small font-data-small text-on-surface-variant">
+      © 2024 BAZ Ventures. All rights reserved.
+    </div>
+<div class="flex gap-6">
+<a class="text-data-small font-data-small text-on-secondary-container hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-data-small font-data-small text-on-secondary-container hover:text-primary transition-colors" href="#">Terms of Service</a>
+<span class="text-data-small font-data-small text-primary">Status: Operational</span>
+</div>
+</footer>
+<script>
+    // Micro-interaction for the "Run Tick" button
+    document.querySelector('button').addEventListener('click', function() {
+      const btn = this;
+      const originalContent = btn.innerHTML;
+      btn.innerHTML = '<span class="material-symbols-outlined animate-spin">refresh</span> Processing...';
+      btn.classList.add('opacity-80');
+      
+      setTimeout(() => {
+        btn.innerHTML = originalContent;
+        btn.classList.remove('opacity-80');
+        // Trigger a subtle pulse animation on all metrics
+        document.querySelectorAll('.text-data-display').forEach(el => {
+          el.style.transition = 'transform 0.2s ease';
+          el.style.transform = 'scale(1.1)';
+          setTimeout(() => el.style.transform = 'scale(1)', 200);
+        });
+      }, 1500);
+    });
+
+    // Simple scroll behavior for top bar glass effect
+    window.addEventListener('scroll', () => {
+      const header = document.querySelector('header');
+      if (window.scrollY > 10) {
+        header.classList.add('shadow-lg');
+      } else {
+        header.classList.remove('shadow-lg');
+      }
+    });
+  </script>
+</body></html>

@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BAZ Ventures | Architectural Command Hub</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;family=Poppins:ital,wght@0,100..900;1,100..900&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Config Verbatim -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "on-surface": "#e9e1d8",
+                    "charcoal": "#1F2933",
+                    "inverse-surface": "#e9e1d8",
+                    "primary-fixed": "#ffdf9f",
+                    "error": "#ffb4ab",
+                    "surface-container-highest": "#38342e",
+                    "on-primary-fixed": "#261a00",
+                    "surface-tint": "#e7c274",
+                    "on-surface-variant": "#d0c5b3",
+                    "sand": "#E8E4E0",
+                    "primary-fixed-dim": "#e7c274",
+                    "outline-variant": "#4d4638",
+                    "white": "#FFFFFF",
+                    "on-error-container": "#ffdad6",
+                    "on-background": "#e9e1d8",
+                    "tertiary-fixed-dim": "#b2c6fb",
+                    "primary": "#e7c274",
+                    "on-primary-container": "#513b00",
+                    "surface-variant": "#38342e",
+                    "surface-bright": "#3d3932",
+                    "secondary": "#b5c8e1",
+                    "tertiary-fixed": "#d9e2ff",
+                    "gold-dark": "#8D6B2E",
+                    "outline": "#998f7f",
+                    "inverse-primary": "#765a16",
+                    "on-primary-fixed-variant": "#5b4300",
+                    "on-error": "#690005",
+                    "tertiary": "#b2c6fb",
+                    "secondary-container": "#36485d",
+                    "surface-container-low": "#1e1b16",
+                    "on-secondary-container": "#a4b7cf",
+                    "surface": "#16130e",
+                    "on-primary": "#402d00",
+                    "inverse-on-surface": "#34302a",
+                    "background": "#16130e",
+                    "on-tertiary": "#1a2f5b",
+                    "surface-container-high": "#2d2924",
+                    "on-secondary": "#203245",
+                    "surface-dim": "#16130e",
+                    "secondary-fixed": "#d1e4fe",
+                    "on-tertiary-fixed-variant": "#324573",
+                    "error-container": "#93000a",
+                    "on-secondary-fixed": "#091d30",
+                    "stone": "#B0AAA5",
+                    "on-tertiary-container": "#2a3d6a",
+                    "tertiary-container": "#96a9dd",
+                    "secondary-fixed-dim": "#b5c8e1",
+                    "primary-container": "#c8a55a",
+                    "on-tertiary-fixed": "#011945",
+                    "surface-container-lowest": "#110e09",
+                    "on-secondary-fixed-variant": "#36485d",
+                    "surface-container": "#221f1a"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "section-padding-y-mobile": "6rem",
+                    "section-padding-y-desktop": "8rem",
+                    "max-width": "1280px",
+                    "gutter": "1.5rem"
+            },
+            "fontFamily": {
+                    "label-sm": ["Outfit"],
+                    "hero-h1": ["Outfit"],
+                    "hero-h1-mobile": ["Outfit"],
+                    "headline-md": ["Outfit"],
+                    "body-md": ["Poppins"],
+                    "eyebrow": ["Outfit"],
+                    "body-lg": ["Poppins"]
+            },
+            "fontSize": {
+                    "label-sm": ["12px", {"lineHeight": "1.0", "letterSpacing": "0.2em", "fontWeight": "500"}],
+                    "hero-h1": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                    "hero-h1-mobile": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.01em", "fontWeight": "600"}],
+                    "headline-md": ["32px", {"lineHeight": "1.2", "fontWeight": "500"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "eyebrow": ["14px", {"lineHeight": "1.0", "letterSpacing": "0.3em", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "300"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .watermark-text {
+            user-select: none;
+            pointer-events: none;
+        }
+        .gold-gradient {
+            background: linear-gradient(135deg, #8D6B2E 0%, #C8A55A 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .gold-btn {
+            background: linear-gradient(135deg, #8D6B2E 0%, #C8A55A 100%);
+            transition: transform 0.2s ease, filter 0.2s ease;
+        }
+        .gold-btn:hover {
+            transform: translateY(-2px);
+            filter: brightness(1.1);
+        }
+        .grid-hairline {
+            position: relative;
+        }
+        .grid-hairline::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 100%;
+            height: 1px;
+            background: rgba(255, 255, 255, 0.05);
+        }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-primary/30 font-body-md">
+<!-- TopNavBar -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10 h-20 flex justify-between items-center px-gutter md:px-12">
+<div class="flex items-center gap-8">
+<span class="font-headline-sm text-on-surface font-bold tracking-tight text-xl">BAZ Ventures</span>
+<div class="hidden md:flex gap-6 items-center">
+<a class="font-label-sm text-label-sm uppercase tracking-wider text-primary border-b-2 border-primary pb-1" href="#">Services</a>
+<a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Marketing Hub</a>
+<a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Hub Dashboard</a>
+<a class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Methodology</a>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<button class="hidden lg:flex items-center gap-2 text-on-surface-variant hover:text-on-surface font-label-sm text-label-sm uppercase tracking-wider">
+<span class="material-symbols-outlined text-sm">search</span>
+                Search <span class="opacity-30">⌘K</span>
+</button>
+<button class="gold-btn px-6 py-2.5 rounded-lg text-white font-label-sm text-label-sm uppercase tracking-widest">Talk to us</button>
+</div>
+</nav>
+<main class="pt-20">
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex flex-col justify-center px-gutter md:px-12 py-section-padding-y-desktop overflow-hidden">
+<!-- Ghost Watermark -->
+<div class="absolute inset-0 flex items-center justify-center opacity-[0.06] watermark-text overflow-hidden">
+<h1 class="text-[40vw] font-bold tracking-tighter leading-none select-none">BAZ</h1>
+</div>
+<div class="max-w-[1280px] mx-auto w-full relative z-10">
+<!-- Status Indicators -->
+<div class="flex flex-wrap gap-12 mb-16 border-b border-outline-variant/10 pb-8">
+<div class="flex items-center gap-3">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.3em] text-on-surface-variant">NOW BOOKING Q3 — 2 SENIOR-PARTNER SPOTS LEFT</span>
+</div>
+<div class="flex items-center gap-3">
+<span class="w-2 h-2 rounded-full bg-outline-variant"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.3em] text-on-surface-variant">HUB OFFLINE</span>
+</div>
+</div>
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-12">
+<div class="lg:col-span-10">
+<h1 class="font-hero-h1 text-hero-h1-mobile md:text-hero-h1 mb-8 leading-[1.05]">
+                            Add <span class="gold-gradient">$200K+</span> to pipeline in 90 days — or pay nothing for month four.
+                        </h1>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Grid (Bento Style) -->
+<section class="bg-surface-container-low py-section-padding-y-desktop px-gutter md:px-12">
+<div class="max-w-[1280px] mx-auto">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-px bg-outline-variant/10">
+<!-- Stat Card 1 -->
+<div class="bg-surface p-10 flex flex-col justify-between group transition-all duration-500 hover:bg-surface-bright">
+<div>
+<span class="font-eyebrow text-eyebrow text-primary block mb-6">VIRALVISTA · DTC BEAUTY</span>
+<div class="flex items-baseline gap-4 mb-4">
+<span class="text-5xl font-bold tracking-tight">1.8</span>
+<span class="material-symbols-outlined text-primary text-3xl">arrow_forward</span>
+<span class="text-5xl font-bold tracking-tight">4.6</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant block mb-6">ROAS</span>
+<p class="text-on-surface-variant text-body-md max-w-[280px]">ROAS climbed from 1.8 to 4.6 in 90 days. Branded search volume tripled. Customer LTV up 41%.</p>
+</div>
+<div class="mt-12 flex justify-between items-center">
+<span class="text-on-surface/40 font-label-sm">90 days</span>
+<a class="text-primary font-label-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">Read Case <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<!-- Stat Card 2 -->
+<div class="bg-surface p-10 flex flex-col justify-between group transition-all duration-500 hover:bg-surface-bright">
+<div>
+<span class="font-eyebrow text-eyebrow text-primary block mb-6">NORTHWIND · FINTECH</span>
+<div class="flex items-baseline gap-4 mb-4">
+<span class="text-5xl font-bold tracking-tight">0</span>
+<span class="material-symbols-outlined text-primary text-3xl">arrow_forward</span>
+<span class="text-5xl font-bold tracking-tight">480K</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant block mb-6">Organic Sessions / mo</span>
+<p class="text-on-surface-variant text-body-md max-w-[280px]">0 to 480K monthly organic sessions in 14 months. Inbound pipeline now exceeds outbound by 41%.</p>
+</div>
+<div class="mt-12 flex justify-between items-center">
+<span class="text-on-surface/40 font-label-sm">14 months</span>
+<a class="text-primary font-label-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">Read Case <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+<!-- Stat Card 3 -->
+<div class="bg-surface p-10 flex flex-col justify-between group transition-all duration-500 hover:bg-surface-bright">
+<div>
+<span class="font-eyebrow text-eyebrow text-primary block mb-6">ENGAGEERA · B2B SAAS</span>
+<div class="flex items-baseline gap-4 mb-4">
+<span class="text-5xl font-bold tracking-tight">0.6%</span>
+<span class="material-symbols-outlined text-primary text-3xl">arrow_forward</span>
+<span class="text-5xl font-bold tracking-tight">2.4%</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface-variant block mb-6">Trial → Paid</span>
+<p class="text-on-surface-variant text-body-md max-w-[280px]">Trial-to-paid hit 2.4% in six months. New MRR up 318%. Sales cycle shortened by 23 days.</p>
+</div>
+<div class="mt-12 flex justify-between items-center">
+<span class="text-on-surface/40 font-label-sm">6 months</span>
+<a class="text-primary font-label-sm uppercase tracking-widest flex items-center gap-2 group-hover:gap-4 transition-all" href="#">Read Case <span class="material-symbols-outlined text-sm">arrow_forward</span></a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Command Loop Section -->
+<section class="py-section-padding-y-desktop px-gutter md:px-12 bg-white text-charcoal">
+<div class="max-w-[1280px] mx-auto grid grid-cols-1 lg:grid-cols-2 gap-20 items-center">
+<div>
+<span class="font-eyebrow text-eyebrow text-gold-dark block mb-8 uppercase tracking-[0.4em]">BAZ PRODUCT · MARKETING HUB</span>
+<h2 class="text-5xl md:text-6xl font-bold tracking-tighter mb-10 leading-[1.1]">The marketing, sales, and finance loop — running itself.</h2>
+<p class="text-xl text-charcoal/70 mb-12 max-w-xl">Every contact scored. Every cadence stepped. Every outcome learned from. The BAZ Marketing Hub is the operating system under everything we ship for clients — and it runs whether we're watching or not.</p>
+<div class="flex flex-wrap gap-4">
+<button class="gold-btn px-10 py-4 rounded-lg text-white font-label-sm text-label-sm uppercase tracking-widest">Open the Hub</button>
+<button class="border border-charcoal/20 px-10 py-4 rounded-lg font-label-sm text-label-sm uppercase tracking-widest hover:bg-charcoal/5 transition-colors">See the feature tour</button>
+</div>
+</div>
+<div class="relative">
+<div class="bg-surface p-8 rounded-xl border border-charcoal/5 shadow-2xl">
+<div class="flex justify-between items-center mb-10 pb-4 border-b border-outline-variant/10">
+<div class="flex items-center gap-3">
+<span class="w-2 h-2 rounded-full bg-primary"></span>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-on-surface">HUB STATUS · WARMING</span>
+</div>
+<span class="text-primary font-label-sm text-xs tracking-widest uppercase">triangle.baz →</span>
+</div>
+<div class="grid grid-cols-2 gap-6">
+<div class="bg-surface-container-high p-6 rounded border border-white/5">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-green-500"></span>
+<span class="text-[10px] font-bold tracking-[0.2em] text-on-surface-variant uppercase">ACTIVE SEQUENCES</span>
+</div>
+<div class="h-1 bg-white/10 w-full rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[70%]"></div>
+</div>
+</div>
+<div class="bg-surface-container-high p-6 rounded border border-white/5">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-purple-500"></span>
+<span class="text-[10px] font-bold tracking-[0.2em] text-on-surface-variant uppercase">VELOCITY (WINS/DAY)</span>
+</div>
+<div class="h-1 bg-white/10 w-full rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[45%]"></div>
+</div>
+</div>
+<div class="bg-surface-container-high p-6 rounded border border-white/5">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-orange-500"></span>
+<span class="text-[10px] font-bold tracking-[0.2em] text-on-surface-variant uppercase">PIPELINE UNDER MGMT</span>
+</div>
+<div class="h-1 bg-white/10 w-full rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[85%]"></div>
+</div>
+</div>
+<div class="bg-surface-container-high p-6 rounded border border-white/5">
+<div class="flex items-center gap-2 mb-3">
+<span class="w-1.5 h-1.5 rounded-full bg-red-500"></span>
+<span class="text-[10px] font-bold tracking-[0.2em] text-on-surface-variant uppercase">MARKETING DIVE</span>
+</div>
+<div class="text-on-surface/40 text-[10px] uppercase tracking-widest mt-2">not ingested yet</div>
+</div>
+</div>
+<div class="mt-10 flex items-center gap-2 text-[10px] text-on-surface/30 uppercase tracking-[0.2em]">
+<span class="material-symbols-outlined text-[12px]">location_on</span>
+                            Local · SQLite WAL · triangle loop ticks every 60 s
+                        </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Logo Cloud -->
+<section class="py-12 px-gutter bg-surface-container-lowest border-y border-outline-variant/10">
+<div class="max-w-[1280px] mx-auto overflow-hidden relative">
+<div class="flex gap-20 items-center justify-between whitespace-nowrap opacity-40 hover:opacity-100 transition-opacity duration-700">
+<span class="text-xl font-bold tracking-tight">GitHub</span>
+<span class="text-xl font-bold tracking-tight">Vercel</span>
+<span class="text-xl font-bold tracking-tight">Linear</span>
+<span class="text-xl font-bold tracking-tight">Stripe</span>
+<span class="text-xl font-bold tracking-tight">Resend</span>
+<span class="text-xl font-bold tracking-tight">Cal.com</span>
+<span class="text-xl font-bold tracking-tight">Figma</span>
+<span class="text-xl font-bold tracking-tight">Notion</span>
+<span class="text-xl font-bold tracking-tight">Slack</span>
+</div>
+</div>
+</section>
+<!-- Roadmap / Process Section -->
+<section class="py-section-padding-y-desktop px-gutter md:px-12 bg-surface">
+<div class="max-w-[1280px] mx-auto">
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-16">
+<div class="lg:col-span-5">
+<span class="font-eyebrow text-eyebrow text-primary block mb-8 uppercase tracking-[0.4em]">HOW A REAL ENGAGEMENT LOOKS</span>
+<h2 class="text-5xl font-bold tracking-tight mb-8 leading-tight">From tracking gaps to scale in 12 weeks.</h2>
+<p class="text-on-surface-variant text-body-lg mb-12">Every Performance Marketing engagement follows the same 5-phase loop. The shape is repeatable; the work is bespoke to your funnel, your creative, and your unit economics.</p>
+<button class="flex items-center gap-4 text-primary font-label-sm uppercase tracking-widest group">
+                            See the full offer 
+                            <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
+</button>
+</div>
+<div class="lg:col-span-7 space-y-px bg-outline-variant/10 border border-outline-variant/10">
+<!-- Step 1 -->
+<div class="bg-surface p-10 grid grid-cols-1 md:grid-cols-12 gap-6 items-start hover:bg-surface-container-high transition-colors">
+<div class="md:col-span-3 text-primary font-label-sm uppercase tracking-[0.2em] text-xs">WEEK 1-2</div>
+<div class="md:col-span-6">
+<h4 class="text-xl font-bold mb-3">Tracking &amp; attribution audit</h4>
+<p class="text-on-surface-variant text-sm">Server-side pixels, conversion API, GA4 dedup, MMM-ready events.</p>
+</div>
+<div class="md:col-span-3 text-right font-label-sm text-xs text-primary">+34% tracking accuracy</div>
+</div>
+<!-- Step 2 -->
+<div class="bg-surface p-10 grid grid-cols-1 md:grid-cols-12 gap-6 items-start hover:bg-surface-container-high transition-colors">
+<div class="md:col-span-3 text-primary font-label-sm uppercase tracking-[0.2em] text-xs">WEEK 3-4</div>
+<div class="md:col-span-6">
+<h4 class="text-xl font-bold mb-3">Creative matrix + channel mix</h4>
+<p class="text-on-surface-variant text-sm">40+ creative variants / mo across the top 3 channels by stage.</p>
+</div>
+<div class="md:col-span-3 text-right font-label-sm text-xs text-primary">5× creative throughput</div>
+</div>
+<!-- Step 3 -->
+<div class="bg-surface p-10 grid grid-cols-1 md:grid-cols-12 gap-6 items-start hover:bg-surface-container-high transition-colors">
+<div class="md:col-span-3 text-primary font-label-sm uppercase tracking-[0.2em] text-xs">WEEK 5-8</div>
+<div class="md:col-span-6">
+<h4 class="text-xl font-bold mb-3">Weekly iteration loops</h4>
+<p class="text-on-surface-variant text-sm">Every Monday: read the data, kill losers, brief next batch.</p>
+</div>
+<div class="md:col-span-3 text-right font-label-sm text-xs text-primary">-40% CPM on core spend</div>
+</div>
+<!-- Step 4 -->
+<div class="bg-surface p-10 grid grid-cols-1 md:grid-cols-12 gap-6 items-start hover:bg-surface-container-high transition-colors">
+<div class="md:col-span-3 text-primary font-label-sm uppercase tracking-[0.2em] text-xs">WEEK 9-12</div>
+<div class="md:col-span-6">
+<h4 class="text-xl font-bold mb-3">Incrementality testing</h4>
+<p class="text-on-surface-variant text-sm">Geo holdouts, ghost ads, and cross-platform-inflated.</p>
+</div>
+<div class="md:col-span-3 text-right font-label-sm text-xs text-primary">Definitive CPA established</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Cookie Banner (from reference) -->
+<div class="fixed bottom-8 right-8 z-[100] max-w-sm bg-white text-charcoal p-8 rounded-xl border border-charcoal/10 shadow-2xl transform transition-transform duration-500 translate-y-0" id="cookie-banner">
+<p class="text-sm mb-6 leading-relaxed">We use cookies for analytics.<br/><br/>We use first-party analytics (no third-party tracking) to understand which pages convert. You can opt out anytime.</p>
+<div class="flex gap-4">
+<button class="bg-charcoal text-white px-6 py-2 rounded font-label-sm text-xs uppercase tracking-widest" onclick="document.getElementById('cookie-banner').style.display='none'">Accept</button>
+<button class="border border-charcoal/20 px-6 py-2 rounded font-label-sm text-xs uppercase tracking-widest hover:bg-charcoal/5" onclick="document.getElementById('cookie-banner').style.display='none'">Decline</button>
+</div>
+</div>
+<!-- Footer -->
+<footer class="bg-surface-container-low border-t border-outline-variant/10 py-gutter px-gutter md:px-12">
+<div class="max-w-[1280px] mx-auto flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col items-center md:items-start gap-4">
+<span class="font-headline-sm text-on-surface text-xl font-bold tracking-tight">BAZ Ventures</span>
+<p class="font-body-md text-sm text-on-surface-variant/60">© 2024 BAZ Ventures Marketing Agency. All rights reserved.</p>
+</div>
+<div class="flex gap-10">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-sm text-xs uppercase tracking-widest" href="#">Privacy Policy</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-sm text-xs uppercase tracking-widest" href="#">Terms</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-sm text-xs uppercase tracking-widest" href="#">Contact</a>
+</div>
+</div>
+</footer>
+<script>
+        // Simple scroll effect for navbar transparency
+        window.addEventListener('scroll', () => {
+            const nav = document.querySelector('nav');
+            if (window.scrollY > 50) {
+                nav.classList.add('bg-surface/95');
+                nav.classList.remove('bg-surface/80');
+            } else {
+                nav.classList.add('bg-surface/80');
+                nav.classList.remove('bg-surface/95');
+            }
+        });
+    </script>
+</body></html>

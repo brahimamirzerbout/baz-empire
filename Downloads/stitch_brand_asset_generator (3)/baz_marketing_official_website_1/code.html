@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BAZ Marketing Ventures | Pure Luxury Agency</title>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    colors: {
+                        "inverse-on-surface": "#34302a",
+                        "error": "#ffb4ab",
+                        "primary-fixed-dim": "#e7c274",
+                        "surface-variant": "#38342e",
+                        "background": "#16130e",
+                        "surface-tint": "#e7c274",
+                        "on-background": "#e9e1d8",
+                        "secondary-fixed-dim": "#b5c8e1",
+                        "on-primary-container": "#513b00",
+                        "stone": "#B0AAA5",
+                        "on-tertiary-container": "#2a3d6a",
+                        "primary": "#e7c274",
+                        "on-surface": "#e9e1d8",
+                        "primary-container": "#c8a55a",
+                        "surface-container-lowest": "#110e09",
+                        "on-secondary-fixed": "#091d30",
+                        "on-secondary-fixed-variant": "#36485d",
+                        "surface-container-high": "#2d2924",
+                        "error-container": "#93000a",
+                        "outline": "#998f7f",
+                        "surface-container": "#221f1a",
+                        "tertiary-container": "#96a9dd",
+                        "secondary-container": "#36485d",
+                        "white": "#FFFFFF",
+                        "on-secondary": "#203245",
+                        "on-secondary-container": "#a4b7cf",
+                        "inverse-primary": "#765a16",
+                        "on-surface-variant": "#d0c5b3",
+                        "charcoal": "#1F2933",
+                        "on-error": "#690005",
+                        "on-tertiary": "#1a2f5b",
+                        "on-tertiary-fixed": "#011945",
+                        "on-primary-fixed-variant": "#5b4300",
+                        "on-primary": "#402d00",
+                        "on-tertiary-fixed-variant": "#324573",
+                        "surface-dim": "#16130e",
+                        "inverse-surface": "#e9e1d8",
+                        "primary-fixed": "#ffdf9f",
+                        "surface": "#16130e",
+                        "sand": "#E8E4E0",
+                        "surface-container-highest": "#38342e",
+                        "surface-bright": "#3d3932",
+                        "secondary-fixed": "#d1e4fe",
+                        "gold-dark": "#8D6B2E",
+                        "on-error-container": "#ffdad6",
+                        "surface-container-low": "#1e1b16",
+                        "tertiary-fixed": "#d9e2ff",
+                        "on-primary-fixed": "#261a00",
+                        "secondary": "#b5c8e1",
+                        "tertiary-fixed-dim": "#b2c6fb",
+                        "outline-variant": "#4d4638",
+                        "tertiary": "#b2c6fb"
+                    },
+                    borderRadius: {
+                        DEFAULT: "0.25rem", // Hard Rule: 4px everywhere
+                        lg: "0.25rem",
+                        xl: "0.25rem",
+                        full: "0.25rem"
+                    },
+                    fontFamily: {
+                        "body-md": ["Poppins", "sans-serif"],
+                        "body-lg": ["Poppins", "sans-serif"],
+                        "eyebrow": ["Outfit", "sans-serif"],
+                        "label-sm": ["Outfit", "sans-serif"],
+                        "headline-md": ["Outfit", "sans-serif"],
+                        "hero-h1": ["Outfit", "sans-serif"],
+                        "hero-h1-mobile": ["Outfit", "sans-serif"]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body { font-family: 'Poppins', sans-serif; background-color: #16130e; color: #e9e1d8; }
+        h1, h2, h3, h4, h5, h6 { font-family: 'Outfit', sans-serif; }
+        .bg-gold { background-color: #c8a55a; }
+        .text-gold { color: #c8a55a; }
+        .border-gold { border-color: #c8a55a; }
+    </style>
+</head>
+<body class="antialiased overflow-x-hidden selection:bg-primary-container selection:text-on-primary-container">
+<!-- Shared TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-charcoal/80 backdrop-blur-md border-b border-outline-variant/30 transition-all duration-300">
+<div class="max-w-[1280px] mx-auto px-6 h-20 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<svg class="w-6 h-6 text-primary" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<span class="font-eyebrow tracking-[0.2em] uppercase text-sm font-semibold text-white">BAZ Marketing</span>
+</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="text-sm font-medium text-on-surface/80 hover:text-primary transition-colors uppercase tracking-wider" href="#services">Services</a>
+<a class="text-sm font-medium text-on-surface/80 hover:text-primary transition-colors uppercase tracking-wider" href="#methodology">Methodology</a>
+<a class="text-sm font-medium text-on-surface/80 hover:text-primary transition-colors uppercase tracking-wider" href="#work">Work</a>
+<a class="text-sm font-medium text-on-surface/80 hover:text-primary transition-colors uppercase tracking-wider" href="#insights">Insights</a>
+</nav>
+<a class="hidden md:inline-flex px-6 py-2.5 bg-primary-container text-on-primary-container text-sm font-semibold uppercase tracking-wider rounded hover:bg-primary transition-colors" href="#contact">
+                Partner With Us
+            </a>
+<button class="md:hidden text-on-surface">
+<span class="material-symbols-outlined text-2xl">menu</span>
+</button>
+</div>
+</header>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-[921px] flex items-center justify-center pt-20 overflow-hidden bg-background">
+<div class="absolute inset-0 z-0 opacity-15" data-alt="A dark, abstract, high-end architectural rendering featuring smooth, sweeping curves and subtle geometric intersections. The scene is lit with sophisticated, minimal cinematic lighting that highlights the textures of polished concrete and dark glass, perfectly capturing a moody, pure luxury agency aesthetic with deep charcoal tones and soft, diffused highlights." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBG2S0GXceCSYGmX0hHQOZ5A9T9r6EdSBvzUuxmo-8_Oz7wD1ZdZ1bHPOehaDmy9l4NkW-JmV60KoBMUUJNWJBGnqzeWa2owJGcEHo0GdVppSpc0GSdCOO9UAZS3J_7-9VTMUI8OtWgXRGuVsJ0WqZwyY8qguTPGP6p749GZgVgVPdbAfaGgBrZGdPy3G8YKVbLCI3Sc1fZXcTMDWwv8E-ee7ZTZSEQIHKy6ppsk3-J0s_z1rJT8C3y')"></div>
+<div class="absolute inset-0 bg-gradient-to-b from-transparent via-background/50 to-background z-0"></div>
+<div class="relative z-10 max-w-[1000px] mx-auto px-6 text-center flex flex-col items-center">
+<!-- Faint logo watermark -->
+<svg class="absolute -top-32 w-96 h-96 text-white opacity-[0.03] pointer-events-none" fill="none" viewbox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H6V17.3333V30.6667H24V44H42V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-5xl md:text-7xl font-bold font-hero-h1 tracking-tight text-white mb-6 uppercase leading-tight">
+                    Definitive Growth <br/><span class="text-primary-container">For Ambitious Brands</span>
+</h1>
+<p class="text-lg md:text-xl font-light text-on-surface/80 max-w-2xl mx-auto mb-10">
+                    Architecting high-fidelity strategies and premium creative solutions.
+                </p>
+<a class="inline-flex px-8 py-4 bg-primary-container text-on-primary-container text-sm font-bold uppercase tracking-[0.1em] rounded transition-transform hover:scale-[1.02]" href="#contact">
+                    Inquire Now
+                </a>
+</div>
+</section>
+<!-- Stats Section (Clean White Band) -->
+<section class="bg-white py-12 border-y border-outline-variant/20">
+<div class="max-w-[1280px] mx-auto px-6">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 divide-x-0 md:divide-x divide-charcoal/10">
+<div class="flex flex-col items-center justify-center text-center px-4">
+<p class="text-charcoal/60 text-sm font-medium uppercase tracking-widest mb-2 font-eyebrow">Managed</p>
+<p class="text-charcoal text-4xl font-bold font-headline-md tracking-tight">$1.2B</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center px-4 border-l border-charcoal/10 md:border-none">
+<p class="text-charcoal/60 text-sm font-medium uppercase tracking-widest mb-2 font-eyebrow">Markets</p>
+<p class="text-charcoal text-4xl font-bold font-headline-md tracking-tight">42</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center px-4 mt-8 md:mt-0">
+<p class="text-charcoal/60 text-sm font-medium uppercase tracking-widest mb-2 font-eyebrow">Experience</p>
+<p class="text-charcoal text-4xl font-bold font-headline-md tracking-tight">18 Yrs</p>
+</div>
+<div class="flex flex-col items-center justify-center text-center px-4 mt-8 md:mt-0 border-l border-charcoal/10 md:border-none">
+<p class="text-charcoal/60 text-sm font-medium uppercase tracking-widest mb-2 font-eyebrow">Retention</p>
+<p class="text-charcoal text-4xl font-bold font-headline-md tracking-tight">98%</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Services Section (Pillars) -->
+<section class="py-24 bg-[#F5F5F5]" id="services">
+<div class="max-w-[1280px] mx-auto px-6">
+<div class="mb-16 md:w-2/3">
+<h2 class="text-charcoal text-4xl font-bold font-headline-md mb-4">Our Pillars</h2>
+<p class="text-charcoal/70 text-lg font-light">Premium strategic and creative solutions for high-end brands.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Strategy -->
+<div class="bg-white p-8 border border-charcoal/5 flex flex-col h-full group">
+<div class="mb-6 text-primary-container">
+<span class="material-symbols-outlined text-4xl font-light">account_tree</span>
+</div>
+<h3 class="text-charcoal text-xl font-bold mb-3 font-headline-md group-hover:text-primary-container transition-colors">Strategy</h3>
+<p class="text-charcoal/60 text-sm font-light leading-relaxed">High-fidelity strategic planning and market positioning frameworks.</p>
+</div>
+<!-- Growth -->
+<div class="bg-white p-8 border border-charcoal/5 flex flex-col h-full group">
+<div class="mb-6 text-primary-container">
+<span class="material-symbols-outlined text-4xl font-light">trending_up</span>
+</div>
+<h3 class="text-charcoal text-xl font-bold mb-3 font-headline-md group-hover:text-primary-container transition-colors">Growth</h3>
+<p class="text-charcoal/60 text-sm font-light leading-relaxed">Data-driven growth scaling and performance architecture.</p>
+</div>
+<!-- Creative -->
+<div class="bg-white p-8 border border-charcoal/5 flex flex-col h-full group">
+<div class="mb-6 text-primary-container">
+<span class="material-symbols-outlined text-4xl font-light">draw</span>
+</div>
+<h3 class="text-charcoal text-xl font-bold mb-3 font-headline-md group-hover:text-primary-container transition-colors">Creative</h3>
+<p class="text-charcoal/60 text-sm font-light leading-relaxed">Premium brand creative, art direction, and visual narrative.</p>
+</div>
+<!-- Insights -->
+<div class="bg-white p-8 border border-charcoal/5 flex flex-col h-full group">
+<div class="mb-6 text-primary-container">
+<span class="material-symbols-outlined text-4xl font-light">visibility</span>
+</div>
+<h3 class="text-charcoal text-xl font-bold mb-3 font-headline-md group-hover:text-primary-container transition-colors">Insights</h3>
+<p class="text-charcoal/60 text-sm font-light leading-relaxed">Actionable market insights and consumer behavior analysis.</p>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-highest border-t border-outline-variant/20 pt-16 pb-8">
+<div class="max-w-[1280px] mx-auto px-6 text-center text-on-surface-variant/60 text-sm">
+            © 2024 BAZ Marketing Ventures. All rights reserved.
+        </div>
+</footer>
+</body></html>

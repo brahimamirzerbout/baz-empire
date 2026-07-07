@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1584 396" fill="none">
+  <!-- BAZ LinkedIn Banner — 1584×396
+       Luxury dark, BAZ mark with tagline
+  -->
+  <defs>
+    <radialGradient id="li-glow" cx="40%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#b87adb" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#0a0a0d" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="li-grid" width="34" height="34" patternUnits="userSpaceOnUse">
+      <circle cx="0" cy="0" r="0.4" fill="#b87adb" opacity="0.05"/>
+    </pattern>
+  </defs>
+  
+  <rect width="1584" height="396" fill="#0a0a0d"/>
+  <rect width="1584" height="396" fill="url(#li-grid)"/>
+  <rect width="1584" height="396" fill="url(#li-glow)"/>
+  
+  <!-- Accent top -->
+  <rect x="55" y="0" width="1474" height="2" fill="#b87adb" opacity="0.377"/>
+  
+  <!-- BAZ — left-aligned -->
+  <g transform="translate(89, 50)">
+    <rect x="0" y="0" width="10" height="250" rx="5" fill="#b87adb"/>
+    <rect x="0" y="0" width="85" height="10" rx="5" fill="#b87adb"/>
+    <rect x="0" y="80" width="85" height="10" rx="5" fill="#b87adb"/>
+    <rect x="75" y="0" width="10" height="90" rx="5" fill="#b87adb"/>
+    <path d="M 85 0 Q 140 0 140 45 Q 140 90 85 90" fill="#b87adb"/>
+    <rect x="75" y="160" width="10" height="10" rx="5" fill="#b87adb"/>
+    <path d="M 85 90 Q 155 90 155 160 Q 155 250 85 250" fill="#b87adb" opacity="0.88"/>
+    
+    <g transform="translate(175, 0)">
+      <path d="M 0 250 L 65 0 L 130 250 H 107 L 94 190 H 36 L 23 250 Z M 43 130 L 65 65 L 87 130 Z" fill="#b87adb"/>
+    </g>
+    
+    <g transform="translate(330, 0)">
+      <rect x="0" y="0" width="105" height="10" rx="5" fill="#b87adb"/>
+      <rect x="0" y="240" width="105" height="10" rx="5" fill="#b87adb"/>
+      <rect x="95" y="0" width="10" height="250" rx="5" fill="#b87adb" opacity="0.55"/>
+      <line x1="0" y1="10" x2="95" y2="240" stroke="#b87adb" stroke-width="10" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Tagline — right -->
+  <text x="1440" y="165" font-family="'Inter', 'Helvetica Neue', sans-serif" font-size="18" font-weight="300" letter-spacing="0.4em" fill="#faf9fa" text-anchor="end">GROWTH PARTNER</text>
+  <rect x="1270" y="178" width="170" height="2" rx="1" fill="#b87adb" opacity="0.377"/>
+  <text x="1440" y="205" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="400" letter-spacing="0.15em" fill="#6e6879" text-anchor="end">STRATEGY · CREATIVE · MEDIA · REVENUE</text>
+  
+  <!-- Bottom accent -->
+  <rect x="55" y="394" width="1474" height="2" fill="#b87adb" opacity="0.377"/>
+</svg>

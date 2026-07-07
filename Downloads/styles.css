@@ -1,0 +1,200 @@
+@import "tailwindcss" source(none);
+@source "../src";
+@import "tw-animate-css";
+
+@custom-variant dark (&:is(.dark *));
+
+/*
+ * Aether monochrome design system.
+ * Pure grayscale — no color, no noise. Light and shadow only.
+ * Sans: Inter (tight, condensed feeling via -0.04em). Mono: JetBrains Mono.
+ */
+
+@theme inline {
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+  --radius-2xl: calc(var(--radius) + 8px);
+  --radius-3xl: calc(var(--radius) + 12px);
+  --radius-4xl: calc(var(--radius) + 16px);
+
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  /* Aether grayscale scale */
+  --color-ink-0: oklch(0 0 0);        /* pure black */
+  --color-ink-50: oklch(0.04 0 0);
+  --color-ink-100: oklch(0.08 0 0);
+  --color-ink-200: oklch(0.13 0 0);
+  --color-ink-300: oklch(0.18 0 0);
+  --color-ink-400: oklch(0.27 0 0);
+  --color-ink-500: oklch(0.4 0 0);
+  --color-ink-600: oklch(0.55 0 0);
+  --color-ink-700: oklch(0.7 0 0);
+  --color-ink-800: oklch(0.85 0 0);
+  --color-ink-900: oklch(0.96 0 0);
+  --color-ink-1000: oklch(1 0 0);     /* pure white */
+
+  --shadow-glow: 0 0 0 1px oklch(1 0 0 / 8%), 0 20px 60px -20px oklch(0 0 0 / 80%);
+}
+
+:root {
+  --radius: 0.5rem;
+
+  --background: oklch(0.04 0 0);
+  --foreground: oklch(0.98 0 0);
+
+  --card: oklch(0.08 0 0);
+  --card-foreground: oklch(0.98 0 0);
+
+  --popover: oklch(0.08 0 0);
+  --popover-foreground: oklch(0.98 0 0);
+
+  --primary: oklch(1 0 0);
+  --primary-foreground: oklch(0 0 0);
+
+  --secondary: oklch(0.13 0 0);
+  --secondary-foreground: oklch(0.98 0 0);
+
+  --muted: oklch(0.13 0 0);
+  --muted-foreground: oklch(0.62 0 0);
+
+  --accent: oklch(0.18 0 0);
+  --accent-foreground: oklch(0.98 0 0);
+
+  --destructive: oklch(0.55 0.2 25);
+  --destructive-foreground: oklch(0.98 0 0);
+
+  --border: oklch(1 0 0 / 8%);
+  --input: oklch(1 0 0 / 10%);
+  --ring: oklch(1 0 0 / 30%);
+}
+
+@layer base {
+  * {
+    border-color: var(--color-border);
+  }
+
+  html {
+    color-scheme: dark;
+  }
+
+  body {
+    background-color: var(--color-background);
+    color: var(--color-foreground);
+    font-family: var(--font-sans);
+    font-feature-settings: "ss01", "cv11";
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* Aether shell: dot grid + radial glow */
+  .aether-shell {
+    position: relative;
+    background-color: var(--color-ink-50);
+    background-image:
+      radial-gradient(ellipse 60% 40% at 50% -5%, oklch(1 0 0 / 8%), transparent 60%),
+      radial-gradient(ellipse 80% 40% at 50% 100%, oklch(1 0 0 / 4%), transparent 60%),
+      radial-gradient(circle at 1px 1px, oklch(1 0 0 / 5%) 1px, transparent 0);
+    background-size: auto, auto, 28px 28px;
+    background-attachment: fixed, fixed, fixed;
+  }
+
+  /* faint film grain */
+  .aether-shell::before {
+    content: "";
+    position: fixed;
+    inset: 0;
+    pointer-events: none;
+    z-index: 1;
+    opacity: 0.35;
+    mix-blend-mode: overlay;
+    background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='240' height='240'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/><feColorMatrix values='0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.08 0'/></filter><rect width='100%' height='100%' filter='url(%23n)'/></svg>");
+  }
+}
+
+@utility mono-label {
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.22em;
+  text-transform: uppercase;
+  color: var(--color-ink-600);
+}
+
+@utility display-xl {
+  font-family: var(--font-display);
+  font-weight: 800;
+  letter-spacing: -0.045em;
+  line-height: 0.92;
+}
+
+@utility chip {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.375rem 0.75rem;
+  border-radius: 999px;
+  border: 1px solid var(--color-border);
+  background: oklch(1 0 0 / 3%);
+  font-family: var(--font-mono);
+  font-size: 0.6875rem;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  color: var(--color-ink-700);
+}
+
+/* Aether glass card — frosted, bordered, subtle inner sheen */
+@utility glass {
+  background:
+    linear-gradient(180deg, oklch(1 0 0 / 4%), oklch(1 0 0 / 1.5%));
+  border: 1px solid oklch(1 0 0 / 8%);
+  border-radius: var(--radius-xl);
+  backdrop-filter: blur(24px) saturate(1.4);
+  -webkit-backdrop-filter: blur(24px) saturate(1.4);
+  box-shadow: inset 0 1px 0 oklch(1 0 0 / 6%), 0 30px 60px -30px oklch(0 0 0 / 60%);
+}
+
+/* Giant outlined section watermark — Aether's signature corner numeral */
+@utility watermark {
+  position: absolute;
+  top: 1.5rem;
+  right: 1.5rem;
+  font-family: var(--font-display);
+  font-weight: 900;
+  font-size: clamp(9rem, 18vw, 18rem);
+  line-height: 1;
+  letter-spacing: -0.05em;
+  color: transparent;
+  -webkit-text-stroke: 1px oklch(1 0 0 / 6%);
+  pointer-events: none;
+  user-select: none;
+  z-index: 0;
+}
+
+@utility card-surface {
+  background: linear-gradient(180deg, oklch(1 0 0 / 3%), oklch(1 0 0 / 1%));
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+}

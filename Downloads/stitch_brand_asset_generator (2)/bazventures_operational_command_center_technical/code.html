@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>OPERATIONAL_GATEWAY_v1.1</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Poppins:wght@400;500&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Design System Tokens & Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                "primary-fixed": "#ffdf9f",
+                "surface-container": "#1d2022",
+                "surface": "#101416",
+                "on-secondary": "#27313c",
+                "tertiary-fixed-dim": "#bac8d7",
+                "primary-container": "#c8a55a",
+                "outline": "#998f7f",
+                "on-tertiary-fixed": "#101d28",
+                "error-container": "#93000a",
+                "surface-dim": "#101416",
+                "on-secondary-fixed": "#121d26",
+                "on-primary": "#402d00",
+                "surface-container-low": "#191c1e",
+                "on-primary-fixed-variant": "#5b4300",
+                "tertiary": "#bac8d7",
+                "inverse-on-surface": "#2d3133",
+                "secondary-fixed-dim": "#bdc7d5",
+                "on-surface": "#e0e3e6",
+                "tertiary-container": "#9eabba",
+                "on-tertiary-fixed-variant": "#3b4854",
+                "on-tertiary": "#25323d",
+                "primary": "#e7c274",
+                "on-error": "#690005",
+                "primary-fixed-dim": "#e7c274",
+                "on-secondary-container": "#acb6c3",
+                "surface-container-high": "#272a2d",
+                "surface-container-lowest": "#0b0f11",
+                "inverse-surface": "#e0e3e6",
+                "on-primary-container": "#513b00",
+                "on-tertiary-container": "#33404c",
+                "on-secondary-fixed-variant": "#3e4853",
+                "surface-tint": "#e7c274",
+                "on-primary-fixed": "#261a00",
+                "surface-variant": "#323538",
+                "background": "#101416",
+                "on-surface-variant": "#d0c5b3",
+                "secondary-fixed": "#d9e3f1",
+                "secondary-container": "#3e4853",
+                "on-error-container": "#ffdad6",
+                "surface-bright": "#363a3c",
+                "outline-variant": "#4d4638",
+                "inverse-primary": "#765a16",
+                "error": "#ffb4ab",
+                "surface-container-highest": "#323538",
+                "tertiary-fixed": "#d6e4f3",
+                "on-background": "#e0e3e6",
+                "secondary": "#bdc7d5"
+            },
+            "borderRadius": {
+                "DEFAULT": "4px",
+                "lg": "4px",
+                "xl": "4px",
+                "full": "9999px"
+            },
+            "spacing": {
+                "unit": "4px",
+                "sidebar_width": "260px",
+                "margin_desktop": "40px",
+                "margin_mobile": "16px",
+                "gutter": "24px"
+            },
+            "fontFamily": {
+                "label-caps": ["Outfit"],
+                "headline-sm": ["Outfit"],
+                "body-sm": ["Poppins"],
+                "headline-lg": ["Outfit"],
+                "display-lg": ["Outfit"],
+                "body-md": ["Poppins"],
+                "mono": ["JetBrains Mono"]
+            }
+          }
+        }
+      }
+    </script>
+<style>
+        body {
+            background-color: #101416;
+            color: #e0e3e6;
+            -webkit-font-smoothing: antialiased;
+        }
+        .glass-module {
+            background: rgba(31, 41, 51, 0.7);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(71, 84, 103, 0.3);
+        }
+        .inner-glow {
+            box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.05);
+        }
+        .watermark-text {
+            position: fixed;
+            bottom: -5%;
+            right: -2%;
+            font-size: 20rem;
+            opacity: 0.03;
+            font-family: 'Outfit', sans-serif;
+            font-weight: 900;
+            pointer-events: none;
+            z-index: 0;
+            white-space: nowrap;
+        }
+        .custom-scrollbar::-webkit-scrollbar { width: 4px; }
+        .custom-scrollbar::-webkit-scrollbar-track { background: #101416; }
+        .custom-scrollbar::-webkit-scrollbar-thumb { background: #4d4638; border-radius: 2px; }
+        
+        .mono-data { font-family: 'JetBrains Mono', monospace; font-variant-numeric: tabular-nums; }
+    </style>
+</head>
+<body class="font-body-md text-body-md overflow-hidden">
+<!-- Watermark Background -->
+<div class="watermark-text">BAZventures</div>
+<!-- Side Navigation Shell -->
+<nav class="fixed left-0 top-0 h-full w-64 bg-surface-container-lowest border-r border-outline-variant/30 flex flex-col py-8 px-4 z-50">
+<div class="mb-10 px-2">
+<h1 class="font-headline-md text-headline-md text-on-surface tracking-tighter">Command Center</h1>
+<p class="font-label-sm text-label-sm uppercase tracking-[0.2em] text-on-surface-variant opacity-60">BAZventures Internal</p>
+</div>
+<div class="flex-1 space-y-1">
+<!-- Active State: Analytics (Matches "Deployment" / Data intent of prompt) -->
+<a class="flex items-center gap-3 px-3 py-3 text-primary border-l-2 border-primary bg-surface-container-high/50 transition-transform duration-200 translate-x-1" href="#">
+<span class="material-symbols-outlined text-[20px]">analytics</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em]">Analytics</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant hover:bg-surface-variant/20 hover:text-on-surface transition-colors duration-300" href="#">
+<span class="material-symbols-outlined text-[20px]">architecture</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em]">Strategy</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant hover:bg-surface-variant/20 hover:text-on-surface transition-colors duration-300" href="#">
+<span class="material-symbols-outlined text-[20px]">trending_up</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em]">Growth</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-3 text-on-surface-variant hover:bg-surface-variant/20 hover:text-on-surface transition-colors duration-300" href="#">
+<span class="material-symbols-outlined text-[20px]">brush</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.2em]">Creative</span>
+</a>
+</div>
+<div class="mt-auto pt-8 border-t border-outline-variant/30 space-y-1">
+<button class="w-full mb-4 py-3 bg-primary-container text-on-primary-container text-label-caps uppercase rounded-sm hover:brightness-110 transition-all font-bold">
+                New Project
+            </button>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">settings</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.1em]">Settings</span>
+</a>
+<a class="flex items-center gap-3 px-3 py-2 text-on-surface-variant hover:text-primary transition-colors" href="#">
+<span class="material-symbols-outlined text-[20px]">help_outline</span>
+<span class="font-label-sm text-label-sm uppercase tracking-[0.1em]">Support</span>
+</a>
+</div>
+</nav>
+<!-- Main Stage -->
+<main class="ml-64 h-screen overflow-y-auto custom-scrollbar relative z-10">
+<!-- Top Toolbar -->
+<header class="sticky top-0 w-full bg-background/80 backdrop-blur-md border-b border-outline-variant/30 px-gutter py-4 flex justify-between items-center z-40">
+<div class="flex items-center gap-6">
+<span class="font-hero-h1-mobile text-headline-md tracking-tighter text-on-surface">OPERATIONAL_GATEWAY_v1.1</span>
+<div class="flex items-center gap-2 bg-surface-container px-3 py-1 rounded border border-outline-variant/30">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse"></span>
+<span class="mono-data text-[10px] text-primary">SYSTEM_STATUS: NOMINAL</span>
+</div>
+</div>
+<div class="flex items-center gap-4">
+<div class="flex items-center bg-surface-container-low border border-outline-variant/30 px-3 py-1.5 gap-2 rounded">
+<span class="material-symbols-outlined text-sm text-on-surface-variant">search</span>
+<input class="bg-transparent border-none focus:ring-0 text-[11px] font-mono w-48 placeholder:text-on-surface-variant/40" placeholder="CMD+K TO SEARCH..." type="text"/>
+</div>
+<button class="bg-primary-container text-on-primary-container px-6 py-2 text-label-caps uppercase font-bold hover:scale-95 transition-transform duration-200">
+                    Get Started
+                </button>
+</div>
+</header>
+<!-- Dashboard Content -->
+<div class="p-gutter max-w-[1600px] mx-auto space-y-6">
+<!-- KPI Ribbon -->
+<section class="grid grid-cols-1 md:grid-cols-4 gap-4">
+<div class="bg-surface-container border border-outline-variant/30 p-5 inner-glow">
+<p class="text-label-caps text-primary mb-2">Throughput / sec</p>
+<div class="flex items-end justify-between">
+<span class="text-headline-lg font-headline-lg mono-data text-on-surface">1,248.02</span>
+<span class="text-[10px] text-primary bg-primary/10 px-2 py-0.5 rounded">+4.2%</span>
+</div>
+</div>
+<div class="bg-surface-container border border-outline-variant/30 p-5 inner-glow">
+<p class="text-label-caps text-primary mb-2">Strategic Latency</p>
+<div class="flex items-end justify-between">
+<span class="text-headline-lg font-headline-lg mono-data text-on-surface">14.2ms</span>
+<span class="text-[10px] text-error bg-error/10 px-2 py-0.5 rounded">-1.8ms</span>
+</div>
+</div>
+<div class="bg-surface-container border border-outline-variant/30 p-5 inner-glow">
+<p class="text-label-caps text-primary mb-2">Funnel Efficiency</p>
+<div class="flex items-end justify-between">
+<span class="text-headline-lg font-headline-lg mono-data text-on-surface">88.4%</span>
+<span class="text-[10px] text-primary bg-primary/10 px-2 py-0.5 rounded">+0.5%</span>
+</div>
+</div>
+<div class="bg-surface-container border border-outline-variant/30 p-5 inner-glow">
+<p class="text-label-caps text-primary mb-2">Nova AI Confidence</p>
+<div class="flex items-end justify-between">
+<span class="text-headline-lg font-headline-lg mono-data text-on-surface">0.992</span>
+<span class="text-[10px] text-on-surface-variant bg-surface-variant/30 px-2 py-0.5 rounded">STABLE</span>
+</div>
+</div>
+</section>
+<!-- Main Operational Module: Multi-Channel Funnel Analysis -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-6">
+<!-- Funnel Visualization -->
+<div class="lg:col-span-8 bg-surface-container border border-outline-variant/30 p-6 inner-glow relative overflow-hidden">
+<div class="flex justify-between items-center mb-8">
+<div>
+<h3 class="text-label-caps text-primary">Multi-Channel Funnel Distribution</h3>
+<p class="text-body-sm text-on-surface-variant opacity-60">Cross-platform conversion paths and friction points</p>
+</div>
+<div class="flex gap-2">
+<span class="px-2 py-1 bg-surface-container-high border border-outline-variant/30 text-[10px] font-mono">LIVE_FEED</span>
+<span class="px-2 py-1 bg-surface-container-high border border-outline-variant/30 text-[10px] font-mono">v1.1_CORE</span>
+</div>
+</div>
+<div class="h-[400px] w-full relative flex items-center justify-center">
+<!-- Custom Funnel SVG Logic -->
+<svg class="w-full h-full" viewbox="0 0 800 400">
+<defs>
+<lineargradient id="funnelGrad" x1="0%" x2="100%" y1="0%" y2="0%">
+<stop offset="0%" style="stop-color:#c8a55a;stop-opacity:0.8"></stop>
+<stop offset="100%" style="stop-color:#c8a55a;stop-opacity:0.2"></stop>
+</lineargradient>
+</defs>
+<!-- Funnel Stages -->
+<path d="M50,40 L750,40 L650,360 L150,360 Z" fill="none" stroke="#475467" stroke-dasharray="4 4"></path>
+<!-- Stage 1: Awareness -->
+<rect fill="rgba(200, 165, 90, 0.15)" height="60" width="680" x="60" y="50"></rect>
+<text fill="#e7c274" font-family="JetBrains Mono" font-size="12" x="70" y="85">STG_01: ACQUISITION [92.4k]</text>
+<!-- Stage 2: Consideration (Highlighted Bottleneck) -->
+<rect fill="rgba(255, 180, 171, 0.1)" height="60" stroke="#ffb4ab" stroke-width="1" width="580" x="110" y="120"></rect>
+<text fill="#ffb4ab" font-family="JetBrains Mono" font-size="12" x="120" y="155">STG_02: STRATEGIC_CONSIDERATION [14.1k] !! BOTTLENECK !!</text>
+<!-- Stage 3: Conversion -->
+<rect fill="rgba(200, 165, 90, 0.05)" height="60" width="480" x="160" y="190"></rect>
+<text fill="#e7c274" font-family="JetBrains Mono" font-size="12" x="170" y="225">STG_03: CONVERSION_EVENT [4.8k]</text>
+<!-- Stage 4: Retention -->
+<rect fill="rgba(200, 165, 90, 0.02)" height="60" width="380" x="210" y="260"></rect>
+<text fill="#e7c274" font-family="JetBrains Mono" font-size="12" x="220" y="295">STG_04: RETENTION_LOOP [3.2k]</text>
+</svg>
+<!-- Overlay Glass Alert -->
+<div class="absolute right-6 top-32 glass-module p-4 max-w-[240px] border-l-2 border-l-error">
+<div class="flex items-center gap-2 mb-2 text-error">
+<span class="material-symbols-outlined text-sm">warning</span>
+<span class="text-label-caps">Critical Drop-off</span>
+</div>
+<p class="text-[11px] leading-relaxed text-on-surface-variant">82% of users stall at 'Strategic Consideration Phase'. Latency in root-cause recommendation detected.</p>
+</div>
+</div>
+</div>
+<!-- Nova AI Side Panel -->
+<div class="lg:col-span-4 space-y-6">
+<!-- Root Cause Card -->
+<div class="bg-surface-container border border-outline-variant/30 p-6 inner-glow">
+<div class="flex items-center gap-3 mb-6">
+<div class="w-10 h-10 bg-primary/20 flex items-center justify-center rounded-sm">
+<span class="material-symbols-outlined text-primary">psychology</span>
+</div>
+<div>
+<h3 class="text-label-caps text-on-surface">Nova AI Diagnosis</h3>
+<p class="text-[10px] mono-data text-on-surface-variant">NODE_INSTANCE: 0x449F</p>
+</div>
+</div>
+<div class="space-y-4">
+<div class="p-3 bg-background/50 border-l-2 border-primary">
+<p class="text-[10px] text-primary mb-1 uppercase font-bold">Identified Root Cause</p>
+<p class="text-body-sm leading-snug">Asynchronous data synchronization lag in the 'Growth' protocol layer creating 400ms UI freeze.</p>
+</div>
+<div class="p-3 bg-background/50 border-l-2 border-tertiary">
+<p class="text-[10px] text-tertiary mb-1 uppercase font-bold">Recommendation</p>
+<p class="text-body-sm leading-snug">Implement edge-caching for Protocol v2.4 payloads and prioritize 'Creative' assets in pre-fetch queue.</p>
+</div>
+<button class="w-full py-2 border border-primary text-primary text-label-caps uppercase hover:bg-primary/10 transition-all">
+                                Deploy Resolution
+                            </button>
+</div>
+</div>
+<!-- System Health Module -->
+<div class="bg-surface-container border border-outline-variant/30 p-6 inner-glow h-full">
+<h3 class="text-label-caps text-on-surface mb-4">Infrastructure Nodes</h3>
+<div class="space-y-3">
+<div class="flex items-center justify-between p-2 hover:bg-surface-variant/10 transition-colors">
+<span class="text-[11px] font-mono">LON_EDGE_01</span>
+<div class="flex gap-1">
+<div class="w-4 h-1 bg-primary"></div>
+<div class="w-4 h-1 bg-primary"></div>
+<div class="w-4 h-1 bg-primary"></div>
+<div class="w-4 h-1 bg-primary/20"></div>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 hover:bg-surface-variant/10 transition-colors">
+<span class="text-[11px] font-mono">NYC_CORE_04</span>
+<div class="flex gap-1">
+<div class="w-4 h-1 bg-primary"></div>
+<div class="w-4 h-1 bg-primary"></div>
+<div class="w-4 h-1 bg-primary"></div>
+<div class="w-4 h-1 bg-primary"></div>
+</div>
+</div>
+<div class="flex items-center justify-between p-2 hover:bg-surface-variant/10 transition-colors">
+<span class="text-[11px] font-mono">TKO_STATIC_09</span>
+<div class="flex gap-1">
+<div class="w-4 h-1 bg-error"></div>
+<div class="w-4 h-1 bg-error/20"></div>
+<div class="w-4 h-1 bg-error/20"></div>
+<div class="w-4 h-1 bg-error/20"></div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Deployment Log / Activity Grid -->
+<section class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+<div class="lg:col-span-2 bg-surface-container border border-outline-variant/30 inner-glow overflow-hidden">
+<div class="px-6 py-4 border-b border-outline-variant/30 flex justify-between items-center">
+<h3 class="text-label-caps text-primary">Deployment Manifest</h3>
+<span class="text-[10px] font-mono text-on-surface-variant opacity-60">LAST_UPDATE: 12:44:01 UTC</span>
+</div>
+<div class="overflow-x-auto">
+<table class="w-full text-left">
+<thead class="bg-surface-variant/20 border-b border-outline-variant/30 text-label-caps text-[10px]">
+<tr>
+<th class="px-6 py-3 font-medium">Protocol_ID</th>
+<th class="px-6 py-3 font-medium">Environment</th>
+<th class="px-6 py-3 font-medium">Author</th>
+<th class="px-6 py-3 font-medium">Latency</th>
+<th class="px-6 py-3 font-medium">Status</th>
+</tr>
+</thead>
+<tbody class="text-[12px] font-mono divide-y divide-outline-variant/10">
+<tr class="hover:bg-surface-variant/10 transition-colors">
+<td class="px-6 py-4 text-on-surface">PRT_772_DELTA</td>
+<td class="px-6 py-4">STAGING_US_EAST</td>
+<td class="px-6 py-4">J_CHENG</td>
+<td class="px-6 py-4">112ms</td>
+<td class="px-6 py-4"><span class="text-primary border border-primary/30 px-2 py-0.5">COMPLETE</span></td>
+</tr>
+<tr class="hover:bg-surface-variant/10 transition-colors">
+<td class="px-6 py-4 text-on-surface">PRT_811_GAMMA</td>
+<td class="px-6 py-4">PRODUCTION_GLOBAL</td>
+<td class="px-6 py-4">K_BAZ_01</td>
+<td class="px-6 py-4">44ms</td>
+<td class="px-6 py-4"><span class="text-primary-container border border-primary-container/30 px-2 py-0.5">PENDING</span></td>
+</tr>
+<tr class="hover:bg-surface-variant/10 transition-colors">
+<td class="px-6 py-4 text-on-surface">PRT_602_ALPHA</td>
+<td class="px-6 py-4">SANDBOX_V4</td>
+<td class="px-6 py-4">AUTO_DEPLOY</td>
+<td class="px-6 py-4">--</td>
+<td class="px-6 py-4"><span class="text-error border border-error/30 px-2 py-0.5">FAILED</span></td>
+</tr>
+</tbody>
+</table>
+</div>
+</div>
+<!-- Strategic Consideration Phase: Deep Dive Card -->
+<div class="bg-surface-container border border-outline-variant/30 p-6 inner-glow relative group cursor-pointer">
+<div class="absolute inset-0 bg-primary/5 opacity-0 group-hover:opacity-100 transition-opacity"></div>
+<div class="relative z-10">
+<div class="flex justify-between items-start mb-6">
+<h3 class="text-label-caps text-on-surface">Contextual Focus</h3>
+<span class="material-symbols-outlined text-primary">zoom_in</span>
+</div>
+<div class="w-full h-32 bg-cover bg-center mb-6 border border-outline-variant/30" data-alt="High-density technical blueprint of a neural network overlaying a dark charcoal architectural grid. Sophisticated UI elements, tiny monospaced text, and subtle glowing gold connection lines. The style is ultra-professional, reminiscent of a high-end luxury monograph combined with a flight control system. Cinematic low lighting." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCHj2pRictDuUiFRyHAAWB38XZryu34WwSNg8zIVX8TZHMTWm7FOGVTA9_-ytpwVPOL6rx7Q5dAzrZkqDpOmHj42Ahs1xLJq9G2sSjfflK3A7ckl3bW3Mt9Fm0Ty9Yh68yZcngHSguiYyWP-wwUub1Djwps05pV28DhO5rPDHhD0SBfuwpldHU8_9upq6ueYwv1GbAjwhpn1inhmmrGllQ_bGV2_KdQubTNboq6dx91BpliYTq7dmoR')"></div>
+<p class="text-body-sm text-on-surface-variant leading-relaxed mb-4">
+                            Detailed analysis of user behavior during the <span class="text-primary font-bold">Consideration Phase</span> reveals a mismatch between Protocol v2.4 latency and executive expectation timelines.
+                        </p>
+<div class="grid grid-cols-2 gap-4">
+<div class="border-t border-outline-variant/30 pt-2">
+<p class="text-[10px] text-on-surface-variant/60 uppercase">Average Stalled</p>
+<p class="mono-data text-on-surface">14.2 Days</p>
+</div>
+<div class="border-t border-outline-variant/30 pt-2">
+<p class="text-[10px] text-on-surface-variant/60 uppercase">Conversion Lift</p>
+<p class="mono-data text-primary">+12.4%</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div>
+<!-- System Footer -->
+<footer class="w-full border-t border-outline-variant/30 mt-12 bg-surface-container-lowest">
+<div class="flex flex-col md:flex-row justify-between items-center py-6 px-gutter max-w-max-width mx-auto">
+<div class="flex flex-col gap-1 items-center md:items-start mb-4 md:mb-0">
+<span class="font-headline-md text-headline-md text-on-surface tracking-tighter">BAZventures</span>
+<p class="font-body-md text-body-md text-on-surface-variant opacity-60 text-[11px]">© 2024 BAZventures. All rights reserved.</p>
+</div>
+<div class="flex gap-8">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline transition-all text-[11px] uppercase tracking-wider" href="#">Privacy Policy</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline transition-all text-[11px] uppercase tracking-wider" href="#">Terms of Service</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-primary underline transition-all text-[11px] uppercase tracking-wider" href="#">Contact</a>
+</div>
+<div class="text-[10px] font-mono text-on-surface-variant/40 mt-4 md:mt-0">
+                    BUILD_ID: 99x-24-D
+                </div>
+</div>
+</footer>
+</main>
+<script>
+        // Micro-interaction for hover effects on modules
+        document.querySelectorAll('.inner-glow').forEach(el => {
+            el.addEventListener('mouseenter', () => {
+                el.style.borderColor = 'rgba(231, 194, 116, 0.4)';
+            });
+            el.addEventListener('mouseleave', () => {
+                el.style.borderColor = 'rgba(71, 84, 103, 0.3)';
+            });
+        });
+
+        // Simulating live data updates
+        setInterval(() => {
+            const thruput = document.querySelector('.mono-data');
+            if(thruput) {
+                const newVal = (1248.02 + (Math.random() * 2 - 1)).toFixed(2);
+                thruput.textContent = newVal.toLocaleString();
+            }
+        }, 3000);
+    </script>
+</body></html>

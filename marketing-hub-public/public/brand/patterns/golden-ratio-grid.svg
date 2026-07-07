@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <rect width="512" height="512" fill="#0a0a0d"/>
+    <line x1="196" y1="0" x2="196" y2="512" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="0" y1="196" x2="512" y2="196" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="391" y1="0" x2="391" y2="512" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="0" y1="391" x2="512" y2="391" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="483" y1="0" x2="483" y2="512" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="0" y1="483" x2="512" y2="483" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="508" y1="0" x2="508" y2="512" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="0" y1="508" x2="512" y2="508" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="512" y1="0" x2="512" y2="512" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+    <line x1="0" y1="512" x2="512" y2="512" stroke="#b87adb" stroke-width="0.5" opacity="0.06"/>
+</svg>

@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BAZ Ventures | Command Center</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700&amp;family=Poppins:wght@400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary": "#c9c6c2",
+                        "outline": "#998f7f",
+                        "inverse-on-surface": "#33302c",
+                        "on-primary-fixed-variant": "#5b4300",
+                        "primary-fixed-dim": "#e7c274",
+                        "on-secondary-container": "#acb6c3",
+                        "tertiary-fixed-dim": "#c9c6c2",
+                        "error": "#ffb4ab",
+                        "surface-container-low": "#1e1b18",
+                        "primary-fixed": "#ffdf9f",
+                        "inverse-primary": "#765a16",
+                        "on-secondary-fixed-variant": "#3e4853",
+                        "tertiary-container": "#aca9a5",
+                        "surface-dim": "#151310",
+                        "outline-variant": "#4d4638",
+                        "primary": "#e7c274",
+                        "on-background": "#e8e1dc",
+                        "on-surface-variant": "#d0c5b3",
+                        "on-tertiary-fixed-variant": "#484744",
+                        "on-primary-fixed": "#261a00",
+                        "surface-container-highest": "#383431",
+                        "on-tertiary-fixed": "#1c1b19",
+                        "tertiary-fixed": "#e6e2de",
+                        "surface-container-lowest": "#100e0b",
+                        "on-surface": "#e8e1dc",
+                        "surface-variant": "#383431",
+                        "on-primary": "#402d00",
+                        "surface-container-high": "#2d2926",
+                        "inverse-surface": "#e8e1dc",
+                        "on-tertiary": "#31302e",
+                        "on-secondary-fixed": "#121d26",
+                        "secondary": "#bdc7d5",
+                        "on-tertiary-container": "#3f3e3b",
+                        "primary-container": "#c8a55a",
+                        "error-container": "#93000a",
+                        "on-error-container": "#ffdad6",
+                        "background": "#151310",
+                        "on-error": "#690005",
+                        "secondary-fixed-dim": "#bdc7d5",
+                        "surface-bright": "#3c3935",
+                        "secondary-container": "#3e4853",
+                        "on-secondary": "#27313c",
+                        "surface": "#151310",
+                        "on-primary-container": "#513b00",
+                        "surface-tint": "#e7c274",
+                        "secondary-fixed": "#d9e3f1",
+                        "surface-container": "#221f1c"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "container-max": "1280px",
+                        "section-gap": "120px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Poppins"],
+                        "headline-lg": ["Outfit"],
+                        "headline-md": ["Outfit"],
+                        "label-md": ["Poppins"],
+                        "label-sm": ["Poppins"],
+                        "display-lg": ["Outfit"],
+                        "body-md": ["Poppins"],
+                        "headline-sm": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "500"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                        "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "label-sm": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.08em", "fontWeight": "600"}],
+                        "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "500"}]
+                    }
+                },
+            },
+        }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
+            vertical-align: middle;
+        }
+        .active-gold-glow {
+            box-shadow: 0 0 15px rgba(200, 165, 90, 0.1);
+        }
+        .shimmer-hover:hover {
+            background: linear-gradient(90deg, rgba(200, 165, 90, 0) 0%, rgba(200, 165, 90, 0.05) 50%, rgba(200, 165, 90, 0) 100%);
+            background-size: 200% 100%;
+            animation: shimmer 1.5s infinite;
+        }
+        @keyframes shimmer {
+            0% { background-position: 200% 0; }
+            100% { background-position: -200% 0; }
+        }
+        .architectural-grid {
+            background-image: linear-gradient(rgba(153, 143, 127, 0.03) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(153, 143, 127, 0.03) 1px, transparent 1px);
+            background-size: 24px 24px;
+        }
+    </style>
+</head>
+<body class="bg-background text-on-background font-body-md overflow-x-hidden">
+<!-- TopNavBar Cluster -->
+<header class="fixed top-0 left-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10 flex justify-between items-center px-margin-desktop h-20">
+<div class="flex items-center gap-8">
+<div class="flex items-center gap-2">
+<div class="w-8 h-8 bg-primary rounded-sm flex items-center justify-center">
+<span class="text-on-primary font-bold">B</span>
+</div>
+<span class="font-headline-sm text-on-surface font-bold tracking-tight">BAZ Ventures</span>
+</div>
+<nav class="hidden lg:flex items-center gap-6">
+<a class="font-body-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Services</a>
+<a class="font-body-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Marketing Hub</a>
+<a class="font-body-md text-label-md uppercase tracking-wider text-primary border-b-2 border-primary pb-1" href="#">Hub Dashboard</a>
+<a class="font-body-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Methodology</a>
+</nav>
+</div>
+<div class="flex items-center gap-base">
+<button class="bg-primary text-on-primary px-6 py-2 rounded-lg font-label-md hover:brightness-110 transition-all active:scale-95">Talk to us</button>
+</div>
+</header>
+<div class="flex pt-20">
+<!-- SideNavBar -->
+<aside class="fixed left-0 top-20 h-[calc(100vh-80px)] w-60 bg-surface-container-lowest border-r border-outline-variant/5 flex flex-col py-8 px-4 gap-base z-40">
+<div class="mb-gutter px-2">
+<div class="flex items-center gap-3 mb-1">
+<span class="material-symbols-outlined text-primary" data-icon="dashboard">dashboard</span>
+<span class="font-label-md text-primary font-bold">Command</span>
+</div>
+<p class="text-[10px] uppercase tracking-[0.2em] text-outline ml-9">Marketing Operations</p>
+</div>
+<div class="flex flex-col gap-1">
+<!-- Navigation Items -->
+<a class="flex items-center gap-3 py-3 px-3 rounded-lg bg-primary-container/10 text-primary border-l-4 border-primary transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="dashboard">dashboard</span>
+<span class="font-label-md tracking-tight">Dashboard</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-variant/5 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="speed">speed</span>
+<span class="font-label-md tracking-tight">Cockpit</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-variant/5 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="cyclone">cyclone</span>
+<span class="font-label-md tracking-tight">Triangle Loop</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-variant/5 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="psychology">psychology</span>
+<span class="font-label-md tracking-tight">Nova AI</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-variant/5 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="account_tree">account_tree</span>
+<span class="font-label-md tracking-tight">Sequences</span>
+</a>
+<a class="flex items-center gap-3 py-3 px-3 rounded-lg text-on-surface-variant hover:text-on-surface hover:bg-surface-variant/5 transition-all duration-300" href="#">
+<span class="material-symbols-outlined" data-icon="analytics">analytics</span>
+<span class="font-label-md tracking-tight">Attribution</span>
+</a>
+</div>
+<div class="mt-auto border-t border-outline-variant/10 pt-4 flex flex-col gap-1">
+<a class="flex items-center gap-3 py-2 px-3 rounded-lg text-on-surface-variant hover:text-primary transition-all duration-300" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="settings">settings</span>
+<span class="font-label-sm">Settings</span>
+</a>
+<a class="flex items-center gap-3 py-2 px-3 rounded-lg text-on-surface-variant hover:text-primary transition-all duration-300" href="#">
+<span class="material-symbols-outlined text-sm" data-icon="help_outline">help_outline</span>
+<span class="font-label-sm">Support</span>
+</a>
+<button class="mt-4 w-full bg-surface-container-high text-on-surface-variant py-2 rounded-lg font-label-sm border border-outline-variant/20 hover:text-primary transition-colors">Open full Hub</button>
+</div>
+</aside>
+<!-- Main Content Area -->
+<main class="ml-60 w-full min-h-screen p-gutter md:p-margin-desktop relative overflow-hidden">
+<!-- Atmospheric Background Element -->
+<div class="absolute top-0 right-0 w-1/2 h-1/2 opacity-10 pointer-events-none">
+
+</div>
+<!-- Page Header -->
+<section class="mb-16 relative z-10">
+<div class="flex items-center gap-2 mb-4">
+<div class="w-8 h-[1px] bg-primary"></div>
+<span class="text-primary font-label-sm uppercase tracking-widest">BAZ Marketing Hub</span>
+</div>
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-gutter">
+<div class="max-w-2xl">
+<h1 class="font-headline-lg text-headline-lg text-on-surface mb-4">Command Center</h1>
+<p class="text-on-surface-variant text-body-lg max-w-xl">
+                            Marketing, sales, and finance — running in a closed loop. Every contact scored. Every cadence stepped. Every outcome learned from.
+                        </p>
+</div>
+<div class="flex items-center gap-base bg-surface-container-high/40 border border-primary/20 rounded-full px-4 py-2">
+<div class="w-2 h-2 rounded-full bg-[#10b981] animate-pulse"></div>
+<span class="font-label-sm text-[#10b981] uppercase tracking-tighter">Systems Warming</span>
+</div>
+</div>
+</section>
+<!-- Metrics Grid -->
+<section class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-gutter mb-section-gap relative z-10">
+<!-- Pipeline Value Card -->
+<div class="bg-surface-container border border-outline-variant/15 p-6 rounded-lg transition-all duration-400 hover:border-primary group">
+<div class="flex items-center justify-between mb-8">
+<span class="font-label-sm text-outline uppercase tracking-wider">Pipeline Value</span>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors" data-icon="adjust">adjust</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-primary">$</span>
+<span class="font-headline-md text-on-surface">12.4M</span>
+</div>
+<div class="h-1 w-12 bg-primary rounded-full mt-2"></div>
+</div>
+</div>
+<!-- Active Sequences Card -->
+<div class="bg-surface-container border border-outline-variant/15 p-6 rounded-lg transition-all duration-400 hover:border-primary group">
+<div class="flex items-center justify-between mb-8">
+<span class="font-label-sm text-outline uppercase tracking-wider">Active Sequences</span>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors" data-icon="bolt">bolt</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-on-surface">142</span>
+</div>
+<div class="h-1 w-12 bg-primary rounded-full mt-2"></div>
+</div>
+</div>
+<!-- Wins Card -->
+<div class="bg-surface-container border border-outline-variant/15 p-6 rounded-lg transition-all duration-400 hover:border-primary group">
+<div class="flex items-center justify-between mb-8">
+<span class="font-label-sm text-outline uppercase tracking-wider">Wins (7D)</span>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors" data-icon="trending_up">trending_up</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-on-surface">28</span>
+</div>
+<div class="h-1 w-12 bg-primary rounded-full mt-2"></div>
+</div>
+</div>
+<!-- Velocity Card -->
+<div class="bg-surface-container border border-outline-variant/15 p-6 rounded-lg transition-all duration-400 hover:border-primary group">
+<div class="flex items-center justify-between mb-8">
+<span class="font-label-sm text-outline uppercase tracking-wider">Velocity</span>
+<span class="material-symbols-outlined text-primary/40 group-hover:text-primary transition-colors" data-icon="insights">insights</span>
+</div>
+<div class="flex flex-col gap-1">
+<div class="flex items-baseline gap-1">
+<span class="font-headline-md text-on-surface">42d</span>
+</div>
+<div class="h-1 w-12 bg-primary rounded-full mt-2"></div>
+</div>
+</div>
+</section>
+<!-- Jump To Section -->
+<section class="relative z-10">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-gutter">Jump to</h3>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Cockpit -->
+<a class="bg-surface-container-high border border-outline-variant/5 p-8 rounded-lg group relative overflow-hidden transition-all duration-500 hover:-translate-y-1" href="#">
+<div class="flex justify-between items-start mb-6">
+<div class="p-4 bg-[#f87171]/10 rounded-lg">
+<span class="material-symbols-outlined text-[#f87171]" data-icon="rocket_launch">rocket_launch</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary group-hover:translate-x-1 transition-all" data-icon="arrow_forward">arrow_forward</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Cockpit</h4>
+<p class="text-on-surface-variant text-body-md">Pipeline velocity, wins, forecast</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#f87171] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</a>
+<!-- Triangle Loop -->
+<a class="bg-surface-container-high border border-outline-variant/5 p-8 rounded-lg group relative overflow-hidden transition-all duration-500 hover:-translate-y-1" href="#">
+<div class="flex justify-between items-start mb-6">
+<div class="p-4 bg-[#4ade80]/10 rounded-lg">
+<span class="material-symbols-outlined text-[#4ade80]" data-icon="psychology_alt">psychology_alt</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary group-hover:translate-x-1 transition-all" data-icon="arrow_forward">arrow_forward</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Triangle Loop</h4>
+<p class="text-on-surface-variant text-body-md">Autonomous scoring → routing → closing</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#4ade80] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</a>
+<!-- Nova AI -->
+<a class="bg-surface-container-high border border-outline-variant/5 p-8 rounded-lg group relative overflow-hidden transition-all duration-500 hover:-translate-y-1" href="#">
+<div class="flex justify-between items-start mb-6">
+<div class="p-4 bg-[#818cf8]/10 rounded-lg">
+<span class="material-symbols-outlined text-[#818cf8]" data-icon="neurology">neurology</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary group-hover:translate-x-1 transition-all" data-icon="arrow_forward">arrow_forward</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Nova AI</h4>
+<p class="text-on-surface-variant text-body-md">Ask anything about your business</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#818cf8] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</a>
+<!-- Sequences -->
+<a class="bg-surface-container-high border border-outline-variant/5 p-8 rounded-lg group relative overflow-hidden transition-all duration-500 hover:-translate-y-1" href="#">
+<div class="flex justify-between items-start mb-6">
+<div class="p-4 bg-primary/10 rounded-lg">
+<span class="material-symbols-outlined text-primary" data-icon="bolt">bolt</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary group-hover:translate-x-1 transition-all" data-icon="arrow_forward">arrow_forward</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Sequences</h4>
+<p class="text-on-surface-variant text-body-md">Sales cadences that learn</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-primary to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</a>
+<!-- Attribution -->
+<a class="bg-surface-container-high border border-outline-variant/5 p-8 rounded-lg group relative overflow-hidden transition-all duration-500 hover:-translate-y-1" href="#">
+<div class="flex justify-between items-start mb-6">
+<div class="p-4 bg-[#38bdf8]/10 rounded-lg">
+<span class="material-symbols-outlined text-[#38bdf8]" data-icon="hub">hub</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary group-hover:translate-x-1 transition-all" data-icon="arrow_forward">arrow_forward</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">Attribution</h4>
+<p class="text-on-surface-variant text-body-md">Multi-touch revenue attribution</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#38bdf8] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</a>
+<!-- The Wire -->
+<a class="bg-surface-container-high border border-outline-variant/5 p-8 rounded-lg group relative overflow-hidden transition-all duration-500 hover:-translate-y-1" href="#">
+<div class="flex justify-between items-start mb-6">
+<div class="p-4 bg-[#f472b6]/10 rounded-lg">
+<span class="material-symbols-outlined text-[#f472b6]" data-icon="article">article</span>
+</div>
+<span class="material-symbols-outlined text-outline group-hover:text-primary group-hover:translate-x-1 transition-all" data-icon="arrow_forward">arrow_forward</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">The Wire</h4>
+<p class="text-on-surface-variant text-body-md">Industry intelligence, scored</p>
+<div class="absolute bottom-0 left-0 w-full h-[2px] bg-gradient-to-r from-[#f472b6] to-transparent opacity-0 group-hover:opacity-100 transition-opacity"></div>
+</a>
+</div>
+</section>
+<!-- Full Hub CTA -->
+<section class="mt-section-gap relative z-10">
+<div class="bg-surface-container p-gutter rounded-lg border border-outline-variant/20 flex flex-col md:flex-row items-center justify-between gap-gutter architectural-grid">
+<div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Need the full Hub?</h3>
+<p class="text-on-surface-variant">All 110+ pages, complete CRM, finance, and automation suite.</p>
+</div>
+<button class="bg-primary-container text-on-primary-container px-8 py-3 rounded-lg font-headline-sm hover:brightness-110 transition-all flex items-center gap-2 group">
+                        Open full Hub
+                        <span class="material-symbols-outlined group-hover:translate-x-1 transition-transform" data-icon="arrow_forward">arrow_forward</span>
+</button>
+</div>
+</section>
+</main>
+</div>
+<!-- Footer Component -->
+<footer class="bg-surface-container-low border-t border-outline-variant/10 w-full relative z-40">
+<div class="max-w-container-max mx-auto px-margin-desktop py-gutter flex flex-col md:flex-row justify-between items-center gap-base">
+<div class="flex items-center gap-base">
+<div class="w-6 h-6 bg-primary rounded-sm flex items-center justify-center">
+<span class="text-on-primary text-[10px] font-bold">B</span>
+</div>
+<p class="text-body-md font-body-md text-on-surface-variant">© 2024 BAZ Ventures Marketing Agency. All rights reserved.</p>
+</div>
+<div class="flex gap-gutter">
+<a class="text-body-md font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="text-body-md font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="text-body-md font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Cookie Policy</a>
+<a class="text-body-md font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+</div>
+</footer>
+<!-- Cookie Consent Overlay -->
+<div class="fixed bottom-gutter right-gutter z-[100] max-w-sm w-full transition-all transform translate-y-20 opacity-0" id="cookie-consent">
+<div class="bg-on-surface text-inverse-on-surface p-8 rounded-xl shadow-2xl">
+<h5 class="font-headline-sm text-headline-sm mb-4">We use cookies for analytics.</h5>
+<p class="text-body-md mb-8 leading-relaxed">
+                We use first-party analytics (no third-party tracking) to understand which pages convert. You can opt out anytime.
+            </p>
+<div class="flex gap-4">
+<button class="flex-1 bg-inverse-on-surface text-on-surface py-3 rounded-lg font-bold hover:brightness-110 transition-all" onclick="toggleCookie(false)">Accept</button>
+<button class="flex-1 border border-inverse-on-surface/20 py-3 rounded-lg font-bold hover:bg-inverse-on-surface/5 transition-all" onclick="toggleCookie(false)">Decline</button>
+</div>
+</div>
+</div>
+<script>
+        // Cookie overlay animation
+        window.addEventListener('DOMContentLoaded', () => {
+            setTimeout(() => {
+                const cookie = document.getElementById('cookie-consent');
+                cookie.classList.remove('translate-y-20', 'opacity-0');
+            }, 1000);
+        });
+
+        function toggleCookie(show) {
+            const cookie = document.getElementById('cookie-consent');
+            cookie.classList.add('translate-y-20', 'opacity-0');
+            setTimeout(() => cookie.remove(), 500);
+        }
+
+        // Side nav interaction
+        const navLinks = document.querySelectorAll('aside a');
+        navLinks.forEach(link => {
+            link.addEventListener('click', (e) => {
+                navLinks.forEach(l => {
+                    l.classList.remove('bg-primary-container/10', 'text-primary', 'border-l-4', 'border-primary');
+                    l.classList.add('text-on-surface-variant');
+                });
+                link.classList.add('bg-primary-container/10', 'text-primary', 'border-l-4', 'border-primary');
+                link.classList.remove('text-on-surface-variant');
+            });
+        });
+    </script>
+</body></html>

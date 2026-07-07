@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" fill="none">
+  <!-- BAZ Logo — Full Mark
+       Æther Design System: violet hsl(270,85%,72%) = #b87adb
+       Dark background: hsl(260,14%,3.9%) = #0a0a0d
+       Fibonacci radii: 8, 13, 21, 34, 55, 89
+  -->
+  <rect width="512" height="512" rx="89" fill="#0a0a0d"/>
+  
+  <!-- Violet accent bar — top edge -->
+  <rect x="55" y="55" width="402" height="3" rx="1.5" fill="#b87adb" opacity="0.377"/>
+  
+  <!-- Main letterform: BAZ -->
+  <g transform="translate(55, 120)">
+    <!-- B -->
+    <rect x="0" y="0" width="8" height="272" rx="4" fill="#b87adb"/>
+    <rect x="0" y="0" width="89" height="8" rx="4" fill="#b87adb"/>
+    <rect x="0" y="89" width="89" height="8" rx="4" fill="#b87adb"/>
+    <rect x="81" y="0" width="8" height="97" rx="4" fill="#b87adb"/>
+    <path d="M 89 0 Q 144 0 144 48.5 Q 144 97 89 97" fill="#b87adb"/>
+    <rect x="81" y="185" width="8" height="8" rx="4" fill="#b87adb"/>
+    <path d="M 89 97 Q 155 97 155 169 Q 155 272 89 272" fill="#b87adb" opacity="0.9"/>
+    
+    <!-- A — moved right -->
+    <g transform="translate(175, 0)">
+      <path d="M 0 272 L 72 0 L 144 272 H 120 L 105 210 H 39 L 24 272 Z M 48 144 L 72 72 L 96 144 Z" fill="#b87adb"/>
+    </g>
+    
+    <!-- Z — moved right -->
+    <g transform="translate(340, 0)">
+      <rect x="0" y="0" width="117" height="8" rx="4" fill="#b87adb"/>
+      <rect x="0" y="264" width="117" height="8" rx="4" fill="#b87adb"/>
+      <rect x="109" y="0" width="8" height="272" rx="4" fill="#b87adb" opacity="0.6"/>
+      <line x1="0" y1="8" x2="109" y2="264" stroke="#b87adb" stroke-width="8" stroke-linecap="round"/>
+    </g>
+  </g>
+  
+  <!-- Violet accent bar — bottom edge -->
+  <rect x="55" y="454" width="402" height="3" rx="1.5" fill="#b87adb" opacity="0.377"/>
+</svg>

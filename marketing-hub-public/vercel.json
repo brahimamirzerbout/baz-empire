@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "framework": "nextjs",
+  "buildCommand": "next build",
+  "devCommand": "next dev",
+  "installCommand": "pnpm install --frozen-lockfile",
+  "functions": {
+    "src/app/api/**/*.ts": {
+      "maxDuration": 30
+    }
+  },
+  "env": {
+    "MARKETING_HUB_PUBLIC_URL": "https://roi-marketing.vercel.app",
+    "MARKETING_HUB_PUBLIC_HOST": "roi.marketing"
+  }
+}

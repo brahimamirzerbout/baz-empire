@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 2048 2048" width="2048" height="2048" fill="none">
+  <rect width="2048" height="2048" rx="356" fill="#0a0a0d"/>
+  <rect x="220" y="220" width="1608" height="12" rx="6" fill="#b87adb" opacity="0.377"/>
+  
+    <rect x="220" y="480" width="32" height="1088" rx="16" fill="#b87adb" opacity="1"/>
+    <rect x="220" y="480" width="356" height="32" rx="16" fill="#b87adb"/>
+    <rect x="220" y="836" width="356" height="32" rx="16" fill="#b87adb"/>
+    <rect x="544" y="480" width="32" height="388" rx="16" fill="#b87adb"/>
+    <path d="M 576 480 Q 796 480 796 674 Q 796 868 576 868" fill="#b87adb"/>
+    <rect x="544" y="1220" width="32" height="32" rx="16" fill="#b87adb"/>
+    <path d="M 576 868 Q 840 868 840 1156 Q 840 1568 576 1568" fill="#b87adb" opacity="0.9"/>
+    <g transform="translate(920, 480)">
+      <path d="M 0 1088 L 288 0 L 576 1088 H 480 L 420 840 H 156 L 96 1088 Z M 192 576 L 288 288 L 384 576 Z" fill="#b87adb"/>
+    </g>
+    <g transform="translate(1580, 480)">
+      <rect x="0" y="0" width="468" height="32" rx="16" fill="#b87adb"/>
+      <rect x="0" y="1056" width="468" height="32" rx="16" fill="#b87adb"/>
+      <rect x="436" y="0" width="32" height="1088" rx="16" fill="#b87adb" opacity="0.6"/>
+      <line x1="0" y1="32" x2="436" y2="1056" stroke="#b87adb" stroke-width="32" stroke-linecap="round"/>
+    </g>
+  <rect x="220" y="1816" width="1608" height="12" rx="6" fill="#b87adb" opacity="0.377"/>
+</svg>

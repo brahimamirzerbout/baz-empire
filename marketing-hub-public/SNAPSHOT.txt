@@ -1,0 +1,8 @@
+Marketing Hub snapshot
+======================
+Source:     /home/uzer/marketing-hub
+Created:    2026-06-24T13:10:05-04:00
+Hostname:   debian
+Git status: (not a git repo)
+Package:      "version": "1.0.0",
+Database:   356352 bytes, modified 2026-06-24 12:28:02.063970293 -0400

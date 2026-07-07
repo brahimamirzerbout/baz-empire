@@ -1,0 +1,37 @@
+# Capacitor mobile wrapper config
+# Build the native iOS + Android shells using:
+#   npm i -D @capacitor/core @capacitor/cli @capacitor/ios @capacitor/android
+#   npx cap init "BAZ Empire Hub" "com.bazempire.hub" --web-dir=out
+#   npx cap add ios android
+#   npx cap copy
+#   npx cap open ios     # opens Xcode
+#   npx cap open android # opens Android Studio
+#
+# After install, the app runs the marketing-hub as a native WebView with:
+#   - App icon (configurable per-platform)
+#   - Push notifications (via @capacitor/push-notifications)
+#   - Camera/photo capture for assets
+#   - Offline-first (the service worker handles it)
+#   - Biometric unlock for the cockpit
+
+{
+  "appId": "com.bazempire.hub",
+  "appName": "BAZ Empire Hub",
+  "webDir": "out",
+  "bundledWebRuntime": false,
+  "server": {
+    "androidScheme": "https",
+    "iosScheme": "https"
+  },
+  "plugins": {
+    "PushNotifications": {
+      "presentationOptions": ["badge", "sound", "alert"]
+    },
+    "SplashScreen": {
+      "launchShowDuration": 800,
+      "backgroundColor": "#08080d",
+      "androidScaleType": "CENTER_CROP",
+      "splashFullScreen": true
+    }
+  }
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1024 1024" width="1024" height="1024" fill="none">
+  <rect width="1024" height="1024" rx="178" fill="#ffffff"/>
+  <rect x="110" y="110" width="804" height="6" rx="3" fill="#0a0a0d" opacity="0.144"/>
+  
+    <rect x="110" y="240" width="16" height="544" rx="8" fill="#0a0a0d" opacity="1"/>
+    <rect x="110" y="240" width="178" height="16" rx="8" fill="#0a0a0d"/>
+    <rect x="110" y="418" width="178" height="16" rx="8" fill="#0a0a0d"/>
+    <rect x="272" y="240" width="16" height="194" rx="8" fill="#0a0a0d"/>
+    <path d="M 288 240 Q 398 240 398 337 Q 398 434 288 434" fill="#0a0a0d"/>
+    <rect x="272" y="610" width="16" height="16" rx="8" fill="#0a0a0d"/>
+    <path d="M 288 434 Q 420 434 420 578 Q 420 784 288 784" fill="#0a0a0d" opacity="0.9"/>
+    <g transform="translate(460, 240)">
+      <path d="M 0 544 L 144 0 L 288 544 H 240 L 210 420 H 78 L 48 544 Z M 96 288 L 144 144 L 192 288 Z" fill="#0a0a0d"/>
+    </g>
+    <g transform="translate(790, 240)">
+      <rect x="0" y="0" width="234" height="16" rx="8" fill="#0a0a0d"/>
+      <rect x="0" y="528" width="234" height="16" rx="8" fill="#0a0a0d"/>
+      <rect x="218" y="0" width="16" height="544" rx="8" fill="#0a0a0d" opacity="0.6"/>
+      <line x1="0" y1="16" x2="218" y2="528" stroke="#0a0a0d" stroke-width="16" stroke-linecap="round"/>
+    </g>
+  <rect x="110" y="908" width="804" height="6" rx="3" fill="#0a0a0d" opacity="0.144"/>
+</svg>

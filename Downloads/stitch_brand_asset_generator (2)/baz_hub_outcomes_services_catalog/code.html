@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Outcomes | BAZ ARCHITECTURAL MONOGRAPH</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;family=Poppins:wght@300;400;500;600&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "secondary-container": "#3e4853",
+                    "surface-container-high": "#272a2d",
+                    "on-secondary": "#27313c",
+                    "tertiary-fixed-dim": "#bac8d7",
+                    "primary-container": "#c8a55a",
+                    "error-container": "#93000a",
+                    "on-tertiary-fixed-variant": "#3b4854",
+                    "on-secondary-fixed-variant": "#3e4853",
+                    "inverse-primary": "#765a16",
+                    "outline": "#998f7f",
+                    "tertiary-fixed": "#d6e4f3",
+                    "on-surface": "#e0e3e6",
+                    "outline-variant": "#4d4638",
+                    "on-secondary-fixed": "#121d26",
+                    "surface-container-low": "#191c1e",
+                    "primary-fixed-dim": "#e7c274",
+                    "on-surface-variant": "#d0c5b3",
+                    "on-error": "#690005",
+                    "surface-variant": "#323538",
+                    "on-primary-container": "#513b00",
+                    "surface-tint": "#e7c274",
+                    "tertiary-container": "#9eabba",
+                    "inverse-on-surface": "#2d3133",
+                    "surface-container-lowest": "#0b0f11",
+                    "primary-fixed": "#ffdf9f",
+                    "tertiary": "#bac8d7",
+                    "secondary": "#bdc7d5",
+                    "on-tertiary": "#25323d",
+                    "on-primary-fixed-variant": "#5b4300",
+                    "surface-container": "#1d2022",
+                    "secondary-fixed": "#d9e3f1",
+                    "on-error-container": "#ffdad6",
+                    "inverse-surface": "#e0e3e6",
+                    "on-tertiary-container": "#33404c",
+                    "on-primary-fixed": "#261a00",
+                    "surface": "#101416",
+                    "error": "#ffb4ab",
+                    "primary": "#e7c274",
+                    "surface-container-highest": "#323538",
+                    "on-primary": "#402d00",
+                    "background": "#101416",
+                    "on-secondary-container": "#acb6c3",
+                    "on-tertiary-fixed": "#101d28",
+                    "on-background": "#e0e3e6",
+                    "surface-dim": "#101416",
+                    "surface-bright": "#363a3c",
+                    "secondary-fixed-dim": "#bdc7d5"
+            },
+            "borderRadius": {
+                    "DEFAULT": "4px",
+                    "lg": "4px",
+                    "xl": "4px",
+                    "full": "9999px"
+            },
+            "spacing": {
+                    "margin_mobile": "16px",
+                    "gutter": "24px",
+                    "sidebar_width": "260px",
+                    "unit": "4px",
+                    "margin_desktop": "40px"
+            },
+            "fontFamily": {
+                    "label-caps": ["Outfit"],
+                    "headline-sm": ["Outfit"],
+                    "body-md": ["Poppins"],
+                    "headline-lg-mobile": ["Outfit"],
+                    "headline-lg": ["Outfit"],
+                    "body-sm": ["Poppins"],
+                    "display-lg": ["Outfit"]
+            },
+            "fontSize": {
+                    "label-caps": ["11px", {"lineHeight": "16px", "letterSpacing": "0.1em", "fontWeight": "700"}],
+                    "headline-sm": ["20px", {"lineHeight": "28px", "fontWeight": "500"}],
+                    "body-md": ["14px", {"lineHeight": "24px", "fontWeight": "400"}],
+                    "headline-lg-mobile": ["28px", {"lineHeight": "36px", "fontWeight": "500"}],
+                    "headline-lg": ["32px", {"lineHeight": "40px", "letterSpacing": "-0.01em", "fontWeight": "500"}],
+                    "body-sm": ["12px", {"lineHeight": "20px", "fontWeight": "400"}],
+                    "display-lg": ["48px", {"lineHeight": "56px", "letterSpacing": "-0.02em", "fontWeight": "600"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #101416;
+            color: #e0e3e6;
+            overflow-x: hidden;
+        }
+        .glass-module {
+            background: rgba(50, 63, 75, 0.6);
+            backdrop-filter: blur(20px);
+            border: 1px solid rgba(71, 84, 103, 0.5);
+            box-shadow: inset 1px 1px 0px rgba(255, 255, 255, 0.05);
+        }
+        .watermark-bg {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 900;
+            font-size: 25vw;
+            color: #e7c274;
+            opacity: 0.03;
+            line-height: 0.8;
+            pointer-events: none;
+            position: fixed;
+            bottom: -5%;
+            left: -5%;
+            z-index: 0;
+        }
+        .outcome-band:hover .ghost-number {
+            opacity: 0.08;
+            transform: translateX(20px);
+        }
+        .ghost-number {
+            transition: all 0.7s cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md selection:bg-primary selection:text-on-primary">
+<div class="watermark-bg">BAZ</div>
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 border-b border-outline-variant bg-surface/95 backdrop-blur-md flex justify-between items-center h-16 px-margin_desktop w-full transition-all duration-300 ease-in-out">
+<div class="font-label-caps text-label-caps tracking-widest text-primary dark:text-primary">BAZ ARCHITECTURAL</div>
+<nav class="hidden md:flex gap-8 items-center">
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Portfolio</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Insights</a>
+<a class="font-label-caps text-label-caps text-primary border-b border-primary pb-1" href="#">Strategy</a>
+<a class="font-label-caps text-label-caps text-on-surface-variant hover:text-primary transition-colors" href="#">Market</a>
+</nav>
+<button class="bg-primary text-on-primary px-6 py-2 font-label-caps text-label-caps rounded-sm hover:brightness-110 transition-all">Contact Us</button>
+</header>
+<!-- SideNavBar (Hidden on Mobile) -->
+<aside class="fixed left-0 top-16 h-[calc(100vh-64px)] w-sidebar_width border-r border-outline-variant bg-surface-container-lowest dark:bg-surface-container-lowest flex flex-col py-6 gap-4 z-40 hidden lg:flex">
+<div class="px-6 mb-8">
+<div class="font-label-caps text-label-caps text-primary opacity-60">Command Center</div>
+<div class="font-headline-sm text-headline-sm text-on-surface">Service Outcomes</div>
+</div>
+<nav class="flex flex-col">
+<a class="flex items-center gap-4 px-6 py-3 text-on-surface-variant hover:bg-secondary-container/10 hover:text-on-surface transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">dashboard</span>
+<span class="font-label-caps text-label-caps">Dashboard</span>
+</a>
+<a class="flex items-center gap-4 px-6 py-3 border-l-2 border-primary bg-secondary-container/20 text-primary" href="#">
+<span class="material-symbols-outlined text-[20px]">analytics</span>
+<span class="font-label-caps text-label-caps">Analytics</span>
+</a>
+<a class="flex items-center gap-4 px-6 py-3 text-on-surface-variant hover:bg-secondary-container/10 hover:text-on-surface transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">campaign</span>
+<span class="font-label-caps text-label-caps">Campaigns</span>
+</a>
+<a class="flex items-center gap-4 px-6 py-3 text-on-surface-variant hover:bg-secondary-container/10 hover:text-on-surface transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">folder_special</span>
+<span class="font-label-caps text-label-caps">Assets</span>
+</a>
+<a class="flex items-center gap-4 px-6 py-3 text-on-surface-variant hover:bg-secondary-container/10 hover:text-on-surface transition-all" href="#">
+<span class="material-symbols-outlined text-[20px]">settings</span>
+<span class="font-label-caps text-label-caps">Settings</span>
+</a>
+</nav>
+<div class="mt-auto px-6 pt-6 border-t border-outline-variant">
+<div class="flex items-center gap-3">
+<div class="w-8 h-8 rounded-full bg-primary-container flex items-center justify-center text-on-primary-container font-bold text-xs">EJ</div>
+<div>
+<p class="font-label-caps text-label-caps leading-none">Executive User</p>
+<p class="text-[10px] text-on-surface-variant uppercase tracking-tighter">Premium Tier</p>
+</div>
+</div>
+</div>
+</aside>
+<!-- Main Content Stage -->
+<main class="lg:ml-[260px] pt-24 pb-12 relative z-10">
+<!-- Hero Section -->
+<section class="px-margin_desktop mb-24">
+<div class="max-w-4xl">
+<div class="font-label-caps text-label-caps text-primary mb-4">THE TRANSFORMATION FRAMEWORK</div>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-6 leading-tight">What changes for your business.</h1>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-2xl border-l border-primary/30 pl-6 py-2">
+                    Our architectural approach to market positioning doesn't just drive leads; it restructures the molecular growth path of your enterprise. Below is the editorial breakdown of the five core shifts BAZ engineers.
+                </p>
+</div>
+</section>
+<!-- Outcome Bands -->
+<section class="mb-32 overflow-hidden">
+<!-- Outcome 1: Pipeline -->
+<div class="outcome-band relative border-t border-outline-variant py-16 group cursor-default">
+<div class="ghost-number absolute -right-10 top-0 font-display-lg text-[220px] opacity-[0.03] text-primary select-none">01</div>
+<div class="px-margin_desktop flex flex-col md:flex-row gap-12 relative z-10">
+<div class="md:w-1/3">
+<div class="font-label-caps text-label-caps text-primary mb-2">KPI SHIFT</div>
+<h2 class="font-display-lg text-display-lg text-on-surface">Pipeline</h2>
+<div class="w-12 h-1 bg-primary mt-6"></div>
+</div>
+<div class="md:w-2/3 flex flex-col gap-6">
+<p class="font-headline-sm text-headline-sm text-on-surface leading-relaxed italic">
+                            "From unpredictable spikes to a steady architectural flow of qualified high-intent demand."
+                        </p>
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="border-l border-outline-variant pl-4">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-1 uppercase">Before</div>
+<p class="text-on-secondary-container">Ad-hoc lead generation with high volatility.</p>
+</div>
+<div class="border-l border-primary pl-4">
+<div class="font-label-caps text-label-caps text-primary mb-1 uppercase">After</div>
+<p class="text-on-surface">Predictable revenue infrastructure with 90% accuracy.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Outcome 2: CAC -->
+<div class="outcome-band relative border-t border-outline-variant py-16 group cursor-default">
+<div class="ghost-number absolute -right-10 top-0 font-display-lg text-[220px] opacity-[0.03] text-primary select-none">02</div>
+<div class="px-margin_desktop flex flex-col md:flex-row gap-12 relative z-10">
+<div class="md:w-1/3">
+<div class="font-label-caps text-label-caps text-primary mb-2">EFFICIENCY FOCUS</div>
+<h2 class="font-display-lg text-display-lg text-on-surface">CAC</h2>
+<div class="w-12 h-1 bg-primary mt-6"></div>
+</div>
+<div class="md:w-2/3 flex flex-col gap-6">
+<p class="font-headline-sm text-headline-sm text-on-surface leading-relaxed italic">
+                            "Aggressive optimization through strategic automation and high-density creative."
+                        </p>
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="border-l border-outline-variant pl-4">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-1 uppercase">Before</div>
+<p class="text-on-secondary-container">Linear scaling costs where CAC rises with volume.</p>
+</div>
+<div class="border-l border-primary pl-4">
+<div class="font-label-caps text-label-caps text-primary mb-1 uppercase">After</div>
+<p class="text-on-surface">Algorithmic efficiencies that lower CAC during aggressive expansion.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Outcome 3: Brand -->
+<div class="outcome-band relative border-t border-outline-variant py-16 group cursor-default">
+<div class="ghost-number absolute -right-10 top-0 font-display-lg text-[220px] opacity-[0.03] text-primary select-none">03</div>
+<div class="px-margin_desktop flex flex-col md:flex-row gap-12 relative z-10">
+<div class="md:w-1/3">
+<div class="font-label-caps text-label-caps text-primary mb-2">MARKET EQUITY</div>
+<h2 class="font-display-lg text-display-lg text-on-surface">Brand</h2>
+<div class="w-12 h-1 bg-primary mt-6"></div>
+</div>
+<div class="md:w-2/3 flex flex-col gap-6">
+<p class="font-headline-sm text-headline-sm text-on-surface leading-relaxed italic">
+                            "Establishing a visual and intellectual authority that commands premium pricing."
+                        </p>
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="border-l border-outline-variant pl-4">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-1 uppercase">Before</div>
+<p class="text-on-secondary-container">Generic commodity messaging competing on price.</p>
+</div>
+<div class="border-l border-primary pl-4">
+<div class="font-label-caps text-label-caps text-primary mb-1 uppercase">After</div>
+<p class="text-on-surface">Monolithic brand status that eliminates perceived competition.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Outcome 4: Attribution -->
+<div class="outcome-band relative border-t border-outline-variant py-16 group cursor-default">
+<div class="ghost-number absolute -right-10 top-0 font-display-lg text-[220px] opacity-[0.03] text-primary select-none">04</div>
+<div class="px-margin_desktop flex flex-col md:flex-row gap-12 relative z-10">
+<div class="md:w-1/3">
+<div class="font-label-caps text-label-caps text-primary mb-2">CLARITY ENGINE</div>
+<h2 class="font-display-lg text-display-lg text-on-surface">Attribution</h2>
+<div class="w-12 h-1 bg-primary mt-6"></div>
+</div>
+<div class="md:w-2/3 flex flex-col gap-6">
+<p class="font-headline-sm text-headline-sm text-on-surface leading-relaxed italic">
+                            "Moving beyond vanity metrics to granular, dollar-in-dollar-out intelligence."
+                        </p>
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="border-l border-outline-variant pl-4">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-1 uppercase">Before</div>
+<p class="text-on-secondary-container">Opaque data silos and guesswork on spend impact.</p>
+</div>
+<div class="border-l border-primary pl-4">
+<div class="font-label-caps text-label-caps text-primary mb-1 uppercase">After</div>
+<p class="text-on-surface">Single source of truth with 1:1 revenue mapping.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Outcome 5: Platform -->
+<div class="outcome-band relative border-y border-outline-variant py-16 group cursor-default">
+<div class="ghost-number absolute -right-10 top-0 font-display-lg text-[220px] opacity-[0.03] text-primary select-none">05</div>
+<div class="px-margin_desktop flex flex-col md:flex-row gap-12 relative z-10">
+<div class="md:w-1/3">
+<div class="font-label-caps text-label-caps text-primary mb-2">INFRASTRUCTURE</div>
+<h2 class="font-display-lg text-display-lg text-on-surface">Platform</h2>
+<div class="w-12 h-1 bg-primary mt-6"></div>
+</div>
+<div class="md:w-2/3 flex flex-col gap-6">
+<p class="font-headline-sm text-headline-sm text-on-surface leading-relaxed italic">
+                            "A bespoke digital environment engineered for friction-less executive interaction."
+                        </p>
+<div class="grid grid-cols-2 gap-8 mt-4">
+<div class="border-l border-outline-variant pl-4">
+<div class="font-label-caps text-label-caps text-on-surface-variant mb-1 uppercase">Before</div>
+<p class="text-on-secondary-container">Standardized CMS with slow response times.</p>
+</div>
+<div class="border-l border-primary pl-4">
+<div class="font-label-caps text-label-caps text-primary mb-1 uppercase">After</div>
+<p class="text-on-surface">Custom high-performance architecture with sub-100ms load.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Service Grid Section -->
+<section class="px-margin_desktop mb-32">
+<div class="flex justify-between items-end mb-12">
+<div>
+<div class="font-label-caps text-label-caps text-primary mb-2">BY CHANNEL</div>
+<h2 class="font-headline-lg text-headline-lg text-on-surface">Execution Services</h2>
+</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant border-b border-outline-variant pb-1 cursor-pointer hover:text-primary transition-all">VIEW FULL CATALOG</div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-gutter">
+<!-- Card 1 -->
+<div class="glass-module p-1 flex flex-col group h-full">
+<div class="overflow-hidden h-64">
+<div class="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out bg-cover bg-center" data-alt="High-end architectural photography of a minimalist skyscraper facade at dusk, with clean lines and golden light reflecting off glass panels, embodying a luxury professional aesthetic with deep shadows and sharp focus." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC5qYmQb5NFqbY5N8lZM4m5TUn6iJ1B5Qw6gpT151fO3laVIbHJ8sZxl4taeMAyadYRLec21hq0Br0vmaFg1bZf29gQ5AlJyW916TKtkjznDvxVs9LPCfgPPPmYZEiXBr2u66RM6oWzqWAddDc6WSPrCVBfvXZRWsoYUlzba1Y0HYw4CegDA1jIrVbBvtopISlUIh5e5sywQcx0ZyGF4Qy492ecBKpv3CfRIjvYuLY5f5r0zPoELBmV')"></div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Social Command</h3>
+<p class="text-on-surface-variant text-body-sm mb-6">Omnichannel authority building via LinkedIn and Executive Networks.</p>
+<div class="mt-auto flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-primary">STRATEGIC</span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Card 2 -->
+<div class="glass-module p-1 flex flex-col group h-full">
+<div class="overflow-hidden h-64">
+<div class="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out bg-cover bg-center" data-alt="Interior of a modern executive boardroom with floor-to-ceiling windows overlooking a foggy cityscape, featuring a sleek dark marble table and minimalist designer chairs, emphasizing precision and high-level strategy." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuD0tjPqM_0Ool4J8ymov0fTopyec2lJ6PTgrLSygA9CW1xyyzG3g8joWBljglenT8l-VIyHWPGBbRgvcuRyyJfQmnl_Ij18SYTnIzBYTGmq_hP9-xOFSAztQKHggMVjgi_ngQnwI-0ocbMV_yIK9TylMRaWrniRw16IevNduc1lwP4fZ9wERNE6Fb-cmeNvH-uQXoI68OH20vpR6X5vtqRzp61Ay9e67hrtB70LBN37kPCxun3M1A7m')"></div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Search Dominance</h3>
+<p class="text-on-surface-variant text-body-sm mb-6">Aggressive capture of high-intent search volume through architectural SEO.</p>
+<div class="mt-auto flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-primary">PERFORMANCE</span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+<!-- Card 3 -->
+<div class="glass-module p-1 flex flex-col group h-full">
+<div class="overflow-hidden h-64">
+<div class="w-full h-full grayscale group-hover:grayscale-0 transition-all duration-700 ease-in-out bg-cover bg-center" data-alt="A macro shot of architectural blueprints with a gold drafting compass on a dark wood surface, softly lit from the side to create dramatic highlights and shadows, representing meticulous planning and technical excellence." style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCVyB4urUt_8J0XzhIYlgeTHQBbwvvZcsL4R3-9Ut7x67gH41yntj8aOgq2lc7ef01aogcfnpXvkyw8Y7xYtjlmYHa1uf7bsZd8-IFco0AH5j1Bk35ErPk9UDGBXBS9Z6ATJl7m-fVCNIFsPOlomcU2Vib3BrqItzWT8Cw5pT5Ve1waT94Rj5-fnlVDXNkXYOHGpId-dE0kdX6scrKp_Ufes4ltDu2nv9D0QjPi7U2PY3rnYlgoxJkt')"></div>
+</div>
+<div class="p-6 flex flex-col flex-grow">
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">Creative Monograph</h3>
+<p class="text-on-surface-variant text-body-sm mb-6">High-density editorial design and premium asset production for all touchpoints.</p>
+<div class="mt-auto flex justify-between items-center">
+<span class="font-label-caps text-label-caps text-primary">CREATIVE</span>
+<span class="material-symbols-outlined text-on-surface-variant group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Stats Ribbon -->
+<section class="px-margin_desktop mb-32">
+<div class="grid grid-cols-2 lg:grid-cols-4 gap-gutter border-y border-outline-variant py-12">
+<div>
+<div class="font-display-lg text-display-lg text-primary">2.4x</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">AVERAGE ROAS LIFT</div>
+</div>
+<div>
+<div class="font-display-lg text-display-lg text-primary">48%</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">CAC REDUCTION YOY</div>
+</div>
+<div>
+<div class="font-display-lg text-display-lg text-primary">90d</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">TIME TO MARKET MATURITY</div>
+</div>
+<div>
+<div class="font-display-lg text-display-lg text-primary">12M+</div>
+<div class="font-label-caps text-label-caps text-on-surface-variant">EXECUTIVE REACH</div>
+</div>
+</div>
+</section>
+<!-- CTA Section -->
+<section class="px-margin_desktop mb-32">
+<div class="glass-module p-12 relative overflow-hidden">
+<div class="absolute top-0 right-0 p-12 opacity-10">
+<span class="material-symbols-outlined text-[120px] text-primary">architecture</span>
+</div>
+<div class="max-w-2xl relative z-10">
+<h2 class="font-display-lg text-display-lg text-on-surface mb-6">Ready to restructure?</h2>
+<p class="text-on-surface-variant font-body-md mb-8">
+                        Our intake process is as rigorous as our execution. Request a confidential audit to see where your infrastructure is leaking equity.
+                    </p>
+<div class="flex flex-wrap gap-4">
+<button class="bg-primary text-on-primary px-8 py-3 font-label-caps text-label-caps rounded-sm hover:brightness-110 transition-all">Audit My Pipeline</button>
+<button class="border border-primary text-primary px-8 py-3 font-label-caps text-label-caps rounded-sm hover:bg-primary/10 transition-all">Download Thesis</button>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="lg:ml-[260px] w-full relative bottom-0 border-t border-outline-variant bg-surface-container-highest dark:bg-surface-container-highest flex flex-col md:flex-row justify-between items-center px-margin_desktop py-8 gap-gutter z-20">
+<div class="font-label-caps text-label-caps text-primary">© 2024 BAZ ARCHITECTURAL MONOGRAPH. ALL RIGHTS RESERVED.</div>
+<div class="flex gap-8">
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-all" href="#">Legal</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-all" href="#">Privacy</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-all" href="#">Terms</a>
+<a class="font-body-sm text-body-sm text-on-surface-variant hover:text-primary transition-all" href="#">Documentation</a>
+</div>
+</footer>
+<!-- Mobile Navigation (Bottom Bar) -->
+<nav class="md:hidden fixed bottom-0 left-0 w-full h-16 bg-surface/95 backdrop-blur-md border-t border-outline-variant flex justify-around items-center z-50">
+<a class="flex flex-col items-center text-on-surface-variant" href="#">
+<span class="material-symbols-outlined">dashboard</span>
+<span class="text-[10px] font-label-caps uppercase">Home</span>
+</a>
+<a class="flex flex-col items-center text-primary" href="#">
+<span class="material-symbols-outlined">analytics</span>
+<span class="text-[10px] font-label-caps uppercase">Strategy</span>
+</a>
+<a class="flex flex-col items-center text-on-surface-variant" href="#">
+<span class="material-symbols-outlined">campaign</span>
+<span class="text-[10px] font-label-caps uppercase">Media</span>
+</a>
+<a class="flex flex-col items-center text-on-surface-variant" href="#">
+<span class="material-symbols-outlined">person</span>
+<span class="text-[10px] font-label-caps uppercase">Contact</span>
+</a>
+</nav>
+<script>
+        // Micro-interaction for outcome bands parallax/scroll reveal
+        const bands = document.querySelectorAll('.outcome-band');
+        const observerOptions = {
+            threshold: 0.1
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('opacity-100');
+                    entry.target.classList.remove('translate-y-4');
+                }
+            });
+        }, observerOptions);
+
+        bands.forEach(band => {
+            band.classList.add('transition-all', 'duration-1000', 'translate-y-4', 'opacity-0');
+            observer.observe(band);
+        });
+
+        // Search highlight effect
+        document.addEventListener('mousemove', (e) => {
+            const watermark = document.querySelector('.watermark-bg');
+            const moveX = (e.clientX - window.innerWidth / 2) * 0.01;
+            const moveY = (e.clientY - window.innerHeight / 2) * 0.01;
+            watermark.style.transform = `translate(${moveX}px, ${moveY}px)`;
+        });
+    </script>
+</body></html>

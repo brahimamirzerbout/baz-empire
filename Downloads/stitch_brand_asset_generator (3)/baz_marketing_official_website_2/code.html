@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>BAZ Ventures | Definitive Growth for Ambitious Brands</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&amp;family=Poppins:wght@300..700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "tertiary": "#c9c6c2",
+                        "outline": "#998f7f",
+                        "inverse-on-surface": "#33302c",
+                        "on-primary-fixed-variant": "#5b4300",
+                        "primary-fixed-dim": "#e7c274",
+                        "on-secondary-container": "#acb6c3",
+                        "tertiary-fixed-dim": "#c9c6c2",
+                        "error": "#ffb4ab",
+                        "surface-container-low": "#1e1b18",
+                        "primary-fixed": "#ffdf9f",
+                        "inverse-primary": "#765a16",
+                        "on-secondary-fixed-variant": "#3e4853",
+                        "tertiary-container": "#aca9a5",
+                        "surface-dim": "#151310",
+                        "outline-variant": "#4d4638",
+                        "primary": "#e7c274",
+                        "on-background": "#e8e1dc",
+                        "on-surface-variant": "#d0c5b3",
+                        "on-tertiary-fixed-variant": "#484744",
+                        "on-primary-fixed": "#261a00",
+                        "surface-container-highest": "#383431",
+                        "on-tertiary-fixed": "#1c1b19",
+                        "tertiary-fixed": "#e6e2de",
+                        "surface-container-lowest": "#100e0b",
+                        "on-surface": "#e8e1dc",
+                        "surface-variant": "#383431",
+                        "on-primary": "#402d00",
+                        "surface-container-high": "#2d2926",
+                        "inverse-surface": "#e8e1dc",
+                        "on-tertiary": "#31302e",
+                        "on-secondary-fixed": "#121d26",
+                        "secondary": "#bdc7d5",
+                        "on-tertiary-container": "#3f3e3b",
+                        "primary-container": "#c8a55a",
+                        "error-container": "#93000a",
+                        "on-error-container": "#ffdad6",
+                        "background": "#151310",
+                        "on-error": "#690005",
+                        "secondary-fixed-dim": "#bdc7d5",
+                        "surface-bright": "#3c3935",
+                        "secondary-container": "#3e4853",
+                        "on-secondary": "#27313c",
+                        "surface": "#151310",
+                        "on-primary-container": "#513b00",
+                        "surface-tint": "#e7c274",
+                        "secondary-fixed": "#d9e3f1",
+                        "surface-container": "#221f1c"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "base": "8px",
+                        "container-max": "1280px",
+                        "section-gap": "120px",
+                        "gutter": "24px",
+                        "margin-desktop": "64px",
+                        "margin-mobile": "20px"
+                    },
+                    "fontFamily": {
+                        "body-lg": ["Poppins"],
+                        "headline-lg": ["Outfit"],
+                        "headline-md": ["Outfit"],
+                        "label-md": ["Poppins"],
+                        "label-sm": ["Poppins"],
+                        "display-lg": ["Outfit"],
+                        "body-md": ["Poppins"],
+                        "headline-sm": ["Outfit"],
+                        "headline-lg-mobile": ["Outfit"]
+                    },
+                    "fontSize": {
+                        "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-lg": ["48px", {"lineHeight": "1.2", "letterSpacing": "-0.01em", "fontWeight": "500"}],
+                        "headline-md": ["32px", {"lineHeight": "1.3", "fontWeight": "500"}],
+                        "label-md": ["14px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500"}],
+                        "label-sm": ["12px", {"lineHeight": "1.2", "letterSpacing": "0.08em", "fontWeight": "600"}],
+                        "display-lg": ["72px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "600"}],
+                        "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                        "headline-sm": ["24px", {"lineHeight": "1.4", "fontWeight": "500"}],
+                        "headline-lg-mobile": ["36px", {"lineHeight": "1.2", "fontWeight": "500"}]
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        body {
+            background-color: #151310;
+            color: #e8e1dc;
+            -webkit-font-smoothing: antialiased;
+        }
+        .watermark {
+            position: fixed;
+            bottom: 40px;
+            right: 40px;
+            opacity: 0.06;
+            pointer-events: none;
+            z-index: 100;
+        }
+        .mesh-gradient {
+            background: radial-gradient(at 0% 0%, rgba(200, 165, 90, 0.15) 0px, transparent 50%),
+                        radial-gradient(at 100% 0%, rgba(200, 165, 90, 0.05) 0px, transparent 50%);
+        }
+        .shimmer:hover {
+            background: linear-gradient(90deg, #c8a55a 0%, #e7c274 50%, #c8a55a 100%);
+            background-size: 200% auto;
+            animation: shimmerEffect 2s linear infinite;
+        }
+        @keyframes shimmerEffect {
+            to { background-position: 200% center; }
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .grid-blueprint {
+            background-image: linear-gradient(rgba(200, 165, 90, 0.05) 1px, transparent 1px),
+                              linear-gradient(90deg, rgba(200, 165, 90, 0.05) 1px, transparent 1px);
+            background-size: 40px 40px;
+        }
+    </style>
+</head>
+<body class="font-body-md selection:bg-primary/30">
+<!-- Watermark -->
+<div class="watermark font-headline-lg select-none">BAZ Ventures</div>
+<!-- Navigation -->
+<nav class="fixed top-0 left-0 w-full z-50 bg-surface/80 backdrop-blur-md border-b border-outline-variant/10 h-20">
+<div class="max-w-container-max mx-auto px-margin-desktop h-full flex justify-between items-center">
+<div class="flex items-center gap-12">
+<div class="font-headline-sm text-on-surface font-bold tracking-tight">BAZ Ventures</div>
+<div class="hidden lg:flex gap-8">
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Services</a>
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Marketing Hub</a>
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Methodology</a>
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Case Studies</a>
+<a class="font-label-md text-label-md uppercase tracking-wider text-on-surface-variant hover:text-on-surface transition-colors" href="#">Insights</a>
+</div>
+</div>
+<button class="bg-primary px-gutter py-3 rounded text-on-primary font-label-md uppercase tracking-wider hover:scale-95 transition-transform active:scale-90">
+                Talk to us
+            </button>
+</div>
+</nav>
+<main>
+<!-- Hero Section -->
+<section class="relative min-h-screen flex flex-col items-center justify-center pt-20 mesh-gradient grid-blueprint">
+<div class="max-w-container-max mx-auto px-margin-desktop text-center">
+<span class="font-label-sm text-primary uppercase tracking-[0.3em] mb-gutter block">Architecture of Alpha</span>
+<h1 class="font-display-lg text-display-lg text-on-surface mb-8 leading-[1.05]">
+                    DEFINITIVE GROWTH FOR<br/>
+<span class="text-primary italic">AMBITIOUS</span> BRANDS.
+                </h1>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mb-12">
+                    Architecturing high-fidelity strategies and premium creative solutions for the next generation of market leaders.
+                </p>
+<div class="flex gap-gutter justify-center">
+<button class="bg-primary text-on-primary px-8 py-4 rounded font-label-md uppercase tracking-widest shimmer transition-all duration-400">
+                        View Hub Dashboard
+                    </button>
+<button class="border border-outline-variant/30 text-on-surface px-8 py-4 rounded font-label-md uppercase tracking-widest hover:bg-surface-variant/20 transition-all">
+                        Our Methodology
+                    </button>
+</div>
+</div>
+<!-- Floating Decorative Element -->
+<div class="absolute bottom-gutter left-1/2 -translate-x-1/2 opacity-20">
+<span class="material-symbols-outlined text-[48px] animate-bounce">expand_more</span>
+</div>
+</section>
+<!-- Metrics Grid -->
+<section class="py-section-gap bg-surface-container-lowest border-y border-outline-variant/5">
+<div class="max-w-container-max mx-auto px-margin-desktop grid grid-cols-1 md:grid-cols-3 gap-gutter">
+<div class="p-gutter border-l border-outline-variant/10">
+<div class="font-label-sm text-outline uppercase mb-2">Portfolio Managed</div>
+<div class="font-headline-lg text-primary">$420M+</div>
+<div class="font-body-md text-on-surface-variant">Across DTC, Fintech &amp; SaaS sectors globally.</div>
+</div>
+<div class="p-gutter border-l border-outline-variant/10">
+<div class="font-label-sm text-outline uppercase mb-2">Avg. Performance Lift</div>
+<div class="font-headline-lg text-primary">+64%</div>
+<div class="font-body-md text-on-surface-variant">Sustainable growth achieved within first 90 days.</div>
+</div>
+<div class="p-gutter border-l border-outline-variant/10">
+<div class="font-label-sm text-outline uppercase mb-2">Creative Velocity</div>
+<div class="font-headline-lg text-primary">2.4x</div>
+<div class="font-body-md text-on-surface-variant">Faster iteration cycles using BAZ Nova AI infrastructure.</div>
+</div>
+</div>
+</section>
+<!-- Bento Grid Services -->
+<section class="py-section-gap">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="flex justify-between items-end mb-gutter">
+<div class="max-w-xl">
+<span class="font-label-sm text-primary uppercase tracking-widest">Capabilities</span>
+<h2 class="font-headline-lg text-headline-lg text-on-surface mt-2">Precision Service Suite</h2>
+</div>
+<div class="font-body-md text-on-surface-variant hidden md:block">
+                        Structured for scale. Driven by data.
+                    </div>
+</div>
+<div class="grid grid-cols-12 gap-base lg:grid-rows-2">
+<!-- High Density Card -->
+<div class="col-span-12 lg:col-span-8 bg-surface-container-low p-gutter border border-outline-variant/10 rounded group hover:border-primary/40 transition-colors">
+<div class="flex justify-between items-start mb-12">
+<span class="font-headline-sm text-primary">01</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors" data-weight="fill">cyclone</span>
+</div>
+<h3 class="font-headline-md text-headline-md text-on-surface mb-4">Performance Marketing Loop</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-lg">
+                            An integrated ecosystem linking attribution, creative, and spend management into a single autonomous engine.
+                        </p>
+</div>
+<!-- Side Card -->
+<div class="col-span-12 lg:col-span-4 bg-surface-container-low p-gutter border border-outline-variant/10 rounded group hover:border-primary/40 transition-colors">
+<div class="flex justify-between items-start mb-12">
+<span class="font-headline-sm text-primary">02</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">psychology</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Nova AI Insights</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                            Leveraging custom LLMs to predict market shifts before they happen.
+                        </p>
+</div>
+<!-- Bottom Long Card -->
+<div class="col-span-12 lg:col-span-4 bg-surface-container-low p-gutter border border-outline-variant/10 rounded group hover:border-primary/40 transition-colors">
+<div class="flex justify-between items-start mb-12">
+<span class="font-headline-sm text-primary">03</span>
+<span class="material-symbols-outlined text-outline group-hover:text-primary transition-colors">analytics</span>
+</div>
+<h3 class="font-headline-sm text-headline-sm text-on-surface mb-4">Attribution Modeling</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                            Clean tracking with server-side pixels for 100% data integrity.
+                        </p>
+</div>
+<div class="col-span-12 lg:col-span-8 bg-surface-container-low p-gutter border border-outline-variant/10 rounded group hover:border-primary/40 transition-colors flex items-center gap-gutter">
+<div class="flex-1">
+<span class="font-headline-sm text-primary">04</span>
+<h3 class="font-headline-md text-headline-md text-on-surface mt-4 mb-4">Creative Content Forge</h3>
+<p class="font-body-lg text-body-lg text-on-surface-variant">
+                                High-velocity production of conversion-optimized visual assets for digital-first brands.
+                            </p>
+</div>
+<div class="hidden sm:block w-48 h-48 bg-surface-container overflow-hidden rounded">
+<img class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" data-alt="A minimalist abstract render of a golden geometric structure representing creative precision, shot with cinematic lighting on a dark charcoal background. The style is high-end architectural monograph photography with clean lines and sharp focus." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBmBut61j0jMpIiIGz0P5Cwi4xvSCo8FghfhPH17Y-N510GkOO1zy5Qc2SBsSs5Ml72yIeIZSbmA10yaYRrwI2E2PTr69m2YeTlA5jz3sbNusHWbarGDFp_MLbV5URvzImSFC0YW7bq6ugYLmp41cS_EBj6IpmOO6zKY4flTu15rhPN1ydki1Ke_O3QQ8b1klNm47kOjYrYZagBOErdgguNS6RMaxGUePGCBLenylBmqYx9rs6MYyNH"/>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Command Center Preview -->
+<section class="py-section-gap bg-background overflow-hidden relative">
+<div class="max-w-container-max mx-auto px-margin-desktop relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-section-gap items-center">
+<div>
+<span class="font-label-sm text-primary uppercase tracking-[0.2em] mb-4 block">The Hub Experience</span>
+<h2 class="font-headline-lg text-headline-lg mb-8 leading-tight">
+                            The marketing, sales, and finance loop — running itself.
+                        </h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant mb-12">
+                            Every contact scored. Every outcome learned from. The BAZ Marketing Hub is the operating system under everything we ship for clients.
+                        </p>
+<ul class="space-y-6 mb-12">
+<li class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-label-md">Real-time Attribution Dashboard</span>
+</li>
+<li class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-label-md">Autonomous Ad-Spend Management</span>
+</li>
+<li class="flex items-center gap-4 text-on-surface">
+<span class="material-symbols-outlined text-primary">check_circle</span>
+<span class="font-label-md">Global Campaign Sequencing</span>
+</li>
+</ul>
+<button class="bg-primary text-on-primary px-gutter py-4 rounded font-label-md uppercase tracking-widest hover:brightness-110">
+                            Explore the Hub
+                        </button>
+</div>
+<!-- Command Center Card UI -->
+<div class="relative group">
+<div class="absolute -inset-4 bg-primary/10 blur-3xl opacity-20 group-hover:opacity-40 transition-opacity"></div>
+<div class="relative bg-surface-container-lowest p-gutter rounded-lg border border-outline-variant/10 shadow-2xl">
+<div class="flex justify-between items-center mb-gutter border-b border-outline-variant/10 pb-base">
+<div class="flex items-center gap-2">
+<div class="w-3 h-3 rounded-full bg-primary animate-pulse"></div>
+<span class="font-label-sm text-on-surface-variant uppercase">Cockpit · Live</span>
+</div>
+<span class="font-label-sm text-primary">v2.4.0</span>
+</div>
+<div class="grid grid-cols-2 gap-gutter mb-gutter">
+<div class="bg-surface-container-high p-4 rounded border border-outline-variant/5">
+<span class="font-label-sm text-outline block mb-2">Active Sequences</span>
+<span class="font-headline-sm text-on-surface">142</span>
+</div>
+<div class="bg-surface-container-high p-4 rounded border border-outline-variant/5">
+<span class="font-label-sm text-outline block mb-2">Velocity</span>
+<span class="font-headline-sm text-primary">0.8s/cycle</span>
+</div>
+</div>
+<div class="space-y-4">
+<div class="h-2 bg-surface-container-high rounded-full overflow-hidden">
+<div class="h-full bg-primary w-[74%]"></div>
+</div>
+<div class="flex justify-between font-label-sm text-outline">
+<span>Pipeline Management</span>
+<span>74% Capacity</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Case Studies (Editorial Style) -->
+<section class="py-section-gap border-t border-outline-variant/5">
+<div class="max-w-container-max mx-auto px-margin-desktop">
+<div class="mb-gutter">
+<span class="font-label-sm text-primary uppercase tracking-[0.2em] block mb-2">Evidence</span>
+<h2 class="font-display-lg text-headline-lg text-on-surface">Market Impact</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mt-section-gap">
+<!-- Case Study 1 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] bg-surface-container-low mb- gutter overflow-hidden rounded relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="A sleek modern architectural building with glass reflections and golden hour lighting, symbolizing a luxury brand's physical presence. High-fashion aesthetic, editorial photography style, muted charcoal and warm gold color palette." src="https://lh3.googleusercontent.com/aida-public/AB6AXuA9e8nCRggcBJs2sApHHzzM3GPAXH5-pjH4hz7VOoMi9OoeFEqGYNVchJoZiqJQc_EI7y1kZU7YtvYwBV_6DEyNZ-c0Z-ycltlJ-giLGMmOp5wf_cx6HMPQZWPmuVBEii-aclWQ8eimGeo_bMdgKS5FQmJbVBYiSXp5lLHOHQ86Yu7O591K5Fy7rKZ0HusD7dmTuBtboqUxfWG0-pzsJr5ls-AQXFc0Bd4BiX8O9sIklamroouodq1A"/>
+<div class="absolute inset-0 bg-background/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="font-label-md uppercase tracking-widest text-on-surface bg-background px-gutter py-3 rounded">Read Case Study</span>
+</div>
+</div>
+<div class="mt- gutter">
+<div class="flex justify-between font-label-sm text-outline mb-2">
+<span>VIRALVISTA · DTC BEAUTY</span>
+<span>90 DAYS</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">1.8 → 4.6 ROAS</h4>
+<p class="font-body-md text-on-surface-variant">How we tripled efficiency while scaling spend by 400% for a leading beauty brand.</p>
+</div>
+</div>
+<!-- Case Study 2 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] bg-surface-container-low mb- gutter overflow-hidden rounded relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="Close-up of high-end technology hardware with brushed metal finishes and amber indicator lights. The image conveys precision engineering and high-fidelity digital infrastructure. Dark cinematic lighting with deep shadows." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBb7choJuY7PILNun1XtqeYsWenF7OURc75QNy8pnYKYXM2wEC3x5uJZ7YxxGRc_adT6qV-PNj2XFMrTDUMYb_U2m80dkkXL7qtSJ1RYJr3TJlnU8cKmkWtMDccUoZLKCE9LlP0CH7VxLpObFy-SVubKpQwrSD9D2gQOeGiu9ra3hcXSJzezaMtk_dFhw3brDmljI78v2RmGTIJwtvPytQFFhALGoCjHw82ba42eIYwoy-vaUT0lC3d"/>
+<div class="absolute inset-0 bg-background/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="font-label-md uppercase tracking-widest text-on-surface bg-background px-gutter py-3 rounded">Read Case Study</span>
+</div>
+</div>
+<div class="mt- gutter">
+<div class="flex justify-between font-label-sm text-outline mb-2">
+<span>NORTHWIND · FINTECH</span>
+<span>14 MONTHS</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">0 → 480K/mo Sessions</h4>
+<p class="font-body-md text-on-surface-variant">Dominating high-intent search categories through structural SEO and authority building.</p>
+</div>
+</div>
+<!-- Case Study 3 -->
+<div class="group cursor-pointer">
+<div class="aspect-[4/5] bg-surface-container-low mb- gutter overflow-hidden rounded relative">
+<img class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110" data-alt="An abstract visualization of data flow using golden light particles moving through a dark crystalline structure. Represents complex marketing attribution and intelligent growth. Sophisticated, tech-luxury aesthetic." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAzmRCakDBCdSWb4OF86FaM_nBgj57e2qGtbUpy5u5z9-jZ8hSAYVAZBjBOSGdJbwgOvh8bDWga0nbQTCnJ5m_F0Mgjz2_Kfe-O-dBeUN3hUyIX29kcn91I4f43wskk3tEE15pdOWvJoXKTQJSyXy1_jK3b26qOENsQGH-tnn11UXWim0_ZNCmKhjzCcJ0mTHpCtF3_-WgHJQt3Si7FTs2uNAMaBeu3VxN0zMOfNdjAzJAORxkvJ_Ym"/>
+<div class="absolute inset-0 bg-background/40 opacity-0 group-hover:opacity-100 transition-opacity flex items-center justify-center">
+<span class="font-label-md uppercase tracking-widest text-on-surface bg-background px-gutter py-3 rounded">Read Case Study</span>
+</div>
+</div>
+<div class="mt- gutter">
+<div class="flex justify-between font-label-sm text-outline mb-2">
+<span>ENGAGEERA · B2B SAAS</span>
+<span>6 MONTHS</span>
+</div>
+<h4 class="font-headline-sm text-headline-sm text-on-surface mb-2">0.6% → 2.4% Trial Conv.</h4>
+<p class="font-body-md text-on-surface-variant">Optimizing the trial-to-paid funnel through behavioral sequence engineering.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-container-low border-t border-outline-variant/10 py-gutter">
+<div class="max-w-container-max mx-auto px-margin-desktop flex flex-col md:flex-row justify-between items-center gap-8">
+<div class="flex flex-col items-center md:items-start">
+<span class="font-headline-sm text-on-surface font-bold tracking-tight mb-2">BAZ Ventures</span>
+<p class="font-body-md text-body-md text-on-surface-variant text-center md:text-left">
+                    © 2024 BAZ Ventures Marketing Agency. All rights reserved.
+                </p>
+</div>
+<div class="flex gap-gutter">
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Privacy Policy</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Terms of Service</a>
+<a class="font-body-md text-on-surface-variant hover:text-primary transition-colors" href="#">Contact</a>
+</div>
+<div class="flex gap-4">
+<button class="w-10 h-10 rounded bg-surface flex items-center justify-center text-on-surface hover:text-primary transition-colors border border-outline-variant/10">
+<span class="material-symbols-outlined">alternate_email</span>
+</button>
+<button class="w-10 h-10 rounded bg-surface flex items-center justify-center text-on-surface hover:text-primary transition-colors border border-outline-variant/10">
+<span class="material-symbols-outlined">hub</span>
+</button>
+</div>
+</div>
+</footer>
+<!-- Micro-interaction Scripts -->
+<script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // Scroll reveal effect for case study items
+            const observerOptions = {
+                threshold: 0.1
+            };
+
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.classList.add('opacity-100', 'translate-y-0');
+                        entry.target.classList.remove('opacity-0', 'translate-y-12');
+                    }
+                });
+            }, observerOptions);
+
+            document.querySelectorAll('.group').forEach(el => {
+                el.classList.add('transition-all', 'duration-1000', 'opacity-0', 'translate-y-12');
+                observer.observe(el);
+            });
+        });
+    </script>
+</body></html>

@@ -1,0 +1,61 @@
+/* ═══════════════════════════════════════════════════════════════════
+   MIDNIGHT TERMINAL — unifies marketing-hub ÆTHER with baz's Midnight Terminal.
+   Imported LAST (after aether-monochrome.css) so it wins. !important to
+   override the monochrome layer.
+   Electric cyan accent + deep-midnight bg + ultraviolet depth. Square corners.
+   ═══════════════════════════════════════════════════════════════════ */
+:root {
+  /* ── Accent / brand → electric cyan ── */
+  --accent: #22D3EE !important;
+  --accent-soft: hsla(189, 94%, 53%, 0.12) !important;
+  --accent-glow: hsla(189, 94%, 53%, 0.40) !important;
+  --accent-text: #020617 !important;
+  --color-primary: hsl(189, 94%, 53%) !important;
+
+  /* ── ÆTHER accent aliases → cyan ── */
+  --aether-primary: #22D3EE !important;
+  --aether-accent: #22D3EE !important;
+  --aether-accent-dim: hsla(189, 94%, 53%, 0.65) !important;
+  --aether-accent-bg: hsla(189, 94%, 53%, 0.12) !important;
+  --aether-accent-border: hsla(189, 94%, 53%, 0.35) !important;
+  --aether-accent-shadow: hsla(189, 94%, 53%, 0.233) !important;
+  --aether-accent-text: #020617 !important;
+  --aether-gradient-text: linear-gradient(90deg, #22D3EE 0%, #818CF8 61.8%) !important;
+
+  /* ── Backgrounds → deep midnight (rgb space-separated for rgb(var(--bg)/a)) ── */
+  --bg: 2 6 23 !important;            /* #020617 — deep midnight */
+  --surface: 11 17 32 !important;      /* #0B1120 — layered navy */
+  --surface-2: 15 23 42 !important;    /* #0F172A */
+  --surface-3: 21 28 45 !important;    /* #151C2D */
+
+  /* ── Text on darkness ── */
+  --text: 248 250 252 !important;      /* #F8FAFC */
+  --text-secondary: 148 163 184 !important; /* #94A3B8 */
+  --muted: 148 163 184 !important;    /* #94A3B8 */
+  --aether-text-primary: #F8FAFC !important;
+  --aether-text-secondary: #94A3B8 !important;
+
+  /* ── Aether darkness ramp → midnight (kept subtle) ── */
+  --aether-l0: #020617 !important;
+  --aether-l1: #0B1120 !important;
+  --aether-l2: #0F172A !important;
+  --aether-l3: #151C2D !important;
+  --aether-l4: #1E293B !important;
+
+  /* ── Login ambient / glass → cyan + violet on midnight ── */
+  --theme-brand: #22D3EE !important;
+  --theme-brand-secondary: #818CF8 !important;
+  --theme-brand-rgb: 34 211 238 !important;
+  --theme-brand-glow: rgba(34, 211, 238, 0.40) !important;
+  --theme-ambient:
+    radial-gradient(ellipse at 30% 20%, rgba(34, 211, 238, 0.10), transparent 60%),
+    radial-gradient(ellipse at 70% 80%, rgba(129, 140, 248, 0.08), transparent 60%) !important;
+  --gradient-mesh: var(--theme-ambient) !important;
+  --glass-bg: rgba(11, 17, 32, 0.60) !important;
+  --glass-border: rgba(255, 255, 255, 0.10) !important;
+}
+
+::selection { background: #22D3EE; color: #020617; }
+
+/* Cyan focus ring to match baz */
+input:focus, textarea:focus, select:focus { outline: 2px solid #22D3EE; outline-offset: 1px; }

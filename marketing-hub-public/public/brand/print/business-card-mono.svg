@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1050 600" width="1050" height="600" fill="none">
+  <rect width="1050" height="600" rx="8" fill="#0a0a0d"/>
+  <rect x="55" y="55" width="940" height="2" fill="#faf9fa" opacity="0.377"/>
+  
+    <rect x="55" y="160" width="3" height="95" rx="1" fill="#faf9fa" opacity="0.9"/>
+    <rect x="55" y="160" width="31" height="3" rx="1" fill="#faf9fa"/>
+    <rect x="55" y="191" width="31" height="3" rx="1" fill="#faf9fa"/>
+    <rect x="83" y="160" width="3" height="34" rx="1" fill="#faf9fa"/>
+    <path d="M 86 160 Q 105 160 105 177 Q 105 194 86 194" fill="#faf9fa"/>
+    <rect x="83" y="225" width="3" height="3" rx="1" fill="#faf9fa"/>
+    <path d="M 86 194 Q 109 194 109 219 Q 109 255 86 255" fill="#faf9fa" opacity="0.9"/>
+    <g transform="translate(116, 160)">
+      <path d="M 0 95 L 25 0 L 50 95 H 42 L 37 74 H 14 L 8 95 Z M 17 50 L 25 25 L 34 50 Z" fill="#faf9fa"/>
+    </g>
+    <g transform="translate(174, 160)">
+      <rect x="0" y="0" width="41" height="3" rx="1" fill="#faf9fa"/>
+      <rect x="0" y="92" width="41" height="3" rx="1" fill="#faf9fa"/>
+      <rect x="38" y="0" width="3" height="95" rx="1" fill="#faf9fa" opacity="0.6"/>
+      <line x1="0" y1="3" x2="38" y2="92" stroke="#faf9fa" stroke-width="3" stroke-linecap="round"/>
+    </g>
+  <text x="995" y="480" text-anchor="end" font-family="Inter, -apple-system, sans-serif" font-size="18" fill="#faf9fa" opacity="0.55">BAZ Marketing Agency</text>
+  <text x="995" y="505" text-anchor="end" font-family="Inter, -apple-system, sans-serif" font-size="14" fill="#faf9fa" opacity="0.4">The growth partner for ambitious businesses.</text>
+  <rect x="55" y="545" width="940" height="2" fill="#faf9fa" opacity="0.377"/>
+</svg>

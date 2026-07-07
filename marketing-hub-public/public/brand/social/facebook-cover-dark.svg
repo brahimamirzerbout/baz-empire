@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 820 312" width="820" height="312" fill="none">
+  <rect width="820" height="312" fill="#0a0a0d"/>
+  <rect x="34" y="0" width="752" height="2" fill="#b87adb" opacity="0.377"/>
+  
+    <rect x="295" y="83" width="4" height="130" rx="2" fill="#b87adb" opacity="1"/>
+    <rect x="295" y="83" width="43" height="4" rx="2" fill="#b87adb"/>
+    <rect x="295" y="126" width="43" height="4" rx="2" fill="#b87adb"/>
+    <rect x="334" y="83" width="4" height="46" rx="2" fill="#b87adb"/>
+    <path d="M 338 83 Q 364 83 364 106 Q 364 129 338 129" fill="#b87adb"/>
+    <rect x="334" y="171" width="4" height="4" rx="2" fill="#b87adb"/>
+    <path d="M 338 129 Q 369 129 369 164 Q 369 213 338 213" fill="#b87adb" opacity="0.9"/>
+    <g transform="translate(379, 83)">
+      <path d="M 0 130 L 34 0 L 69 130 H 57 L 50 100 H 19 L 11 130 Z M 23 69 L 34 34 L 46 69 Z" fill="#b87adb"/>
+    </g>
+    <g transform="translate(458, 83)">
+      <rect x="0" y="0" width="56" height="4" rx="2" fill="#b87adb"/>
+      <rect x="0" y="126" width="56" height="4" rx="2" fill="#b87adb"/>
+      <rect x="52" y="0" width="4" height="130" rx="2" fill="#b87adb" opacity="0.6"/>
+      <line x1="0" y1="4" x2="52" y2="126" stroke="#b87adb" stroke-width="4" stroke-linecap="round"/>
+    </g>
+  <rect x="34" y="310" width="752" height="2" fill="#b87adb" opacity="0.377"/>
+  <text x="410" y="247" text-anchor="middle" font-family="Inter, -apple-system, sans-serif" font-size="16" fill="#b87adb" opacity="0.55">The growth partner for ambitious businesses.</text>
+</svg>

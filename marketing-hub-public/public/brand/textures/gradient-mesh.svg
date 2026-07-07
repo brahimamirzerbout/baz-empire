@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512" fill="none">
+  <defs>
+    <radialGradient id="mesh1" cx="38.2%" cy="38.2%" r="61.8%"><stop offset="0%" stop-color="#b87adb" stop-opacity="0.25"/><stop offset="61.8%" stop-color="#b87adb" stop-opacity="0.04"/><stop offset="100%" stop-color="#0a0a0d" stop-opacity="0"/></radialGradient>
+    <radialGradient id="mesh2" cx="61.8%" cy="61.8%" r="38.2%"><stop offset="0%" stop-color="#b87adb" stop-opacity="0.12"/><stop offset="50%" stop-color="#b87adb" stop-opacity="0.02"/><stop offset="100%" stop-color="#0a0a0d" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="512" height="512" fill="#0a0a0d"/>
+  <rect width="512" height="512" fill="url(#mesh1)"/>
+  <rect width="512" height="512" fill="url(#mesh2)"/>
+</svg>

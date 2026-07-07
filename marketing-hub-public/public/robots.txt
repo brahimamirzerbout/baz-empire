@@ -1,0 +1,10 @@
+User-agent: *
+Allow: /
+Disallow: /cockpit
+Disallow: /crm
+Disallow: /settings
+Disallow: /billing
+Disallow: /team
+Disallow: /api/
+
+Sitemap: /sitemap.xml

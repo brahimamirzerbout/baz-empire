@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <!-- BAZ Watermark Pattern — for document backgrounds
+       Subtle geometric B marks on Fibonacci grid
+  -->
+  <defs>
+    <pattern id="baz-watermark" x="0" y="0" width="100" height="100" patternUnits="userSpaceOnUse" patternTransform="rotate(-30)">
+      <!-- B letterform — minimal, faded -->
+      <rect x="20" y="30" width="2" height="40" rx="1" fill="#b87adb" opacity="0.03"/>
+      <rect x="20" y="30" width="18" height="2" rx="1" fill="#b87adb" opacity="0.03"/>
+      <rect x="36" y="30" width="2" height="15" rx="1" fill="#b87adb" opacity="0.03"/>
+      <rect x="20" y="45" width="18" height="2" rx="1" fill="#b87adb" opacity="0.03"/>
+      <rect x="36" y="45" width="2" height="25" rx="1" fill="#b87adb" opacity="0.03"/>
+      <!-- Fibonacci dot grid -->
+      <circle cx="55" cy="35" r="0.5" fill="#b87adb" opacity="0.04"/>
+      <circle cx="55" cy="50" r="0.5" fill="#b87adb" opacity="0.04"/>
+      <circle cx="55" cy="65" r="0.5" fill="#b87adb" opacity="0.04"/>
+      <circle cx="70" cy="35" r="0.5" fill="#b87adb" opacity="0.04"/>
+      <circle cx="70" cy="50" r="0.5" fill="#b87adb" opacity="0.04"/>
+      <circle cx="70" cy="65" r="0.5" fill="#b87adb" opacity="0.04"/>
+    </pattern>
+  </defs>
+  <rect width="200" height="200" fill="url(#baz-watermark)"/>
+</svg>
