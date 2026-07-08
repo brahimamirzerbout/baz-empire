@@ -1,0 +1,45 @@
+$ tauri build --no-bundle
+        Info Looking up installed tauri packages to check mismatched versions...
+    Updating crates.io index
+     Locking 4 packages to latest compatible versions
+      Adding byteorder-lite v0.1.0
+      Adding image v0.25.10
+      Adding moxcms v0.8.1
+      Adding pxfm v0.1.30
+ Downloading crates ...
+  Downloaded byteorder-lite v0.1.0
+  Downloaded bytemuck v1.25.0
+  Downloaded moxcms v0.8.1
+  Downloaded image v0.25.10
+  Downloaded pxfm v0.1.30
+   Compiling simd-adler32 v0.3.9
+   Compiling crc32fast v1.5.0
+   Compiling adler2 v2.0.1
+   Compiling num-traits v0.2.19
+   Compiling tauri v2.11.5
+   Compiling libloading v0.7.4
+   Compiling pxfm v0.1.30
+   Compiling byteorder-lite v0.1.0
+   Compiling bytemuck v1.25.0
+   Compiling miniz_oxide v0.8.9
+   Compiling fdeflate v0.3.7
+   Compiling libappindicator-sys v0.9.0
+   Compiling libappindicator v0.9.0
+   Compiling flate2 v1.1.9
+   Compiling tauri-plugin-opener v2.5.4
+   Compiling marketing-hub v0.1.0 (/home/uzer/empire/marketing-hub/src-tauri)
+   Compiling png v0.18.1
+   Compiling tray-icon v0.24.1
+   Compiling moxcms v0.8.1
+   Compiling image v0.25.10
+warning: use of deprecated method `tauri::tray::TrayIconBuilder::<R>::menu_on_left_click`: Use `TrayIconBuilder::show_menu_on_left_click` instead.
+  --> src/lib.rs:51:10
+   |
+51 |         .menu_on_left_click(false)
+   |          ^^^^^^^^^^^^^^^^^^
+   |
+   = note: `#[warn(deprecated)]` on by default
+
+warning: `marketing-hub` (lib) generated 1 warning
+    Finished `release` profile [optimized] target(s) in 3m 38s
+       Built application at: /home/uzer/empire/marketing-hub/src-tauri/target/release/marketing-hub

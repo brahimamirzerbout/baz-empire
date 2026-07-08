@@ -1,0 +1,13 @@
+prefix=/home/uzer/bazdev/root/usr
+exec_prefix=${prefix}
+libdir=${prefix}/lib/x86_64-linux-gnu
+includedir=${prefix}/include
+
+Name: SM
+Description: X Session Management Library
+Version: 1.2.6
+Requires:
+Requires.private: ice xproto uuid
+Cflags: -I${includedir}
+Libs: -L${libdir} -lSM
+Libs.private: 

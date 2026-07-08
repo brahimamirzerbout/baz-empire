@@ -1,0 +1,12 @@
+#! /bin/sh
+set -e
+
+if [ "$1" = rtupdate ]; then
+	py3clean -p libgio-2.0-dev-bin /usr/share/glib-2.0/codegen
+	py3compile -p libgio-2.0-dev-bin  /usr/share/glib-2.0/codegen
+fi
+
+if [ "$1" = rtupdate ]; then
+	py3clean -p libgio-2.0-dev-bin /usr/share/glib-2.0/gdb
+	py3compile -p libgio-2.0-dev-bin  /usr/share/glib-2.0/gdb
+fi

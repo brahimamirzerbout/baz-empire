@@ -1,0 +1,14 @@
+prefix=/home/uzer/bazdev/root/usr
+exec_prefix=/home/uzer/bazdev/root/usr
+libdir=/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu
+includedir=/home/uzer/bazdev/root/usr/include
+
+Name: FreeType 2
+URL: https://freetype.org
+Description: A free, high-quality, and portable font engine.
+Version: 26.2.20
+Requires: 
+Requires.private: zlib, bzip2, libpng, libbrotlidec
+Libs: -L/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu -lfreetype
+Libs.private: 
+Cflags: -I${includedir}/freetype2

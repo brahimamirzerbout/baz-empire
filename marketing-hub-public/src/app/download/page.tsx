@@ -34,7 +34,7 @@ export default async function DownloadPage() {
           BAZ Empire Hub
         </h1>
         <p className="mt-2 text-sm text-slate-600 dark:text-zinc-300">
-          ROI Marketing on your Android · v1.0 · ~4 MB · Requires Android 7.0+
+          ROI Marketing on your Android · v1.0 · ~3 MB · Requires Android 7.0+
         </p>
       </div>
 

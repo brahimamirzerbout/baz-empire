@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<!-- Created by GNU Texinfo 7.1.1, https://www.gnu.org/software/texinfo/ -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+This manual is for libffi, a portable foreign function interface
+library.
+
+Copyright © 2008-2024 Anthony Green and Red Hat, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+<title>Thread Safety (libffi: the portable foreign function interface library)</title>
+
+<meta name="description" content="Thread Safety (libffi: the portable foreign function interface library)">
+<meta name="keywords" content="Thread Safety (libffi: the portable foreign function interface library)">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link href="index.html" rel="start" title="Top">
+<link href="Index.html" rel="index" title="Index">
+<link href="Using-libffi.html" rel="up" title="Using libffi">
+<link href="Closure-Example.html" rel="prev" title="Closure Example">
+<style type="text/css">
+<!--
+a.copiable-link {visibility: hidden; text-decoration: none; line-height: 0em}
+span:hover a.copiable-link {visibility: visible}
+ul.mark-bullet {list-style-type: disc}
+-->
+</style>
+
+
+</head>
+
+<body lang="en">
+<div class="section-level-extent" id="Thread-Safety">
+<div class="nav-panel">
+<p>
+Previous: <a href="Closure-Example.html" accesskey="p" rel="prev">Closure Example</a>, Up: <a href="Using-libffi.html" accesskey="u" rel="up">Using libffi</a> &nbsp; [<a href="Index.html" title="Index" rel="index">Index</a>]</p>
+</div>
+<hr>
+<h3 class="section" id="Thread-Safety-1"><span>2.7 Thread Safety<a class="copiable-link" href="#Thread-Safety-1"> &para;</a></span></h3>
+
+<p><code class="code">libffi</code> is not completely thread-safe.  However, many parts are,
+and if you follow some simple rules, you can use it safely in a
+multi-threaded program.
+</p>
+<ul class="itemize mark-bullet">
+<li><code class="code">ffi_prep_cif</code> may modify the <code class="code">ffi_type</code> objects passed to
+it.  It is best to ensure that only a single thread prepares a given
+<code class="code">ffi_cif</code> at a time.
+
+</li><li>On some platforms, <code class="code">ffi_prep_cif</code> may modify the size and
+alignment of some types, depending on the chosen ABI.  On these
+platforms, if you switch between ABIs, you must ensure that there is
+only one call to <code class="code">ffi_prep_cif</code> at a time.
+
+<p>Currently the only affected platform is PowerPC and the only affected
+type is <code class="code">long double</code>.
+</p></li></ul>
+
+</div>
+
+
+
+</body>
+</html>

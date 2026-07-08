@@ -1,6 +1,0 @@
-com.oppo.market|Failure [DELETE_FAILED_INTERNAL_ERROR] | disable:Error: java.lang.SecurityException: Shell cannot change component state for com.oppo.market/null to 3
-com.coloros.sauhelper|Failure [DELETE_FAILED_INTERNAL_ERROR] | disable:Package com.coloros.sauhelper new state: default
-com.coloros.weather|Failure [DELETE_FAILED_INTERNAL_ERROR] | disable:Package com.coloros.weather new state: disabled-user
-com.coloros.compass|Failure [DELETE_FAILED_INTERNAL_ERROR] | disable:Package com.coloros.compass new state: disabled-user
-com.nearme.gamecenter|Failure [DELETE_FAILED_INTERNAL_ERROR] | disable:Error: java.lang.SecurityException: Shell cannot change component state for com.nearme.gamecenter/null to 3
-com.nearme.themespace|Failure [DELETE_FAILED_INTERNAL_ERROR] | disable:Package com.nearme.themespace new state: default

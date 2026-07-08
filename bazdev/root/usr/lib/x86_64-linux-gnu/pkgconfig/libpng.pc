@@ -1,0 +1,12 @@
+prefix=/home/uzer/bazdev/root/usr
+exec_prefix=/home/uzer/bazdev/root/usr
+libdir=/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu
+includedir=/home/uzer/bazdev/root/usr/include/libpng16
+
+Name: libpng
+Description: Loads and saves PNG files
+Version: 1.6.48
+Requires.private: zlib
+Libs: -L${libdir} -lpng16
+Libs.private: -lz -lm
+Cflags: -I${includedir}

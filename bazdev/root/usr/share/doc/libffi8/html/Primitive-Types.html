@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<!-- Created by GNU Texinfo 7.1.1, https://www.gnu.org/software/texinfo/ -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+This manual is for libffi, a portable foreign function interface
+library.
+
+Copyright © 2008-2024 Anthony Green and Red Hat, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+<title>Primitive Types (libffi: the portable foreign function interface library)</title>
+
+<meta name="description" content="Primitive Types (libffi: the portable foreign function interface library)">
+<meta name="keywords" content="Primitive Types (libffi: the portable foreign function interface library)">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link href="index.html" rel="start" title="Top">
+<link href="Index.html" rel="index" title="Index">
+<link href="Types.html" rel="up" title="Types">
+<link href="Structures.html" rel="next" title="Structures">
+<style type="text/css">
+<!--
+a.copiable-link {visibility: hidden; text-decoration: none; line-height: 0em}
+span:hover a.copiable-link {visibility: visible}
+-->
+</style>
+
+
+</head>
+
+<body lang="en">
+<div class="subsection-level-extent" id="Primitive-Types">
+<div class="nav-panel">
+<p>
+Next: <a href="Structures.html" accesskey="n" rel="next">Structures</a>, Up: <a href="Types.html" accesskey="u" rel="up">Types</a> &nbsp; [<a href="Index.html" title="Index" rel="index">Index</a>]</p>
+</div>
+<hr>
+<h4 class="subsection" id="Primitive-Types-1"><span>2.3.1 Primitive Types<a class="copiable-link" href="#Primitive-Types-1"> &para;</a></span></h4>
+
+<p><code class="code">Libffi</code> provides a number of built-in type descriptors that can
+be used to describe argument and return types:
+</p>
+<dl class="table">
+<dt><a id="index-ffi_005ftype_005fvoid"></a><span><code class="code">ffi_type_void</code><a class="copiable-link" href="#index-ffi_005ftype_005fvoid"> &para;</a></span></dt>
+<dd><p>The type <code class="code">void</code>.  This cannot be used for argument types, only
+for return values.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fuint8"></a><span><code class="code">ffi_type_uint8</code><a class="copiable-link" href="#index-ffi_005ftype_005fuint8"> &para;</a></span></dt>
+<dd><p>An unsigned, 8-bit integer type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fsint8"></a><span><code class="code">ffi_type_sint8</code><a class="copiable-link" href="#index-ffi_005ftype_005fsint8"> &para;</a></span></dt>
+<dd><p>A signed, 8-bit integer type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fuint16"></a><span><code class="code">ffi_type_uint16</code><a class="copiable-link" href="#index-ffi_005ftype_005fuint16"> &para;</a></span></dt>
+<dd><p>An unsigned, 16-bit integer type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fsint16"></a><span><code class="code">ffi_type_sint16</code><a class="copiable-link" href="#index-ffi_005ftype_005fsint16"> &para;</a></span></dt>
+<dd><p>A signed, 16-bit integer type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fuint32"></a><span><code class="code">ffi_type_uint32</code><a class="copiable-link" href="#index-ffi_005ftype_005fuint32"> &para;</a></span></dt>
+<dd><p>An unsigned, 32-bit integer type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fsint32"></a><span><code class="code">ffi_type_sint32</code><a class="copiable-link" href="#index-ffi_005ftype_005fsint32"> &para;</a></span></dt>
+<dd><p>A signed, 32-bit integer type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fuint64"></a><span><code class="code">ffi_type_uint64</code><a class="copiable-link" href="#index-ffi_005ftype_005fuint64"> &para;</a></span></dt>
+<dd><p>An unsigned, 64-bit integer type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fsint64"></a><span><code class="code">ffi_type_sint64</code><a class="copiable-link" href="#index-ffi_005ftype_005fsint64"> &para;</a></span></dt>
+<dd><p>A signed, 64-bit integer type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005ffloat"></a><span><code class="code">ffi_type_float</code><a class="copiable-link" href="#index-ffi_005ftype_005ffloat"> &para;</a></span></dt>
+<dd><p>The C <code class="code">float</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fdouble"></a><span><code class="code">ffi_type_double</code><a class="copiable-link" href="#index-ffi_005ftype_005fdouble"> &para;</a></span></dt>
+<dd><p>The C <code class="code">double</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fuchar"></a><span><code class="code">ffi_type_uchar</code><a class="copiable-link" href="#index-ffi_005ftype_005fuchar"> &para;</a></span></dt>
+<dd><p>The C <code class="code">unsigned char</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fschar"></a><span><code class="code">ffi_type_schar</code><a class="copiable-link" href="#index-ffi_005ftype_005fschar"> &para;</a></span></dt>
+<dd><p>The C <code class="code">signed char</code> type.  (Note that there is not an exact
+equivalent to the C <code class="code">char</code> type in <code class="code">libffi</code>; ordinarily you
+should either use <code class="code">ffi_type_schar</code> or <code class="code">ffi_type_uchar</code>
+depending on whether <code class="code">char</code> is signed.)
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fushort"></a><span><code class="code">ffi_type_ushort</code><a class="copiable-link" href="#index-ffi_005ftype_005fushort"> &para;</a></span></dt>
+<dd><p>The C <code class="code">unsigned short</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fsshort"></a><span><code class="code">ffi_type_sshort</code><a class="copiable-link" href="#index-ffi_005ftype_005fsshort"> &para;</a></span></dt>
+<dd><p>The C <code class="code">short</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fuint"></a><span><code class="code">ffi_type_uint</code><a class="copiable-link" href="#index-ffi_005ftype_005fuint"> &para;</a></span></dt>
+<dd><p>The C <code class="code">unsigned int</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fsint"></a><span><code class="code">ffi_type_sint</code><a class="copiable-link" href="#index-ffi_005ftype_005fsint"> &para;</a></span></dt>
+<dd><p>The C <code class="code">int</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fulong"></a><span><code class="code">ffi_type_ulong</code><a class="copiable-link" href="#index-ffi_005ftype_005fulong"> &para;</a></span></dt>
+<dd><p>The C <code class="code">unsigned long</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fslong"></a><span><code class="code">ffi_type_slong</code><a class="copiable-link" href="#index-ffi_005ftype_005fslong"> &para;</a></span></dt>
+<dd><p>The C <code class="code">long</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005flongdouble"></a><span><code class="code">ffi_type_longdouble</code><a class="copiable-link" href="#index-ffi_005ftype_005flongdouble"> &para;</a></span></dt>
+<dd><p>On platforms that have a C <code class="code">long double</code> type, this is defined.
+On other platforms, it is not.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fpointer"></a><span><code class="code">ffi_type_pointer</code><a class="copiable-link" href="#index-ffi_005ftype_005fpointer"> &para;</a></span></dt>
+<dd><p>A generic <code class="code">void *</code> pointer.  You should use this for all
+pointers, regardless of their real type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fcomplex_005ffloat"></a><span><code class="code">ffi_type_complex_float</code><a class="copiable-link" href="#index-ffi_005ftype_005fcomplex_005ffloat"> &para;</a></span></dt>
+<dd><p>The C <code class="code">_Complex float</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fcomplex_005fdouble"></a><span><code class="code">ffi_type_complex_double</code><a class="copiable-link" href="#index-ffi_005ftype_005fcomplex_005fdouble"> &para;</a></span></dt>
+<dd><p>The C <code class="code">_Complex double</code> type.
+</p>
+</dd>
+<dt><a id="index-ffi_005ftype_005fcomplex_005flongdouble"></a><span><code class="code">ffi_type_complex_longdouble</code><a class="copiable-link" href="#index-ffi_005ftype_005fcomplex_005flongdouble"> &para;</a></span></dt>
+<dd><p>The C <code class="code">_Complex long double</code> type.
+On platforms that have a C <code class="code">long double</code> type, this is defined.
+On other platforms, it is not.
+</p></dd>
+</dl>
+
+<p>Each of these is of type <code class="code">ffi_type</code>, so you must take the address
+when passing to <code class="code">ffi_prep_cif</code>.
+</p>
+
+</div>
+<hr>
+<div class="nav-panel">
+<p>
+Next: <a href="Structures.html">Structures</a>, Up: <a href="Types.html">Types</a> &nbsp; [<a href="Index.html" title="Index" rel="index">Index</a>]</p>
+</div>
+
+
+
+</body>
+</html>

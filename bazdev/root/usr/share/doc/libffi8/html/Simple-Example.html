@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<!-- Created by GNU Texinfo 7.1.1, https://www.gnu.org/software/texinfo/ -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+This manual is for libffi, a portable foreign function interface
+library.
+
+Copyright © 2008-2024 Anthony Green and Red Hat, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+<title>Simple Example (libffi: the portable foreign function interface library)</title>
+
+<meta name="description" content="Simple Example (libffi: the portable foreign function interface library)">
+<meta name="keywords" content="Simple Example (libffi: the portable foreign function interface library)">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link href="index.html" rel="start" title="Top">
+<link href="Index.html" rel="index" title="Index">
+<link href="Using-libffi.html" rel="up" title="Using libffi">
+<link href="Types.html" rel="next" title="Types">
+<link href="The-Basics.html" rel="prev" title="The Basics">
+<style type="text/css">
+<!--
+a.copiable-link {visibility: hidden; text-decoration: none; line-height: 0em}
+div.example {margin-left: 3.2em}
+span:hover a.copiable-link {visibility: visible}
+-->
+</style>
+
+
+</head>
+
+<body lang="en">
+<div class="section-level-extent" id="Simple-Example">
+<div class="nav-panel">
+<p>
+Next: <a href="Types.html" accesskey="n" rel="next">Types</a>, Previous: <a href="The-Basics.html" accesskey="p" rel="prev">The Basics</a>, Up: <a href="Using-libffi.html" accesskey="u" rel="up">Using libffi</a> &nbsp; [<a href="Index.html" title="Index" rel="index">Index</a>]</p>
+</div>
+<hr>
+<h3 class="section" id="Simple-Example-1"><span>2.2 Simple Example<a class="copiable-link" href="#Simple-Example-1"> &para;</a></span></h3>
+
+<p>Here is a trivial example that calls <code class="code">puts</code> a few times.
+</p>
+<div class="example">
+<pre class="example-preformatted">#include &lt;stdio.h&gt;
+#include &lt;ffi.h&gt;
+
+int main()
+{
+  ffi_cif cif;
+  ffi_type *args[1];
+  void *values[1];
+  char *s;
+  ffi_arg rc;
+
+  /* Initialize the argument info vectors */
+  args[0] = &amp;ffi_type_pointer;
+  values[0] = &amp;s;
+
+  /* Initialize the cif */
+  if (ffi_prep_cif(&amp;cif, FFI_DEFAULT_ABI, 1,
+		       &amp;ffi_type_sint, args) == FFI_OK)
+    {
+      s = &quot;Hello World!&quot;;
+      ffi_call(&amp;cif, (void(*)())puts, &amp;rc, values);
+      /* rc now holds the result of the call to puts */
+
+      /* values holds a pointer to the function's arg, so to
+         call puts() again all we need to do is change the
+         value of s */
+      s = &quot;This is cool!&quot;;
+      ffi_call(&amp;cif, (void(*)())puts, &amp;rc, values);
+    }
+
+  return 0;
+}
+</pre></div>
+
+
+</div>
+
+
+
+</body>
+</html>

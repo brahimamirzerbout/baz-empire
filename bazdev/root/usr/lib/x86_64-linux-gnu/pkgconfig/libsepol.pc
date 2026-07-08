@@ -1,0 +1,11 @@
+prefix=/home/uzer/bazdev/root/usr
+exec_prefix=${prefix}
+libdir=/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu
+includedir=/home/uzer/bazdev/root/usr/include
+
+Name: libsepol
+Description: SELinux policy library
+Version: 3.8.1
+URL: http://userspace.selinuxproject.org/
+Libs: -L${libdir} -lsepol
+Cflags: -I${includedir}

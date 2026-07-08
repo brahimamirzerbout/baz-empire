@@ -63,6 +63,31 @@ candidate)**. Roadmap:
 6. **CSP / security** — set a real CSP allowing the Hub origin; lock capabilities
    to the remote origin; drop `csp: null`.
 
+## Scaffold status
+- **Tier 1 — DONE (code, unverified-compile):** stripped the `tauri init` template
+  (`greet` boilerplate removed); native **app menu** (BAZ app menu + Window menu,
+  Reload/Fullscreen/Quit/Minimize/Close) + **system tray** (icon, Reload/Quit,
+  left-click shows & focuses the window) wired in `src-tauri/src/lib.rs` using only
+  tauri-core APIs (no plugins) verified against tauri **2.11.5**. **CSP hardened**
+  in `tauri.conf.json` (was `null`): scoped to the prod Hub origin + Supabase +
+  Vercel, `frame-ancestors 'none'`, `object-src 'none'`. Capabilities left as-is
+  (no `remote` block → the remote Hub has NO access to `window.__TAURI__` IPC by
+  default = secure). `Cargo.toml` unchanged (menu/tray are core, no new deps).
+- **BUILD BLOCKER (env, not code):** all Tauri Linux `-dev` prereqs are missing
+  (`libwebkit2gtk-4.1-dev libgtk-3-dev librsvg2-dev libglib2.0-dev libssl-dev
+  libxdo-dev build-essential pkg-config`). Build dies at `glib-sys`/`gio-sys`/
+  `gobject-sys` (pkg-config can't find `glib-2.0`). Fix = the apt one-liner in
+  Prerequisites. `lib.rs` compile-validation is pending this install.
+- **CSP caveat:** for a remote `frontendDist` the webview loads the Hub over https
+  directly, so `app.security.csp` is **inert** for the live Hub (the Hub's own
+  Vercel CSP governs); it becomes binding only if we ever bundle the frontend.
+  `connect-src` `https://*`/`wss://*` wildcards must be tightened to the Hub's
+  real origins after a network audit pre-prod.
+- **Tier 2 — NEXT (needs compile-check):** `tauri-plugin-global-shortcut`,
+  `tauri-plugin-notification`, `tauri-plugin-updater` (signed keypair + manifest
+  host). Wire after the apt install so plugin APIs can be `cargo check`-ed against
+  downloaded sources. DevTools menu item gated behind the `devtools` cargo feature.
+
 ## Risks / assumptions
 - [fact] Prod Hub URL is `https://marketing-hub-roan.vercel.app` (yours; confirmed
   via repo homepageUrl + `.vercel` linkage + route probes). The bare

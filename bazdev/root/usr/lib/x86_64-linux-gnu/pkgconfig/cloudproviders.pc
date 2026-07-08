@@ -1,0 +1,9 @@
+prefix=/home/uzer/bazdev/root/usr
+includedir=${prefix}/include
+libdir=${prefix}/lib/x86_64-linux-gnu
+
+Name: libcloudproviders
+Description: Cloud providers DBus API library.
+Version: 0.3.6
+Libs: -L${libdir} -lcloudproviders
+Cflags: -I${includedir}/cloudproviders

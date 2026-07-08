@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<!-- Created by GNU Texinfo 7.1.1, https://www.gnu.org/software/texinfo/ -->
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!-- 
+This manual is for libffi, a portable foreign function interface
+library.
+
+Copyright © 2008-2024 Anthony Green and Red Hat, Inc.
+
+Permission is hereby granted, free of charge, to any person obtaining
+a copy of this software and associated documentation files (the
+"Software"), to deal in the Software without restriction, including
+without limitation the rights to use, copy, modify, merge, publish,
+distribute, sublicense, and/or sell copies of the Software, and to
+permit persons to whom the Software is furnished to do so, subject to
+the following conditions:
+
+The above copyright notice and this permission notice shall be
+included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
+EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
+MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
+CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
+TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
+SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ -->
+<title>Type Example (libffi: the portable foreign function interface library)</title>
+
+<meta name="description" content="Type Example (libffi: the portable foreign function interface library)">
+<meta name="keywords" content="Type Example (libffi: the portable foreign function interface library)">
+<meta name="resource-type" content="document">
+<meta name="distribution" content="global">
+<meta name="Generator" content="makeinfo">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+
+<link href="index.html" rel="start" title="Top">
+<link href="Index.html" rel="index" title="Index">
+<link href="Types.html" rel="up" title="Types">
+<link href="Complex.html" rel="next" title="Complex">
+<link href="Arrays-Unions-Enums.html" rel="prev" title="Arrays Unions Enums">
+<style type="text/css">
+<!--
+a.copiable-link {visibility: hidden; text-decoration: none; line-height: 0em}
+div.example {margin-left: 3.2em}
+span:hover a.copiable-link {visibility: visible}
+-->
+</style>
+
+
+</head>
+
+<body lang="en">
+<div class="subsection-level-extent" id="Type-Example">
+<div class="nav-panel">
+<p>
+Next: <a href="Complex.html" accesskey="n" rel="next">Complex Types</a>, Previous: <a href="Arrays-Unions-Enums.html" accesskey="p" rel="prev">Arrays, Unions, and Enumerations</a>, Up: <a href="Types.html" accesskey="u" rel="up">Types</a> &nbsp; [<a href="Index.html" title="Index" rel="index">Index</a>]</p>
+</div>
+<hr>
+<h4 class="subsection" id="Type-Example-1"><span>2.3.5 Type Example<a class="copiable-link" href="#Type-Example-1"> &para;</a></span></h4>
+
+<p>The following example initializes a <code class="code">ffi_type</code> object
+representing the <code class="code">tm</code> struct from Linux&rsquo;s <samp class="file">time.h</samp>.
+</p>
+<p>Here is how the struct is defined:
+</p>
+<div class="example">
+<pre class="example-preformatted">struct tm {
+    int tm_sec;
+    int tm_min;
+    int tm_hour;
+    int tm_mday;
+    int tm_mon;
+    int tm_year;
+    int tm_wday;
+    int tm_yday;
+    int tm_isdst;
+    /* Those are for future use. */
+    long int __tm_gmtoff__;
+    __const char *__tm_zone__;
+};
+</pre></div>
+
+<p>Here is the corresponding code to describe this struct to
+<code class="code">libffi</code>:
+</p>
+<div class="example">
+<pre class="example-preformatted">    {
+      ffi_type tm_type;
+      ffi_type *tm_type_elements[12];
+      int i;
+
+      tm_type.size = tm_type.alignment = 0;
+      tm_type.type = FFI_TYPE_STRUCT;
+      tm_type.elements = tm_type_elements;
+
+      for (i = 0; i &lt; 9; i++)
+          tm_type_elements[i] = &amp;ffi_type_sint;
+
+      tm_type_elements[9] = &amp;ffi_type_slong;
+      tm_type_elements[10] = &amp;ffi_type_pointer;
+      tm_type_elements[11] = NULL;
+
+      /* tm_type can now be used to represent tm argument types and
+	 return types for ffi_prep_cif() */
+    }
+</pre></div>
+
+</div>
+
+
+
+</body>
+</html>

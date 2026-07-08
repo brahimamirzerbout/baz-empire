@@ -1,0 +1,12 @@
+prefix=/home/uzer/bazdev/root/usr
+exec_prefix=${prefix}
+libdir=/home/uzer/bazdev/root/usr/lib
+includedir=/home/uzer/bazdev/root/usr/include
+
+Name: libselinux
+Description: SELinux utility library
+Version: 3.8.1
+URL: http://userspace.selinuxproject.org/
+Requires.private: libsepol libpcre2-8
+Libs: -L${libdir} -lselinux
+Cflags: -I${includedir}

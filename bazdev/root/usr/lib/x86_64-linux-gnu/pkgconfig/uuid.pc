@@ -1,0 +1,11 @@
+prefix=/home/uzer/bazdev/root/usr
+exec_prefix=/home/uzer/bazdev/root/usr
+libdir=/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu
+includedir=/home/uzer/bazdev/root/usr/include
+
+Name: uuid
+Description: Universally unique id library
+Version: 2.41.0
+Cflags: -I${includedir}/uuid
+Libs.private:  -lpthread
+Libs: -L${libdir} -luuid

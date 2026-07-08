@@ -1,0 +1,11 @@
+prefix=/home/uzer/bazdev/root/usr
+exec_prefix=${prefix}
+libdir=/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu
+includedir=/home/uzer/bazdev/root/usr/include
+
+Name: libayatana-ido3
+Description: Ayatana Indicator Display Objects
+Version: 0.10.4
+Libs: -L${libdir} -layatana-ido3-0.4
+Cflags: -I${includedir}/libayatana-ido3-0.4
+Requires: gtk+-3.0 glib-2.0

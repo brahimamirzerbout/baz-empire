@@ -23,7 +23,7 @@
       }
     ],
     "security": {
-      "csp": null
+      "csp": "default-src 'self'; script-src 'self' 'unsafe-inline' https://marketing-hub-roan.vercel.app; style-src 'self' 'unsafe-inline' https://marketing-hub-roan.vercel.app; img-src 'self' data: blob: https:; font-src 'self' data: https:; connect-src 'self' https://marketing-hub-roan.vercel.app https://*.vercel.app https://*.supabase.co wss://*.supabase.co; media-src 'self' https:; frame-src 'self' https:; object-src 'none'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' https://marketing-hub-roan.vercel.app"
     }
   },
   "bundle": {

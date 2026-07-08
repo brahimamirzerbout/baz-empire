@@ -1,0 +1,15 @@
+prefix=/home/uzer/bazdev/root/usr
+exec_prefix=${prefix}
+libdir=/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu
+bindir=/usr/bin
+includedir=/home/uzer/bazdev/root/usr/include
+indicatordir=/usr/lib/x86_64-linux-gnu/ayatana-indicators3/7/
+iconsdir=/usr/share/libayatana-indicator/icons/
+
+Cflags: -I${includedir}/libayatana-indicator3-0.4
+Requires: gtk+-3.0 libayatana-ido3-0.4
+Libs: -layatana-indicator3
+
+Name: libayatana-indicator3
+Description: libayatana-indicator3.
+Version: 0.9.4
