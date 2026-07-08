@@ -73,3 +73,7 @@ clone_repos.py
 demon-time.sh
 fix-boot.sh
 fix-frankendebian.sh
+.cargo/
+.gradle/
+.rustup/
+.bun/
