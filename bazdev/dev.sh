@@ -4,8 +4,5 @@ export PATH="$HOME/.local/share/fnm/node-versions/v22.23.0/installation/bin:$HOM
 export PKG_CONFIG_PATH="/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu/pkgconfig:/home/uzer/bazdev/root/usr/lib/pkgconfig:/home/uzer/bazdev/root/usr/share/pkgconfig"
 export LIBRARY_PATH="/home/uzer/bazdev/root/usr/lib/x86_64-linux-gnu:/home/uzer/bazdev/root/usr/lib"
 export C_INCLUDE_PATH="/home/uzer/bazdev/root/usr/include:/home/uzer/bazdev/root/usr/include/x86_64-linux-gnu"
-export TAURI_SIGNING_PRIVATE_KEY="$(cat /home/uzer/.tauri/baz-marketing-hub-updater.key)"
-export TAURI_SIGNING_PRIVATE_KEY_PASSWORD=""
-export TAURI_SIGNING_PRIVATE_KEY_PATH="/home/uzer/.tauri/baz-marketing-hub-updater.key"
 cd /home/uzer/empire/marketing-hub
-exec pnpm tauri build
+exec pnpm tauri dev

@@ -1,0 +1,2 @@
+
+(marketing-hub:1683140): libayatana-appindicator-WARNING **: 18:36:13.220: libayatana-appindicator is deprecated. Please use libayatana-appindicator-glib in newly written code.
