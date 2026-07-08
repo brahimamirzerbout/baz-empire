@@ -29,6 +29,14 @@ export default function PricingPage() {
             </div>
           </div>
         </div>
+
+        {/* ANDROID APP — download CTA */}
+        <a
+          href="/download"
+          className="mt-6 inline-flex items-center gap-2 px-4 py-2 rounded-full bg-slate-900 text-white text-sm font-semibold hover:bg-slate-700 transition-colors"
+        >
+          📱 Get the Android app
+        </a>
       </section>
 
       {/* TIERS — with value-stack */}

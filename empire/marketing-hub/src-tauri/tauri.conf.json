@@ -1,0 +1,40 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "BAZ Marketing Hub",
+  "version": "0.1.0",
+  "identifier": "com.baz.marketinghub",
+  "build": {
+    "beforeDevCommand": "curl -sf http://localhost:3000 >/dev/null 2>&1 || (cd /home/uzer/marketing-hub && pnpm dev)",
+    "devUrl": "http://localhost:3000",
+    "beforeBuildCommand": null,
+    "frontendDist": "https://marketing-hub-roan.vercel.app"
+  },
+  "app": {
+    "windows": [
+      {
+        "title": "BAZ Marketing Hub",
+        "width": 1440,
+        "height": 900,
+        "minWidth": 1024,
+        "minHeight": 700,
+        "resizable": true,
+        "center": true,
+        "fullscreen": false
+      }
+    ],
+    "security": {
+      "csp": null
+    }
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": [
+      "icons/32x32.png",
+      "icons/128x128.png",
+      "icons/128x128@2x.png",
+      "icons/icon.icns",
+      "icons/icon.ico"
+    ]
+  }
+}

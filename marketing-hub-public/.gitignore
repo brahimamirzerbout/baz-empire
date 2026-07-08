@@ -18,3 +18,7 @@ tsconfig.tsbuildinfo
 .vercel
 .env*
 inline
+
+# Capacitor / Android native shell (regenerated via `npx cap add android`)
+out
+android
