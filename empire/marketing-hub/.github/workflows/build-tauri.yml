@@ -1,0 +1,61 @@
+name: build-tauri
+
+on:
+  push:
+    branches: [main, build-verify]
+  pull_request:
+    branches: [main]
+
+concurrency:
+  group: build-tauri-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-linux:
+    runs-on: ubuntu-22.04
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Tauri Linux system dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y \
+            libwebkit2gtk-4.1-dev libgtk-3-dev librsvg2-dev libglib2.0-dev \
+            libssl-dev libxdo-dev libayatana-appindicator3-dev \
+            build-essential pkg-config xvfb
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          version: 9
+
+      - name: Setup Node
+        uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: pnpm
+
+      - name: Install JS dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Setup Rust
+        uses: dtolnay/rust-toolchain@stable
+
+      - name: Cache cargo
+        uses: Swatinem/rust-cache@v2
+        with:
+          workspaces: src-tauri
+
+      - name: cargo check (locked, fast smoke)
+        run: cargo check --manifest-path src-tauri/Cargo.toml --locked
+
+      - name: tauri build (release .deb)
+        run: xvfb-run -a pnpm tauri build
+
+      - name: Upload .deb artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: baz-marketing-hub-deb
+          path: src-tauri/target/release/bundle/deb/*.deb
+          if-no-files-found: error

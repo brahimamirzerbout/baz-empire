@@ -24,17 +24,17 @@ export default async function DownloadPage() {
       <div className="text-center">
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src="/brand/app-icons/android-accent-hdpi-72.svg"
+          src="/android-chrome-192x192.png"
           alt="BAZ Empire Hub app icon"
-          width={84}
-          height={84}
-          className="mx-auto rounded-2xl border border-black/10 bg-white p-2 shadow-sm"
+          width={96}
+          height={96}
+          className="mx-auto rounded-2xl border border-black/10 shadow-sm"
         />
         <h1 className="mt-5 text-3xl md:text-4xl font-black tracking-tight">
           BAZ Empire Hub
         </h1>
         <p className="mt-2 text-sm text-slate-600 dark:text-zinc-300">
-          ROI Marketing on your Android · v1.0 · ~3 MB · Requires Android 7.0+
+          ROI Marketing on your Android · v1.0 · ~7 MB · Requires Android 7.0+
         </p>
       </div>
 
