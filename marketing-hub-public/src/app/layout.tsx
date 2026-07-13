@@ -4,6 +4,7 @@ import "./globals.css";
 import "../styles/blackswan-tokens.css";
 import "../styles/aether-monochrome.css";
 import "../styles/midnight-terminal.css";
+import { Providers } from "@/components/Providers";
 
 // Minimal PUBLIC-ONLY root layout for the extracted marketing site.
 // (Drops the auth/db/scheduler/sidebar/topbar stack from the full hub layout
@@ -31,7 +32,7 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="en">
       <body className="min-h-screen bg-background-100 text-[rgb(var(--text))] antialiased">
-        {children}
+        <Providers>{children}</Providers>
       </body>
     </html>
   );
