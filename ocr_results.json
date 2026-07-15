@@ -1,0 +1,1374 @@
+{
+  "image.png": {
+    "size": "867x958",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "COMPANY",
+        "conf": 0.82
+      },
+      {
+        "text": "AcmeInc.",
+        "conf": 0.81
+      },
+      {
+        "text": "MESSAGE",
+        "conf": 0.87
+      },
+      {
+        "text": "Tell us about your goals...",
+        "conf": 0.87
+      },
+      {
+        "text": "SEnd InQuIrY -→",
+        "conf": 0.64
+      },
+      {
+        "text": "erved.",
+        "conf": 0.81
+      },
+      {
+        "text": "POWEREDBYBAZVENTURES",
+        "conf": 0.91
+      },
+      {
+        "text": "16:06",
+        "conf": 0.83
+      },
+      {
+        "text": "29°C Partly sunny",
+        "conf": 0.8
+      },
+      {
+        "text": "15/07/2026",
+        "conf": 0.85
+      }
+    ]
+  },
+  "image.webp": {
+    "size": "582x574",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "VICES",
+        "conf": 0.8
+      },
+      {
+        "text": "WORK",
+        "conf": 0.71
+      },
+      {
+        "text": "PROCESS",
+        "conf": 0.8
+      },
+      {
+        "text": "TESTIMONIALS",
+        "conf": 0.86
+      },
+      {
+        "text": "CONTACT",
+        "conf": 0.81
+      },
+      {
+        "text": "WTF",
+        "conf": 0.66
+      },
+      {
+        "text": "SER",
+        "conf": 0.59
+      },
+      {
+        "text": "LASTNAME",
+        "conf": 0.87
+      },
+      {
+        "text": "PRC",
+        "conf": 0.72
+      },
+      {
+        "text": "TES",
+        "conf": 0.75
+      },
+      {
+        "text": "SEND MESSAGE",
+        "conf": 0.86
+      },
+      {
+        "text": "BOOKAGROWTHCALL",
+        "conf": 0.9
+      },
+      {
+        "text": "CONTACT",
+        "conf": 0.8
+      },
+      {
+        "text": "c2025Bazvonture.Allrigptsroservod",
+        "conf": 0.62
+      },
+      {
+        "text": "29'CPaySurmy",
+        "conf": 0.66
+      },
+      {
+        "text": "1502",
+        "conf": 0.65
+      },
+      {
+        "text": "1/702036",
+        "conf": 0.54
+      }
+    ]
+  },
+  "image (1).png": {
+    "size": "3435x955",
+    "scale": 1,
+    "lines": [
+      {
+        "text": "SER",
+        "conf": 0.72
+      },
+      {
+        "text": "60+",
+        "conf": 0.75
+      },
+      {
+        "text": "MENA · EU.US",
+        "conf": 0.77
+      },
+      {
+        "text": "<6mo",
+        "conf": 0.72
+      },
+      {
+        "text": "BRANDS SCALED",
+        "conf": 0.88
+      },
+      {
+        "text": "SENIOR PARTNERS",
+        "conf": 0.86
+      },
+      {
+        "text": "PRC",
+        "conf": 0.74
+      },
+      {
+        "text": "OPERATING REGIONS",
+        "conf": 0.88
+      },
+      {
+        "text": "MEDIAN PAYBACK",
+        "conf": 0.86
+      },
+      {
+        "text": "TES",
+        "conf": 0.64
+      },
+      {
+        "text": "Loop",
+        "conf": 0.5
+      },
+      {
+        "text": "col",
+        "conf": 0.64
+      },
+      {
+        "text": "MARQCEE",
+        "conf": 0.74
+      },
+      {
+        "text": "NOTION",
+        "conf": 0.84
+      },
+      {
+        "text": "STRIPE",
+        "conf": 0.81
+      },
+      {
+        "text": "FIGMA",
+        "conf": 0.83
+      },
+      {
+        "text": "SLACK",
+        "conf": 0.83
+      },
+      {
+        "text": "GITHUB",
+        "conf": 0.86
+      },
+      {
+        "text": "NOTION",
+        "conf": 0.85
+      },
+      {
+        "text": "VERCEL",
+        "conf": 0.79
+      },
+      {
+        "text": "LINEAR",
+        "conf": 0.81
+      },
+      {
+        "text": "RESEND",
+        "conf": 0.8
+      },
+      {
+        "text": "CAL.COM",
+        "conf": 0.87
+      },
+      {
+        "text": "OLLAMA",
+        "conf": 0.8
+      },
+      {
+        "text": "VERCEL",
+        "conf": 0.84
+      },
+      {
+        "text": "LINEAR",
+        "conf": 0.83
+      },
+      {
+        "text": "STRIPE",
+        "conf": 0.81
+      },
+      {
+        "text": "RESEND",
+        "conf": 0.84
+      },
+      {
+        "text": "CAL.COM",
+        "conf": 0.87
+      },
+      {
+        "text": "FIGMA",
+        "conf": 0.75
+      },
+      {
+        "text": "HUB",
+        "conf": 0.74
+      },
+      {
+        "text": "SLACK",
+        "conf": 0.83
+      },
+      {
+        "text": "■WHO WE ARE",
+        "conf": 0.76
+      },
+      {
+        "text": "ONE TEAM",
+        "conf": 0.77
+      },
+      {
+        "text": "TOTALACCOUNTABILITV",
+        "conf": 0.86
+      },
+      {
+        "text": "$24M+",
+        "conf": 0.74
+      },
+      {
+        "text": "+214%",
+        "conf": 0.81
+      },
+      {
+        "text": "60+",
+        "conf": 0.71
+      },
+      {
+        "text": "94%",
+        "conf": 0.7
+      },
+      {
+        "text": "performanceweb,run ontheHub.",
+        "conf": 0.9
+      },
+      {
+        "text": "BRANDS",
+        "conf": 0.85
+      },
+      {
+        "text": "SPEND",
+        "conf": 0.82
+      },
+      {
+        "text": "AVG ORGANIC",
+        "conf": 0.86
+      },
+      {
+        "text": "RENEWAL RATE",
+        "conf": 0.89
+      },
+      {
+        "text": "Our core teamruns the stack.when specialist infrastructure is needed, webring in",
+        "conf": 0.9
+      },
+      {
+        "text": "MANAGED",
+        "conf": 0.85
+      },
+      {
+        "text": "SCALED",
+        "conf": 0.85
+      },
+      {
+        "text": "LIFT",
+        "conf": 0.78
+      }
+    ]
+  },
+  "image (1).webp": {
+    "size": "882x470",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "SIMPLE, CLEAR,",
+        "conf": 0.91
+      },
+      {
+        "text": "PERFORMANCE-BASED",
+        "conf": 0.89
+      },
+      {
+        "text": "four.",
+        "conf": 0.76
+      },
+      {
+        "text": "LAUNCHPAD",
+        "conf": 0.89
+      },
+      {
+        "text": "SCALE",
+        "conf": 0.75
+      },
+      {
+        "text": "$2,500",
+        "conf": 0.78
+      },
+      {
+        "text": "GROWTH",
+        "conf": 0.83
+      },
+      {
+        "text": "$9,500",
+        "conf": 0.85
+      },
+      {
+        "text": "$5,500",
+        "conf": 0.72
+      },
+      {
+        "text": "poemonth",
+        "conf": 0.73
+      },
+      {
+        "text": "pormonth",
+        "conf": 0.83
+      },
+      {
+        "text": "per emorths",
+        "conf": 0.65
+      },
+      {
+        "text": "Stratogy&monthlyroadmap",
+        "conf": 0.83
+      },
+      {
+        "text": "EvorythinginBrowth",
+        "conf": 0.86
+      },
+      {
+        "text": "sEofoundation&contentplan",
+        "conf": 0.87
+      },
+      {
+        "text": "Dedicatedsenicrpartrer",
+        "conf": 0.85
+      },
+      {
+        "text": "Lilecycle emcil sstup",
+        "conf": 0.7
+      },
+      {
+        "text": "Pald,sEO,sockal&emol",
+        "conf": 0.69
+      },
+      {
+        "text": "AtiM&enterpeisepipeine",
+        "conf": 0.78
+      },
+      {
+        "text": "Basicanchytics&reporting",
+        "conf": 0.8
+      },
+      {
+        "text": "CRo&creativeproduction",
+        "conf": 0.87
+      },
+      {
+        "text": "Cuslomintegrotions &stack",
+        "conf": 0.82
+      },
+      {
+        "text": "weetysync",
+        "conf": 0.76
+      },
+      {
+        "text": "Advoncedanolytics&attribution",
+        "conf": 0.78
+      },
+      {
+        "text": "Unlimitedrequets&edits",
+        "conf": 0.84
+      },
+      {
+        "text": "2weektysyncswithsiniorpartner",
+        "conf": 0.82
+      },
+      {
+        "text": "GET STARTEO",
+        "conf": 0.68
+      }
+    ]
+  },
+  "image (2).webp": {
+    "size": "910x470",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "WORK",
+        "conf": 0.78
+      },
+      {
+        "text": "TESTIMONLALS",
+        "conf": 0.8
+      },
+      {
+        "text": "DAZVENTURES",
+        "conf": 0.86
+      },
+      {
+        "text": "CONTACT",
+        "conf": 0.85
+      },
+      {
+        "text": "SER",
+        "conf": 0.74
+      },
+      {
+        "text": "L060",
+        "conf": 0.61
+      },
+      {
+        "text": "PC-GZV",
+        "conf": 0.54
+      },
+      {
+        "text": "PRC",
+        "conf": 0.64
+      },
+      {
+        "text": "SPOTSLEIT",
+        "conf": 0.62
+      },
+      {
+        "text": "TES",
+        "conf": 0.75
+      },
+      {
+        "text": "MAKEGROWTHA",
+        "conf": 0.83
+      },
+      {
+        "text": "FORECAST,NOTAHOPE.",
+        "conf": 0.89
+      },
+      {
+        "text": "Senior-onlyo-dayplans,Orpay nothingformonthfour.",
+        "conf": 0.91
+      },
+      {
+        "text": "The senioroperatorbehind6o+brandsacross MENA,Eu,and",
+        "conf": 0.9
+      },
+      {
+        "text": "US.",
+        "conf": 0.68
+      },
+      {
+        "text": "BOOKAGROWTHOALL-",
+        "conf": 0.79
+      },
+      {
+        "text": "SICHHATHC DO",
+        "conf": 0.65
+      },
+      {
+        "text": "60+",
+        "conf": 0.72
+      },
+      {
+        "text": "MENA·EU.US",
+        "conf": 0.78
+      },
+      {
+        "text": "6mo",
+        "conf": 0.73
+      },
+      {
+        "text": "IRANDS SALED",
+        "conf": 0.76
+      },
+      {
+        "text": "PRRATRO RLOIONS",
+        "conf": 0.75
+      },
+      {
+        "text": "JEOIAN PAYOAG",
+        "conf": 0.72
+      },
+      {
+        "text": "CONTACT",
+        "conf": 0.76
+      },
+      {
+        "text": "CAL.COM",
+        "conf": 0.68
+      },
+      {
+        "text": "FIGMA",
+        "conf": 0.76
+      },
+      {
+        "text": "SLACK",
+        "conf": 0.75
+      },
+      {
+        "text": "DLLAMA",
+        "conf": 0.69
+      },
+      {
+        "text": "GITHUB",
+        "conf": 0.83
+      },
+      {
+        "text": "VERCEL",
+        "conf": 0.83
+      },
+      {
+        "text": "LINEAR",
+        "conf": 0.82
+      },
+      {
+        "text": "STRIPE",
+        "conf": 0.84
+      },
+      {
+        "text": "RESEND",
+        "conf": 0.8
+      },
+      {
+        "text": "CAL.COM",
+        "conf": 0.76
+      },
+      {
+        "text": "FIGMA",
+        "conf": 0.82
+      },
+      {
+        "text": "ND",
+        "conf": 0.62
+      },
+      {
+        "text": "NOIION",
+        "conf": 0.53
+      }
+    ]
+  },
+  "image (3).webp": {
+    "size": "822x570",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "+214%",
+        "conf": 0.79
+      },
+      {
+        "text": "94%",
+        "conf": 0.59
+      },
+      {
+        "text": "AVG ORGANIC",
+        "conf": 0.85
+      },
+      {
+        "text": "RENEWAL RATE",
+        "conf": 0.85
+      },
+      {
+        "text": "LIFT",
+        "conf": 0.74
+      },
+      {
+        "text": "CONTACT",
+        "conf": 0.87
+      },
+      {
+        "text": "GH",
+        "conf": 0.66
+      }
+    ]
+  },
+  "image (4).webp": {
+    "size": "822x482",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "FIRSTNAME",
+        "conf": 0.76
+      },
+      {
+        "text": "NAME",
+        "conf": 0.8
+      },
+      {
+        "text": "John",
+        "conf": 0.77
+      },
+      {
+        "text": "YOUR",
+        "conf": 0.77
+      },
+      {
+        "text": "Doe",
+        "conf": 0.67
+      },
+      {
+        "text": "WORKEMAIL",
+        "conf": 0.87
+      },
+      {
+        "text": "ER.",
+        "conf": 0.71
+      },
+      {
+        "text": "john@company.com",
+        "conf": 0.86
+      },
+      {
+        "text": "COMPANY",
+        "conf": 0.75
+      },
+      {
+        "text": "thin24hourswithatailoredproposal",
+        "conf": 0.9
+      },
+      {
+        "text": "AcmeInc.",
+        "conf": 0.82
+      },
+      {
+        "text": "MESSAGE",
+        "conf": 0.87
+      },
+      {
+        "text": "Tellusaboutyourgoals.",
+        "conf": 0.9
+      },
+      {
+        "text": "SEND MESSAGE",
+        "conf": 0.88
+      }
+    ]
+  },
+  "image (5).webp": {
+    "size": "822x482",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "FIRSTNAME",
+        "conf": 0.8
+      },
+      {
+        "text": "NAME",
+        "conf": 0.8
+      },
+      {
+        "text": "John",
+        "conf": 0.78
+      },
+      {
+        "text": "YOUR",
+        "conf": 0.73
+      },
+      {
+        "text": "Doe",
+        "conf": 0.69
+      },
+      {
+        "text": "WORKEMAIL",
+        "conf": 0.87
+      },
+      {
+        "text": "ER.",
+        "conf": 0.73
+      },
+      {
+        "text": "john@company.com",
+        "conf": 0.86
+      },
+      {
+        "text": "COMPANY",
+        "conf": 0.75
+      },
+      {
+        "text": "thin24hourswithatailoredproposal",
+        "conf": 0.89
+      },
+      {
+        "text": "AcmeInc.",
+        "conf": 0.82
+      },
+      {
+        "text": "MESSAGE",
+        "conf": 0.87
+      },
+      {
+        "text": "Tellusaboutyourgoals.",
+        "conf": 0.89
+      },
+      {
+        "text": "SEND MESSAGE",
+        "conf": 0.86
+      },
+      {
+        "text": "resizR :Mone",
+        "conf": 0.66
+      }
+    ]
+  },
+  "image (6).webp": {
+    "size": "407x574",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "ONTACT",
+        "conf": 0.83
+      },
+      {
+        "text": "INQUIRY",
+        "conf": 0.87
+      },
+      {
+        "text": "We reply within 24 hours",
+        "conf": 0.88
+      },
+      {
+        "text": "FIRST NAME",
+        "conf": 0.71
+      },
+      {
+        "text": "John",
+        "conf": 0.79
+      },
+      {
+        "text": "LASTNAME",
+        "conf": 0.85
+      },
+      {
+        "text": "Doe",
+        "conf": 0.53
+      },
+      {
+        "text": "WORKEMAIL",
+        "conf": 0.87
+      },
+      {
+        "text": "johngcompany.com",
+        "conf": 0.89
+      },
+      {
+        "text": "COMPANY",
+        "conf": 0.87
+      },
+      {
+        "text": "Acme inc.",
+        "conf": 0.81
+      },
+      {
+        "text": "MESSAGE",
+        "conf": 0.85
+      },
+      {
+        "text": "Tellus about yourgoals..",
+        "conf": 0.87
+      },
+      {
+        "text": "SEND INOUIRY-",
+        "conf": 0.84
+      }
+    ]
+  },
+  "image (7).webp": {
+    "size": "1318x300",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "PUBLICRELATIONS&EARNEDMEDLA",
+        "conf": 0.89
+      },
+      {
+        "text": "MARKETRESEARCH&CATEGORYDESIGN",
+        "conf": 0.9
+      },
+      {
+        "text": "INTERNATIONALIZATION&MARKETENTRY",
+        "conf": 0.89
+      },
+      {
+        "text": "Eomedrmedigthatshaposcobngorynamotivie420+tige-!",
+        "conf": 0.76
+      },
+      {
+        "text": "Deciskorsboclood by ewdncenctopleloes.12D+studes",
+        "conf": 0.73
+      },
+      {
+        "text": "pioofments,doeroincuherity7a",
+        "conf": 0.57
+      },
+      {
+        "text": "LE00reripofders,34mareets",
+        "conf": 0.62
+      },
+      {
+        "text": "mareets,<Emotosoctiont",
+        "conf": 0.63
+      },
+      {
+        "text": "$24M+",
+        "conf": 0.74
+      },
+      {
+        "text": "340+",
+        "conf": 0.76
+      },
+      {
+        "text": "+214%",
+        "conf": 0.78
+      },
+      {
+        "text": "94%",
+        "conf": 0.74
+      },
+      {
+        "text": "TO9-3RANONOS",
+        "conf": 0.66
+      },
+      {
+        "text": "ADSPSNDMANROID",
+        "conf": 0.78
+      },
+      {
+        "text": "AVOOROANICLST",
+        "conf": 0.77
+      },
+      {
+        "text": "CLIESTRENEWA",
+        "conf": 0.79
+      },
+      {
+        "text": "ACROSSPAOGOROANIC",
+        "conf": 0.72
+      },
+      {
+        "text": "YEAR-OVER-YEAR",
+        "conf": 0.83
+      },
+      {
+        "text": "BUILT ON",
+        "conf": 0.83
+      },
+      {
+        "text": "FOURPILLARS",
+        "conf": 0.83
+      }
+    ]
+  },
+  "image (8).webp": {
+    "size": "1205x470",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "FIRSY NAME",
+        "conf": 0.77
+      },
+      {
+        "text": "CONVERSATION",
+        "conf": 0.87
+      },
+      {
+        "text": "LASY NAME",
+        "conf": 0.85
+      },
+      {
+        "text": "Jon",
+        "conf": 0.69
+      },
+      {
+        "text": "Doo",
+        "conf": 0.54
+      },
+      {
+        "text": "LET US BUILD",
+        "conf": 0.82
+      },
+      {
+        "text": "WORKEMAIL",
+        "conf": 0.86
+      },
+      {
+        "text": "YOUR",
+        "conf": 0.8
+      },
+      {
+        "text": "john@company.com",
+        "conf": 0.79
+      },
+      {
+        "text": "COMPANY",
+        "conf": 0.87
+      },
+      {
+        "text": "NEXTCHAPTER",
+        "conf": 0.88
+      },
+      {
+        "text": "AcmeInc.",
+        "conf": 0.76
+      },
+      {
+        "text": "MESSAGE",
+        "conf": 0.85
+      },
+      {
+        "text": "Tell uswhat you areworkingon.Wereply within24hours",
+        "conf": 0.87
+      },
+      {
+        "text": "Tellus about yourgoals.",
+        "conf": 0.86
+      },
+      {
+        "text": "ghosting",
+        "conf": 0.81
+      },
+      {
+        "text": "Email",
+        "conf": 0.81
+      },
+      {
+        "text": "zerboutbrahimamir@gmail.com",
+        "conf": 0.89
+      },
+      {
+        "text": "Phone",
+        "conf": 0.83
+      },
+      {
+        "text": "+1 (216)555-1234",
+        "conf": 0.8
+      },
+      {
+        "text": "Address",
+        "conf": 0.87
+      },
+      {
+        "text": "120gMountainRoadPIN",
+        "conf": 0.81
+      },
+      {
+        "text": "Garrettsville,OH44231",
+        "conf": 0.93
+      },
+      {
+        "text": "SEND MESSAGE",
+        "conf": 0.81
+      }
+    ]
+  },
+  "image (9).webp": {
+    "size": "1205x470",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "FIRSY NAME",
+        "conf": 0.77
+      },
+      {
+        "text": "CONVERSATION",
+        "conf": 0.87
+      },
+      {
+        "text": "LASY NAME",
+        "conf": 0.85
+      },
+      {
+        "text": "Jon",
+        "conf": 0.69
+      },
+      {
+        "text": "Doo",
+        "conf": 0.54
+      },
+      {
+        "text": "LET US BUILD",
+        "conf": 0.82
+      },
+      {
+        "text": "WORKEMAIL",
+        "conf": 0.86
+      },
+      {
+        "text": "YOUR",
+        "conf": 0.8
+      },
+      {
+        "text": "john@company.com",
+        "conf": 0.79
+      },
+      {
+        "text": "COMPANY",
+        "conf": 0.87
+      },
+      {
+        "text": "NEXTCHAPTER",
+        "conf": 0.88
+      },
+      {
+        "text": "AcmeInc.",
+        "conf": 0.76
+      },
+      {
+        "text": "MESSAGE",
+        "conf": 0.85
+      },
+      {
+        "text": "Tell uswhat you areworkingon.Wereply within24hours",
+        "conf": 0.87
+      },
+      {
+        "text": "Tellus about yourgoals.",
+        "conf": 0.86
+      },
+      {
+        "text": "ghosting",
+        "conf": 0.81
+      },
+      {
+        "text": "Email",
+        "conf": 0.81
+      },
+      {
+        "text": "zerboutbrahimamir@gmail.com",
+        "conf": 0.89
+      },
+      {
+        "text": "Phone",
+        "conf": 0.83
+      },
+      {
+        "text": "+1 (216)555-1234",
+        "conf": 0.8
+      },
+      {
+        "text": "Address",
+        "conf": 0.87
+      },
+      {
+        "text": "120gMountainRoadPIN",
+        "conf": 0.81
+      },
+      {
+        "text": "Garrettsville,OH44231",
+        "conf": 0.93
+      },
+      {
+        "text": "SEND MESSAGE",
+        "conf": 0.81
+      }
+    ]
+  },
+  "image (10).webp": {
+    "size": "1205x470",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "FIRSY NAME",
+        "conf": 0.77
+      },
+      {
+        "text": "CONVERSATION",
+        "conf": 0.87
+      },
+      {
+        "text": "LASY NAME",
+        "conf": 0.85
+      },
+      {
+        "text": "Jon",
+        "conf": 0.69
+      },
+      {
+        "text": "Doo",
+        "conf": 0.54
+      },
+      {
+        "text": "LET US BUILD",
+        "conf": 0.82
+      },
+      {
+        "text": "WORKEMAIL",
+        "conf": 0.86
+      },
+      {
+        "text": "YOUR",
+        "conf": 0.8
+      },
+      {
+        "text": "john@company.com",
+        "conf": 0.79
+      },
+      {
+        "text": "COMPANY",
+        "conf": 0.87
+      },
+      {
+        "text": "NEXTCHAPTER",
+        "conf": 0.88
+      },
+      {
+        "text": "AcmeInc.",
+        "conf": 0.76
+      },
+      {
+        "text": "MESSAGE",
+        "conf": 0.85
+      },
+      {
+        "text": "Tell uswhat you areworkingon.Wereply within24hours",
+        "conf": 0.87
+      },
+      {
+        "text": "Tellus about yourgoals.",
+        "conf": 0.86
+      },
+      {
+        "text": "ghosting",
+        "conf": 0.81
+      },
+      {
+        "text": "Email",
+        "conf": 0.81
+      },
+      {
+        "text": "zerboutbrahimamir@gmail.com",
+        "conf": 0.89
+      },
+      {
+        "text": "Phone",
+        "conf": 0.83
+      },
+      {
+        "text": "+1 (216)555-1234",
+        "conf": 0.8
+      },
+      {
+        "text": "Address",
+        "conf": 0.87
+      },
+      {
+        "text": "120gMountainRoadPIN",
+        "conf": 0.81
+      },
+      {
+        "text": "Garrettsville,OH44231",
+        "conf": 0.93
+      },
+      {
+        "text": "SEND MESSAGE",
+        "conf": 0.81
+      }
+    ]
+  },
+  "image (11).webp": {
+    "size": "950x470",
+    "scale": 2,
+    "lines": [
+      {
+        "text": "MoflatStado Conoatat:",
+        "conf": 0.63
+      },
+      {
+        "text": "1209Meentalnfoad PINC",
+        "conf": 0.65
+      },
+      {
+        "text": "1209Mcurtaln foadPIN",
+        "conf": 0.65
+      },
+      {
+        "text": "Webaralytici-fortco",
+        "conf": 0.71
+      },
+      {
+        "text": "beahirramiraerbout",
+        "conf": 0.71
+      },
+      {
+        "text": "ORTHER-",
+        "conf": 0.62
+      },
+      {
+        "text": "McHatSoudo-",
+        "conf": 0.67
+      },
+      {
+        "text": "Araytica|Hore",
+        "conf": 0.76
+      },
+      {
+        "text": "Mececchrcee",
+        "conf": 0.73
+      },
+      {
+        "text": "Cenign&",
+        "conf": 0.71
+      },
+      {
+        "text": "Cewha",
+        "conf": 0.55
+      },
+      {
+        "text": "Orike",
+        "conf": 0.5
+      },
+      {
+        "text": "Cugss/snde/Dowiaydbxenturess20zahtmlecontact",
+        "conf": 0.62
+      },
+      {
+        "text": "WORK",
+        "conf": 0.68
+      },
+      {
+        "text": "SERVICES",
+        "conf": 0.81
+      },
+      {
+        "text": "PROCESS",
+        "conf": 0.77
+      },
+      {
+        "text": "TESTIMONIALS",
+        "conf": 0.79
+      },
+      {
+        "text": "BAZVENTURES",
+        "conf": 0.89
+      },
+      {
+        "text": "CONTACT",
+        "conf": 0.87
+      },
+      {
+        "text": "FULLINTEGRA",
+        "conf": 0.88
+      },
+      {
+        "text": "SER",
+        "conf": 0.72
+      },
+      {
+        "text": "Cnosysem.nomony.strotegy.arootwe,po",
+        "conf": 0.66
+      },
+      {
+        "text": "RADICALTRANSPARENCY",
+        "conf": 0.83
+      },
+      {
+        "text": "PRO",
+        "conf": 0.63
+      },
+      {
+        "text": "Eerymetric,docision,ondupdoteisvieibio.Trustisbuitinthoopon",
+        "conf": 0.74
+      },
+      {
+        "text": "TES",
+        "conf": 0.67
+      },
+      {
+        "text": "CONTINUOUSIMPROVEMENT",
+        "conf": 0.89
+      },
+      {
+        "text": "592",
+        "conf": 0.58
+      },
+      {
+        "text": "TEHONIALS",
+        "conf": 0.65
+      },
+      {
+        "text": "TRUSTED BY",
+        "conf": 0.81
+      },
+      {
+        "text": "OPERATORS",
+        "conf": 0.84
+      },
+      {
+        "text": "TheydonorNartarus.Theyrouswhatnopdls",
+        "conf": 0.8
+      },
+      {
+        "text": "'BAZwonturosraplaced thopagonalosandstw",
+        "conf": 0.73
+      },
+      {
+        "text": "faaingandthonfirOurpipalingdoublodinsix",
+        "conf": 0.79
+      },
+      {
+        "text": "dalivaredbetternumbarsOneteam,onevipw",
+        "conf": 0.76
+      },
+      {
+        "text": "accurate,hanest, andactianablo.Wefinalytrusr",
+        "conf": 0.8
+      },
+      {
+        "text": "months.",
+        "conf": 0.78
+      },
+      {
+        "text": "owrdata'",
+        "conf": 0.65
+      },
+      {
+        "text": "SARAHM,-VPGIOWThZeooPsy",
+        "conf": 0.74
+      },
+      {
+        "text": "YOUSSEFA,-CEO,Zeochan",
+        "conf": 0.77
+      },
+      {
+        "text": "DAVIDL-CMO,Zeedgop",
+        "conf": 0.68
+      }
+    ]
+  }
+}

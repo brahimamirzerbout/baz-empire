@@ -1,0 +1,620 @@
+{
+  "image.png": {
+    "size": "867x958",
+    "ink_ratio": 0.1004,
+    "ink_color": [
+      131,
+      38,
+      18
+    ],
+    "n_clusters": 5,
+    "cluster_texts": [
+      {
+        "box": [
+          268,
+          268,
+          532,
+          352
+        ],
+        "text": "Send inquiry →"
+      }
+    ]
+  },
+  "image.webp": {
+    "size": "582x574",
+    "ink_ratio": 0.1658,
+    "ink_color": [
+      239,
+      84,
+      41
+    ],
+    "n_clusters": 4,
+    "cluster_texts": [
+      {
+        "box": [
+          0,
+          268,
+          264,
+          332
+        ],
+        "text": "SEND MESSAGE"
+      },
+      {
+        "box": [
+          0,
+          368,
+          582,
+          512
+        ],
+        "text": "BOOKAGROWTHCALL- | CONTAC"
+      },
+      {
+        "box": [
+          388,
+          548,
+          452,
+          574
+        ],
+        "text": "= 29°C Po"
+      }
+    ]
+  },
+  "image (1).png": {
+    "size": "3435x955",
+    "ink_ratio": 0.0181,
+    "ink_color": [
+      235,
+      31,
+      15
+    ],
+    "n_clusters": 14,
+    "cluster_texts": [
+      {
+        "box": [
+          948,
+          228,
+          1652,
+          372
+        ],
+        "text": "TAR"
+      },
+      {
+        "box": [
+          968,
+          628,
+          1132,
+          672
+        ],
+        "text": "WE | ARE"
+      },
+      {
+        "box": [
+          968,
+          728,
+          1692,
+          812
+        ],
+        "text": "TOTAL ACCOUNTABILITY."
+      },
+      {
+        "box": [
+          1108,
+          128,
+          1252,
+          192
+        ],
+        "text": "BRANDS SCALED"
+      },
+      {
+        "box": [
+          1268,
+          128,
+          1432,
+          192
+        ],
+        "text": "OPERATING REGIONS"
+      },
+      {
+        "box": [
+          1508,
+          128,
+          1812,
+          192
+        ],
+        "text": "SENIOR PARTNERS | MEDIAN PAYBACK"
+      },
+      {
+        "box": [
+          1788,
+          848,
+          1872,
+          912
+        ],
+        "text": "60+"
+      },
+      {
+        "box": [
+          1928,
+          848,
+          2072,
+          932
+        ],
+        "text": "$24M+ | SPEND"
+      },
+      {
+        "box": [
+          2108,
+          848,
+          2252,
+          912
+        ],
+        "text": "+214%"
+      },
+      {
+        "box": [
+          2288,
+          848,
+          2412,
+          912
+        ],
+        "text": "94%"
+      }
+    ]
+  },
+  "image (1).webp": {
+    "size": "882x470",
+    "ink_ratio": 0.0251,
+    "ink_color": [
+      217,
+      79,
+      44
+    ],
+    "n_clusters": 8,
+    "cluster_texts": [
+      {
+        "box": [
+          88,
+          148,
+          192,
+          212
+        ],
+        "text": "LAUNCHPAD | $2,500 | Pormonth"
+      },
+      {
+        "box": [
+          248,
+          28,
+          592,
+          92
+        ],
+        "text": "SIMPLE | LEAR | MANCE- | PERF | ORM | BASED | StartwithaSo-dayplanIfwedonotdelhor.youdonotpaymonth"
+      },
+      {
+        "box": [
+          308,
+          128,
+          412,
+          232
+        ],
+        "text": "XOSTPOPILAR | GROWTH | $5,500 | peremorth"
+      },
+      {
+        "box": [
+          308,
+          308,
+          552,
+          432
+        ],
+        "text": "GETSTARTED"
+      },
+      {
+        "box": [
+          528,
+          148,
+          632,
+          212
+        ],
+        "text": "SCALE | $9,500 | pormonth"
+      }
+    ]
+  },
+  "image (2).webp": {
+    "size": "910x470",
+    "ink_ratio": 0.0105,
+    "ink_color": [
+      211,
+      53,
+      35
+    ],
+    "n_clusters": 4,
+    "cluster_texts": [
+      {
+        "box": [
+          28,
+          8,
+          572,
+          132
+        ],
+        "text": "WORK | SERVICES | PROCLES | BAZVENTURES | 1911 | L06C | PC-GZmD"
+      },
+      {
+        "box": [
+          88,
+          248,
+          232,
+          312
+        ],
+        "text": "IOOEAOROWTHOALE"
+      }
+    ]
+  },
+  "image (3).webp": {
+    "size": "822x570",
+    "ink_ratio": 0.0043,
+    "ink_color": [
+      215,
+      46,
+      25
+    ],
+    "n_clusters": 4,
+    "cluster_texts": [
+      {
+        "box": [
+          28,
+          148,
+          152,
+          212
+        ],
+        "text": "+214% | AVG ORGANIC"
+      },
+      {
+        "box": [
+          188,
+          148,
+          272,
+          212
+        ],
+        "text": "94% | RENEWAL RATE"
+      }
+    ]
+  },
+  "image (4).webp": {
+    "size": "822x482",
+    "ink_ratio": 0.1121,
+    "ink_color": [
+      238,
+      83,
+      41
+    ],
+    "n_clusters": 4,
+    "cluster_texts": [
+      {
+        "box": [
+          0,
+          148,
+          84,
+          212
+        ],
+        "text": "ER."
+      },
+      {
+        "box": [
+          228,
+          308,
+          652,
+          372
+        ],
+        "text": "SEND MESSAGE"
+      },
+      {
+        "box": [
+          288,
+          8,
+          492,
+          132
+        ],
+        "text": "NAME"
+      }
+    ]
+  },
+  "image (5).webp": {
+    "size": "822x482",
+    "ink_ratio": 0.1178,
+    "ink_color": [
+      238,
+      79,
+      39
+    ],
+    "n_clusters": 3,
+    "cluster_texts": [
+      {
+        "box": [
+          0,
+          148,
+          84,
+          212
+        ],
+        "text": "ER."
+      },
+      {
+        "box": [
+          0,
+          308,
+          822,
+          482
+        ],
+        "text": "SEND MESSAGE | resiz : Mone"
+      },
+      {
+        "box": [
+          288,
+          8,
+          492,
+          132
+        ],
+        "text": "NAME"
+      }
+    ]
+  },
+  "image (6).webp": {
+    "size": "407x574",
+    "ink_ratio": 0.0806,
+    "ink_color": [
+      129,
+      36,
+      18
+    ],
+    "n_clusters": 4,
+    "cluster_texts": [
+      {
+        "box": [
+          128,
+          288,
+          272,
+          352
+        ],
+        "text": "SEND INOUIRY"
+      },
+      {
+        "box": [
+          188,
+          308,
+          407,
+          512
+        ],
+        "text": "INOUIRY-"
+      }
+    ]
+  },
+  "image (7).webp": {
+    "size": "1318x300",
+    "ink_ratio": 0.0102,
+    "ink_color": [
+      208,
+      35,
+      19
+    ],
+    "n_clusters": 6,
+    "cluster_texts": [
+      {
+        "box": [
+          128,
+          88,
+          192,
+          132
+        ],
+        "text": "$24M+ | DSIHO UA"
+      },
+      {
+        "box": [
+          448,
+          88,
+          532,
+          132
+        ],
+        "text": "340+ | RANDNOS"
+      },
+      {
+        "box": [
+          548,
+          188,
+          752,
+          292
+        ],
+        "text": "BUILT ON | FOURPILLARS"
+      },
+      {
+        "box": [
+          788,
+          88,
+          852,
+          132
+        ],
+        "text": "+214% | G OKORNICL"
+      },
+      {
+        "box": [
+          1108,
+          88,
+          1192,
+          132
+        ],
+        "text": "94%"
+      }
+    ]
+  },
+  "image (8).webp": {
+    "size": "1205x470",
+    "ink_ratio": 0.0356,
+    "ink_color": [
+      230,
+      54,
+      27
+    ],
+    "n_clusters": 4,
+    "cluster_texts": [
+      {
+        "box": [
+          148,
+          8,
+          292,
+          52
+        ],
+        "text": "STARY | CONVERSATION"
+      },
+      {
+        "box": [
+          148,
+          88,
+          412,
+          152
+        ],
+        "text": "UR | NEXT CHAPTER."
+      },
+      {
+        "box": [
+          428,
+          188,
+          1205,
+          452
+        ],
+        "text": "SEND HESSAGE"
+      }
+    ]
+  },
+  "image (9).webp": {
+    "size": "1205x470",
+    "ink_ratio": 0.0356,
+    "ink_color": [
+      230,
+      54,
+      27
+    ],
+    "n_clusters": 4,
+    "cluster_texts": [
+      {
+        "box": [
+          148,
+          8,
+          292,
+          52
+        ],
+        "text": "STARY | CONVERSATION"
+      },
+      {
+        "box": [
+          148,
+          88,
+          412,
+          152
+        ],
+        "text": "UR | NEXT CHAPTER."
+      },
+      {
+        "box": [
+          428,
+          188,
+          1205,
+          452
+        ],
+        "text": "SEND HESSAGE"
+      }
+    ]
+  },
+  "image (10).webp": {
+    "size": "1205x470",
+    "ink_ratio": 0.0356,
+    "ink_color": [
+      230,
+      54,
+      27
+    ],
+    "n_clusters": 4,
+    "cluster_texts": [
+      {
+        "box": [
+          148,
+          8,
+          292,
+          52
+        ],
+        "text": "STARY | CONVERSATION"
+      },
+      {
+        "box": [
+          148,
+          88,
+          412,
+          152
+        ],
+        "text": "UR | NEXT CHAPTER."
+      },
+      {
+        "box": [
+          428,
+          188,
+          1205,
+          452
+        ],
+        "text": "SEND HESSAGE"
+      }
+    ]
+  },
+  "image (11).webp": {
+    "size": "950x470",
+    "ink_ratio": 0.0178,
+    "ink_color": [
+      209,
+      25,
+      18
+    ],
+    "n_clusters": 7,
+    "cluster_texts": [
+      {
+        "box": [
+          28,
+          0,
+          292,
+          84
+        ],
+        "text": "Webaralytici-fontco | Araytica|Hse | ViolatsdoComoHats | nkCuoss/ade/Donia/hventuress202htmlecontact | BAZVENTURES"
+      },
+      {
+        "box": [
+          388,
+          48,
+          932,
+          392
+        ],
+        "text": "FULLINTEGRA | Cnosyoremnotmony.Stroieg | RADICALTRANSPARENCY | Evrymetidocisioncndupdoteisvieiblo.Trustisbuitinthocpon | CONTINUOUSIMPROVEMENT | 592 | TRUSTEDBY | OPERATORS"
+      },
+      {
+        "box": [
+          488,
+          0,
+          572,
+          44
+        ],
+        "text": "TavoMcetaioadPN"
+      },
+      {
+        "box": [
+          708,
+          0,
+          752,
+          44
+        ],
+        "text": "-Merechrcee"
+      },
+      {
+        "box": [
+          768,
+          0,
+          832,
+          44
+        ],
+        "text": "McHatudo-Ce"
+      }
+    ]
+  }
+}
