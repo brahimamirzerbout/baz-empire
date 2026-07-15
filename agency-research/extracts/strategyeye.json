@@ -1,0 +1,32 @@
+{
+  "source_id": "strategyeye",
+  "agencies": [
+    {"name": "Merkle", "category": "network", "hq": "Columbia, MD, USA", "country": "USA", "website": "https://merkleinc.com", "rank": 1, "rating": 4.7,
+     "services": ["Performance Marketing", "Data & CRM", "SEO", "Paid Media", "Analytics"], "industries": ["Enterprise", "Retail", "Financial Services", "Technology"],
+     "has_proprietary_tools": true, "proprietary_tools": ["Merkle technology stack (Dentsu)"],
+     "description": "Data-driven performance/CRM agency, part of Dentsu."},
+    {"name": "Accenture Interactive", "category": "network", "hq": "Global", "country": "Global", "website": "https://www.accenture.com", "rank": 2, "rating": 4.6,
+     "services": ["Performance Marketing", "Experience/Commerce", "Creative", "Data"],
+     "description": "Accenture's experience/performance arm (rebranded to Accenture Song)."},
+    {"name": "3Q Digital", "category": "network", "hq": "USA", "country": "USA", "website": "https://3qdigital.com", "rank": 3, "rating": 4.5,
+     "services": ["Performance Marketing", "Paid Media", "SEO", "Analytics"], "description": "Performance marketing arm of DEPT."},
+    {"name": "Tinuiti", "category": "independent", "hq": "New York, NY, USA", "country": "USA", "rank": 4, "rating": 4.5,
+     "has_proprietary_tools": true, "proprietary_tools": ["Mobius"], "description": "Largest independent performance agency; Mobius platform."},
+    {"name": "Performics", "category": "network", "hq": "Chicago, IL, USA", "country": "USA", "rank": 5, "rating": 4.6,
+     "has_proprietary_tools": true, "proprietary_tools": ["Apollo", "HVT"], "description": "Performance/commerce agency within Publicis Groupe."},
+    {"name": "Wpromote", "category": "independent", "hq": "El Segundo, CA, USA", "country": "USA", "rank": 6, "rating": 4.4,
+     "has_proprietary_tools": true, "proprietary_tools": ["(proprietary cross-channel tech)"], "description": "Largest independent performance agency in the US."},
+    {"name": "Metric Theory", "category": "independent", "hq": "San Mateo, CA, USA", "country": "USA", "rank": 7, "rating": 4.5,
+     "services": ["Paid Search", "Paid Social", "Amazon", "Analytics"], "description": "Tech-focused performance agency (Nextroll)."},
+    {"name": "iProspect", "category": "network", "hq": "Boston, MA, USA", "country": "USA", "rank": 8, "rating": 4.3,
+     "description": "Global performance agency within Dentsu."},
+    {"name": "Brainlabs", "category": "independent", "hq": "London, UK", "country": "UK", "rank": 9, "rating": 4.6,
+     "has_proprietary_tools": true, "proprietary_tools": ["Brainlabs (proprietary media automation)"], "description": "Global digital media agency; data science & automation."},
+    {"name": "Adlucent", "category": "independent", "hq": "USA", "country": "USA", "website": "https://adlucent.com", "rank": 10, "rating": 4.5,
+     "services": ["Performance Marketing", "Paid Search", "Paid Social", "Display", "CRO"], "description": "Performance marketing agency (part of Epsilon/Publicis)."},
+    {"name": "PMG", "category": "independent", "hq": "USA", "country": "USA", "website": "https://pmgi.com", "rank": 11, "rating": 4.4,
+     "services": ["Full-service Digital", "Performance Media", "Creative", "Analytics"], "description": "Independent full-service digital agency."},
+    {"name": "Resolution Media", "category": "network", "hq": "USA", "country": "USA", "website": "https://resolutionmedia.com", "rank": 12, "rating": 4.3,
+     "services": ["Performance Media", "Paid Search", "Paid Social", "Programmatic"], "description": "Performance media arm of OMG (Omnicom Media Group)."}
+  ]
+}

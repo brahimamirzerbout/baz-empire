@@ -1,0 +1,549 @@
+{
+  "generatedAt": "2026-07-15T11:58:33.203Z",
+  "engine": "BAZ Signal Engine v1 (Alpha layer)",
+  "database": "/home/uzer/marketing-hub/data/hub.sqlite",
+  "data": {
+    "contacts": 160,
+    "deals": 55,
+    "wonDeals": 5,
+    "campaigns": 24,
+    "ads": 6,
+    "competitors": 10
+  },
+  "predictiveScoring": {
+    "avgScore": 34,
+    "hotLeads": 2,
+    "topLeads": [
+      {
+        "id": "c_154g1icgmqzbt27k",
+        "name": "Priya Kim",
+        "email": "priya.kim@example.com",
+        "company": "Pied Piper",
+        "score": 78,
+        "priorScore": 16,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:customer",
+            22
+          ],
+          [
+            "source:event",
+            8
+          ],
+          [
+            "recency",
+            8
+          ],
+          [
+            "tags:1",
+            2
+          ],
+          [
+            "open deal 30882$ (100%)",
+            35
+          ],
+          [
+            "prior hub score 16",
+            -3
+          ]
+        ]
+      },
+      {
+        "id": "c_6sbobw8bmqzbt27u",
+        "name": "James Singh",
+        "email": "james.singh@example.com",
+        "company": "Pied Piper",
+        "score": 76,
+        "priorScore": 68,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:customer",
+            22
+          ],
+          [
+            "source:referral",
+            14
+          ],
+          [
+            "tags:1",
+            2
+          ],
+          [
+            "open deal 35093$ (80%)",
+            30
+          ],
+          [
+            "prior hub score 68",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "c_w54v99xvmqzbt27t",
+        "name": "Priya Brown",
+        "email": "priya.brown@example.com",
+        "company": "Hooli",
+        "score": 69,
+        "priorScore": 68,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:customer",
+            22
+          ],
+          [
+            "source:paid",
+            6
+          ],
+          [
+            "tags:2",
+            4
+          ],
+          [
+            "open deal 9821$ (76%)",
+            29
+          ],
+          [
+            "prior hub score 68",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "c_o8uergbmmqzbt27s",
+        "name": "Mike Garcia",
+        "email": "mike.garcia@example.com",
+        "company": "Acme Corp",
+        "score": 65,
+        "priorScore": 70,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:lead",
+            12
+          ],
+          [
+            "source:event",
+            8
+          ],
+          [
+            "tags:1",
+            2
+          ],
+          [
+            "open deal 26691$ (100%)",
+            35
+          ],
+          [
+            "prior hub score 70",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "c_fzl0cl6wmqzbt27h",
+        "name": "Sarah Chen",
+        "email": "sarah.chen@example.com",
+        "company": "Acme Corp",
+        "score": 63,
+        "priorScore": 65,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:customer",
+            22
+          ],
+          [
+            "source:organic",
+            9
+          ],
+          [
+            "tags:1",
+            2
+          ],
+          [
+            "open deal 35015$ (47%)",
+            22
+          ],
+          [
+            "prior hub score 65",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "c_dvvsvhw6mqzbt27s",
+        "name": "Elena Patel",
+        "email": "elena.patel@example.com",
+        "company": "Globex Inc",
+        "score": 63,
+        "priorScore": 69,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:customer",
+            22
+          ],
+          [
+            "source:cold",
+            4
+          ],
+          [
+            "tags:2",
+            4
+          ],
+          [
+            "open deal 45274$ (60%)",
+            25
+          ],
+          [
+            "prior hub score 69",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "c_dpn60585mqzbt27u",
+        "name": "Ahmed Tanaka",
+        "email": "ahmed.tanaka@example.com",
+        "company": "Wayne Enterprises",
+        "score": 63,
+        "priorScore": 65,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:prospect",
+            10
+          ],
+          [
+            "source:event",
+            8
+          ],
+          [
+            "tags:1",
+            2
+          ],
+          [
+            "open deal 8193$ (100%)",
+            35
+          ],
+          [
+            "prior hub score 65",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "c_tj61kjq1mqzbt27o",
+        "name": "Lisa Tanaka",
+        "email": "lisa.tanaka@example.com",
+        "company": "Acme Corp",
+        "score": 61,
+        "priorScore": 68,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:lead",
+            12
+          ],
+          [
+            "source:referral",
+            14
+          ],
+          [
+            "tags:1",
+            2
+          ],
+          [
+            "open deal 9110$ (61%)",
+            25
+          ],
+          [
+            "prior hub score 68",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "c_7rcyc4uzmqzbt27p",
+        "name": "Marcus Silva",
+        "email": "marcus.silva@example.com",
+        "company": "Globex Inc",
+        "score": 61,
+        "priorScore": 69,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 10%",
+            -12
+          ],
+          [
+            "status:customer",
+            22
+          ],
+          [
+            "source:social",
+            4
+          ],
+          [
+            "tags:2",
+            4
+          ],
+          [
+            "open deal 2029$ (53%)",
+            23
+          ],
+          [
+            "prior hub score 69",
+            2
+          ]
+        ]
+      },
+      {
+        "id": "c_seed05",
+        "name": "Priya Nair",
+        "email": "priya@datakind.com",
+        "company": "DataKind",
+        "score": 61,
+        "priorScore": 0,
+        "reasons": [
+          [
+            "baseline",
+            18
+          ],
+          [
+            "sentiment 90%",
+            12
+          ],
+          [
+            "status:customer",
+            22
+          ],
+          [
+            "source:referral",
+            14
+          ],
+          [
+            "prior hub score 0",
+            -5
+          ]
+        ]
+      }
+    ]
+  },
+  "attribution": {
+    "totalWon": 161277,
+    "totalSpent": 61713,
+    "blendedRoas": 2.61,
+    "channels": [
+      {
+        "channel": "linkedin_ads",
+        "spent": 3233.8281668454993,
+        "impressions": 431845,
+        "clicks": 4011,
+        "conversions": 385,
+        "convShare": 0.422,
+        "modeledRevenue": 68008,
+        "roas": 21.03,
+        "cpa": 8.4,
+        "ctr": 0.93
+      },
+      {
+        "channel": "tiktok_ads",
+        "spent": 2466.433026941546,
+        "impressions": 265705,
+        "clicks": 5451,
+        "conversions": 217,
+        "convShare": 0.238,
+        "modeledRevenue": 38332,
+        "roas": 15.54,
+        "cpa": 11.37,
+        "ctr": 2.05
+      },
+      {
+        "channel": "google_ads",
+        "spent": 8325.887396597835,
+        "impressions": 349471,
+        "clicks": 4672,
+        "conversions": 163,
+        "convShare": 0.179,
+        "modeledRevenue": 28793,
+        "roas": 3.46,
+        "cpa": 51.08,
+        "ctr": 1.34
+      },
+      {
+        "channel": "meta_ads",
+        "spent": 6886.815737496276,
+        "impressions": 237276,
+        "clicks": 2181,
+        "conversions": 148,
+        "convShare": 0.162,
+        "modeledRevenue": 26143,
+        "roas": 3.8,
+        "cpa": 46.53,
+        "ctr": 0.92
+      }
+    ]
+  },
+  "aeoReadiness": {
+    "score": 26,
+    "checks": [
+      [
+        "Tracked keywords / topic coverage",
+        0.5,
+        "10 keywords"
+      ],
+      [
+        "Search-intent diversity (informational/nav/trans/comm)",
+        0.6666666666666666,
+        "2 intents"
+      ],
+      [
+        "Avg SERP position <= 10",
+        0.4,
+        "pos 29.1"
+      ],
+      [
+        "AI-search (ChatGPT/Perplexity) query tracking",
+        0,
+        "NONE — gap"
+      ],
+      [
+        "Structured data / schema for answer engines",
+        0,
+        "not detected — gap"
+      ],
+      [
+        "Entity / brand presence in AI Overviews",
+        0,
+        "not measured — gap"
+      ]
+    ],
+    "gaps": [
+      {
+        "name": "Tracked keywords / topic coverage",
+        "note": "10 keywords"
+      },
+      {
+        "name": "Search-intent diversity (informational/nav/trans/comm)",
+        "note": "2 intents"
+      },
+      {
+        "name": "Avg SERP position <= 10",
+        "note": "pos 29.1"
+      },
+      {
+        "name": "AI-search (ChatGPT/Perplexity) query tracking",
+        "note": "NONE — gap"
+      },
+      {
+        "name": "Structured data / schema for answer engines",
+        "note": "not detected — gap"
+      },
+      {
+        "name": "Entity / brand presence in AI Overviews",
+        "note": "not measured — gap"
+      }
+    ]
+  },
+  "competitorMatrix": [
+    {
+      "capability": "Proprietary AI / custom models on client data",
+      "competitors": "RZLT, ICODA, NinjaPromo",
+      "baz": "Template copy-gen only",
+      "status": "PARTIAL"
+    },
+    {
+      "capability": "Predictive lead scoring (explainable)",
+      "competitors": "monday, LeadSquared, NinjaPromo",
+      "baz": "Flat rule score (now: Signal Engine)",
+      "status": "CLOSED"
+    },
+    {
+      "capability": "Attribution / revenue contribution",
+      "competitors": "Marketo, Kantar LIFT ROI",
+      "baz": "Spend-only (now: Signal Engine)",
+      "status": "CLOSED"
+    },
+    {
+      "capability": "AEO / GEO (ChatGPT/Perplexity) visibility",
+      "competitors": "RevvGrowth, ICODA",
+      "baz": "Classic SEO only",
+      "status": "GAP"
+    },
+    {
+      "capability": "Prescriptive / scenario 'what-if' modeling",
+      "competitors": "Scopic, McKinsey",
+      "baz": "Manual",
+      "status": "GAP"
+    },
+    {
+      "capability": "GTM operating system w/ telemetry",
+      "competitors": "TripleDart",
+      "baz": "Marketing Hub modules",
+      "status": "PARTIAL"
+    }
+  ]
+}

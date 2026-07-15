@@ -1,0 +1,11 @@
+{
+  "source_id": "darkroom",
+  "agencies": [
+    {"name": "Darkroom", "category": "independent", "hq": "New York, NY, USA (4 global hubs)", "country": "USA", "website": "https://www.darkroomagency.com", "rank": null,
+     "clients": ["Crate & Barrel", "Olipop", "Sauz", "Halo", "Dwayne Johnson", "Amazon"],
+     "services": ["Paid Media", "Social Commerce", "TikTok Shop", "Retention Marketing (Email/SMS/Loyalty)", "Marketplaces & Retail Media", "Creative", "Digital Products & CRO", "Applied AI"],
+     "industries": ["Home Goods", "Fashion & Apparel", "Travel", "Food & Beverage", "Beauty & Fragrance", "Celebrity & Influencer", "Health & Wellness", "Electronics & Hardware"],
+     "has_proprietary_tools": true, "proprietary_tools": ["Shadow (AI platform for marketers)", "Universal technology layer", "The Observatory"],
+     "description": "Creator-led performance/commerce agency built on an AI-era operating model; proprietary 'Shadow' AI platform and a universal technology layer. 'All marketing is performance marketing.'"}
+  ]
+}

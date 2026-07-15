@@ -1,0 +1,6942 @@
+{
+  "sources": [
+    {
+      "id": "designrush",
+      "url": "https://www.designrush.com/agency/digital-marketing/performance-marketing-agencies",
+      "title": "Top Performance Marketing Agencies in 2026",
+      "publisher": "DesignRush",
+      "publish_date": "2026-07-10",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "partial",
+      "notes": "Directory page 403; only press-release mentions (Disruptive Advertising = Top U.S. Performance Agency; Funnel Boost Media in Top 10 Digital, Mar 2026) retrieved via web search."
+    },
+    {
+      "id": "webtonic",
+      "url": "https://www.webtonic.io/blog/best-performance-marketing-agencies-2026",
+      "title": "28 Best Performance Marketing Agencies for 2026",
+      "publisher": "Web Tonic",
+      "publish_date": "2026-06-04",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "scraped",
+      "notes": ""
+    },
+    {
+      "id": "ranktracker",
+      "url": "https://www.ranktracker.com/blog/top-performance-marketing-agencies-2026/",
+      "title": "12 Top Performance Marketing Agencies to Consider in 2026",
+      "publisher": "Ranktracker",
+      "publish_date": "2026-02-02",
+      "scraped_at": null,
+      "status": "failed",
+      "notes": "Page 403 and body not recoverable via web search (only intro/FAQ snippets). Ranked list of 12 not captured."
+    },
+    {
+      "id": "nogood",
+      "url": "https://nogood.io/blog/fintech-marketing-agencies",
+      "title": "The Top Fintech Marketing Agencies (2026)",
+      "publisher": "NoGood",
+      "publish_date": "2026-06-12",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "scraped",
+      "notes": ""
+    },
+    {
+      "id": "darkroom",
+      "url": "https://www.darkroomagency.com/about",
+      "title": "The Leading Performance Marketing Agency - Darkroom",
+      "publisher": "Darkroom",
+      "publish_date": "2026-07-10",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "scraped",
+      "notes": ""
+    },
+    {
+      "id": "valkordigital",
+      "url": "https://valkordigital.com/top-performance-marketing-agencies-2026/",
+      "title": "Top 10 Performance Marketing Agencies in the World (2026)",
+      "publisher": "Valkor Digital",
+      "publish_date": "2026-01-21",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "scraped",
+      "notes": ""
+    },
+    {
+      "id": "peertopeer",
+      "url": "https://peertopeermarketing.co/performance-agencies",
+      "title": "18 Best Performance Marketing Agencies to Boost Your ROI [2026]",
+      "publisher": "Peer to Peer Marketing",
+      "publish_date": "2026-05-07",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "scraped",
+      "notes": ""
+    },
+    {
+      "id": "udonis",
+      "url": "https://www.blog.udonis.co/top-agencies/top-marketing-agencies",
+      "title": "30 Top Marketing Agencies in 2026: Definitive List",
+      "publisher": "Udonis",
+      "publish_date": "2026-01-07",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "scraped",
+      "notes": ""
+    },
+    {
+      "id": "onelittleweb",
+      "url": "https://onelittleweb.com/top-agencies/top-performance-marketing-agencies/",
+      "title": "Top Performance Marketing Agencies 2026 - Ranked & Reviewed",
+      "publisher": "One Little Web",
+      "publish_date": "2026-01-01",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "scraped",
+      "notes": ""
+    },
+    {
+      "id": "strategyeye",
+      "url": "https://www.strategyeye.com/top-13-performance-marketing-agencies/",
+      "title": "Top 13 Performance Marketing Agencies",
+      "publisher": "StrategyEye",
+      "publish_date": "2026-06-30",
+      "scraped_at": "2026-07-15T07:35:27",
+      "status": "scraped",
+      "notes": ""
+    }
+  ],
+  "agencies": [
+    {
+      "id": 120,
+      "name": "2Stallions",
+      "slug": "2stallions",
+      "category": "independent",
+      "hq": "Singapore",
+      "country": "Singapore",
+      "founded": null,
+      "employees_min": 44,
+      "employees_max": 44,
+      "website": "https://2stallions.com",
+      "description": "Performance marketing agency. Score 28.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 48,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 138,
+      "name": "3Q Digital",
+      "slug": "3q-digital",
+      "category": "network",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://3qdigital.com",
+      "description": "Performance marketing arm of DEPT.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.5,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Paid Media",
+        "SEO",
+        "Analytics"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "strategyeye",
+          "rank_in_source": 3,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 87,
+      "name": "3Q/DEPT",
+      "slug": "3q-dept",
+      "category": "network",
+      "hq": "Global (Netherlands HQ)",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 98,
+      "employees_max": 98,
+      "website": "https://deptagency.com",
+      "description": "Global digital agency (DEPT). Score 34.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$50,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "PPC",
+        "Analytics"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 15,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "ADLABS",
+      "slug": "adlabs",
+      "category": "independent",
+      "hq": "Moscow, Russia",
+      "country": "Russia",
+      "founded": 2004,
+      "employees_min": 80,
+      "employees_max": 80,
+      "website": "https://www.adlabs.ru/",
+      "description": "Leading Russian marketing agency; proprietary campaign management platform.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Proprietary campaign management platform"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.3,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Contextual Advertising",
+        "Targeted Advertising",
+        "Display Advertising",
+        "Mobile Ads",
+        "Web Analytics",
+        "SEO & Content",
+        "SMM",
+        "Email Marketing",
+        "Creative Strategies",
+        "Production"
+      ],
+      "clients": [
+        "KMP Group",
+        "MGTS",
+        "Quelle"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Proprietary campaign management platform",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 12,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "name": "AIM",
+      "slug": "aim",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 29,
+      "employees_max": 29,
+      "website": "https://allinclusivemarketing.com",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "All-Inclusive Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 30,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "name": "AKQA",
+      "slug": "akqa",
+      "category": "specialist",
+      "hq": "London / Amsterdam",
+      "country": "UK",
+      "founded": 1995,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.akqa.com",
+      "description": "Digital design and innovation agency (part of WPP).",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": []
+    },
+    {
+      "id": 35,
+      "name": "Acceleration Partners",
+      "slug": "acceleration-partners",
+      "category": "independent",
+      "hq": "Global (3 continents)",
+      "country": "Global",
+      "founded": 2007,
+      "employees_min": 201,
+      "employees_max": 500,
+      "website": "https://www.accelerationpartners.com",
+      "description": "Award-winning global partnership/performance marketing agency.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "APVision"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Marketing Strategy",
+        "Performance Marketing",
+        "Affiliate Marketing",
+        "Partner Marketing",
+        "B2B Marketing",
+        "Retail Marketing",
+        "Customer Acquisition",
+        "Publisher Development",
+        "Consultancy",
+        "Migrations",
+        "Program Management",
+        "APVision"
+      ],
+      "clients": [
+        "Noom",
+        "Redbubble",
+        "Hello Fresh",
+        "VividSeats",
+        "Instacart",
+        "Boll & Branch"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "APVision",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 3,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 137,
+      "name": "Accenture Interactive",
+      "slug": "accenture-interactive",
+      "category": "network",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.accenture.com",
+      "description": "Accenture's experience/performance arm (rebranded to Accenture Song).",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.6,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Experience/Commerce",
+        "Creative",
+        "Data"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "strategyeye",
+          "rank_in_source": 2,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Accenture Song",
+      "slug": "accenture-song",
+      "category": "network",
+      "hq": "Global (Dublin, Ireland HQ)",
+      "country": "Global",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.accenture.com/song",
+      "description": "Accenture's tech-powered creative group (formerly Accenture Interactive); includes Droga5.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Accenture (internal martech/data platforms)"
+      ],
+      "uses_open_source": 1,
+      "open_source_stack": [
+        "Python",
+        "dbt",
+        "Apache Airflow",
+        "TensorFlow"
+      ],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": "Large engineering org; open-source data/ML stack inferred.",
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Accenture (internal martech/data platforms)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Python",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "dbt",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Apache Airflow",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "TensorFlow",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": []
+    },
+    {
+      "id": 39,
+      "name": "Ad Agents",
+      "slug": "ad-agents",
+      "category": "independent",
+      "hq": "Herrenberg, Germany",
+      "country": "Germany",
+      "founded": 1999,
+      "employees_min": 201,
+      "employees_max": 500,
+      "website": "https://www.ad-agents.com/en/",
+      "description": "Performance marketing company within Ad Pepper Media Group (clients in 50+ countries).",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "iLead"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.0,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "SEA",
+        "SEO",
+        "Affiliate Management",
+        "Social Media Advertising",
+        "Tracking & Analysis"
+      ],
+      "clients": [
+        "Fiat",
+        "Nike",
+        "Samsung"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "iLead",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 8,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "AdVenture Media Group",
+      "slug": "adventure-media-group",
+      "category": "independent",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://adventureppc.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$5,000/mo",
+      "notes": null,
+      "services": [
+        "Google Ads",
+        "Microsoft Ads",
+        "Google Shopping Ads",
+        "Display Advertising",
+        "Remarketing",
+        "YouTube Ads",
+        "PPC Audits",
+        "Account Management",
+        "Keyword Research",
+        "Ad Copywriting",
+        "Landing Page Optimization",
+        "Conversion Tracking"
+      ],
+      "clients": [
+        "AT&T",
+        "Harvard University",
+        "Boston University",
+        "Aetna",
+        "MIT"
+      ],
+      "industries": [
+        "SaaS",
+        "B2B Software",
+        "Technology",
+        "eCommerce",
+        "Professional Services",
+        "FinTech",
+        "Healthcare Technology",
+        "Educational Software",
+        "Business Services",
+        "Manufacturing"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 25,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 139,
+      "name": "Adlucent",
+      "slug": "adlucent",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://adlucent.com",
+      "description": "Performance marketing agency (part of Epsilon/Publicis).",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.5,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Paid Search",
+        "Paid Social",
+        "Display",
+        "CRO"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "strategyeye",
+          "rank_in_source": 10,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Algorithm",
+      "slug": "algorithm",
+      "category": "independent",
+      "hq": "Johannesburg, South Africa",
+      "country": "South Africa",
+      "founded": 2016,
+      "employees_min": 5,
+      "employees_max": 10,
+      "website": "https://www.algorithm.agency/",
+      "description": "South African performance marketing & data specialist (with sister agency Quant).",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "SEO",
+        "SEM",
+        "Data & Insights",
+        "Paid Media",
+        "Consulting"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 16,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 55,
+      "name": "Amsive Digital",
+      "slug": "amsive-digital",
+      "category": "independent",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://amsivedigital.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$15,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Search",
+        "Shopping Campaigns",
+        "Paid Social",
+        "Display Advertising",
+        "Amazon Advertising",
+        "Analytics",
+        "Feed Management",
+        "Conversion Rate Optimization",
+        "Creative Testing",
+        "Media Strategy",
+        "Attribution Modelling"
+      ],
+      "clients": [
+        "HSN",
+        "Michaels",
+        "QVC",
+        "Office Depot",
+        "Party City"
+      ],
+      "industries": [
+        "eCommerce",
+        "Retail",
+        "Consumer Goods",
+        "Travel",
+        "Healthcare",
+        "Financial Services",
+        "Technology",
+        "Automotive",
+        "Entertainment",
+        "Home Goods"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 9,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "Antevenio",
+      "slug": "antevenio",
+      "category": "independent",
+      "hq": "Madrid, Spain",
+      "country": "Spain",
+      "founded": 1997,
+      "employees_min": 51,
+      "employees_max": 200,
+      "website": "https://www.antevenio.com",
+      "description": "20+ years experience; first Spanish ad company to IPO on Alternext Paris.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.3,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "User Acquisition",
+        "Lead Generation",
+        "Social Media Advertising",
+        "SEM",
+        "Content Creation",
+        "Loyalty Marketing"
+      ],
+      "clients": [
+        "The Affiliate People",
+        "The Slice"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 10,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "Bamboo",
+      "slug": "bamboo",
+      "category": "independent",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://bamboocrowdmarketing.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$12,000/mo",
+      "notes": null,
+      "services": [
+        "Facebook Ads",
+        "Instagram Ads",
+        "TikTok Ads",
+        "Snapchat Ads",
+        "YouTube Ads",
+        "Creative Strategy",
+        "Video Production",
+        "Media Buying",
+        "Influencer Marketing",
+        "Performance Analytics",
+        "Mobile App Marketing"
+      ],
+      "clients": [
+        "Hims & Hers",
+        "Calm",
+        "Care.com",
+        "BetterHelp",
+        "Talkspace"
+      ],
+      "industries": [
+        "Mobile Apps",
+        "Consumer Technology",
+        "DTC Brands",
+        "FinTech",
+        "HealthTech",
+        "Beauty & Wellness",
+        "Gaming",
+        "Subscription Services",
+        "Marketplace Platforms",
+        "Lifestyle Apps"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 13,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 84,
+      "name": "Big Leap",
+      "slug": "big-leap",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 122,
+      "employees_max": 122,
+      "website": "https://bigleap.com",
+      "description": "Performance marketing agency. Score 37.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "SEO",
+        "Content",
+        "CRO",
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 12,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 131,
+      "name": "Blue Wheel",
+      "slug": "blue-wheel",
+      "category": "independent",
+      "hq": "Birmingham, MI, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 100,
+      "employees_max": 100,
+      "website": null,
+      "description": null,
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "(proprietary retail media tech)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Amazon & Marketplace",
+        "Paid Social & Search",
+        "Creative",
+        "Shopify Optimization",
+        "Email & SMS",
+        "Influencer"
+      ],
+      "clients": [
+        "HiSmile",
+        "UGG",
+        "Sash Bag",
+        "GNC"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "(proprietary retail media tech)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 25,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "Brainlabs",
+      "slug": "brainlabs",
+      "category": "independent",
+      "hq": "London, UK",
+      "country": "UK",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://brainlabsdigital.com",
+      "description": "Global digital media agency; data science & automation.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Brainlabs (proprietary media automation)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.6,
+      "min_project_cost": "$15,000/mo",
+      "notes": null,
+      "services": [
+        "Google Ads",
+        "Microsoft Ads",
+        "Facebook Ads",
+        "Instagram Ads",
+        "LinkedIn Ads",
+        "Programmatic Display",
+        "YouTube Ads",
+        "Amazon Ads",
+        "TikTok Ads",
+        "Data Science",
+        "Media Automation",
+        "Attribution Modelling",
+        "Creative Optimization",
+        "Marketing Technology"
+      ],
+      "clients": [
+        "Shopify",
+        "Skyscanner",
+        "Just Eat",
+        "Trainline",
+        "Domino's"
+      ],
+      "industries": [
+        "eCommerce",
+        "Retail",
+        "Technology",
+        "Gaming",
+        "Travel",
+        "Financial Services",
+        "Telecommunications",
+        "Consumer Goods",
+        "Entertainment",
+        "DTC Brands"
+      ],
+      "tools": [
+        {
+          "tool_name": "Brainlabs (proprietary media automation)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 5,
+          "notes": null
+        },
+        {
+          "source": "strategyeye",
+          "rank_in_source": 9,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "CSTMR",
+      "slug": "cstmr",
+      "category": "specialist",
+      "hq": "Austin, TX, USA",
+      "country": "USA",
+      "founded": 2014,
+      "employees_min": 10,
+      "employees_max": 25,
+      "website": "https://cstmr.com/",
+      "description": "Boutique agency built exclusively for Fintech/financial services.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Digital Marketing Strategy",
+        "Brand Strategy",
+        "Paid Media",
+        "SEO & Content",
+        "Web Design",
+        "UX/UI",
+        "CRO"
+      ],
+      "clients": [
+        "Credit Karma",
+        "LendingTree"
+      ],
+      "industries": [
+        "Fintech",
+        "Banking",
+        "Payments",
+        "Lending",
+        "Insurance",
+        "Investing",
+        "Financial Services"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "nogood",
+          "rank_in_source": 5,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Carro",
+      "slug": "carro",
+      "category": "independent",
+      "hq": "Remote",
+      "country": "Global",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://getcarro.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$8,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Acquisition",
+        "Google Ads",
+        "Facebook Ads",
+        "Instagram Ads",
+        "LinkedIn Ads",
+        "YouTube Ads",
+        "Display Advertising",
+        "Landing Page Optimization",
+        "Conversion Rate Optimization",
+        "Analytics",
+        "Growth Strategy"
+      ],
+      "clients": [
+        "Typeform",
+        "Loom",
+        "Notion",
+        "Airtable",
+        "Webflow"
+      ],
+      "industries": [
+        "SaaS",
+        "Subscription Services",
+        "B2B Software",
+        "Mobile Apps",
+        "FinTech",
+        "Marketing Technology",
+        "eCommerce Platforms",
+        "Educational Software",
+        "Healthcare Technology",
+        "Professional Services Software"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 28,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 107,
+      "name": "ClickSlice",
+      "slug": "clickslice",
+      "category": "independent",
+      "hq": "London, UK",
+      "country": "UK",
+      "founded": null,
+      "employees_min": 10,
+      "employees_max": 10,
+      "website": "https://clickslice.co.uk",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "SEO",
+        "Performance Marketing",
+        "PPC"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 35,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 69,
+      "name": "Coinbound",
+      "slug": "coinbound",
+      "category": "specialist",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 2018,
+      "employees_min": 50,
+      "employees_max": 75,
+      "website": "https://coinbound.io",
+      "description": "World's most award-winning Web3 marketing agency; 500+ Web3 influencer network.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Influencer Marketing",
+        "PR",
+        "Social Media Management",
+        "SEO",
+        "Paid Advertising",
+        "Media Buying",
+        "Community Management",
+        "Content",
+        "Advisory"
+      ],
+      "clients": [
+        "eToro",
+        "Litecoin",
+        "Tron",
+        "Gala",
+        "Algorand"
+      ],
+      "industries": [
+        "Fintech (crypto/Web3)",
+        "Web3",
+        "NFTs",
+        "DeFi"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "nogood",
+          "rank_in_source": 3,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 93,
+      "name": "Consultwebs",
+      "slug": "consultwebs",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 108,
+      "employees_max": 108,
+      "website": "https://consultwebs.com",
+      "description": "Performance marketing agency. Score 32.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 21,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Contevo",
+      "slug": "contevo",
+      "category": "independent",
+      "hq": "Melbourne, Australia",
+      "country": "Australia",
+      "founded": 2005,
+      "employees_min": 11,
+      "employees_max": 50,
+      "website": "https://contevo.com.au",
+      "description": "Well-established Australian full-service performance agency.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.5,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "SEO",
+        "PPC",
+        "Content Marketing",
+        "Social Media Marketing",
+        "Ecommerce Marketing",
+        "Data & Analytics"
+      ],
+      "clients": [
+        "Disney",
+        "Groupon",
+        "Swarovski"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 15,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 54,
+      "name": "Croud",
+      "slug": "croud",
+      "category": "independent",
+      "hq": "London, UK",
+      "country": "UK",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://croud.com",
+      "description": null,
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Croud (proprietary talent/performance platform)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$12,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Search",
+        "Paid Social",
+        "Programmatic Display",
+        "Amazon Advertising",
+        "SEO",
+        "Content Marketing",
+        "Creative Services",
+        "Marketing Analytics",
+        "International Campaigns",
+        "Talent Network",
+        "Proprietary Technology"
+      ],
+      "clients": [
+        "Apple",
+        "PayPal",
+        "Google",
+        "Vodafone",
+        "Domino's"
+      ],
+      "industries": [
+        "eCommerce",
+        "Retail",
+        "Technology",
+        "Financial Services",
+        "Travel",
+        "Consumer Goods",
+        "Healthcare",
+        "Automotive",
+        "Telecommunications",
+        "Entertainment"
+      ],
+      "tools": [
+        {
+          "tool_name": "Croud (proprietary talent/performance platform)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 8,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 118,
+      "name": "DGTLmart Technologies",
+      "slug": "dgtlmart-technologies",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 77,
+      "employees_max": 77,
+      "website": "https://dgtlmart.com",
+      "description": "Performance marketing agency. Score 28.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev",
+        "SEO"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 46,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "name": "DMi Partners",
+      "slug": "dmi-partners",
+      "category": "independent",
+      "hq": "Philadelphia, PA, USA",
+      "country": "USA",
+      "founded": 2003,
+      "employees_min": 51,
+      "employees_max": 200,
+      "website": "https://www.dmipartners.com/",
+      "description": "Full-service digital marketing agency; data-driven, award-winning campaigns.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Affiliate Marketing",
+        "Influencer Marketing",
+        "SEO",
+        "Paid Search",
+        "Social Media Marketing",
+        "E-commerce Management",
+        "Branding & Interactive",
+        "Consulting & Analytics"
+      ],
+      "clients": [
+        "Campbells",
+        "CNN",
+        "Hershey",
+        "Kellogg's",
+        "Reckitt Benckiser",
+        "Unilever"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 5,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Darkroom",
+      "slug": "darkroom",
+      "category": "independent",
+      "hq": "Los Angeles, CA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 50,
+      "employees_max": 50,
+      "website": "https://www.darkroomagency.com",
+      "description": "Creator-led performance marketing agency built on an AI/technology layer.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "(universal technology layer / AI agents)",
+        "Shadow (AI platform for marketers)",
+        "Universal technology layer",
+        "The Observatory"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": "Emphasizes AI agents and a universal tech layer.",
+      "services": [
+        "Paid Social & Search",
+        "Creative Production",
+        "Web Design & CRO",
+        "Brand Development",
+        "Email & SMS",
+        "Growth Strategy & Analytics",
+        "Paid Media",
+        "Social Commerce",
+        "TikTok Shop",
+        "Retention Marketing (Email/SMS/Loyalty)",
+        "Marketplaces & Retail Media",
+        "Creative",
+        "Digital Products & CRO",
+        "Applied AI"
+      ],
+      "clients": [
+        "The Sill",
+        "Everytable",
+        "Slate Milk",
+        "Haus",
+        "Crate & Barrel",
+        "Olipop",
+        "Sauz",
+        "Halo",
+        "Dwayne Johnson",
+        "Amazon"
+      ],
+      "industries": [
+        "Home Goods",
+        "Fashion & Apparel",
+        "Travel",
+        "Food & Beverage",
+        "Beauty & Fragrance",
+        "Celebrity & Influencer",
+        "Health & Wellness",
+        "Electronics & Hardware"
+      ],
+      "tools": [
+        {
+          "tool_name": "(universal technology layer / AI agents)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Shadow (AI platform for marketers)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Universal technology layer",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "The Observatory",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 30,
+          "notes": null
+        },
+        {
+          "source": "darkroom",
+          "rank_in_source": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "Delante",
+      "slug": "delante",
+      "category": "independent",
+      "hq": "Poland",
+      "country": "Poland",
+      "founded": null,
+      "employees_min": 69,
+      "employees_max": 69,
+      "website": "https://delante.co",
+      "description": "Performance marketing agency. Score 31.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "SEO",
+        "Performance Marketing",
+        "International SEO"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 24,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "Deloitte Digital",
+      "slug": "deloitte-digital",
+      "category": "network",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.deloittedigital.com",
+      "description": "Digital consulting and experience practice within Deloitte.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": []
+    },
+    {
+      "id": 5,
+      "name": "Dentsu",
+      "slug": "dentsu",
+      "category": "network",
+      "hq": "Tokyo, Japan",
+      "country": "Japan",
+      "founded": 1901,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.dentsu.com",
+      "description": "Holding company owning Dentsu Creative, iProspect, Merkle; data arm Merkle.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Merkle (technology stack)",
+        "dentsu Canvas"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Merkle (technology stack)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "dentsu Canvas",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": []
+    },
+    {
+      "id": 73,
+      "name": "Digital Authority Partners",
+      "slug": "digital-authority-partners",
+      "category": "independent",
+      "hq": "Chicago, IL, USA",
+      "country": "USA",
+      "founded": 2016,
+      "employees_min": 50,
+      "employees_max": 100,
+      "website": "https://www.digitalauthority.me/",
+      "description": "Fintech agency using an 'infinite strategy loop' for continuous optimization.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.7,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Digital Strategy",
+        "Web Design & Dev",
+        "SEO & Content",
+        "Paid Advertising",
+        "Fractional CMO",
+        "Custom Software",
+        "Mobile App Dev",
+        "Reputation Marketing"
+      ],
+      "clients": [],
+      "industries": [
+        "Fintech",
+        "Healthcare",
+        "eCommerce",
+        "Professional Services",
+        "Education",
+        "Manufacturing"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "nogood",
+          "rank_in_source": 7,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "Digital Optimization",
+      "slug": "digital-optimization",
+      "category": "independent",
+      "hq": "Stellenbosch, South Africa",
+      "country": "South Africa",
+      "founded": 2015,
+      "employees_min": 11,
+      "employees_max": 50,
+      "website": "https://digitaloptimization.co.za",
+      "description": "South African agency obsessed with performance; Google/Facebook premium partner.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Digital Media Strategy",
+        "Media Planning & Buying",
+        "Social Media Advertising",
+        "Content Marketing",
+        "SEO",
+        "Web Design & Development"
+      ],
+      "clients": [
+        "Danone",
+        "Heineken",
+        "SONY"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 18,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 135,
+      "name": "Digital Silk",
+      "slug": "digital-silk",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.digitalsilk.com/",
+      "description": "Brand-led performance agency; fixes destination (UX) before driving traffic.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Brand-Led Performance",
+        "Web Design",
+        "UX Optimization",
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "valkordigital",
+          "rank_in_source": 8,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Directive",
+      "slug": "directive",
+      "category": "specialist",
+      "hq": "Irvine, CA, USA",
+      "country": "USA",
+      "founded": 2014,
+      "employees_min": 150,
+      "employees_max": 150,
+      "website": "https://directiveconsulting.com",
+      "description": "B2B performance marketing agency.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$15,000/mo",
+      "notes": null,
+      "services": [
+        "B2B SEO",
+        "Paid Media",
+        "CRO",
+        "Paid Search",
+        "Paid Social",
+        "LinkedIn Ads",
+        "Account-Based Marketing",
+        "SEO",
+        "Content Marketing",
+        "Conversion Optimization",
+        "Analytics",
+        "Revenue Operations",
+        "Marketing Attribution",
+        "Customer Acquisition Strategy",
+        "SEO for B2B SaaS",
+        "Performance Creative",
+        "Landing Page & CRO",
+        "Strategy & Positioning"
+      ],
+      "clients": [
+        "Amazon",
+        "Adobe",
+        "Uber",
+        "Monday.com",
+        "Snowflake",
+        "ZoomInfo",
+        "Cisco",
+        "Sumo Logic",
+        "Betterment"
+      ],
+      "industries": [
+        "B2B SaaS",
+        "Enterprise Software",
+        "Technology",
+        "Cloud Services",
+        "Cybersecurity",
+        "MarTech",
+        "FinTech",
+        "DevOps Tools",
+        "Business Intelligence",
+        "Sales Technology"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 19,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 27,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Disruptive Advertising",
+      "slug": "disruptive-advertising",
+      "category": "independent",
+      "hq": "Pleasant Grove, UT, USA",
+      "country": "USA",
+      "founded": 2012,
+      "employees_min": 124,
+      "employees_max": 124,
+      "website": "https://www.disruptiveadvertising.com",
+      "description": "PPC and CRO agency.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Optimize"
+      ],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$7,500/mo",
+      "notes": null,
+      "services": [
+        "PPC",
+        "CRO",
+        "Lifecycle Marketing",
+        "PPC Management",
+        "Paid Social",
+        "Amazon Advertising",
+        "Display Advertising",
+        "Video Advertising",
+        "Conversion Rate Optimization",
+        "Email Marketing",
+        "Marketing Analytics",
+        "Creative Services",
+        "Creative",
+        "Lifecycle",
+        "Analytics",
+        "Paid Search & Google Ads",
+        "Email",
+        "Landing Page Design",
+        "Analytics & Attribution"
+      ],
+      "clients": [
+        "Adobe",
+        "eBay",
+        "Ancestry",
+        "SmugMug",
+        "XYPRO",
+        "PennyMac",
+        "Guitar Center",
+        "Fandango"
+      ],
+      "industries": [
+        "SaaS",
+        "Technology",
+        "eCommerce",
+        "B2B Services",
+        "FinTech",
+        "Healthcare",
+        "Education",
+        "Professional Services",
+        "Software",
+        "Mobile Apps"
+      ],
+      "tools": [
+        {
+          "tool_name": "Optimize",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 12,
+          "notes": null
+        },
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 3,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 7,
+          "notes": null
+        },
+        {
+          "source": "valkordigital",
+          "rank_in_source": 3,
+          "notes": null
+        },
+        {
+          "source": "designrush",
+          "rank_in_source": 1,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 83,
+      "name": "Dot Com Infoway",
+      "slug": "dot-com-infoway",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 363,
+      "employees_max": 363,
+      "website": "https://dotcominfoway.com",
+      "description": "Performance marketing agency. Score 38.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Web/Mobile Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 11,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Droga5",
+      "slug": "droga5",
+      "category": "specialist",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 2006,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.droga5.com",
+      "description": "Creative agency, part of Accenture Song.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": []
+    },
+    {
+      "id": 44,
+      "name": "E-Promo",
+      "slug": "e-promo",
+      "category": "independent",
+      "hq": "Moscow, Russia",
+      "country": "Russia",
+      "founded": 2008,
+      "employees_min": 12,
+      "employees_max": 12,
+      "website": "https://www.e-promo.ru/",
+      "description": "Popular Russian agency; also subcontracts for iProspect.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.0,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Display & Programmatic",
+        "Targeted Social Ads",
+        "Video & Mobile Ads",
+        "Re-targeting",
+        "SEO"
+      ],
+      "clients": [
+        "Genser",
+        "Groupon",
+        "Home Credit Bank",
+        "Spar",
+        "Virgin Connect"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 13,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 112,
+      "name": "ENCODEDOTS TechnoLabs",
+      "slug": "encodedots-technolabs",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 28,
+      "employees_max": 28,
+      "website": "https://encodedots.com",
+      "description": "Performance marketing agency. Score 29.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 40,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 81,
+      "name": "Funnel Boost Media",
+      "slug": "funnel-boost-media",
+      "category": "independent",
+      "hq": "San Antonio, TX, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 47,
+      "employees_max": 47,
+      "website": "https://funnelboostmedia.net",
+      "description": "Best for performance-driven SEO and lead generation. Score 39.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance SEO",
+        "Lead Generation",
+        "PPC",
+        "CRO",
+        "SEO",
+        "Web Design"
+      ],
+      "clients": [],
+      "industries": [
+        "Legal",
+        "Healthcare",
+        "Home Services",
+        "Finance",
+        "Automotive"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 9,
+          "notes": null
+        },
+        {
+          "source": "designrush",
+          "rank_in_source": 10,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "Grazitti Interactive",
+      "slug": "grazitti-interactive",
+      "category": "independent",
+      "hq": "USA / Global",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 1389,
+      "employees_max": 1389,
+      "website": "https://grazitti.com",
+      "description": "Best for omnichannel marketing and B2B performance campaigns. Score 59.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "Performance Media",
+        "PPC",
+        "SEO",
+        "Marketing Automation",
+        "Data Analytics",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 4,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Hanapin Marketing",
+      "slug": "hanapin-marketing",
+      "category": "independent",
+      "hq": "Bloomington, IN, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://hanapinmarketing.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$7,000/mo",
+      "notes": null,
+      "services": [
+        "Google Ads",
+        "Microsoft Ads",
+        "Facebook Ads",
+        "Instagram Ads",
+        "LinkedIn Ads",
+        "Amazon Ads",
+        "Apple Search Ads",
+        "Shopping Ads",
+        "Display Advertising",
+        "Remarketing",
+        "YouTube Ads",
+        "Creative Testing"
+      ],
+      "clients": [
+        "Shopify",
+        "HubSpot",
+        "Asana",
+        "Zendesk",
+        "Mailchimp"
+      ],
+      "industries": [
+        "SaaS",
+        "Technology",
+        "B2B Software",
+        "eCommerce Platforms",
+        "Mobile Apps",
+        "FinTech",
+        "Healthcare Technology",
+        "Educational Software",
+        "Gaming",
+        "Marketing Technology"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 26,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Havas",
+      "slug": "havas",
+      "category": "network",
+      "hq": "Puteaux, France",
+      "country": "France",
+      "founded": 1835,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.havas.com",
+      "description": "Holding company owning Havas Creative and Havas Media.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": []
+    },
+    {
+      "id": 88,
+      "name": "HawkSEM",
+      "slug": "hawksem",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 88,
+      "employees_max": 88,
+      "website": "https://hawksem.com",
+      "description": "Performance marketing agency. Score 33.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "PPC",
+        "SEO",
+        "Conversion Optimization",
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 16,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Hawke Media",
+      "slug": "hawke-media",
+      "category": "independent",
+      "hq": "Santa Monica, CA, USA",
+      "country": "USA",
+      "founded": 2014,
+      "employees_min": 200,
+      "employees_max": 200,
+      "website": "https://hawkemedia.com",
+      "description": "On-demand, a-la-carte performance marketing agency.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$5,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Media",
+        "SEO",
+        "Email",
+        "CRO",
+        "Fractional CMO",
+        "Email Marketing",
+        "Social Media Marketing",
+        "Content Marketing",
+        "Influencer Marketing",
+        "Conversion Rate Optimization",
+        "Marketing Strategy",
+        "Brand Development",
+        "Public Relations",
+        "Analytics",
+        "Email & SMS",
+        "SEO & Content",
+        "Influencer",
+        "Web Design",
+        "Branding & Strategy"
+      ],
+      "clients": [
+        "Verizon",
+        "Red Bull",
+        "Fjällräven",
+        "VIZIO",
+        "Evite",
+        "Crocs",
+        "Barstool Sports",
+        "The Sill"
+      ],
+      "industries": [
+        "eCommerce",
+        "Consumer Brands",
+        "Technology",
+        "FinTech",
+        "HealthTech",
+        "Beauty & Wellness",
+        "Fashion",
+        "Food & Beverage",
+        "DTC Brands",
+        "Professional Services"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 20,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 19,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "name": "Hughes Media",
+      "slug": "hughes-media",
+      "category": "independent",
+      "hq": "Atlanta, GA, USA",
+      "country": "USA",
+      "founded": 2000,
+      "employees_min": 11,
+      "employees_max": 50,
+      "website": "https://www.hughesmedia.us",
+      "description": "Multi-award-winning Atlanta agency; avg client tenure 8 years.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.3,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "SEO",
+        "PPC",
+        "Email Marketing",
+        "Programmatic Advertising",
+        "Marketing Automation",
+        "Design & Creative Production"
+      ],
+      "clients": [
+        "Eat Seer Hear",
+        "Piedmont M&A Advisors",
+        "Re/Max",
+        "Sunshine Recycling"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 7,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 134,
+      "name": "Icreativez",
+      "slug": "icreativez",
+      "category": "independent",
+      "hq": "Pakistan & Global",
+      "country": "Pakistan",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://icreativez.com",
+      "description": "Global outsourcing powerhouse; scales operations across 18 countries; 300% annual client growth claims.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Outsourced Marketing Operations"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "valkordigital",
+          "rank_in_source": 2,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Ignite Visibility",
+      "slug": "ignite-visibility",
+      "category": "independent",
+      "hq": "San Diego, CA, USA",
+      "country": "USA",
+      "founded": 2013,
+      "employees_min": 100,
+      "employees_max": 100,
+      "website": "https://ignitevisibility.com",
+      "description": "Full-service digital marketing agency.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "SureFire Social",
+        "SureFire Search",
+        "Certainty (forecasting)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$10,000/mo",
+      "notes": null,
+      "services": [
+        "SEO",
+        "Paid Media",
+        "Social",
+        "CRO",
+        "PPC Management",
+        "Paid Social",
+        "Content Marketing",
+        "Email Marketing",
+        "Social Media Marketing",
+        "Conversion Optimization",
+        "Analytics",
+        "PR & Outreach",
+        "Marketing Automation",
+        "Creative Services",
+        "Paid Search & Social",
+        "Email",
+        "Digital PR & Link Building",
+        "Analytics & Strategy"
+      ],
+      "clients": [
+        "Tony Robbins",
+        "Sharp Healthcare",
+        "The Lasik Vision Institute",
+        "Superdry",
+        "1-800-Accountant",
+        "DoorDash",
+        "5 Hour Energy"
+      ],
+      "industries": [
+        "eCommerce",
+        "Healthcare",
+        "Financial Services",
+        "Legal Services",
+        "Technology",
+        "B2B Services",
+        "Professional Services",
+        "Education",
+        "Hospitality",
+        "Retail"
+      ],
+      "tools": [
+        {
+          "tool_name": "SureFire Social",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "SureFire Search",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Certainty (forecasting)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 21,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 8,
+          "notes": null
+        },
+        {
+          "source": "valkordigital",
+          "rank_in_source": 6,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 122,
+      "name": "Inboundsys",
+      "slug": "inboundsys",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 53,
+      "employees_max": 53,
+      "website": "https://inboundsys.com",
+      "description": "Performance marketing agency. Score 28.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.3,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Inbound",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 50,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 128,
+      "name": "Inflow",
+      "slug": "inflow",
+      "category": "independent",
+      "hq": "Denver, CO, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 30,
+      "employees_max": 30,
+      "website": null,
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Ecommerce SEO",
+        "PPC",
+        "CRO",
+        "Paid Social",
+        "UX Consulting",
+        "Technical Audits & Growth Strategy"
+      ],
+      "clients": [
+        "Amazon",
+        "Jura",
+        "Vitrazza",
+        "Mountain House"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 18,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 62,
+      "name": "Instapage",
+      "slug": "instapage",
+      "category": "specialist",
+      "hq": "San Francisco, CA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://instapage.com",
+      "description": "Landing-page platform with strategic services for performance marketers.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Instapage (landing page platform)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$199/mo+",
+      "notes": null,
+      "services": [
+        "Landing Page Platform",
+        "Personalization",
+        "A/B Testing",
+        "Heatmaps",
+        "Analytics",
+        "Strategic Consulting",
+        "Conversion Optimization",
+        "AdMap Technology",
+        "Dynamic Text Replacement",
+        "Multi-Variant Testing"
+      ],
+      "clients": [
+        "Vimeo",
+        "eBay",
+        "Zenefits",
+        "AdRoll",
+        "Optimizely"
+      ],
+      "industries": [
+        "SaaS",
+        "B2B Software",
+        "Technology",
+        "FinTech",
+        "Marketing Technology",
+        "eCommerce Platforms",
+        "Educational Software",
+        "Healthcare Technology",
+        "Professional Services",
+        "Consumer Software"
+      ],
+      "tools": [
+        {
+          "tool_name": "Instapage (landing page platform)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 23,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 53,
+      "name": "Jellyfish",
+      "slug": "jellyfish",
+      "category": "independent",
+      "hq": "London, UK",
+      "country": "UK",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://jellyfish.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$15,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Search",
+        "Paid Social",
+        "Programmatic Advertising",
+        "Amazon Advertising",
+        "Shopping Campaigns",
+        "SEO",
+        "Marketing Technology",
+        "Analytics",
+        "Creative Services",
+        "Training Programs",
+        "International Campaigns",
+        "Media Planning"
+      ],
+      "clients": [
+        "Disney",
+        "Sony",
+        "Nestlé",
+        "Ford",
+        "Unilever"
+      ],
+      "industries": [
+        "Retail",
+        "Technology",
+        "Financial Services",
+        "Travel",
+        "Automotive",
+        "Telecommunications",
+        "Media",
+        "Healthcare",
+        "Consumer Goods",
+        "Entertainment"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 7,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 78,
+      "name": "Jives Media",
+      "slug": "jives-media",
+      "category": "independent",
+      "hq": "San Francisco, CA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 48,
+      "employees_max": 48,
+      "website": "https://jivesmedia.com",
+      "description": "Best for agile, fast-paced performance campaigns with strong creative. Score 48.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "PPC",
+        "SEO",
+        "Web Design",
+        "Social Ads",
+        "Branding"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 6,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "name": "JumpFly",
+      "slug": "jumpfly",
+      "category": "independent",
+      "hq": "Arlington Heights, IL, USA",
+      "country": "USA",
+      "founded": 2003,
+      "employees_min": 40,
+      "employees_max": 40,
+      "website": "https://www.jumpfly.com",
+      "description": "PPC management agency.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "PPC",
+        "Paid Social",
+        "Amazon",
+        "Google Ads",
+        "Microsoft Ads",
+        "Amazon Ads",
+        "Facebook & Instagram Ads",
+        "Shopping & Feed",
+        "Display & Retargeting"
+      ],
+      "clients": [
+        "U.S. Money Reserve",
+        "Fannie May",
+        "Weber Grill",
+        "Patriot Software"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 28,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "name": "KlientBoost",
+      "slug": "klientboost",
+      "category": "independent",
+      "hq": "Costa Mesa, CA, USA",
+      "country": "USA",
+      "founded": 2012,
+      "employees_min": 100,
+      "employees_max": 100,
+      "website": "https://www.klientboost.com",
+      "description": "PPC and conversion-rate-optimization agency.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$8,000/mo",
+      "notes": null,
+      "services": [
+        "PPC",
+        "CRO",
+        "Paid Social",
+        "PPC Management",
+        "Paid Social Advertising",
+        "Landing Page Design",
+        "Conversion Rate Optimization",
+        "Creative Strategy",
+        "Email Marketing",
+        "Marketing Funnels",
+        "Analytics",
+        "Growth Strategy",
+        "A/B Testing",
+        "Paid Search",
+        "Programmatic",
+        "Email"
+      ],
+      "clients": [
+        "Airbnb",
+        "TikTok",
+        "Netflix",
+        "Intuit",
+        "HubSpot",
+        "SAP",
+        "Segment",
+        "Hotjar"
+      ],
+      "industries": [
+        "SaaS",
+        "B2B Technology",
+        "eCommerce",
+        "FinTech",
+        "HealthTech",
+        "EdTech",
+        "Mobile Apps",
+        "Consumer Technology",
+        "Professional Services",
+        "DTC Brands"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 11,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 12,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "name": "Kollective",
+      "slug": "kollective",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 2,
+      "employees_max": 2,
+      "website": "https://kollective.agency",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 29,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Kwanko",
+      "slug": "kwanko",
+      "category": "independent",
+      "hq": "Île-de-France, France",
+      "country": "France",
+      "founded": 2003,
+      "employees_min": 51,
+      "employees_max": 200,
+      "website": "https://www.kwanko.com",
+      "description": "Cross-device performance marketing specialist; unified campaign platform.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Kwanko Platform"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.4,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Ecommerce CPA",
+        "Social Media Advertising",
+        "Lead Generation",
+        "Email Marketing",
+        "Influencer Marketing"
+      ],
+      "clients": [
+        "Ali Express",
+        "Audi",
+        "BMW",
+        "Mini",
+        "The Body Shop"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Kwanko Platform",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 9,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "Ladder",
+      "slug": "ladder",
+      "category": "independent",
+      "hq": "San Francisco, CA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 30,
+      "employees_max": 30,
+      "website": "https://ladder.io",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$15,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Acquisition",
+        "Growth Strategy",
+        "Paid Search",
+        "Paid Social",
+        "Creative Testing",
+        "Funnel Optimization",
+        "Marketing Analytics",
+        "Growth Experimentation",
+        "Audience Research",
+        "Multi-Touch Attribution",
+        "Paid Social & Search",
+        "Landing Page Optimization",
+        "CRO & Funnel",
+        "Content & SEO",
+        "Performance Analytics"
+      ],
+      "clients": [
+        "Postmates",
+        "Axios",
+        "Imperfect Foods",
+        "Branch",
+        "Turo",
+        "Nestlé",
+        "Booking.com",
+        "Monzo",
+        "TimeOut"
+      ],
+      "industries": [
+        "SaaS",
+        "Mobile Apps",
+        "Consumer Technology",
+        "Marketplace Platforms",
+        "FinTech",
+        "HealthTech",
+        "EdTech",
+        "Developer Tools",
+        "B2B Software",
+        "DTC Brands"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 15,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 24,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Lounge Lizard",
+      "slug": "lounge-lizard",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 57,
+      "employees_max": 57,
+      "website": "https://loungelizard.com",
+      "description": "Performance marketing agency. Score 32.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "Web Design",
+        "Branding",
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 18,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Madgicx",
+      "slug": "madgicx",
+      "category": "specialist",
+      "hq": "Tel Aviv, Israel",
+      "country": "Israel",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://madgicx.com",
+      "description": "AI-powered advertising platform with managed services for Facebook and Google Ads.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Madgicx (AI ads platform)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$5,000/mo+",
+      "notes": null,
+      "services": [
+        "Facebook Ads Automation",
+        "Instagram Ads",
+        "Google Ads",
+        "AI-Powered Optimization",
+        "Creative Intelligence",
+        "Audience Targeting",
+        "Budget Allocation",
+        "Performance Analytics",
+        "Managed Services",
+        "A/B Testing",
+        "Creative Production"
+      ],
+      "clients": [
+        "Boom by Cindy Joseph",
+        "Organifi",
+        "Luxy Hair",
+        "Ridge Wallet",
+        "Blenders Eyewear"
+      ],
+      "industries": [
+        "eCommerce",
+        "DTC Brands",
+        "Mobile Apps",
+        "SaaS",
+        "FinTech",
+        "HealthTech",
+        "EdTech",
+        "Subscription Services",
+        "Gaming",
+        "Consumer Technology"
+      ],
+      "tools": [
+        {
+          "tool_name": "Madgicx (AI ads platform)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 24,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 80,
+      "name": "Magneto IT Solutions",
+      "slug": "magneto-it-solutions",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 165,
+      "employees_max": 165,
+      "website": "https://magnetoitsolutions.com",
+      "description": "Best for eCommerce-focused paid advertising and multichannel growth. Score 39.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "eCommerce Performance",
+        "SEO/SEM",
+        "Web/Mobile Dev",
+        "Email",
+        "Social Ads",
+        "Analytics"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 8,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 85,
+      "name": "Matrix Media Solutions",
+      "slug": "matrix-media-solutions",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 161,
+      "employees_max": 161,
+      "website": "https://matrixnmedia.com",
+      "description": "Performance marketing agency. Score 37.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Digital Ads"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 13,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 111,
+      "name": "Maximize Studio",
+      "slug": "maximize-studio",
+      "category": "independent",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 14,
+      "employees_max": 14,
+      "website": "https://maxmizestudio.com",
+      "description": "Performance marketing agency. Score 29.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 39,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 105,
+      "name": "Mayerfeld Consulting",
+      "slug": "mayerfeld-consulting",
+      "category": "independent",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 12,
+      "employees_max": 12,
+      "website": "https://mayerfeld.consulting",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Consulting"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 33,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 74,
+      "name": "Media Logic",
+      "slug": "media-logic",
+      "category": "independent",
+      "hq": "Albany, NY, USA",
+      "country": "USA",
+      "founded": 1984,
+      "employees_min": 40,
+      "employees_max": 40,
+      "website": "https://www.medialogic.com/",
+      "description": "40+ years financial-services marketing; proprietary DataSnap real-time metrics tool.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "DataSnap"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.5,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Brand Strategy",
+        "Multi-Channel Campaign Strategy",
+        "Digital Marketing",
+        "Content",
+        "Customer Journey Mapping",
+        "Media Planning & Buying",
+        "Lifecycle",
+        "Creative"
+      ],
+      "clients": [],
+      "industries": [
+        "Fintech",
+        "Banking",
+        "Credit/Insurance",
+        "Payments",
+        "Healthcare"
+      ],
+      "tools": [
+        {
+          "tool_name": "DataSnap",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "nogood",
+          "rank_in_source": 8,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 136,
+      "name": "Merkle",
+      "slug": "merkle",
+      "category": "network",
+      "hq": "Columbia, MD, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://merkleinc.com",
+      "description": "Data-driven performance/CRM agency, part of Dentsu.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Merkle technology stack (Dentsu)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.7,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Data & CRM",
+        "SEO",
+        "Paid Media",
+        "Analytics"
+      ],
+      "clients": [],
+      "industries": [
+        "Enterprise",
+        "Retail",
+        "Financial Services",
+        "Technology"
+      ],
+      "tools": [
+        {
+          "tool_name": "Merkle technology stack (Dentsu)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "strategyeye",
+          "rank_in_source": 1,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "name": "Metric Theory",
+      "slug": "metric-theory",
+      "category": "independent",
+      "hq": "San Francisco, CA, USA",
+      "country": "USA",
+      "founded": 2012,
+      "employees_min": 150,
+      "employees_max": 150,
+      "website": "https://www.metrictheory.com",
+      "description": "Data-driven paid media agency (part of Nextroll).",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.5,
+      "min_project_cost": "$10,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Search",
+        "Paid Social",
+        "Programmatic",
+        "Google Ads",
+        "Microsoft Ads",
+        "Facebook Ads",
+        "Instagram Ads",
+        "LinkedIn Ads",
+        "Amazon Ads",
+        "Apple Search Ads",
+        "YouTube Ads",
+        "Programmatic Display",
+        "Mobile App Marketing",
+        "Creative Testing",
+        "Performance Analytics",
+        "Proprietary Technology",
+        "Paid Search & Shopping",
+        "Display & YouTube",
+        "Amazon",
+        "Analytics & Attribution",
+        "Remarketing",
+        "Analytics"
+      ],
+      "clients": [
+        "Headspace",
+        "Nextdoor",
+        "Houzz",
+        "Trulia",
+        "OpenTable",
+        "GoFundMe",
+        "Too Faced",
+        "Zenefits",
+        "Gofobo"
+      ],
+      "industries": [
+        "Technology",
+        "SaaS",
+        "Mobile Apps",
+        "Gaming",
+        "Consumer Brands",
+        "eCommerce",
+        "FinTech",
+        "HealthTech",
+        "Entertainment",
+        "Professional Services"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 4,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 11,
+          "notes": null
+        },
+        {
+          "source": "strategyeye",
+          "rank_in_source": 7,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 45,
+      "name": "Metrixa",
+      "slug": "metrixa",
+      "category": "independent",
+      "hq": "Melbourne, Australia",
+      "country": "Australia",
+      "founded": 2010,
+      "employees_min": 51,
+      "employees_max": 200,
+      "website": "https://www.metrixadigital.com.au/",
+      "description": "Data-driven APAC agency; offers free AdWords audit.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.6,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Digital Marketing Automation",
+        "Ecommerce Automation",
+        "Social Media Advertising"
+      ],
+      "clients": [
+        "Australia Post",
+        "Campbell & Partners",
+        "ROKT"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 14,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Moburst",
+      "slug": "moburst",
+      "category": "specialist",
+      "hq": "New York, NY, USA / Tel Aviv",
+      "country": "USA",
+      "founded": 2013,
+      "employees_min": 80,
+      "employees_max": 80,
+      "website": "https://www.moburst.com",
+      "description": "Mobile growth and app-performance agency.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "(proprietary mobile UA/creative platform)"
+      ],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Mobile UA",
+        "App Store Optimization",
+        "Creative",
+        "ASO",
+        "Paid UA",
+        "Mobile Strategy",
+        "Creative Production",
+        "CRO",
+        "Influencer & Social"
+      ],
+      "clients": [
+        "Uber",
+        "Samsung",
+        "Reddit",
+        "Discovery"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "(proprietary mobile UA/creative platform)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 10,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 106,
+      "name": "Monsoon Agency",
+      "slug": "monsoon-agency",
+      "category": "independent",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 20,
+      "employees_max": 20,
+      "website": "https://monsoon.agency",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 34,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 56,
+      "name": "MuteSix",
+      "slug": "mutesix",
+      "category": "independent",
+      "hq": "Los Angeles, CA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://mutesix.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$15,000/mo",
+      "notes": null,
+      "services": [
+        "Facebook Ads",
+        "Instagram Ads",
+        "TikTok Ads",
+        "Snapchat Ads",
+        "Pinterest Ads",
+        "YouTube Ads",
+        "Google Ads",
+        "Creative Production",
+        "Video Production",
+        "Influencer Marketing",
+        "Performance Analytics",
+        "Mobile App Marketing"
+      ],
+      "clients": [
+        "HelloFresh",
+        "Dollar Shave Club",
+        "Codecademy",
+        "Shipt",
+        "RXBAR"
+      ],
+      "industries": [
+        "DTC Brands",
+        "eCommerce",
+        "Consumer Goods",
+        "Fashion",
+        "Beauty",
+        "Food & Beverage",
+        "Mobile Apps",
+        "HealthTech",
+        "FinTech",
+        "Subscription Services"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 10,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 108,
+      "name": "My Biz Niche",
+      "slug": "my-biz-niche",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 52,
+      "employees_max": 52,
+      "website": "https://mybizniche.com",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "PPC"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 36,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 89,
+      "name": "Netrush",
+      "slug": "netrush",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 117,
+      "employees_max": 117,
+      "website": "https://netrush.com",
+      "description": "Performance marketing agency. Score 33.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "eCommerce",
+        "Digital"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 17,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 115,
+      "name": "New Target, Inc.",
+      "slug": "new-target-inc",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 41,
+      "employees_max": 41,
+      "website": "https://newtarget.com",
+      "description": "Performance marketing agency. Score 29.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev",
+        "Branding"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 43,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "NextLeft",
+      "slug": "nextleft",
+      "category": "specialist",
+      "hq": "San Diego, CA, USA",
+      "country": "USA",
+      "founded": 2016,
+      "employees_min": 11,
+      "employees_max": 50,
+      "website": "https://nextleft.com/",
+      "description": "Certified B Corp SEO/content agency for financial services.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Enterprise SEO",
+        "Local SEO",
+        "Technical SEO",
+        "Content Marketing",
+        "Paid Media",
+        "Analytics & Reporting",
+        "YouTube SEO"
+      ],
+      "clients": [],
+      "industries": [
+        "Fintech",
+        "Financial Services",
+        "eCommerce",
+        "Higher Education",
+        "B2B",
+        "Healthcare"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "nogood",
+          "rank_in_source": 9,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 70,
+      "name": "NinjaPromo",
+      "slug": "ninjapromo",
+      "category": "independent",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 2017,
+      "employees_min": 110,
+      "employees_max": 110,
+      "website": "https://ninjapromo.io/",
+      "description": "Full-stack Fintech/Crypto agency; Marketing-as-a-Service subscription; offices on 5 continents.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Social Media Marketing",
+        "SEO",
+        "Paid Advertising",
+        "Influencer",
+        "PR",
+        "Video Production",
+        "Content",
+        "Community Management",
+        "Web Dev",
+        "Mobile App Dev"
+      ],
+      "clients": [
+        "HTX",
+        "Damex"
+      ],
+      "industries": [
+        "Fintech",
+        "Crypto",
+        "B2B",
+        "SaaS",
+        "Healthcare",
+        "Gaming",
+        "eCommerce"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "nogood",
+          "rank_in_source": 4,
+          "notes": null
+        },
+        {
+          "source": "valkordigital",
+          "rank_in_source": 7,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "name": "NoGood",
+      "slug": "nogood",
+      "category": "independent",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 2017,
+      "employees_min": 11,
+      "employees_max": 50,
+      "website": "https://nogood.io",
+      "description": "Growth agency for SaaS, fintech and DTC brands.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Goodie"
+      ],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$12,000/mo",
+      "notes": null,
+      "services": [
+        "Growth Marketing",
+        "Paid Media",
+        "SEO",
+        "CRO",
+        "Fintech Marketing",
+        "Paid Acquisition",
+        "Creative Strategy",
+        "Paid Search",
+        "Paid Social",
+        "TikTok Ads",
+        "LinkedIn Ads",
+        "YouTube Ads",
+        "Growth Strategy",
+        "Funnel Optimization",
+        "Marketing Analytics",
+        "Landing Page Design",
+        "Email Marketing",
+        "AEO",
+        "Organic Social",
+        "Social Ads",
+        "Performance Branding",
+        "Lifecycle Marketing",
+        "Content",
+        "Video",
+        "SEO & Content",
+        "Influencer",
+        "Email",
+        "Analytics & Growth Strategy"
+      ],
+      "clients": [
+        "Nike",
+        "TikTok",
+        "P&G",
+        "Amazon",
+        "American Express",
+        "Intuit",
+        "Merlin",
+        "Payzer",
+        "Lark Suite"
+      ],
+      "industries": [
+        "SaaS",
+        "Mobile Apps",
+        "FinTech",
+        "HealthTech",
+        "EdTech",
+        "Consumer Technology",
+        "Marketplace Platforms",
+        "Gaming",
+        "DTC Software",
+        "Subscription Services",
+        "B2B",
+        "Consumer",
+        "Healthcare"
+      ],
+      "tools": [
+        {
+          "tool_name": "Goodie",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 16,
+          "notes": null
+        },
+        {
+          "source": "nogood",
+          "rank_in_source": 1,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 3,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 114,
+      "name": "NucleosysTech",
+      "slug": "nucleosystech",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 42,
+      "employees_max": 42,
+      "website": "https://nucleosystech.com",
+      "description": "Performance marketing agency. Score 29.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.3,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 42,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 92,
+      "name": "Omega Digital",
+      "slug": "omega-digital",
+      "category": "independent",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 212,
+      "employees_max": 212,
+      "website": "https://omegadigital.org",
+      "description": "Performance marketing agency. Score 32.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "PPC"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 20,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Omnicom Group",
+      "slug": "omnicom-group",
+      "category": "network",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 1986,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.omnicomgroup.com",
+      "description": "Holding company owning BBDO, DDB, TBWA, OMD; data arm Annalect.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Annalect"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Annalect",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": []
+    },
+    {
+      "id": 72,
+      "name": "Optimist",
+      "slug": "optimist",
+      "category": "specialist",
+      "hq": "Denver, CO, USA",
+      "country": "USA",
+      "founded": 2016,
+      "employees_min": 10,
+      "employees_max": 25,
+      "website": "https://optimistinc.com/",
+      "description": "B2B content agency; focuses on proprietary research/data assets and 'follow the money' methodology.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Content Marketing",
+        "SEO & GEO",
+        "Thought Leadership",
+        "Sales Enablement",
+        "Data Studies & Research"
+      ],
+      "clients": [],
+      "industries": [
+        "Fintech",
+        "HR Tech",
+        "Health Tech",
+        "Retail Tech",
+        "B2B SaaS"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "nogood",
+          "rank_in_source": 6,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 140,
+      "name": "PMG",
+      "slug": "pmg",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://pmgi.com",
+      "description": "Independent full-service digital agency.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.4,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Full-service Digital",
+        "Performance Media",
+        "Creative",
+        "Analytics"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "strategyeye",
+          "rank_in_source": 11,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "name": "PartnerCentric",
+      "slug": "partnercentric",
+      "category": "independent",
+      "hq": "New York, NY, USA (Remote)",
+      "country": "USA",
+      "founded": 2017,
+      "employees_min": 51,
+      "employees_max": 200,
+      "website": "https://partnercentric.com",
+      "description": "USA's largest independent partner/affiliate marketing agency (WBE-certified).",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Control Suite"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Partnership Marketing",
+        "Affiliate Marketing",
+        "Affiliate Management",
+        "Affiliate Recruitment",
+        "Control Suite"
+      ],
+      "clients": [
+        "Handy",
+        "VSP",
+        "Upwork",
+        "The Motley Fool",
+        "Leomonade",
+        "Hims",
+        "CheapAir.com",
+        "HelloDivorce"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Control Suite",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 2,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "name": "Perform[cb] Agency",
+      "slug": "perform-cb-agency",
+      "category": "independent",
+      "hq": "Sarasota, FL, USA",
+      "country": "USA",
+      "founded": 2002,
+      "employees_min": 51,
+      "employees_max": 200,
+      "website": "https://performcb.com",
+      "description": "Performance & affiliate marketing agency; platform-agnostic tracking (Impact, Partnerize, Rakuten); 95% client retention.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Outcome Engine"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Affiliate Marketing & Management",
+        "Web & Mobile App Development/Distribution",
+        "Content Marketing",
+        "Audits/Research/Planning",
+        "Insights & Analytics",
+        "Strategy Development",
+        "Custom Scalable Programs"
+      ],
+      "clients": [
+        "Mizuno",
+        "Dooney & Bourke",
+        "Hungryroot",
+        "Quest Diagnostics",
+        "Babbel",
+        "Ancient Nutrition",
+        "Kids2",
+        "Keeps",
+        "Naturepedic",
+        "JustAnswer",
+        "Talkspace"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Outcome Engine",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 1,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Performics",
+      "slug": "performics",
+      "category": "network",
+      "hq": "Chicago, IL, USA",
+      "country": "USA",
+      "founded": 1998,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.performics.com",
+      "description": "Performance and commerce agency within Publicis Groupe.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Apollo",
+        "HVT"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.6,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Media",
+        "Commerce",
+        "SEO",
+        "Content"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Apollo",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "HVT",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "strategyeye",
+          "rank_in_source": 5,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 110,
+      "name": "PixelCrayons",
+      "slug": "pixelcrayons",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 62,
+      "employees_max": 62,
+      "website": "https://pixelcrayons.com",
+      "description": "Performance marketing agency. Score 29.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.3,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Web Dev",
+        "Performance Marketing",
+        "SEO"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 38,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Power Digital",
+      "slug": "power-digital",
+      "category": "independent",
+      "hq": "San Diego, CA, USA",
+      "country": "USA",
+      "founded": 2012,
+      "employees_min": 500,
+      "employees_max": 500,
+      "website": "https://powerdigital.com",
+      "description": "Full-funnel performance marketing agency with proprietary tech.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "NOVA"
+      ],
+      "uses_open_source": 1,
+      "open_source_stack": [
+        "Python",
+        "dbt",
+        "Apache Airflow",
+        "Metabase"
+      ],
+      "rating": null,
+      "min_project_cost": "$10,000/mo",
+      "notes": "NOVA is a proprietary AI marketing-intelligence OS.",
+      "services": [
+        "SEO",
+        "Paid Media",
+        "CRO",
+        "Content",
+        "Amazon",
+        "Content Marketing",
+        "Social Media Marketing",
+        "Influencer Marketing",
+        "Email Marketing",
+        "Social Media Advertising",
+        "Creative Services",
+        "Web Development",
+        "Marketing Analytics",
+        "Public Relations",
+        "Conversion Optimization",
+        "Paid Social & Search",
+        "SEO & Content",
+        "PR & Influencer",
+        "Affiliate",
+        "Email & SMS",
+        "Creative",
+        "Analytics (Nova)"
+      ],
+      "clients": [
+        "Hydro Flask",
+        "Perfect Bar",
+        "Casper",
+        "Purple",
+        "Stance",
+        "Unilever",
+        "P&G",
+        "Beyond Meat",
+        "Spanx"
+      ],
+      "industries": [
+        "Technology",
+        "Consumer Brands",
+        "eCommerce",
+        "FinTech",
+        "HealthTech",
+        "Mobile Apps",
+        "Professional Services",
+        "Media",
+        "Entertainment",
+        "DTC Brands"
+      ],
+      "tools": [
+        {
+          "tool_name": "NOVA",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Python",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "dbt",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Apache Airflow",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Metabase",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 18,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 9,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Publicis Groupe",
+      "slug": "publicis-groupe",
+      "category": "network",
+      "hq": "Paris, France",
+      "country": "France",
+      "founded": 1926,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.publicisgroupe.com",
+      "description": "Holding company owning Leo Burnett, Saatchi & Saatchi, Publicis Sapient, Performics, Epsilon.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Epsilon",
+        "Marcel",
+        "Performics Apollo"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Epsilon",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Marcel",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Performics Apollo",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": []
+    },
+    {
+      "id": 42,
+      "name": "Quisma",
+      "slug": "quisma",
+      "category": "network",
+      "hq": "Munich, Germany",
+      "country": "Germany",
+      "founded": 2001,
+      "employees_min": 51,
+      "employees_max": 200,
+      "website": "https://quisma.com/",
+      "description": "German-market specialist; part of GroupM/WPP.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.1,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Performance Display",
+        "Programmatic Advertising",
+        "Affiliate Marketing",
+        "SEO",
+        "Conversion Optimization",
+        "Social Media Marketing"
+      ],
+      "clients": [
+        "Adobe",
+        "Bank of Scotland",
+        "Expedia"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 11,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "R/GA",
+      "slug": "r-ga",
+      "category": "specialist",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 1977,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.rga.com",
+      "description": "Digital-first creative agency (part of IPG).",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": []
+    },
+    {
+      "id": 127,
+      "name": "Rain the Growth Agency",
+      "slug": "rain-the-growth-agency",
+      "category": "independent",
+      "hq": "Portland, OR, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 150,
+      "employees_max": 150,
+      "website": null,
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "TV & OTT",
+        "Media Planning & Buying",
+        "Creative Production",
+        "Analytics & Attribution",
+        "Brand Strategy",
+        "Influencer & Social"
+      ],
+      "clients": [
+        "Peloton",
+        "23andMe",
+        "Humana",
+        "USAA"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 17,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 125,
+      "name": "Refuel Agency",
+      "slug": "refuel-agency",
+      "category": "independent",
+      "hq": "Santa Barbara, CA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 50,
+      "employees_max": 50,
+      "website": null,
+      "description": "Specializes in niche/hard-to-reach audiences (Gen Z, military, multicultural) via exclusive media partnerships.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Proprietary audience data"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Media Planning & Buying",
+        "Influencer",
+        "Digital & Social",
+        "OOH",
+        "Multicultural & Youth Marketing",
+        "Military & Family Strategy"
+      ],
+      "clients": [
+        "U.S. Army",
+        "P&G",
+        "The Ad Council",
+        "HBCUs"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Proprietary audience data",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 14,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Reprise Digital",
+      "slug": "reprise-digital",
+      "category": "network",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://reprisedigital.com",
+      "description": "Global performance marketing agency within IPG Mediabrands.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$20,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Search",
+        "Paid Social",
+        "Programmatic Advertising",
+        "Shopping Campaigns",
+        "Amazon Advertising",
+        "Performance Creative",
+        "Marketing Technology",
+        "Analytics",
+        "International Campaign Management",
+        "Attribution Modelling",
+        "Media Strategy"
+      ],
+      "clients": [
+        "Microsoft",
+        "Levi's",
+        "Johnson & Johnson",
+        "Coca-Cola",
+        "American Airlines"
+      ],
+      "industries": [
+        "Retail",
+        "Automotive",
+        "Technology",
+        "Travel",
+        "Financial Services",
+        "Telecommunications",
+        "Consumer Goods",
+        "Healthcare",
+        "Entertainment",
+        "Consumer Packaged Goods"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 6,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 141,
+      "name": "Resolution Media",
+      "slug": "resolution-media",
+      "category": "network",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://resolutionmedia.com",
+      "description": "Performance media arm of OMG (Omnicom Media Group).",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.3,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Performance Media",
+        "Paid Search",
+        "Paid Social",
+        "Programmatic"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "strategyeye",
+          "rank_in_source": 12,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Rogerwilco",
+      "slug": "rogerwilco",
+      "category": "independent",
+      "hq": "Cape Town, South Africa",
+      "country": "South Africa",
+      "founded": 2008,
+      "employees_min": 11,
+      "employees_max": 50,
+      "website": "http://www.rogerwilco.co.za",
+      "description": "Award-winning South African full-service agency; Google/Drupal/IBM partner.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.7,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Marketing Strategy",
+        "Performance Marketing",
+        "User Experience",
+        "Web Development",
+        "Content Creation"
+      ],
+      "clients": [
+        "eBay",
+        "Hisense",
+        "MSF",
+        "World Economic Forum"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 17,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 95,
+      "name": "Rudra Innovative Software",
+      "slug": "rudra-innovative-software",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 106,
+      "employees_max": 106,
+      "website": "https://rudrainnovative.com",
+      "description": "Performance marketing agency. Score 31.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev",
+        "SEO"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 23,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 94,
+      "name": "SAM WEB STUDIO",
+      "slug": "sam-web-studio",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 32,
+      "employees_max": 32,
+      "website": "https://samwebstudio.com",
+      "description": "Performance marketing agency. Score 31.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Web Design",
+        "Performance Marketing",
+        "SEO"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 22,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 79,
+      "name": "SEO Discovery",
+      "slug": "seo-discovery",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 762,
+      "employees_max": 762,
+      "website": "https://seodiscovery.com",
+      "description": "Best for budget-friendly performance marketing and 24/7 support. Score 47.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.7,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "SEO",
+        "PPC",
+        "Content",
+        "Social",
+        "Email",
+        "CRO"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 7,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 98,
+      "name": "STS Digital Solutions",
+      "slug": "sts-digital-solutions",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 21,
+      "employees_max": 21,
+      "website": "https://stsdigitalsolutions.com",
+      "description": "Performance marketing agency. Score 31.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 26,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 130,
+      "name": "Sculpt",
+      "slug": "sculpt",
+      "category": "specialist",
+      "hq": "Iowa City, IA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 10,
+      "employees_max": 20,
+      "website": null,
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Organic & Paid Social",
+        "Social Strategy",
+        "B2B Content",
+        "LinkedIn Campaigns",
+        "Employee Advocacy",
+        "Reporting"
+      ],
+      "clients": [
+        "HubSpot",
+        "Opendorse",
+        "Blend",
+        "ACT"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 22,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 82,
+      "name": "Searchbloom",
+      "slug": "searchbloom",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 33,
+      "employees_max": 33,
+      "website": "https://searchbloom.com",
+      "description": "Best for combining SEO, PPC, CRO into measurable outcomes. Score 38.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "SEO",
+        "PPC",
+        "CRO"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 10,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 117,
+      "name": "Senate Marketing",
+      "slug": "senate-marketing",
+      "category": "independent",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 10,
+      "employees_max": 10,
+      "website": "https://senate-marketing.com",
+      "description": "Performance marketing agency. Score 29.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.5,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 45,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Siege Media",
+      "slug": "siege-media",
+      "category": "specialist",
+      "hq": "Austin, TX, USA",
+      "country": "USA",
+      "founded": 2012,
+      "employees_min": 50,
+      "employees_max": 50,
+      "website": "https://www.siegemedia.com",
+      "description": "Organic growth/content agency; proprietary DataFlywheel methodology; $148M+ yearly client traffic value.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "DataFlywheel"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Content Marketing",
+        "SEO",
+        "Digital PR",
+        "Interactive Content",
+        "Content Promotion",
+        "AEO",
+        "Web Design",
+        "SEO Strategy",
+        "Content Creation",
+        "Link Building",
+        "Keyword Research",
+        "Technical SEO Audits"
+      ],
+      "clients": [
+        "QuickBooks",
+        "Quicken Loans",
+        "Zillow",
+        "The Zebra",
+        "Stash",
+        "Asana",
+        "Intuit",
+        "Casper"
+      ],
+      "industries": [
+        "Fintech",
+        "eCommerce",
+        "SaaS",
+        "Healthcare",
+        "B2B"
+      ],
+      "tools": [
+        {
+          "tool_name": "DataFlywheel",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "nogood",
+          "rank_in_source": 2,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 21,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 61,
+      "name": "Single Grain",
+      "slug": "single-grain",
+      "category": "independent",
+      "hq": "Los Angeles, CA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://singlegrain.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$10,000/mo",
+      "notes": null,
+      "services": [
+        "Paid Acquisition",
+        "Google Ads",
+        "Facebook Ads",
+        "LinkedIn Ads",
+        "YouTube Ads",
+        "Content Marketing",
+        "SEO",
+        "Podcast Marketing",
+        "Video Marketing",
+        "Marketing Strategy",
+        "Analytics",
+        "Conversion Optimization"
+      ],
+      "clients": [
+        "Amazon",
+        "Uber",
+        "Airbnb",
+        "Salesforce",
+        "Lyft"
+      ],
+      "industries": [
+        "SaaS",
+        "Technology",
+        "Mobile Apps",
+        "B2B Software",
+        "FinTech",
+        "eCommerce Platforms",
+        "Marketing Technology",
+        "Business Software",
+        "Consumer Apps",
+        "Subscription Services"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 22,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "name": "SkyZ Infotech",
+      "slug": "skyz-infotech",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 3,
+      "employees_max": 3,
+      "website": "https://skyzinfotech.com",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 32,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "name": "SmartSites",
+      "slug": "smartsites",
+      "category": "independent",
+      "hq": "Paramus, NJ, USA",
+      "country": "USA",
+      "founded": 2011,
+      "employees_min": 307,
+      "employees_max": 307,
+      "website": "https://www.smartsites.com",
+      "description": "Web design and digital marketing agency.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Web Design",
+        "SEO",
+        "PPC",
+        "CRO",
+        "Social",
+        "Email",
+        "Conversion Optimization",
+        "Ecommerce Marketing",
+        "Social Media"
+      ],
+      "clients": [
+        "Rolls-Royce",
+        "Rakuten",
+        "Porsche",
+        "Harvard University"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 2,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 13,
+          "notes": null
+        },
+        {
+          "source": "valkordigital",
+          "rank_in_source": 4,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 124,
+      "name": "Sociallyin",
+      "slug": "sociallyin",
+      "category": "independent",
+      "hq": "Atlanta, GA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 50,
+      "employees_max": 50,
+      "website": null,
+      "description": "Creative social media agency with in-house production.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Social Media Strategy",
+        "Content Creation",
+        "Paid Social",
+        "Community Management",
+        "Influencer",
+        "Social Media Management"
+      ],
+      "clients": [
+        "Dick's Sporting Goods",
+        "Toyota",
+        "TGI Fridays",
+        "Firehouse Subs"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 5,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 91,
+      "name": "Solvios Technology",
+      "slug": "solvios-technology",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 49,
+      "employees_max": 49,
+      "website": "https://solvios.technology",
+      "description": "Performance marketing agency. Score 32.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 19,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Strike Social",
+      "slug": "strike-social",
+      "category": "independent",
+      "hq": "Chicago, IL, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://strikesocial.com",
+      "description": null,
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Strike Social (proprietary video optimization)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$12,000/mo",
+      "notes": null,
+      "services": [
+        "YouTube Ads",
+        "TikTok Ads",
+        "Facebook Video Ads",
+        "Instagram Video Ads",
+        "Snapchat Video Ads",
+        "Video Creative Strategy",
+        "Creative Production",
+        "Mobile App Marketing",
+        "Performance Analytics",
+        "Audience Targeting",
+        "Creative Testing"
+      ],
+      "clients": [
+        "DoorDash",
+        "Amazon",
+        "Microsoft",
+        "Blizzard Entertainment",
+        "Square Enix"
+      ],
+      "industries": [
+        "Mobile Apps",
+        "Gaming",
+        "Consumer Technology",
+        "FinTech",
+        "HealthTech",
+        "EdTech",
+        "Entertainment",
+        "Subscription Services",
+        "Productivity Software",
+        "Consumer Apps"
+      ],
+      "tools": [
+        {
+          "tool_name": "Strike Social (proprietary video optimization)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 17,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 116,
+      "name": "Supple Digital",
+      "slug": "supple-digital",
+      "category": "independent",
+      "hq": "Australia",
+      "country": "Australia",
+      "founded": null,
+      "employees_min": 34,
+      "employees_max": 34,
+      "website": "https://supple.com.au",
+      "description": "Performance marketing agency. Score 29.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "SEO",
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 44,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "name": "Taktical Digital",
+      "slug": "taktical-digital",
+      "category": "independent",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 2012,
+      "employees_min": 50,
+      "employees_max": 50,
+      "website": "https://taktical.co",
+      "description": "Performance marketing and SEO agency.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "SEO",
+        "Paid Media",
+        "CRO",
+        "Paid Social",
+        "Google Ads & Shopping",
+        "Email & Klaviyo",
+        "Landing Page Optimization",
+        "Analytics & Strategy"
+      ],
+      "clients": [
+        "Do Amore",
+        "BarkBox",
+        "Rachel Zoe",
+        "Artsy"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 29,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 121,
+      "name": "Tenet",
+      "slug": "tenet",
+      "category": "independent",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 18,
+      "employees_max": 18,
+      "website": "https://wearetenet.com",
+      "description": "Performance marketing agency. Score 28.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 49,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 113,
+      "name": "The Go-To Guy",
+      "slug": "the-go-to-guy",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 53,
+      "employees_max": 53,
+      "website": "https://thegotoguy.co",
+      "description": "Performance marketing agency. Score 29.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.4,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Branding"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 41,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "name": "The Goodway Group",
+      "slug": "the-goodway-group",
+      "category": "independent",
+      "hq": "Jenkintown, PA, USA",
+      "country": "USA",
+      "founded": 2006,
+      "employees_min": 201,
+      "employees_max": 500,
+      "website": "https://goodwaygroup.com",
+      "description": "Award-winning digital media agency with proprietary performance-driven ad platform (founded 1919 as a printing business).",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "RealValue"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.3,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Programmatic Media",
+        "Data & Analytics",
+        "Multi-location Digital Marketing",
+        "RealValue Platform"
+      ],
+      "clients": [
+        "Anytime Fitness",
+        "Bagel Brands",
+        "Doordash",
+        "Dr. Pepper",
+        "Friendly's",
+        "Kubota",
+        "Staples",
+        "Subaru"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "RealValue",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 4,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "The Interpublic Group (IPG)",
+      "slug": "the-interpublic-group-ipg",
+      "category": "network",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 1902,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.interpublic.com",
+      "description": "Holding company owning McCann, MullenLowe, FCB, Mediabrands; data arm Acxiom.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Acxiom"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Acxiom",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": []
+    },
+    {
+      "id": 126,
+      "name": "Thrive Internet Marketing Agency",
+      "slug": "thrive-internet-marketing-agency",
+      "category": "independent",
+      "hq": "Dallas, TX, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 200,
+      "employees_max": 200,
+      "website": null,
+      "description": "Trusted partner for franchises/multi-location; no-contract policy.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "SEO",
+        "PPC & Google Ads",
+        "Web Design",
+        "Social Media",
+        "Content",
+        "Online Reputation Management",
+        "PPC",
+        "Social",
+        "Reputation"
+      ],
+      "clients": [
+        "Ready Seal",
+        "Nationwide Construction",
+        "Grow Strong Industries"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 16,
+          "notes": null
+        },
+        {
+          "source": "valkordigital",
+          "rank_in_source": 9,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Tinuiti",
+      "slug": "tinuiti",
+      "category": "independent",
+      "hq": "New York, NY, USA",
+      "country": "USA",
+      "founded": 2004,
+      "employees_min": 1000,
+      "employees_max": 1000,
+      "website": "https://www.tinuiti.com",
+      "description": "Largest independent retail-media and performance agency (Amazon, Meta, Google).",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "(proprietary retail-media automation)",
+        "Mobius"
+      ],
+      "uses_open_source": 1,
+      "open_source_stack": [
+        "Python",
+        "dbt",
+        "Looker"
+      ],
+      "rating": 4.5,
+      "min_project_cost": "$15,000/mo",
+      "notes": "Engineering-led; open-source data stack inferred.",
+      "services": [
+        "Retail Media",
+        "Paid Search",
+        "Paid Social",
+        "Amazon",
+        "CRO",
+        "Google Ads",
+        "Microsoft Ads",
+        "Amazon Advertising",
+        "Facebook Ads",
+        "Instagram Ads",
+        "TikTok Ads",
+        "Snapchat Ads",
+        "Pinterest Ads",
+        "Programmatic Display",
+        "YouTube Ads",
+        "Shopping Campaigns",
+        "Mobile App Marketing",
+        "Marketing Analytics",
+        "Attribution Modelling",
+        "Amazon & Retail Media",
+        "Email & SMS",
+        "Influencer",
+        "CTV",
+        "Analytics & Attribution"
+      ],
+      "clients": [
+        "Rite Aid",
+        "L.L.Bean",
+        "Nissan",
+        "Kate Spade",
+        "Yamaha",
+        "Eddie Bauer",
+        "Etsy",
+        "The Honest Company",
+        "e.l.f. Cosmetics"
+      ],
+      "industries": [
+        "eCommerce",
+        "Retail",
+        "Consumer Goods",
+        "Technology",
+        "Travel",
+        "Financial Services",
+        "Healthcare",
+        "Telecommunications",
+        "Subscription Services",
+        "DTC Brands"
+      ],
+      "tools": [
+        {
+          "tool_name": "(proprietary retail-media automation)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Mobius",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Python",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "dbt",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Looker",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 2,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 2,
+          "notes": null
+        },
+        {
+          "source": "valkordigital",
+          "rank_in_source": 10,
+          "notes": null
+        },
+        {
+          "source": "strategyeye",
+          "rank_in_source": 4,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 129,
+      "name": "Top Growth Marketing",
+      "slug": "top-growth-marketing",
+      "category": "independent",
+      "hq": "Remote-first (USA)",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 10,
+      "employees_max": 20,
+      "website": null,
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Paid Social",
+        "Google Ads & Shopping",
+        "Landing Page Optimization",
+        "Creative Testing",
+        "Email & SMS",
+        "Performance Reporting"
+      ],
+      "clients": [
+        "MUD\\WTR",
+        "Lume Deodorant",
+        "Doe Lashes",
+        "Vive"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 20,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 123,
+      "name": "Tuff",
+      "slug": "tuff",
+      "category": "independent",
+      "hq": "Portland, OR, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 30,
+      "employees_max": 30,
+      "website": null,
+      "description": "Lean, channel-agnostic growth agency for early-stage and scaling brands.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Paid Social",
+        "Paid Search",
+        "SEO",
+        "Content Strategy",
+        "Email",
+        "CRO",
+        "Growth Strategy & Budget Planning"
+      ],
+      "clients": [
+        "Soona",
+        "Upper",
+        "Joyn",
+        "LaunchNotes"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 4,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "name": "Udonis",
+      "slug": "udonis",
+      "category": "specialist",
+      "hq": "Zagreb, Croatia",
+      "country": "Croatia",
+      "founded": 2015,
+      "employees_min": 10,
+      "employees_max": 50,
+      "website": "https://www.udonis.co",
+      "description": "Mobile games and apps user-acquisition agency.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Paid Social",
+        "Mobile UA",
+        "Creative",
+        "Paid Social (Meta, TikTok, Snapchat)",
+        "Mobile Game Marketing",
+        "Creative Production",
+        "User Acquisition",
+        "Media Buying & Campaign Management"
+      ],
+      "clients": [
+        "SYBO",
+        "King",
+        "Voodoo",
+        "Tastypill",
+        "Playsome"
+      ],
+      "industries": [
+        "Mobile Games",
+        "Mobile Apps"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 1,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "name": "Unicorn Innovations",
+      "slug": "unicorn-innovations",
+      "category": "independent",
+      "hq": "San Francisco, CA, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://unicorninnovations.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$15,000/mo",
+      "notes": null,
+      "services": [
+        "Facebook Ads",
+        "Instagram Ads",
+        "TikTok Ads",
+        "Snapchat Ads",
+        "Twitter Ads",
+        "Creative Strategy",
+        "Video Production",
+        "Audience Research",
+        "Media Buying",
+        "Performance Analytics",
+        "Mobile App Marketing",
+        "Influencer Partnerships"
+      ],
+      "clients": [
+        "Robinhood",
+        "Acorns",
+        "Chime",
+        "Credit Karma",
+        "NerdWallet"
+      ],
+      "industries": [
+        "Mobile Apps",
+        "FinTech",
+        "HealthTech",
+        "EdTech",
+        "Consumer Technology",
+        "Gaming",
+        "Subscription Services",
+        "Marketplace Platforms",
+        "Social Apps",
+        "DTC Brands"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 27,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 133,
+      "name": "Valkor Digital",
+      "slug": "valkor-digital",
+      "category": "independent",
+      "hq": "Pakistan & Global",
+      "country": "Pakistan",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://valkordigital.com",
+      "description": "Performance agency pioneering 'Revenue Engineering'; proprietary AI models for Google/Meta/TikTok/Programmatic; server-side (CAPI) tracking.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Proprietary AI ad-buying models"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "SEO",
+        "Web Development",
+        "UI/UX",
+        "Content",
+        "Graphic Design",
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Proprietary AI ad-buying models",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "valkordigital",
+          "rank_in_source": 1,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 100,
+      "name": "Viacon",
+      "slug": "viacon",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 138,
+      "employees_max": 138,
+      "website": "https://viacon.io",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 28,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "name": "Viral Nation",
+      "slug": "viral-nation",
+      "category": "specialist",
+      "hq": "Mississauga, Canada",
+      "country": "Canada",
+      "founded": 2014,
+      "employees_min": 200,
+      "employees_max": 200,
+      "website": "https://viralnation.com",
+      "description": "Influencer and performance marketing agency with owned SaaS.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "InNetwork"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Influencer Marketing",
+        "Paid Social",
+        "Talent",
+        "Paid Social & Digital Media",
+        "Content & Video",
+        "Social Strategy",
+        "Talent Management",
+        "Brand & Creator Partnerships"
+      ],
+      "clients": [
+        "Tencent",
+        "Meta",
+        "Uber",
+        "Aston Martin"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "InNetwork",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 6,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 97,
+      "name": "Virtual Coders",
+      "slug": "virtual-coders",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 44,
+      "employees_max": 44,
+      "website": "https://virtualcoders.net",
+      "description": "Performance marketing agency. Score 31.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 25,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 58,
+      "name": "Voy Media",
+      "slug": "voy-media",
+      "category": "independent",
+      "hq": "Miami, FL, USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://voymedia.com",
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$10,000/mo",
+      "notes": null,
+      "services": [
+        "Facebook Ads",
+        "Instagram Ads",
+        "TikTok Ads",
+        "Snapchat Ads",
+        "Pinterest Ads",
+        "Twitter Ads",
+        "Creative Strategy",
+        "Video Production",
+        "Influencer Partnerships",
+        "Media Buying",
+        "Performance Analytics",
+        "Mobile App Marketing"
+      ],
+      "clients": [
+        "Codecademy",
+        "Udemy",
+        "Grammarly",
+        "Masterclass",
+        "Blinkist"
+      ],
+      "industries": [
+        "Mobile Apps",
+        "Consumer Technology",
+        "DTC Brands",
+        "FinTech",
+        "HealthTech",
+        "Gaming",
+        "EdTech",
+        "Subscription Services",
+        "Marketplace Platforms",
+        "Lifestyle Software"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 14,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 1,
+      "name": "WPP",
+      "slug": "wpp",
+      "category": "network",
+      "hq": "London, UK",
+      "country": "UK",
+      "founded": 1985,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.wpp.com",
+      "description": "World's largest advertising holding company; owns Ogilvy, Grey, VML, GroupM, AKQA, Wunderman Thompson.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "Choreograph",
+        "GroupM (mPlatform/CANVAS)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": "Owns data platform Choreograph and GroupM media tech.",
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "Choreograph",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "GroupM (mPlatform/CANVAS)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "designrush",
+          "rank_in_source": null,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 50,
+      "name": "Web Tonic",
+      "slug": "web-tonic",
+      "category": "independent",
+      "hq": "Dubai, UAE",
+      "country": "UAE",
+      "founded": 2018,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.webtonic.io/",
+      "description": "Global performance marketing agency with 14 international locations; full-funnel paid media, performance branding, SEO, analytics.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": "$3,000/mo",
+      "notes": null,
+      "services": [
+        "Google Ads",
+        "Meta Ads",
+        "Snapchat Ads",
+        "Amazon Ads",
+        "Reddit Ads",
+        "TikTok Ads",
+        "TikTok Shop",
+        "PPC Management",
+        "SEO",
+        "GEO-AEO",
+        "Webflow Design",
+        "Shopify Design",
+        "WordPress Design",
+        "UGC",
+        "Social Media Management",
+        "Marketing Analytics",
+        "Analytics Implementation & CDPs",
+        "Performance Branding",
+        "Performance 360 Audit",
+        "Programmatic Ads",
+        "OOH Ads"
+      ],
+      "clients": [
+        "WorldRemit",
+        "Jack & Jones",
+        "Ardene",
+        "L'Oréal",
+        "Sendwave"
+      ],
+      "industries": [
+        "eCommerce",
+        "SaaS",
+        "B2B",
+        "Finance & Insurance",
+        "Real Estate",
+        "Home Services",
+        "Retail",
+        "Food & Beverages",
+        "Health & Wellness",
+        "Technology",
+        "Professional Services",
+        "Travel",
+        "Entertainment",
+        "Fashion",
+        "Consumer Goods"
+      ],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 3,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 99,
+      "name": "WebDesk Solution LLC",
+      "slug": "webdesk-solution-llc",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 7,
+      "employees_max": 7,
+      "website": "https://webdesksolution.com",
+      "description": "Performance marketing agency. Score 31.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$5,000",
+      "notes": null,
+      "services": [
+        "eCommerce",
+        "Web Dev",
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 27,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "name": "WebFX",
+      "slug": "webfx",
+      "category": "independent",
+      "hq": "Harrisburg, PA, USA",
+      "country": "USA",
+      "founded": 1996,
+      "employees_min": 1195,
+      "employees_max": 1195,
+      "website": "https://www.webfx.com",
+      "description": "Full-service digital marketing agency with proprietary martech.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "MarketingCloudFX"
+      ],
+      "uses_open_source": 1,
+      "open_source_stack": [
+        "Python",
+        "MySQL",
+        "Apache"
+      ],
+      "rating": 4.9,
+      "min_project_cost": "$1,000",
+      "notes": "MarketingCloudFX is a proprietary all-in-one martech suite.",
+      "services": [
+        "SEO",
+        "PPC",
+        "Web Design",
+        "CRO",
+        "Performance Marketing",
+        "Email Automation",
+        "Social Ads",
+        "Analytics",
+        "Content",
+        "Email",
+        "Social Advertising"
+      ],
+      "clients": [
+        "Subaru",
+        "Verizon",
+        "Auntie Anne's",
+        "HydroWorx"
+      ],
+      "industries": [],
+      "tools": [
+        {
+          "tool_name": "MarketingCloudFX",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Python",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "MySQL",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "Apache",
+          "tool_type": "open-source",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 1,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 15,
+          "notes": null
+        },
+        {
+          "source": "valkordigital",
+          "rank_in_source": 5,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 86,
+      "name": "WebiMax",
+      "slug": "webimax",
+      "category": "independent",
+      "hq": "USA",
+      "country": "USA",
+      "founded": null,
+      "employees_min": 23,
+      "employees_max": 23,
+      "website": "https://webimax.com",
+      "description": "Performance marketing agency. Score 35.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "SEO",
+        "PPC",
+        "Reputation",
+        "Performance Marketing"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 14,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 77,
+      "name": "Webskitters",
+      "slug": "webskitters",
+      "category": "independent",
+      "hq": "India",
+      "country": "India",
+      "founded": null,
+      "employees_min": 755,
+      "employees_max": 755,
+      "website": "https://webskitters.com",
+      "description": "Best for small/mid-sized businesses seeking end-to-end digital results. Score 57.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "Digital Marketing",
+        "SEO",
+        "Web & App Dev",
+        "eCommerce",
+        "Branding",
+        "Analytics"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 5,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "Wieden+Kennedy",
+      "slug": "wieden-kennedy",
+      "category": "specialist",
+      "hq": "Portland, OR, USA",
+      "country": "USA",
+      "founded": 1982,
+      "employees_min": null,
+      "employees_max": null,
+      "website": "https://www.wk.com",
+      "description": "Independent creative agency known for Nike.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": []
+    },
+    {
+      "id": 109,
+      "name": "Wireframes Digital",
+      "slug": "wireframes-digital",
+      "category": "independent",
+      "hq": "Global",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 3,
+      "employees_max": 3,
+      "website": "https://wireframesdigital.com",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.8,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 37,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 119,
+      "name": "Wiserbrand",
+      "slug": "wiserbrand",
+      "category": "independent",
+      "hq": "Ukraine",
+      "country": "Ukraine",
+      "founded": null,
+      "employees_min": 69,
+      "employees_max": 69,
+      "website": "https://wiserbrand.com",
+      "description": "Performance marketing agency. Score 28.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.9,
+      "min_project_cost": "$10,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "Outsourced Teams"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 47,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Wpromote",
+      "slug": "wpromote",
+      "category": "independent",
+      "hq": "El Segundo, CA, USA",
+      "country": "USA",
+      "founded": 2001,
+      "employees_min": 500,
+      "employees_max": 500,
+      "website": "https://www.wpromote.com",
+      "description": "Largest independent performance marketing agency in the US.",
+      "has_proprietary_tools": 1,
+      "proprietary_tools": [
+        "(in-house reporting/optimization tech)",
+        "(proprietary cross-channel tech)"
+      ],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 4.4,
+      "min_project_cost": "$12,000/mo",
+      "notes": "Owns in-house tech; specific product names not public.",
+      "services": [
+        "Paid Search",
+        "Paid Social",
+        "Amazon Advertising",
+        "Programmatic Display",
+        "SEO",
+        "Email Marketing",
+        "Creative Services",
+        "Marketing Analytics",
+        "Conversion Rate Optimization",
+        "Marketing Technology",
+        "Attribution Modelling",
+        "Media Planning",
+        "Paid Search & Shopping",
+        "SEO & Content",
+        "Email & Lifecycle",
+        "Amazon",
+        "Creative",
+        "Data & Analytics"
+      ],
+      "clients": [
+        "Adobe",
+        "Zenni Optical",
+        "TransUnion",
+        "Frontier Communications",
+        "BarkBox",
+        "Whirlpool"
+      ],
+      "industries": [
+        "eCommerce",
+        "Technology",
+        "Financial Services",
+        "Healthcare",
+        "Travel",
+        "Retail",
+        "Consumer Goods",
+        "B2B Services",
+        "Professional Services",
+        "Entertainment"
+      ],
+      "tools": [
+        {
+          "tool_name": "(in-house reporting/optimization tech)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        },
+        {
+          "tool_name": "(proprietary cross-channel tech)",
+          "tool_type": "proprietary",
+          "category": null,
+          "url": null
+        }
+      ],
+      "source_ranks": [
+        {
+          "source": "webtonic",
+          "rank_in_source": 1,
+          "notes": null
+        },
+        {
+          "source": "udonis",
+          "rank_in_source": 23,
+          "notes": null
+        },
+        {
+          "source": "strategyeye",
+          "rank_in_source": 6,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 132,
+      "name": "Zima Media",
+      "slug": "zima-media",
+      "category": "independent",
+      "hq": "Remote-first (Global)",
+      "country": "Global",
+      "founded": null,
+      "employees_min": 10,
+      "employees_max": 20,
+      "website": null,
+      "description": null,
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": null,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "SEO Audits",
+        "Google Ads",
+        "Content Strategy",
+        "GA & GTM Setup",
+        "Keyword Research",
+        "Monthly Reporting"
+      ],
+      "clients": [
+        "Dropbox",
+        "WeWork",
+        "Agorapulse",
+        "AppSumo"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "udonis",
+          "rank_in_source": 26,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "name": "Zoewebs",
+      "slug": "zoewebs",
+      "category": "independent",
+      "hq": "Malaysia",
+      "country": "Malaysia",
+      "founded": null,
+      "employees_min": 14,
+      "employees_max": 14,
+      "website": "https://zoewebs.com",
+      "description": "Performance marketing agency. Score 30.",
+      "has_proprietary_tools": null,
+      "proprietary_tools": [],
+      "uses_open_source": null,
+      "open_source_stack": [],
+      "rating": 5.0,
+      "min_project_cost": "$1,000",
+      "notes": null,
+      "services": [
+        "Performance Marketing",
+        "SEO",
+        "Web Dev"
+      ],
+      "clients": [],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "onelittleweb",
+          "rank_in_source": 31,
+          "notes": null
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "name": "iProspect",
+      "slug": "iprospect",
+      "category": "network",
+      "hq": "Boston, MA, USA",
+      "country": "USA",
+      "founded": 1996,
+      "employees_min": 5001,
+      "employees_max": 10000,
+      "website": "https://www.iprospect.com",
+      "description": "Global performance marketing agency within Dentsu; paid search, programmatic, social.",
+      "has_proprietary_tools": 0,
+      "proprietary_tools": [],
+      "uses_open_source": 0,
+      "open_source_stack": [],
+      "rating": 4.1,
+      "min_project_cost": null,
+      "notes": null,
+      "services": [
+        "Paid Search",
+        "Social Media Advertising",
+        "Performance Display",
+        "Data & Insights",
+        "Conversion Optimization",
+        "Native Advertising",
+        "Content Creation"
+      ],
+      "clients": [
+        "Diageo",
+        "GM",
+        "Hilton",
+        "Microsoft",
+        "Sunglass Hut"
+      ],
+      "industries": [],
+      "tools": [],
+      "source_ranks": [
+        {
+          "source": "peertopeer",
+          "rank_in_source": 6,
+          "notes": null
+        },
+        {
+          "source": "strategyeye",
+          "rank_in_source": 8,
+          "notes": null
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "source_id": "designrush",
+  "agencies": [
+    {"name": "Disruptive Advertising", "category": "independent", "hq": "Pleasant Grove, UT, USA", "country": "USA", "rank": 1,
+     "has_proprietary_tools": true, "proprietary_tools": ["Optimize"],
+     "description": "Named Top U.S. Advertising Agency by DesignRush (Mar 2026) for performance marketing excellence."},
+    {"name": "Funnel Boost Media", "category": "independent", "hq": "San Antonio, TX, USA", "country": "USA", "rank": 10,
+     "services": ["SEO", "PPC", "Web Design", "Lead Generation"],
+     "industries": ["Legal", "Healthcare", "Home Services", "Finance", "Automotive"],
+     "description": "Ranked in DesignRush Top 10 Digital Marketing Agencies (March 2026)."}
+  ]
+}
