@@ -1,0 +1,104 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  // SQLite = zero-config, runs immediately. To move to PostgreSQL:
+  //   1. set provider = "postgresql"
+  //   2. change tasks from String (JSON) to String[]
+  //   3. set DATABASE_URL to a postgres connection string
+  //   4. run `npx prisma migrate dev`
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model Agency {
+  id             Int      @id @default(autoincrement())
+  name           String   @unique
+  category       String
+  shortDesc      String
+  goal           String
+  // SQLite has no native array type. Stored as a JSON-encoded string and
+  // (de)serialized in the API layer — the HTTP contract stays `string[]`.
+  tasks          String
+  modelRelevance String
+  campaigns      Campaign[]
+  createdAt      DateTime @default(now())
+  updatedAt      DateTime @updatedAt
+
+  @@index([category])
+}
+
+model Campaign {
+  id        Int       @id @default(autoincrement())
+  name      String
+  status    String    @default("ACTIVE") // ACTIVE | PAUSED | COMPLETED
+  budget    Float     @default(0)
+  agencyId  Int
+  agency    Agency    @relation(fields: [agencyId], references: [id], onDelete: Cascade)
+  adMetrics AdMetric[]
+  seoAudits SeoAudit[]
+  createdAt DateTime  @default(now())
+  updatedAt DateTime  @updatedAt
+
+  @@index([agencyId])
+  @@index([status])
+}
+
+model AdMetric {
+  id          Int      @id @default(autoincrement())
+  campaignId  Int
+  campaign    Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  channel     String   // e.g. "Google Ads", "TikTok Ads", "Meta Ads"
+  budgetSpent Float
+  impressions Int
+  clicks      Int
+  conversions Int
+  revenue     Float
+  loggedAt    DateTime @default(now())
+
+  @@index([campaignId])
+}
+
+model SeoAudit {
+  id         Int      @id @default(autoincrement())
+  campaignId Int
+  campaign   Campaign @relation(fields: [campaignId], references: [id], onDelete: Cascade)
+  targetUrl  String
+  score      Int
+  issues     String   // JSON-encoded string[] (SQLite has no array type)
+  keyword    String
+  density    Float
+  checkedAt  DateTime @default(now())
+
+  @@index([campaignId])
+}
+
+model Influencer {
+  id             Int      @id @default(autoincrement())
+  name           String
+  platform       String   // e.g. "Instagram", "TikTok"
+  handle         String   @unique
+  followers      Int
+  engagementRate Float    // 0.045 = 4.5%
+  costPerPost    Float
+  categories     String   // JSON-encoded string[] (SQLite has no array type)
+  createdAt      DateTime @default(now())
+
+  @@index([platform])
+}
+
+/// OAuth/credential storage for external ad-platform integrations.
+/// Tokens are stored at rest — in production wrap accessToken/refreshToken
+/// with app-level encryption (see README §Security). One row per provider.
+model IntegrationAccount {
+  id           Int      @id @default(autoincrement())
+  provider     String   @unique // "google_ads" | "meta_ads" | "tiktok_ads"
+  externalId   String?  // customer_id / ad_account_id / advertiser_id
+  accessToken  String
+  refreshToken String?
+  tokenExpiry  DateTime?
+  scope        String?
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+}

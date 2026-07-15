@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Agency Directory — 24 Marketing, Media & Advertising Agency Types</title>
+<meta name="description" content="A premium guide to the 24 types of marketing, media and advertising agencies — for models, brands and creatives." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet" />
+<script src="https://cdn.tailwindcss.com"></script>
+<script src="https://unpkg.com/react@18/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+<script src="https://unpkg.com/lucide@latest"></script>
+<script>
+  tailwind.config = {
+    darkMode: 'class',
+    theme: {
+      extend: {
+        fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'] },
+        colors: {
+          ink: { 950: '#08080A', 900: '#0B0B0E', 850: '#101014', 800: '#16161B', 700: '#1E1E24' },
+        },
+        letterSpacing: { ultra: '0.22em' },
+      },
+    },
+  };
+</script>
+<style>
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Inter', system-ui, sans-serif; -webkit-font-smoothing: antialiased; }
+  ::selection { background: rgba(255,255,255,0.18); color: #fff; }
+  /* slim scrollbar */
+  ::-webkit-scrollbar { width: 9px; height: 9px; }
+  ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: rgba(255,255,255,0.10); border-radius: 0; }
+  ::-webkit-scrollbar-thumb:hover { background: rgba(255,255,255,0.22); }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(14px); } to { opacity: 1; transform: none; } }
+  .fade-up { animation: fadeUp 0.5s cubic-bezier(0.22,1,0.36,1) both; }
+  @keyframes fadeIn { from { opacity: 0; } to { opacity: 1; } }
+  .fade-in { animation: fadeIn 0.3s ease both; }
+  @keyframes slideIn { from { transform: translateX(100%); } to { transform: translateX(0); } }
+  .slide-in { animation: slideIn 0.42s cubic-bezier(0.22,1,0.36,1) both; }
+  .grain { background-image: radial-gradient(rgba(255,255,255,0.025) 1px, transparent 1px); background-size: 3px 3px; }
+</style>
+</head>
+<body class="bg-ink-950 text-white antialiased">
+<div id="root"></div>
+
+<script type="text/babel" data-presets="react">
+const { useState, useEffect, useMemo, useCallback, useRef } = React;
+
+/* ───────────────────────────── DATA ───────────────────────────── */
+const AGENCIES = [
+  { id: 1, name: "App Agency", category: "Digital & Web", shortDesc: "Specializes in developing tools, utilities, and platforms for smartphones.", goal: "Create intuitive, high-performance mobile applications that solve problems or engage users.", tasks: ["UI/UX mobile design", "iOS & Android development", "App store optimization (ASO)", "App maintenance"], modelRelevance: "Models are occasionally booked to feature in app promotional videos, UI screenshots, or social media demo campaigns." },
+  { id: 2, name: "Branding Agency", category: "Creative & Design", shortDesc: "Creates and maintains a consistent image, identity, and standard for brands.", goal: "Build a recognizable, consistent, and trusted brand image that can adapt to changing trends.", tasks: ["Corporate identity design", "Logo creation", "Brand style guides", "Rebranding strategies"], modelRelevance: "Very high. When a brand implements new creative ideas in photos, videos, or runway shows, they hire models to represent the new brand identity." },
+  { id: 3, name: "Content Marketing Agency", category: "Marketing & Sales", shortDesc: "Combines content creation with distribution strategies to ensure high visibility.", goal: "Produce valuable, relevant text, photo, and video content that gets clicked and viewed in a crowded media landscape.", tasks: ["Content strategy", "Copywriting & editorial planning", "SEO content production", "Performance distribution"], modelRelevance: "Models are frequently hired for high-volume content shoots, lookbooks, and short-form social video campaigns." },
+  { id: 4, name: "Design Agency", category: "Creative & Design", shortDesc: "Responsible for visual communication, layout, colors, and physical brand touchpoints.", goal: "Ensure a company has an appealing, unified look from logos to product packaging and store layouts.", tasks: ["Graphic design", "Packaging design", "Point of Sale (POS) design", "Image brochures"], modelRelevance: "Models are featured in layout mockups, high-end print brochures, and retail store display banners designed by these agencies." },
+  { id: 5, name: "Digital Agency", category: "Digital & Web", shortDesc: "Forms a unified online brand presence across websites, web apps, and digital channels.", goal: "Create a centralized, cohesive digital footprint for traditional brands transitioning to or expanding online.", tasks: ["Web development", "Digital brand design", "Cross-channel online marketing", "User experience optimization"], modelRelevance: "They manage the final websites and digital platforms where model campaign photos and videos are displayed." },
+  { id: 6, name: "Dialog Marketing Agency", category: "Marketing & Sales", shortDesc: "Focuses on direct, personal communication with targeted customer groups.", goal: "Establish a direct line of communication between the brand and potential buyers to drive actions.", tasks: ["Direct mail campaigns", "Newsletter marketing", "Customer relationship management (CRM)", "Telemarketing"], modelRelevance: "Models appear in direct mail catalogs, personalized email campaigns, and customized digital newsletters." },
+  { id: 7, name: "E-commerce Agency", category: "Digital & Web", shortDesc: "Develops and optimizes digital storefronts and marketplaces.", goal: "Ensure online shoppers have a seamless, worry-free shopping experience that maximizes sales.", tasks: ["Online shop development", "Shop system integration (Shopify, Magento)", "Conversion rate optimization", "Marketplace management"], modelRelevance: "Highly relevant. Models are hired to shoot e-commerce catalog photos, showing off clothes or products in clean studio lighting." },
+  { id: 8, name: "Event Agency", category: "Media & Strategy", shortDesc: "Promotes topics, products, or brands through live, experiential events.", goal: "Create memorable, real-world experiences that generate press, social media buzz, and word-of-mouth.", tasks: ["Event planning & execution", "Guest management", "Set design & production", "PR event coordination"], modelRelevance: "Models are booked as runway models, hostesses, or brand ambassadors to interact with high-profile guests at live events." },
+  { id: 9, name: "Full Service Agency", category: "Creative & Design", shortDesc: "An agency that handles campaigns from start to finish under one roof.", goal: "Develop and implement customized 360-degree advertising campaigns that reach the target audience across all mediums.", tasks: ["Campaign planning", "Creative conception", "Media buying", "Production execution"], modelRelevance: "Models work with full-service agencies on major campaigns, from initial castings and test shoots to the final commercial productions." },
+  { id: 10, name: "Inbound Marketing Agency", category: "Marketing & Sales", shortDesc: "Draws customers in through helpful, organic, and highly targeted digital content.", goal: "Build brand reach to secure conversions, such as booking workshops, buying tickets, or ordering online items.", tasks: ["Lead generation", "Search engine optimization (SEO)", "Marketing automation", "Funnel building"], modelRelevance: "Models are booked for landing page visual assets, educational video courses, and digital lead magnets." },
+  { id: 11, name: "Influencer Marketing Agency", category: "Marketing & Sales", shortDesc: "Leverages the reach and trust of social media personalities to promote brands.", goal: "Charge a brand with positive image associations by partnering with trusted community influencers.", tasks: ["Influencer scouting", "Campaign management", "Contract negotiation", "Reporting & analytics"], modelRelevance: "Many models also act as micro-influencers. These agencies frequently book models who have built a strong personal brand on social media." },
+  { id: 12, name: "Internet & Web Agency", category: "Digital & Web", shortDesc: "Creates websites, platforms, and online storefronts for businesses.", goal: "Establish a strong, functional technical presence for brands on the World Wide Web.", tasks: ["Web design & UI/UX", "Frontend & Backend development", "Website hosting & security", "CMS integration"], modelRelevance: "While rarely present at shoots, they build the digital portfolios, websites, and agency booking portals where models are showcased." },
+  { id: 13, name: "Communication Agency", category: "Media & Strategy", shortDesc: "Specializes in strategically formulating and delivering brand messages across channels.", goal: "Reach audiences by packaging and reformulating brand messages through tailored media work.", tasks: ["Communications strategy", "Media relations", "Crisis management", "Content production"], modelRelevance: "Models often interact with communication strategists during major commercial launches, press junkets, and brand re-launches." },
+  { id: 14, name: "Creative Agency", category: "Creative & Design", shortDesc: "Develops innovative ideas, concepts, and holistic brand presences.", goal: "Analyze trends, customer demographics, and competitors to design creative concepts for product launches or brand redesigns.", tasks: ["Concept ideation", "Creative direction", "Trend analysis", "Cross-channel design"], modelRelevance: "Very close. Creative directors and art directors from these agencies run the castings, select the models, and direct photo/video shoots." },
+  { id: 15, name: "Media Agency (Planning)", category: "Media & Strategy", shortDesc: "Specializes in the strategic buying and scheduling of advertising space.", goal: "Optimize campaign budgets by buying the most effective ad spaces across TV, print, and digital media.", tasks: ["Media planning", "Ad space negotiation & buying", "Target group analysis", "Performance tracking"], modelRelevance: "While models don't shoot directly for media planners, these agencies decide where the model's face will appear (e.g., billboards, TV, magazines)." },
+  { id: 16, name: "Online Marketing Agency", category: "Marketing & Sales", shortDesc: "Builds targeted online reach and drives direct customer actions.", goal: "Develop digital strategies to secure online sign-ups, newsletter subscriptions, or e-commerce purchases.", tasks: ["Email marketing", "Social ads", "Affiliate marketing", "Digital strategy"], modelRelevance: "Models are booked to shoot high-converting imagery for display ads, promotional emails, and online sales banners." },
+  { id: 17, name: "Performance Marketing Agency", category: "Marketing & Sales", shortDesc: "Focuses on optimizing digital ads to achieve measurable user actions (conversions).", goal: "Generate immediate, trackable returns on ad spend through targeted online-only marketing campaigns.", tasks: ["Paid search & social ads", "A/B testing creative assets", "Conversion rate optimization", "Web analytics"], modelRelevance: "Models are hired to shoot a variety of quick, expressive photo or video assets that will be A/B tested to see which performs best." },
+  { id: 18, name: "PR Agency", category: "Media & Strategy", shortDesc: "Manages a brand's public image, reputation, and relationship with the press.", goal: "Build public trust and positive media buzz through strategic outreach to journalists, magazines, and influencers.", tasks: ["Press releases", "Media relations", "Press events & conferences", "Reputation management"], modelRelevance: "PR agencies invite models to high-profile brand dinners, red carpet events, and product launches to increase media coverage." },
+  { id: 19, name: "Social Media Agency", category: "Digital & Web", shortDesc: "Manages organic and paid social content on platforms like TikTok, Instagram, and YouTube.", goal: "Build active online communities, generate viral reach, and manage daily brand profiles.", tasks: ["Social media strategy", "Community management", "Short-form video production", "Social ad setup"], modelRelevance: "High relevance. They frequently book models for social media shoots, demanding dynamic, authentic, and fast-paced video content (e.g., UGC style)." },
+  { id: 20, name: "SEO / SEA Agency", category: "Digital & Web", shortDesc: "Optimizes visibility within search engines like Google through organic ranking and paid shopping ads.", goal: "Ensure a brand's products and services rank first when a potential customer searches online.", tasks: ["Keyword research", "On-page & Off-page SEO", "Google Ads management", "Google Shopping optimization"], modelRelevance: "They select and optimize the image tags and product feeds (Google Shopping) where models' product shoots appear." },
+  { id: 21, name: "Strategy Agency", category: "Media & Strategy", shortDesc: "Consults on long-term brand building, future concepts, and massive projects.", goal: "Provide brands with a roadmap for long-term growth, expansion, or establishing completely new concepts.", tasks: ["Market research", "Brand positioning strategies", "Future trend forecasting", "Portfolio restructuring"], modelRelevance: "They set the high-level goals that will eventually dictate the style of models and visual assets the brand will need years down the line." },
+  { id: 22, name: "Management Consulting", category: "Media & Strategy", shortDesc: "Advises executive-level operations to make business lines more profitable.", goal: "Analyze organizational structures, locate inefficiencies, and introduce new business models.", tasks: ["Process optimization", "Financial analysis", "Restructuring advisement", "Operational scale strategy"], modelRelevance: "Indirect. If a consulting firm advises a fashion conglomerate to pivot or scale, it will eventually shift their overall marketing budgets." },
+  { id: 23, name: "Video / Film Agency", category: "Creative & Design", shortDesc: "Handles the conceptualization, shooting, and editing of video materials.", goal: "Create high-end video footage (commercials, campaigns, documentaries) to be used across diverse media channels.", tasks: ["Storyboarding & scripting", "Film production & directing", "Video editing & color grading", "Sound design"], modelRelevance: "Extremely high. Models work directly with film agencies on set for commercial shoots, social videos, and digital video campaigns." },
+  { id: 24, name: "Advertising Agency", category: "Marketing & Sales", shortDesc: "Handles the conceptualization and deployment of multi-channel promotional campaigns.", goal: "Bring awareness, identity, and customer interest to a brand through creative, widespread marketing efforts.", tasks: ["Campaign ideation", "Print, digital, and TV ad production", "Public relations coordination", "Market research"], modelRelevance: "Models are heavily utilized in advertising agency campaigns, appearing in television ads, digital banners, and outdoor billboards." },
+];
+
+const CATEGORIES = ["All", "Creative & Design", "Digital & Web", "Marketing & Sales", "Media & Strategy"];
+
+const CATEGORY_COUNTS = CATEGORIES.reduce((acc, c) => {
+  acc[c] = c === "All" ? AGENCIES.length : AGENCIES.filter(a => a.category === c).length;
+  return acc;
+}, {});
+
+/* ───────────────────────────── ICONS ───────────────────────────── */
+function Icon({ name, className = "w-4 h-4" }) {
+  return <i data-lucide={name} className={className} />;
+}
+
+/* ───────────────────────────── HERO ───────────────────────────── */
+function Hero({ count }) {
+  return (
+    <header className="relative overflow-hidden border-b border-white/10">
+      <div className="grain absolute inset-0 opacity-60 pointer-events-none" />
+      <div className="absolute -top-40 left-1/2 -translate-x-1/2 w-[700px] h-[400px] bg-white/[0.04] blur-[120px] rounded-full pointer-events-none" />
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-10 pt-28 pb-20 sm:pt-36 sm:pb-28">
+        <div className="flex items-center gap-3 mb-8 fade-up">
+          <span className="h-px w-10 bg-white/30" />
+          <span className="text-[11px] tracking-ultra uppercase text-white/50 font-medium">Encyclopedia · For models, brands & creatives</span>
+        </div>
+        <h1 className="fade-up text-5xl sm:text-7xl lg:text-8xl font-extrabold tracking-tight leading-[0.95]" style={{ animationDelay: '0.05s' }}>
+          AGENCY
+          <br />
+          <span className="text-white/40">DIRECTORY</span>
+        </h1>
+        <p className="fade-up mt-8 max-w-xl text-base sm:text-lg text-white/55 leading-relaxed font-light" style={{ animationDelay: '0.1s' }}>
+          A definitive guide to the {count} types of marketing, media and advertising agencies —
+          what each one does, their core goal, key tasks, and how models engage with them in the real world.
+        </p>
+        <div className="fade-up mt-10 flex items-center gap-6 text-xs text-white/40" style={{ animationDelay: '0.15s' }}>
+          <span className="flex items-center gap-2"><Icon name="layers" className="w-3.5 h-3.5" /> {count} agency types</span>
+          <span className="hidden sm:flex items-center gap-2"><Icon name="tag" className="w-3.5 h-3.5" /> {CATEGORIES.length - 1} categories</span>
+          <span className="hidden sm:flex items-center gap-2"><Icon name="search" className="w-3.5 h-3.5" /> live search</span>
+        </div>
+      </div>
+    </header>
+  );
+}
+
+/* ───────────────────────────── CONTROLS ───────────────────────────── */
+function Controls({ query, setQuery, active, setActive }) {
+  return (
+    <div className="sticky top-0 z-30 bg-ink-950/80 backdrop-blur-xl border-b border-white/10">
+      <div className="max-w-7xl mx-auto px-6 sm:px-10 py-5">
+        <div className="flex flex-col lg:flex-row lg:items-center gap-4 lg:gap-6">
+          {/* search */}
+          <div className="relative flex-1 max-w-md">
+            <Icon name="search" className="w-4 h-4 absolute left-4 top-1/2 -translate-y-1/2 text-white/35" />
+            <input
+              type="text"
+              value={query}
+              onChange={(e) => setQuery(e.target.value)}
+              placeholder="Search agencies, tasks, keywords…"
+              className="w-full bg-ink-850 border border-white/10 focus:border-white/40 pl-11 pr-10 py-3 text-sm text-white placeholder-white/30 outline-none transition-colors rounded-none"
+            />
+            {query && (
+              <button
+                onClick={() => setQuery("")}
+                className="absolute right-3 top-1/2 -translate-y-1/2 text-white/35 hover:text-white transition-colors"
+                aria-label="Clear search"
+              >
+                <Icon name="x" className="w-4 h-4" />
+              </button>
+            )}
+          </div>
+          {/* filters */}
+          <div className="flex flex-wrap items-center gap-2">
+            {CATEGORIES.map((c) => {
+              const isActive = active === c;
+              return (
+                <button
+                  key={c}
+                  onClick={() => setActive(c)}
+                  className={
+                    "group inline-flex items-center gap-2 px-3.5 py-2 text-xs font-medium tracking-wide uppercase border transition-all duration-200 rounded-full " +
+                    (isActive
+                      ? "bg-white text-ink-950 border-white"
+                      : "bg-transparent text-white/55 border-white/15 hover:border-white/40 hover:text-white")
+                  }
+                >
+                  {c}
+                  <span className={"text-[10px] " + (isActive ? "text-ink-950/60" : "text-white/30")}>
+                    {CATEGORY_COUNTS[c]}
+                  </span>
+                </button>
+              );
+            })}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+/* ───────────────────────────── CARD ───────────────────────────── */
+function AgencyCard({ agency, index, onOpen }) {
+  const num = String(agency.id).padStart(2, "0");
+  return (
+    <button
+      onClick={() => onOpen(agency)}
+      className="fade-up group relative text-left bg-ink-900 border border-white/10 hover:border-white/45 hover:bg-ink-850 p-6 sm:p-7 transition-all duration-300 hover:scale-[1.015] focus:outline-none focus:border-white/45"
+      style={{ animationDelay: `${Math.min(index * 35, 400)}ms` }}
+    >
+      <div className="flex items-start justify-between mb-5">
+        <span className="text-xs font-mono text-white/30 tabular-nums">{num}</span>
+        <span className="inline-flex items-center text-[10px] tracking-ultra uppercase text-white/50 border border-white/15 px-2.5 py-1 rounded-full group-hover:border-white/30 group-hover:text-white/70 transition-colors">
+          {agency.category}
+        </span>
+      </div>
+      <h3 className="text-xl font-semibold tracking-tight text-white mb-2.5 pr-6">
+        {agency.name}
+      </h3>
+      <p className="text-sm text-white/50 leading-relaxed font-light line-clamp-2">
+        {agency.shortDesc}
+      </p>
+      <div className="mt-6 flex items-center gap-1.5 text-xs text-white/40 group-hover:text-white transition-colors">
+        <span>Explore</span>
+        <Icon name="arrow-up-right" className="w-3.5 h-3.5 group-hover:translate-x-0.5 group-hover:-translate-y-0.5 transition-transform" />
+      </div>
+    </button>
+  );
+}
+
+/* ───────────────────────────── DRAWER ───────────────────────────── */
+function Drawer({ agency, onClose }) {
+  useEffect(() => {
+    const onKey = (e) => { if (e.key === "Escape") onClose(); };
+    window.addEventListener("keydown", onKey);
+    document.body.style.overflow = "hidden";
+    return () => {
+      window.removeEventListener("keydown", onKey);
+      document.body.style.overflow = "";
+    };
+  }, [onClose]);
+
+  if (!agency) return null;
+  const num = String(agency.id).padStart(2, "0");
+
+  return (
+    <div className="fixed inset-0 z-50">
+      {/* backdrop */}
+      <div className="absolute inset-0 bg-black/70 backdrop-blur-sm fade-in" onClick={onClose} />
+      {/* panel */}
+      <div className="absolute right-0 top-0 h-full w-full sm:max-w-lg bg-ink-900 border-l border-white/10 slide-in overflow-y-auto">
+        <div className="sticky top-0 z-10 flex items-center justify-between px-7 sm:px-9 py-5 bg-ink-900/90 backdrop-blur-md border-b border-white/10">
+          <span className="text-xs font-mono text-white/35 tabular-nums">№ {num} / 24</span>
+          <button
+            onClick={onClose}
+            className="flex items-center gap-2 text-xs uppercase tracking-wide text-white/50 hover:text-white border border-white/15 hover:border-white/40 px-3 py-1.5 rounded-full transition-colors"
+            aria-label="Close"
+          >
+            Close <Icon name="x" className="w-3.5 h-3.5" />
+          </button>
+        </div>
+
+        <div className="px-7 sm:px-9 py-9">
+          <span className="inline-flex items-center text-[10px] tracking-ultra uppercase text-white/60 border border-white/20 px-3 py-1 rounded-full mb-6">
+            {agency.category}
+          </span>
+          <h2 className="text-3xl sm:text-4xl font-extrabold tracking-tight leading-[1.05] mb-4">
+            {agency.name}
+          </h2>
+          <p className="text-white/55 leading-relaxed font-light">{agency.shortDesc}</p>
+
+          <div className="mt-10 space-y-9">
+            {/* core goal */}
+            <section>
+              <Label icon="target" text="Core Goal" />
+              <p className="mt-3 text-white/75 leading-relaxed">{agency.goal}</p>
+            </section>
+
+            {/* key tasks */}
+            <section>
+              <Label icon="list-checks" text="Key Tasks" />
+              <ul className="mt-4 grid grid-cols-1 gap-2.5">
+                {agency.tasks.map((t, i) => (
+                  <li key={i} className="flex items-start gap-3 text-sm text-white/70">
+                    <span className="mt-2 h-1 w-1 bg-white/40 shrink-0" />
+                    {t}
+                  </li>
+                ))}
+              </ul>
+            </section>
+
+            {/* model relevance */}
+            <section className="border border-white/10 bg-ink-850 p-5">
+              <Label icon="user-round" text="Model Relevance" />
+              <p className="mt-3 text-white/70 leading-relaxed text-sm">{agency.modelRelevance}</p>
+            </section>
+          </div>
+
+          <div className="mt-12 pt-6 border-t border-white/10 flex items-center justify-between">
+            <button
+              onClick={onClose}
+              className="inline-flex items-center gap-2 text-xs uppercase tracking-wide text-white/45 hover:text-white transition-colors"
+            >
+              <Icon name="arrow-left" className="w-4 h-4" /> Back to directory
+            </button>
+            <span className="text-[10px] tracking-ultra uppercase text-white/25">Agency Directory</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+function Label({ icon, text }) {
+  return (
+    <div className="flex items-center gap-2.5 text-white/45">
+      <Icon name={icon} className="w-3.5 h-3.5" />
+      <span className="text-[10px] tracking-ultra uppercase font-medium">{text}</span>
+    </div>
+  );
+}
+
+/* ───────────────────────────── EMPTY ───────────────────────────── */
+function EmptyState({ onReset }) {
+  return (
+    <div className="text-center py-28 px-6">
+      <div className="inline-flex items-center justify-center w-14 h-14 border border-white/10 mb-6">
+        <Icon name="search-x" className="w-6 h-6 text-white/40" />
+      </div>
+      <h3 className="text-lg font-semibold text-white/80">No agencies found</h3>
+      <p className="mt-2 text-sm text-white/40">Try a different keyword or category.</p>
+      <button
+        onClick={onReset}
+        className="mt-6 inline-flex items-center gap-2 text-xs uppercase tracking-wide text-white/70 hover:text-white border border-white/15 hover:border-white/40 px-4 py-2 rounded-full transition-colors"
+      >
+        Reset filters
+      </button>
+    </div>
+  );
+}
+
+/* ───────────────────────────── APP ───────────────────────────── */
+function App() {
+  const [query, setQuery] = useState("");
+  const [active, setActive] = useState("All");
+  const [selected, setSelected] = useState(null);
+
+  const filtered = useMemo(() => {
+    const q = query.trim().toLowerCase();
+    return AGENCIES.filter((a) => {
+      const inCat = active === "All" || a.category === active;
+      if (!inCat) return false;
+      if (!q) return true;
+      const hay = (a.name + " " + a.shortDesc + " " + a.goal + " " + a.category + " " + a.tasks.join(" ") + " " + a.modelRelevance).toLowerCase();
+      return hay.includes(q);
+    });
+  }, [query, active]);
+
+  const openAgency = useCallback((a) => setSelected(a), []);
+  const closeDrawer = useCallback(() => setSelected(null), []);
+  const reset = useCallback(() => { setQuery(""); setActive("All"); }, []);
+
+  // re-render lucide icons after every paint
+  useEffect(() => {
+    if (window.lucide) window.lucide.createIcons();
+  });
+
+  return (
+    <div className="min-h-screen bg-ink-950">
+      <Hero count={AGENCIES.length} />
+      <Controls query={query} setQuery={setQuery} active={active} setActive={setActive} />
+
+      <main className="max-w-7xl mx-auto px-6 sm:px-10 py-12 sm:py-16">
+        <div className="flex items-center justify-between mb-8">
+          <p className="text-sm text-white/45">
+            Showing <span className="text-white font-medium tabular-nums">{filtered.length}</span> of {AGENCIES.length}
+          </p>
+        </div>
+
+        {filtered.length === 0 ? (
+          <EmptyState onReset={reset} />
+        ) : (
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 sm:gap-5">
+            {filtered.map((a, i) => (
+              <AgencyCard key={a.id} agency={a} index={i} onOpen={openAgency} />
+            ))}
+          </div>
+        )}
+      </main>
+
+      <footer className="border-t border-white/10 mt-10">
+        <div className="max-w-7xl mx-auto px-6 sm:px-10 py-10 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-white/35">
+          <span className="tracking-wide">AGENCY DIRECTORY · 24 marketing, media & advertising agency types</span>
+          <span className="tracking-ultra uppercase">Encyclopedia Edition</span>
+        </div>
+      </footer>
+
+      {selected && <Drawer agency={selected} onClose={closeDrawer} />}
+    </div>
+  );
+}
+
+ReactDOM.createRoot(document.getElementById("root")).render(<App />);
+</script>
+</body>
+</html>

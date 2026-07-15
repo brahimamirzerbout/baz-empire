@@ -1,0 +1,101 @@
+{
+  "clientName": "Acme SaaS",
+  "generatedAt": "2026-07-15T20:08:33.631Z",
+  "primaryChannel": "meta",
+  "markets": [
+    "EU",
+    "US"
+  ],
+  "monthlyAttributedRevenue": 250000,
+  "totalMonthlyLeak": 130000,
+  "totalAnnualLeak": 1560000,
+  "guaranteeMet": true,
+  "auditFee": 5000,
+  "leaks": [
+    {
+      "componentId": "capi-meta",
+      "label": "Meta Conversions API (CAPI)",
+      "status": "missing",
+      "effectiveFraction": 0.12,
+      "monthlyLeak": 30000,
+      "annualLeak": 360000,
+      "gdprRelevant": false
+    },
+    {
+      "componentId": "attribution-model",
+      "label": "Attribution model (data-driven, not last-click)",
+      "status": "missing",
+      "effectiveFraction": 0.1,
+      "monthlyLeak": 25000,
+      "annualLeak": 300000,
+      "gdprRelevant": false
+    },
+    {
+      "componentId": "lifecycle-events",
+      "label": "Lifecycle/revenue events (LTV, refund, churn)",
+      "status": "missing",
+      "effectiveFraction": 0.09,
+      "monthlyLeak": 22500,
+      "annualLeak": 270000,
+      "gdprRelevant": false
+    },
+    {
+      "componentId": "mmm-lite",
+      "label": "MMM-lite (media mix modeling, lightweight)",
+      "status": "missing",
+      "effectiveFraction": 0.07,
+      "monthlyLeak": 17500,
+      "annualLeak": 210000,
+      "gdprRelevant": false
+    },
+    {
+      "componentId": "capi-google",
+      "label": "Google Enhanced Conversions",
+      "status": "missing",
+      "effectiveFraction": 0.06,
+      "monthlyLeak": 15000,
+      "annualLeak": 180000,
+      "gdprRelevant": false
+    },
+    {
+      "componentId": "ssgtm",
+      "label": "Server-side GTM (ssGTM)",
+      "status": "partial",
+      "effectiveFraction": 0.04,
+      "monthlyLeak": 10000,
+      "annualLeak": 120000,
+      "gdprRelevant": false
+    },
+    {
+      "componentId": "consent",
+      "label": "Consent management (GDPR/TCPA)",
+      "status": "missing",
+      "effectiveFraction": 0.04,
+      "monthlyLeak": 10000,
+      "annualLeak": 120000,
+      "gdprRelevant": true
+    },
+    {
+      "componentId": "ga4",
+      "label": "GA4 (proper config)",
+      "status": "present",
+      "effectiveFraction": 0,
+      "monthlyLeak": 0,
+      "annualLeak": 0,
+      "gdprRelevant": false
+    }
+  ],
+  "gdprFlags": [
+    {
+      "componentId": "consent",
+      "label": "Consent management (GDPR/TCPA)",
+      "status": "missing",
+      "effectiveFraction": 0.04,
+      "monthlyLeak": 10000,
+      "annualLeak": 120000,
+      "gdprRelevant": true
+    }
+  ],
+  "markdown": "# Revenue Attribution Diagnostic — Acme SaaS\n\n**Generated:** 2026-07-15T20:08:33.628Z\n**Primary paid channel:** meta\n**Markets:** EU, US\n**Monthly attributed revenue (baseline):** $250,000\n\n> 🇪🇺 EU market detected — consent + consent-mode are **non-optional** (GDPR).\n\n## Headline\n\n| Metric | Value |\n|---|---|\n| Estimated monthly revenue leak | **$130,000** |\n| Estimated annual revenue leak | **$1,560,000** |\n| Audit fee | $5,000 |\n| 10× guarantee | MET |\n\n> ✅ **Guarantee met:** estimated annual leak ($1,560,000) ≥ 10× audit fee ($5,000). You pay.\n\n## Tracking Default audit\n\n| | Component | Status | Effective leak | Annual $ |\n|---|---|---|---|---|\n| ❌ | Meta Conversions API (CAPI) | missing | 12.0% | $360,000 |\n| ❌ | Attribution model (data-driven, not last-click) | missing | 10.0% | $300,000 |\n| ❌ | Lifecycle/revenue events (LTV, refund, churn) | missing | 9.0% | $270,000 |\n| ❌ | MMM-lite (media mix modeling, lightweight) | missing | 7.0% | $210,000 |\n| ❌ | Google Enhanced Conversions | missing | 6.0% | $180,000 |\n| 🟡 | Server-side GTM (ssGTM) | partial | 4.0% | $120,000 |\n| ❌ | Consent management (GDPR/TCPA) | missing | 4.0% | $120,000 |\n| ✅ | GA4 (proper config) | present | 0.0% | — |\n\n**Reading the table:** \"present\" = verified firing, 0 leak. \"partial\" = present but\nincomplete, half the risk remains. \"missing\"/\"broken\" = full estimated leak applied.\nLeak fractions are conservative, industry-report-derived and **[composite — to be\nreplaced with BAZ empirical data after the first 10 diagnostics]**.\n\n## What this means\n\nThe single biggest hole is **Meta Conversions API (CAPI)**\n($360,000/yr). Closing the top 3 typically recovers\n**59.6%** of the estimated annual leak — without changing\nad spend, creative, or offer.\n\n> BAZ doctrine: revenue not vanity. We instrument first, then grow. The 90-day plan\n> below sequences the fixes by $ impact.\n",
+  "plan": "# 90-Day Plan — Acme SaaS\n\nSequenced by $ impact. Each fix has a named owner (BAZ) + an exit criterion\n(measurable: the component status moves to \"present\" and the leak drops to 0).\n\n## Days 0–30 — instrument the biggest holes\n  - [ ] Fix **Meta Conversions API (CAPI)** — recovers ~$360,000/yr (12.0% effective leak)\n\n**Exit criterion:** top-2 leaks closed; estimated monthly leak reduced by ≥50%.\n\n## Days 31–60 — close the mid-tier gaps\n  - [ ] Fix **Attribution model (data-driven, not last-click)** — recovers ~$300,000/yr (10.0% effective leak)\n  - [ ] Fix **Lifecycle/revenue events (LTV, refund, churn)** — recovers ~$270,000/yr (9.0% effective leak)\n\n**Exit criterion:** estimated annual leak ≤ $312,000 (80% reduction).\n\n## Days 61–90 — institutionalize + hand off\n  - [ ] Fix **MMM-lite (media mix modeling, lightweight)** — recovers ~$210,000/yr (7.0% effective leak)\n  - [ ] Fix **Google Enhanced Conversions** — recovers ~$180,000/yr (6.0% effective leak)\n  - [ ] Fix **Server-side GTM (ssGTM)** — recovers ~$120,000/yr (4.0% effective leak)\n  - [ ] Fix **Consent management (GDPR/TCPA)** — recovers ~$120,000/yr (4.0% effective leak)\n\n**Exit criterion:**\n  - [ ] BAZ Tracking Default fully \"present\" on the live dashboard\n  - [ ] Client team trained on reading the revenue-not-vanity report\n  - [ ] Decision: convert to Core/Growth retainer or hand off\n\n> Next logical yes (Deiss lifecycle): the diagnostic → retainer. BAZ's offer:\n> Core ($6.5–9.5k/mo, one channel) or Growth ($18–28k/mo, full integrated stack).\n"
+}

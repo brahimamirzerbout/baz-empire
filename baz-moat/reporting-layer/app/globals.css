@@ -1,0 +1,49 @@
+/* Midnight Terminal globals. Dark mode only. Square corners. Minimal CSS for fast LCP. */
+
+* {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #020617;
+  color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Fade-in-up only, <=200ms, reduced-motion aware (see media query above). */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in-up {
+  animation: fadeInUp 200ms ease-out both;
+}
+
+a {
+  color: #22d3ee;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
