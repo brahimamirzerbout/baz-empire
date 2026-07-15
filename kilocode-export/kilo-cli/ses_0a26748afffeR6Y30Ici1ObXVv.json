@@ -1,0 +1,303 @@
+{
+  "source": "kilo-cli",
+  "id": "ses_0a26748afffeR6Y30Ici1ObXVv",
+  "title": "Extend exams.ts with proctoring/analytics helpers (@general subagent)",
+  "slug": "glowing-panda",
+  "directory": "/home/uzer",
+  "agent": "general",
+  "model": "{\"id\":\"glm-5.2\",\"providerID\":\"ollama-cloud\",\"variant\":\"default\"}",
+  "cost": 0.0,
+  "tokens": {
+    "input": 20108,
+    "output": 1858,
+    "reasoning": 0,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "project": {
+    "id": "e4a16a4500faf36321debe50c1b3a647138927d6",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer",
+    "time_created": "2026-07-09T11:40:47.981000+00:00"
+  },
+  "parent_id": "ses_0a3251298ffebNDLte0VGOmQMQ",
+  "workspace_id": null,
+  "path": "",
+  "share_url": null,
+  "summary": {
+    "additions": 0,
+    "deletions": 0,
+    "files": 0,
+    "diffs": null
+  },
+  "time_created": "2026-07-13T22:28:37.330000+00:00",
+  "time_updated": "2026-07-13T22:29:01.812000+00:00",
+  "time_archived": null,
+  "metadata": null,
+  "message_count": 3,
+  "part_count": 11,
+  "todo_count": 0,
+  "lifecycle": [],
+  "todos": [],
+  "messages": [
+    {
+      "id": "msg_f5d98b84d0011mzSxLRI4ijpGl",
+      "time": "2026-07-13T22:28:37.940000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1783981717940
+        },
+        "tools": {
+          "question": false,
+          "interactive_terminal": false,
+          "task": false
+        },
+        "agent": "general",
+        "model": {
+          "providerID": "ollama-cloud",
+          "modelID": "glm-5.2"
+        },
+        "summary": {
+          "diffs": []
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f5d98ba12001eDOBBRNNhLmpjF",
+          "time": "2026-07-13T22:28:38.085000+00:00",
+          "data": {
+            "type": "text",
+            "text": "You are EXTENDING (not rewriting) a TypeScript data file in a Next.js marketing-hub project. This is round 3 of a \"push to the limit\" expansion of a recruiting-grade marketing-exams feature.\n\n## File to edit\n`/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts`\n\nThe file is 2594 lines. Lines 1-165 are the type contract + helpers. Lines 167-2590 are the `EXAMS` array (12 exams, 148 questions — DO NOT TOUCH THIS ARRAY). Lines 2592-2594 are `getExam`.\n\n## DO NOT\n- Do NOT modify the `EXAMS` array or any existing question/exam.\n- Do NOT modify existing exported interfaces/types/functions (`QuestionType`, `Difficulty`, `MCQQuestion`, `TrueFalseQuestion`, `MultiSelectQuestion`, `NumericQuestion`, `Question`, `Exam`, `SkillBand`, `SKILL_BANDS`, `bandFor`, `DIFFICULTY_WEIGHT`, `examMaxWeight`, `isMultiSelect`, `isNumeric`, `AttemptSummary`, `ATTEMPT_CSV_HEADER`, `attemptToCsvRow`, `certificateId`, `getExam`).\n- Do NOT add React/next/DOM imports or use `window`/`localStorage`. Pure TS only.\n- No `any`. Must compile under `tsc --strict` with `noUnusedLocals`/`noUnusedParameters`.\n\n## What to ADD — insert these new exports\n\n### A) Insert a new block IMMEDIATELY AFTER line 165 (after `certificateId`, before `export const EXAMS`) — option/answer shuffle helpers:\n\n```ts\n// ── Option & question shuffling (anti-cheat: randomize option order) ──\n\n// Returns a new options array + a mapping from newIdx -> originalIdx,\n// so the caller can translate the candidate's selected newIdx back to the\n// original correct index. For numeric questions (options: []) returns identity.\nexport function shuffleOptions(q: Question, rng: () => number = Math.random): { options: string[]; indexMap: number[] } {\n  if (q.type === \"numeric\") return { options: [], indexMap: [] };\n  const orig = q.options;\n  const idx = orig.map((_, i) => i);\n  // Fisher-Yates with provided rng\n  for (let i = idx.length - 1; i > 0; i--) {\n    const j = Math.floor(rng() * (i + 1));\n    const tmp = idx[i]!; idx[i] = idx[j]!; idx[j] = tmp;\n  }\n  // indexMap[newIdx] = originalIdx\n  const indexMap = idx;\n  const options = idx.map((i) => orig[i]!);\n  return { options, indexMap };\n}\n\n// Given a shuffled indexMap and the candidate's selected new index/indices,\n// translate back to ORIGINAL indices. For multiselect, maps the array.\nexport function unshuffleAnswer(selected: number | number[], indexMap: number[]): number | number[] {\n  if (Array.isArray(selected)) return selected.map((s) => indexMap[s] ?? s);\n  return indexMap[selected] ?? selected;\n}\n```\n\n### B) Insert AFTER `getExam` (at end of file) — these new exports:\n\n```ts\n// ── Custom exam builder ──\n// A custom exam is assembled from the existing question pool by domain/difficulty/ids.\n\nexport interface CustomExamSpec {\n  title: string;\n  description: string;\n  passingScore: number;\n  durationMinutes: number;\n  // Choose any combination of filters; all present filters are AND-ed.\n  domains?: string[];          // subset of Exam.domain\n  levels?: Array<\"associate\" | \"professional\" | \"expert\">;\n  difficulties?: Difficulty[];\n  skills?: string[];           // subset of Question.skill\n  ids?: string[];              // explicit question ids (highest priority)\n  maxQuestions?: number;       // cap; defaults to all matching\n  seed?: number;               // deterministic shuffle seed for reproducible selection\n}\n\n// Seeded RNG (mulberry32) for deterministic selection.\nfunction mulberry32(seed: number): () => number {\n  let a = seed >>> 0;\n  return function () {\n    a |= 0; a = (a + 0x6D2B79F5) | 0;\n    let t = Math.imul(a ^ (a >>> 15), 1 | a);\n    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t;\n    return ((t ^ (t >>> 14)) >>> 0) / 4294967296;\n  };\n}\n\nexport function buildCustomExam(spec: CustomExamSpec): Exam {\n  const pool: Question[] = [];\n  for (const exam of EXAMS) {\n    for (const q of exam.questions) {\n      if (spec.domains && !spec.domains.includes(exam.domain)) continue;\n      if (spec.levels && !spec.levels.includes(exam.level)) continue;\n      if (spec.difficulties && !spec.difficulties.includes(q.difficulty)) continue;\n      if (spec.skills && !spec.skills.includes(q.skill)) continue;\n      if (spec.ids && !spec.ids.includes(q.id)) continue;\n      pool.push(q);\n    }\n  }\n  const rng = spec.seed != null ? mulberry32(spec.seed) : Math.random;\n  // shuffle pool deterministically\n  for (let i = pool.length - 1; i > 0; i--) {\n    const j = Math.floor(rng() * (i + 1));\n    const tmp = pool[i]!; pool[i] = pool[j]!; pool[j] = tmp;\n  }\n  const max = spec.maxQuestions != null ? spec.maxQuestions : pool.length;\n  const chosen = pool.slice(0, Math.min(max, pool.length));\n  const id = `custom-${fnv1aHex(spec.title + JSON.stringify(spec))}`;\n  // infer domain from the first chosen question's exam domain, else \"Custom\"\n  const domain = chosen.length > 0\n    ? (EXAMS.find((e) => e.questions.includes(chosen[0]!))?.domain ?? \"Custom\")\n    : \"Custom\";\n  const level: Exam[\"level\"] = spec.levels && spec.levels.length === 1 ? spec.levels[0] : \"professional\";\n  return {\n    id,\n    title: spec.title,\n    domain,\n    description: spec.description,\n    durationMinutes: spec.durationMinutes,\n    passingScore: spec.passingScore,\n    level,\n    questions: chosen,\n  };\n}\n\n// All distinct skills across the question pool (for the builder UI).\nexport function allSkills(): string[] {\n  const set = new Set<string>();\n  for (const exam of EXAMS) for (const q of exam.questions) set.add(q.skill);\n  return Array.from(set).sort();\n}\n\n// All distinct domains across EXAMS.\nexport function allDomains(): string[] {\n  return Array.from(new Set(EXAMS.map((e) => e.domain))).sort();\n}\n\n// ── Per-question analytics + difficulty/discrimination index ──\n\nexport interface QuestionAnalytics {\n  questionId: string;\n  examId: string;\n  // p-value: fraction of attempts that got this question (fully) correct.\n  pValue: number;\n  // discrimination index: (correctRate in top scorers) − (correctRate in bottom scorers).\n  // Range [-1, 1]; >0.3 is good, <0.2 is weak, <0 is a red flag.\n  discriminationIndex: number;\n  attempts: number;\n  avgEarnedFraction: number;   // weighted by partial credit, [0,1]\n}\n\n// Each attempt's per-question correctness. The caller passes a normalized view\n// so this function stays pure (no React/DOM).\nexport interface AttemptQuestionScore {\n  questionId: string;\n  earnedFraction: number;  // [0,1] partial credit earned\n  isCorrect: boolean;\n  weightedPercentage: number; // the attempt's overall weighted %\n}\n\nexport function computeQuestionAnalytics(scores: AttemptQuestionScore[]): QuestionAnalytics[] {\n  if (scores.length === 0) return [];\n  // group by question\n  const byQ = new Map<string, AttemptQuestionScore[]>();\n  for (const s of scores) {\n    const arr = byQ.get(s.questionId);\n    if (arr) arr.push(s); else byQ.set(s.questionId, [s]);\n  }\n  // attempt-level overall weighted % to split top/bottom\n  const allScores = scores;\n  // build per-attempt aggregate is not possible here (we only have per-question rows);\n  // so approximate top/bottom using the per-question rows grouped by attempt is NOT available.\n  // Instead: use each question's own earnedFraction distribution — split attempts for THAT\n  // question into top/bottom by their earnedFraction on that question is meaningless.\n  // Correct approach: split attempts into top/bottom scorers using an attempt key.\n  // We require AttemptQuestionScore to carry an attemptId. Add it to the interface above\n  // (see interface — add attemptId: string). Then group by attempt, compute attempt avg,\n  // rank, then for each question compute top/bottom correct rate.\n  ...\n}\n```\n\nWAIT — the `AttemptQuestionScore` interface as drafted lacks `attemptId`, which `computeQuestionAnalytics` needs to rank attempts. FIX THIS in your implementation: add `attemptId: string` to the `AttemptQuestionScore` interface, and implement `computeQuestionAnalytics` correctly:\n\n1. Group all rows by `attemptId` → compute each attempt's average `earnedFraction` (or use the provided `weightedPercentage` if you prefer — but `weightedPercentage` is the attempt's overall, so use it directly per row, then average per attempt is NOT needed: each row already carries the attempt's overall `weightedPercentage`). Use the `weightedPercentage` field on each row as that attempt's overall score.\n2. Sort attempts by their `weightedPercentage` (take the max `weightedPercentage` among that attempt's rows, or since all rows of one attempt share the same `weightedPercentage`, just take any). Split into top 27% and bottom 27% (classic item-analysis rule). If fewer than ~6 attempts, still compute but note low-n.\n3. For each question: `pValue = correctCount / totalAttemptsForQuestion`; `discriminationIndex = (correctInTop / nTop) − (correctInBottom / nBottom)` where correct means `isCorrect`. `avgEarnedFraction = mean(earnedFraction)`.\n4. Return analytics sorted by `discriminationIndex` ascending (weakest items first — most useful for review).\n\nAlso add `examId` to `AttemptQuestionScore` so analytics can attribute. The `QuestionAnalytics.examId` should come from the rows (they all share it for a given question in a single-exam analysis; if mixed, take the first).\n\n### C) Percentile benchmark\n\n```ts\n// Given a weighted percentage and the list of all attempt weighted percentages\n// (same exam, or all exams), return the percentile rank (0-100).\nexport function percentileRank(score: number, allScores: number[]): number {\n  if (allScores.length === 0) return 0;\n  let below = 0;\n  let equal = 0;\n  for (const s of allScores) {\n    if (s < score) below++;\n    else if (s === score) equal++;\n  }\n  // standard percentile rank formula\n  return Math.round(((below + 0.5 * equal) / allScores.length) * 100);\n}\n```\n\n### D) Training recommendations\n\n```ts\nexport interface TrainingRecommendation {\n  skill: string;\n  scorePct: number;\n  band: SkillBand;\n  recommendation: string;\n  suggestedExams: string[];   // exam ids that cover this skill\n}\n\n// Given a skill breakdown from an attempt, return ordered training recs\n// (weakest skills first). Uses allSkills/allDomains to find suggested exams.\nexport function trainingRecommendations(\n  skillBreakdown: Record<string, { correct: number; total: number; pct: number }>,\n): TrainingRecommendation[] {\n  const recs: TrainingRecommendation[] = [];\n  for (const [skill, data] of Object.entries(skillBreakdown)) {\n    const band = bandFor(data.pct);\n    const suggestedExams = EXAMS\n      .filter((e) => e.questions.some((q) => q.skill === skill))\n      .map((e) => e.id);\n    let recommendation: string;\n    if (data.pct >= 85) recommendation = \"Maintain — mastery demonstrated; consider mentoring others.\";\n    else if (data.pct >= 70) recommendation = \"Solid — review 1-2 weak spots and apply in a live project.\";\n    else if (data.pct >= 50) recommendation = \"Develop — take a focused course and practice on real campaigns.\";\n    else recommendation = \"Priority gap — foundational study needed before client-facing work.\";\n    recs.push({ skill, scorePct: data.pct, band, recommendation, suggestedExams });\n  }\n  return recs.sort((a, b) => a.scorePct - b.scorePct);\n}\n```\n\n### E) Certificate verification lookup\n\n```ts\nexport interface VerifiedCertificate {\n  valid: boolean;\n  certificateId: string;\n  examId?: string;\n  examTitle?: string;\n  candidate?: string;\n  percentage?: number;\n  band?: string;\n  passed?: boolean;\n  takenAt?: number;\n}\n\n// Verify a candidate-entered cert ID against a list of attempts.\n// Matches by regenerating the deterministic certificateId for each attempt.\nexport function verifyCertificate(\n  certId: string,\n  attempts: Array<{\n    examId: string;\n    examTitle: string;\n    candidate: string;\n    percentage: number;\n    passed: boolean;\n    takenAt: number;\n    band?: string;\n  }>,\n): VerifiedCertificate {\n  const normalized = certId.trim().toUpperCase();\n  for (const a of attempts) {\n    const id = certificateId(a.examId, a.candidate, a.takenAt);\n    if (id.toUpperCase() === normalized) {\n      return {\n        valid: true,\n        certificateId: id,\n        examId: a.examId,\n        examTitle: a.examTitle,\n        candidate: a.candidate,\n        percentage: a.percentage,\n        band: a.band,\n        passed: a.passed,\n        takenAt: a.takenAt,\n      };\n    }\n  }\n  return { valid: false, certificateId: normalized };\n}\n```\n\n## Implementation notes\n- For `computeQuestionAnalytics`, implement it FULLY and CORRECTLY per the corrected spec above (with `attemptId` and `examId` on `AttemptQuestionScore`). Do NOT leave a `...` placeholder.\n- Make sure `AttemptQuestionScore` includes: `attemptId: string`, `questionId: string`, `examId: string`, `earnedFraction: number`, `isCorrect: boolean`, `weightedPercentage: number`.\n- Reuse `fnv1aHex` (already defined above in the file) inside `buildCustomExam` — do NOT redefine it.\n- All new functions must be exported.\n- Verify there are no unused params (e.g. if a function takes `examId` use it; the `QuestionAnalytics.examId` should be set from the rows).\n\n## Verification\nYou cannot run `tsc` (bash blocked for subagents). Self-review EXTREMELY carefully for:\n- `noUnusedLocals`/`noUnusedParameters` — every new param/local used.\n- `noUncheckedIndexedAccess` is ON in this project (from tsconfig). So `idx[i]` returns `number | undefined` — you MUST handle that (e.g. `idx[i]!` non-null assertion, or guard). The shuffle code I gave uses `idx[i]!` — keep that pattern.\n- The `for (const [skill, data] of Object.entries(...))` — `data` could be undefined under strict? No, `Object.entries` returns `[string, T]` so it's fine.\n- `EXAMS.find(...)?.domain ?? \"Custom\"` — optional chaining OK.\n- `spec.levels[0]` under `noUncheckedIndexedAccess` returns `Difficulty | undefined` — but `level` is `\"associate\"|\"professional\"|\"expert\"`. You have `spec.levels.length === 1` guard first, so use `spec.levels[0]!`.\n\n## Report back\n1. Confirm you ONLY added new exports (didn't touch EXAMS array or existing exports).\n2. List every new exported symbol you added.\n3. Paste the full `computeQuestionAnalytics` function body (the one most likely to have bugs).\n4. Paste the full `buildCustomExam` function body.\n5. Confirm `AttemptQuestionScore` interface includes `attemptId` and `examId`."
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5d98bbe6001yJ89muKNlt5EAP",
+      "time": "2026-07-13T22:28:38.502000+00:00",
+      "data": {
+        "parentID": "msg_f5d98b84d0011mzSxLRI4ijpGl",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 9034,
+          "input": 8929,
+          "output": 105,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783981718502,
+          "completed": 1783981722472
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5d98c60b001JD6cwmXCLX6bPQ",
+          "time": "2026-07-13T22:28:41.100000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5d98c617001bT3SjJ5Vr6lthN",
+          "time": "2026-07-13T22:28:41.112000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "Let me start by reading the relevant parts of the file to understand the structure.",
+            "time": {
+              "start": 1783981721112,
+              "end": 1783981721134
+            }
+          }
+        },
+        {
+          "id": "prt_f5d98c636001EhpPTQ27Vlipyh",
+          "time": "2026-07-13T22:28:41.142000+00:00",
+          "data": {
+            "type": "text",
+            "text": "I'll read the relevant sections of the file first to understand the exact structure and existing helpers.",
+            "time": {
+              "start": 1783981721142,
+              "end": 1783981721873
+            }
+          }
+        },
+        {
+          "id": "prt_f5d98c7c4001B2sqMCqumFOmWu",
+          "time": "2026-07-13T22:28:41.540000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "read",
+            "callID": "call_eayiryin",
+            "state": {
+              "status": "completed",
+              "input": {
+                "filePath": "/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts",
+                "limit": 170
+              },
+              "output": "<path>/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts</path>\n<type>file</type>\n<content>\n1: // Marketing exams data + scoring helpers.\n2: // Pure TypeScript — no React/next imports, no DOM access.\n3: // Compiles under `tsc --strict` with noUnusedLocals / noUnusedParameters.\n4: \n5: export type QuestionType = \"mcq\" | \"truefalse\" | \"multiselect\" | \"numeric\";\n6: export type Difficulty = 1 | 2 | 3;\n7: \n8: export interface MCQQuestion {\n9:   id: string;\n10:   type: \"mcq\";\n11:   prompt: string;\n12:   options: string[];\n13:   correct: number;\n14:   explanation: string;\n15:   skill: string;\n16:   difficulty: Difficulty;\n17: }\n18: \n19: export interface TrueFalseQuestion {\n20:   id: string;\n21:   type: \"truefalse\";\n22:   prompt: string;\n23:   options: string[];\n24:   correct: number;\n25:   explanation: string;\n26:   skill: string;\n27:   difficulty: Difficulty;\n28: }\n29: \n30: export interface MultiSelectQuestion {\n31:   id: string;\n32:   type: \"multiselect\";\n33:   prompt: string;\n34:   options: string[];\n35:   correct: number[];\n36:   explanation: string;\n37:   skill: string;\n38:   difficulty: Difficulty;\n39: }\n40: \n41: export interface NumericQuestion {\n42:   id: string;\n43:   type: \"numeric\";\n44:   prompt: string;\n45:   options: [];\n46:   correct: number;\n47:   tolerance: number;\n48:   unit?: string;\n49:   explanation: string;\n50:   skill: string;\n51:   difficulty: Difficulty;\n52: }\n53: \n54: export type Question =\n55:   | MCQQuestion\n56:   | TrueFalseQuestion\n57:   | MultiSelectQuestion\n58:   | NumericQuestion;\n59: \n60: export interface Exam {\n61:   id: string;\n62:   title: string;\n63:   domain: string;\n64:   description: string;\n65:   durationMinutes: number;\n66:   passingScore: number;\n67:   level: \"associate\" | \"professional\" | \"expert\";\n68:   questions: Question[];\n69: }\n70: \n71: export interface SkillBand {\n72:   min: number;\n73:   max: number;\n74:   band: string;\n75:   label: string;\n76: }\n77: \n78: export const SKILL_BANDS: SkillBand[] = [\n79:   { min: 0, max: 49, band: \"F\", label: \"Junior — fundamentals missing\" },\n80:   { min: 50, max: 64, band: \"D\", label: \"Junior — partial grasp\" },\n81:   { min: 65, max: 74, band: \"C\", label: \"Mid — working knowledge\" },\n82:   { min: 75, max: 84, band: \"B\", label: \"Senior — solid practitioner\" },\n83:   { min: 85, max: 92, band: \"A\", label: \"Lead — strong command\" },\n84:   { min: 93, max: 100, band: \"A+\", label: \"Expert — recruiting-grade mastery\" },\n85: ];\n86: \n87: export function bandFor(score: number): SkillBand {\n88:   return SKILL_BANDS.find((b) => score >= b.min && score <= b.max) ?? SKILL_BANDS[0]!;\n89: }\n90: \n91: export const DIFFICULTY_WEIGHT: Record<Difficulty, number> = { 1: 1, 2: 1.5, 3: 2 };\n92: \n93: export function examMaxWeight(exam: Exam): number {\n94:   return exam.questions.reduce((sum, q) => sum + DIFFICULTY_WEIGHT[q.difficulty], 0);\n95: }\n96: \n97: export function isMultiSelect(q: Question): q is MultiSelectQuestion {\n98:   return q.type === \"multiselect\";\n99: }\n100: \n101: export function isNumeric(q: Question): q is NumericQuestion {\n102:   return q.type === \"numeric\";\n103: }\n104: \n105: export interface AttemptSummary {\n106:   attemptId: string;\n107:   examId: string;\n108:   examTitle: string;\n109:   domain: string;\n110:   candidate: string;\n111:   email: string;\n112:   percentage: number;\n113:   weightedPercentage: number;\n114:   band: string;\n115:   passed: boolean;\n116:   elapsedSeconds: number;\n117:   timedOut: boolean;\n118:   tabSwitches: number;\n119:   takenAt: number;\n120: }\n121: \n122: export const ATTEMPT_CSV_HEADER: string =\n123:   \"attemptId,examId,examTitle,domain,candidate,email,percentage,weightedPercentage,band,passed,elapsedSeconds,timedOut,tabSwitches,takenAt\";\n124: \n125: function csvField(value: string): string {\n126:   const needsQuoting = /[\",\\n\\r]/.test(value);\n127:   if (!needsQuoting) return value;\n128:   return '\"' + value.replace(/\"/g, '\"\"') + '\"';\n129: }\n130: \n131: export function attemptToCsvRow(r: AttemptSummary): string {\n132:   return [\n133:     csvField(r.attemptId),\n134:     csvField(r.examId),\n135:     csvField(r.examTitle),\n136:     csvField(r.domain),\n137:     csvField(r.candidate),\n138:     csvField(r.email),\n139:     String(r.percentage),\n140:     String(r.weightedPercentage),\n141:     csvField(r.band),\n142:     String(r.passed),\n143:     String(r.elapsedSeconds),\n144:     String(r.timedOut),\n145:     String(r.tabSwitches),\n146:     String(r.takenAt),\n147:   ].join(\",\");\n148: }\n149: \n150: // FNV-1a 32-bit → 8 hex chars. Deterministic for identical inputs.\n151: function fnv1aHex(input: string): string {\n152:   let hash = 0x811c9dc5;\n153:   for (let i = 0; i < input.length; i++) {\n154:     hash ^= input.charCodeAt(i);\n155:     // FNV prime multiplication, keep within 32-bit unsigned.\n156:     hash = Math.imul(hash, 0x01000193) >>> 0;\n157:   }\n158:   const hex = (hash >>> 0).toString(16);\n159:   return hex.padStart(8, \"0\").slice(0, 8);\n160: }\n161: \n162: export function certificateId(examId: string, candidate: string, takenAt: number): string {\n163:   const seed = `${examId}|${candidate}|${takenAt}`;\n164:   return `MKT-${fnv1aHex(seed)}`;\n165: }\n166: \n167: export const EXAMS: Exam[] = [\n168:   {\n169:     id: \"fundamentals\",\n170:     title: \"Digital Marketing Fundamentals\",\n\n(Showing lines 1-170 of 2594. Use offset=171 to continue.)\n</content>\n\n<system-reminder>\nInstructions from: /home/uzer/marketing-hub/AGENTS.md\n# AGENTS.md — Marketing Hub (marketing-hub)\n\nMarketing Hub — All-in-One Marketing Command Center. A Next.js + React application.\n\n## Stack\n- Next.js + React (28 dependencies)\n- `next.config.js`, `components.json` (shadcn-style UI), Capacitor (`capacitor.config.json`\n  → mobile packaging), Tailwind/CSS\n- `data/` and `docs/` hold content and documentation\n\n## Common commands\n- `npm run dev` — local dev server\n- `npm run build` — production build\n- `npm run start` — serve the production build\n- `npm run lint` — lint\n- `npm run seed` — seed local data\n\n## Notes for the coding agent (pi)\n- pi is the coding agent for this project.\n- **The working tree is heavily modified (~119 uncommitted changes).** Do NOT run\n  dependency upgrades, `git reset`, or branch-switching here without explicit\n  confirmation — checkpoint first (commit or a safety branch) before destructive ops.\n- Prefer small, targeted edits over broad refactors until the tree is committed.\n- This project had 0 known vulnerabilities and 17 outdated deps at last audit.\n</system-reminder>",
+              "metadata": {
+                "preview": "// Marketing exams data + scoring helpers.\n// Pure TypeScript — no React/next imports, no DOM access.\n// Compiles under `tsc --strict` with noUnusedLocals / noUnusedParameters.\n\nexport type QuestionType = \"mcq\" | \"truefalse\" | \"multiselect\" | \"numeric\";\nexport type Difficulty = 1 | 2 | 3;\n\nexport interface MCQQuestion {\n  id: string;\n  type: \"mcq\";\n  prompt: string;\n  options: string[];\n  correct: number;\n  explanation: string;\n  skill: string;\n  difficulty: Difficulty;\n}\n\nexport interface TrueFalseQuestion {\n  id: string;",
+                "truncated": true,
+                "loaded": [
+                  "/home/uzer/marketing-hub/AGENTS.md"
+                ]
+              },
+              "title": "marketing-hub/src/lib/marketing-tests/exams.ts",
+              "time": {
+                "start": 1783981721582,
+                "end": 1783981722173
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5d98c84a001GcgR3WuHGtOeJN",
+          "time": "2026-07-13T22:28:41.675000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "read",
+            "callID": "call_2h6aary1",
+            "state": {
+              "status": "completed",
+              "input": {
+                "filePath": "/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts",
+                "offset": 2580,
+                "limit": 15
+              },
+              "output": "<path>/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts</path>\n<type>file</type>\n<content>\n2580:           \"They are identical laws.\",\n2581:         ],\n2582:         correct: 1,\n2583:         explanation:\n2584:           \"CAN-SPAM (US) is opt-out: you may send commercial email with a working opt-out + physical address. GDPR (EU) generally requires opt-in consent before sending marketing email. You must satisfy whichever applies to each recipient.\",\n2585:         skill: \"can-spam\",\n2586:         difficulty: 2,\n2587:       },\n2588:     ],\n2589:   },\n2590: ];\n2591: \n2592: export function getExam(id: string): Exam | undefined {\n2593:   return EXAMS.find((e) => e.id === id);\n2594: }\n\n(End of file - total 2594 lines)\n</content>",
+              "metadata": {
+                "preview": "          \"They are identical laws.\",\n        ],\n        correct: 1,\n        explanation:\n          \"CAN-SPAM (US) is opt-out: you may send commercial email with a working opt-out + physical address. GDPR (EU) generally requires opt-in consent before sending marketing email. You must satisfy whichever applies to each recipient.\",\n        skill: \"can-spam\",\n        difficulty: 2,\n      },\n    ],\n  },\n];\n\nexport function getExam(id: string): Exam | undefined {\n  return EXAMS.find((e) => e.id === id);\n}",
+                "truncated": false,
+                "loaded": []
+              },
+              "title": "marketing-hub/src/lib/marketing-tests/exams.ts",
+              "time": {
+                "start": 1783981721706,
+                "end": 1783981722140
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5d98cb0a0015r7xs4qqA6E56N",
+          "time": "2026-07-13T22:28:42.379000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 9034,
+              "input": 8929,
+              "output": 105,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5d98cc3b001LlKmFG2iPD4mwT",
+      "time": "2026-07-13T22:28:42.684000+00:00",
+      "data": {
+        "parentID": "msg_f5d98b84d0011mzSxLRI4ijpGl",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 12932,
+          "input": 11179,
+          "output": 1753,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783981722684,
+          "completed": 1783981741537
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_f5d98d1d10018nBluy9A8j6Smb",
+          "time": "2026-07-13T22:28:44.114000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5d98d207001gbTYm5EH9n2BdS",
+          "time": "2026-07-13T22:28:44.168000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "Now I have the structure. Let me make two edits:\n\n1. Insert shuffle helpers after line 165 (before `export const EXAMS` at line 167).\n2. Insert the rest after line 2594 (after `getExam`).\n\nLet me write the code carefully.\n\nFor `buildCustomExam`, I need to handle `spec.levels[0]` under noUncheckedIndexedAccess. The spec says use `spec.levels[0]!`. But `level` type is `\"associate\" | \"professional\" | \"expert\"`. `spec.levels` is `Array<\"associate\" | \"professional\" | \"expert\">`, so `spec.levels[0]!` gives that type. Good.\n\nFor `computeQuestionAnalytics`: implement fully.\n\nLet me write it.\n\nFor AttemptQuestionScore interface:\n```ts\nexport interface AttemptQuestionScore {\n  attemptId: string;\n  questionId: string;\n  examId: string;\n  earnedFraction: number;\n  isCorrect: boolean;\n  weightedPercentage: number;\n}\n```\n\ncomputeQuestionAnalytics:\n1. Group rows by questionId.\n2. For ranking attempts: build map attemptId -> weightedPercentage (take from any row of that attempt; they share). \n3. Sort attempt ids by weightedPercentage. Split top 27% and bottom 27%.\n4. For each question: pValue = correctCount/totalForQuestion; discriminationIndex = (correctInTop/nTop) - (correctInBottom/nBottom); avgEarnedFraction = mean.\n5. examId from first row of that question.\n6. Sort by discriminationIndex ascending.\n\nLet me write carefully:\n\n```ts\nexport function computeQuestionAnalytics(scores: AttemptQuestionScore[]): QuestionAnalytics[] {\n  if (scores.length === 0) return [];\n\n  // Group rows by question\n  const byQuestion = new Map<string, AttemptQuestionScore[]>();\n  for (const s of scores) {\n    const arr = byQuestion.get(s.questionId);\n    if (arr) arr.push(s);\n    else byQuestion.set(s.questionId, [s]);\n  }\n\n  // Map attemptId -> overall weighted percentage (all rows of an attempt share it)\n  const attemptScore = new Map<string, number>();\n  for (const s of scores) {\n    if (!attemptScore.has(s.attemptId)) {\n      attemptScore.set(s.attemptId, s.weightedPercentage);\n    }\n  }\n\n  // Rank attempts by weighted percentage descending\n  const rankedAttempts = Array.from(attemptScore.entries()).sort(\n    (a, b) => b[1] - a[1],\n  );\n  const nAttempts = rankedAttempts.length;\n  const nQuartile = Math.max(1, Math.round(nAttempts * 0.27));\n  const topAttemptIds = new Set(rankedAttempts.slice(0, nQuartile).map((e) => e[0]));\n  const bottomAttemptIds = new Set(\n    rankedAttempts.slice(Math.max(0, nAttempts - nQuartile)).map((e) => e[0]),\n  );\n\n  const results: QuestionAnalytics[] = [];\n  for (const [questionId, rows] of byQuestion) {\n    const total = rows.length;\n    let correctCount = 0;\n    let earnedSum = 0;\n    let correctTop = 0;\n    let correctBottom = 0;\n    let nTop = 0;\n    let nBottom = 0;\n    let examId = \"\";\n    for (const r of rows) {\n      if (examId === \"\") examId = r.examId;\n      if (r.isCorrect) correctCount++;\n      earnedSum += r.earnedFraction;\n      if (topAttemptIds.has(r.attemptId)) {\n        nTop++;\n        if (r.isCorrect) correctTop++;\n      }\n      if (bottomAttemptIds.has(r.attemptId)) {\n        nBottom++;\n        if (r.isCorrect) correctBottom++;\n      }\n    }\n    const pValue = total > 0 ? correctCount / total : 0;\n    const discriminationIndex =\n      nTop > 0 && nBottom > 0 ? correctTop / nTop - correctBottom / nBottom : 0;\n    const avgEarnedFraction = total > 0 ? earnedSum / total : 0;\n    results.push({\n      questionId,\n      examId,\n      pValue,\n      discriminationIndex,\n      attempts: total,\n      avgEarnedFraction,\n    });\n  }\n\n  results.sort((a, b) => a.discriminationIndex - b.discriminationIndex);\n  return results;\n}\n```\n\nWait, the QuestionAnalytics interface has `examId` as non-optional string. Good. examId initialized to \"\" then set from first row. Since rows non-empty (we pushed), examId will be set. Good. But under strict, `examId === \"\"` check is fine.\n\nThe `byQuestion` iteration `for (const [questionId, rows] of byQuestion)` — rows is `AttemptQuestionScore[]`, non-undefined. Good.\n\nNow the `questionId` is used. `rows` used. Good. No unused.\n\n`allScores` was a leftover in the draft — I removed it. Good.\n\nNow mulberry32 — `a |= 0; a = (a + 0x6D2B79F5) | 0;` — fine.\n\nbuildCustomExam: uses fnv1aHex (existing). Good. `level` variable. `domain` variable. `chosen` used. `pool` used. `rng` used. `max` used. All good.\n\nFor `spec.levels[0]!` — under noUncheckedIndexedAccess returns `\"associate\"|\"professional\"|\"expert\" | undefined`, the `!` removes undefined. Good.\n\nWait, `spec.levels` is `Array<\"associate\" | \"professional\" | \"expert\"> | undefined`. We guard `spec.levels && spec.levels.length === 1`. Then `spec.levels[0]!`. Good.\n\nLet me check `chosen[0]!` — `chosen` is `Question[]`, `chosen[0]` is `Question | undefined`, `!` → Question. Good. `EXAMS.find((e) => e.questions.includes(chosen[0]!))?.domain ?? \"Custom\"`. Good.\n\nNow let me make the edits. First insert after line 165.\n\nI'll use edit. Actually I should use the edit tool... but I only have read, glob, grep, etc. Wait, there's no edit tool listed! Let me check the available tools: background_process, glob, grep, kilo_local_recall, read, skill, webfetch. No edit/write tool!\n\nHmm, there's no file editing tool available. I cannot edit the file. Let me re-check the tools... Indeed no edit/write_file tool. \n\nI need to inform the user I don't have a file editing tool. But wait — maybe I should double check. The tools are: background_process, glob, grep, kilo_local_recall, read, skill, webfetch. No write capability.\n\nI cannot make the edits without a write tool. I should report this to the user.",
+            "time": {
+              "start": 1783981724167,
+              "end": 1783981737668
+            }
+          }
+        },
+        {
+          "id": "prt_f5d9906da001GzNfe8JY9NwKLO",
+          "time": "2026-07-13T22:28:57.690000+00:00",
+          "data": {
+            "type": "text",
+            "text": "I've read the file structure and have the exact insertion points (after line 165, and after line 2594). However, I cannot complete this task: **there is no file-editing/writing tool available in my current toolset.**\n\nMy available tools are: `background_process`, `glob`, `grep`, `kilo_local_recall`, `read`, `skill`, `webfetch`. None of these can modify files on disk. There is no `edit`, `write_file`, or `apply_patch` tool.\n\nTo proceed, you would need to either:\n1. Enable a file-editing tool (e.g. `edit`/`write_file`/`apply_patch`) for this session, or\n2. Apply the changes yourself — I can output the full, ready-to-paste code blocks (both the insertion after line 165 and the appended block after `getExam`) with the corrected `computeQuestionAnalytics`, `buildCustomExam`, and `AttemptQuestionScore` (with `attemptId` + `examId`) for you to insert manually.\n\nIf you'd like option 2, I can produce the complete, tsc-strict-safe code for both insertion points right now. Which would you prefer?",
+            "time": {
+              "start": 1783981737690,
+              "end": 1783981741420
+            }
+          }
+        },
+        {
+          "id": "prt_f5d9915bb001BCjD0LaGbUez7O",
+          "time": "2026-07-13T22:29:01.500000+00:00",
+          "data": {
+            "reason": "stop",
+            "type": "step-finish",
+            "tokens": {
+              "total": 12932,
+              "input": 11179,
+              "output": 1753,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    }
+  ]
+}

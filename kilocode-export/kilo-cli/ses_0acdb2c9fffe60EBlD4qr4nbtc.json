@@ -1,0 +1,107 @@
+{
+  "source": "kilo-cli",
+  "id": "ses_0acdb2c9fffe60EBlD4qr4nbtc",
+  "title": "Title Generation Request",
+  "slug": "nimble-cactus",
+  "directory": "/home/uzer",
+  "agent": "code",
+  "model": "{\"id\":\"kilo-auto/free\",\"providerID\":\"kilo\"}",
+  "cost": 0.0,
+  "tokens": {
+    "input": 0,
+    "output": 0,
+    "reasoning": 0,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "project": {
+    "id": "e4a16a4500faf36321debe50c1b3a647138927d6",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer",
+    "time_created": "2026-07-09T11:40:47.981000+00:00"
+  },
+  "parent_id": null,
+  "workspace_id": null,
+  "path": "",
+  "share_url": null,
+  "summary": {
+    "additions": null,
+    "deletions": null,
+    "files": null,
+    "diffs": null
+  },
+  "time_created": "2026-07-11T21:45:50.176000+00:00",
+  "time_updated": "2026-07-11T21:45:50.393000+00:00",
+  "time_archived": null,
+  "metadata": null,
+  "message_count": 2,
+  "part_count": 1,
+  "todo_count": 0,
+  "lifecycle": [],
+  "todos": [],
+  "messages": [
+    {
+      "id": "msg_f5324d3b7001fb6jIswRlFnJiF",
+      "time": "2026-07-11T21:45:50.369000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1783806350369
+        },
+        "agent": "code",
+        "model": {
+          "providerID": "kilo",
+          "modelID": "kilo-auto/free"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f5324d3b800195SEZjPwNtFaal",
+          "time": "2026-07-11T21:45:50.385000+00:00",
+          "data": {
+            "type": "text",
+            "text": "$"
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5324d4ac001vllvJ5VUptBC9D",
+      "time": "2026-07-11T21:45:50.508000+00:00",
+      "data": {
+        "parentID": "msg_f5324d3b7001fb6jIswRlFnJiF",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783806350508,
+          "completed": 1783806351437
+        },
+        "error": {
+          "name": "MessageAbortedError",
+          "data": {
+            "message": "Aborted"
+          }
+        }
+      },
+      "parts": []
+    }
+  ]
+}

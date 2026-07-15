@@ -1,0 +1,1334 @@
+{
+  "source": "kilo-cli",
+  "id": "ses_0a218d0dcffeAb6NarTfX3DpnZ",
+  "title": "New session - 2026-07-13T23:54:19.811Z",
+  "slug": "silent-eagle",
+  "directory": "/home/uzer",
+  "agent": "code",
+  "model": "{\"id\":\"kilo-auto/free\",\"providerID\":\"kilo\",\"variant\":\"default\"}",
+  "cost": 0.0,
+  "tokens": {
+    "input": 54260,
+    "output": 888,
+    "reasoning": 836,
+    "cache_read": 88576,
+    "cache_write": 0
+  },
+  "project": {
+    "id": "e4a16a4500faf36321debe50c1b3a647138927d6",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer",
+    "time_created": "2026-07-09T11:40:47.981000+00:00"
+  },
+  "parent_id": null,
+  "workspace_id": null,
+  "path": "",
+  "share_url": null,
+  "summary": {
+    "additions": 0,
+    "deletions": 0,
+    "files": 0,
+    "diffs": null
+  },
+  "time_created": "2026-07-13T23:54:19.811000+00:00",
+  "time_updated": "2026-07-14T00:06:06.895000+00:00",
+  "time_archived": null,
+  "metadata": null,
+  "message_count": 14,
+  "part_count": 42,
+  "todo_count": 0,
+  "lifecycle": [],
+  "todos": [],
+  "messages": [
+    {
+      "id": "msg_f5de72f73001CHGboG9qHYddCC",
+      "time": "2026-07-13T23:54:19.959000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1783986859959
+        },
+        "agent": "code",
+        "model": {
+          "providerID": "ollama-cloud",
+          "modelID": "glm-5.2"
+        },
+        "summary": {
+          "diffs": []
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f5de72f73002S1muKtXrbqLPxG",
+          "time": "2026-07-13T23:54:20.022000+00:00",
+          "data": {
+            "type": "text",
+            "text": "https://github.com/decolua/9router.git"
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5de73066001tXs7AyfKSV58L1",
+      "time": "2026-07-13T23:54:20.134000+00:00",
+      "data": {
+        "parentID": "msg_f5de72f73001CHGboG9qHYddCC",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783986860134,
+          "completed": 1783987075111
+        }
+      },
+      "parts": []
+    },
+    {
+      "id": "msg_f5de81b3a001GPVWCeMtqGxecc",
+      "time": "2026-07-13T23:55:20.295000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1783986920295
+        },
+        "agent": "code",
+        "model": {
+          "providerID": "ollama-cloud",
+          "modelID": "glm-5.2"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f5de81b3a002ges5c0yfNzlXeT",
+          "time": "2026-07-13T23:55:20.363000+00:00",
+          "data": {
+            "type": "text",
+            "text": "can we use it to have unlimited ai coding"
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5debf557001xykKW0W6EsV1xL",
+      "time": "2026-07-13T23:59:32.764000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1783987172764
+        },
+        "agent": "code",
+        "model": {
+          "providerID": "kilo",
+          "modelID": "kilo-auto/free"
+        },
+        "summary": {
+          "diffs": []
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f5debf558001XClpMSof925e9Z",
+          "time": "2026-07-13T23:59:32.799000+00:00",
+          "data": {
+            "type": "text",
+            "text": "check it"
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5debf605001GMUsBU9gYj6hni",
+      "time": "2026-07-13T23:59:32.869000+00:00",
+      "data": {
+        "parentID": "msg_f5debf557001xykKW0W6EsV1xL",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11483,
+          "input": 9478,
+          "output": 33,
+          "reasoning": 52,
+          "cache": {
+            "write": 0,
+            "read": 1920
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987172869,
+          "completed": 1783987210706
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5dec121b001iC5FGKNVpP7vfJ",
+          "time": "2026-07-13T23:59:40.060000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5dec1229001MDH1FqrfIzklXB",
+          "time": "2026-07-13T23:59:40.074000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "The user is asking about a GitHub repository (decolua/9router) and wants to know if it can be used for \"unlimited AI coding\". They want me to check it.\n\nLet me fetch the repository to understand what it is.",
+            "time": {
+              "start": 1783987180073,
+              "end": 1783987180276
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "The user is asking about a GitHub repository (decolua/9router) and wants to know if it can be used for \"unlimited AI coding\". They want me to check it.\n\nLet me fetch the repository to understand what it is.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5dec12bb0014TyqGKBg8x6P2n",
+          "time": "2026-07-13T23:59:40.219000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "webfetch",
+            "callID": "chatcmpl-tool-9d15beaf157c0eb1",
+            "state": {
+              "status": "error",
+              "input": {
+                "url": "https://github.com/decolua/9router"
+              },
+              "error": "Request timed out",
+              "time": {
+                "start": 1783987180258,
+                "end": 1783987210326
+              }
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "The user is asking about a GitHub repository (decolua/9router) and wants to know if it can be used for \"unlimited AI coding\". They want me to check it.\n\nLet me fetch the repository to understand what it is.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5dec89a20013LMPAo6v0toict",
+          "time": "2026-07-14T00:00:10.658000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 11483,
+              "input": 9478,
+              "output": 33,
+              "reasoning": 52,
+              "cache": {
+                "write": 0,
+                "read": 1920
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5dec8a440016ti2xG8L1JU692",
+      "time": "2026-07-14T00:00:10.820000+00:00",
+      "data": {
+        "parentID": "msg_f5debf557001xykKW0W6EsV1xL",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11619,
+          "input": 365,
+          "output": 82,
+          "reasoning": 36,
+          "cache": {
+            "write": 0,
+            "read": 11136
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987210820,
+          "completed": 1783987218944
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5deca1ee00123HZtoOXWTnzz3",
+          "time": "2026-07-14T00:00:16.879000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5deca2080015EdnU1rZX2gL34",
+          "time": "2026-07-14T00:00:16.905000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "The webfetch timed out. Let me try using the GitHub API or a different approach. Let me try using bash with git clone or curl to get the README.",
+            "time": {
+              "start": 1783987216904,
+              "end": 1783987217007
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "The webfetch timed out. Let me try using the GitHub API or a different approach. Let me try using bash with git clone or curl to get the README.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5deca239001OsFYjAXaBm0cuB",
+          "time": "2026-07-14T00:00:16.954000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "chatcmpl-tool-95cca9e96e9cc15e",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "curl -s -L \"https://raw.githubusercontent.com/decolua/9router/main/README.md\" 2>/dev/null | head -200",
+                "description": "Fetch README from 9router repo",
+                "timeout": 30000
+              },
+              "output": "404: Not Found",
+              "metadata": {
+                "output": "404: Not Found",
+                "exit": 0,
+                "description": "Fetch README from 9router repo",
+                "truncated": false
+              },
+              "title": "Fetch README from 9router repo",
+              "time": {
+                "start": 1783987216981,
+                "end": 1783987218814
+              }
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "The webfetch timed out. Let me try using the GitHub API or a different approach. Let me try using bash with git clone or curl to get the README.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5deca9e5001J9LQwJNN2CijRk",
+          "time": "2026-07-14T00:00:18.917000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 11619,
+              "input": 365,
+              "output": 82,
+              "reasoning": 36,
+              "cache": {
+                "write": 0,
+                "read": 11136
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5decaa8f001sk2s0qijAqjTPK",
+      "time": "2026-07-14T00:00:19.087000+00:00",
+      "data": {
+        "parentID": "msg_f5debf557001xykKW0W6EsV1xL",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11724,
+          "input": 502,
+          "output": 72,
+          "reasoning": 14,
+          "cache": {
+            "write": 0,
+            "read": 11136
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987219087,
+          "completed": 1783987223553
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5decb7a20011X91BRvvay49N7",
+          "time": "2026-07-14T00:00:22.435000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5decb7b4001JCZXbSNfxVO0wU",
+          "time": "2026-07-14T00:00:22.452000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "Let me try to get the repo info using the GitHub API.",
+            "time": {
+              "start": 1783987222452,
+              "end": 1783987222543
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "Let me try to get the repo info using the GitHub API.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5decb7ce001Mu4xodpnNdXsEX",
+          "time": "2026-07-14T00:00:22.479000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "chatcmpl-tool-ba39705d7b987945",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "curl -s \"https://api.github.com/repos/decolua/9router\" 2>/dev/null",
+                "description": "Fetch repo info via GitHub API",
+                "timeout": 30000
+              },
+              "output": "{\n  \"id\": 1128025899,\n  \"node_id\": \"R_kgDOQzxPKw\",\n  \"name\": \"9router\",\n  \"full_name\": \"decolua/9router\",\n  \"private\": false,\n  \"owner\": {\n    \"login\": \"decolua\",\n    \"id\": 8282593,\n    \"node_id\": \"MDQ6VXNlcjgyODI1OTM=\",\n    \"avatar_url\": \"https://avatars.githubusercontent.com/u/8282593?v=4\",\n    \"gravatar_id\": \"\",\n    \"url\": \"https://api.github.com/users/decolua\",\n    \"html_url\": \"https://github.com/decolua\",\n    \"followers_url\": \"https://api.github.com/users/decolua/followers\",\n    \"following_url\": \"https://api.github.com/users/decolua/following{/other_user}\",\n    \"gists_url\": \"https://api.github.com/users/decolua/gists{/gist_id}\",\n    \"starred_url\": \"https://api.github.com/users/decolua/starred{/owner}{/repo}\",\n    \"subscriptions_url\": \"https://api.github.com/users/decolua/subscriptions\",\n    \"organizations_url\": \"https://api.github.com/users/decolua/orgs\",\n    \"repos_url\": \"https://api.github.com/users/decolua/repos\",\n    \"events_url\": \"https://api.github.com/users/decolua/events{/privacy}\",\n    \"received_events_url\": \"https://api.github.com/users/decolua/received_events\",\n    \"type\": \"User\",\n    \"user_view_type\": \"public\",\n    \"site_admin\": false\n  },\n  \"html_url\": \"https://github.com/decolua/9router\",\n  \"description\": \"Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.\",\n  \"fork\": false,\n  \"url\": \"https://api.github.com/repos/decolua/9router\",\n  \"forks_url\": \"https://api.github.com/repos/decolua/9router/forks\",\n  \"keys_url\": \"https://api.github.com/repos/decolua/9router/keys{/key_id}\",\n  \"collaborators_url\": \"https://api.github.com/repos/decolua/9router/collaborators{/collaborator}\",\n  \"teams_url\": \"https://api.github.com/repos/decolua/9router/teams\",\n  \"hooks_url\": \"https://api.github.com/repos/decolua/9router/hooks\",\n  \"issue_events_url\": \"https://api.github.com/repos/decolua/9router/issues/events{/number}\",\n  \"events_url\": \"https://api.github.com/repos/decolua/9router/events\",\n  \"assignees_url\": \"https://api.github.com/repos/decolua/9router/assignees{/user}\",\n  \"branches_url\": \"https://api.github.com/repos/decolua/9router/branches{/branch}\",\n  \"tags_url\": \"https://api.github.com/repos/decolua/9router/tags\",\n  \"blobs_url\": \"https://api.github.com/repos/decolua/9router/git/blobs{/sha}\",\n  \"git_tags_url\": \"https://api.github.com/repos/decolua/9router/git/tags{/sha}\",\n  \"git_refs_url\": \"https://api.github.com/repos/decolua/9router/git/refs{/sha}\",\n  \"trees_url\": \"https://api.github.com/repos/decolua/9router/git/trees{/sha}\",\n  \"statuses_url\": \"https://api.github.com/repos/decolua/9router/statuses/{sha}\",\n  \"languages_url\": \"https://api.github.com/repos/decolua/9router/languages\",\n  \"stargazers_url\": \"https://api.github.com/repos/decolua/9router/stargazers\",\n  \"contributors_url\": \"https://api.github.com/repos/decolua/9router/contributors\",\n  \"subscribers_url\": \"https://api.github.com/repos/decolua/9router/subscribers\",\n  \"subscription_url\": \"https://api.github.com/repos/decolua/9router/subscription\",\n  \"commits_url\": \"https://api.github.com/repos/decolua/9router/commits{/sha}\",\n  \"git_commits_url\": \"https://api.github.com/repos/decolua/9router/git/commits{/sha}\",\n  \"comments_url\": \"https://api.github.com/repos/decolua/9router/comments{/number}\",\n  \"issue_comment_url\": \"https://api.github.com/repos/decolua/9router/issues/comments{/number}\",\n  \"contents_url\": \"https://api.github.com/repos/decolua/9router/contents/{+path}\",\n  \"compare_url\": \"https://api.github.com/repos/decolua/9router/compare/{base}...{head}\",\n  \"merges_url\": \"https://api.github.com/repos/decolua/9router/merges\",\n  \"archive_url\": \"https://api.github.com/repos/decolua/9router/{archive_format}{/ref}\",\n  \"downloads_url\": \"https://api.github.com/repos/decolua/9router/downloads\",\n  \"issues_url\": \"https://api.github.com/repos/decolua/9router/issues{/number}\",\n  \"pulls_url\": \"https://api.github.com/repos/decolua/9router/pulls{/number}\",\n  \"milestones_url\": \"https://api.github.com/repos/decolua/9router/milestones{/number}\",\n  \"notifications_url\": \"https://api.github.com/repos/decolua/9router/notifications{?since,all,participating}\",\n  \"labels_url\": \"https://api.github.com/repos/decolua/9router/labels{/name}\",\n  \"releases_url\": \"https://api.github.com/repos/decolua/9router/releases{/id}\",\n  \"deployments_url\": \"https://api.github.com/repos/decolua/9router/deployments\",\n  \"created_at\": \"2026-01-05T02:59:30Z\",\n  \"updated_at\": \"2026-07-13T23:59:19Z\",\n  \"pushed_at\": \"2026-07-10T11:14:10Z\",\n  \"git_url\": \"git://github.com/decolua/9router.git\",\n  \"ssh_url\": \"git@github.com:decolua/9router.git\",\n  \"clone_url\": \"https://github.com/decolua/9router.git\",\n  \"svn_url\": \"https://github.com/decolua/9router\",\n  \"homepage\": \"https://9router.com\",\n  \"size\": 11618,\n  \"stargazers_count\": 22065,\n  \"watchers_count\": 22065,\n  \"language\": \"JavaScript\",\n  \"has_issues\": true,\n  \"has_projects\": true,\n  \"has_downloads\": true,\n  \"has_wiki\": false,\n  \"has_pages\": false,\n  \"has_discussions\": true,\n  \"forks_count\": 3729,\n  \"mirror_url\": null,\n  \"archived\": false,\n  \"disabled\": false,\n  \"open_issues_count\": 1142,\n  \"license\": {\n    \"key\": \"mit\",\n    \"name\": \"MIT License\",\n    \"spdx_id\": \"MIT\",\n    \"url\": \"https://api.github.com/licenses/mit\",\n    \"node_id\": \"MDc6TGljZW5zZTEz\"\n  },\n  \"allow_forking\": true,\n  \"is_template\": false,\n  \"web_commit_signoff_required\": false,\n  \"has_pull_requests\": true,\n  \"pull_request_creation_policy\": \"all\",\n  \"topics\": [\n    \"ai-agents\",\n    \"ai-gateway\",\n    \"anthropic\",\n    \"chatgpt\",\n    \"claude\",\n    \"claude-code\",\n    \"cline\",\n    \"codex\",\n    \"copilot\",\n    \"cursor\",\n    \"deepseek\",\n    \"free-ai\",\n    \"gemini\",\n    \"gemini-cli\",\n    \"llm\",\n    \"llm-gateway\",\n    \"openai\",\n    \"openai-proxy\",\n    \"qwen\",\n    \"token-saver\"\n  ],\n  \"visibility\": \"public\",\n  \"forks\": 3729,\n  \"open_issues\": 1142,\n  \"watchers\": 22065,\n  \"default_branch\": \"master\",\n  \"temp_clone_token\": null,\n  \"network_count\": 3729,\n  \"subscribers_count\": 151\n}\n",
+              "metadata": {
+                "output": "{\n  \"id\": 1128025899,\n  \"node_id\": \"R_kgDOQzxPKw\",\n  \"name\": \"9router\",\n  \"full_name\": \"decolua/9router\",\n  \"private\": false,\n  \"owner\": {\n    \"login\": \"decolua\",\n    \"id\": 8282593,\n    \"node_id\": \"MDQ6VXNlcjgyODI1OTM=\",\n    \"avatar_url\": \"https://avatars.githubusercontent.com/u/8282593?v=4\",\n    \"gravatar_id\": \"\",\n    \"url\": \"https://api.github.com/users/decolua\",\n    \"html_url\": \"https://github.com/decolua\",\n    \"followers_url\": \"https://api.github.com/users/decolua/followers\",\n    \"following_url\": \"https://api.github.com/users/decolua/following{/other_user}\",\n    \"gists_url\": \"https://api.github.com/users/decolua/gists{/gist_id}\",\n    \"starred_url\": \"https://api.github.com/users/decolua/starred{/owner}{/repo}\",\n    \"subscriptions_url\": \"https://api.github.com/users/decolua/subscriptions\",\n    \"organizations_url\": \"https://api.github.com/users/decolua/orgs\",\n    \"repos_url\": \"https://api.github.com/users/decolua/repos\",\n    \"events_url\": \"https://api.github.com/users/decolua/events{/privacy}\",\n    \"received_events_url\": \"https://api.github.com/users/decolua/received_events\",\n    \"type\": \"User\",\n    \"user_view_type\": \"public\",\n    \"site_admin\": false\n  },\n  \"html_url\": \"https://github.com/decolua/9router\",\n  \"description\": \"Unlimited FREE AI coding. Connect Claude Code, Codex, Cursor, Cline, Copilot, Antigravity to FREE Claude/GPT/Gemini via 40+ providers. Auto-fallback, RTK -40% tokens, never hit limits.\",\n  \"fork\": false,\n  \"url\": \"https://api.github.com/repos/decolua/9router\",\n  \"forks_url\": \"https://api.github.com/repos/decolua/9router/forks\",\n  \"keys_url\": \"https://api.github.com/repos/decolua/9router/keys{/key_id}\",\n  \"collaborators_url\": \"https://api.github.com/repos/decolua/9router/collaborators{/collaborator}\",\n  \"teams_url\": \"https://api.github.com/repos/decolua/9router/teams\",\n  \"hooks_url\": \"https://api.github.com/repos/decolua/9router/hooks\",\n  \"issue_events_url\": \"https://api.github.com/repos/decolua/9router/issues/events{/number}\",\n  \"events_url\": \"https://api.github.com/repos/decolua/9router/events\",\n  \"assignees_url\": \"https://api.github.com/repos/decolua/9router/assignees{/user}\",\n  \"branches_url\": \"https://api.github.com/repos/decolua/9router/branches{/branch}\",\n  \"tags_url\": \"https://api.github.com/repos/decolua/9router/tags\",\n  \"blobs_url\": \"https://api.github.com/repos/decolua/9router/git/blobs{/sha}\",\n  \"git_tags_url\": \"https://api.github.com/repos/decolua/9router/git/tags{/sha}\",\n  \"git_refs_url\": \"https://api.github.com/repos/decolua/9router/git/refs{/sha}\",\n  \"trees_url\": \"https://api.github.com/repos/decolua/9router/git/trees{/sha}\",\n  \"statuses_url\": \"https://api.github.com/repos/decolua/9router/statuses/{sha}\",\n  \"languages_url\": \"https://api.github.com/repos/decolua/9router/languages\",\n  \"stargazers_url\": \"https://api.github.com/repos/decolua/9router/stargazers\",\n  \"contributors_url\": \"https://api.github.com/repos/decolua/9router/contributors\",\n  \"subscribers_url\": \"https://api.github.com/repos/decolua/9router/subscribers\",\n  \"subscription_url\": \"https://api.github.com/repos/decolua/9router/subscription\",\n  \"commits_url\": \"https://api.github.com/repos/decolua/9router/commits{/sha}\",\n  \"git_commits_url\": \"https://api.github.com/repos/decolua/9router/git/commits{/sha}\",\n  \"comments_url\": \"https://api.github.com/repos/decolua/9router/comments{/number}\",\n  \"issue_comment_url\": \"https://api.github.com/repos/decolua/9router/issues/comments{/number}\",\n  \"contents_url\": \"https://api.github.com/repos/decolua/9router/contents/{+path}\",\n  \"compare_url\": \"https://api.github.com/repos/decolua/9router/compare/{base}...{head}\",\n  \"merges_url\": \"https://api.github.com/repos/decolua/9router/merges\",\n  \"archive_url\": \"https://api.github.com/repos/decolua/9router/{archive_format}{/ref}\",\n  \"downloads_url\": \"https://api.github.com/repos/decolua/9router/downloads\",\n  \"issues_url\": \"https://api.github.com/repos/decolua/9router/issues{/number}\",\n  \"pulls_url\": \"https://api.github.com/repos/decolua/9router/pulls{/number}\",\n  \"milestones_url\": \"https://api.github.com/repos/decolua/9router/milestones{/number}\",\n  \"notifications_url\": \"https://api.github.com/repos/decolua/9router/notifications{?since,all,participating}\",\n  \"labels_url\": \"https://api.github.com/repos/decolua/9router/labels{/name}\",\n  \"releases_url\": \"https://api.github.com/repos/decolua/9router/releases{/id}\",\n  \"deployments_url\": \"https://api.github.com/repos/decolua/9router/deployments\",\n  \"created_at\": \"2026-01-05T02:59:30Z\",\n  \"updated_at\": \"2026-07-13T23:59:19Z\",\n  \"pushed_at\": \"2026-07-10T11:14:10Z\",\n  \"git_url\": \"git://github.com/decolua/9router.git\",\n  \"ssh_url\": \"git@github.com:decolua/9router.git\",\n  \"clone_url\": \"https://github.com/decolua/9router.git\",\n  \"svn_url\": \"https://github.com/decolua/9router\",\n  \"homepage\": \"https://9router.com\",\n  \"size\": 11618,\n  \"stargazers_count\": 22065,\n  \"watchers_count\": 22065,\n  \"language\": \"JavaScript\",\n  \"has_issues\": true,\n  \"has_projects\": true,\n  \"has_downloads\": true,\n  \"has_wiki\": false,\n  \"has_pages\": false,\n  \"has_discussions\": true,\n  \"forks_count\": 3729,\n  \"mirror_url\": null,\n  \"archived\": false,\n  \"disabled\": false,\n  \"open_issues_count\": 1142,\n  \"license\": {\n    \"key\": \"mit\",\n    \"name\": \"MIT License\",\n    \"spdx_id\": \"MIT\",\n    \"url\": \"https://api.github.com/licenses/mit\",\n    \"node_id\": \"MDc6TGljZW5zZTEz\"\n  },\n  \"allow_forking\": true,\n  \"is_template\": false,\n  \"web_commit_signoff_required\": false,\n  \"has_pull_requests\": true,\n  \"pull_request_creation_policy\": \"all\",\n  \"topics\": [\n    \"ai-agents\",\n    \"ai-gateway\",\n    \"anthropic\",\n    \"chatgpt\",\n    \"claude\",\n    \"claude-code\",\n    \"cline\",\n    \"codex\",\n    \"copilot\",\n    \"cursor\",\n    \"deepseek\",\n    \"free-ai\",\n    \"gemini\",\n    \"gemini-cli\",\n    \"llm\",\n    \"llm-gateway\",\n    \"openai\",\n    \"openai-proxy\",\n    \"qwen\",\n    \"token-saver\"\n  ],\n  \"visibility\": \"public\",\n  \"forks\": 3729,\n  \"open_issues\": 1142,\n  \"watchers\": 22065,\n  \"default_branch\": \"master\",\n  \"temp_clone_token\": null,\n  \"network_count\": 3729,\n  \"subscribers_count\": 151\n}\n",
+                "exit": 0,
+                "description": "Fetch repo info via GitHub API",
+                "truncated": false
+              },
+              "title": "Fetch repo info via GitHub API",
+              "time": {
+                "start": 1783987222516,
+                "end": 1783987223149
+              }
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "Let me try to get the repo info using the GitHub API.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5decbb270011QWuVoYSjGb0yX",
+          "time": "2026-07-14T00:00:23.338000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 11724,
+              "input": 502,
+              "output": 72,
+              "reasoning": 14,
+              "cache": {
+                "write": 0,
+                "read": 11136
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5decbc49001BrCn2f81lK0QaH",
+      "time": "2026-07-14T00:00:23.625000+00:00",
+      "data": {
+        "parentID": "msg_f5debf557001xykKW0W6EsV1xL",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 13609,
+          "input": 11486,
+          "output": 154,
+          "reasoning": 49,
+          "cache": {
+            "write": 0,
+            "read": 1920
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987223625,
+          "completed": 1783987232933
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5decdb62001bZB5S1NcXB2ZZ8",
+          "time": "2026-07-14T00:00:31.586000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5decdb69001VRyeJcRftKnbqR",
+          "time": "2026-07-14T00:00:31.594000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "I now have the basic repo info. Let me fetch the README and maybe some key files to understand what it does and whether it's legitimate/safe. Let me try different branches or paths for the README.",
+            "time": {
+              "start": 1783987231593,
+              "end": 1783987232408
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "I now have the basic repo info. Let me fetch the README and maybe some key files to understand what it does and whether it's legitimate/safe. Let me try different branches or paths for the README.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5decde4d001n7s9P2wHjnwr5S",
+          "time": "2026-07-14T00:00:32.333000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "chatcmpl-tool-a19d481950938ed9",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "curl -s -L \"https://raw.githubusercontent.com/decolua/9router/master/README.md\" 2>/dev/null | head -300",
+                "description": "Fetch README from master branch",
+                "timeout": 30000
+              },
+              "output": "<div align=\"center\">\n  <img src=\"./images/9router.png?1\" alt=\"9Router Dashboard\" width=\"800\"/>\n  \n  # 9Router - FREE AI Router & Token Saver\n  \n  **Never stop coding. Save 20-40% tokens with RTK + auto-fallback to FREE & cheap AI models.**\n  \n  **Connect All AI Code Tools (Claude Code, Cursor, Antigravity, Copilot, Codex, Gemini, OpenCode, Cline, OpenClaw...) to 40+ AI Providers & 100+ Models.**\n  \n  [![npm](https://img.shields.io/npm/v/9router.svg)](https://www.npmjs.com/package/9router)\n  [![Downloads](https://img.shields.io/npm/dm/9router.svg)](https://www.npmjs.com/package/9router)\n  [![Docker Pulls](https://img.shields.io/docker/pulls/decolua/9router.svg?logo=docker&label=Docker%20pulls)](https://hub.docker.com/r/decolua/9router)\n  [![GHCR](https://img.shields.io/badge/GHCR-decolua%2F9router-blue?logo=github)](https://github.com/decolua/9router/pkgs/container/9router)\n  [![License](https://img.shields.io/npm/l/9router.svg)](https://github.com/decolua/9router/blob/main/LICENSE)\n\n<a href=\"https://trendshift.io/repositories/22628\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22628\" alt=\"decolua%2F9router | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n[🚀 Quick Start](#-quick-start) • [💡 Features](#-key-features) • [📖 Setup](#-setup-guide) • [🌐 Website](https://9router.com)\n\n[🇻🇳 Tiếng Việt](./i18n/README.vi.md) • [🇨🇳 中文](./i18n/README.zh-CN.md) • [🇯🇵 日本語](./i18n/README.ja-JP.md) • [🇷🇺 Русский](./i18n/README.ru.md)\n\n</div>\n\n---\n\n## 🤔 Why 9Router?\n\n**Stop wasting money, tokens and hitting limits:**\n\n- ❌ Subscription quota expires unused every month\n- ❌ Rate limits stop you mid-coding\n- ❌ Tool outputs (git diff, grep, ls...) burn tokens fast\n- ❌ Expensive APIs ($20-50/month per provider)\n- ❌ Manual switching between providers\n\n**9Router solves this:**\n\n- ✅ **RTK Token Saver** - Auto-compress tool_result content, save 20-40% tokens per request\n- ✅ **Maximize subscriptions** - Track quota, use every bit before reset\n- ✅ **Auto fallback** - Subscription → Cheap → Free, zero downtime\n- ✅ **Multi-account** - Round-robin between accounts per provider\n- ✅ **Universal** - Works with Claude Code, Codex, Cursor, Cline, any CLI tool\n\n---\n\n## 🔄 How It Works\n\n```\n┌─────────────┐\n│  Your CLI   │  (Claude Code, Codex, OpenClaw, Cursor, Cline...)\n│   Tool      │\n└──────┬──────┘\n       │ http://localhost:20128/v1\n       ↓\n┌─────────────────────────────────────────────┐\n│           9Router (Smart Router)            │\n│  • RTK Token Saver (cut tool_result tokens) │\n│  • Format translation (OpenAI ↔ Claude)     │\n│  • Quota tracking                           │\n│  • Auto token refresh                       │\n└──────┬──────────────────────────────────────┘\n       │\n       ├─→ [Tier 1: SUBSCRIPTION] Claude Code, Codex, GitHub Copilot\n       │   ↓ quota exhausted\n       ├─→ [Tier 2: CHEAP] GLM ($0.6/1M), MiniMax ($0.2/1M)\n       │   ↓ budget limit\n       └─→ [Tier 3: FREE] Kiro, OpenCode Free, Vertex ($300 credits)\n\nResult: Never stop coding, minimal cost + 20-40% token savings via RTK\n```\n\n---\n\n## ⚡ Quick Start\n\n**1. Install globally:**\n\n```bash\nnpm install -g 9router\n9router\n```\n\n🎉 Dashboard opens at `http://localhost:20128`\n\n**2. Connect a FREE provider (no signup needed):**\n\nDashboard → Providers → Connect **Kiro AI** (free Claude unlimited) or **OpenCode Free** (no auth) → Done!\n\n**3. Use in your CLI tool:**\n\n```\nClaude Code/Codex/OpenClaw/Cursor/Cline Settings:\n  Endpoint: http://localhost:20128/v1\n  API Key: [copy from dashboard]\n  Model: kr/claude-sonnet-4.5\n```\n\n**That's it!** Start coding with FREE AI models.\n\n**Alternative: run from source (this repository):**\n\nThis repository package is private (`9router-app`), so source/Docker execution is the expected local development path.\n\n```bash\ncp .env.example .env\nnpm install\nPORT=20128 NEXT_PUBLIC_BASE_URL=http://localhost:20128 npm run dev\n```\n\nProduction mode:\n\n```bash\nnpm run build\nPORT=20128 HOSTNAME=0.0.0.0 NEXT_PUBLIC_BASE_URL=http://localhost:20128 npm run start\n```\n\nDefault URLs:\n\n- Dashboard: `http://localhost:20128/dashboard`\n- OpenAI-compatible API: `http://localhost:20128/v1`\n\n---\n\n## Video Guides\n\n<div align=\"center\">\n\n<table>\n  <tr>\n  <td align=\"center\" width=\"320\">\n  <a href=\"https://www.youtube.com/watch?v=X69n5Lm06Yw\">\n    <img src=\"https://img.youtube.com/vi/X69n5Lm06Yw/maxresdefault.jpg\" alt=\"Tiết kiệm chi phí LLM với 9Router\" width=\"300\"/>\n  </a><br/>\n  <b>🇻🇳 Tiếng Việt</b><br/>\n  <sub>Tiết kiệm chi phí LLM cho OpenClaw với 9Router<br/>by <a href=\"https://www.youtube.com/c/M%C3%ACAIblog\">Mì AI</a></sub>\n</td>\n<td align=\"center\" width=\"320\">\n      <a href=\"https://youtu.be/VQAw612S27Y\">\n        <img src=\"https://img.youtube.com/vi/VQAw612S27Y/maxresdefault.jpg\" alt=\"9Router + Claude Code FREE Unlimited Setup\" width=\"300\"/>\n      </a><br/>\n      <b>🇵🇰 اردو / हिन्दी</b><br/>\n      <sub>9Router + Claude Code FREE Unlimited Setup<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=raEyZPg5xE0\">\n        <img src=\"https://img.youtube.com/vi/raEyZPg5xE0/maxresdefault.jpg\" alt=\"9Router Setup Tutorial\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>9Router + Claude Code FREE Setup<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    \n  </tr>\n  <tr>\n  <td align=\"center\" width=\"320\">\n      <a href=\"https://youtu.be/3dF5GIYMrcQ?si=bAyfyiHbARJQAHj_\">\n        <img src=\"https://img.youtube.com/vi/3dF5GIYMrcQ/hqdefault.jpg\" alt=\"9Router Setup Tutorial\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>9Router + Claude Code FREE Setup<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=o3qYCyjrFYg\">\n        <img src=\"https://img.youtube.com/vi/o3qYCyjrFYg/maxresdefault.jpg\" alt=\"Claude Code FREE Forever\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>Claude Code FREE Forever — Unlimited Models<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=Ttpc26m39Dw\">\n        <img src=\"https://img.youtube.com/vi/Ttpc26m39Dw/maxresdefault.jpg\" alt=\"Claude CLI Free Setup\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>Claude CLI Free Setup with 9Router 🚀<br/>by <a href=\"https://www.youtube.com/@CodeVerseSoban\">CodeVerse Soban</a></sub>\n    </td>\n    \n  </tr>\n  <tr>\n  <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=G-5A_D5Pm6Y\">\n        <img src=\"https://img.youtube.com/vi/G-5A_D5Pm6Y/maxresdefault.jpg\" alt=\"Cài đặt OpenClaw Free A-Z\" width=\"300\"/>\n      </a><br/>\n      <b>🇻🇳 Tiếng Việt</b><br/>\n      <sub>Cài Đặt OpenClaw Free Từ A-Z + 9Router<br/>by <a href=\"https://www.youtube.com/@maigia\">Mai Gia</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=JXmg8_gccgE\">\n        <img src=\"https://img.youtube.com/vi/JXmg8_gccgE/maxresdefault.jpg\" alt=\"FREE OpenClaw with Claude Opus\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>FREE OpenClaw + Claude Opus 4.6<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=CkVZZUSTXAI\">\n        <img src=\"https://img.youtube.com/vi/CkVZZUSTXAI/mqdefault.jpg\" alt=\"Claude CLI Free Setup\" width=\"300\"/>\n      </a><br/>\n      <b>🇮🇩 Indonesia</b><br/>\n      <sub>Koding 24 Jam Anti Rate Limit! Hemat Token AI 65% | Tutorial Quick Setup 9Router 🚀<br/>by <a href=\"https://www.youtube.com/@krisswuh\">Krisswuh</a></sub>\n    </td>\n    \n  </tr>\n  \n  <tr>\n  <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=TXGv4eofe1I\">\n        <img src=\"https://img.youtube.com/vi/TXGv4eofe1I/mqdefault.jpg\" alt=\"Cara Deploy 9Router di Hugging Face GRATIS Non-Stop! | Alternatif VPS RAM 16GB\" width=\"300\"/>\n      </a><br/>\n      <b>🇮🇩 Indonesia</b><br/>\n      <sub>Cara Deploy 9Router di Hugging Face GRATIS Non-Stop! | Alternatif VPS RAM 16GB<br/>by <a href=\"https://www.youtube.com/@krisswuh\">Krisswuh</a></sub>\n    </td>\n  </tr>\n\n</table>\n\n</div>\n\n> 🎬 **Made a video about 9Router?** Submit a [Pull Request](https://github.com/decolua/9router/pulls) adding your video to this section — we'll merge it!\n\n---\n\n## 🛠️ Supported CLI Tools\n\n9Router works seamlessly with all major AI coding tools:\n\n<div align=\"center\">\n  <table>\n    <tr>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/claude.png\" width=\"60\" alt=\"Claude Code\"/><br/>\n        <b>Claude-Code</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/openclaw.png\" width=\"60\" alt=\"OpenClaw\"/><br/>\n        <b>OpenClaw</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/codex.png\" width=\"60\" alt=\"Codex\"/><br/>\n        <b>Codex</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/opencode.png\" width=\"60\" alt=\"OpenCode\"/><br/>\n        <b>OpenCode</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/cursor.png\" width=\"60\" alt=\"Cursor\"/><br/>\n        <b>Cursor</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/antigravity.png\" width=\"60\" alt=\"Antigravity\"/><br/>\n        <b>Antigravity</b>\n      </td>\n    </tr>\n    <tr>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/cline.png\" width=\"60\" alt=\"Cline\"/><br/>\n        <b>Cline</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/continue.png\" width=\"60\" alt=\"Continue\"/><br/>\n        <b>Continue</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/droid.png\" width=\"60\" alt=\"Droid\"/><br/>\n        <b>Droid</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/roo.png\" width=\"60\" alt=\"Roo\"/><br/>\n        <b>Roo</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/copilot.png\" width=\"60\" alt=\"Copilot\"/><br/>\n        <b>Copilot</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/kilocode.png\" width=\"60\" alt=\"Kilo Code\"/><br/>\n        <b>Kilo Code</b>\n      </td>\n    </tr>\n  </table>\n</div>\n\n---\n\n## 🌐 Supported Providers\n\n### 🔐 OAuth Providers\n\n<div align=\"center\">\n  <table>\n    <tr>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/claude.png\" width=\"60\" alt=\"Claude Code\"/><br/>\n        <b>Claude-Code</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/antigravity.png\" width=\"60\" alt=\"Antigravity\"/><br/>\n        <b>Antigravity</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/codex.png\" width=\"60\" alt=\"Codex\"/><br/>\n        <b>Codex</b>\n",
+              "metadata": {
+                "output": "<div align=\"center\">\n  <img src=\"./images/9router.png?1\" alt=\"9Router Dashboard\" width=\"800\"/>\n  \n  # 9Router - FREE AI Router & Token Saver\n  \n  **Never stop coding. Save 20-40% tokens with RTK + auto-fallback to FREE & cheap AI models.**\n  \n  **Connect All AI Code Tools (Claude Code, Cursor, Antigravity, Copilot, Codex, Gemini, OpenCode, Cline, OpenClaw...) to 40+ AI Providers & 100+ Models.**\n  \n  [![npm](https://img.shields.io/npm/v/9router.svg)](https://www.npmjs.com/package/9router)\n  [![Downloads](https://img.shields.io/npm/dm/9router.svg)](https://www.npmjs.com/package/9router)\n  [![Docker Pulls](https://img.shields.io/docker/pulls/decolua/9router.svg?logo=docker&label=Docker%20pulls)](https://hub.docker.com/r/decolua/9router)\n  [![GHCR](https://img.shields.io/badge/GHCR-decolua%2F9router-blue?logo=github)](https://github.com/decolua/9router/pkgs/container/9router)\n  [![License](https://img.shields.io/npm/l/9router.svg)](https://github.com/decolua/9router/blob/main/LICENSE)\n\n<a href=\"https://trendshift.io/repositories/22628\" target=\"_blank\"><img src=\"https://trendshift.io/api/badge/repositories/22628\" alt=\"decolua%2F9router | Trendshift\" style=\"width: 250px; height: 55px;\" width=\"250\" height=\"55\"/></a>\n\n[🚀 Quick Start](#-quick-start) • [💡 Features](#-key-features) • [📖 Setup](#-setup-guide) • [🌐 Website](https://9router.com)\n\n[🇻🇳 Tiếng Việt](./i18n/README.vi.md) • [🇨🇳 中文](./i18n/README.zh-CN.md) • [🇯🇵 日本語](./i18n/README.ja-JP.md) • [🇷🇺 Русский](./i18n/README.ru.md)\n\n</div>\n\n---\n\n## 🤔 Why 9Router?\n\n**Stop wasting money, tokens and hitting limits:**\n\n- ❌ Subscription quota expires unused every month\n- ❌ Rate limits stop you mid-coding\n- ❌ Tool outputs (git diff, grep, ls...) burn tokens fast\n- ❌ Expensive APIs ($20-50/month per provider)\n- ❌ Manual switching between providers\n\n**9Router solves this:**\n\n- ✅ **RTK Token Saver** - Auto-compress tool_result content, save 20-40% tokens per request\n- ✅ **Maximize subscriptions** - Track quota, use every bit before reset\n- ✅ **Auto fallback** - Subscription → Cheap → Free, zero downtime\n- ✅ **Multi-account** - Round-robin between accounts per provider\n- ✅ **Universal** - Works with Claude Code, Codex, Cursor, Cline, any CLI tool\n\n---\n\n## 🔄 How It Works\n\n```\n┌─────────────┐\n│  Your CLI   │  (Claude Code, Codex, OpenClaw, Cursor, Cline...)\n│   Tool      │\n└──────┬──────┘\n       │ http://localhost:20128/v1\n       ↓\n┌─────────────────────────────────────────────┐\n│           9Router (Smart Router)            │\n│  • RTK Token Saver (cut tool_result tokens) │\n│  • Format translation (OpenAI ↔ Claude)     │\n│  • Quota tracking                           │\n│  • Auto token refresh                       │\n└──────┬──────────────────────────────────────┘\n       │\n       ├─→ [Tier 1: SUBSCRIPTION] Claude Code, Codex, GitHub Copilot\n       │   ↓ quota exhausted\n       ├─→ [Tier 2: CHEAP] GLM ($0.6/1M), MiniMax ($0.2/1M)\n       │   ↓ budget limit\n       └─→ [Tier 3: FREE] Kiro, OpenCode Free, Vertex ($300 credits)\n\nResult: Never stop coding, minimal cost + 20-40% token savings via RTK\n```\n\n---\n\n## ⚡ Quick Start\n\n**1. Install globally:**\n\n```bash\nnpm install -g 9router\n9router\n```\n\n🎉 Dashboard opens at `http://localhost:20128`\n\n**2. Connect a FREE provider (no signup needed):**\n\nDashboard → Providers → Connect **Kiro AI** (free Claude unlimited) or **OpenCode Free** (no auth) → Done!\n\n**3. Use in your CLI tool:**\n\n```\nClaude Code/Codex/OpenClaw/Cursor/Cline Settings:\n  Endpoint: http://localhost:20128/v1\n  API Key: [copy from dashboard]\n  Model: kr/claude-sonnet-4.5\n```\n\n**That's it!** Start coding with FREE AI models.\n\n**Alternative: run from source (this repository):**\n\nThis repository package is private (`9router-app`), so source/Docker execution is the expected local development path.\n\n```bash\ncp .env.example .env\nnpm install\nPORT=20128 NEXT_PUBLIC_BASE_URL=http://localhost:20128 npm run dev\n```\n\nProduction mode:\n\n```bash\nnpm run build\nPORT=20128 HOSTNAME=0.0.0.0 NEXT_PUBLIC_BASE_URL=http://localhost:20128 npm run start\n```\n\nDefault URLs:\n\n- Dashboard: `http://localhost:20128/dashboard`\n- OpenAI-compatible API: `http://localhost:20128/v1`\n\n---\n\n## Video Guides\n\n<div align=\"center\">\n\n<table>\n  <tr>\n  <td align=\"center\" width=\"320\">\n  <a href=\"https://www.youtube.com/watch?v=X69n5Lm06Yw\">\n    <img src=\"https://img.youtube.com/vi/X69n5Lm06Yw/maxresdefault.jpg\" alt=\"Tiết kiệm chi phí LLM với 9Router\" width=\"300\"/>\n  </a><br/>\n  <b>🇻🇳 Tiếng Việt</b><br/>\n  <sub>Tiết kiệm chi phí LLM cho OpenClaw với 9Router<br/>by <a href=\"https://www.youtube.com/c/M%C3%ACAIblog\">Mì AI</a></sub>\n</td>\n<td align=\"center\" width=\"320\">\n      <a href=\"https://youtu.be/VQAw612S27Y\">\n        <img src=\"https://img.youtube.com/vi/VQAw612S27Y/maxresdefault.jpg\" alt=\"9Router + Claude Code FREE Unlimited Setup\" width=\"300\"/>\n      </a><br/>\n      <b>🇵🇰 اردو / हिन्दी</b><br/>\n      <sub>9Router + Claude Code FREE Unlimited Setup<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=raEyZPg5xE0\">\n        <img src=\"https://img.youtube.com/vi/raEyZPg5xE0/maxresdefault.jpg\" alt=\"9Router Setup Tutorial\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>9Router + Claude Code FREE Setup<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    \n  </tr>\n  <tr>\n  <td align=\"center\" width=\"320\">\n      <a href=\"https://youtu.be/3dF5GIYMrcQ?si=bAyfyiHbARJQAHj_\">\n        <img src=\"https://img.youtube.com/vi/3dF5GIYMrcQ/hqdefault.jpg\" alt=\"9Router Setup Tutorial\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>9Router + Claude Code FREE Setup<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=o3qYCyjrFYg\">\n        <img src=\"https://img.youtube.com/vi/o3qYCyjrFYg/maxresdefault.jpg\" alt=\"Claude Code FREE Forever\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>Claude Code FREE Forever — Unlimited Models<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=Ttpc26m39Dw\">\n        <img src=\"https://img.youtube.com/vi/Ttpc26m39Dw/maxresdefault.jpg\" alt=\"Claude CLI Free Setup\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>Claude CLI Free Setup with 9Router 🚀<br/>by <a href=\"https://www.youtube.com/@CodeVerseSoban\">CodeVerse Soban</a></sub>\n    </td>\n    \n  </tr>\n  <tr>\n  <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=G-5A_D5Pm6Y\">\n        <img src=\"https://img.youtube.com/vi/G-5A_D5Pm6Y/maxresdefault.jpg\" alt=\"Cài đặt OpenClaw Free A-Z\" width=\"300\"/>\n      </a><br/>\n      <b>🇻🇳 Tiếng Việt</b><br/>\n      <sub>Cài Đặt OpenClaw Free Từ A-Z + 9Router<br/>by <a href=\"https://www.youtube.com/@maigia\">Mai Gia</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=JXmg8_gccgE\">\n        <img src=\"https://img.youtube.com/vi/JXmg8_gccgE/maxresdefault.jpg\" alt=\"FREE OpenClaw with Claude Opus\" width=\"300\"/>\n      </a><br/>\n      <b>🇺🇸 English</b><br/>\n      <sub>FREE OpenClaw + Claude Opus 4.6<br/>by <a href=\"https://www.youtube.com/@BuildAIWithHamid\">Build AI With Hamid</a></sub>\n    </td>\n    <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=CkVZZUSTXAI\">\n        <img src=\"https://img.youtube.com/vi/CkVZZUSTXAI/mqdefault.jpg\" alt=\"Claude CLI Free Setup\" width=\"300\"/>\n      </a><br/>\n      <b>🇮🇩 Indonesia</b><br/>\n      <sub>Koding 24 Jam Anti Rate Limit! Hemat Token AI 65% | Tutorial Quick Setup 9Router 🚀<br/>by <a href=\"https://www.youtube.com/@krisswuh\">Krisswuh</a></sub>\n    </td>\n    \n  </tr>\n  \n  <tr>\n  <td align=\"center\" width=\"320\">\n      <a href=\"https://www.youtube.com/watch?v=TXGv4eofe1I\">\n        <img src=\"https://img.youtube.com/vi/TXGv4eofe1I/mqdefault.jpg\" alt=\"Cara Deploy 9Router di Hugging Face GRATIS Non-Stop! | Alternatif VPS RAM 16GB\" width=\"300\"/>\n      </a><br/>\n      <b>🇮🇩 Indonesia</b><br/>\n      <sub>Cara Deploy 9Router di Hugging Face GRATIS Non-Stop! | Alternatif VPS RAM 16GB<br/>by <a href=\"https://www.youtube.com/@krisswuh\">Krisswuh</a></sub>\n    </td>\n  </tr>\n\n</table>\n\n</div>\n\n> 🎬 **Made a video about 9Router?** Submit a [Pull Request](https://github.com/decolua/9router/pulls) adding your video to this section — we'll merge it!\n\n---\n\n## 🛠️ Supported CLI Tools\n\n9Router works seamlessly with all major AI coding tools:\n\n<div align=\"center\">\n  <table>\n    <tr>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/claude.png\" width=\"60\" alt=\"Claude Code\"/><br/>\n        <b>Claude-Code</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/openclaw.png\" width=\"60\" alt=\"OpenClaw\"/><br/>\n        <b>OpenClaw</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/codex.png\" width=\"60\" alt=\"Codex\"/><br/>\n        <b>Codex</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/opencode.png\" width=\"60\" alt=\"OpenCode\"/><br/>\n        <b>OpenCode</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/cursor.png\" width=\"60\" alt=\"Cursor\"/><br/>\n        <b>Cursor</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/antigravity.png\" width=\"60\" alt=\"Antigravity\"/><br/>\n        <b>Antigravity</b>\n      </td>\n    </tr>\n    <tr>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/cline.png\" width=\"60\" alt=\"Cline\"/><br/>\n        <b>Cline</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/continue.png\" width=\"60\" alt=\"Continue\"/><br/>\n        <b>Continue</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/droid.png\" width=\"60\" alt=\"Droid\"/><br/>\n        <b>Droid</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/roo.png\" width=\"60\" alt=\"Roo\"/><br/>\n        <b>Roo</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/copilot.png\" width=\"60\" alt=\"Copilot\"/><br/>\n        <b>Copilot</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/kilocode.png\" width=\"60\" alt=\"Kilo Code\"/><br/>\n        <b>Kilo Code</b>\n      </td>\n    </tr>\n  </table>\n</div>\n\n---\n\n## 🌐 Supported Providers\n\n### 🔐 OAuth Providers\n\n<div align=\"center\">\n  <table>\n    <tr>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/claude.png\" width=\"60\" alt=\"Claude Code\"/><br/>\n        <b>Claude-Code</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/antigravity.png\" width=\"60\" alt=\"Antigravity\"/><br/>\n        <b>Antigravity</b>\n      </td>\n      <td align=\"center\" width=\"120\">\n        <img src=\"./public/providers/codex.png\" width=\"60\" alt=\"Codex\"/><br/>\n        <b>Codex</b>\n",
+                "exit": 0,
+                "description": "Fetch README from master branch",
+                "truncated": false
+              },
+              "title": "Fetch README from master branch",
+              "time": {
+                "start": 1783987232362,
+                "end": 1783987232836
+              }
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "I now have the basic repo info. Let me fetch the README and maybe some key files to understand what it does and whether it's legitimate/safe. Let me try different branches or paths for the README.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5decde76001yJb6lqTmFWAGRl",
+          "time": "2026-07-14T00:00:32.374000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "chatcmpl-tool-901cd0886134170e",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "curl -s -L \"https://raw.githubusercontent.com/decolua/9router/main/README.md\" 2>/dev/null | head -300",
+                "description": "Fetch README from main branch",
+                "timeout": 30000
+              },
+              "output": "404: Not Found",
+              "metadata": {
+                "output": "404: Not Found",
+                "exit": 0,
+                "description": "Fetch README from main branch",
+                "truncated": false
+              },
+              "title": "Fetch README from main branch",
+              "time": {
+                "start": 1783987232399,
+                "end": 1783987232691
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5dece08d001KjQcuyZGzVrOsc",
+          "time": "2026-07-14T00:00:32.910000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 13609,
+              "input": 11486,
+              "output": 154,
+              "reasoning": 49,
+              "cache": {
+                "write": 0,
+                "read": 1920
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5dece0cd001aEEAxlbGiKKMS6",
+      "time": "2026-07-14T00:00:32.974000+00:00",
+      "data": {
+        "parentID": "msg_f5debf557001xykKW0W6EsV1xL",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 17419,
+          "input": 5786,
+          "output": 64,
+          "reasoning": 49,
+          "cache": {
+            "write": 0,
+            "read": 11520
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987232974,
+          "completed": 1783987247475
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5ded144c0011HUk3Oguzcso4H",
+          "time": "2026-07-14T00:00:46.156000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5ded1467001ugPFvqwe93T1QS",
+          "time": "2026-07-14T00:00:46.184000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "I have enough information now. Let me also look at the package.json or some code to understand the architecture better, particularly around how it works with providers and any security concerns.",
+            "time": {
+              "start": 1783987246183,
+              "end": 1783987246693
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "I have enough information now. Let me also look at the package.json or some code to understand the architecture better, particularly around how it works with providers and any security concerns.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5ded160a001rcuX0DiHHaSBSR",
+          "time": "2026-07-14T00:00:46.603000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "chatcmpl-tool-b5c4fe5988cabab2",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "curl -s \"https://api.github.com/repos/decolua/9router/contents/\" 2>/dev/null | head -100",
+                "description": "List root files in repo",
+                "timeout": 30000
+              },
+              "output": "[\n  {\n    \"name\": \".dockerignore\",\n    \"path\": \".dockerignore\",\n    \"sha\": \"5b921cd983cbbe568c02afb3da0e9fa6e2585bc2\",\n    \"size\": 374,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.dockerignore?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/blob/master/.dockerignore\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/blobs/5b921cd983cbbe568c02afb3da0e9fa6e2585bc2\",\n    \"download_url\": \"https://raw.githubusercontent.com/decolua/9router/master/.dockerignore\",\n    \"type\": \"file\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.dockerignore?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/blobs/5b921cd983cbbe568c02afb3da0e9fa6e2585bc2\",\n      \"html\": \"https://github.com/decolua/9router/blob/master/.dockerignore\"\n    }\n  },\n  {\n    \"name\": \".env.example\",\n    \"path\": \".env.example\",\n    \"sha\": \"6ed8f81e868c0d9456be98f8f866dd8255ba196f\",\n    \"size\": 1328,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.env.example?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/blob/master/.env.example\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/blobs/6ed8f81e868c0d9456be98f8f866dd8255ba196f\",\n    \"download_url\": \"https://raw.githubusercontent.com/decolua/9router/master/.env.example\",\n    \"type\": \"file\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.env.example?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/blobs/6ed8f81e868c0d9456be98f8f866dd8255ba196f\",\n      \"html\": \"https://github.com/decolua/9router/blob/master/.env.example\"\n    }\n  },\n  {\n    \"name\": \".github\",\n    \"path\": \".github\",\n    \"sha\": \"5281bd67c963be8a590f5ed177b3cc1ea48dcdca\",\n    \"size\": 0,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.github?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/tree/master/.github\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/trees/5281bd67c963be8a590f5ed177b3cc1ea48dcdca\",\n    \"download_url\": null,\n    \"type\": \"dir\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.github?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/trees/5281bd67c963be8a590f5ed177b3cc1ea48dcdca\",\n      \"html\": \"https://github.com/decolua/9router/tree/master/.github\"\n    }\n  },\n  {\n    \"name\": \".gitignore\",\n    \"path\": \".gitignore\",\n    \"sha\": \"dd7c67fb6dd42feaa968df04f6a990a39a50b0b0\",\n    \"size\": 987,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.gitignore?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/blob/master/.gitignore\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/blobs/dd7c67fb6dd42feaa968df04f6a990a39a50b0b0\",\n    \"download_url\": \"https://raw.githubusercontent.com/decolua/9router/master/.gitignore\",\n    \"type\": \"file\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.gitignore?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/blobs/dd7c67fb6dd42feaa968df04f6a990a39a50b0b0\",\n      \"html\": \"https://github.com/decolua/9router/blob/master/.gitignore\"\n    }\n  },\n  {\n    \"name\": \".npmignore\",\n    \"path\": \".npmignore\",\n    \"sha\": \"24e8f32faa7e96c8292f5b55f2db6d93262802f8\",\n    \"size\": 368,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.npmignore?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/blob/master/.npmignore\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/blobs/24e8f32faa7e96c8292f5b55f2db6d93262802f8\",\n    \"download_url\": \"https://raw.githubusercontent.com/decolua/9router/master/.npmignore\",\n    \"type\": \"file\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.npmignore?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/blobs/24e8f32faa7e96c8292f5b55f2db6d93262802f8\",\n      \"html\": \"https://github.com/decolua/9router/blob/master/.npmignore\"\n    }\n  },\n  {\n    \"name\": \".vscode\",\n    \"path\": \".vscode\",\n    \"sha\": \"641c000a982da65db3918a8f45296794bad08d35\",\n    \"size\": 0,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.vscode?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/tree/master/.vscode\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/trees/641c000a982da65db3918a8f45296794bad08d35\",\n    \"download_url\": null,\n    \"type\": \"dir\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.vscode?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/trees/641c000a982da65db3918a8f45296794bad08d35\",\n      \"html\": \"https://github.com/decolua/9router/tree/master/.vscode\"\n    }\n  },\n  {\n    \"name\": \"CHANGELOG.md\",\n    \"path\": \"CHANGELOG.md\",\n",
+              "metadata": {
+                "output": "[\n  {\n    \"name\": \".dockerignore\",\n    \"path\": \".dockerignore\",\n    \"sha\": \"5b921cd983cbbe568c02afb3da0e9fa6e2585bc2\",\n    \"size\": 374,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.dockerignore?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/blob/master/.dockerignore\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/blobs/5b921cd983cbbe568c02afb3da0e9fa6e2585bc2\",\n    \"download_url\": \"https://raw.githubusercontent.com/decolua/9router/master/.dockerignore\",\n    \"type\": \"file\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.dockerignore?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/blobs/5b921cd983cbbe568c02afb3da0e9fa6e2585bc2\",\n      \"html\": \"https://github.com/decolua/9router/blob/master/.dockerignore\"\n    }\n  },\n  {\n    \"name\": \".env.example\",\n    \"path\": \".env.example\",\n    \"sha\": \"6ed8f81e868c0d9456be98f8f866dd8255ba196f\",\n    \"size\": 1328,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.env.example?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/blob/master/.env.example\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/blobs/6ed8f81e868c0d9456be98f8f866dd8255ba196f\",\n    \"download_url\": \"https://raw.githubusercontent.com/decolua/9router/master/.env.example\",\n    \"type\": \"file\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.env.example?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/blobs/6ed8f81e868c0d9456be98f8f866dd8255ba196f\",\n      \"html\": \"https://github.com/decolua/9router/blob/master/.env.example\"\n    }\n  },\n  {\n    \"name\": \".github\",\n    \"path\": \".github\",\n    \"sha\": \"5281bd67c963be8a590f5ed177b3cc1ea48dcdca\",\n    \"size\": 0,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.github?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/tree/master/.github\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/trees/5281bd67c963be8a590f5ed177b3cc1ea48dcdca\",\n    \"download_url\": null,\n    \"type\": \"dir\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.github?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/trees/5281bd67c963be8a590f5ed177b3cc1ea48dcdca\",\n      \"html\": \"https://github.com/decolua/9router/tree/master/.github\"\n    }\n  },\n  {\n    \"name\": \".gitignore\",\n    \"path\": \".gitignore\",\n    \"sha\": \"dd7c67fb6dd42feaa968df04f6a990a39a50b0b0\",\n    \"size\": 987,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.gitignore?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/blob/master/.gitignore\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/blobs/dd7c67fb6dd42feaa968df04f6a990a39a50b0b0\",\n    \"download_url\": \"https://raw.githubusercontent.com/decolua/9router/master/.gitignore\",\n    \"type\": \"file\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.gitignore?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/blobs/dd7c67fb6dd42feaa968df04f6a990a39a50b0b0\",\n      \"html\": \"https://github.com/decolua/9router/blob/master/.gitignore\"\n    }\n  },\n  {\n    \"name\": \".npmignore\",\n    \"path\": \".npmignore\",\n    \"sha\": \"24e8f32faa7e96c8292f5b55f2db6d93262802f8\",\n    \"size\": 368,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.npmignore?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/blob/master/.npmignore\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/blobs/24e8f32faa7e96c8292f5b55f2db6d93262802f8\",\n    \"download_url\": \"https://raw.githubusercontent.com/decolua/9router/master/.npmignore\",\n    \"type\": \"file\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.npmignore?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/blobs/24e8f32faa7e96c8292f5b55f2db6d93262802f8\",\n      \"html\": \"https://github.com/decolua/9router/blob/master/.npmignore\"\n    }\n  },\n  {\n    \"name\": \".vscode\",\n    \"path\": \".vscode\",\n    \"sha\": \"641c000a982da65db3918a8f45296794bad08d35\",\n    \"size\": 0,\n    \"url\": \"https://api.github.com/repos/decolua/9router/contents/.vscode?ref=master\",\n    \"html_url\": \"https://github.com/decolua/9router/tree/master/.vscode\",\n    \"git_url\": \"https://api.github.com/repos/decolua/9router/git/trees/641c000a982da65db3918a8f45296794bad08d35\",\n    \"download_url\": null,\n    \"type\": \"dir\",\n    \"_links\": {\n      \"self\": \"https://api.github.com/repos/decolua/9router/contents/.vscode?ref=master\",\n      \"git\": \"https://api.github.com/repos/decolua/9router/git/trees/641c000a982da65db3918a8f45296794bad08d35\",\n      \"html\": \"https://github.com/decolua/9router/tree/master/.vscode\"\n    }\n  },\n  {\n    \"name\": \"CHANGELOG.md\",\n    \"path\": \"CHANGELOG.md\",\n",
+                "exit": 0,
+                "description": "List root files in repo",
+                "truncated": false
+              },
+              "title": "List root files in repo",
+              "time": {
+                "start": 1783987246637,
+                "end": 1783987247376
+              }
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "I have enough information now. Let me also look at the package.json or some code to understand the architecture better, particularly around how it works with providers and any security concerns.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5ded195f001qSzFnV3OSmXIPg",
+          "time": "2026-07-14T00:00:47.456000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 17419,
+              "input": 5786,
+              "output": 64,
+              "reasoning": 49,
+              "cache": {
+                "write": 0,
+                "read": 11520
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5ded1998001zv5qhaHXNybhQb",
+      "time": "2026-07-14T00:00:47.512000+00:00",
+      "data": {
+        "parentID": "msg_f5debf557001xykKW0W6EsV1xL",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 19778,
+          "input": 17245,
+          "output": 291,
+          "reasoning": 322,
+          "cache": {
+            "write": 0,
+            "read": 1920
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987247512,
+          "completed": 1783987258859
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_f5ded37fd001YruoH2BPAsp8wY",
+          "time": "2026-07-14T00:00:55.293000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5ded3807001G3l4S42DNMT42v",
+          "time": "2026-07-14T00:00:55.304000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "I have enough information to provide a useful answer. Let me summarize what I've found:\n\n1. **9Router** is an open-source (MIT licensed) project by `decolua` with 22,065 stars and 3,729 forks.\n2. It's a local proxy/router for AI APIs, written in JavaScript/Node.js.\n3. It connects AI coding tools (Claude Code, Cursor, Cline, Copilot, Codex, etc.) to 40+ AI providers.\n4. Key features: RTK Token Saver, auto-fallback between providers, multi-account round-robin.\n5. The project is public and open source, but the actual `9router-app` package is private (mentioned in README).\n6. It runs locally on `localhost:20128` as a proxy.\n\nThis is NOT \"unlimited free AI coding\" in the sense of breaking into systems. It's a legitimate open-source tool that:\n- Acts as a local API proxy/router\n- Helps manage multiple AI provider accounts\n- Compresses tokens to save costs\n- Falls back to cheaper/free providers when paid quotas run out\n- Provides an OpenAI-compatible API endpoint\n\nIt's essentially a smart local proxy with account management and token optimization. The \"unlimited\" claim comes from rotating between multiple free-tier accounts across providers, not from exploiting anything.\n\nI should give a concise answer about what it actually is and whether it works for \"unlimited\" coding.",
+            "time": {
+              "start": 1783987255303,
+              "end": 1783987256914
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "I have enough information to provide a useful answer. Let me summarize what I've found:\n\n1. **9Router** is an open-source (MIT licensed) project by `decolua` with 22,065 stars and 3,729 forks.\n2. It's a local proxy/router for AI APIs, written in JavaScript/Node.js.\n3. It connects AI coding tools (Claude Code, Cursor, Cline, Copilot, Codex, etc.) to 40+ AI providers.\n4. Key features: RTK Token Saver, auto-fallback between providers, multi-account round-robin.\n5. The project is public and open source, but the actual `9router-app` package is private (mentioned in README).\n6. It runs locally on `localhost:20128` as a proxy.\n\nThis is NOT \"unlimited free AI coding\" in the sense of breaking into systems. It's a legitimate open-source tool that:\n- Acts as a local API proxy/router\n- Helps manage multiple AI provider accounts\n- Compresses tokens to save costs\n- Falls back to cheaper/free providers when paid quotas run out\n- Provides an OpenAI-compatible API endpoint\n\nIt's essentially a smart local proxy with account management and token optimization. The \"unlimited\" claim comes from rotating between multiple free-tier accounts across providers, not from exploiting anything.\n\nI should give a concise answer about what it actually is and whether it works for \"unlimited\" coding.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5ded3e8b001NORatpPmv0wpzD",
+          "time": "2026-07-14T00:00:56.972000+00:00",
+          "data": {
+            "type": "text",
+            "text": "This is a **local AI API proxy/router** (MIT license, 22k+ stars). It is not a hack or exploit — it works by:\n\n1. Running a local server (`localhost:20128`) that proxies requests from your coding tools (Claude Code, Cursor, Copilot, etc.) to 40+ AI providers\n2. **Auto-fallback** between your own accounts (subscription → cheap → free tiers) when limits hit\n3. **RTK Token Saver** compressing tool outputs to cut token usage 20-40%\n4. **Multi-account rotation** so you can chain multiple free-tier accounts across providers\n\nCan it give you \"unlimited\" AI coding?\n\n**Yes, effectively — but not by magic.** The \"unlimited\" claim comes from rotating across many free-tier accounts (Kiro, OpenCode Free, Vertex free credits, etc.) and never exhausting a single quota. It does not break provider terms or grant free access to paid models.\n\n**Caveats:**\n- You still need valid accounts/keys for the providers you use\n- Free tiers have real rate limits; \"unlimited\" depends on how many free accounts you can maintain\n- It runs locally and stores credentials — review the code before using with paid keys\n- The actual commercial app (`9router-app`) is private; the repo is the open-source proxy core\n\nIf you want, I can clone the repo and review the code for security/risks.",
+            "time": {
+              "start": 1783987256971,
+              "end": 1783987258729
+            }
+          }
+        },
+        {
+          "id": "prt_f5ded45d6001Jmxf8HoUxxHvCh",
+          "time": "2026-07-14T00:00:58.838000+00:00",
+          "data": {
+            "reason": "stop",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 19778,
+              "input": 17245,
+              "output": 291,
+              "reasoning": 322,
+              "cache": {
+                "write": 0,
+                "read": 1920
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5defed54001wzKcGQ0J9aDPdz",
+      "time": "2026-07-14T00:03:53.009000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1783987433009
+        },
+        "agent": "code",
+        "model": {
+          "providerID": "kilo",
+          "modelID": "kilo-auto/free"
+        },
+        "summary": {
+          "diffs": []
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f5defed5b001qIW38BN69YavBh",
+          "time": "2026-07-14T00:03:53.032000+00:00",
+          "data": {
+            "type": "text",
+            "text": "npm i -g cline"
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5defeed4001VG8yn8T2yfAYPw",
+      "time": "2026-07-14T00:03:53.172000+00:00",
+      "data": {
+        "parentID": "msg_f5defed54001wzKcGQ0J9aDPdz",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 19416,
+          "input": 8283,
+          "output": 31,
+          "reasoning": 94,
+          "cache": {
+            "write": 0,
+            "read": 11008
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987433172,
+          "completed": 1783987553066
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5df00432001kCx1lIw34mO4Rp",
+          "time": "2026-07-14T00:03:58.643000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5df004360016lpKUUFv8m6mIL",
+          "time": "2026-07-14T00:03:58.647000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "The user just ran a command to install Cline globally with npm. They didn't ask a question, but based on the previous conversation about 9router, they might be trying to set up the workflow. The command output isn't shown, so I don't know if it succeeded or failed. I should check if the installation worked and provide relevant next steps or information about using Cline.",
+            "time": {
+              "start": 1783987438646,
+              "end": 1783987438769
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "The user just ran a command to install Cline globally with npm. They didn't ask a question, but based on the previous conversation about 9router, they might be trying to set up the workflow. The command output isn't shown, so I don't know if it succeeded or failed. I should check if the installation worked and provide relevant next steps or information about using Cline.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5df0048e001QT2jZetAU6s4W6",
+          "time": "2026-07-14T00:03:58.734000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "chatcmpl-tool-bded7a2435bfc5b1",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "which cline && cline --version",
+                "description": "Check if Cline installed successfully"
+              },
+              "output": "(no output)",
+              "metadata": {
+                "output": "(no output)",
+                "exit": 1,
+                "description": "Check if Cline installed successfully",
+                "truncated": false
+              },
+              "title": "Check if Cline installed successfully",
+              "time": {
+                "start": 1783987438759,
+                "end": 1783987553040
+              }
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "The user just ran a command to install Cline globally with npm. They didn't ask a question, but based on the previous conversation about 9router, they might be trying to set up the workflow. The command output isn't shown, so I don't know if it succeeded or failed. I should check if the installation worked and provide relevant next steps or information about using Cline.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5df1c31d001zmWfvd89A8Asyk",
+          "time": "2026-07-14T00:05:53.053000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 19416,
+              "input": 8283,
+              "output": 31,
+              "reasoning": 94,
+              "cache": {
+                "write": 0,
+                "read": 11008
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5df1c33e001XuGz5WvtcTH0W3",
+      "time": "2026-07-14T00:05:53.086000+00:00",
+      "data": {
+        "parentID": "msg_f5defed54001wzKcGQ0J9aDPdz",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 19654,
+          "input": 491,
+          "output": 113,
+          "reasoning": 106,
+          "cache": {
+            "write": 0,
+            "read": 18944
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987553086,
+          "completed": 1783987561681
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5df1d524001OcJRuziQ47516l",
+          "time": "2026-07-14T00:05:57.669000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5df1d52a001QKCgwFOKUjgufR",
+          "time": "2026-07-14T00:05:57.674000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "The user ran `npm i -g cline` but didn't provide the output. I checked if it installed, but `which cline` returned nothing and `cline --version` also produced no output. This could mean:\n1. The command is still running or hasn't finished\n2. It failed silently\n3. The binary is named differently or installed in a non-standard location\n\nLet me check npm global install location and list recently installed packages to verify.",
+            "time": {
+              "start": 1783987557674,
+              "end": 1783987558511
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "The user ran `npm i -g cline` but didn't provide the output. I checked if it installed, but `which cline` returned nothing and `cline --version` also produced no output. This could mean:\n1. The command is still running or hasn't finished\n2. It failed silently\n3. The binary is named differently or installed in a non-standard location\n\nLet me check npm global install location and list recently installed packages to verify.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5df1d84e001K55RITSGYnOm3c",
+          "time": "2026-07-14T00:05:58.478000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "chatcmpl-tool-ae31e89e67b414de",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "npm list -g --depth=0 2>/dev/null | grep -i cline",
+                "description": "Check if Cline is in global npm packages"
+              },
+              "output": "(no output)",
+              "metadata": {
+                "output": "(no output)",
+                "exit": 1,
+                "description": "Check if Cline is in global npm packages",
+                "truncated": false
+              },
+              "title": "Check if Cline is in global npm packages",
+              "time": {
+                "start": 1783987558492,
+                "end": 1783987561659
+              }
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "The user ran `npm i -g cline` but didn't provide the output. I checked if it installed, but `which cline` returned nothing and `cline --version` also produced no output. This could mean:\n1. The command is still running or hasn't finished\n2. It failed silently\n3. The binary is named differently or installed in a non-standard location\n\nLet me check npm global install location and list recently installed packages to verify.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5df1d860001MUAnQ846zx9d74",
+          "time": "2026-07-14T00:05:58.496000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "chatcmpl-tool-bb32c999f8919e55",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "npm config get prefix && ls -la \"$(npm config get prefix)/bin/\" 2>/dev/null | grep -i cline",
+                "description": "Check npm bin directory for cline"
+              },
+              "output": "/home/uzer/.local/share/fnm/node-versions/v22.23.0/installation\n",
+              "metadata": {
+                "output": "/home/uzer/.local/share/fnm/node-versions/v22.23.0/installation\n",
+                "exit": 1,
+                "description": "Check npm bin directory for cline",
+                "truncated": false
+              },
+              "title": "Check npm bin directory for cline",
+              "time": {
+                "start": 1783987558507,
+                "end": 1783987561268
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5df1e4c8001f5xVP5vUNPQ36k",
+          "time": "2026-07-14T00:06:01.672000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 19654,
+              "input": 491,
+              "output": 113,
+              "reasoning": 106,
+              "cache": {
+                "write": 0,
+                "read": 18944
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5df1e4e3001JQvZV6h80xzkV2",
+      "time": "2026-07-14T00:06:01.699000+00:00",
+      "data": {
+        "parentID": "msg_f5defed54001wzKcGQ0J9aDPdz",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 19858,
+          "input": 624,
+          "output": 48,
+          "reasoning": 114,
+          "cache": {
+            "write": 0,
+            "read": 19072
+          }
+        },
+        "modelID": "kilo-auto/free",
+        "providerID": "kilo",
+        "time": {
+          "created": 1783987561699,
+          "completed": 1783987566816
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_f5df1f586001xs37Lf10m7KfHX",
+          "time": "2026-07-14T00:06:05.959000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5df1f58b001UvxF4FnLo0ZUdf",
+          "time": "2026-07-14T00:06:05.963000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "Cline is not installed globally. The user ran `npm i -g cline` but it didn't complete or failed. I should inform them and help troubleshoot. Since they didn't ask a specific question, I should check if there was an error or if the command is still running. Actually, looking at the conversation, the user just pasted the command without context. I should let them know it doesn't appear to be installed and offer to help run it again or check for errors.",
+            "time": {
+              "start": 1783987565963,
+              "end": 1783987566545
+            },
+            "metadata": {
+              "openrouter": {
+                "reasoning_details": [
+                  {
+                    "type": "reasoning.text",
+                    "text": "Cline is not installed globally. The user ran `npm i -g cline` but it didn't complete or failed. I should inform them and help troubleshoot. Since they didn't ask a specific question, I should check if there was an error or if the command is still running. Actually, looking at the conversation, the user just pasted the command without context. I should let them know it doesn't appear to be installed and offer to help run it again or check for errors.",
+                    "format": "unknown",
+                    "index": 0
+                  }
+                ]
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5df1f7d6001cqsAJWJvXQstrO",
+          "time": "2026-07-14T00:06:06.550000+00:00",
+          "data": {
+            "type": "text",
+            "text": "Cline does not appear to be installed. The previous `npm i -g cline` command either failed or did not complete successfully.\n\nTo troubleshoot, run:\n```bash\nnpm install -g cline\n```\n\nIf it fails, share the error output and I can help resolve it.",
+            "time": {
+              "start": 1783987566550,
+              "end": 1783987566710
+            }
+          }
+        },
+        {
+          "id": "prt_f5df1f8d1001heecrw1AxhII1E",
+          "time": "2026-07-14T00:06:06.801000+00:00",
+          "data": {
+            "reason": "stop",
+            "type": "step-finish",
+            "model": {
+              "providerID": "kilo",
+              "modelID": "stepfun/step-3.7-flash:free"
+            },
+            "tokens": {
+              "total": 19858,
+              "input": 624,
+              "output": 48,
+              "reasoning": 114,
+              "cache": {
+                "write": 0,
+                "read": 19072
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    }
+  ]
+}

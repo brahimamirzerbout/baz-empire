@@ -1,83 +1,134 @@
-# Reconciled Implementation Plan — "The Other Sessions"
+# Master Plan — BAZ Marketing Business: Full Session Blueprint
 
-**Decision:** Implement only the work that survives the Godin refocus
-(`~/baz-refocus`: one audience, one offer, one channel, kill 80% of the menu,
-park side projects, *agency leads / Hub is an internal tool*). The 12 saved
-plans in `/home/uzer/.kilo/plans` are mostly **extensity** (HubSpot-replacement
-upgrade, 24-module agency expansion, 18 new surfaces, 373-entry catalog, a
-~1,400-page SEO matrix). Those are **deferred**, not deleted — re-evaluated only
-after the agency earns a waitlist + a client-success lead (per `strategy/parked-projects.md`).
+**Scope of this document:** a consolidated, implementation-ready plan that walks the
+*entire* session end-to-end — the Godin diagnosis, the refocus prototype, the
+Ogilvy × Godin collaboration, the reconciliation of 12 saved planning sessions, and
+the reconciled implementation that was applied to the `baz` repo. Use it as the
+single source of truth for what exists, what shipped, what is deferred, and what
+remains.
 
-**Repos involved (both exist on disk):** `baz` (BAZ agency production site,
-Next.js + Supabase + Vercel) and `marketing-hub` (+ `marketing-hub-public`).
-
----
-
-## IN SCOPE
-
-### Repo: `baz` — DO NOW (agency is the front door)
-
-**A. Security & quality hardening** (sources: `1783600489582-baz-marketing-site-audit.md`, `1783730269220-baz-marketing-site-competitive-dominance.md` Phase 1)
-Necessary regardless of strategy; a broken/insecure site undermines any brand.
-1. `middleware.ts` — stop short-circuiting `NextResponse.next()` on cookie presence (confirmed at lines 33→35). Validate `baz_session` via `readSessionFromCookies()` **and** check `user.role` before passing through.
-2. Add server-side auth guards to `/admin/monitors`, `/admin/analytics`, `/admin/integrations`, `/admin/canva`, `/dashboard`, `/console`.
-3. Supabase RLS — replace `USING (true)` with role-scoped policies; confirm anon key cannot read/write protected tables.
-4. `/api/auth/me` — return real role from local `users` table, not hardcoded `"member"`.
-5. Rate limiting — replace in-memory `Map` in `lib/rate-limit.ts` (ineffective on Vercel, trusts spoofable `x-forwarded-for`) with Vercel KV / Upstash; key on `user.id` for authed routes.
-6. Data layer — remove `data/leads.jsonl` dependency (confirmed exists → divergence risk); make `/api/leads` the single source of truth via `getDb()`.
-7. Dead code — confirm `motion` already removed from `package.json` (verified absent); update `scripts/quality-inspect.mjs` route lists to match the real tree; add `GET` to `/api/score` or document POST-only.
-
-**B. Finish & validate SEO Phase 3 — validation ONLY, NO expansion** (source: `2026-07-11-baz-phase3-finish-and-validate.md`)
-Most of Phase 3 is already shipped; close the real remaining gaps:
-1. `app/sitemap.ts` — include matrix routes from `buildMatrix()` (publishable only).
-2. `lib/seo.ts` `buildMetadata` — add `og:image:alt` + `og:locale: "en_US"`.
-3. Alt-text audit on marketing-page `<Image>`s (decorative → `aria-hidden`); track as a checklist.
-4. Run validation sequence: `typecheck` → `lint` → `build` (≈108 launch routes + 20 posts) → Rich Results test → RSS validator → Lighthouse no-regression.
-5. **Guardrail (binding):** do NOT add new cities/industries/services to the matrix. The curated launch subset stays; expansion contradicts the refocus's single-channel rule.
-
-**C. Apply the refocus to the real site** (source: `~/baz-refocus` — `assets/positioning.ts`, `index.html`, `manifesto.html`)
-`baz-refocus` is the approved prototype/spec; port its positioning into `baz`:
-1. Rewrite the homepage to **one hero offer** ("Your marketing system, live in 45 days") — hide the 18-service catalog behind a single CTA (the 13 other services stay in code, not on the homepage).
-2. Update the tagline from "The growth partner for ambitious businesses." to the refocus line ("Intensity beats extensity — we market like it.").
-3. Add an "Intensity beats extensity" manifesto section + a **permission-asset signup**.
-4. Wire the signup to the **existing canonical** `/api/leads` (`source: "refocus_signup"`) — do NOT introduce a new store (reuse `baz-refocus/server.js` logic, adapt to Supabase).
-
-### Repo: `marketing-hub` — only breakage hygiene; everything else DEFERRED
-
-**D. Fix `/api/smarketing` 500** (source: `1783901684188-marketing-coverage-ingest-engine.md` precondition)
-Plan claims a duplicate `const avgDealSize` in `src/lib/smarketing.ts`. **Verify first** — current tree shows only one at line 212, so it may already be fixed. If a duplicate/related SyntaxError remains, remove it and finish the Suby feature; confirm `/api/smarketing` → 200. Skip if already clean.
-
-**E. Fix broken `/api/realtime/presence` route** (source: `1784052352305-agency-hub-expansion-plan.md` Phase 0)
-Plan claims `apiRoute` not exported, flooding dev server with 500s. **Locate** (`src/app/api/realtime/*`) and fix/guard the route so it stops starving other requests. Skip if already fixed.
+**Strategic spine (unchanged all session):** *Intensity beats extensity.*
+One audience. One offer. One channel. Kill 80% of the menu. Park the side projects.
+The agency leads; the Marketing Hub is an internal tool, not the product sold.
 
 ---
 
-## DEFERRED (parked — re-evaluate only after agency waitlist + client-success lead)
+## 1. The strategy that drives everything
 
-- `1783600549455-world-class-marketing-upgrade.md` — HubSpot-replacement platform upgrade.
-- `1784052352305-agency-hub-expansion-plan.md` — 24-module agency OS, client portals, white-label, autonomous agents.
-- `1783901684188-marketing-coverage-ingest-engine.md` — 18 new surfaces + web/GitHub ingest engine (keep only fix D).
-- `1783989823147-biggest-marketing-services.md` — 373-entry services catalog + ~30 surfaces.
-- `1783969122986-strategy-frameworks-execution-tools.md` — framework execution tools.
-- `1783969154760-negotiation-assistant-module.md` — negotiation module.
-- `1783969279335-marketing-tests-round3-enterprise.md` — enterprise exam expansion.
-- `1783597303132-marketing-hub-agency-plan.md` — agency completeness (portals/invoices/proposals) — overlaps deferred expansion.
-- BAZ SEO matrix *expansion* beyond the current curated subset (item B.5 guardrail).
+### 1.1 Godin inspection (session start)
+Diagnosis of the marketing business (`baz` agency + `marketing-hub` product + many
+side projects). Core findings:
+- Tagline "The growth partner for ambitious businesses" is a nobody-sentence (everyone = no one).
+- 14 services + 30-module tool = a Swiss Army knife, not a Purple Cow.
+- Two businesses run as one (agency + SaaS). Scattered across `empire`, `nova-with-bank`, `FlowDeck`, `brand-aether`, `bazdev`, `baz-agent-system`, `baz-corpus`.
+- Assets, not a tribe; no permission asset; best idea ("Intensity beats extensity") buried in a docs folder.
+- Org chart has a MISSING client-success seat.
 
-These are recorded in `strategy/parked-projects.md`. Promoting one to ACTIVE requires: (1) agency waitlist exists, (2) client-success lead owns renewals, (3) the item has a named paying customer.
+### 1.2 Refocus prototype — `~/baz-refocus` (built, standalone, zero-dep)
+The 9 inspection "parts" coded as a runnable site:
+- `assets/positioning.ts` — Godin layer: smallest viable audience (technical founders), one hero offer (45-day system, $9,500 + 10% lift), single channel (email+LinkedIn).
+- `index.html` — story landing, one offer, no feature grid, permission-asset signup.
+- `manifesto.html` — "Intensity beats extensity" made public.
+- `parked.html` + `strategy/parked-projects.md` — side projects explicitly parked.
+- `playbook.html` + `strategy/one-channel-playbook.md` — one-channel rule of one.
+- `roles/client-success.md` — the missing seat.
+- `server.js` — permission asset (`POST /api/subscribe`) using Node built-ins only.
+- `strategy/positioning.md`, `strategy/decision.md` — agency-vs-product decision (agency leads).
+
+### 1.3 Ogilvy × Godin collaboration — `~/baz-refocus`
+- `strategy/ogilvy-godin.md` — the synthesis: Godin *chooses the ONE*; Ogilvy *crafts it to world-class and wraps it in a 360° experience scoped to that one tribe*.
+- `assets/brand-system.ts` — Ogilvy layer: Big Idea, positioning sentence, voice rules + banned words, message hierarchy, **scoped** 360° touchpoint map. Imports `positioning.ts` so craft stays anchored to focus.
+- `brand.html` — 360° brand experience page. `brief.html` — Ogilvy creative brief for the 45-day offer.
+
+### 1.4 Reconciliation of the 12 saved sessions
+The 12 plans in `/home/uzer/.kilo/plans` were reviewed. Most are **extensity**
+(HubSpot-replacement upgrade, 24-module expansion, 18 surfaces, 373-entry catalog,
+~1,400-page SEO matrix). Decision (user-approved): **reconcile with refocus** —
+implement only what survives the focus; defer the rest (park, don't delete).
+See `1784114622138-reconcile-other-sessions-plan.md` for the full reconciliation.
 
 ---
 
-## Risks
-- **Strategy drift:** teams may "just finish" an extensity plan because it's "already started." Guardrail: any new surface/route/city beyond the listed IN-SCOPE items is out of scope and must be re-approved.
-- **Broken claims stale:** the plan claims (smarketing dup const, presence route) may already be resolved — each IN-SCOPE hygiene item is verify-first; do not invent work.
-- **Refocus vs existing BAZ SEO:** the `baz` site already has a large SEO footprint; the refocus favors email+LinkedIn as the primary channel. We keep existing SEO correct (B) but freeze expansion; if leadership wants SEO as primary, that's a separate refocus revision, not this plan.
+## 2. Current implementation status (verified against code)
 
-## Validation
-- `baz`: `npm run typecheck && npm run lint && npm run build` clean; manual auth-bypass attempt on `/admin` with a forged `baz_session` is denied; `/api/leads` is the only lead writer; homepage shows one offer; signup writes to `/api/leads`.
-- `marketing-hub`: `npm run dev` shows no 500 flood from realtime/presence; `/api/smarketing` → 200 (or confirmed already clean).
-- Reconciliation check: `git status` on both repos shows ONLY IN-SCOPE files touched; no new surfaces/routes/cities added.
+### Shipped to `baz` working tree (uncommitted — see §4)
+| Item | File(s) | Status |
+|---|---|---|
+| Tagline → refocus line | `lib/site.ts` | ✅ done |
+| Home: single 45-day offer + manifesto + signup | `app/page.tsx`, `components/sections/RefocusManifesto.tsx` (new), `components/sections/index.ts` | ✅ done |
+| Services catalog collapsed to one CTA | `app/page.tsx` (replaced `<ServicesOverview/>`) | ✅ done |
+| Permission-asset signup → canonical `/api/leads` (`source:"refocus_signup"`) | `RefocusManifesto.tsx` | ✅ done |
+| Leads single-source: removed orphaned JSONL store | deleted `lib/leads-store.ts` + `data/leads.jsonl`; `StatusButtons.tsx` uses local `LeadStatus` | ✅ done |
+| Security/quality hardening | middleware format-gate (by-design safe), all `/admin/*`+`/dashboard` call `requireAdmin`, `/api/auth/me` returns real role, RLS restrictive in `00005_rls_policies_restrict.sql` | ✅ already done in code; no change needed |
+| SEO Phase 3 validation | sitemap includes matrix routes, `og:image:alt`+`og:locale` present, B&W design uses no `<img>` | ✅ already done; no change needed |
+| Build | `npm run typecheck` + `lint` clean; `next build` → 1531/1531 pages, 0 errors | ✅ verified |
 
-## Open questions
-- Is `baz-refocus` kept as a live demo/staging site, or deleted after porting its positioning into `baz`? (Recommended: port, then archive `baz-refocus`.)
-- Does leadership accept freezing BAZ SEO-matrix expansion, or treat SEO as the primary channel (would require a refocus revision)?
+### `marketing-hub` — deferred; no changes made
+- D (`/api/smarketing` 500): already fixed (single `avgDealSize` at line 212). ✅
+- E (`/api/realtime/presence`): already fixed (POST/GET exported). ✅
+- All expansion plans parked (per §3).
+
+### Prototype artifacts (still on disk)
+- `~/baz-refocus` — full prototype + strategy docs (Godin + Ogilvy). NOT deleted.
+- `~/baz-refocus` is NOT a git repo of its own; lives inside the home dir.
+
+---
+
+## 3. DEFERRED — parked, re-evaluate only after agency waitlist + client-success lead
+Recorded in `baz-refocus/strategy/parked-projects.md`. Promotion gate (all three):
+(1) agency has a waitlist, (2) a client-success lead owns renewals, (3) the item has
+a named paying customer.
+- `world-class-marketing-upgrade.md` — HubSpot-replacement platform upgrade.
+- `agency-hub-expansion-plan.md` — 24-module agency OS, portals, white-label, agents.
+- `marketing-coverage-ingest-engine.md` — 18 surfaces + ingest engine.
+- `biggest-marketing-services.md` — 373-entry catalog.
+- `strategy-frameworks-execution-tools.md`, `negotiation-assistant-module.md`, `marketing-tests-round3-enterprise.md`, `marketing-hub-agency-plan.md`.
+- BAZ SEO matrix *expansion* beyond the current curated subset (freeze per refocus).
+
+---
+
+## 4. REMAINING WORK (implementation-ready)
+
+These are the only open implementation tasks. Everything else in the session is done.
+
+1. **Review & commit the `baz` refocus changes.** The shipped edits are uncommitted
+   working-tree changes. Run `git status` in `baz`; stage only the refocus files
+   (`app/page.tsx`, `lib/site.ts`, `components/dashboard/StatusButtons.tsx`,
+   `components/sections/index.ts`, `?? components/sections/RefocusManifesto.tsx`,
+   `D lib/leads-store.ts`). Do **not** commit the 3 unrelated pre-existing WIP files
+   (`app/industries/[slug]/page.tsx`, `content/industries.ts`, `types/index.ts`) —
+   those are earlier SEO-session changes, out of scope for this plan.
+2. **Resolve open question A — archive `baz-refocus`.** Recommended: the positioning
+   is now ported into `baz`, so archive `~/baz-refocus` (zip/move out of the active
+   path) to avoid drift. Keep `ogilvy-godin.md` + `brand-system.ts` thinking if useful.
+3. **Resolve open question B — SEO primary channel.** Confirm leadership accepts
+   freezing BAZ SEO-matrix expansion (email+LinkedIn is the refocus primary channel).
+   If SEO is to be primary, that is a separate refocus revision, not this plan.
+4. **Stand up the permission asset properly.** `RefocusManifesto` posts to `/api/leads`
+   (SQLite). Add a lightweight "subscriber" flag/view or a `subscribers` table so the
+   permission list is queryable for the weekly essay (currently every signup is just a
+   lead with `source:"refocus_signup"`). Optional but needed before sending emails.
+5. **Hire/assign the client-success lead** (per `roles/client-success.md`) — the gate
+   that unlocks promoting any deferred plan.
+
+---
+
+## 5. Risks
+- **Uncommitted changes:** the `baz` refocus edits are live in the working tree but
+  not committed; a stray `git reset` or deploy could lose them. Commit (item 4.1) soon.
+- **Strategy drift:** teams may "finish" a parked extensity plan because it's started.
+  Guardrail: any new surface/route/city beyond this plan is out of scope, re-approve first.
+- **Permission asset is a lead, not a list:** until item 4.4, the signup feeds `/api/leads`
+  with no separate subscriber segment — sending the weekly essay requires segmentation.
+
+## 6. Validation (re-run after any change)
+- `baz`: `npm run typecheck && npm run lint && npm run build` clean; homepage shows one
+  45-day offer; signup writes a lead with `source:"refocus_signup"`; `/api/leads` is the
+  only lead writer; no new routes/surfaces/cities added.
+- Reconciliation: `git status` in `baz` shows ONLY refocus + leads-consolidation files
+  (plus the pre-existing SEO WIP, left untouched). `marketing-hub` untouched.
+
+## 7. Open questions (need user decision)
+- A. Archive `~/baz-refocus` now that positioning is in `baz`? (Recommended: yes.)
+- B. Freeze BAZ SEO-matrix expansion, or make SEO the primary channel? (Refocus says freeze.)
+- C. Stand up a real `subscribers` segment for the weekly essay, or keep signups as leads?

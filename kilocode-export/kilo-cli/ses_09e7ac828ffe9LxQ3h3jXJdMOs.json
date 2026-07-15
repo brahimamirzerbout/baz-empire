@@ -1,0 +1,129 @@
+{
+  "source": "kilo-cli",
+  "id": "ses_09e7ac828ffe9LxQ3h3jXJdMOs",
+  "title": "New session - 2026-07-14T16:45:48.375Z",
+  "slug": "gentle-river",
+  "directory": "/home/uzer",
+  "agent": "code",
+  "model": "{\"id\":\"kilo-auto/free\",\"providerID\":\"kilo\",\"variant\":\"default\"}",
+  "cost": 0.0,
+  "tokens": {
+    "input": 0,
+    "output": 0,
+    "reasoning": 0,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "project": {
+    "id": "e4a16a4500faf36321debe50c1b3a647138927d6",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer",
+    "time_created": "2026-07-09T11:40:47.981000+00:00"
+  },
+  "parent_id": null,
+  "workspace_id": null,
+  "path": "",
+  "share_url": null,
+  "summary": {
+    "additions": 0,
+    "deletions": 0,
+    "files": 0,
+    "diffs": null
+  },
+  "time_created": "2026-07-14T16:45:48.375000+00:00",
+  "time_updated": "2026-07-14T16:51:00.135000+00:00",
+  "time_archived": null,
+  "metadata": null,
+  "message_count": 3,
+  "part_count": 2,
+  "todo_count": 0,
+  "lifecycle": [],
+  "todos": [],
+  "messages": [
+    {
+      "id": "msg_f618537fc0015L9iKpcV3T06An",
+      "time": "2026-07-14T16:45:48.526000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1784047548526
+        },
+        "agent": "code",
+        "model": {
+          "providerID": "ollama-cloud",
+          "modelID": "glm-5.2"
+        },
+        "summary": {
+          "diffs": []
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f618537fd001qrdpVah3GgB2GY",
+          "time": "2026-07-14T16:45:48.634000+00:00",
+          "data": {
+            "type": "text",
+            "text": "App agency\nBranding agency\nContent marketing agency\nDesign agency\nDigital agency\nDialog marketing agency\nE-commerce agency\nEvent agency\nFull Service Agency\nInbound Marketing Agency\nInfluencer Marketing Agency\nInternet & Web Agency\nCommunication agency\nCreative agency\nMedia agency\nOnline marketing agency\nPerformance Marketing Agency\nPR Agency\nSocial media agency\nSEO / SEA Agency\nStrategy agency\nManagement Consulting\nVideo / Film Agency\nAdvertising agency\n\n\n(Source: cmmodels.com) "
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f61853ae0001xhqcwozT38BljO",
+      "time": "2026-07-14T16:45:49.152000+00:00",
+      "data": {
+        "parentID": "msg_f618537fc0015L9iKpcV3T06An",
+        "role": "assistant",
+        "mode": "code",
+        "agent": "code",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "input": 0,
+          "output": 0,
+          "reasoning": 0,
+          "cache": {
+            "read": 0,
+            "write": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1784047549152,
+          "completed": 1784052289426
+        }
+      },
+      "parts": []
+    },
+    {
+      "id": "msg_f6189f93f001vBUW0lzW7I2mhi",
+      "time": "2026-07-14T16:51:00.096000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1784047860096
+        },
+        "agent": "code",
+        "model": {
+          "providerID": "kilo",
+          "modelID": "kilo-auto/free"
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f6189f93f002yPv8UjsJKBRSod",
+          "time": "2026-07-14T16:51:00.130000+00:00",
+          "data": {
+            "type": "text",
+            "text": "search"
+          }
+        }
+      ]
+    }
+  ]
+}

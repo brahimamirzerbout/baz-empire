@@ -1,0 +1,37 @@
+{
+  "e4a16a4500faf36321debe50c1b3a647138927d6": {
+    "id": "e4a16a4500faf36321debe50c1b3a647138927d6",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer",
+    "time_created": "2026-07-09T11:40:47.981000+00:00"
+  },
+  "global": {
+    "id": "global",
+    "name": null,
+    "vcs": null,
+    "worktree": "/",
+    "time_created": "2026-07-10T14:23:15.195000+00:00"
+  },
+  "46daef04ddad615c6403b96e93e601dd8ee820be": {
+    "id": "46daef04ddad615c6403b96e93e601dd8ee820be",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer/nova-with-bank",
+    "time_created": "2026-07-10T14:31:40.243000+00:00"
+  },
+  "ce7a4fb81e01ea6750329f34e61c2d0e20183d33": {
+    "id": "ce7a4fb81e01ea6750329f34e61c2d0e20183d33",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer/baz",
+    "time_created": "2026-07-10T15:07:43.223000+00:00"
+  },
+  "de40ee4cd211257b108116dae93e25bd45c6d57b": {
+    "id": "de40ee4cd211257b108116dae93e25bd45c6d57b",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer/marketing-hub",
+    "time_created": "2026-07-14T00:07:20.189000+00:00"
+  }
+}

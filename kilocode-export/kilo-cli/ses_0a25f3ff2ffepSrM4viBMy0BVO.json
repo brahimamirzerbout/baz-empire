@@ -1,0 +1,1128 @@
+{
+  "source": "kilo-cli",
+  "id": "ses_0a25f3ff2ffepSrM4viBMy0BVO",
+  "title": "Create ExamAnalytics.tsx (@general subagent)",
+  "slug": "mighty-forest",
+  "directory": "/home/uzer",
+  "agent": "general",
+  "model": "{\"id\":\"glm-5.2\",\"providerID\":\"ollama-cloud\",\"variant\":\"default\"}",
+  "cost": 0.0,
+  "tokens": {
+    "input": 115317,
+    "output": 3235,
+    "reasoning": 0,
+    "cache_read": 0,
+    "cache_write": 0
+  },
+  "project": {
+    "id": "e4a16a4500faf36321debe50c1b3a647138927d6",
+    "name": null,
+    "vcs": "git",
+    "worktree": "/home/uzer",
+    "time_created": "2026-07-09T11:40:47.981000+00:00"
+  },
+  "parent_id": "ses_0a3251298ffebNDLte0VGOmQMQ",
+  "workspace_id": null,
+  "path": "",
+  "share_url": null,
+  "summary": {
+    "additions": 0,
+    "deletions": 0,
+    "files": 0,
+    "diffs": null
+  },
+  "time_created": "2026-07-13T22:37:23.853000+00:00",
+  "time_updated": "2026-07-13T22:43:32.894000+00:00",
+  "time_archived": null,
+  "metadata": null,
+  "message_count": 12,
+  "part_count": 42,
+  "todo_count": 0,
+  "lifecycle": [],
+  "todos": [],
+  "messages": [
+    {
+      "id": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+      "time": "2026-07-13T22:37:24.457000+00:00",
+      "data": {
+        "role": "user",
+        "time": {
+          "created": 1783982244457
+        },
+        "tools": {
+          "question": false,
+          "interactive_terminal": false,
+          "task": false
+        },
+        "agent": "general",
+        "model": {
+          "providerID": "ollama-cloud",
+          "modelID": "glm-5.2"
+        },
+        "summary": {
+          "diffs": []
+        }
+      },
+      "parts": [
+        {
+          "id": "prt_f5da0c2db00145ScYYJ3XHjwYw",
+          "time": "2026-07-13T22:37:24.583000+00:00",
+          "data": {
+            "type": "text",
+            "text": "Create a NEW file at `/home/uzer/marketing-hub/src/components/marketing/ExamAnalytics.tsx` using the write tool. This is a React client component for question-level analytics of a marketing-exams recruiting feature.\n\n## Available imports\nFrom `@/lib/marketing-tests/exams` (already verified to exist and compile):\n```ts\nexport const EXAMS: Exam[];\nexport function getExam(id: string): Exam | undefined;\nexport function computeQuestionAnalytics(scores: AttemptQuestionScore[]): QuestionAnalytics[];\nexport function percentileRank(score: number, allScores: number[]): number;\nexport function trainingRecommendations(skillBreakdown: Record<string, { correct: number; total: number; pct: number }>): TrainingRecommendation[];\nexport function bandFor(score: number): SkillBand;\nexport function isMultiSelect(q: Question): q is MultiSelectQuestion;\nexport function isNumeric(q: Question): q is NumericQuestion;\nexport interface AttemptQuestionScore { attemptId: string; questionId: string; examId: string; earnedFraction: number; isCorrect: boolean; weightedPercentage: number; }\nexport interface QuestionAnalytics { questionId: string; examId: string; pValue: number; discriminationIndex: number; attempts: number; avgEarnedFraction: number; }\nexport interface TrainingRecommendation { skill: string; scorePct: number; band: SkillBand; recommendation: string; suggestedExams: string[]; }\nexport type Question = MCQQuestion | TrueFalseQuestion | MultiSelectQuestion | NumericQuestion;  // discriminated union, each has: id, type, prompt, options, correct, explanation, skill, difficulty\nexport interface Exam { id; title; domain; description; durationMinutes; passingScore; level; questions: Question[] }\n```\n\nType-only import from `@/components/marketing/ExamCertificate`:\n```ts\nexport interface ExamResult {\n  attemptId: string; examId: string; examTitle: string; domain: string;\n  score: number; total: number; correctCount: number; percentage: number;\n  passed: boolean; band: SkillBand; skillBreakdown: Record<string, { correct: number; total: number; pct: number }>;\n  answers: unknown[]; candidate: string; email: string; elapsedSeconds: number;\n  timedOut: boolean; tabSwitches: number; takenAt: number;\n}\n```\n\nUI primitives from `@/components/marketing/ui`:\n```ts\nCard: ({ className, children, ...props }) => JSX\nButton: ({ className, children, variant = \"default\", ...props } & { variant?: \"default\"|\"outline\"|\"ghost\"|\"destructive\"|\"secondary\" }) => JSX\nBadge: ({ className, children, variant = \"default\", ...props } & { variant?: \"default\"|\"outline\"|\"destructive\"|\"secondary\" }) => JSX\nSelect: ({ children, value, onValueChange }) => JSX  // wraps a native <select>\nSelectItem: ({ children, value }) => JSX  // renders an <option>\n```\n\n## Component signature\n```tsx\nexport function ExamAnalytics({\n  history,\n  onBack,\n  onViewAttempt,\n}: {\n  history: ExamResult[];\n  onBack: () => void;\n  onViewAttempt: (a: ExamResult) => void;\n}) { ... }\n```\n\n## Features to implement\n1. **Exam filter** — a `Select` of distinct examIds present in history, plus an \"All\" option (value \"all\"). Default \"all\". Filter history by examId when not \"all\".\n2. **Build AttemptQuestionScore[]** from filtered history. The `ExamResult.answers` is `unknown[]` but each item is actually an AnswerRecord. Define a local interface:\n```ts\ninterface AnswerRecord {\n  questionId: string;\n  type: string;\n  selected: number | number[];\n  correct: number | number[];\n  skill: string;\n  difficulty: number;\n  isCorrect: boolean;\n  earnedWeight: number;\n  maxWeight: number;\n}\n```\nFor each attempt `r` in filtered history, for each `ar` in `r.answers as AnswerRecord[]`, push:\n`{ attemptId: r.attemptId, questionId: ar.questionId, examId: r.examId, earnedFraction: ar.maxWeight > 0 ? ar.earnedWeight / ar.maxWeight : 0, isCorrect: ar.isCorrect, weightedPercentage: r.percentage }`\n3. **Question analytics table** — call `computeQuestionAnalytics(scores)`. Render a table sorted weakest discrimination first (computeQuestionAnalytics already sorts this way). Columns: Question (find the prompt via getExam(analytics.examId)?.questions.find(q => q.id === questionId)?.prompt — truncate to ~80 chars), p-value (as %), Discrimination, Attempts, Avg earned (as %). Color the discrimination cell: green ≥0.3, amber 0.2-0.3, red <0.2. If scores is empty, show \"No attempts to analyze yet.\"\n4. **Percentile panel** — for the most recent attempt in the filtered set (highest takenAt), compute `percentileRank(r.percentage, filtered.map(a => a.percentage))` and display \"You scored higher than {n}% of candidates on this exam.\"\n5. **Training recommendations** — for the most recent attempt, call `trainingRecommendations(r.skillBreakdown)` and render a list. Each item: skill name (capitalized, dashes→spaces), scorePct %, band badge (use the band.band string), recommendation text, and suggested exam chips (map suggestedExams ids to titles via getExam). Sort weakest first (trainingRecommendations already does).\n6. **Back button** — `onBack` in the header.\n\n## Helper to find a question's prompt\n```ts\nfunction findQuestionPrompt(examId: string, questionId: string): string {\n  const exam = getExam(examId);\n  if (!exam) return questionId;\n  const q = exam.questions.find((qq) => qq.id === questionId);\n  return q ? q.prompt : questionId;\n}\n```\n\n## Hard constraints\n- `\"use client\";` at the top.\n- TypeScript strict-compatible. No `any`. No unused imports/vars/params.\n- The project has `noUncheckedIndexedAccess` ON — so `filtered[0]` is `ExamResult | undefined`. Guard with optional chaining or checks.\n- Only `react` (useMemo/useState allowed) + the three import paths. No new deps.\n- `window`/`localStorage` NOT needed here (history is passed as prop).\n\n## After writing\nRead back the first 30 lines to confirm the contract, then report:\n1. File written + exported symbol (`ExamAnalytics`).\n2. Confirm all 5 features present.\n3. Paste the first 30 lines."
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da0c410001f8tAv3UwD59WJ0",
+      "time": "2026-07-13T22:37:24.880000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 8249,
+          "input": 8182,
+          "output": 67,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982244880,
+          "completed": 1783982247972
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da0ccc7001kPbXhALgDXlIdY",
+          "time": "2026-07-13T22:37:27.111000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da0cccf001IajOI8q5h0gZUX",
+          "time": "2026-07-13T22:37:27.120000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "Let me create the file. First let me verify the directory exists.",
+            "time": {
+              "start": 1783982247119,
+              "end": 1783982247269
+            }
+          }
+        },
+        {
+          "id": "prt_f5da0cdb200152QPhpUMXN0Ex4",
+          "time": "2026-07-13T22:37:27.346000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "call_83j0ou5f",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "ls /home/uzer/marketing-hub/src/components/marketing/ 2>/dev/null && echo \"---EXISTS---\" || echo \"---MISSING---\"",
+                "description": "Check target directory exists"
+              },
+              "output": "AuditDashboard.tsx\nCampaignManager.tsx\nExamCertificate.tsx\nMarketingDashboard.tsx\nMarketingTests.tsx\nPersonaBuilder.tsx\nRecruiterCompare.tsx\nSkillsPanel.tsx\nui.tsx\n---EXISTS---\n",
+              "metadata": {
+                "output": "AuditDashboard.tsx\nCampaignManager.tsx\nExamCertificate.tsx\nMarketingDashboard.tsx\nMarketingTests.tsx\nPersonaBuilder.tsx\nRecruiterCompare.tsx\nSkillsPanel.tsx\nui.tsx\n---EXISTS---\n",
+                "exit": 0,
+                "description": "Check target directory exists",
+                "truncated": false
+              },
+              "title": "Check target directory exists",
+              "time": {
+                "start": 1783982247426,
+                "end": 1783982247752
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da0cfbd001ZwiujWiDSVeXn4",
+          "time": "2026-07-13T22:37:27.917000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 8249,
+              "input": 8182,
+              "output": 67,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da0d14e001IROvfJvLngUHWj",
+      "time": "2026-07-13T22:37:28.270000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 8373,
+          "input": 8289,
+          "output": 84,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982248270,
+          "completed": 1783982251529
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da0dc86001xTMBpeYR1H2F6H",
+          "time": "2026-07-13T22:37:31.142000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da0dc8f001Nkc8N2D512XGua",
+          "time": "2026-07-13T22:37:31.151000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "call_ku6shlfh",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "grep -n \"export interface ExamResult\\|export type SkillBand\\|export interface SkillBand\" /home/uzer/marketing-hub/src/components/marketing/ExamCertificate.tsx /home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts 2>/dev/null",
+                "description": "Find SkillBand type and ExamResult interface"
+              },
+              "output": "/home/uzer/marketing-hub/src/components/marketing/ExamCertificate.tsx:11:export interface ExamResult {\n/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts:71:export interface SkillBand {\n",
+              "metadata": {
+                "output": "/home/uzer/marketing-hub/src/components/marketing/ExamCertificate.tsx:11:export interface ExamResult {\n/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts:71:export interface SkillBand {\n",
+                "exit": 0,
+                "description": "Find SkillBand type and ExamResult interface",
+                "truncated": false
+              },
+              "title": "Find SkillBand type and ExamResult interface",
+              "time": {
+                "start": 1783982251170,
+                "end": 1783982251195
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da0ddbd001lnL7uXe3pObLW5",
+          "time": "2026-07-13T22:37:31.453000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 8373,
+              "input": 8289,
+              "output": 84,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da0de3700186r0fqOMzc0fDR",
+      "time": "2026-07-13T22:37:31.575000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 8464,
+          "input": 8426,
+          "output": 38,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982251575,
+          "completed": 1783982254993
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da0e74b001GIyiNi0t2Y29g4",
+          "time": "2026-07-13T22:37:33.900000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da0e7590013B41y49vjCrTkE",
+          "time": "2026-07-13T22:37:33.913000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "read",
+            "callID": "call_43xaur5d",
+            "state": {
+              "status": "completed",
+              "input": {
+                "filePath": "/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts",
+                "offset": 60,
+                "limit": 25
+              },
+              "output": "<path>/home/uzer/marketing-hub/src/lib/marketing-tests/exams.ts</path>\n<type>file</type>\n<content>\n60: export interface Exam {\n61:   id: string;\n62:   title: string;\n63:   domain: string;\n64:   description: string;\n65:   durationMinutes: number;\n66:   passingScore: number;\n67:   level: \"associate\" | \"professional\" | \"expert\";\n68:   questions: Question[];\n69: }\n70: \n71: export interface SkillBand {\n72:   min: number;\n73:   max: number;\n74:   band: string;\n75:   label: string;\n76: }\n77: \n78: export const SKILL_BANDS: SkillBand[] = [\n79:   { min: 0, max: 49, band: \"F\", label: \"Junior — fundamentals missing\" },\n80:   { min: 50, max: 64, band: \"D\", label: \"Junior — partial grasp\" },\n81:   { min: 65, max: 74, band: \"C\", label: \"Mid — working knowledge\" },\n82:   { min: 75, max: 84, band: \"B\", label: \"Senior — solid practitioner\" },\n83:   { min: 85, max: 92, band: \"A\", label: \"Lead — strong command\" },\n84:   { min: 93, max: 100, band: \"A+\", label: \"Expert — recruiting-grade mastery\" },\n\n(Showing lines 60-84 of 2880. Use offset=85 to continue.)\n</content>\n\n<system-reminder>\nInstructions from: /home/uzer/marketing-hub/AGENTS.md\n# AGENTS.md — Marketing Hub (marketing-hub)\n\nMarketing Hub — All-in-One Marketing Command Center. A Next.js + React application.\n\n## Stack\n- Next.js + React (28 dependencies)\n- `next.config.js`, `components.json` (shadcn-style UI), Capacitor (`capacitor.config.json`\n  → mobile packaging), Tailwind/CSS\n- `data/` and `docs/` hold content and documentation\n\n## Common commands\n- `npm run dev` — local dev server\n- `npm run build` — production build\n- `npm run start` — serve the production build\n- `npm run lint` — lint\n- `npm run seed` — seed local data\n\n## Notes for the coding agent (pi)\n- pi is the coding agent for this project.\n- **The working tree is heavily modified (~119 uncommitted changes).** Do NOT run\n  dependency upgrades, `git reset`, or branch-switching here without explicit\n  confirmation — checkpoint first (commit or a safety branch) before destructive ops.\n- Prefer small, targeted edits over broad refactors until the tree is committed.\n- This project had 0 known vulnerabilities and 17 outdated deps at last audit.\n</system-reminder>",
+              "metadata": {
+                "preview": "export interface Exam {\n  id: string;\n  title: string;\n  domain: string;\n  description: string;\n  durationMinutes: number;\n  passingScore: number;\n  level: \"associate\" | \"professional\" | \"expert\";\n  questions: Question[];\n}\n\nexport interface SkillBand {\n  min: number;\n  max: number;\n  band: string;\n  label: string;\n}\n\nexport const SKILL_BANDS: SkillBand[] = [\n  { min: 0, max: 49, band: \"F\", label: \"Junior — fundamentals missing\" },",
+                "truncated": true,
+                "loaded": [
+                  "/home/uzer/marketing-hub/AGENTS.md"
+                ]
+              },
+              "title": "marketing-hub/src/lib/marketing-tests/exams.ts",
+              "time": {
+                "start": 1783982253964,
+                "end": 1783982254600
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da0eb27001sdOpciRR2zYul5",
+          "time": "2026-07-13T22:37:34.887000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 8464,
+              "input": 8426,
+              "output": 38,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da0ec66001ajZ4sxFW9e5uiK",
+      "time": "2026-07-13T22:37:35.206000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11057,
+          "input": 9104,
+          "output": 1953,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982255206,
+          "completed": 1783982270854
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da0f4fc00177K0JXUkFUZpwf",
+          "time": "2026-07-13T22:37:37.404000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da0f5960016UNcZcy8NIA5w3",
+          "time": "2026-07-13T22:37:37.558000+00:00",
+          "data": {
+            "type": "text",
+            "text": "Now I'll write the component:",
+            "time": {
+              "start": 1783982257558,
+              "end": 1783982270362
+            }
+          }
+        },
+        {
+          "id": "prt_f5da1271f001z3MMikzMWlfrUm",
+          "time": "2026-07-13T22:37:50.239000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "call_bw4w9071",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "cat > /home/uzer/marketing-hub/src/components/marketing/ExamAnalytics.tsx << 'EOF'\n\"use client\";\n\nimport { useMemo, useState } from \"react\";\nimport {\n  EXAMS,\n  computeQuestionAnalytics,\n  percentileRank,\n  trainingRecommendations,\n  getExam,\n  type AttemptQuestionScore,\n  type QuestionAnalytics,\n  type TrainingRecommendation,\n} from \"@/lib/marketing-tests/exams\";\nimport type { ExamResult } from \"@/components/marketing/ExamCertificate\";\nimport { Card, Button, Badge, Select, SelectItem } from \"@/components/marketing/ui\";\n\ninterface AnswerRecord {\n  questionId: string;\n  type: string;\n  selected: number | number[];\n  correct: number | number[];\n  skill: string;\n  difficulty: number;\n  isCorrect: boolean;\n  earnedWeight: number;\n  maxWeight: number;\n}\n\nfunction findQuestionPrompt(examId: string, questionId: string): string {\n  const exam = getExam(examId);\n  if (!exam) return questionId;\n  const q = exam.questions.find((qq) => qq.id === questionId);\n  return q ? q.prompt : questionId;\n}\n\nfunction truncate(text: string, max: number): string {\n  return text.length > max ? text.slice(0, max - 1) + \"…\" : text;\n}\n\nfunction discriminationColor(d: number): string {\n  if (d >= 0.3) return \"text-green-600\";\n  if (d >= 0.2) return \"text-amber-600\";\n  return \"text-red-600\";\n}\n\nexport function ExamAnalytics({\n  history,\n  onBack,\n  onViewAttempt,\n}: {\n  history: ExamResult[];\n  onBack: () => void;\n  onViewAttempt: (a: ExamResult) => void;\n}) {\n  const [examFilter, setExamFilter] = useState<string>(\"all\");\n\n  const examIds = useMemo(() => {\n    const ids = new Set<string>();\n    for (const r of history) ids.add(r.examId);\n    return Array.from(ids);\n  }, [history]);\n\n  const filtered = useMemo(() => {\n    if (examFilter === \"all\") return history;\n    return history.filter((r) => r.examId === examFilter);\n  }, [history, examFilter]);\n\n  const scores = useMemo<AttemptQuestionScore[]>(() => {\n    const out: AttemptQuestionScore[] = [];\n    for (const r of filtered) {\n      const answers = r.answers as AnswerRecord[];\n      for (const ar of answers) {\n        out.push({\n          attemptId: r.attemptId,\n          questionId: ar.questionId,\n          examId: r.examId,\n          earnedFraction: ar.maxWeight > 0 ? ar.earnedWeight / ar.maxWeight : 0,\n          isCorrect: ar.isCorrect,\n          weightedPercentage: r.percentage,\n        });\n      }\n    }\n    return out;\n  }, [filtered]);\n\n  const analytics = useMemo<QuestionAnalytics[]>(\n    () => computeQuestionAnalytics(scores),\n    [scores]\n  );\n\n  const mostRecent = useMemo(() => {\n    let best: ExamResult | undefined;\n    for (const r of filtered) {\n      if (!best || r.takenAt > best.takenAt) best = r;\n    }\n    return best;\n  }, [filtered]);\n\n  const percentile = useMemo(() => {\n    if (!mostRecent) return null;\n    return percentileRank(\n      mostRecent.percentage,\n      filtered.map((a) => a.percentage)\n    );\n  }, [mostRecent, filtered]);\n\n  const recommendations = useMemo<TrainingRecommendation[]>(() => {\n    if (!mostRecent) return [];\n    return trainingRecommendations(mostRecent.skillBreakdown);\n  }, [mostRecent]);\n\n  return (\n    <div className=\"space-y-6\">\n      <div className=\"flex items-center justify-between gap-4\">\n        <div>\n          <h2 className=\"text-2xl font-bold\">Exam Analytics</h2>\n          <p className=\"text-sm text-muted-foreground\">\n            Question-level item analysis and training recommendations.\n          </p>\n        </div>\n        <Button variant=\"outline\" onClick={onBack}>\n          Back\n        </Button>\n      </div>\n\n      <Card className=\"p-4\">\n        <div className=\"flex items-center gap-3\">\n          <span className=\"text-sm font-medium\">Exam:</span>\n          <Select value={examFilter} onValueChange={setExamFilter}>\n            <SelectItem value=\"all\">All exams</SelectItem>\n            {examIds.map((id) => {\n              const ex = getExam(id);\n              return (\n                <SelectItem key={id} value={id}>\n                  {ex ? ex.title : id}\n                </SelectItem>\n              );\n            })}\n          </Select>\n          <span className=\"ml-auto text-sm text-muted-foreground\">\n            {filtered.length} attempt{filtered.length === 1 ? \"\" : \"s\"}\n          </span>\n        </div>\n      </Card>\n\n      <Card className=\"p-4\">\n        <h3 className=\"mb-3 text-lg font-semibold\">Question Item Analysis</h3>\n        {scores.length === 0 ? (\n          <p className=\"text-sm text-muted-foreground\">No attempts to analyze yet.</p>\n        ) : (\n          <div className=\"overflow-x-auto\">\n            <table className=\"w-full text-sm\">\n              <thead>\n                <tr className=\"border-b text-left\">\n                  <th className=\"py-2 pr-4\">Question</th>\n                  <th className=\"py-2 pr-4\">p-value</th>\n                  <th className=\"py-2 pr-4\">Discrimination</th>\n                  <th className=\"py-2 pr-4\">Attempts</th>\n                  <th className=\"py-2 pr-4\">Avg earned</th>\n                </tr>\n              </thead>\n              <tbody>\n                {analytics.map((a) => (\n                  <tr key={`${a.examId}-${a.questionId}`} className=\"border-b\">\n                    <td className=\"py-2 pr-4 max-w-md\">\n                      {truncate(findQuestionPrompt(a.examId, a.questionId), 80)}\n                    </td>\n                    <td className=\"py-2 pr-4\">{(a.pValue * 100).toFixed(1)}%</td>\n                    <td className={`py-2 pr-4 font-medium ${discriminationColor(a.discriminationIndex)}`}>\n                      {a.discriminationIndex.toFixed(2)}\n                    </td>\n                    <td className=\"py-2 pr-4\">{a.attempts}</td>\n                    <td className=\"py-2 pr-4\">{(a.avgEarnedFraction * 100).toFixed(1)}%</td>\n                  </tr>\n                ))}\n              </tbody>\n            </table>\n          </div>\n        )}\n      </Card>\n\n      {mostRecent && percentile !== null && (\n        <Card className=\"p-4\">\n          <h3 className=\"mb-2 text-lg font-semibold\">Percentile Ranking</h3>\n          <p className=\"text-sm\">\n            You scored higher than{\" \"}\n            <span className=\"font-semibold\">{percentile.toFixed(0)}%</span> of\n            candidates on this exam.\n          </p>\n        </Card>\n      )}\n\n      {mostRecent && (\n        <Card className=\"p-4\">\n          <div className=\"mb-3 flex items-center justify-between\">\n            <h3 className=\"text-lg font-semibold\">Training Recommendations</h3>\n            <Button variant=\"ghost\" onClick={() => onViewAttempt(mostRecent)}>\n              View latest attempt\n            </Button>\n          </div>\n          {recommendations.length === 0 ? (\n            <p className=\"text-sm text-muted-foreground\">\n              No recommendations available.\n            </p>\n          ) : (\n            <ul className=\"space-y-3\">\n              {recommendations.map((rec) => (\n                <li\n                  key={rec.skill}\n                  className=\"rounded-md border p-3\"\n                >\n                  <div className=\"flex flex-wrap items-center gap-2\">\n                    <span className=\"font-medium\">\n                      {rec.skill.replace(/-/g, \" \").replace(/\\b\\w/g, (c) =>\n                        c.toUpperCase()\n                      )}\n                    </span>\n                    <span className=\"text-sm text-muted-foreground\">\n                      {rec.scorePct.toFixed(0)}%\n                    </span>\n                    <Badge variant=\"secondary\">{rec.band.band}</Badge>\n                  </div>\n                  <p className=\"mt-1 text-sm\">{rec.recommendation}</p>\n                  {rec.suggestedExams.length > 0 && (\n                    <div className=\"mt-2 flex flex-wrap gap-1.5\">\n                      {rec.suggestedExams.map((id) => {\n                        const ex = getExam(id);\n                        return (\n                          <Badge key={id} variant=\"outline\">\n                            {ex ? ex.title : id}\n                          </Badge>\n                        );\n                      })}\n                    </div>\n                  )}\n                </li>\n              ))}\n            </ul>\n          )}\n        </Card>\n      )}\n    </div>\n  );\n}\n\nvoid EXAMS;\nEOF\necho \"WROTE\"",
+                "description": "Write ExamAnalytics.tsx component"
+              },
+              "output": "WROTE\n",
+              "metadata": {
+                "output": "WROTE\n",
+                "exit": 0,
+                "description": "Write ExamAnalytics.tsx component",
+                "truncated": false
+              },
+              "title": "Write ExamAnalytics.tsx component",
+              "time": {
+                "start": 1783982270305,
+                "end": 1783982270619
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da1293700127bdznYZF6JAOl",
+          "time": "2026-07-13T22:37:50.777000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 11057,
+              "input": 9104,
+              "output": 1953,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da129d7001PkjK8AvYE955qK",
+      "time": "2026-07-13T22:37:50.935000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11194,
+          "input": 11065,
+          "output": 129,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982270935,
+          "completed": 1783982275872
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da1377a0012thsE4hWW2bmrX",
+          "time": "2026-07-13T22:37:54.427000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da1378a0013GjGtueBmeGCba",
+          "time": "2026-07-13T22:37:54.442000+00:00",
+          "data": {
+            "type": "reasoning",
+            "text": "Wait, I added `void EXAMS;` to avoid unused import, but actually I don't use EXAMS. The hard constraint says \"No unused imports/vars/params.\" Using `void EXAMS;` is a hack — better to just not import EXAMS. Let me remove EXAMS from imports and remove the `void EXAMS;` line.",
+            "time": {
+              "start": 1783982274442,
+              "end": 1783982274556
+            }
+          }
+        },
+        {
+          "id": "prt_f5da13812001R1m31LVUxBHMhv",
+          "time": "2026-07-13T22:37:54.578000+00:00",
+          "data": {
+            "type": "text",
+            "text": "I included an unused `EXAMS` import with a `void` hack. Let me remove it properly:",
+            "time": {
+              "start": 1783982274578,
+              "end": 1783982274803
+            }
+          }
+        },
+        {
+          "id": "prt_f5da1383e001sLbZ8bUkkK0hZQ",
+          "time": "2026-07-13T22:37:54.623000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "read",
+            "callID": "call_oonss0q4",
+            "state": {
+              "status": "completed",
+              "input": {
+                "filePath": "/home/uzer/marketing-hub/src/components/marketing/ExamAnalytics.tsx",
+                "limit": 25
+              },
+              "output": "<path>/home/uzer/marketing-hub/src/components/marketing/ExamAnalytics.tsx</path>\n<type>file</type>\n<content>\n1: \"use client\";\n2: \n3: import { useMemo, useState } from \"react\";\n4: import {\n5:   EXAMS,\n6:   computeQuestionAnalytics,\n7:   percentileRank,\n8:   trainingRecommendations,\n9:   getExam,\n10:   type AttemptQuestionScore,\n11:   type QuestionAnalytics,\n12:   type TrainingRecommendation,\n13: } from \"@/lib/marketing-tests/exams\";\n14: import type { ExamResult } from \"@/components/marketing/ExamCertificate\";\n15: import { Card, Button, Badge, Select, SelectItem } from \"@/components/marketing/ui\";\n16: \n17: interface AnswerRecord {\n18:   questionId: string;\n19:   type: string;\n20:   selected: number | number[];\n21:   correct: number | number[];\n22:   skill: string;\n23:   difficulty: number;\n24:   isCorrect: boolean;\n25:   earnedWeight: number;\n\n(Showing lines 1-25 of 246. Use offset=26 to continue.)\n</content>",
+              "metadata": {
+                "preview": "\"use client\";\n\nimport { useMemo, useState } from \"react\";\nimport {\n  EXAMS,\n  computeQuestionAnalytics,\n  percentileRank,\n  trainingRecommendations,\n  getExam,\n  type AttemptQuestionScore,\n  type QuestionAnalytics,\n  type TrainingRecommendation,\n} from \"@/lib/marketing-tests/exams\";\nimport type { ExamResult } from \"@/components/marketing/ExamCertificate\";\nimport { Card, Button, Badge, Select, SelectItem } from \"@/components/marketing/ui\";\n\ninterface AnswerRecord {\n  questionId: string;\n  type: string;\n  selected: number | number[];",
+                "truncated": true,
+                "loaded": []
+              },
+              "title": "marketing-hub/src/components/marketing/ExamAnalytics.tsx",
+              "time": {
+                "start": 1783982274790,
+                "end": 1783982275255
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da13d0b0019jRiHRKgWIH3Se",
+          "time": "2026-07-13T22:37:55.852000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 11194,
+              "input": 11065,
+              "output": 129,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da13dd1001uiX0naNsS6vrgz",
+      "time": "2026-07-13T22:37:56.049000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11465,
+          "input": 11381,
+          "output": 84,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982276049,
+          "completed": 1783982280753
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da14bd8001h9eUieU0FQ470f",
+          "time": "2026-07-13T22:37:59.641000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da14be6001392JCWXcuvI8Rc",
+          "time": "2026-07-13T22:37:59.654000+00:00",
+          "data": {
+            "type": "text",
+            "text": "I'll remove the unused `EXAMS` import and the trailing `void EXAMS;` line:",
+            "time": {
+              "start": 1783982279654,
+              "end": 1783982280259
+            }
+          }
+        },
+        {
+          "id": "prt_f5da14d1c001pI5vEqGO2N0zDO",
+          "time": "2026-07-13T22:37:59.965000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "call_z4n816ty",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "cd /home/uzer/marketing-hub && sed -i '/^  EXAMS,$/d; /^void EXAMS;$/d' src/components/marketing/ExamAnalytics.tsx && echo OK",
+                "description": "Remove unused EXAMS import"
+              },
+              "output": "OK\n",
+              "metadata": {
+                "output": "OK\n",
+                "exit": 0,
+                "description": "Remove unused EXAMS import",
+                "truncated": false
+              },
+              "title": "Remove unused EXAMS import",
+              "time": {
+                "start": 1783982280044,
+                "end": 1783982280291
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da15005001Ot325NDiTosFUA",
+          "time": "2026-07-13T22:38:00.710000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 11465,
+              "input": 11381,
+              "output": 84,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da15101001gd461r54owCM4S",
+      "time": "2026-07-13T22:38:00.961000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11537,
+          "input": 11471,
+          "output": 66,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982280961,
+          "completed": 1783982408361
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da16522001Vbvh0hsVM8lnQV",
+          "time": "2026-07-13T22:38:06.114000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da1652c001GM8U9AkYe0j8Bv",
+          "time": "2026-07-13T22:38:06.124000+00:00",
+          "data": {
+            "type": "text",
+            "text": "Now typecheck:",
+            "time": {
+              "start": 1783982286124,
+              "end": 1783982286215
+            }
+          }
+        },
+        {
+          "id": "prt_f5da16544001G94kqMaKGOuf8K",
+          "time": "2026-07-13T22:38:06.148000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "call_uhepd4uo",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "cd /home/uzer/marketing-hub && npx tsc --noEmit 2>&1 | grep -E \"ExamAnalytics\" | head -30; echo \"---EXIT---\"",
+                "description": "Typecheck for ExamAnalytics errors"
+              },
+              "output": "(no output)\n\n<shell_metadata>\nshell tool terminated command after exceeding timeout 120000 ms. If this command is expected to take longer and is not waiting for interactive input, retry with a larger timeout value in milliseconds.\n</shell_metadata>",
+              "metadata": {
+                "output": "(no output)\n\n<shell_metadata>\nshell tool terminated command after exceeding timeout 120000 ms. If this command is expected to take longer and is not waiting for interactive input, retry with a larger timeout value in milliseconds.\n</shell_metadata>",
+                "exit": null,
+                "description": "Typecheck for ExamAnalytics errors",
+                "truncated": false
+              },
+              "title": "Typecheck for ExamAnalytics errors",
+              "time": {
+                "start": 1783982286195,
+                "end": 1783982406970
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da33fef001QM1LdbedBl5Yn6",
+          "time": "2026-07-13T22:40:07.664000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 11537,
+              "input": 11471,
+              "output": 66,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da34470001O4AD3XhAlYqMH0",
+      "time": "2026-07-13T22:40:08.816000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11657,
+          "input": 11589,
+          "output": 68,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982408816,
+          "completed": 1783982579031
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da35476001x6lxQhqAg7D4w1",
+          "time": "2026-07-13T22:40:12.919000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da3549a001xUQlmq4s2T6a16",
+          "time": "2026-07-13T22:40:12.954000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "call_d5j2zcjk",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "cd /home/uzer/marketing-hub && timeout 300 npx tsc --noEmit 2>&1 | grep -i \"ExamAnalytics\" ; echo \"EXIT:$?\"",
+                "description": "Typecheck filtering ExamAnalytics errors",
+                "timeout": 320000
+              },
+              "output": "EXIT:1\n",
+              "metadata": {
+                "output": "EXIT:1\n",
+                "exit": 0,
+                "description": "Typecheck filtering ExamAnalytics errors",
+                "truncated": false
+              },
+              "title": "Typecheck filtering ExamAnalytics errors",
+              "time": {
+                "start": 1783982413017,
+                "end": 1783982578604
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da5dcc7001QR9OYiFJ2vS9T0",
+          "time": "2026-07-13T22:42:58.889000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 11657,
+              "input": 11589,
+              "output": 68,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da5df970017YZmHRYkjiM4Yr",
+      "time": "2026-07-13T22:42:59.608000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11755,
+          "input": 11665,
+          "output": 90,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982579608,
+          "completed": 1783982590507
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da5ea99001AANOl1G87ujl6t",
+          "time": "2026-07-13T22:43:02.426000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da5eaa4001oIqkw1cHbeQMw6",
+          "time": "2026-07-13T22:43:02.437000+00:00",
+          "data": {
+            "type": "text",
+            "text": "No ExamAnalytics-specific errors. Let me also run lint on the file and read back the first 30 lines:",
+            "time": {
+              "start": 1783982582436,
+              "end": 1783982583668
+            }
+          }
+        },
+        {
+          "id": "prt_f5da5ef150017prL7MJUXuIC14",
+          "time": "2026-07-13T22:43:03.574000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "bash",
+            "callID": "call_muxdecxk",
+            "state": {
+              "status": "completed",
+              "input": {
+                "command": "cd /home/uzer/marketing-hub && timeout 120 npx eslint src/components/marketing/ExamAnalytics.tsx 2>&1 | head -30; echo \"EXIT:$?\"",
+                "description": "Lint ExamAnalytics.tsx",
+                "timeout": 130000
+              },
+              "output": "\nOops! Something went wrong! :(\n\nESLint: 10.6.0\n\nESLint couldn't find an eslint.config.(js|mjs|cjs) file.\n\nFrom ESLint v9.0.0, the default configuration file is now eslint.config.js.\nIf you are using a .eslintrc.* file, please follow the migration guide\nto update your configuration file to the new format:\n\nhttps://eslint.org/docs/latest/use/configure/migration-guide\n\nIf you still have problems after following the migration guide, please stop by\nhttps://eslint.org/chat/help to chat with the team.\n\nEXIT:0\n",
+              "metadata": {
+                "output": "\nOops! Something went wrong! :(\n\nESLint: 10.6.0\n\nESLint couldn't find an eslint.config.(js|mjs|cjs) file.\n\nFrom ESLint v9.0.0, the default configuration file is now eslint.config.js.\nIf you are using a .eslintrc.* file, please follow the migration guide\nto update your configuration file to the new format:\n\nhttps://eslint.org/docs/latest/use/configure/migration-guide\n\nIf you still have problems after following the migration guide, please stop by\nhttps://eslint.org/chat/help to chat with the team.\n\nEXIT:0\n",
+                "exit": 0,
+                "description": "Lint ExamAnalytics.tsx",
+                "truncated": false
+              },
+              "title": "Lint ExamAnalytics.tsx",
+              "time": {
+                "start": 1783982583654,
+                "end": 1783982589081
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da609b20015fcnccIQ0ieI4b",
+          "time": "2026-07-13T22:43:10.386000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 11755,
+              "input": 11665,
+              "output": 90,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da60b6a001KaHg6fQrJUBNXf",
+      "time": "2026-07-13T22:43:10.826000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 11945,
+          "input": 11889,
+          "output": 56,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982590826,
+          "completed": 1783982598206
+        },
+        "finish": "tool-calls"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da62329001IQyHv46Mv82co4",
+          "time": "2026-07-13T22:43:16.908000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da6233c001vdijht6hLNvmMF",
+          "time": "2026-07-13T22:43:16.924000+00:00",
+          "data": {
+            "type": "text",
+            "text": "ESLint config issue is project-wide, not file-specific. The TypeScript check passed with no errors for the file.",
+            "time": {
+              "start": 1783982596924,
+              "end": 1783982597127
+            }
+          }
+        },
+        {
+          "id": "prt_f5da62396001oS0eJClo9bUVUB",
+          "time": "2026-07-13T22:43:17.015000+00:00",
+          "data": {
+            "type": "tool",
+            "tool": "read",
+            "callID": "call_ajb2qkj2",
+            "state": {
+              "status": "completed",
+              "input": {
+                "filePath": "/home/uzer/marketing-hub/src/components/marketing/ExamAnalytics.tsx",
+                "limit": 30
+              },
+              "output": "<path>/home/uzer/marketing-hub/src/components/marketing/ExamAnalytics.tsx</path>\n<type>file</type>\n<content>\n1: \"use client\";\n2: \n3: import { useMemo, useState } from \"react\";\n4: import {\n5:   computeQuestionAnalytics,\n6:   percentileRank,\n7:   trainingRecommendations,\n8:   getExam,\n9:   type AttemptQuestionScore,\n10:   type QuestionAnalytics,\n11:   type TrainingRecommendation,\n12: } from \"@/lib/marketing-tests/exams\";\n13: import type { ExamResult } from \"@/components/marketing/ExamCertificate\";\n14: import { Card, Button, Badge, Select, SelectItem } from \"@/components/marketing/ui\";\n15: \n16: interface AnswerRecord {\n17:   questionId: string;\n18:   type: string;\n19:   selected: number | number[];\n20:   correct: number | number[];\n21:   skill: string;\n22:   difficulty: number;\n23:   isCorrect: boolean;\n24:   earnedWeight: number;\n25:   maxWeight: number;\n26: }\n27: \n28: function findQuestionPrompt(examId: string, questionId: string): string {\n29:   const exam = getExam(examId);\n30:   if (!exam) return questionId;\n\n(Showing lines 1-30 of 244. Use offset=31 to continue.)\n</content>",
+              "metadata": {
+                "preview": "\"use client\";\n\nimport { useMemo, useState } from \"react\";\nimport {\n  computeQuestionAnalytics,\n  percentileRank,\n  trainingRecommendations,\n  getExam,\n  type AttemptQuestionScore,\n  type QuestionAnalytics,\n  type TrainingRecommendation,\n} from \"@/lib/marketing-tests/exams\";\nimport type { ExamResult } from \"@/components/marketing/ExamCertificate\";\nimport { Card, Button, Badge, Select, SelectItem } from \"@/components/marketing/ui\";\n\ninterface AnswerRecord {\n  questionId: string;\n  type: string;\n  selected: number | number[];\n  correct: number | number[];",
+                "truncated": true,
+                "loaded": []
+              },
+              "title": "marketing-hub/src/components/marketing/ExamAnalytics.tsx",
+              "time": {
+                "start": 1783982597111,
+                "end": 1783982597762
+              }
+            }
+          }
+        },
+        {
+          "id": "prt_f5da627ca001QY01Mw60mlAZuo",
+          "time": "2026-07-13T22:43:18.090000+00:00",
+          "data": {
+            "reason": "tool-calls",
+            "type": "step-finish",
+            "tokens": {
+              "total": 11945,
+              "input": 11889,
+              "output": 56,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    },
+    {
+      "id": "msg_f5da62ad4001aYz2qZw3RWrMVx",
+      "time": "2026-07-13T22:43:18.868000+00:00",
+      "data": {
+        "parentID": "msg_f5da0c1ad001iejv1rlEy5bFXt",
+        "role": "assistant",
+        "mode": "general",
+        "agent": "general",
+        "path": {
+          "cwd": "/home/uzer",
+          "root": "/home/uzer"
+        },
+        "cost": 0,
+        "tokens": {
+          "total": 12856,
+          "input": 12256,
+          "output": 600,
+          "reasoning": 0,
+          "cache": {
+            "write": 0,
+            "read": 0
+          }
+        },
+        "modelID": "glm-5.2",
+        "providerID": "ollama-cloud",
+        "time": {
+          "created": 1783982598868,
+          "completed": 1783982612263
+        },
+        "finish": "stop"
+      },
+      "parts": [
+        {
+          "id": "prt_f5da6427d0010jK5U6vQci03z7",
+          "time": "2026-07-13T22:43:24.925000+00:00",
+          "data": {
+            "type": "step-start"
+          }
+        },
+        {
+          "id": "prt_f5da64289001cnd87hW20AttPn",
+          "time": "2026-07-13T22:43:24.937000+00:00",
+          "data": {
+            "type": "text",
+            "text": "## Report\n\n**1. File written + exported symbol**\n- Path: `/home/uzer/marketing-hub/src/components/marketing/ExamAnalytics.tsx`\n- Export: `export function ExamAnalytics({ history, onBack, onViewAttempt })`\n- `tsc --noEmit` reports **no errors** referencing `ExamAnalytics`.\n\n**2. Features present (all 5)**\n- ✅ Exam filter `Select` (default `\"all\"`) over distinct `examId`s; filters `history` when not `\"all\"`.\n- ✅ Builds `AttemptQuestionScore[]` from `r.answers as AnswerRecord[]`, with `earnedFraction = maxWeight>0 ? earnedWeight/maxWeight : 0`.\n- ✅ Question analytics table via `computeQuestionAnalytics(scores)`, weakest-first; columns Question (prompt via `findQuestionPrompt`, truncated to 80), p-value %, Discrimination (green ≥0.3, amber 0.2–0.3, red <0.2), Attempts, Avg earned %. Empty state: `\"No attempts to analyze yet.\"`\n- ✅ Percentile panel for the most-recent (highest `takenAt`) attempt: `percentileRank(r.percentage, filtered.map(a => a.percentage))`, guarded with optional chaining.\n- ✅ Training recommendations from `mostRecent.skillBreakdown`: skill (capitalized, dashes→spaces), scorePct %, `band.band` Badge, recommendation text, suggested-exam chips via `getExam`. Plus back button (`onBack`) in header and a \"View latest attempt\" via `onViewAttempt`.\n\n**3. First 30 lines**\n```tsx\n\"use client\";\n\nimport { useMemo, useState } from \"react\";\nimport {\n  computeQuestionAnalytics,\n  percentileRank,\n  trainingRecommendations,\n  getExam,\n  type AttemptQuestionScore,\n  type QuestionAnalytics,\n  type TrainingRecommendation,\n} from \"@/lib/marketing-tests/exams\";\nimport type { ExamResult } from \"@/components/marketing/ExamCertificate\";\nimport { Card, Button, Badge, Select, SelectItem } from \"@/components/marketing/ui\";\n\ninterface AnswerRecord {\n  questionId: string;\n  type: string;\n  selected: number | number[];\n  correct: number | number[];\n  skill: string;\n  difficulty: number;\n  isCorrect: boolean;\n  earnedWeight: number;\n  maxWeight: number;\n}\n\nfunction findQuestionPrompt(examId: string, questionId: string): string {\n  const exam = getExam(examId);\n  if (!exam) return questionId;\n```\n\nTypeScript strict + `noUncheckedIndexedAccess` compliant (no `any`, no unused imports/vars; `filtered[0]`-style access avoided via the `mostRecent` reduce with `ExamResult | undefined` guard). Only `react` plus the three specified import paths are used.",
+            "time": {
+              "start": 1783982604937,
+              "end": 1783982611567
+            }
+          }
+        },
+        {
+          "id": "prt_f5da65daf001AF7bTt7xR0TrKk",
+          "time": "2026-07-13T22:43:31.888000+00:00",
+          "data": {
+            "reason": "stop",
+            "type": "step-finish",
+            "tokens": {
+              "total": 12856,
+              "input": 12256,
+              "output": 600,
+              "reasoning": 0,
+              "cache": {
+                "write": 0,
+                "read": 0
+              }
+            },
+            "cost": 0
+          }
+        }
+      ]
+    }
+  ]
+}
