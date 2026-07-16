@@ -1,0 +1,15 @@
+HTTrack3.49-6 launched on Thu, 16 Jul 2026 10:06:13 at https://sethgodin.com/ +*.sethgodin.com/*
+(httrack https://sethgodin.com/ -O . +*.sethgodin.com/* -q -%v -c1 -T30 -F Mozilla/5.0 )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+10:06:36	Warning: 	Moved Permanently for https://sethgodin.com/robots.txt
+10:06:36	Warning: 	Redirected link is identical because of 'URL Hack' option: https://sethgodin.com/robots.txt and https://www.sethgodin.com/robots.txt
+10:06:36	Warning: 	Warning moved treated for https://sethgodin.com/robots.txt (real one is https://www.sethgodin.com/robots.txt)
+10:06:57	Warning: 	Moved Permanently for https://sethgodin.com/
+10:06:57	Warning: 	Redirected link is identical because of 'URL Hack' option: https://sethgodin.com/ and https://www.sethgodin.com/
+10:06:57	Warning: 	File has moved from https://sethgodin.com/ to https://www.sethgodin.com/
+10:06:57	Warning: 	No data seems to have been transferred during this session! : restoring previous one!

@@ -1,0 +1,48 @@
+{
+  "Hacen Dadda": {
+    "name": "Hacen Dadda",
+    "agency": "HiveDigit",
+    "role": "Manager",
+    "known_linkedin": "hacendadda",
+    "biography": "",
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "social": {},
+    "search_results": []
+  },
+  "Abdelmalek Mebarkia": {
+    "name": "Abdelmalek Mebarkia",
+    "agency": "ATAKOR Studio",
+    "role": "CEO, Founder",
+    "since": "1996",
+    "biography": "",
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "social": {},
+    "search_results": []
+  },
+  "Eddine Saoudi": {
+    "name": "Eddine Saoudi",
+    "agency": "SHIFTIN",
+    "role": "Unknown (likely Founder/Director)",
+    "biography": "",
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "social": {},
+    "search_results": []
+  },
+  "Djamel Charaallah": {
+    "name": "Djamel Charaallah",
+    "agency": "Unknown (possibly HiveDigit)",
+    "role": "Unknown",
+    "biography": "",
+    "skills": [],
+    "experience": [],
+    "education": [],
+    "social": {},
+    "search_results": []
+  }
+}

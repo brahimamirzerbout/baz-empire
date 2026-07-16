@@ -1,0 +1,8 @@
+https://sethgodin.com/ -O . +*.sethgodin.com/* -q -%v -c1 -T30 -F Mozilla/5.0
+File generated automatically on Thu, 16 Jul 2026 10:06:13, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

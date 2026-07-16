@@ -1,0 +1,41 @@
+{
+  "leads": [
+    {
+      "id": 1,
+      "name": "Caf\u00e9 El Maktoub",
+      "service": "qr-solution",
+      "value": 15000,
+      "stage": "contacted",
+      "contact": "@cafemaktoub",
+      "notes": "",
+      "source": "instagram",
+      "created": "2026-07-16T07:52:03.240592",
+      "updated": "2026-07-16T07:52:03.759653"
+    },
+    {
+      "id": 2,
+      "name": "Restaurant Le Jardin",
+      "service": "full-stack",
+      "value": 60000,
+      "stage": "lead",
+      "contact": "",
+      "notes": "",
+      "source": "referral",
+      "created": "2026-07-16T07:52:03.402722",
+      "updated": "2026-07-16T07:52:03.402773"
+    },
+    {
+      "id": 3,
+      "name": "Boutique Nour",
+      "service": "social-media",
+      "value": 20000,
+      "stage": "lead",
+      "contact": "",
+      "notes": "",
+      "source": "cold-outreach",
+      "created": "2026-07-16T07:52:03.589339",
+      "updated": "2026-07-16T07:52:03.589389"
+    }
+  ],
+  "next_id": 4
+}

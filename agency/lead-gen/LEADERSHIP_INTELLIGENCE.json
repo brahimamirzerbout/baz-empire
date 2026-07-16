@@ -1,0 +1,302 @@
+{
+  "HiveDigit": {
+    "name": "HiveDigit",
+    "city": "Alger",
+    "sortlist_rating": "4.7/5",
+    "sortlist_reviews": "19",
+    "team_size": "~23",
+    "leaders": [
+      {
+        "name": "Hacen Dadda",
+        "role": "Manager / Director",
+        "source": "LinkedIn search result",
+        "linkedin": "linkedin.com/in/hacendadda",
+        "verified": false,
+        "skills": [
+          "Management",
+          "Consulting"
+        ]
+      },
+      {
+        "name": "Djamel Charaallah",
+        "role": "Unknown (possibly Co-founder/Manager)",
+        "source": "Website text extraction",
+        "verified": false,
+        "skills": []
+      }
+    ],
+    "contact": {
+      "website": "hivedigit.com"
+    },
+    "notes": "Largest team (23) among reviewed agencies. Most reviews (19) on Sortlist. Corporate positioning."
+  },
+  "KYO Conseil": {
+    "name": "KYO Conseil",
+    "city": "Alger",
+    "sortlist_rating": "4.9/5",
+    "sortlist_reviews": "3",
+    "team_size": "~58 (LARGEST)",
+    "leaders": [
+      {
+        "name": "Unknown",
+        "role": "Founder / CEO",
+        "source": "Not found",
+        "verified": false,
+        "skills": [
+          "Inbound Marketing",
+          "Consulting",
+          "Data"
+        ]
+      }
+    ],
+    "contact": {
+      "website": "kyo-conseil.com"
+    },
+    "notes": "Largest agency in Algeria (58 people). Inbound marketing methodology. Corporate clients (Alkimis, PECB, Trust)."
+  },
+  "FAN Advertising": {
+    "name": "FAN Advertising / FAN Digital Marketing",
+    "city": "Alger + Oran",
+    "sortlist_rating": "4.9/5",
+    "sortlist_reviews": "4",
+    "team_size": "~15",
+    "leaders": [
+      {
+        "name": "Unknown",
+        "role": "Founder / PDG",
+        "source": "Not found",
+        "verified": false,
+        "skills": []
+      }
+    ],
+    "contact": {
+      "website": "fancommunication.dz / fandigitalmarketing.com",
+      "email": "fancommdz@gmail.com",
+      "phone": [
+        "0561 00 61 61",
+        "0561 61 00 61"
+      ]
+    },
+    "notes": "Dual-brand (FAN Communication + FAN Digital). Widest service range. Audiovisual production."
+  },
+  "ATAKOR Studio": {
+    "name": "ATAKOR Studio",
+    "city": "Bordj Bou Arreridj (not Algiers!)",
+    "sortlist_rating": "4.9/5",
+    "sortlist_reviews": "5",
+    "team_size": "~8",
+    "leaders": [
+      {
+        "name": "ABDELMALEK MEBARKIA",
+        "role": "CEO & Founder",
+        "source": "Website atakor.studio/about/",
+        "verified": true,
+        "since": "1996",
+        "skills": [
+          "Advertising",
+          "Brand Design",
+          "Visual Communication",
+          "Creative Direction"
+        ]
+      }
+    ],
+    "contact": {
+      "website": "atakor.studio",
+      "email": "hello@atakor.studio",
+      "phone": [
+        "+213(0) 778 303 802",
+        "+213(0)39 68 93 34"
+      ],
+      "address": "05, Street AK, fg de 17 october, Bordj Bou Arreridj, Algeria"
+    },
+    "notes": "Founded 1996. 'Three driven and gifted young men established the first advertising agency in their region.' Design-focused creative studio. NOT in Algiers — in Bordj Bou Arreridj."
+  },
+  "Createch": {
+    "name": "Createch",
+    "city": "Alger",
+    "sortlist_rating": "5.0/5",
+    "sortlist_reviews": "19",
+    "team_size": "~25",
+    "leaders": [
+      {
+        "name": "Unknown",
+        "role": "Founder / CEO",
+        "source": "Website was down during research",
+        "verified": false,
+        "skills": [
+          "UI/UX",
+          "Branding",
+          "E-commerce"
+        ]
+      }
+    ],
+    "contact": {
+      "website": "createch.dz (currently down)"
+    },
+    "notes": "Website was down during our research — reliability concern. Highest Sortlist rating but possibly inflated."
+  },
+  "SHIFTIN": {
+    "name": "SHIFTIN",
+    "city": "Alger",
+    "sortlist_rating": "No Sortlist rating",
+    "sortlist_reviews": "0",
+    "team_size": "Unknown",
+    "leaders": [
+      {
+        "name": "Eddine Saoudi",
+        "role": "Likely Founder / Director",
+        "source": "Website text extraction",
+        "verified": false,
+        "skills": []
+      }
+    ],
+    "contact": {
+      "website": "shiftin.co",
+      "email": "hello@shiftin.co",
+      "phone": "+213 770 77 86 99"
+    },
+    "notes": "Impressive client list: Renault, Dale Carnegie, Siphal, KafaaToCome. Modern branding. Mobile app development."
+  },
+  "Iceberg Agency": {
+    "name": "Iceberg Agency (Agence Iceberg)",
+    "city": "Alger",
+    "sortlist_rating": "No Sortlist rating",
+    "sortlist_reviews": "0",
+    "team_size": "Unknown",
+    "leaders": [
+      {
+        "name": "Unknown",
+        "role": "Founder / Director",
+        "source": "Not found",
+        "verified": false,
+        "skills": [
+          "Marketing digital",
+          "Community management",
+          "SEO",
+          "Branding",
+          "AI"
+        ]
+      }
+    ],
+    "contact": {
+      "website": "agence-iceberg.com",
+      "email": "contact@agence-iceberg.com"
+    },
+    "notes": "Full-service agency with AI positioning. Only on Facebook. WordPress-based site."
+  },
+  "Diamond Agency": {
+    "name": "Diamond Agency",
+    "city": "Tizi-Ouzou (NOT Algiers)",
+    "sortlist_rating": "4.0/5",
+    "sortlist_reviews": "2",
+    "team_size": "~7",
+    "leaders": [
+      {
+        "name": "Unknown",
+        "role": "Founder / Director",
+        "source": "Not found",
+        "verified": false,
+        "skills": []
+      }
+    ],
+    "contact": {
+      "website": "diamond-agency-dz.com",
+      "email": "contact@diamond-agency-dz.com",
+      "phone": [
+        "+213 (0) 554-22-25-28",
+        "+213 (0) 797-128-397 (Commercial)"
+      ],
+      "address": "Résidence Kahina, 5D, Bd Krim Belkacem, Tizi-Ouzou"
+    },
+    "notes": "ONLY AGENCY WITH PUBLISHED PRICING (20K-80K DA). Sub-brand: Diamond Events (photo/video). Elementor-based. Team names on website appear to be placeholders (David Mills, Emily Taylor)."
+  },
+  "ADS Media": {
+    "name": "ADS Media",
+    "city": "Alger",
+    "sortlist_rating": "No Sortlist rating",
+    "sortlist_reviews": "0",
+    "team_size": "Unknown",
+    "leaders": [
+      {
+        "name": "Unknown",
+        "role": "Founder / Director",
+        "source": "Not found",
+        "verified": false,
+        "skills": [
+          "Marketing digital",
+          "AI",
+          "Google Ads"
+        ]
+      }
+    ],
+    "contact": {
+      "website": "adsmedia.dz",
+      "email": "contact@adsmedia.dz",
+      "phone": "+213 665 150 750"
+    },
+    "notes": "AI-focused positioning. WordPress site."
+  },
+  "NETLAB": {
+    "name": "NETLAB",
+    "city": "Alger",
+    "sortlist_rating": "No Sortlist rating",
+    "sortlist_reviews": "0",
+    "team_size": "~24",
+    "leaders": [
+      {
+        "name": "Unknown",
+        "role": "Founder / Director",
+        "source": "Not found",
+        "verified": false,
+        "skills": []
+      }
+    ],
+    "contact": {
+      "website": "netlab.dz (down during research)"
+    },
+    "notes": "Website was down. Large team (24)."
+  },
+  "Sponsorili DZ": {
+    "name": "Sponsorili DZ",
+    "city": "Alger",
+    "sortlist_rating": "No Sortlist rating",
+    "sortlist_reviews": "0",
+    "team_size": "Unknown",
+    "leaders": [
+      {
+        "name": "Unknown",
+        "role": "Founder / Director",
+        "source": "Not found",
+        "verified": false,
+        "skills": []
+      }
+    ],
+    "contact": {
+      "website": "sponsorilidz.com",
+      "phone": "0672186065"
+    },
+    "notes": "Instagram-focused. Limited services."
+  },
+  "Nazhamane": {
+    "name": "Nazhamane",
+    "city": "Alger + Constantine",
+    "sortlist_rating": "No Sortlist rating",
+    "sortlist_reviews": "0",
+    "team_size": "Unknown",
+    "leaders": [
+      {
+        "name": "Bouarroudj (likely)",
+        "role": "Founder / Director",
+        "source": "Email domain: Bouarroudj@nazhamane.com",
+        "verified": false,
+        "skills": []
+      }
+    ],
+    "contact": {
+      "website": "nazhamane.com",
+      "email": "Bouarroudj@nazhamane.com",
+      "phone": "0550958945"
+    },
+    "notes": "Email suggests founder surname is Bouarroudj. Two locations (Alger + Constantine). Comprehensive web services."
+  }
+}

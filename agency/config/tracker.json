@@ -1,0 +1,70 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "client": "qrcreator",
+      "task": "Fix QuickQr \u2192 QrCreator branding inconsistency",
+      "priority": "HIGH",
+      "status": "TODO",
+      "due": "2026-07-23",
+      "created": "2026-07-16T07:47:04.896332",
+      "completed": null
+    },
+    {
+      "id": 2,
+      "client": "qrcreator",
+      "task": "Set up local dev environment",
+      "priority": "HIGH",
+      "status": "TODO",
+      "due": "2026-07-23",
+      "created": "2026-07-16T07:47:05.063169",
+      "completed": null
+    },
+    {
+      "id": 3,
+      "client": "qrcreator",
+      "task": "Create blog section for SEO",
+      "priority": "HIGH",
+      "status": "TODO",
+      "due": "2026-07-23",
+      "created": "2026-07-16T07:47:05.233598",
+      "completed": null
+    },
+    {
+      "id": 4,
+      "client": "qrcreator",
+      "task": "Add Google Analytics + Search Console",
+      "priority": "MED",
+      "status": "TODO",
+      "due": "2026-07-23",
+      "created": "2026-07-16T07:47:05.399161",
+      "completed": null
+    },
+    {
+      "id": 5,
+      "client": "qrcreator",
+      "task": "French/Arabic meta descriptions",
+      "priority": "MED",
+      "status": "TODO",
+      "due": "2026-07-23",
+      "created": "2026-07-16T07:47:05.560842",
+      "completed": null
+    },
+    {
+      "id": 6,
+      "client": "qrcreator",
+      "task": "Start content marketing calendar",
+      "priority": "MED",
+      "status": "TODO",
+      "due": "2026-07-23",
+      "created": "2026-07-16T07:47:05.725660",
+      "completed": null
+    }
+  ],
+  "clients": {
+    "qrcreator": {
+      "created": "2026-07-16T07:47:04.896375",
+      "tasks": 6
+    }
+  }
+}

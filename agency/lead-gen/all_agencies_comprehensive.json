@@ -1,0 +1,808 @@
+[
+  {
+    "name": "Stilioo",
+    "url": "https://stilioo.dz/",
+    "status": "Connection Error",
+    "description": "",
+    "services": [],
+    "social_media": {},
+    "contact": {},
+    "pricing": [],
+    "locations": [],
+    "languages": [],
+    "technologies": [],
+    "blog": false,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "Fan Digital Marketing",
+    "url": "https://fandigitalmarketing.com/",
+    "status": 200,
+    "description": "Agence de Marketing Digital Fan Digital Marketing Algérie spécialisée dans le développement et création de site web, Référencement Web Naturel SEO, Marketing et gestion des Réseaux Sociaux , SEA et PP",
+    "services": [
+      "marketing digital",
+      "community management",
+      "social media",
+      "seo",
+      "référencement",
+      "création site web",
+      "branding",
+      "publicité",
+      "content marketing",
+      "vidéo",
+      "logo",
+      "ia",
+      "conversion"
+    ],
+    "social_media": {
+      "twitter": "https://twitter.com/fancommdz",
+      "facebook": "https://facebook.com/fancommdz",
+      "linkedin": "https://www.linkedin.com/company/fancommdz/",
+      "instagram": "https://instagram.com/fancommdz"
+    },
+    "contact": {
+      "email": "contact@fandigitalmarketing.com"
+    },
+    "pricing": [],
+    "locations": [
+      "Alger",
+      "Oran"
+    ],
+    "languages": [
+      "Arabic",
+      "French",
+      "English"
+    ],
+    "technologies": [],
+    "blog": true,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "ADS Media",
+    "url": "https://adsmedia.dz/",
+    "status": 200,
+    "description": "",
+    "services": [
+      "marketing digital",
+      "publicité",
+      "ia",
+      "google ads"
+    ],
+    "social_media": {
+      "linkedin": "https://www.linkedin.com/company/adsmediadz",
+      "facebook": "https://www.facebook.com/adsMedia.dz/"
+    },
+    "contact": {
+      "phone": "+213665150750",
+      "email": "contact@adsmedia.dz?subject=Bonjour%20adsmedia"
+    },
+    "pricing": [],
+    "locations": [
+      "Alger"
+    ],
+    "languages": [],
+    "technologies": [],
+    "blog": false,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "FAN Advertising",
+    "url": "https://www.fancommunication.dz/",
+    "status": 200,
+    "description": "FAN Advertising Algérie, agence de communication et publicité à Alger, spécialisée en marketing digital, production audiovisuelle, design graphique, création de logos et solutions pour cadeaux publici",
+    "services": [
+      "marketing digital",
+      "community management",
+      "seo",
+      "référencement",
+      "branding",
+      "identité visuelle",
+      "publicité",
+      "vidéo",
+      "photographie",
+      "événementiel",
+      "stratégie digitale",
+      "logo",
+      "charte graphique",
+      "print",
+      "rp",
+      "ia",
+      "intelligence artificielle",
+      "conversion"
+    ],
+    "social_media": {
+      "twitter": "https://twitter.com/FanCommDz",
+      "linkedin": "https://www.linkedin.com/company/fancommdz",
+      "facebook": "https://www.facebook.com/FanCommDz",
+      "youtube": "https://www.youtube.com/@fancommdz"
+    },
+    "contact": {
+      "phone_found": [
+        "0561 00 61 61",
+        "0561 61 00 61"
+      ]
+    },
+    "pricing": [],
+    "locations": [
+      "Alger"
+    ],
+    "languages": [
+      "French"
+    ],
+    "technologies": [
+      "vue"
+    ],
+    "blog": true,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "Le2 Agency",
+    "url": "https://le2.agency/",
+    "status": "Connection Error",
+    "description": "",
+    "services": [],
+    "social_media": {},
+    "contact": {},
+    "pricing": [],
+    "locations": [],
+    "languages": [],
+    "technologies": [],
+    "blog": false,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "TUDSA",
+    "url": "https://tudsa.net/",
+    "status": 200,
+    "description": "Agence marketing digital, web design et automatisation IA en Algérie. Générez plus de clients avec des sites performants, ads rentables et systèmes automatisés.",
+    "services": [
+      "marketing digital",
+      "social media",
+      "seo",
+      "création site web",
+      "web design",
+      "publicité",
+      "automatisation",
+      "e-commerce",
+      "chatbot",
+      "ia",
+      "crm",
+      "création site",
+      "charte graphique"
+    ],
+    "social_media": {
+      "facebook": "https://www.facebook.com/Tudsaofficiel",
+      "instagram": "https://www.instagram.com/tudsanet/",
+      "twitter": "http://x.com/tudsaofficielle"
+    },
+    "contact": {
+      "phone": "00213554370887",
+      "email_found": [
+        "contact@tudsa.net"
+      ]
+    },
+    "pricing": [],
+    "locations": [
+      "Tizi Ouzou"
+    ],
+    "languages": [],
+    "technologies": [],
+    "blog": true,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "Sponsorili DZ",
+    "url": "https://sponsorilidz.com/",
+    "status": 200,
+    "description": "Sponsorili DZ - Agence de marketing en Algérie spécialisée dans la stratégie digitale. Augmentez votre notoriété avec des solutions sur mesure pour atteindre vos objectifs.",
+    "services": [
+      "marketing digital",
+      "publicité",
+      "vidéo"
+    ],
+    "social_media": {
+      "instagram": "https://www.instagram.com/nova_studios__/"
+    },
+    "contact": {
+      "phone": "0672186065"
+    },
+    "pricing": [],
+    "locations": [
+      "Alger"
+    ],
+    "languages": [],
+    "technologies": [],
+    "blog": false,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "Nazhamane",
+    "url": "https://nazhamane.com/",
+    "status": 200,
+    "description": "Agence de communication digitale en Algérie spécialisée dans la création de sites web, le référencement SEO, la gestion des réseaux sociaux et le marketing digital pour développer votre entreprise.",
+    "services": [
+      "seo",
+      "référencement",
+      "création site web",
+      "web design",
+      "publicité",
+      "événementiel",
+      "développement web",
+      "logo",
+      "charte graphique",
+      "affichage",
+      "ia"
+    ],
+    "social_media": {},
+    "contact": {
+      "email": "Bouarroudj@nazhamane.com",
+      "phone": "0550958945"
+    },
+    "pricing": [],
+    "locations": [
+      "Alger",
+      "Constantine"
+    ],
+    "languages": [],
+    "technologies": [],
+    "blog": false,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "SHIFTIN",
+    "url": "https://shiftin.co/",
+    "status": 200,
+    "description": "Vous cherchez à optimiser votre présence en ligne et à développer votre visibilité à travers le marketing digital et la publicité ? Vous êtes au bon endroit !",
+    "services": [
+      "marketing digital",
+      "seo",
+      "création site web",
+      "publicité",
+      "application mobile",
+      "stratégie digitale",
+      "ui/ux",
+      "ia",
+      "conversion"
+    ],
+    "social_media": {
+      "facebook": "https://www.facebook.com/shiftinagency",
+      "twitter": "https://twitter.com/ShiftinAgency",
+      "instagram": "https://www.instagram.com/shiftinagency/",
+      "linkedin": "https://www.linkedin.com/company/shiftinagency/"
+    },
+    "contact": {
+      "phone": "+213770778699",
+      "email": "hello@shiftin.co"
+    },
+    "pricing": [],
+    "locations": [
+      "Alger"
+    ],
+    "languages": [],
+    "technologies": [],
+    "blog": false,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "Digital Ways",
+    "url": "https://digitalways.net/",
+    "status": "Connection Error",
+    "description": "",
+    "services": [],
+    "social_media": {},
+    "contact": {},
+    "pricing": [],
+    "locations": [],
+    "languages": [],
+    "technologies": [],
+    "blog": false,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "Diamond Agency DZ",
+    "url": "https://www.diamond-agency-dz.com/",
+    "status": 200,
+    "description": "L'agence de communication Diamond Agency qui allie créativité et expertise pour répondre à tous vos besoins en communication globale.",
+    "services": [
+      "marketing digital",
+      "community management",
+      "seo",
+      "référencement",
+      "identité visuelle",
+      "publicité",
+      "e-commerce",
+      "vidéo",
+      "photographie",
+      "ui/ux",
+      "logo",
+      "print",
+      "ia",
+      "charte graphique",
+      "branding"
+    ],
+    "social_media": {
+      "facebook": "https://www.facebook.com/diamondagencydz",
+      "instagram": "https://instagram.com/diamondagencydz/",
+      "linkedin": "https://www.linkedin.com/company/diamond-agency-dzd/%20",
+      "youtube": "https://youtube.com/@diamondagency6715",
+      "twitter": "https://twitter.com"
+    },
+    "contact": {
+      "phone": "+213 (0) 554-22-25-28",
+      "email": "contact@diamond-agency-dz.com"
+    },
+    "pricing": [
+      "20 000 DA",
+      "80 000 DA"
+    ],
+    "locations": [
+      "Tizi Ouzou"
+    ],
+    "languages": [],
+    "technologies": [],
+    "blog": true,
+    "portfolio_count": 18,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "Iceberg Agency",
+    "url": "https://www.agence-iceberg.com/",
+    "status": 200,
+    "description": "Agence de communication globale Alger, Agence digitale, Agence de publicité, Digitale marketing, Community management, Création de site web",
+    "services": [
+      "marketing digital",
+      "community management",
+      "seo",
+      "référencement",
+      "branding",
+      "identité visuelle",
+      "publicité",
+      "ia"
+    ],
+    "social_media": {
+      "facebook": "https://www.facebook.com/purenaissance/"
+    },
+    "contact": {
+      "email": "contact@agence-iceberg.com"
+    },
+    "pricing": [],
+    "locations": [
+      "Alger"
+    ],
+    "languages": [
+      "French"
+    ],
+    "technologies": [],
+    "blog": false,
+    "portfolio_count": 0,
+    "team_size": "",
+    "years_experience": "",
+    "source": "direct_scrape",
+    "rating": "",
+    "reviews": ""
+  },
+  {
+    "name": "HiveDigit4.7",
+    "url": "http://hivedigit.com?utm_source=sortlist&utm_medium=profile&utm_campaign=",
+    "sortlist_url": "https://www.sortlist.com/agency/hivedigit",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "social media",
+      "community management",
+      "branding",
+      "publicité",
+      "développement",
+      "content marketing",
+      "vidéo",
+      "e-commerce",
+      "ui/ux",
+      "identité visuelle",
+      "stratégie",
+      "consulting",
+      "data",
+      "analytics"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "23",
+    "rating": "4.7",
+    "reviews": "19",
+    "source": "sortlist"
+  },
+  {
+    "name": "KYO Conseil4.9",
+    "url": "http://www.kyo-conseil.com?utm_source=sortlist&utm_medium=profile&utm_campaign=",
+    "sortlist_url": "https://www.sortlist.com/agency/kyo-conseil",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "web design",
+      "facebook ads",
+      "e-commerce",
+      "stratégie",
+      "consulting",
+      "data",
+      "email"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "58",
+    "rating": "4.9",
+    "reviews": "3",
+    "source": "sortlist"
+  },
+  {
+    "name": "Fan Advertising Algerie4.9",
+    "url": "https://www.sortlist.com/agency/fan-advertising",
+    "sortlist_url": "https://www.sortlist.com/agency/fan-advertising",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "social media",
+      "web design",
+      "branding",
+      "publicité",
+      "consulting",
+      "data",
+      "analytics"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "15",
+    "rating": "4.9",
+    "reviews": "4",
+    "source": "sortlist"
+  },
+  {
+    "name": "ATAKOR STUDIO4.9",
+    "url": "https://www.sortlist.com/agency/atakor",
+    "sortlist_url": "https://www.sortlist.com/agency/atakor",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "social media",
+      "branding",
+      "e-commerce",
+      "graphisme",
+      "identité visuelle",
+      "stratégie",
+      "consulting",
+      "data",
+      "email"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "8",
+    "rating": "4.9",
+    "reviews": "5",
+    "source": "sortlist"
+  },
+  {
+    "name": "Createch5",
+    "url": "https://www.sortlist.com/agency/createch-3",
+    "sortlist_url": "https://www.sortlist.com/agency/createch-3",
+    "description": "",
+    "services": [
+      "social media",
+      "branding",
+      "e-commerce",
+      "ui/ux",
+      "consulting",
+      "data"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "25",
+    "rating": "3,0",
+    "reviews": "19",
+    "source": "sortlist"
+  },
+  {
+    "name": "diamond agency4",
+    "url": "https://www.sortlist.com/agency/diamond-agency",
+    "sortlist_url": "https://www.sortlist.com/agency/diamond-agency",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "community management",
+      "web design",
+      "publicité",
+      "développement",
+      "google ads",
+      "facebook ads",
+      "vidéo",
+      "e-commerce",
+      "graphisme",
+      "stratégie",
+      "consulting",
+      "data",
+      "analytics"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "7",
+    "rating": "1,0",
+    "reviews": "2",
+    "source": "sortlist"
+  },
+  {
+    "name": "BlueOrbit Agency",
+    "url": "https://www.sortlist.com/agency/blueorbit-agency",
+    "sortlist_url": "https://www.sortlist.com/agency/blueorbit-agency",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "social media",
+      "community management",
+      "identité visuelle",
+      "stratégie",
+      "data",
+      "analytics"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "3",
+    "rating": "",
+    "reviews": "",
+    "source": "sortlist"
+  },
+  {
+    "name": "Dex Agence",
+    "url": "https://www.sortlist.com/agency/dex-agence",
+    "sortlist_url": "https://www.sortlist.com/agency/dex-agence",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "social media",
+      "community management",
+      "web design",
+      "branding",
+      "publicité",
+      "développement",
+      "content marketing",
+      "google ads",
+      "facebook ads",
+      "vidéo",
+      "e-commerce",
+      "identité visuelle",
+      "stratégie",
+      "consulting",
+      "data",
+      "analytics",
+      "automation",
+      "email"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "4",
+    "rating": "",
+    "reviews": "",
+    "source": "sortlist"
+  },
+  {
+    "name": "Numedes",
+    "url": "https://www.sortlist.com/agency/numedes",
+    "sortlist_url": "https://www.sortlist.com/agency/numedes",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "social media",
+      "community management",
+      "web design",
+      "branding",
+      "publicité",
+      "content marketing",
+      "e-commerce",
+      "stratégie",
+      "consulting",
+      "data",
+      "analytics",
+      "automation",
+      "email"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "2",
+    "rating": "1,0",
+    "reviews": "",
+    "source": "sortlist"
+  },
+  {
+    "name": "Aurasy Agency",
+    "url": "https://www.sortlist.com/agency/aurasy-agency",
+    "sortlist_url": "https://www.sortlist.com/agency/aurasy-agency",
+    "description": "",
+    "services": [
+      "seo",
+      "social media",
+      "web design",
+      "branding",
+      "développement",
+      "consulting",
+      "data"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "5",
+    "rating": "3,0",
+    "reviews": "",
+    "source": "sortlist"
+  },
+  {
+    "name": "DATA DIGITAL ONE",
+    "url": "https://www.sortlist.com/agency/digital-one",
+    "sortlist_url": "https://www.sortlist.com/agency/digital-one",
+    "description": "",
+    "services": [
+      "consulting",
+      "data"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "4",
+    "rating": "",
+    "reviews": "",
+    "source": "sortlist"
+  },
+  {
+    "name": "Taibouni Web Solution",
+    "url": "https://www.sortlist.com/agency/taibouni-web-solution",
+    "sortlist_url": "https://www.sortlist.com/agency/taibouni-web-solution",
+    "description": "",
+    "services": [
+      "seo",
+      "social media",
+      "web design",
+      "e-commerce",
+      "data"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "",
+    "rating": "1,0",
+    "reviews": "",
+    "source": "sortlist"
+  },
+  {
+    "name": "NETLAB",
+    "url": "https://www.sortlist.com/agency/netlab",
+    "sortlist_url": "https://www.sortlist.com/agency/netlab",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "social media",
+      "community management",
+      "web design",
+      "branding",
+      "e-commerce",
+      "data"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "24",
+    "rating": "1,0",
+    "reviews": "",
+    "source": "sortlist"
+  },
+  {
+    "name": "Ouedkniss / واد كنيس",
+    "url": "https://www.sortlist.com/agency/ouedkniss",
+    "sortlist_url": "https://www.sortlist.com/agency/ouedkniss",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "social media",
+      "branding",
+      "e-commerce",
+      "consulting",
+      "data"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "4",
+    "rating": "0,0",
+    "reviews": "",
+    "source": "sortlist"
+  },
+  {
+    "name": "ZCMC - Marketing digital company",
+    "url": "https://www.sortlist.com/agency/zcmc-marketing-digital-company",
+    "sortlist_url": "https://www.sortlist.com/agency/zcmc-marketing-digital-company",
+    "description": "",
+    "services": [
+      "marketing digital",
+      "seo",
+      "social media",
+      "community management",
+      "branding",
+      "e-commerce",
+      "consulting",
+      "data",
+      "email"
+    ],
+    "social_media": {},
+    "pricing": [],
+    "locations": [],
+    "team_size": "4",
+    "rating": "1,0",
+    "reviews": "",
+    "source": "sortlist"
+  }
+]
