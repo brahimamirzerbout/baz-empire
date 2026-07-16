@@ -22,6 +22,8 @@ import { resolveProvider } from "./seo/serp-client.js";
 import type { SerpResult, AISEOInput, GeoCitation } from "./seo/types.js";
 import { buildAdCreative } from "./ad-creative/engine.js";
 import type { AdCreativeInput, BrandKit, Platform } from "./ad-creative/types.js";
+import { buildCreatorOps } from "./creator-ops/engine.js";
+import type { CreatorOpsInput, Creator } from "./creator-ops/types.js";
 import type { AuditFinding, AuditInput, ClientContext, ComponentStatus } from "./types.js";
 
 const VALID_STATUS: ReadonlySet<string> = new Set(["present", "partial", "missing", "broken"]);
@@ -77,10 +79,16 @@ interface ParsedArgs {
   adColorPrimary?: string;
   adColorAccent?: string;
   adPlatforms?: string;
+  // creator-ops-specific
+  creatorCampaign?: string;
+  creatorBrand?: string;
+  creatorIcp?: string;
+  creatorBudget?: number;
+  creators: Creator[];
 }
 
 function parseArgs(argv: string[]): ParsedArgs {
-  const out: ParsedArgs = { findings: [], gate: {}, croSignals: [] };
+  const out: ParsedArgs = { findings: [], gate: {}, croSignals: [], creators: [] };
   const next = (arr: string[], i: number): string => arr[++i]!;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]!;
@@ -120,6 +128,23 @@ function parseArgs(argv: string[]): ParsedArgs {
       case "--ad-color-primary": out.adColorPrimary = next(argv, i); break;
       case "--ad-color-accent": out.adColorAccent = next(argv, i); break;
       case "--ad-platforms": out.adPlatforms = next(argv, i); break;
+      case "--creator-campaign": out.creatorCampaign = next(argv, i); break;
+      case "--creator-brand": out.creatorBrand = next(argv, i); break;
+      case "--creator-icp": out.creatorIcp = next(argv, i); break;
+      case "--creator-budget": out.creatorBudget = Number(next(argv, i)); break;
+      case "--creator": {
+        // Format: id|handle|platform|type|followers|engagement|fake|match|niche|cost
+        const pair = next(argv, i) ?? "";
+        const parts = pair.split("|");
+        if (parts.length < 8) throw new Error(`Invalid --creator "${pair}". Expected id|handle|platform|type|followers|engagement(0-1)|fake(0-1)|match(0-1)[|niche|cost]`);
+        const [id, handle, platform, type, followers, engagement, fake, match, niche, cost] = parts;
+        out.creators.push({
+          id: id!, handle: handle!, platform: platform as Creator["platform"], type: type as Creator["type"],
+          followers: Number(followers), engagementRate: Number(engagement), fakeFollowerPct: Number(fake),
+          audienceMatch: Number(match), niche: niche ?? "general", costPerPost: cost ? Number(cost) : 0,
+        });
+        break;
+      }
       case "--cro-signal": {
         const pair = next(argv, i) ?? "";
         const parts = pair.split("|");
@@ -243,6 +268,15 @@ AD CREATIVE OPTIONS:
   --ad-color-primary C  Primary brand color (hex)
   --ad-color-accent C   Accent brand color (hex)
   --ad-platforms LIST  Comma-separated: meta-feed,meta-reel,meta-story,google-display,tiktok-feed,linkedin-single,x-single
+
+CREATOR OPS OPTIONS:
+  --creator-campaign "N"  Campaign name
+  --creator-brand "B"    Brand name
+  --creator-icp "I"      The audience ICP creators must match
+  --creator-budget $     Campaign budget (USD)
+  --creator C           One per creator: id|handle|platform|type|followers|engagement(0-1)|fake(0-1)|match(0-1)[|niche|cost]
+                         platform: instagram|tiktok|youtube|x|linkedin
+                         type: influencer|creator|ugc|ambassador
 
   -h, --help           Show this help
 `);
@@ -396,6 +430,23 @@ function runAd(args: ParsedArgs): void {
   console.log(out.markdown);
 }
 
+function runCreator(args: ParsedArgs): void {
+  if (!args.creatorCampaign || !args.creatorBrand || !args.creatorIcp || args.creatorBudget === undefined || args.creators.length === 0) {
+    printHelp();
+    process.exit(1);
+  }
+  const input: CreatorOpsInput = {
+    campaignName: args.creatorCampaign,
+    brand: args.creatorBrand,
+    audienceIcp: args.creatorIcp,
+    creators: args.creators,
+    budget: args.creatorBudget,
+  };
+  const out = buildCreatorOps(input);
+  // eslint-disable-next-line no-console
+  console.log(out.markdown);
+}
+
 function main(): void {
   const args = parseArgs(process.argv.slice(2));
   const command = args.command ?? "diagnostic";
@@ -404,6 +455,7 @@ function main(): void {
   else if (command === "cro") runCRO(args);
   else if (command === "seo") { void runSEO(args); }
   else if (command === "ad") runAd(args);
+  else if (command === "creator") runCreator(args);
   else if (command === "seo") runSEO(args);
   else if (command === "diagnostic") runDiagnostic(args);
   else { printHelp(); process.exit(1); }
