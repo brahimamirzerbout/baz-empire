@@ -1,0 +1,8 @@
+https://www.definitions-marketing.com/ -O /home/uzer/definitions-marketing-mirror +*.definitions-marketing.com/* -*.css -*.js -*.png -*.jpg -*.jpeg -*.gif -*.svg -*.woff* -*.ttf -*.ico -*.mp4 -*.webp -c2 -A0 -%k -T30 -R2 -F "Mozilla/5.0 (compatible; BAZResearch/1.0; +research)"
+File generated automatically on Fri, 17 Jul 2026 08:04:02, do NOT edit
+
+To update a mirror, just launch httrack without any parameters
+The existing cache will be used (and modified)
+To have other options, retype all parameters and launch HTTrack
+To continue an interrupted mirror, just launch httrack without any parameters
+

@@ -1,0 +1,4092 @@
+1
+00:00:00,080 --> 00:00:05,120
+In this video, I'm going to explain
+
+2
+00:00:02,560 --> 00:00:07,279
+every type of marketing. This video is
+
+3
+00:00:05,120 --> 00:00:08,720
+for you if you are an entrepreneur or a
+
+4
+00:00:07,279 --> 00:00:10,960
+brand owner and just want to understand
+
+5
+00:00:08,720 --> 00:00:12,639
+the full scope of your toolkit or if you
+
+6
+00:00:10,960 --> 00:00:14,400
+work in marketing, you want to be a
+
+7
+00:00:12,639 --> 00:00:16,720
+director of marketing, a VP of marketing
+
+8
+00:00:14,400 --> 00:00:19,600
+and know how this all works. So, from
+
+9
+00:00:16,720 --> 00:00:20,800
+positioning to funnels to email to SEO,
+
+10
+00:00:19,600 --> 00:00:23,039
+I'm going to go through what each of
+
+11
+00:00:20,800 --> 00:00:25,199
+these is, the role it plays in the brand
+
+12
+00:00:23,039 --> 00:00:26,240
+ecosystem, and chat about it. By the end
+
+13
+00:00:25,199 --> 00:00:28,000
+of this video, you're going to have a
+
+14
+00:00:26,240 --> 00:00:30,240
+complete idea of the whole marketing
+
+15
+00:00:28,000 --> 00:00:31,679
+toolkit and how it all works together.
+
+16
+00:00:30,240 --> 00:00:33,120
+I'm stoked to talk through it with you.
+
+17
+00:00:31,679 --> 00:00:34,880
+Let's lock it in. So, for some
+
+18
+00:00:33,120 --> 00:00:37,040
+background, prior to becoming a
+
+19
+00:00:34,880 --> 00:00:38,239
+full-time creator, I was the SVP of
+
+20
+00:00:37,040 --> 00:00:40,000
+marketing at a brand called Gelb
+
+21
+00:00:38,239 --> 00:00:42,160
+Blaster. Before that, I was the head of
+
+22
+00:00:40,000 --> 00:00:43,680
+product and marketing at a CPG company
+
+23
+00:00:42,160 --> 00:00:45,360
+here in California that had several
+
+24
+00:00:43,680 --> 00:00:47,520
+brands. I was the VP of marketing at a
+
+25
+00:00:45,360 --> 00:00:49,120
+consumer electronics company called 3DR
+
+26
+00:00:47,520 --> 00:00:50,960
+and ran sales and marketing prior to
+
+27
+00:00:49,120 --> 00:00:52,640
+that, an outdoors company. So, I've been
+
+28
+00:00:50,960 --> 00:00:54,800
+through the ringer of marketing of all
+
+29
+00:00:52,640 --> 00:00:57,199
+times, from supporting retail to things
+
+30
+00:00:54,800 --> 00:00:58,960
+that are purely online to big brands
+
+31
+00:00:57,199 --> 00:01:00,559
+that are doing everything. And as part
+
+32
+00:00:58,960 --> 00:01:02,640
+of that, I've had to learn a bit of each
+
+33
+00:01:00,559 --> 00:01:04,080
+of these and think about what works and
+
+34
+00:01:02,640 --> 00:01:05,680
+what doesn't in different types of
+
+35
+00:01:04,080 --> 00:01:07,119
+businesses. And there isn't a lot of
+
+36
+00:01:05,680 --> 00:01:08,560
+education around this kind of modern
+
+37
+00:01:07,119 --> 00:01:09,680
+marketing. So, if you do want to learn
+
+38
+00:01:08,560 --> 00:01:11,600
+about it, just going to walk through
+
+39
+00:01:09,680 --> 00:01:13,680
+each piece and what it is, some
+
+40
+00:01:11,600 --> 00:01:14,799
+examples, and see what we can build. And
+
+41
+00:01:13,680 --> 00:01:16,479
+I'm going to start with the most
+
+42
+00:01:14,799 --> 00:01:18,240
+important one, the most important thing
+
+43
+00:01:16,479 --> 00:01:19,920
+that I feel like every business needs to
+
+44
+00:01:18,240 --> 00:01:22,720
+consider and every marketer needs to
+
+45
+00:01:19,920 --> 00:01:25,040
+have a grasp on and that is positioning.
+
+46
+00:01:22,720 --> 00:01:27,840
+So what is positioning? Positioning is
+
+47
+00:01:25,040 --> 00:01:29,759
+how you take your product to market and
+
+48
+00:01:27,840 --> 00:01:31,600
+how you compare it or put it in the
+
+49
+00:01:29,759 --> 00:01:32,960
+market compared to your competitors.
+
+50
+00:01:31,600 --> 00:01:34,720
+There are a couple different types of
+
+51
+00:01:32,960 --> 00:01:36,640
+positioning. So for instance, when you
+
+52
+00:01:34,720 --> 00:01:38,000
+walk into a Best Buy, you will see
+
+53
+00:01:36,640 --> 00:01:40,079
+shelves that have three types of
+
+54
+00:01:38,000 --> 00:01:42,240
+products. Best Buy merchandises their
+
+55
+00:01:40,079 --> 00:01:44,799
+products with a good, better, best
+
+56
+00:01:42,240 --> 00:01:46,560
+strategy. So, they will have a best,
+
+57
+00:01:44,799 --> 00:01:48,000
+like a best-in-class item. Say if you
+
+58
+00:01:46,560 --> 00:01:50,000
+were in action cameras, it might be a
+
+59
+00:01:48,000 --> 00:01:51,840
+GoPro. And that's going to be expensive.
+
+60
+00:01:50,000 --> 00:01:53,360
+That's going to be sold on brand or on
+
+61
+00:01:51,840 --> 00:01:54,799
+really high-end stuff. And you're going
+
+62
+00:01:53,360 --> 00:01:56,079
+to have a better, the core category
+
+63
+00:01:54,799 --> 00:01:57,840
+where they make the majority of the
+
+64
+00:01:56,079 --> 00:01:58,960
+sales, like your average product. And
+
+65
+00:01:57,840 --> 00:02:00,799
+you're going to have a good, which is a
+
+66
+00:01:58,960 --> 00:02:02,719
+product that positions itself basically
+
+67
+00:02:00,799 --> 00:02:04,560
+purely on price that isn't as good as
+
+68
+00:02:02,719 --> 00:02:06,640
+everything else. So in headphones, you
+
+69
+00:02:04,560 --> 00:02:08,560
+might have a Bose or a Beats at the top,
+
+70
+00:02:06,640 --> 00:02:10,160
+more in the middle company, and then
+
+71
+00:02:08,560 --> 00:02:11,599
+something on the cheaper end, say a
+
+72
+00:02:10,160 --> 00:02:12,879
+Skull Candy or someone like that who
+
+73
+00:02:11,599 --> 00:02:14,720
+tries to present a premium experience,
+
+74
+00:02:12,879 --> 00:02:16,400
+but does it at a lower price point. But
+
+75
+00:02:14,720 --> 00:02:18,000
+positioning is more than price. It's
+
+76
+00:02:16,400 --> 00:02:19,599
+about who is your product appealing to
+
+77
+00:02:18,000 --> 00:02:21,200
+and how and how does it differentiate
+
+78
+00:02:19,599 --> 00:02:23,120
+from the market. And it's a moving
+
+79
+00:02:21,200 --> 00:02:24,560
+target because your positioning depends
+
+80
+00:02:23,120 --> 00:02:26,160
+on the other offerings that are
+
+81
+00:02:24,560 --> 00:02:27,520
+happening around it. So if you sell
+
+82
+00:02:26,160 --> 00:02:29,200
+computers, then other people are selling
+
+83
+00:02:27,520 --> 00:02:31,120
+computers with similar specs. Are you
+
+84
+00:02:29,200 --> 00:02:32,560
+positioning it as a gaming PC or as a
+
+85
+00:02:31,120 --> 00:02:34,800
+thing for work? It's about thinking
+
+86
+00:02:32,560 --> 00:02:36,400
+through what the angles are for your
+
+87
+00:02:34,800 --> 00:02:38,080
+product. And I like to look at an
+
+88
+00:02:36,400 --> 00:02:39,440
+exercise I think every brand owner and
+
+89
+00:02:38,080 --> 00:02:42,000
+marketer should be able to do for the
+
+90
+00:02:39,440 --> 00:02:44,000
+project they work on as a comparison
+
+91
+00:02:42,000 --> 00:02:45,840
+between yourself and any other products.
+
+92
+00:02:44,000 --> 00:02:47,920
+So if you are in an elevator an elevator
+
+93
+00:02:45,840 --> 00:02:49,440
+pitch scenario and you say oh I work in
+
+94
+00:02:47,920 --> 00:02:52,000
+the headphones industry or I have a
+
+95
+00:02:49,440 --> 00:02:54,239
+fashion brand etc. and someone says oh
+
+96
+00:02:52,000 --> 00:02:56,000
+like this brand and they call out one of
+
+97
+00:02:54,239 --> 00:02:57,840
+the big brands in the space. You need to
+
+98
+00:02:56,000 --> 00:02:59,280
+be able to respond and say oh we
+
+99
+00:02:57,840 --> 00:03:00,959
+actually do this. Here's our difference.
+
+100
+00:02:59,280 --> 00:03:03,120
+Here's how we compare. here's you would
+
+101
+00:03:00,959 --> 00:03:05,040
+why you would buy our product and that
+
+102
+00:03:03,120 --> 00:03:07,040
+is going to be your kind of positioning
+
+103
+00:03:05,040 --> 00:03:08,879
+statement and that quick synopsis is
+
+104
+00:03:07,040 --> 00:03:10,640
+going to be kind of a big driving force
+
+105
+00:03:08,879 --> 00:03:12,400
+in your product and so a few things I
+
+106
+00:03:10,640 --> 00:03:14,000
+want to call out as tactics for this
+
+107
+00:03:12,400 --> 00:03:15,920
+that are worth considering so obviously
+
+108
+00:03:14,000 --> 00:03:17,280
+there is price you can always look at a
+
+109
+00:03:15,920 --> 00:03:18,560
+market that has some success and say
+
+110
+00:03:17,280 --> 00:03:20,879
+we're going to do something cheaper as
+
+111
+00:03:18,560 --> 00:03:22,640
+an easy positioning strategy on the far
+
+112
+00:03:20,879 --> 00:03:24,159
+end a much harder positioning strategies
+
+113
+00:03:22,640 --> 00:03:26,000
+you can always charge more by having a
+
+114
+00:03:24,159 --> 00:03:27,840
+lifestyle product something that people
+
+115
+00:03:26,000 --> 00:03:29,120
+aspire to and want that has that brand
+
+116
+00:03:27,840 --> 00:03:30,480
+technique but that is going to be
+
+117
+00:03:29,120 --> 00:03:32,080
+something that has a lot of intangibles
+
+118
+00:03:30,480 --> 00:03:33,760
+that are hard to describe within
+
+119
+00:03:32,080 --> 00:03:35,440
+companies and hard to achieve with
+
+120
+00:03:33,760 --> 00:03:36,799
+marketing. There's also a few other
+
+121
+00:03:35,440 --> 00:03:38,959
+techniques. One of my favorites is
+
+122
+00:03:36,799 --> 00:03:40,879
+called position against. This is when
+
+123
+00:03:38,959 --> 00:03:42,400
+you take a big item or a popular item
+
+124
+00:03:40,879 --> 00:03:44,799
+and you pick something bad about it and
+
+125
+00:03:42,400 --> 00:03:46,480
+you say we are not this. Our main
+
+126
+00:03:44,799 --> 00:03:48,239
+characteristic is that we are not the
+
+127
+00:03:46,480 --> 00:03:50,000
+enemy here. I like to think about the
+
+128
+00:03:48,239 --> 00:03:51,360
+whole prebiotic soda category, the
+
+129
+00:03:50,000 --> 00:03:53,599
+lollipops and poppies. Their main
+
+130
+00:03:51,360 --> 00:03:55,200
+position is we are not Coke. We are not
+
+131
+00:03:53,599 --> 00:03:56,879
+bad for you. We are the same thing just
+
+132
+00:03:55,200 --> 00:03:58,400
+not evil. And there are a lot of
+
+133
+00:03:56,879 --> 00:04:00,560
+companies that present that in a certain
+
+134
+00:03:58,400 --> 00:04:01,680
+way. Similar to this, but not exactly
+
+135
+00:04:00,560 --> 00:04:04,000
+the same, is what I'll call
+
+136
+00:04:01,680 --> 00:04:06,319
+counterculture positioning. Liquid death
+
+137
+00:04:04,000 --> 00:04:08,000
+is a perfect example of this. Deathwish
+
+138
+00:04:06,319 --> 00:04:09,519
+coffee and black rifle coffee are a
+
+139
+00:04:08,000 --> 00:04:11,280
+perfect example of this where you say
+
+140
+00:04:09,519 --> 00:04:13,360
+the mainstream of culture consumers
+
+141
+00:04:11,280 --> 00:04:14,640
+inside a category, whatever it is, do a
+
+142
+00:04:13,360 --> 00:04:15,680
+thing. They have a certain lifestyle.
+
+143
+00:04:14,640 --> 00:04:17,120
+They have certain things they like.
+
+144
+00:04:15,680 --> 00:04:18,720
+We're going to be the exact opposite of
+
+145
+00:04:17,120 --> 00:04:20,880
+this. And usually you will see it is
+
+146
+00:04:18,720 --> 00:04:22,880
+synonymous with a more gothic look, a
+
+147
+00:04:20,880 --> 00:04:24,880
+more extreme look. And there's room for
+
+148
+00:04:22,880 --> 00:04:26,800
+kind of an extreme vertical in basically
+
+149
+00:04:24,880 --> 00:04:28,720
+every category saying we're going to
+
+150
+00:04:26,800 --> 00:04:30,800
+take all the things around the branding,
+
+151
+00:04:28,720 --> 00:04:32,479
+even around the product, and max it out.
+
+152
+00:04:30,800 --> 00:04:33,520
+I like to bring up DeathWish coffee a
+
+153
+00:04:32,479 --> 00:04:34,800
+lot because basically they said we're
+
+154
+00:04:33,520 --> 00:04:36,080
+going to have more caffeine than any
+
+155
+00:04:34,800 --> 00:04:37,759
+other coffee. We're going to put a skull
+
+156
+00:04:36,080 --> 00:04:39,280
+and crossbones on the logo. It's not
+
+157
+00:04:37,759 --> 00:04:41,280
+going to be some fun picture of a
+
+158
+00:04:39,280 --> 00:04:43,360
+Colombian farm or this these beans were
+
+159
+00:04:41,280 --> 00:04:45,199
+grown. It is going to be like a skull
+
+160
+00:04:43,360 --> 00:04:47,440
+and crossbones. That is a good example
+
+161
+00:04:45,199 --> 00:04:49,360
+of like a counterculture positioning.
+
+162
+00:04:47,440 --> 00:04:50,560
+But enough about how you actually put
+
+163
+00:04:49,360 --> 00:04:51,680
+your brand out there in the universe.
+
+164
+00:04:50,560 --> 00:04:53,360
+Let's talk about some of the other
+
+165
+00:04:51,680 --> 00:04:54,880
+factors. So, the next thing I want to
+
+166
+00:04:53,360 --> 00:04:56,800
+talk about is what's called a funnel.
+
+167
+00:04:54,880 --> 00:04:58,880
+You may have heard this term before, but
+
+168
+00:04:56,800 --> 00:05:01,120
+really what a funnel is is your web
+
+169
+00:04:58,880 --> 00:05:03,440
+presence, your online web presence,
+
+170
+00:05:01,120 --> 00:05:05,600
+combining websites and where people land
+
+171
+00:05:03,440 --> 00:05:07,360
+and engage with your product and email.
+
+172
+00:05:05,600 --> 00:05:08,960
+And I will hit those one at a time.
+
+173
+00:05:07,360 --> 00:05:10,320
+Email being a separate section. So, in
+
+174
+00:05:08,960 --> 00:05:12,240
+your marketing, you need to consider the
+
+175
+00:05:10,320 --> 00:05:14,000
+web experience you have. And why it's
+
+176
+00:05:12,240 --> 00:05:16,240
+considered a funnel is because people
+
+177
+00:05:14,000 --> 00:05:18,240
+drop off along it. You start at the top.
+
+178
+00:05:16,240 --> 00:05:19,919
+All this traffic comes in. They see you
+
+179
+00:05:18,240 --> 00:05:21,680
+on social media. They watch your videos.
+
+180
+00:05:19,919 --> 00:05:23,039
+they see your ads, whatever it is, that
+
+181
+00:05:21,680 --> 00:05:24,639
+is your top of funnel. And then people
+
+182
+00:05:23,039 --> 00:05:25,840
+get to your website, your funnel is cut
+
+183
+00:05:24,639 --> 00:05:27,759
+down a little bit more. And then from
+
+184
+00:05:25,840 --> 00:05:29,600
+there, you get people that explore more.
+
+185
+00:05:27,759 --> 00:05:31,840
+They go to the product page, funnel gets
+
+186
+00:05:29,600 --> 00:05:33,520
+cut down more, add to your cart, finally
+
+187
+00:05:31,840 --> 00:05:35,360
+check out, customer. You have basically
+
+188
+00:05:33,520 --> 00:05:37,360
+seen your funnel shrink until it gets to
+
+189
+00:05:35,360 --> 00:05:39,120
+the very end. And what good marketers do
+
+190
+00:05:37,360 --> 00:05:41,120
+is they analyze every part of this
+
+191
+00:05:39,120 --> 00:05:42,320
+funnel in two ways. The first is what
+
+192
+00:05:41,120 --> 00:05:44,160
+are they doing from a marketing
+
+193
+00:05:42,320 --> 00:05:45,840
+perspective at each level? What do you
+
+194
+00:05:44,160 --> 00:05:48,240
+do to generate brand awareness with big
+
+195
+00:05:45,840 --> 00:05:49,680
+campaigns or influencers or ads? What do
+
+196
+00:05:48,240 --> 00:05:50,639
+you do once you actually get that
+
+197
+00:05:49,680 --> 00:05:52,240
+customer? That's what we're going to
+
+198
+00:05:50,639 --> 00:05:53,520
+zone in on here. When a customer comes
+
+199
+00:05:52,240 --> 00:05:55,600
+to your website, what is their
+
+200
+00:05:53,520 --> 00:05:57,520
+experience? How do you basically lose as
+
+201
+00:05:55,600 --> 00:05:59,120
+few of those people as possible or get
+
+202
+00:05:57,520 --> 00:06:01,360
+as many people to actually purchase with
+
+203
+00:05:59,120 --> 00:06:03,039
+the highest value by the end of their
+
+204
+00:06:01,360 --> 00:06:04,319
+website experience? This is a really
+
+205
+00:06:03,039 --> 00:06:05,759
+important one for every marketing team
+
+206
+00:06:04,319 --> 00:06:07,280
+to think through because if you are
+
+207
+00:06:05,759 --> 00:06:08,960
+getting any level of traffic, that
+
+208
+00:06:07,280 --> 00:06:11,520
+traffic is precious. You are paying
+
+209
+00:06:08,960 --> 00:06:13,360
+money in some regard to get those people
+
+210
+00:06:11,520 --> 00:06:15,680
+to your website. And if you get them
+
+211
+00:06:13,360 --> 00:06:17,520
+naturally because your brand has a big
+
+212
+00:06:15,680 --> 00:06:19,600
+name or good SEO, we'll get to SEO
+
+213
+00:06:17,520 --> 00:06:21,520
+later. That is a huge value that you are
+
+214
+00:06:19,600 --> 00:06:23,120
+getting that you need to make the most
+
+215
+00:06:21,520 --> 00:06:24,960
+of. So there's a lot about optimizing
+
+216
+00:06:23,120 --> 00:06:26,319
+your funnel about taking all the pages
+
+217
+00:06:24,960 --> 00:06:27,680
+people land on in your website and
+
+218
+00:06:26,319 --> 00:06:29,440
+ensuring there's the right message for
+
+219
+00:06:27,680 --> 00:06:30,479
+them, the right imagery, you have the
+
+220
+00:06:29,440 --> 00:06:31,919
+right call to actions that you're
+
+221
+00:06:30,479 --> 00:06:33,680
+retaining them. One of the most common
+
+222
+00:06:31,919 --> 00:06:35,039
+funnel things I end up working on when I
+
+223
+00:06:33,680 --> 00:06:36,160
+talk to businesses is you'll see they're
+
+224
+00:06:35,039 --> 00:06:37,520
+pushing all this traffic to their
+
+225
+00:06:36,160 --> 00:06:39,199
+websites, but they don't actually ask
+
+226
+00:06:37,520 --> 00:06:40,960
+anyone for their phone number or their
+
+227
+00:06:39,199 --> 00:06:42,319
+email on the site. It's all about the
+
+228
+00:06:40,960 --> 00:06:43,759
+purchase. And one thing that most
+
+229
+00:06:42,319 --> 00:06:45,919
+marketers will learn the hard way is
+
+230
+00:06:43,759 --> 00:06:47,680
+that soft call to actions help enable
+
+231
+00:06:45,919 --> 00:06:49,039
+strong call to actions. So actually
+
+232
+00:06:47,680 --> 00:06:50,400
+asking people for their email, getting
+
+233
+00:06:49,039 --> 00:06:52,639
+people to sign up, getting them to take
+
+234
+00:06:50,400 --> 00:06:54,400
+step one gets you closer to step two and
+
+235
+00:06:52,639 --> 00:06:56,160
+get you retain more people through your
+
+236
+00:06:54,400 --> 00:06:57,919
+funnel over time versus just saying your
+
+237
+00:06:56,160 --> 00:06:59,840
+only option is to buy. And so I always
+
+238
+00:06:57,919 --> 00:07:01,759
+encourage people to basically have those
+
+239
+00:06:59,840 --> 00:07:03,360
+opt-in areas. Now, when we really talk
+
+240
+00:07:01,759 --> 00:07:05,360
+about optimizing the funnel, what do you
+
+241
+00:07:03,360 --> 00:07:06,560
+do to encourage people to buy, right? Or
+
+242
+00:07:05,360 --> 00:07:08,400
+encourage people to engage in that
+
+243
+00:07:06,560 --> 00:07:09,759
+secondary call to action. So in that
+
+244
+00:07:08,400 --> 00:07:10,800
+example I had of, hey, we want people to
+
+245
+00:07:09,759 --> 00:07:12,160
+give you your email. I'm putting a
+
+246
+00:07:10,800 --> 00:07:13,599
+section on every page, get your email or
+
+247
+00:07:12,160 --> 00:07:15,520
+your phone number. If I just put it out
+
+248
+00:07:13,599 --> 00:07:17,360
+there saying sign up for our news, that
+
+249
+00:07:15,520 --> 00:07:18,400
+gets me some interest. If you say sign
+
+250
+00:07:17,360 --> 00:07:20,639
+up and you're actually going to get
+
+251
+00:07:18,400 --> 00:07:22,240
+this, you know, seven video bundle to
+
+252
+00:07:20,639 --> 00:07:23,680
+show you exactly like how to optimize
+
+253
+00:07:22,240 --> 00:07:25,440
+your fitness journey or whatever it is.
+
+254
+00:07:23,680 --> 00:07:27,520
+Give them free content, give them like
+
+255
+00:07:25,440 --> 00:07:28,880
+some value discount code, whatever it
+
+256
+00:07:27,520 --> 00:07:30,880
+is, you're going to get a higher rate.
+
+257
+00:07:28,880 --> 00:07:32,560
+And so your optimization as a marketer
+
+258
+00:07:30,880 --> 00:07:34,160
+is going through all those decisions and
+
+259
+00:07:32,560 --> 00:07:35,680
+being like, how do I improve it? Same
+
+260
+00:07:34,160 --> 00:07:37,360
+thing with purchases. This is where it
+
+261
+00:07:35,680 --> 00:07:38,880
+comes down to things like issues your
+
+262
+00:07:37,360 --> 00:07:40,400
+customers have that prevent you to buy.
+
+263
+00:07:38,880 --> 00:07:41,520
+How do I put them on page on your
+
+264
+00:07:40,400 --> 00:07:43,039
+website? For instance, if people don't
+
+265
+00:07:41,520 --> 00:07:44,560
+know how your clothes fit, they don't
+
+266
+00:07:43,039 --> 00:07:46,560
+want to buy a $100 hoodie without
+
+267
+00:07:44,560 --> 00:07:48,000
+knowing how it fits. Showing that on the
+
+268
+00:07:46,560 --> 00:07:49,840
+web page and having pictures of a couple
+
+269
+00:07:48,000 --> 00:07:51,759
+different body types so people can see
+
+270
+00:07:49,840 --> 00:07:53,680
+it. That's an example of optimizing your
+
+271
+00:07:51,759 --> 00:07:54,879
+funnel for any type of brand. After we
+
+272
+00:07:53,680 --> 00:07:56,800
+get to the funnel, we get to the second
+
+273
+00:07:54,879 --> 00:07:58,240
+end. This is email marketing. This is
+
+274
+00:07:56,800 --> 00:07:59,759
+one of my favorites because many
+
+275
+00:07:58,240 --> 00:08:01,280
+businesses don't do it well. It's an
+
+276
+00:07:59,759 --> 00:08:02,800
+easy thing marketers can add to your
+
+277
+00:08:01,280 --> 00:08:05,039
+toolkit, and I've done whole videos
+
+278
+00:08:02,800 --> 00:08:06,800
+about this as well. But there are a
+
+279
+00:08:05,039 --> 00:08:08,639
+couple types of email worth considering.
+
+280
+00:08:06,800 --> 00:08:10,160
+So the first is just the campaigns that
+
+281
+00:08:08,639 --> 00:08:12,400
+you send for email. So you have an email
+
+282
+00:08:10,160 --> 00:08:13,840
+list to email out to them regularly. So
+
+283
+00:08:12,400 --> 00:08:15,520
+a couple things I encourage when you're
+
+284
+00:08:13,840 --> 00:08:16,720
+doing this is not always be selling when
+
+285
+00:08:15,520 --> 00:08:18,400
+you do this. You can share your best
+
+286
+00:08:16,720 --> 00:08:19,360
+content. You can share ideas and
+
+287
+00:08:18,400 --> 00:08:20,879
+journeys. You can have your
+
+288
+00:08:19,360 --> 00:08:22,479
+communication not always be so
+
+289
+00:08:20,879 --> 00:08:23,919
+salesfocused and then it will encourage
+
+290
+00:08:22,479 --> 00:08:25,759
+people to be more likely to open it if
+
+291
+00:08:23,919 --> 00:08:27,440
+they get some value. Second thing is to
+
+292
+00:08:25,759 --> 00:08:29,360
+assign a personality to this. If your
+
+293
+00:08:27,440 --> 00:08:31,120
+emails come from a person, a CEO or a
+
+294
+00:08:29,360 --> 00:08:33,279
+representative, it begins to get over
+
+295
+00:08:31,120 --> 00:08:35,120
+time a little bit more of a some actual
+
+296
+00:08:33,279 --> 00:08:36,640
+connection to the brand and to people.
+
+297
+00:08:35,120 --> 00:08:38,640
+There's your email campaigns and your
+
+298
+00:08:36,640 --> 00:08:40,320
+email automation. This is emails that
+
+299
+00:08:38,640 --> 00:08:41,760
+send automatically when someone makes a
+
+300
+00:08:40,320 --> 00:08:43,760
+purchase. When someone leaves something
+
+301
+00:08:41,760 --> 00:08:44,959
+in their cart, when someone signs up on
+
+302
+00:08:43,760 --> 00:08:46,560
+your website, they get a welcome
+
+303
+00:08:44,959 --> 00:08:48,000
+sequence or purchase a certain product,
+
+304
+00:08:46,560 --> 00:08:49,680
+it encourages you to cross-ell to
+
+305
+00:08:48,000 --> 00:08:52,880
+another. And you're able to at all these
+
+306
+00:08:49,680 --> 00:08:54,320
+platforms, Omnisend, Mailchimp, Clavio,
+
+307
+00:08:52,880 --> 00:08:55,920
+schedule those emails to happen
+
+308
+00:08:54,320 --> 00:08:57,519
+automatically. And those journeys matter
+
+309
+00:08:55,920 --> 00:08:58,800
+a lot because the more and more traffic
+
+310
+00:08:57,519 --> 00:09:00,480
+you get, the more that happens
+
+311
+00:08:58,800 --> 00:09:02,399
+automatically with information sharing,
+
+312
+00:09:00,480 --> 00:09:03,760
+the more sales happen automatically. And
+
+313
+00:09:02,399 --> 00:09:04,959
+the better that journey is, much like
+
+314
+00:09:03,760 --> 00:09:06,640
+your funnel, and the better the content
+
+315
+00:09:04,959 --> 00:09:08,560
+is and the more of the questions that
+
+316
+00:09:06,640 --> 00:09:10,320
+are answered by you as a marketer inside
+
+317
+00:09:08,560 --> 00:09:11,440
+their journey, the better it goes. And
+
+318
+00:09:10,320 --> 00:09:12,640
+so a core thing to think about,
+
+319
+00:09:11,440 --> 00:09:14,320
+especially for new brand owners, because
+
+320
+00:09:12,640 --> 00:09:16,160
+a lot of them kind of ignore email to
+
+321
+00:09:14,320 --> 00:09:17,760
+start, is how am I optimizing my
+
+322
+00:09:16,160 --> 00:09:19,600
+campaigns? And then what am I doing for
+
+323
+00:09:17,760 --> 00:09:21,040
+my retention and my automation over
+
+324
+00:09:19,600 --> 00:09:22,880
+time? And you'll see the through line
+
+325
+00:09:21,040 --> 00:09:24,800
+I'll talk about throughout this that is
+
+326
+00:09:22,880 --> 00:09:26,160
+what can you answer for the customer
+
+327
+00:09:24,800 --> 00:09:27,920
+journey? What can you answer for your
+
+328
+00:09:26,160 --> 00:09:29,519
+customer inside your website or your
+
+329
+00:09:27,920 --> 00:09:31,040
+email or your positioning or what you do
+
+330
+00:09:29,519 --> 00:09:32,560
+in retail? Like what are those questions
+
+331
+00:09:31,040 --> 00:09:34,399
+that prevent them from buying? How does
+
+332
+00:09:32,560 --> 00:09:36,399
+this hoodie fit? Is this thing made of
+
+333
+00:09:34,399 --> 00:09:37,839
+100% cotton? Oh, can I take this if I
+
+334
+00:09:36,399 --> 00:09:39,519
+have a heart condition? Whatever those
+
+335
+00:09:37,839 --> 00:09:41,360
+questions are, how can you put those in
+
+336
+00:09:39,519 --> 00:09:43,360
+your landing pages, in your emails, in
+
+337
+00:09:41,360 --> 00:09:44,800
+your content to help make that journey
+
+338
+00:09:43,360 --> 00:09:46,480
+easier? Now, we're going to talk about
+
+339
+00:09:44,800 --> 00:09:47,760
+retention. So, sometimes retention falls
+
+340
+00:09:46,480 --> 00:09:49,519
+under email, but it's a whole
+
+341
+00:09:47,760 --> 00:09:51,360
+conversation. Retention is when someone
+
+342
+00:09:49,519 --> 00:09:53,040
+is a customer, they become they buy from
+
+343
+00:09:51,360 --> 00:09:54,800
+you. How do you keep them? How do you
+
+344
+00:09:53,040 --> 00:09:56,480
+get them to buy again and raise your
+
+345
+00:09:54,800 --> 00:09:57,760
+average order value? And this is a huge
+
+346
+00:09:56,480 --> 00:09:59,200
+thing because a lot of brands will have
+
+347
+00:09:57,760 --> 00:10:01,040
+a starter product. So, for instance,
+
+348
+00:09:59,200 --> 00:10:02,800
+even in my brand, I sell a lot of shoe
+
+349
+00:10:01,040 --> 00:10:04,240
+bags. Shoe bags is my entry-level
+
+350
+00:10:02,800 --> 00:10:07,440
+product. The majority of people start
+
+351
+00:10:04,240 --> 00:10:09,519
+with a $40 to $70 purchase of one to two
+
+352
+00:10:07,440 --> 00:10:10,880
+shoe bags. Once I have them in there, my
+
+353
+00:10:09,519 --> 00:10:12,240
+goal is to get them to purchase other
+
+354
+00:10:10,880 --> 00:10:14,160
+things from my brand. There's a
+
+355
+00:10:12,240 --> 00:10:16,160
+retention program designed to get them
+
+356
+00:10:14,160 --> 00:10:17,920
+educated on the other things I offer and
+
+357
+00:10:16,160 --> 00:10:19,360
+get them to participate in higher ticket
+
+358
+00:10:17,920 --> 00:10:20,800
+products and get to like the brand over
+
+359
+00:10:19,360 --> 00:10:22,160
+time. This is the case for the majority
+
+360
+00:10:20,800 --> 00:10:23,839
+of products. Even if you buy a car, if
+
+361
+00:10:22,160 --> 00:10:25,600
+you buy a Toyota, Toyota's job is to get
+
+362
+00:10:23,839 --> 00:10:27,600
+you to buy more Toyotas over time and
+
+363
+00:10:25,600 --> 00:10:29,600
+not switch to Honda or upgrade
+
+364
+00:10:27,600 --> 00:10:30,959
+eventually to like a Mercedes. There's a
+
+365
+00:10:29,600 --> 00:10:32,240
+lot of tactics and things around this,
+
+366
+00:10:30,959 --> 00:10:33,519
+but it's a key principle that's one of
+
+367
+00:10:32,240 --> 00:10:35,279
+the most ignored in marketing, right?
+
+368
+00:10:33,519 --> 00:10:36,720
+Everyone focuses on that first sale on
+
+369
+00:10:35,279 --> 00:10:37,600
+performance marketing or your emails,
+
+370
+00:10:36,720 --> 00:10:39,279
+but then they don't really think about
+
+371
+00:10:37,600 --> 00:10:40,480
+the customers once you have them. And
+
+372
+00:10:39,279 --> 00:10:42,640
+that's where we're going to talk about
+
+373
+00:10:40,480 --> 00:10:44,079
+CX or customer support and the role in
+
+374
+00:10:42,640 --> 00:10:45,839
+there. So, most people don't put
+
+375
+00:10:44,079 --> 00:10:47,920
+customer support under marketing, but I
+
+376
+00:10:45,839 --> 00:10:49,600
+100% do. Their customer experience you
+
+377
+00:10:47,920 --> 00:10:51,040
+get in support of what happens when they
+
+378
+00:10:49,600 --> 00:10:52,560
+have a problem or how you engage with
+
+379
+00:10:51,040 --> 00:10:53,920
+people is a big part of the word of
+
+380
+00:10:52,560 --> 00:10:55,360
+mouth they spread to their friends and
+
+381
+00:10:53,920 --> 00:10:57,120
+whether they're likely to return to your
+
+382
+00:10:55,360 --> 00:10:58,399
+brand even if you had a bad experience.
+
+383
+00:10:57,120 --> 00:11:00,240
+I feel like marketing and customer
+
+384
+00:10:58,399 --> 00:11:01,680
+service should be handinand. Customer
+
+385
+00:11:00,240 --> 00:11:03,120
+service should be letting marketing know
+
+386
+00:11:01,680 --> 00:11:04,480
+exactly what questions they're dealing
+
+387
+00:11:03,120 --> 00:11:06,640
+with so we can try and solve that
+
+388
+00:11:04,480 --> 00:11:07,600
+upfront with content and messaging. They
+
+389
+00:11:06,640 --> 00:11:09,200
+should be letting them know what
+
+390
+00:11:07,600 --> 00:11:11,120
+advocates and positive things they have
+
+391
+00:11:09,200 --> 00:11:12,480
+you can begin to put as testimonials.
+
+392
+00:11:11,120 --> 00:11:13,920
+And marketing should be looking to
+
+393
+00:11:12,480 --> 00:11:15,440
+customer support and to customer
+
+394
+00:11:13,920 --> 00:11:18,000
+connections for new people to make
+
+395
+00:11:15,440 --> 00:11:19,200
+content and for ideas to put inside all
+
+396
+00:11:18,000 --> 00:11:20,800
+the things that they are producing from
+
+397
+00:11:19,200 --> 00:11:22,160
+a content perspective. And one thing I
+
+398
+00:11:20,800 --> 00:11:23,360
+want to call out here is as many of you
+
+399
+00:11:22,160 --> 00:11:25,279
+know I worked for a while with a women's
+
+400
+00:11:23,360 --> 00:11:26,320
+wear brand I still work with. And one
+
+401
+00:11:25,279 --> 00:11:27,760
+thing that was big for us is when we
+
+402
+00:11:26,320 --> 00:11:29,040
+started googling customers, right? It's
+
+403
+00:11:27,760 --> 00:11:30,000
+part of the retention strategy. When we
+
+404
+00:11:29,040 --> 00:11:30,880
+would just look at everyone that comes
+
+405
+00:11:30,000 --> 00:11:32,240
+through, we're just going to look up who
+
+406
+00:11:30,880 --> 00:11:34,000
+you are. And we began to notice some
+
+407
+00:11:32,240 --> 00:11:35,600
+patterns inside our customer that helped
+
+408
+00:11:34,000 --> 00:11:37,519
+engage with retention. A lot of people
+
+409
+00:11:35,600 --> 00:11:39,680
+were buying and using our clothes to
+
+410
+00:11:37,519 --> 00:11:41,040
+attend festivals and you could go online
+
+411
+00:11:39,680 --> 00:11:42,240
+and see them wearing the clothes and
+
+412
+00:11:41,040 --> 00:11:43,519
+tacking them in festivals and we
+
+413
+00:11:42,240 --> 00:11:45,200
+realized we should incentivize that
+
+414
+00:11:43,519 --> 00:11:46,640
+build collections around that and also
+
+415
+00:11:45,200 --> 00:11:48,240
+we realized that a lot of our customers
+
+416
+00:11:46,640 --> 00:11:49,440
+were influencers like way more than we
+
+417
+00:11:48,240 --> 00:11:50,880
+thought and so then there's a whole
+
+418
+00:11:49,440 --> 00:11:52,560
+program around that and how do you seed
+
+419
+00:11:50,880 --> 00:11:54,560
+them maybe we send people stuff and this
+
+420
+00:11:52,560 --> 00:11:57,120
+idea of retention can sometimes be very
+
+421
+00:11:54,560 --> 00:11:58,560
+manual as well. So now let's pivot to
+
+422
+00:11:57,120 --> 00:11:59,760
+some more technical elements of
+
+423
+00:11:58,560 --> 00:12:01,279
+marketing. All right today I'm going to
+
+424
+00:11:59,760 --> 00:12:04,079
+walk a bit through workflows of using
+
+425
+00:12:01,279 --> 00:12:05,920
+art list to help with creative scale. So
+
+426
+00:12:04,079 --> 00:12:07,839
+first what is creative scale? So there's
+
+427
+00:12:05,920 --> 00:12:09,839
+now this desire by brands content
+
+428
+00:12:07,839 --> 00:12:11,040
+creators to make more content in
+
+429
+00:12:09,839 --> 00:12:12,720
+particular content for different
+
+430
+00:12:11,040 --> 00:12:14,560
+languages, different regions, different
+
+431
+00:12:12,720 --> 00:12:16,560
+social media accounts and then lots of
+
+432
+00:12:14,560 --> 00:12:18,320
+variance for ads. If you're doing any
+
+433
+00:12:16,560 --> 00:12:19,600
+work inside meta ads in particular this
+
+434
+00:12:18,320 --> 00:12:21,600
+year, you know that there is just a
+
+435
+00:12:19,600 --> 00:12:23,360
+burning desire for more creative at all
+
+436
+00:12:21,600 --> 00:12:25,440
+times. So in art list, which is a
+
+437
+00:12:23,360 --> 00:12:28,240
+platform I use for music, footage, and
+
+438
+00:12:25,440 --> 00:12:30,079
+SFX for my content, my brand content,
+
+439
+00:12:28,240 --> 00:12:31,279
+they have a couple key tools for this I
+
+440
+00:12:30,079 --> 00:12:32,720
+want to talk through. So, first there is
+
+441
+00:12:31,279 --> 00:12:34,800
+an extension where you can basically use
+
+442
+00:12:32,720 --> 00:12:36,880
+artlist within Premiere Pro. So, if your
+
+443
+00:12:34,800 --> 00:12:38,320
+team is using LUTs to achieve a specific
+
+444
+00:12:36,880 --> 00:12:39,680
+look and you want everyone to have the
+
+445
+00:12:38,320 --> 00:12:41,600
+same thing, you're able to pull those
+
+446
+00:12:39,680 --> 00:12:43,279
+all up in app. I want to talk about this
+
+447
+00:12:41,600 --> 00:12:44,639
+voiceover tool cuz this is useful for
+
+448
+00:12:43,279 --> 00:12:46,079
+brands that are trying to go and
+
+449
+00:12:44,639 --> 00:12:47,120
+actually have varants appeal to
+
+450
+00:12:46,079 --> 00:12:48,880
+different people. So, for instance, if
+
+451
+00:12:47,120 --> 00:12:50,399
+you filmed a POV video, you can test a
+
+452
+00:12:48,880 --> 00:12:52,079
+male voiceover versus a female
+
+453
+00:12:50,399 --> 00:12:54,000
+voiceover. You're going to run an ad in
+
+454
+00:12:52,079 --> 00:12:56,160
+Australia or in England, then you can
+
+455
+00:12:54,000 --> 00:12:57,680
+actually go set the tone of the ad
+
+456
+00:12:56,160 --> 00:12:59,839
+you're running and generate a variant
+
+457
+00:12:57,680 --> 00:13:01,360
+from it. It allows you to get content
+
+458
+00:12:59,839 --> 00:13:03,360
+that's going to move across, especially
+
+459
+00:13:01,360 --> 00:13:04,800
+regions, but also just testing for
+
+460
+00:13:03,360 --> 00:13:06,560
+creative ads pretty well. You can
+
+461
+00:13:04,800 --> 00:13:08,240
+control the speed of the voice over, the
+
+462
+00:13:06,560 --> 00:13:09,600
+inflection of the voiceover, and what
+
+463
+00:13:08,240 --> 00:13:11,760
+you create will automatically be
+
+464
+00:13:09,600 --> 00:13:13,120
+available inside of your workflow like
+
+465
+00:13:11,760 --> 00:13:14,639
+Premiere Pro. And the last thing I'll
+
+466
+00:13:13,120 --> 00:13:16,399
+hit there is these artboards that they
+
+467
+00:13:14,639 --> 00:13:17,519
+have. So basically, if you're kind if
+
+468
+00:13:16,399 --> 00:13:19,200
+your team is trying to work from one
+
+469
+00:13:17,519 --> 00:13:20,880
+place and organize your music, organize
+
+470
+00:13:19,200 --> 00:13:22,480
+your SFX, use the same things in
+
+471
+00:13:20,880 --> 00:13:23,760
+different videos, organize lots, you can
+
+472
+00:13:22,480 --> 00:13:25,440
+create an artboard here where you all
+
+473
+00:13:23,760 --> 00:13:26,720
+have a shared workflow. And what's nice
+
+474
+00:13:25,440 --> 00:13:28,800
+is also give you tailored content
+
+475
+00:13:26,720 --> 00:13:31,360
+suggestions. And so basically I'm
+
+476
+00:13:28,800 --> 00:13:33,120
+working on a project for a restaurant.
+
+477
+00:13:31,360 --> 00:13:34,880
+It's going to then give me sound
+
+478
+00:13:33,120 --> 00:13:36,720
+effects, footage, etc. that's relevant
+
+479
+00:13:34,880 --> 00:13:38,320
+to that kind of generated by them to
+
+480
+00:13:36,720 --> 00:13:39,519
+kick it off. And I can add any of that
+
+481
+00:13:38,320 --> 00:13:41,120
+to the artboard. And you can see
+
+482
+00:13:39,519 --> 00:13:43,040
+immediately there's like ambiance
+
+483
+00:13:41,120 --> 00:13:44,480
+footage for restaurants, cutting and
+
+484
+00:13:43,040 --> 00:13:46,000
+sizzling sounds. Like they actually have
+
+485
+00:13:44,480 --> 00:13:47,600
+useful content that I can just add to
+
+486
+00:13:46,000 --> 00:13:49,040
+the artboard right away. Anyway, thank
+
+487
+00:13:47,600 --> 00:13:50,560
+you so much for ArtLos for sponsoring
+
+488
+00:13:49,040 --> 00:13:52,000
+this video. Is an excellent tool. Both
+
+489
+00:13:50,560 --> 00:13:54,079
+of you are a creator or if you are a
+
+490
+00:13:52,000 --> 00:13:55,839
+brand looking to work on creative scale.
+
+491
+00:13:54,079 --> 00:13:57,040
+You can learn more at the link in my
+
+492
+00:13:55,839 --> 00:13:59,600
+description. We're going to talk about
+
+493
+00:13:57,040 --> 00:14:00,880
+SEO or search engine optimization. I'll
+
+494
+00:13:59,600 --> 00:14:02,320
+shout out some software that will help
+
+495
+00:14:00,880 --> 00:14:04,480
+you for this. So, search engine
+
+496
+00:14:02,320 --> 00:14:06,480
+optimization is are the pages on your
+
+497
+00:14:04,480 --> 00:14:08,320
+website getting traffic organically from
+
+498
+00:14:06,480 --> 00:14:10,720
+people searching on Google or god forbid
+
+499
+00:14:08,320 --> 00:14:12,480
+Bing and finding your website. And so,
+
+500
+00:14:10,720 --> 00:14:14,079
+this is a major component of a lot of
+
+501
+00:14:12,480 --> 00:14:15,440
+brands and is a complicated place right
+
+502
+00:14:14,079 --> 00:14:17,680
+now. As more and more people use things
+
+503
+00:14:15,440 --> 00:14:19,680
+like Perplexity or use AI to search for
+
+504
+00:14:17,680 --> 00:14:21,440
+their questions, the the pool of the
+
+505
+00:14:19,680 --> 00:14:23,040
+results that you get from Google is kind
+
+506
+00:14:21,440 --> 00:14:24,079
+of shrinking. But, it's certainly not
+
+507
+00:14:23,040 --> 00:14:25,680
+dead and it's certainly still an
+
+508
+00:14:24,079 --> 00:14:26,720
+important part of marketing. And so what
+
+509
+00:14:25,680 --> 00:14:28,079
+I would encourage people to do if you
+
+510
+00:14:26,720 --> 00:14:29,839
+want to learn this toolkit because it's
+
+511
+00:14:28,079 --> 00:14:33,760
+complicated is there is software.
+
+512
+00:14:29,839 --> 00:14:35,360
+There's HFS ah REF and SEM Rush. Those
+
+513
+00:14:33,760 --> 00:14:36,800
+are two websites and software that will
+
+514
+00:14:35,360 --> 00:14:38,320
+basically analyze your website and tell
+
+515
+00:14:36,800 --> 00:14:39,680
+you what keywords you're already ranking
+
+516
+00:14:38,320 --> 00:14:41,279
+for and where. When it comes to
+
+517
+00:14:39,680 --> 00:14:42,720
+importance of this, being on top is
+
+518
+00:14:41,279 --> 00:14:43,920
+really what matters. First couple
+
+519
+00:14:42,720 --> 00:14:45,040
+results for a term. If someone's
+
+520
+00:14:43,920 --> 00:14:46,959
+searching leather belts, you don't want
+
+521
+00:14:45,040 --> 00:14:48,399
+to show up on p number 12. You're either
+
+522
+00:14:46,959 --> 00:14:49,760
+basically number one to three or it
+
+523
+00:14:48,399 --> 00:14:51,199
+doesn't really matter. You also want to
+
+524
+00:14:49,760 --> 00:14:52,480
+consider things like your brand name. I
+
+525
+00:14:51,199 --> 00:14:53,760
+know plenty of brands that have a very
+
+526
+00:14:52,480 --> 00:14:55,279
+similar brand name with someone else in
+
+527
+00:14:53,760 --> 00:14:57,600
+a big category. Look at road clothing
+
+528
+00:14:55,279 --> 00:14:58,720
+and road skin and who that's SEO is
+
+529
+00:14:57,600 --> 00:14:59,680
+always a battle of someone clicking on
+
+530
+00:14:58,720 --> 00:15:01,199
+the wrong website and then you're
+
+531
+00:14:59,680 --> 00:15:02,880
+running an ad to get your own brand name
+
+532
+00:15:01,199 --> 00:15:04,240
+and then you're that's a money suck you
+
+533
+00:15:02,880 --> 00:15:05,839
+have every day. So there's a lot to be
+
+534
+00:15:04,240 --> 00:15:07,120
+thought around like you're naming an SEO
+
+535
+00:15:05,839 --> 00:15:08,800
+as well. You'll begin to look at all
+
+536
+00:15:07,120 --> 00:15:10,079
+these opportunities and what you'll
+
+537
+00:15:08,800 --> 00:15:11,680
+begin seeing is there's usually two
+
+538
+00:15:10,079 --> 00:15:13,440
+opportunities for brands. One is on
+
+539
+00:15:11,680 --> 00:15:15,279
+singular terms. So for instance, if you
+
+540
+00:15:13,440 --> 00:15:17,760
+sell a certain type of sunglass, you
+
+541
+00:15:15,279 --> 00:15:19,519
+have a like, you know, Japanese acetate
+
+542
+00:15:17,760 --> 00:15:20,720
+sunglass, whatever that is, and people
+
+543
+00:15:19,519 --> 00:15:22,399
+look for that thing. people search for
+
+544
+00:15:20,720 --> 00:15:23,920
+it and you'll see volume on those tools
+
+545
+00:15:22,399 --> 00:15:24,959
+I mentioned before and you say, "Oh,
+
+546
+00:15:23,920 --> 00:15:26,000
+wow. There's actually not a lot of
+
+547
+00:15:24,959 --> 00:15:27,279
+competition for this because the other
+
+548
+00:15:26,000 --> 00:15:29,199
+thing you'll see in that software is a
+
+549
+00:15:27,279 --> 00:15:30,480
+is a difficulty ranking of how hard it
+
+550
+00:15:29,199 --> 00:15:31,760
+is to rank on the first page for that."
+
+551
+00:15:30,480 --> 00:15:32,959
+There'll be a number between zero and
+
+552
+00:15:31,760 --> 00:15:34,240
+100 and they have their proprietary
+
+553
+00:15:32,959 --> 00:15:35,440
+systems and it'll tell you if it's good
+
+554
+00:15:34,240 --> 00:15:36,959
+or bad. And if as long as it's like
+
+555
+00:15:35,440 --> 00:15:38,880
+moderately easy, you'll say, "Oh, this
+
+556
+00:15:36,959 --> 00:15:40,480
+is a opportunity for me to own that
+
+557
+00:15:38,880 --> 00:15:42,320
+search." So then what do you do from
+
+558
+00:15:40,480 --> 00:15:43,600
+there? So you're you mean to make good
+
+559
+00:15:42,320 --> 00:15:45,519
+content about it. So you' make a
+
+560
+00:15:43,600 --> 00:15:46,560
+dedicated page or a collection page of
+
+561
+00:15:45,519 --> 00:15:48,480
+all the products you have that are
+
+562
+00:15:46,560 --> 00:15:50,000
+Japanese acetate sunglasses. You put a
+
+563
+00:15:48,480 --> 00:15:52,079
+write up about Japanese acetate
+
+564
+00:15:50,000 --> 00:15:53,600
+sunglasses on that page. Why your brand
+
+565
+00:15:52,079 --> 00:15:55,040
+does it, what makes it special. Doesn't
+
+566
+00:15:53,600 --> 00:15:56,800
+hurt to embed a video about that on
+
+567
+00:15:55,040 --> 00:15:57,920
+there as well. And have your collection.
+
+568
+00:15:56,800 --> 00:16:00,160
+Now you have a page where you are
+
+569
+00:15:57,920 --> 00:16:01,279
+focused on making it SEO optimized. You
+
+570
+00:16:00,160 --> 00:16:02,320
+are putting your description in the
+
+571
+00:16:01,279 --> 00:16:03,519
+header of the page. You're going to put
+
+572
+00:16:02,320 --> 00:16:05,120
+that term in it. You're going to give it
+
+573
+00:16:03,519 --> 00:16:06,480
+some value to people that do it. And
+
+574
+00:16:05,120 --> 00:16:07,839
+then you're going to get traffic to it
+
+575
+00:16:06,480 --> 00:16:09,759
+and link to it. And this is important
+
+576
+00:16:07,839 --> 00:16:11,839
+because the way Google works for SEO is
+
+577
+00:16:09,759 --> 00:16:12,800
+it weights how people what people do
+
+578
+00:16:11,839 --> 00:16:14,079
+when they're on the page and if they
+
+579
+00:16:12,800 --> 00:16:15,680
+enjoy it and get a good experience from
+
+580
+00:16:14,079 --> 00:16:17,440
+it and stay on it, whether people click
+
+581
+00:16:15,680 --> 00:16:19,040
+the link when it shows up in search to
+
+582
+00:16:17,440 --> 00:16:20,320
+people and then also how much is
+
+583
+00:16:19,040 --> 00:16:22,240
+directed to it from the rest of the
+
+584
+00:16:20,320 --> 00:16:24,079
+internet. So the more websites and
+
+585
+00:16:22,240 --> 00:16:25,519
+social media etc that actually links to
+
+586
+00:16:24,079 --> 00:16:27,680
+that page and references it the better
+
+587
+00:16:25,519 --> 00:16:29,759
+it does. There's a whole science both
+
+588
+00:16:27,680 --> 00:16:31,199
+black hat and white hat to how to do
+
+589
+00:16:29,759 --> 00:16:33,040
+that that I won't dive into in this
+
+590
+00:16:31,199 --> 00:16:34,560
+video but that becomes the the world,
+
+591
+00:16:33,040 --> 00:16:36,959
+right? make an optimized page for
+
+592
+00:16:34,560 --> 00:16:38,480
+whatever it is and then drive your links
+
+593
+00:16:36,959 --> 00:16:40,240
+and traffic to it so it begins to
+
+594
+00:16:38,480 --> 00:16:41,600
+generate inside of Google. And this is a
+
+595
+00:16:40,240 --> 00:16:42,880
+war of attrition. It's a war of time.
+
+596
+00:16:41,600 --> 00:16:44,720
+I'll give an anecdote on that in a
+
+597
+00:16:42,880 --> 00:16:45,920
+second before I move on from SEO. But it
+
+598
+00:16:44,720 --> 00:16:47,279
+can really make or break your business
+
+599
+00:16:45,920 --> 00:16:48,800
+if you actually pay attention to it over
+
+600
+00:16:47,279 --> 00:16:50,959
+the course of years because that traffic
+
+601
+00:16:48,800 --> 00:16:53,199
+eventually becomes just a big free
+
+602
+00:16:50,959 --> 00:16:54,880
+generator that kind of lasts forever. So
+
+603
+00:16:53,199 --> 00:16:56,160
+example there, my friend Matt was
+
+604
+00:16:54,880 --> 00:16:57,360
+launching a brand called Chlorophyll
+
+605
+00:16:56,160 --> 00:16:59,040
+Water. Many of you may have heard me
+
+606
+00:16:57,360 --> 00:17:00,560
+talk about this before. And I was
+
+607
+00:16:59,040 --> 00:17:01,519
+encouraging him. He had asked for help
+
+608
+00:17:00,560 --> 00:17:02,959
+when he did that to help kind of
+
+609
+00:17:01,519 --> 00:17:04,480
+optimize his website. I had the agency
+
+610
+00:17:02,959 --> 00:17:06,000
+at the time and to work on some of his
+
+611
+00:17:04,480 --> 00:17:07,199
+launch strategy and I was like, "Hey,
+
+612
+00:17:06,000 --> 00:17:09,199
+the word chlorophyll and the word
+
+613
+00:17:07,199 --> 00:17:10,959
+chlorophyll water are attainable. You
+
+614
+00:17:09,199 --> 00:17:12,720
+can actually get to the results like
+
+615
+00:17:10,959 --> 00:17:14,640
+number one or two on this in a couple
+
+616
+00:17:12,720 --> 00:17:16,079
+months. No one's competing in it. It's
+
+617
+00:17:14,640 --> 00:17:18,000
+pretty easy on Google, but it's going to
+
+618
+00:17:16,079 --> 00:17:19,360
+take months like where it might take us
+
+619
+00:17:18,000 --> 00:17:20,559
+four to six and he wants to launch right
+
+620
+00:17:19,360 --> 00:17:22,959
+now." And I'm like, "Just let us do this
+
+621
+00:17:20,559 --> 00:17:24,480
+SEO campaign. invest in some money
+
+622
+00:17:22,959 --> 00:17:26,000
+building these links, building these
+
+623
+00:17:24,480 --> 00:17:27,439
+pages, get you on there. So when you
+
+624
+00:17:26,000 --> 00:17:28,960
+have this launch, you take advantage of
+
+625
+00:17:27,439 --> 00:17:30,240
+all the traffic versus if you generate
+
+626
+00:17:28,960 --> 00:17:31,440
+all this attention at launch and you
+
+627
+00:17:30,240 --> 00:17:32,960
+don't show up when someone searches for
+
+628
+00:17:31,440 --> 00:17:34,720
+chlorophyll water, then you're not going
+
+629
+00:17:32,960 --> 00:17:36,160
+to win. And so this is exactly what
+
+630
+00:17:34,720 --> 00:17:37,360
+happened. We built up this SEO. We got
+
+631
+00:17:36,160 --> 00:17:38,720
+him to I think he was like number one on
+
+632
+00:17:37,360 --> 00:17:40,400
+chlorophyll water, number two on just
+
+633
+00:17:38,720 --> 00:17:42,480
+like chlorophyll. He did a massive
+
+634
+00:17:40,400 --> 00:17:44,080
+launch. He was a a master of seating
+
+635
+00:17:42,480 --> 00:17:45,200
+before seating was even a thing. He had
+
+636
+00:17:44,080 --> 00:17:46,640
+something like a billion impressions on
+
+637
+00:17:45,200 --> 00:17:48,080
+Tik Tok from celebrity and influencer
+
+638
+00:17:46,640 --> 00:17:50,240
+seating of his water and then was able
+
+639
+00:17:48,080 --> 00:17:51,840
+to generate all that demand, get all
+
+640
+00:17:50,240 --> 00:17:53,760
+those people to his website because he
+
+641
+00:17:51,840 --> 00:17:54,880
+had locked in SEO prior. And this is one
+
+642
+00:17:53,760 --> 00:17:57,120
+of those things why I encourage
+
+643
+00:17:54,880 --> 00:17:58,720
+marketers to learn things like this. So,
+
+644
+00:17:57,120 --> 00:18:00,320
+moving on, we are going to talk about
+
+645
+00:17:58,720 --> 00:18:02,400
+retail support. Eventually, your brand
+
+646
+00:18:00,320 --> 00:18:03,919
+is going to get into stores. And this is
+
+647
+00:18:02,400 --> 00:18:06,000
+a key one to think about because stores
+
+648
+00:18:03,919 --> 00:18:07,840
+are going to ask, "What's in it for me?
+
+649
+00:18:06,000 --> 00:18:09,679
+Why should I put your product in there
+
+650
+00:18:07,840 --> 00:18:11,039
+versus any other product?" And then once
+
+651
+00:18:09,679 --> 00:18:12,160
+you're actually in the stores, you're
+
+652
+00:18:11,039 --> 00:18:13,440
+going to have to perform. people are
+
+653
+00:18:12,160 --> 00:18:14,799
+going to need to buy it and you're going
+
+654
+00:18:13,440 --> 00:18:16,559
+to have to support that. It doesn't just
+
+655
+00:18:14,799 --> 00:18:18,080
+automatically happen. So what do we do
+
+656
+00:18:16,559 --> 00:18:20,240
+there? So the first is when you actually
+
+657
+00:18:18,080 --> 00:18:22,559
+go into retail bringing some data and
+
+658
+00:18:20,240 --> 00:18:23,919
+info and generating some support first.
+
+659
+00:18:22,559 --> 00:18:24,799
+So for instance in that previous
+
+660
+00:18:23,919 --> 00:18:26,400
+scenario where we talked about
+
+661
+00:18:24,799 --> 00:18:28,160
+chlorophyll water if he was able to say
+
+662
+00:18:26,400 --> 00:18:30,000
+hey look I own all this SEO traffic.
+
+663
+00:18:28,160 --> 00:18:31,919
+People don't really buy water online.
+
+664
+00:18:30,000 --> 00:18:33,600
+I'm getting all this traffic in Wyoming
+
+665
+00:18:31,919 --> 00:18:34,960
+and here's a big retailer in Wyoming.
+
+666
+00:18:33,600 --> 00:18:36,400
+Look at how much traffic we have. These
+
+667
+00:18:34,960 --> 00:18:38,000
+people don't have any place to buy. I'd
+
+668
+00:18:36,400 --> 00:18:40,000
+love for you to direct them to buy from
+
+669
+00:18:38,000 --> 00:18:41,919
+you. That is a compelling conversation
+
+670
+00:18:40,000 --> 00:18:43,280
+to have with a retailer. Same thing if
+
+671
+00:18:41,919 --> 00:18:44,400
+you have a big marketing program. So for
+
+672
+00:18:43,280 --> 00:18:45,760
+instance, when I was at Jel Blaster, we
+
+673
+00:18:44,400 --> 00:18:47,120
+had a ton of influencer marketing. And
+
+674
+00:18:45,760 --> 00:18:48,559
+so we' be able to say, "Hey, we actually
+
+675
+00:18:47,120 --> 00:18:50,000
+can dedicate some influencers to
+
+676
+00:18:48,559 --> 00:18:51,039
+specifically support your retail chain
+
+677
+00:18:50,000 --> 00:18:52,640
+where they're actually make content
+
+678
+00:18:51,039 --> 00:18:54,240
+about it." And you can begin to put a
+
+679
+00:18:52,640 --> 00:18:55,440
+specific campaign to attach to the
+
+680
+00:18:54,240 --> 00:18:56,320
+retailer. And then for other people,
+
+681
+00:18:55,440 --> 00:18:57,679
+it's going to be, hey, you actually need
+
+682
+00:18:56,320 --> 00:18:58,640
+a position on your shelf. Right now you
+
+683
+00:18:57,679 --> 00:19:00,000
+only have expensive items. We're going
+
+684
+00:18:58,640 --> 00:19:01,440
+to offer you a cheaper alternative your
+
+685
+00:19:00,000 --> 00:19:03,200
+customers want. You can you basically
+
+686
+00:19:01,440 --> 00:19:04,240
+get into retail based on positioning. So
+
+687
+00:19:03,200 --> 00:19:05,520
+there are all kind of things to think
+
+688
+00:19:04,240 --> 00:19:07,120
+about. But then once you're actually in
+
+689
+00:19:05,520 --> 00:19:09,200
+retail, what do you do? The first thing
+
+690
+00:19:07,120 --> 00:19:10,799
+is merchandising. So merchandising is
+
+691
+00:19:09,200 --> 00:19:12,240
+how your product is presented there. You
+
+692
+00:19:10,799 --> 00:19:14,240
+will notice things like products that
+
+693
+00:19:12,240 --> 00:19:15,679
+have little tearback boxes like protein
+
+694
+00:19:14,240 --> 00:19:16,799
+bars you can stick on a shelf that have
+
+695
+00:19:15,679 --> 00:19:18,320
+some branding on them. That's like
+
+696
+00:19:16,799 --> 00:19:19,520
+entry- level merchandising. You'll see
+
+697
+00:19:18,320 --> 00:19:22,320
+little tags are called aisle
+
+698
+00:19:19,520 --> 00:19:24,320
+interruptors. When you're walking down a
+
+699
+00:19:22,320 --> 00:19:25,600
+retail aisle that someone has placed
+
+700
+00:19:24,320 --> 00:19:27,120
+there that promote a product that call
+
+701
+00:19:25,600 --> 00:19:29,039
+out that you should go look at it. These
+
+702
+00:19:27,120 --> 00:19:30,480
+things work. Same thing with displays
+
+703
+00:19:29,039 --> 00:19:32,559
+you may have. You go into an Ulta or
+
+704
+00:19:30,480 --> 00:19:34,080
+Sephora and you look at how crazy the
+
+705
+00:19:32,559 --> 00:19:35,760
+display is for a different brand. they
+
+706
+00:19:34,080 --> 00:19:37,679
+are getting people to consider a brand
+
+707
+00:19:35,760 --> 00:19:39,039
+because retail psychology is basically
+
+708
+00:19:37,679 --> 00:19:40,320
+if someone actually takes the time to
+
+709
+00:19:39,039 --> 00:19:41,919
+look and consider and look at your
+
+710
+00:19:40,320 --> 00:19:43,360
+product you have a high chance that they
+
+711
+00:19:41,919 --> 00:19:44,799
+are going to buy it is about getting
+
+712
+00:19:43,360 --> 00:19:46,400
+that first look and if you get that
+
+713
+00:19:44,799 --> 00:19:48,000
+first look it is your job of your
+
+714
+00:19:46,400 --> 00:19:49,520
+product to lose that you have the
+
+715
+00:19:48,000 --> 00:19:50,720
+opportunity to lose it most of the time
+
+716
+00:19:49,520 --> 00:19:52,000
+you're going to be able to win it so you
+
+717
+00:19:50,720 --> 00:19:53,520
+need to be thinking about not only how
+
+718
+00:19:52,000 --> 00:19:54,799
+do you support traffic and interest at
+
+719
+00:19:53,520 --> 00:19:56,080
+the store level but then once they're in
+
+720
+00:19:54,799 --> 00:19:57,919
+the store how do you make sure you are
+
+721
+00:19:56,080 --> 00:19:59,200
+called out as an option and then you're
+
+722
+00:19:57,919 --> 00:20:01,039
+going to get to the last part which is
+
+723
+00:19:59,200 --> 00:20:02,799
+retail training some retails have
+
+724
+00:20:01,039 --> 00:20:04,799
+trained sales floors some don't if they
+
+725
+00:20:02,799 --> 00:20:06,720
+do like the outdoor stores industry, REI
+
+726
+00:20:04,799 --> 00:20:08,080
+and Dick Sporting Goods and stuff. Train
+
+727
+00:20:06,720 --> 00:20:09,120
+those people as much as they can. The
+
+728
+00:20:08,080 --> 00:20:10,640
+more training they have, the more
+
+729
+00:20:09,120 --> 00:20:11,919
+incentive those employees have, the
+
+730
+00:20:10,640 --> 00:20:13,919
+better they are going to be able to sell
+
+731
+00:20:11,919 --> 00:20:15,440
+your products. And a big part of what I
+
+732
+00:20:13,919 --> 00:20:17,679
+did when I worked as a marketer in
+
+733
+00:20:15,440 --> 00:20:19,840
+retail support was that training. Online
+
+734
+00:20:17,679 --> 00:20:21,600
+programs, inerson programs, field teams
+
+735
+00:20:19,840 --> 00:20:23,039
+to basically make sure every person who
+
+736
+00:20:21,600 --> 00:20:24,720
+was selling that product had it in their
+
+737
+00:20:23,039 --> 00:20:26,799
+hands, had experienced it, would
+
+738
+00:20:24,720 --> 00:20:28,559
+recommend it, and as much education on
+
+739
+00:20:26,799 --> 00:20:30,320
+all the key questions. Now, we're going
+
+740
+00:20:28,559 --> 00:20:32,400
+to get to the fun part, content,
+
+741
+00:20:30,320 --> 00:20:33,919
+influencers, and then we'll end on
+
+742
+00:20:32,400 --> 00:20:35,760
+events and partnerships, and you'll have
+
+743
+00:20:33,919 --> 00:20:37,760
+the complete picture of what modern
+
+744
+00:20:35,760 --> 00:20:40,080
+marketing looks like. So, content,
+
+745
+00:20:37,760 --> 00:20:41,520
+everything now is becoming content. What
+
+746
+00:20:40,080 --> 00:20:42,640
+do I mean by that? I mean that used to
+
+747
+00:20:41,520 --> 00:20:44,080
+think of content as just what you put on
+
+748
+00:20:42,640 --> 00:20:45,840
+your social media page. But all the ads
+
+749
+00:20:44,080 --> 00:20:47,840
+you run on meta, that's content. Ads you
+
+750
+00:20:45,840 --> 00:20:49,200
+run on your out of home or on TV, that's
+
+751
+00:20:47,840 --> 00:20:50,240
+content. The training that you're going
+
+752
+00:20:49,200 --> 00:20:52,159
+to end up doing for those retail
+
+753
+00:20:50,240 --> 00:20:53,679
+employees I mentioned is content. Events
+
+754
+00:20:52,159 --> 00:20:55,039
+and partnerships you do, even if someone
+
+755
+00:20:53,679 --> 00:20:56,240
+shows up to a physical thing, guess
+
+756
+00:20:55,039 --> 00:20:57,440
+what? They're making content. They're
+
+757
+00:20:56,240 --> 00:20:58,640
+making videos about it. just sending
+
+758
+00:20:57,440 --> 00:21:00,640
+pictures to their friends. Same thing
+
+759
+00:20:58,640 --> 00:21:03,280
+with your packaging experience. Almost
+
+760
+00:21:00,640 --> 00:21:04,559
+all roads lead to content. And so it is
+
+761
+00:21:03,280 --> 00:21:06,159
+a critical thing to be thinking through
+
+762
+00:21:04,559 --> 00:21:08,240
+from your business perspective. And so
+
+763
+00:21:06,159 --> 00:21:11,120
+this goes from actually testing your
+
+764
+00:21:08,240 --> 00:21:12,880
+videos to designed assets, etc. And so
+
+765
+00:21:11,120 --> 00:21:14,720
+what I'll say here, I have lots of other
+
+766
+00:21:12,880 --> 00:21:16,240
+videos around content as a whole, is
+
+767
+00:21:14,720 --> 00:21:17,760
+your job as a marketer to be as in-depth
+
+768
+00:21:16,240 --> 00:21:19,360
+on this as possible. The most useful
+
+769
+00:21:17,760 --> 00:21:20,960
+marketers understand social media
+
+770
+00:21:19,360 --> 00:21:22,799
+networks. They know to tag related
+
+771
+00:21:20,960 --> 00:21:24,480
+videos for shorts on YouTube for a
+
+772
+00:21:22,799 --> 00:21:26,240
+longer length. They know how to label a
+
+773
+00:21:24,480 --> 00:21:27,600
+tutorial as something that's searchable
+
+774
+00:21:26,240 --> 00:21:29,200
+when you actually put it on YouTube.
+
+775
+00:21:27,600 --> 00:21:30,159
+They understand that Tik Tok brand
+
+776
+00:21:29,200 --> 00:21:31,440
+accounts are not going to perform as
+
+777
+00:21:30,159 --> 00:21:32,880
+well as creator accounts. They should
+
+778
+00:21:31,440 --> 00:21:34,159
+probably have a multi-account strategy.
+
+779
+00:21:32,880 --> 00:21:35,440
+They're gonna know how to use trial
+
+780
+00:21:34,159 --> 00:21:37,280
+reel. It's your job as a marketing
+
+781
+00:21:35,440 --> 00:21:39,120
+leader not just to rely on your social
+
+782
+00:21:37,280 --> 00:21:41,280
+media person, but to have at least one
+
+783
+00:21:39,120 --> 00:21:42,960
+person, including you, in the trenches
+
+784
+00:21:41,280 --> 00:21:45,280
+knowing how this works and thinking like
+
+785
+00:21:42,960 --> 00:21:46,960
+a creator as to what should succeed.
+
+786
+00:21:45,280 --> 00:21:48,640
+Then shifting over into influencer
+
+787
+00:21:46,960 --> 00:21:50,159
+marketing, which is nice and tangential.
+
+788
+00:21:48,640 --> 00:21:51,600
+So there are two key types of influencer
+
+789
+00:21:50,159 --> 00:21:53,360
+marketing to understand. The first is
+
+790
+00:21:51,600 --> 00:21:54,960
+seeding and the second is paid
+
+791
+00:21:53,360 --> 00:21:56,480
+influencer marketing. So seeding is
+
+792
+00:21:54,960 --> 00:21:58,080
+sending out your product for free to
+
+793
+00:21:56,480 --> 00:21:59,679
+people to post. This is still a
+
+794
+00:21:58,080 --> 00:22:01,919
+fantastic technique in this year of our
+
+795
+00:21:59,679 --> 00:22:03,520
+lord 2025. I would be sending out as
+
+796
+00:22:01,919 --> 00:22:04,559
+much stuff as you can afford to
+
+797
+00:22:03,520 --> 00:22:06,159
+especially if you have a cheaper
+
+798
+00:22:04,559 --> 00:22:08,000
+product. And this involves building a
+
+799
+00:22:06,159 --> 00:22:09,520
+system to find influencers that are
+
+800
+00:22:08,000 --> 00:22:11,919
+useful or people that are up and coming.
+
+801
+00:22:09,520 --> 00:22:13,919
+Contact them friendly actually send them
+
+802
+00:22:11,919 --> 00:22:15,440
+things. check and monitor that someone
+
+803
+00:22:13,919 --> 00:22:17,200
+actually posted this or not and begin to
+
+804
+00:22:15,440 --> 00:22:18,799
+build a system where you graduate some
+
+805
+00:22:17,200 --> 00:22:20,000
+of those people into doing paid work and
+
+806
+00:22:18,799 --> 00:22:21,600
+where you kind of monitor what gets
+
+807
+00:22:20,000 --> 00:22:22,880
+posted or not and make sure your product
+
+808
+00:22:21,600 --> 00:22:24,640
+is getting out there in the world. That
+
+809
+00:22:22,880 --> 00:22:26,240
+is kind of initiative one. Initiative
+
+810
+00:22:24,640 --> 00:22:27,840
+two is finding people you can pay to
+
+811
+00:22:26,240 --> 00:22:29,760
+promote your product that generate sales
+
+812
+00:22:27,840 --> 00:22:31,520
+and interest that is worth their amount
+
+813
+00:22:29,760 --> 00:22:32,799
+of dollars. And the key thing I want to
+
+814
+00:22:31,520 --> 00:22:34,640
+iterate there is I really feel like
+
+815
+00:22:32,799 --> 00:22:36,080
+long-term partnerships, doing multiple
+
+816
+00:22:34,640 --> 00:22:38,080
+posts with influencers, building out
+
+817
+00:22:36,080 --> 00:22:39,760
+longer things versus one post for x
+
+818
+00:22:38,080 --> 00:22:41,520
+amount of dollars is the way to think
+
+819
+00:22:39,760 --> 00:22:42,880
+about a lot of this. Now, what you as a
+
+820
+00:22:41,520 --> 00:22:45,360
+marketer need to have is a way to track
+
+821
+00:22:42,880 --> 00:22:47,840
+this like a CRM system, a way to monitor
+
+822
+00:22:45,360 --> 00:22:49,200
+this, and a way to find people. And
+
+823
+00:22:47,840 --> 00:22:50,880
+identifying those three things is a
+
+824
+00:22:49,200 --> 00:22:52,400
+complicated step and a difference for a
+
+825
+00:22:50,880 --> 00:22:54,400
+lot of businesses between success and
+
+826
+00:22:52,400 --> 00:22:55,679
+not. And the more you outsource that to
+
+827
+00:22:54,400 --> 00:22:57,520
+agencies, which there are plenty of good
+
+828
+00:22:55,679 --> 00:22:58,720
+ones, the more it is costing you, right?
+
+829
+00:22:57,520 --> 00:23:00,080
+There's going to be an upcharge on all
+
+830
+00:22:58,720 --> 00:23:01,200
+that, the harder it is to justify the
+
+831
+00:23:00,080 --> 00:23:02,799
+value. And the closer you have it to the
+
+832
+00:23:01,200 --> 00:23:04,320
+chest, the more useful it is. And as a
+
+833
+00:23:02,799 --> 00:23:05,679
+marketer, there are so many marketers I
+
+834
+00:23:04,320 --> 00:23:07,120
+see hired now because they say, "Hey,
+
+835
+00:23:05,679 --> 00:23:08,559
+you know, I have a 2,000 person seating
+
+836
+00:23:07,120 --> 00:23:09,840
+list. I have the addresses for all of
+
+837
+00:23:08,559 --> 00:23:11,520
+them. I know all of them open the
+
+838
+00:23:09,840 --> 00:23:13,200
+packages and I can do that day one when
+
+839
+00:23:11,520 --> 00:23:15,200
+I come in your company. That is a hard
+
+840
+00:23:13,200 --> 00:23:17,039
+thing to turn down when you are hiring.
+
+841
+00:23:15,200 --> 00:23:18,240
+So worth considering. And you go
+
+842
+00:23:17,039 --> 00:23:19,520
+business to business, collection to
+
+843
+00:23:18,240 --> 00:23:20,880
+collection with that same one too. All
+
+844
+00:23:19,520 --> 00:23:22,000
+right. So last topics. We're going to
+
+845
+00:23:20,880 --> 00:23:23,600
+talk about events. We're going to talk
+
+846
+00:23:22,000 --> 00:23:24,960
+about partnerships. So a few different
+
+847
+00:23:23,600 --> 00:23:26,320
+types of events. There's consumerf
+
+848
+00:23:24,960 --> 00:23:27,440
+facing events where you basically have
+
+849
+00:23:26,320 --> 00:23:29,200
+your consumers come and experience
+
+850
+00:23:27,440 --> 00:23:30,960
+something. There's B2B events where you
+
+851
+00:23:29,200 --> 00:23:32,559
+are putting your product in front of
+
+852
+00:23:30,960 --> 00:23:34,400
+retailers and trying to sell to them.
+
+853
+00:23:32,559 --> 00:23:35,840
+And there's selling events. So let's
+
+854
+00:23:34,400 --> 00:23:37,200
+break it down. So selling events first.
+
+855
+00:23:35,840 --> 00:23:38,880
+I actually really encourage brands to do
+
+856
+00:23:37,200 --> 00:23:40,400
+selling events. So for instance for my
+
+857
+00:23:38,880 --> 00:23:42,000
+valuables brand I went to Complex Con.
+
+858
+00:23:40,400 --> 00:23:43,919
+Complex Con is a selling event. Kids
+
+859
+00:23:42,000 --> 00:23:45,760
+come to buy clothes there. I sold a lot
+
+860
+00:23:43,919 --> 00:23:48,400
+of clothes there. We came about break
+
+861
+00:23:45,760 --> 00:23:49,840
+even on attending that show. That is a
+
+862
+00:23:48,400 --> 00:23:50,960
+very big net positive to generate
+
+863
+00:23:49,840 --> 00:23:52,640
+awareness, generate enough money to
+
+864
+00:23:50,960 --> 00:23:53,679
+justify going there. But also you'll see
+
+865
+00:23:52,640 --> 00:23:55,360
+things like whether it's a farmers
+
+866
+00:23:53,679 --> 00:23:56,960
+market or a car show or whatever it is.
+
+867
+00:23:55,360 --> 00:23:58,400
+There are probably places where your
+
+868
+00:23:56,960 --> 00:23:59,919
+audience gets together that it'd be
+
+869
+00:23:58,400 --> 00:24:01,440
+great to build a repeatable format with
+
+870
+00:23:59,919 --> 00:24:03,360
+which you can generate money at because
+
+871
+00:24:01,440 --> 00:24:04,960
+selling in real life is still an amazing
+
+872
+00:24:03,360 --> 00:24:06,880
+thing if you have a good extroverted
+
+873
+00:24:04,960 --> 00:24:08,559
+person versus purely selling online.
+
+874
+00:24:06,880 --> 00:24:09,679
+Those are consumer shows like that. I
+
+875
+00:24:08,559 --> 00:24:11,440
+would highly consider what that looks
+
+876
+00:24:09,679 --> 00:24:12,720
+like. Then you have B2B shows are more
+
+877
+00:24:11,440 --> 00:24:14,159
+expensive. These are shows like the
+
+878
+00:24:12,720 --> 00:24:15,200
+Magic Convention in Fashion where you
+
+879
+00:24:14,159 --> 00:24:17,360
+can actually go there and have a booth
+
+880
+00:24:15,200 --> 00:24:18,640
+and retail buyers come. Same thing for a
+
+881
+00:24:17,360 --> 00:24:20,240
+lot of these shows like even like EPA in
+
+882
+00:24:18,640 --> 00:24:22,000
+Berlin, consumer electronics buyers come
+
+883
+00:24:20,240 --> 00:24:23,440
+there to buy for Europe. There's all
+
+884
+00:24:22,000 --> 00:24:26,320
+kinds of shows to have like buying,
+
+885
+00:24:23,440 --> 00:24:28,400
+selling. Now Expo West is a CPG show for
+
+886
+00:24:26,320 --> 00:24:30,320
+food and natural organic products that
+
+887
+00:24:28,400 --> 00:24:31,679
+buyers come to to find brands to carry
+
+888
+00:24:30,320 --> 00:24:33,679
+on their shelves. So a couple things
+
+889
+00:24:31,679 --> 00:24:35,039
+worth noting for that is to succeed at
+
+890
+00:24:33,679 --> 00:24:36,240
+shows like that, they cost more money
+
+891
+00:24:35,039 --> 00:24:37,360
+and you have to take it into your own
+
+892
+00:24:36,240 --> 00:24:39,600
+hands. You need to be scheduling
+
+893
+00:24:37,360 --> 00:24:41,679
+meetings with buyers, filling it up,
+
+894
+00:24:39,600 --> 00:24:42,880
+following up, and actively selling at
+
+895
+00:24:41,679 --> 00:24:43,840
+those shows. And for a lot of people,
+
+896
+00:24:42,880 --> 00:24:44,880
+it's a good way to get in front of
+
+897
+00:24:43,840 --> 00:24:46,799
+people, but you need to have your ducks
+
+898
+00:24:44,880 --> 00:24:48,320
+in a row. Understand your distribution,
+
+899
+00:24:46,799 --> 00:24:49,760
+understand where you can send product,
+
+900
+00:24:48,320 --> 00:24:51,039
+know how to get meetings with people, be
+
+901
+00:24:49,760 --> 00:24:52,720
+reaching out on LinkedIn, reaching out
+
+902
+00:24:51,039 --> 00:24:54,960
+on cold email, trying to get people by
+
+903
+00:24:52,720 --> 00:24:56,400
+your booth and attracting it. And have a
+
+904
+00:24:54,960 --> 00:24:58,400
+goal, whether it's for a consumer show
+
+905
+00:24:56,400 --> 00:24:59,840
+or a B2B show of it cost us this much
+
+906
+00:24:58,400 --> 00:25:01,600
+money, we need to write this much in
+
+907
+00:24:59,840 --> 00:25:03,200
+POS, or we need to get this much in
+
+908
+00:25:01,600 --> 00:25:04,559
+direct sales. Because a lot of times
+
+909
+00:25:03,200 --> 00:25:05,760
+people will begin to do these events,
+
+910
+00:25:04,559 --> 00:25:07,679
+they won't have that figured out and
+
+911
+00:25:05,760 --> 00:25:09,840
+they'll start to realize there is not
+
+912
+00:25:07,679 --> 00:25:11,760
+real brand ROI in doing this if you are
+
+913
+00:25:09,840 --> 00:25:12,799
+not trying to get to a number. And that
+
+914
+00:25:11,760 --> 00:25:14,240
+ties to the first thing I mentioned,
+
+915
+00:25:12,799 --> 00:25:16,240
+which is these more consumerf facing
+
+916
+00:25:14,240 --> 00:25:17,679
+events to basically appreciate customers
+
+917
+00:25:16,240 --> 00:25:19,120
+and do interesting things. And in the
+
+918
+00:25:17,679 --> 00:25:20,559
+social media era, if one of those takes
+
+919
+00:25:19,120 --> 00:25:21,919
+off and people make a lot of content,
+
+920
+00:25:20,559 --> 00:25:23,760
+it's kind of more value to these than
+
+921
+00:25:21,919 --> 00:25:25,360
+ever. But this is a slippery slope where
+
+922
+00:25:23,760 --> 00:25:26,480
+if you do do those kind of events, you
+
+923
+00:25:25,360 --> 00:25:27,919
+need to basically activate your
+
+924
+00:25:26,480 --> 00:25:29,520
+customer, make sure they have a great
+
+925
+00:25:27,919 --> 00:25:31,120
+experience, make sure it's social media
+
+926
+00:25:29,520 --> 00:25:32,320
+friendly, and use it to create your own
+
+927
+00:25:31,120 --> 00:25:34,799
+content. you're going to have a very
+
+928
+00:25:32,320 --> 00:25:35,919
+hard time justifying ROI. So last, we're
+
+929
+00:25:34,799 --> 00:25:37,760
+going to hit on partnerships,
+
+930
+00:25:35,919 --> 00:25:39,679
+influencers, and collaborations, and you
+
+931
+00:25:37,760 --> 00:25:41,279
+are going to have a complete picture of
+
+932
+00:25:39,679 --> 00:25:42,480
+kind of modern marketing. So in
+
+933
+00:25:41,279 --> 00:25:44,400
+partnerships, this is what you are doing
+
+934
+00:25:42,480 --> 00:25:46,720
+with others. Basically, 1 plus 1 equals
+
+935
+00:25:44,400 --> 00:25:47,919
+2.5 to push your brand out there. So a
+
+936
+00:25:46,720 --> 00:25:49,360
+couple things we can talk about there.
+
+937
+00:25:47,919 --> 00:25:50,640
+The first is collaborations, like we've
+
+938
+00:25:49,360 --> 00:25:52,640
+all seen, people coming together to
+
+939
+00:25:50,640 --> 00:25:53,679
+create a product. Second is licensing.
+
+940
+00:25:52,640 --> 00:25:54,799
+It's a partnership type where you
+
+941
+00:25:53,679 --> 00:25:56,960
+basically say, "Hey, I'm going to pay a
+
+942
+00:25:54,799 --> 00:25:58,080
+royalty on a product to be able to sell
+
+943
+00:25:56,960 --> 00:25:59,200
+a version of it." I'll talk about
+
+944
+00:25:58,080 --> 00:26:00,960
+licensing first. So, you may have seen
+
+945
+00:25:59,200 --> 00:26:03,279
+the brand Warren Lotus, popular fashion
+
+946
+00:26:00,960 --> 00:26:04,720
+brand. He licenses the NBA and the NFL,
+
+947
+00:26:03,279 --> 00:26:06,720
+makes versions of his clothing for every
+
+948
+00:26:04,720 --> 00:26:08,240
+single team. He pays a fee. He pays a
+
+949
+00:26:06,720 --> 00:26:09,840
+percentage, and you'll see they'll have
+
+950
+00:26:08,240 --> 00:26:11,279
+like little logos and things on on some
+
+951
+00:26:09,840 --> 00:26:12,960
+of them, and he's able to use this
+
+952
+00:26:11,279 --> 00:26:14,559
+really popular iconography to sell to an
+
+953
+00:26:12,960 --> 00:26:15,919
+existing fan base. This is a genius
+
+954
+00:26:14,559 --> 00:26:17,520
+marketing thing for him, but he's able
+
+955
+00:26:15,919 --> 00:26:18,880
+to take his his iconography he's
+
+956
+00:26:17,520 --> 00:26:20,320
+established, and sell a thing to a
+
+957
+00:26:18,880 --> 00:26:21,520
+passionate fan base who is more likely
+
+958
+00:26:20,320 --> 00:26:22,720
+to say, "Oh, I don't want to support
+
+959
+00:26:21,520 --> 00:26:25,039
+that. I want to support that and the
+
+960
+00:26:22,720 --> 00:26:26,880
+Celtics or and the Cowboys at the same
+
+961
+00:26:25,039 --> 00:26:29,200
+time." And this is something everyone
+
+962
+00:26:26,880 --> 00:26:31,120
+from Simple Modern to Represent, there's
+
+963
+00:26:29,200 --> 00:26:32,720
+all kinds of brands that do this. And
+
+964
+00:26:31,120 --> 00:26:35,279
+that is a paid partnership. A paid
+
+965
+00:26:32,720 --> 00:26:37,039
+partnership should 100% be on the table
+
+966
+00:26:35,279 --> 00:26:38,880
+for your brand when you have the volume
+
+967
+00:26:37,039 --> 00:26:40,400
+to support it. And then collaborations
+
+968
+00:26:38,880 --> 00:26:41,760
+is really about a structure. And I'll do
+
+969
+00:26:40,400 --> 00:26:42,880
+a whole collaborations video. I want to
+
+970
+00:26:41,760 --> 00:26:44,240
+bring one of my friends on who's a
+
+971
+00:26:42,880 --> 00:26:45,840
+specialist in this at one point, but
+
+972
+00:26:44,240 --> 00:26:47,279
+this is about how can you create a
+
+973
+00:26:45,840 --> 00:26:48,640
+product and then co-arket it together.
+
+974
+00:26:47,279 --> 00:26:50,240
+And usually where this comes down to is
+
+975
+00:26:48,640 --> 00:26:51,840
+logistics. Who's paying for the product?
+
+976
+00:26:50,240 --> 00:26:53,279
+How much does each person get? Who's
+
+977
+00:26:51,840 --> 00:26:55,360
+selling it? Who's responsible for what
+
+978
+00:26:53,279 --> 00:26:57,120
+assets? like you really breaking down
+
+979
+00:26:55,360 --> 00:26:58,400
+responsibility and agreeing to it and
+
+980
+00:26:57,120 --> 00:26:59,840
+then having something come out. But this
+
+981
+00:26:58,400 --> 00:27:01,600
+is just another good example I think a
+
+982
+00:26:59,840 --> 00:27:03,600
+lot of brands should be doing as long as
+
+983
+00:27:01,600 --> 00:27:05,279
+you can create something interesting and
+
+984
+00:27:03,600 --> 00:27:07,200
+unique. And the best way to think about
+
+985
+00:27:05,279 --> 00:27:08,320
+this as a marketer is a collaboration
+
+986
+00:27:07,200 --> 00:27:10,240
+schedule where you go, we have all of
+
+987
+00:27:08,320 --> 00:27:11,760
+our normal releases. We have our spring
+
+988
+00:27:10,240 --> 00:27:13,200
+release and our fall release. We do new
+
+989
+00:27:11,760 --> 00:27:15,039
+product once a year. You know, if
+
+990
+00:27:13,200 --> 00:27:16,240
+there's big spaces in there, can we do a
+
+991
+00:27:15,039 --> 00:27:18,080
+collaboration that fits that's a new
+
+992
+00:27:16,240 --> 00:27:19,600
+product to fill that space? Is a great
+
+993
+00:27:18,080 --> 00:27:21,760
+entry- level way to look at it without
+
+994
+00:27:19,600 --> 00:27:23,600
+having do overkill. Another way to look
+
+995
+00:27:21,760 --> 00:27:24,799
+at is a whole program the way Monontlair
+
+996
+00:27:23,600 --> 00:27:26,880
+does with Genius where you may say,
+
+997
+00:27:24,799 --> 00:27:28,640
+"Hey, we actually want to do a a a
+
+998
+00:27:26,880 --> 00:27:29,919
+branded program over time where a bunch
+
+999
+00:27:28,640 --> 00:27:31,520
+of people fill these slots." This is
+
+1000
+00:27:29,919 --> 00:27:32,960
+great for a bigger brand to work with
+
+1001
+00:27:31,520 --> 00:27:34,640
+smaller brands. Uh those are just
+
+1002
+00:27:32,960 --> 00:27:36,480
+different ways to think about it. So
+
+1003
+00:27:34,640 --> 00:27:38,000
+anyway, I know we covered a lot of
+
+1004
+00:27:36,480 --> 00:27:39,200
+ground inside of this. If you like this
+
+1005
+00:27:38,000 --> 00:27:41,039
+kind of conversation around marketing
+
+1006
+00:27:39,200 --> 00:27:42,440
+and brand strategy, my newsletter called
+
+1007
+00:27:41,039 --> 00:27:44,000
+Hyper is at
+
+1008
+00:27:42,440 --> 00:27:45,440
+mail.hyperstudios. I'll link it down
+
+1009
+00:27:44,000 --> 00:27:47,120
+here. I talk about stuff like this every
+
+1010
+00:27:45,440 --> 00:27:48,799
+week. I didn't hit on some like kind of
+
+1011
+00:27:47,120 --> 00:27:50,320
+a little more nuance stuff like PR and
+
+1012
+00:27:48,799 --> 00:27:52,240
+communications things that kind of don't
+
+1013
+00:27:50,320 --> 00:27:53,440
+matter as much. And there's a whole
+
+1014
+00:27:52,240 --> 00:27:55,440
+chunk of this that is performance
+
+1015
+00:27:53,440 --> 00:27:57,039
+marketing and spending money on ads that
+
+1016
+00:27:55,440 --> 00:27:58,399
+is probably worthy of its own video.
+
+1017
+00:27:57,039 --> 00:28:00,480
+Another one I'll try to bring an expert
+
+1018
+00:27:58,399 --> 00:28:01,919
+in on. But just defining all these
+
+1019
+00:28:00,480 --> 00:28:03,440
+categories and just thinking through
+
+1020
+00:28:01,919 --> 00:28:05,360
+what they can do for your brand, I feel
+
+1021
+00:28:03,440 --> 00:28:08,320
+like is an important thing to learn. And
+
+1022
+00:28:05,360 --> 00:28:12,880
+thanks for bearing with me.
+
+1023
+00:28:08,320 --> 00:28:12,880
+[Music]
+

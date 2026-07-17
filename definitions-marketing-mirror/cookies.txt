@@ -1,0 +1,14 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+.https://www.definitions-marketing.com/	TRUE	/	FALSE	1999999999	PHPSESSID	51b943e5ee320e03bba06049e2f557cc
+www.linkedin.com	TRUE	/	FALSE	1999999999	JSESSIONID	ajax:3205397902364445530
+.www.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.linkedin.com	TRUE	/	FALSE	1999999999	lang	v=2&lang=en-us
+.linkedin.com	TRUE	/	FALSE	1999999999	lidc	b=VGST03:s=V:r=V:a=V:p=V:g=3757:u=1:x=1:i=1784290462:t=1784376862:v=2:sig=AQH77fLHaeJmCTT2RBbg9ApOzc-NVNXj"
+www.linkedin.com	TRUE	/	FALSE	1999999999	__cf_bm	jF6nyV21kxyQkauUuBMB0QaxoOv8sa7ZF3HJLlBURtc-1784290462.0793672-1.0.1.1-CejFC1fkPDM7h0Kzoe0dcKy5UTuKe0fDY.iQr5g6mls4yqr2BOeep6g6Vy4_C9Mar4kJA_qmYuVAX_dcwW8NKtaySaSNJRwdduBi1CnlzDOiy8C.egBN8z550dtdmntH
+.linkedin.com	TRUE	/	FALSE	1999999999	bcookie	v=2&b8224a76-8bfa-4564-8ac8-1cd8a1876706"
+www.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+.www.linkedin.com	TRUE	/	FALSE	1999999999	bscookie	v=1&202607171217313ad6d646-6f34-4b9f-8f32-9b057e0b879dAQEqAjLfqCjTYsgwgdqmALfuY_gKD195"
+www.linkedin.com	TRUE	/	FALSE	1999999999	SameSite	None
+www.definitions-marketing.com	TRUE	/	FALSE	1999999999	PHPSESSID	51b943e5ee320e03bba06049e2f557cc
+

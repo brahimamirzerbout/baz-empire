@@ -1,0 +1,18 @@
+HTTrack3.49-6 launched on Fri, 17 Jul 2026 08:04:02 at https://www.definitions-marketing.com/ +*.definitions-marketing.com/* -*.css -*.js -*.png -*.jpg -*.jpeg -*.gif -*.svg -*.woff* -*.ttf -*.ico -*.mp4 -*.webp
+(httrack https://www.definitions-marketing.com/ -O /home/uzer/definitions-marketing-mirror +*.definitions-marketing.com/* -*.css -*.js -*.png -*.jpg -*.jpeg -*.gif -*.svg -*.woff* -*.ttf -*.ico -*.mp4 -*.webp -c2 -A0 -%k -T30 -R2 -F "Mozilla/5.0 (compatible; BAZResearch/1.0; +research)" )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+08:04:02	Warning: 	* security warning: maximum bandwidth limited to 10000000 to avoid server overload
+08:04:05	Warning: 	Note: due to https://www.definitions-marketing.com remote robots.txt rules, links beginning with these path will be forbidden: /admkt/, /core/, /param/, /log/, /lib/, /sauvegarde/ (see in the options to disable this)
+08:17:49	Error: 	Exit requested by shell or user
+
+HTTrack Website Copier/3.49-6 mirror complete in 13 minutes 47 seconds : 6618 links scanned, 640 files written (54535471 bytes overall) [11496601 bytes received at 13901 bytes/sec], 54458854 bytes transferred using HTTP compression in 638 files, ratio 18%, 14.3 requests per connection
+(1 errors, 2 warnings, 0 messages)
+* * MIRROR ABORTED! * *
+The current temporary cache is required for any update operation and only contains data downloaded during the present aborted session.
+The former cache might contain more complete information; if you do not want to lose that information, you have to restore it and delete the current cache.
+This can easily be done here by erasing the hts-cache/new.* files]

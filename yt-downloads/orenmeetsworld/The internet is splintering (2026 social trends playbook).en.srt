@@ -1,0 +1,4700 @@
+1
+00:00:00,000 --> 00:00:04,360
+So, in this video, we are going to talk
+
+2
+00:00:01,840 --> 00:00:06,200
+about the new rules of the internet, the
+
+3
+00:00:04,360 --> 00:00:08,480
+internet codes, if you will. And
+
+4
+00:00:06,200 --> 00:00:10,680
+basically break down what is happening
+
+5
+00:00:08,480 --> 00:00:12,200
+in social media, internet culture, and
+
+6
+00:00:10,680 --> 00:00:14,280
+the zeitgeist in general. So,
+
+7
+00:00:12,200 --> 00:00:16,400
+specifically, if you are a creative, you
+
+8
+00:00:14,280 --> 00:00:18,080
+work in marketing, you have a brand, or
+
+9
+00:00:16,400 --> 00:00:19,440
+you're just interested, and you've heard
+
+10
+00:00:18,080 --> 00:00:21,640
+a lot of these terms, you can think
+
+11
+00:00:19,440 --> 00:00:23,440
+about their implications for culture,
+
+12
+00:00:21,640 --> 00:00:25,040
+jobs you may have, projects you're
+
+13
+00:00:23,440 --> 00:00:26,600
+working on, and where the future's
+
+14
+00:00:25,040 --> 00:00:28,440
+going. We're going to hit on streaming
+
+15
+00:00:26,600 --> 00:00:29,520
+and clipping, and actually define it if
+
+16
+00:00:28,440 --> 00:00:31,320
+you're unfamiliar. We're going to go
+
+17
+00:00:29,520 --> 00:00:32,560
+through how fast everything trends and
+
+18
+00:00:31,320 --> 00:00:34,320
+why it feels like nothing is cool
+
+19
+00:00:32,560 --> 00:00:35,880
+anymore. We're going to discuss TikTok's
+
+20
+00:00:34,320 --> 00:00:37,720
+meltdown under its new ownership,
+
+21
+00:00:35,880 --> 00:00:39,520
+Substack and X and the splintering of
+
+22
+00:00:37,720 --> 00:00:41,160
+social media, the complete loss of
+
+23
+00:00:39,520 --> 00:00:42,600
+journalistic media, and what it means
+
+24
+00:00:41,160 --> 00:00:44,360
+when they're significantly behind the
+
+25
+00:00:42,600 --> 00:00:46,440
+curve. How 15 minutes of fame has
+
+26
+00:00:44,360 --> 00:00:48,080
+shifted very considerably, real-life
+
+27
+00:00:46,440 --> 00:00:49,760
+events turning into gimmicks, why
+
+28
+00:00:48,080 --> 00:00:51,720
+prediction markets is about more than
+
+29
+00:00:49,760 --> 00:00:53,240
+just money, the business of information,
+
+30
+00:00:51,720 --> 00:00:54,680
+and why monoculture and the events we
+
+31
+00:00:53,240 --> 00:00:56,680
+still pay attention to are more
+
+32
+00:00:54,680 --> 00:00:58,680
+important than ever. It is my job to be
+
+33
+00:00:56,680 --> 00:01:00,840
+on top of this. I work with brands big
+
+34
+00:00:58,680 --> 00:01:02,200
+and small to help them strategize
+
+35
+00:01:00,840 --> 00:01:04,720
+through that future on what they want to
+
+36
+00:01:02,200 --> 00:01:06,400
+act on now or in 3 years. This involves
+
+37
+00:01:04,720 --> 00:01:07,920
+a lot of research, a team of people that
+
+38
+00:01:06,400 --> 00:01:09,360
+works with me that's terminally online,
+
+39
+00:01:07,920 --> 00:01:11,400
+and I'm excited to practically and
+
+40
+00:01:09,360 --> 00:01:12,680
+tactically share these things with you
+
+41
+00:01:11,400 --> 00:01:15,120
+and have an open discussion about it.
+
+42
+00:01:12,680 --> 00:01:17,280
+Let's lock in. So, first, our next
+
+43
+00:01:15,120 --> 00:01:18,920
+community call is March 24th, where I'm
+
+44
+00:01:17,280 --> 00:01:21,160
+actually going to be discussing brands
+
+45
+00:01:18,920 --> 00:01:22,920
+as media companies. What that means, how
+
+46
+00:01:21,160 --> 00:01:24,400
+you construct them, how you hire, what
+
+47
+00:01:22,920 --> 00:01:26,120
+the teams look like, and what the
+
+48
+00:01:24,400 --> 00:01:27,800
+formulas are, and we're going to Q&A on
+
+49
+00:01:26,120 --> 00:01:29,520
+it. So, any of this is interesting to
+
+50
+00:01:27,800 --> 00:01:31,320
+you professionally, the community call
+
+51
+00:01:29,520 --> 00:01:32,960
+is free, and there's a link down below
+
+52
+00:01:31,320 --> 00:01:35,080
+for it. But first, I want to get started
+
+53
+00:01:32,960 --> 00:01:36,600
+by talking about streaming and clipping.
+
+54
+00:01:35,080 --> 00:01:38,360
+So, for many of you that are YouTube
+
+55
+00:01:36,600 --> 00:01:39,960
+native, if you're Gen Alpha or younger
+
+56
+00:01:38,360 --> 00:01:41,080
+Gen Z, you already know what a lot of
+
+57
+00:01:39,960 --> 00:01:42,000
+this looks like, but I think you'll be
+
+58
+00:01:41,080 --> 00:01:43,440
+interested to learn a bit about the
+
+59
+00:01:42,000 --> 00:01:44,440
+clipping infrastructure. But for those
+
+60
+00:01:43,440 --> 00:01:46,640
+that don't, let me just give you the
+
+61
+00:01:44,440 --> 00:01:47,800
+basic 101 on streaming here. The media
+
+62
+00:01:46,640 --> 00:01:50,160
+over the last few weeks has been
+
+63
+00:01:47,800 --> 00:01:52,600
+dominated, but it's already falling off
+
+64
+00:01:50,160 --> 00:01:54,840
+by the looksmaxing trend
+
+65
+00:01:52,600 --> 00:01:57,520
+by this streamer Clavicular. Most people
+
+66
+00:01:54,840 --> 00:01:59,360
+who are learning about streaming have
+
+67
+00:01:57,520 --> 00:02:01,720
+seen it through Kai Cenat and his
+
+68
+00:01:59,360 --> 00:02:03,240
+prominence rising to fame or IShowSpeed.
+
+69
+00:02:01,720 --> 00:02:04,360
+But what actually is it? What's going on
+
+70
+00:02:03,240 --> 00:02:07,080
+here? So when you look at this, you will
+
+71
+00:02:04,360 --> 00:02:09,119
+see he is online for 6 hours and 52
+
+72
+00:02:07,080 --> 00:02:10,720
+minutes, 3 hours here, and everything is
+
+73
+00:02:09,119 --> 00:02:12,280
+live. They are following this guy around
+
+74
+00:02:10,720 --> 00:02:13,920
+as he goes to dinner, whether he's in
+
+75
+00:02:12,280 --> 00:02:15,440
+his studio. Basically, you are
+
+76
+00:02:13,920 --> 00:02:17,640
+participating in someone's life
+
+77
+00:02:15,440 --> 00:02:18,600
+completely live and watching it. And so
+
+78
+00:02:17,640 --> 00:02:20,480
+those of you there thinking, "I'm not
+
+79
+00:02:18,600 --> 00:02:21,800
+going to watch a 6-hour and 52-minute
+
+80
+00:02:20,480 --> 00:02:23,680
+thing." You have to think about how
+
+81
+00:02:21,800 --> 00:02:25,360
+people consume this type of media. So a
+
+82
+00:02:23,680 --> 00:02:26,920
+lot of people are either sitting at work
+
+83
+00:02:25,360 --> 00:02:28,600
+or younger person sitting after school
+
+84
+00:02:26,920 --> 00:02:30,720
+doing homework or sitting in their room
+
+85
+00:02:28,600 --> 00:02:32,760
+gaming. Streaming is a companionshift
+
+86
+00:02:30,720 --> 00:02:34,120
+social media piece for this. It's really
+
+87
+00:02:32,760 --> 00:02:36,200
+important for brands to think about. If
+
+88
+00:02:34,120 --> 00:02:38,600
+you looked at my video from a prior
+
+89
+00:02:36,200 --> 00:02:41,440
+week, I had a chart about the fringe to
+
+90
+00:02:38,600 --> 00:02:43,120
+normie sales to awareness scale of what
+
+91
+00:02:41,440 --> 00:02:44,520
+brands can do to get in front of people.
+
+92
+00:02:43,120 --> 00:02:45,800
+And on the fringe, which is basically
+
+93
+00:02:44,520 --> 00:02:47,360
+things that you would have to commit to
+
+94
+00:02:45,800 --> 00:02:49,320
+that your average brand wouldn't that
+
+95
+00:02:47,360 --> 00:02:51,680
+are at risk would have a high upside. On
+
+96
+00:02:49,320 --> 00:02:53,800
+the awareness side, there was streaming
+
+97
+00:02:51,680 --> 00:02:55,840
+and on the sales side, there was live
+
+98
+00:02:53,800 --> 00:02:57,080
+selling. These are two different things.
+
+99
+00:02:55,840 --> 00:02:58,760
+I'll talk about live selling when we get
+
+100
+00:02:57,080 --> 00:03:02,040
+to the TikTok section. But basically,
+
+101
+00:02:58,760 --> 00:03:03,680
+what you have here is a massive amount a
+
+102
+00:03:02,040 --> 00:03:05,280
+disordered amount of attention. You
+
+103
+00:03:03,680 --> 00:03:08,760
+know, 200,000 people tuning into a
+
+104
+00:03:05,280 --> 00:03:11,360
+3-hour live on a very niche as a very
+
+105
+00:03:08,760 --> 00:03:14,120
+niche streamer. 267,000 people turning
+
+106
+00:03:11,360 --> 00:03:16,239
+into a more prolific one like we see
+
+107
+00:03:14,120 --> 00:03:17,800
+here with Kai Cenat. And then thousands
+
+108
+00:03:16,239 --> 00:03:19,080
+of smaller streamers with various levels
+
+109
+00:03:17,800 --> 00:03:21,320
+of engagement from everything from
+
+110
+00:03:19,080 --> 00:03:24,239
+gaming to lifestyle to travel. And that
+
+111
+00:03:21,320 --> 00:03:26,760
+attention has not been monetized or used
+
+112
+00:03:24,239 --> 00:03:28,160
+to showcase brands to any level near the
+
+113
+00:03:26,760 --> 00:03:29,800
+robustness of how that's treated in like
+
+114
+00:03:28,160 --> 00:03:31,400
+the TV or standard social media
+
+115
+00:03:29,800 --> 00:03:32,680
+ecosystem. But quick some tactics here.
+
+116
+00:03:31,400 --> 00:03:35,040
+How do they do this? There is software
+
+117
+00:03:32,680 --> 00:03:36,640
+like StreamYard, OBS that connect
+
+118
+00:03:35,040 --> 00:03:38,800
+multiple channels and things to
+
+119
+00:03:36,640 --> 00:03:40,239
+something like Twitch. When I do lives
+
+120
+00:03:38,800 --> 00:03:41,680
+where we are on YouTube and X
+
+121
+00:03:40,239 --> 00:03:43,320
+simultaneously with multiple people, we
+
+122
+00:03:41,680 --> 00:03:45,480
+are using StreamYard. Sometimes we are
+
+123
+00:03:43,320 --> 00:03:48,080
+using Riverside. There's software that
+
+124
+00:03:45,480 --> 00:03:49,920
+solves this. DJI's Osmo has direct
+
+125
+00:03:48,080 --> 00:03:51,519
+streaming outputs from the camera. They
+
+126
+00:03:49,920 --> 00:03:52,880
+made it very simple. But the big
+
+127
+00:03:51,519 --> 00:03:54,480
+strength here is that while people are
+
+128
+00:03:52,880 --> 00:03:56,080
+consuming it relatively passively, they
+
+129
+00:03:54,480 --> 00:03:57,640
+can interact. They can comment. People
+
+130
+00:03:56,080 --> 00:03:58,920
+refer to the comments on screen. They
+
+131
+00:03:57,640 --> 00:04:00,280
+can interact with each other. So,
+
+132
+00:03:58,920 --> 00:04:01,520
+basically, instead of watching a video
+
+133
+00:04:00,280 --> 00:04:03,840
+and commenting after the fact, you're
+
+134
+00:04:01,520 --> 00:04:05,000
+participating in the action live. Many
+
+135
+00:04:03,840 --> 00:04:06,440
+people have looked at this and gone,
+
+136
+00:04:05,000 --> 00:04:08,520
+"Oh, this is a thing for kids." But
+
+137
+00:04:06,440 --> 00:04:10,720
+perhaps the best monetized podcast of
+
+138
+00:04:08,520 --> 00:04:13,080
+our time is TBPN, who don't even put up
+
+139
+00:04:10,720 --> 00:04:14,440
+massive views. Yeah, 4,000, 4,500 on
+
+140
+00:04:13,080 --> 00:04:16,359
+YouTube. Maybe they're doing the same on
+
+141
+00:04:14,440 --> 00:04:18,160
+X. But they are streaming technology
+
+142
+00:04:16,359 --> 00:04:20,480
+news during the day for Silicon Valley
+
+143
+00:04:18,160 --> 00:04:22,400
+employees, VCs, people interested in the
+
+144
+00:04:20,480 --> 00:04:23,440
+business of technology. They are doing
+
+145
+00:04:22,400 --> 00:04:25,760
+this and they are selling
+
+146
+00:04:23,440 --> 00:04:27,200
+six-to-seven-figure yearly sponsorship
+
+147
+00:04:25,760 --> 00:04:29,040
+slots to some of the biggest, most
+
+148
+00:04:27,200 --> 00:04:30,200
+prolific tech companies that we have.
+
+149
+00:04:29,040 --> 00:04:31,720
+So, for anyone that's thinking this is a
+
+150
+00:04:30,200 --> 00:04:33,919
+kids thing I don't need to worry about,
+
+151
+00:04:31,720 --> 00:04:35,720
+this is actually a standard to which you
+
+152
+00:04:33,919 --> 00:04:37,200
+can obviously see media shifting. And if
+
+153
+00:04:35,720 --> 00:04:38,400
+you want to be ahead of media, the way a
+
+154
+00:04:37,200 --> 00:04:40,120
+lot of the reason I'm here today is cuz
+
+155
+00:04:38,400 --> 00:04:41,400
+I was relatively early to TikTok, this
+
+156
+00:04:40,120 --> 00:04:43,320
+is something to think about. But there's
+
+157
+00:04:41,400 --> 00:04:45,040
+two key points I want to make before we
+
+158
+00:04:43,320 --> 00:04:46,120
+move on to nothing being cool anymore.
+
+159
+00:04:45,040 --> 00:04:47,520
+And that's first, you need to look at
+
+160
+00:04:46,120 --> 00:04:49,080
+these things on a three-year horizon,
+
+161
+00:04:47,520 --> 00:04:51,120
+especially if you're a brand. One of the
+
+162
+00:04:49,080 --> 00:04:52,840
+scenarios that I love to use is if you
+
+163
+00:04:51,120 --> 00:04:54,520
+are trying to appeal to young men right
+
+164
+00:04:52,840 --> 00:04:56,120
+now and you sell a core product, you
+
+165
+00:04:54,520 --> 00:04:57,680
+sell deodorant. You sell something that
+
+166
+00:04:56,120 --> 00:04:59,400
+you know that they're going to consume.
+
+167
+00:04:57,680 --> 00:05:00,880
+They probably do not have the brand
+
+168
+00:04:59,400 --> 00:05:02,040
+recognition of your brand you'd expect
+
+169
+00:05:00,880 --> 00:05:03,840
+from being someone that's a household
+
+170
+00:05:02,040 --> 00:05:05,160
+name. If you are Right Guard, your Axe
+
+171
+00:05:03,840 --> 00:05:06,520
+body spray, I don't know if that's still
+
+172
+00:05:05,160 --> 00:05:08,160
+a thing. You might think you are
+
+173
+00:05:06,520 --> 00:05:10,000
+entrenched forever, but this generation
+
+174
+00:05:08,160 --> 00:05:11,360
+does not know who you are. They do not
+
+175
+00:05:10,000 --> 00:05:12,680
+pay attention to your media sources.
+
+176
+00:05:11,360 --> 00:05:14,480
+They don't care about the marketing.
+
+177
+00:05:12,680 --> 00:05:17,040
+They don't listen to their parents. What
+
+178
+00:05:14,480 --> 00:05:18,560
+they have is a singular world revolving
+
+179
+00:05:17,040 --> 00:05:20,800
+mostly around streamers and the
+
+180
+00:05:18,560 --> 00:05:22,520
+ecosystem on YouTube and other social
+
+181
+00:05:20,800 --> 00:05:24,320
+media that splinters that apart. Your
+
+182
+00:05:22,520 --> 00:05:25,880
+brand is not present. And so, if you are
+
+183
+00:05:24,320 --> 00:05:27,720
+trying to say, "We need to have a stake
+
+184
+00:05:25,880 --> 00:05:28,760
+in the ground for a three-year horizon."
+
+185
+00:05:27,720 --> 00:05:30,160
+Three-year horizon is I think the
+
+186
+00:05:28,760 --> 00:05:31,200
+longest you can think about media right
+
+187
+00:05:30,160 --> 00:05:32,800
+now. You should be putting a flag in the
+
+188
+00:05:31,200 --> 00:05:34,160
+ground of, "How do we have a presence in
+
+189
+00:05:32,800 --> 00:05:35,680
+streaming?" And a lot of the biggest
+
+190
+00:05:34,160 --> 00:05:37,080
+brands in the world are relying on their
+
+191
+00:05:35,680 --> 00:05:38,280
+agencies to think about that, who don't
+
+192
+00:05:37,080 --> 00:05:39,720
+understand it at all. That's where
+
+193
+00:05:38,280 --> 00:05:41,080
+people like me have come in handy, where
+
+194
+00:05:39,720 --> 00:05:42,240
+I can at least have the conversation
+
+195
+00:05:41,080 --> 00:05:43,360
+with those companies about shifting
+
+196
+00:05:42,240 --> 00:05:44,560
+that, cuz there's only a handful of
+
+197
+00:05:43,360 --> 00:05:45,760
+people that operate in between those
+
+198
+00:05:44,560 --> 00:05:47,160
+worlds. But to really understand
+
+199
+00:05:45,760 --> 00:05:48,440
+streaming, you have to understand
+
+200
+00:05:47,160 --> 00:05:49,400
+clipping. And many people have heard
+
+201
+00:05:48,440 --> 00:05:51,360
+this word, let's break down what it
+
+202
+00:05:49,400 --> 00:05:53,400
+actually means. It means that people
+
+203
+00:05:51,360 --> 00:05:55,560
+take pieces of these streams, the most
+
+204
+00:05:53,400 --> 00:05:57,120
+interesting points in it,
+
+205
+00:05:55,560 --> 00:06:00,280
+and they put it on other social media.
+
+206
+00:05:57,120 --> 00:06:02,080
+TikTok, YouTube Shorts, Instagram, X,
+
+207
+00:06:00,280 --> 00:06:03,960
+Snapchat Spotlight. Now, how does this
+
+208
+00:06:02,080 --> 00:06:05,840
+work? They are incentivized to do this.
+
+209
+00:06:03,960 --> 00:06:07,240
+There are places, Wapp being one of
+
+210
+00:06:05,840 --> 00:06:09,800
+them, where basically, if you are a
+
+211
+00:06:07,240 --> 00:06:11,920
+clipper for a specific streamer, you can
+
+212
+00:06:09,800 --> 00:06:13,520
+get paid for your views. So, if you put
+
+213
+00:06:11,920 --> 00:06:14,480
+up 1,000 views, you get, let's say, a
+
+214
+00:06:13,520 --> 00:06:16,160
+dollar. Now, if you're putting up
+
+215
+00:06:14,480 --> 00:06:17,560
+millions of views on Snapchat clipping
+
+216
+00:06:16,160 --> 00:06:19,000
+these, that becomes very lucrative very
+
+217
+00:06:17,560 --> 00:06:21,120
+quick. And people are clipping lots of
+
+218
+00:06:19,000 --> 00:06:22,480
+those pieces. Now, sometimes the person
+
+219
+00:06:21,120 --> 00:06:24,000
+themself is paying for it. So, for
+
+220
+00:06:22,480 --> 00:06:25,400
+instance, when you saw the meteoric rise
+
+221
+00:06:24,000 --> 00:06:27,919
+of personalities who were at the fringe
+
+222
+00:06:25,400 --> 00:06:29,480
+of this, like TJR, Brez, they had
+
+223
+00:06:27,919 --> 00:06:31,080
+clipping campaigns in Wapp where they
+
+224
+00:06:29,480 --> 00:06:32,840
+would offer those bounties for someone
+
+225
+00:06:31,080 --> 00:06:34,560
+to go chop up their streams, post them
+
+226
+00:06:32,840 --> 00:06:36,400
+on social media, report back the
+
+227
+00:06:34,560 --> 00:06:38,000
+results, and get a payout from them. But
+
+228
+00:06:36,400 --> 00:06:40,720
+now, the platforms themselves do it. So,
+
+229
+00:06:38,000 --> 00:06:42,800
+Kick, a competitor to Twitch, pays for
+
+230
+00:06:40,720 --> 00:06:44,280
+claviculars, clippers. He's said that
+
+231
+00:06:42,800 --> 00:06:45,840
+like on stream and in other places. They
+
+232
+00:06:44,280 --> 00:06:47,840
+are incentivizing people to to build
+
+233
+00:06:45,840 --> 00:06:49,520
+stars on their platform. That happens at
+
+234
+00:06:47,840 --> 00:06:51,280
+the highest level. Some people also have
+
+235
+00:06:49,520 --> 00:06:53,200
+their own internal teams, or they retain
+
+236
+00:06:51,280 --> 00:06:54,919
+a service. I started recently testing
+
+237
+00:06:53,200 --> 00:06:56,240
+clipping myself for cutouts for my
+
+238
+00:06:54,919 --> 00:06:57,760
+YouTube cuz I don't make edits from
+
+239
+00:06:56,240 --> 00:06:59,120
+these, and retained a service who have
+
+240
+00:06:57,760 --> 00:07:01,240
+started doing that a bit on IG and
+
+241
+00:06:59,120 --> 00:07:03,000
+TikTok. Results are still like unclear,
+
+242
+00:07:01,240 --> 00:07:05,360
+but I'm committing to making that a part
+
+243
+00:07:03,000 --> 00:07:06,919
+of how my media moves online. So, why is
+
+244
+00:07:05,360 --> 00:07:08,760
+this so effective? Because of the way
+
+245
+00:07:06,919 --> 00:07:10,440
+algorithms work, where different types
+
+246
+00:07:08,760 --> 00:07:12,480
+of media, different lengths, different
+
+247
+00:07:10,440 --> 00:07:14,440
+styles of editing, all play into how
+
+248
+00:07:12,480 --> 00:07:16,000
+someone consumes. We all do not consume
+
+249
+00:07:14,440 --> 00:07:17,480
+the same things. But, if someone is
+
+250
+00:07:16,000 --> 00:07:19,120
+popular and notable in the things that
+
+251
+00:07:17,480 --> 00:07:20,480
+are going on, the algorithms will find
+
+252
+00:07:19,120 --> 00:07:22,080
+things related to them. They know what
+
+253
+00:07:20,480 --> 00:07:23,240
+they look like, they know the words
+
+254
+00:07:22,080 --> 00:07:24,720
+associated with them, and they will
+
+255
+00:07:23,240 --> 00:07:28,480
+begin to show it to them. You can begin
+
+256
+00:07:24,720 --> 00:07:30,640
+to build a uh 1 + 1 = 3 scenario of how
+
+257
+00:07:28,480 --> 00:07:32,560
+your media is pushed on the algorithms.
+
+258
+00:07:30,640 --> 00:07:33,960
+And the other thing is, this is there's
+
+259
+00:07:32,560 --> 00:07:35,160
+also reaching new markets to get
+
+260
+00:07:33,960 --> 00:07:37,400
+traditional media. So, I want to call
+
+261
+00:07:35,160 --> 00:07:39,160
+out X for a second because the only
+
+262
+00:07:37,400 --> 00:07:41,160
+reason to clip on there is to reach two
+
+263
+00:07:39,160 --> 00:07:43,360
+markets, right? The first market is is
+
+264
+00:07:41,160 --> 00:07:44,520
+older men, like Gen X boomer men, like
+
+265
+00:07:43,360 --> 00:07:46,600
+late millennial, and to reach
+
+266
+00:07:44,520 --> 00:07:48,080
+journalists who kind of comb that for a
+
+267
+00:07:46,600 --> 00:07:49,160
+new space. So, there are people I will
+
+268
+00:07:48,080 --> 00:07:51,400
+call Fearless for being one of the
+
+269
+00:07:49,160 --> 00:07:52,960
+biggest ones, where he is consistently
+
+270
+00:07:51,400 --> 00:07:53,960
+posting this clipping. And this is a
+
+271
+00:07:52,960 --> 00:07:55,240
+There are a lot of accounts that do
+
+272
+00:07:53,960 --> 00:07:57,160
+this, so I'm going to just spotlight
+
+273
+00:07:55,240 --> 00:07:58,880
+this one, but they're being incentivized
+
+274
+00:07:57,160 --> 00:08:00,640
+for this, and it's not disclosed, right?
+
+275
+00:07:58,880 --> 00:08:01,960
+I and many others understand how this
+
+276
+00:08:00,640 --> 00:08:03,160
+economy works, and most people who are
+
+277
+00:08:01,960 --> 00:08:04,640
+consuming it don't. They think they're
+
+278
+00:08:03,160 --> 00:08:06,720
+just following a highlight reel. But
+
+279
+00:08:04,640 --> 00:08:08,440
+this is a monetization ecosystem that is
+
+280
+00:08:06,720 --> 00:08:10,280
+doing this, where he's being rewarded
+
+281
+00:08:08,440 --> 00:08:12,080
+for showing it. You do this to build up
+
+282
+00:08:10,280 --> 00:08:13,520
+enough credibility that you get written
+
+283
+00:08:12,080 --> 00:08:15,440
+about and talked about by mainstream
+
+284
+00:08:13,520 --> 00:08:16,960
+media, because they're not in any of
+
+285
+00:08:15,440 --> 00:08:18,720
+these other platforms. X is one of the
+
+286
+00:08:16,960 --> 00:08:20,120
+only like boomer platforms left, where
+
+287
+00:08:18,720 --> 00:08:21,400
+people who are actually resonant enough
+
+288
+00:08:20,120 --> 00:08:22,720
+to then talk about something or make it
+
+289
+00:08:21,400 --> 00:08:24,080
+move still exist. So, it's worth
+
+290
+00:08:22,720 --> 00:08:25,640
+understanding this is a core internet
+
+291
+00:08:24,080 --> 00:08:27,320
+code. This is not going to change. This
+
+292
+00:08:25,640 --> 00:08:29,200
+is a significant look at where media is
+
+293
+00:08:27,320 --> 00:08:30,480
+going, and worth you having in your idea
+
+294
+00:08:29,200 --> 00:08:32,440
+of what the future looks like. Now, I
+
+295
+00:08:30,480 --> 00:08:34,280
+want to move on to trends and how fast
+
+296
+00:08:32,440 --> 00:08:35,479
+they move and nothing being cool. The
+
+297
+00:08:34,280 --> 00:08:36,760
+first kind of conversation I want to
+
+298
+00:08:35,479 --> 00:08:38,240
+have there is about the McDonald's CEO
+
+299
+00:08:36,760 --> 00:08:39,240
+eating the burger. You guys saw this.
+
+300
+00:08:38,240 --> 00:08:40,400
+There's been so much content made about
+
+301
+00:08:39,240 --> 00:08:41,360
+this. I mean, Danny Ramirez I mean, want
+
+302
+00:08:40,400 --> 00:08:42,440
+to make more content about it. But
+
+303
+00:08:41,360 --> 00:08:44,600
+there's an awkward video where the
+
+304
+00:08:42,440 --> 00:08:46,760
+McDonald's CEO tries their new burger,
+
+305
+00:08:44,600 --> 00:08:48,280
+and he is He's awkward about it. He
+
+306
+00:08:46,760 --> 00:08:51,320
+obviously doesn't seem to enjoy it. And
+
+307
+00:08:48,280 --> 00:08:53,360
+then a hundred other companies hop onto
+
+308
+00:08:51,320 --> 00:08:55,200
+the trend of doing the same exact thing.
+
+309
+00:08:53,360 --> 00:08:57,560
+So, every burger company within, let's
+
+310
+00:08:55,200 --> 00:08:59,000
+say, 72 hours had done their version.
+
+311
+00:08:57,560 --> 00:09:00,800
+Probably my favorite being Freddy's. You
+
+312
+00:08:59,000 --> 00:09:02,520
+could tell this guy actually likes the
+
+313
+00:09:00,800 --> 00:09:04,520
+product and probably eats it all the
+
+314
+00:09:02,520 --> 00:09:05,720
+time, and has a very different, way more
+
+315
+00:09:04,520 --> 00:09:07,520
+organic feel than what's happening at
+
+316
+00:09:05,720 --> 00:09:08,839
+McDonald's. But this is washed, right?
+
+317
+00:09:07,520 --> 00:09:10,400
+Every media team was like, "We need to
+
+318
+00:09:08,839 --> 00:09:11,720
+get our CEO to eat the product or use
+
+319
+00:09:10,400 --> 00:09:13,240
+the product on camera." There was a huge
+
+320
+00:09:11,720 --> 00:09:16,040
+trending thing on Threads where it was
+
+321
+00:09:13,240 --> 00:09:18,320
+like, "I love to see the Talenti Gelato
+
+322
+00:09:16,040 --> 00:09:19,320
+CEO try to open a tub with his hands."
+
+323
+00:09:18,320 --> 00:09:21,360
+You know, where people are going through
+
+324
+00:09:19,320 --> 00:09:22,280
+the obvious like user experience issues
+
+325
+00:09:21,360 --> 00:09:24,200
+that people have. I'd love to see the
+
+326
+00:09:22,280 --> 00:09:26,040
+Microsoft CEO try to find an email in
+
+327
+00:09:24,200 --> 00:09:26,800
+Outlook while on a Teams. You know,
+
+328
+00:09:26,040 --> 00:09:28,080
+where they're actually is they're
+
+329
+00:09:26,800 --> 00:09:29,839
+talking about the user experience
+
+330
+00:09:28,080 --> 00:09:31,360
+problems. A huge trend emerges, which is
+
+331
+00:09:29,839 --> 00:09:32,839
+an interesting useful trend for brands
+
+332
+00:09:31,360 --> 00:09:34,920
+to participate in, but it's just cooked
+
+333
+00:09:32,839 --> 00:09:36,839
+so fast, right? It is now I'm recording
+
+334
+00:09:34,920 --> 00:09:39,400
+this on Saturday, March 7th. I think
+
+335
+00:09:36,839 --> 00:09:40,840
+we're 3 days into this trend, maybe. All
+
+336
+00:09:39,400 --> 00:09:43,120
+these CEOs have posted. Next week we're
+
+337
+00:09:40,840 --> 00:09:44,920
+going to see 100 more and it's done.
+
+338
+00:09:43,120 --> 00:09:46,680
+It's cooked. And people have gotten so
+
+339
+00:09:44,920 --> 00:09:48,360
+good at trends, right? So, I think maybe
+
+340
+00:09:46,680 --> 00:09:49,280
+18 months ago I put out a video where I
+
+341
+00:09:48,360 --> 00:09:50,680
+was talking about how brands should
+
+342
+00:09:49,280 --> 00:09:51,920
+respond to trends, right? How brand
+
+343
+00:09:50,680 --> 00:09:53,040
+social teams should do that. And how
+
+344
+00:09:51,920 --> 00:09:54,040
+creators can think about it, too. Where
+
+345
+00:09:53,040 --> 00:09:55,680
+it's like, okay, you need to have a
+
+346
+00:09:54,040 --> 00:09:56,960
+framework. What is on brand or not on
+
+347
+00:09:55,680 --> 00:09:58,520
+brand for us? Do we have the bandwidth
+
+348
+00:09:56,960 --> 00:10:00,200
+to do it or not? Who does it and do they
+
+349
+00:09:58,520 --> 00:10:01,280
+have a preset allocated budget they can
+
+350
+00:10:00,200 --> 00:10:02,960
+act on if you need to do something
+
+351
+00:10:01,280 --> 00:10:04,240
+short-term? And you need a system where
+
+352
+00:10:02,960 --> 00:10:05,680
+you can run through that. It's a Slack
+
+353
+00:10:04,240 --> 00:10:07,320
+channel, it's a whatever. We know we can
+
+354
+00:10:05,680 --> 00:10:08,480
+spend this much. We have these criteria.
+
+355
+00:10:07,320 --> 00:10:10,200
+It allows you to quickly respond to
+
+356
+00:10:08,480 --> 00:10:11,520
+trends. I've talked to now dozens of
+
+357
+00:10:10,200 --> 00:10:12,400
+brands who adopted that. I'm sure with
+
+358
+00:10:11,520 --> 00:10:13,560
+the reach of the videos it's probably
+
+359
+00:10:12,400 --> 00:10:14,600
+more like hundreds. And there's plenty
+
+360
+00:10:13,560 --> 00:10:17,000
+of other people who are thinking about
+
+361
+00:10:14,600 --> 00:10:18,360
+it in their own world. But everyone has
+
+362
+00:10:17,000 --> 00:10:20,120
+the ability to do this now. They
+
+363
+00:10:18,360 --> 00:10:21,880
+understand how media moves. This is no
+
+364
+00:10:20,120 --> 00:10:23,400
+longer unique to be able to spit on this
+
+365
+00:10:21,880 --> 00:10:25,000
+quickly. And it's led to this feeling
+
+366
+00:10:23,400 --> 00:10:26,000
+that nothing is interesting. And I want
+
+367
+00:10:25,000 --> 00:10:27,880
+to call that out because I'm going to
+
+368
+00:10:26,000 --> 00:10:29,520
+Japan. I go to Japan next week. And I'm
+
+369
+00:10:27,880 --> 00:10:31,280
+looking at making content there. And I
+
+370
+00:10:29,520 --> 00:10:32,360
+just feel like it's it's washed. I don't
+
+371
+00:10:31,280 --> 00:10:33,360
+want to make content there. Content's
+
+372
+00:10:32,360 --> 00:10:35,440
+not going to be intrinsically cool
+
+373
+00:10:33,360 --> 00:10:37,280
+because everyone's making so much
+
+374
+00:10:35,440 --> 00:10:38,880
+content there. I have I love Drew's
+
+375
+00:10:37,280 --> 00:10:40,040
+content. Drew's been out in Japan making
+
+376
+00:10:38,880 --> 00:10:41,320
+a bunch of decent content. He's doing
+
+377
+00:10:40,040 --> 00:10:43,480
+all right. Same thing with Nolan Daniel
+
+378
+00:10:41,320 --> 00:10:44,680
+White, um another creator I've I follow
+
+379
+00:10:43,480 --> 00:10:46,160
+who's making similar content. They're
+
+380
+00:10:44,680 --> 00:10:47,880
+all selvage denim shopping out there.
+
+381
+00:10:46,160 --> 00:10:50,000
+And I say this to say, I've now seen
+
+382
+00:10:47,880 --> 00:10:51,280
+hundreds of videos. Because you know how
+
+383
+00:10:50,000 --> 00:10:52,720
+the algorithms work. You go to Japan,
+
+384
+00:10:51,280 --> 00:10:54,080
+you want to watch Japan content, shows
+
+385
+00:10:52,720 --> 00:10:55,400
+you more. Everyone's doing the same
+
+386
+00:10:54,080 --> 00:10:56,880
+stuff. They're going to the same stores.
+
+387
+00:10:55,400 --> 00:10:59,200
+They're shopping for the same things.
+
+388
+00:10:56,880 --> 00:11:00,320
+It's repetitive and it's just not cool.
+
+389
+00:10:59,200 --> 00:11:01,560
+And I'm not saying when these guys did
+
+390
+00:11:00,320 --> 00:11:02,960
+it it wasn't cool or that it doesn't
+
+391
+00:11:01,560 --> 00:11:04,360
+make them interesting creators. But this
+
+392
+00:11:02,960 --> 00:11:06,480
+is the time we're functioning in where
+
+393
+00:11:04,360 --> 00:11:07,920
+everything that's not intrinsically new
+
+394
+00:11:06,480 --> 00:11:09,040
+and interesting is just getting rinsed.
+
+395
+00:11:07,920 --> 00:11:11,240
+And it gives you this feeling in the
+
+396
+00:11:09,040 --> 00:11:13,160
+back of your head that like, can I enjoy
+
+397
+00:11:11,240 --> 00:11:14,640
+anything if I have to create from it? In
+
+398
+00:11:13,160 --> 00:11:16,000
+responding to this trend, if I don't do
+
+399
+00:11:14,640 --> 00:11:17,200
+it immediately, it's kind of cooked. And
+
+400
+00:11:16,000 --> 00:11:18,560
+then once I do it, if everyone else does
+
+401
+00:11:17,200 --> 00:11:20,040
+it, then what I did all of a sudden
+
+402
+00:11:18,560 --> 00:11:21,600
+becomes cooked. You get this feeling,
+
+403
+00:11:20,040 --> 00:11:23,640
+this perpetual feeling that everything
+
+404
+00:11:21,600 --> 00:11:24,800
+is just not quite right. Unless unless,
+
+405
+00:11:23,640 --> 00:11:27,320
+this is what I want to call out. You are
+
+406
+00:11:24,800 --> 00:11:29,400
+operating on a completely unique path
+
+407
+00:11:27,320 --> 00:11:30,800
+unlike anyone else. Then when you go to
+
+408
+00:11:29,400 --> 00:11:32,200
+these places, you do something so
+
+409
+00:11:30,800 --> 00:11:33,560
+indecipherable that people couldn't
+
+410
+00:11:32,200 --> 00:11:35,120
+comprehend it and they would have to
+
+411
+00:11:33,560 --> 00:11:36,600
+copy it and if they do copy it it won't
+
+412
+00:11:35,120 --> 00:11:38,480
+be as good. This is the principle I've
+
+413
+00:11:36,600 --> 00:11:39,880
+operated on on content for a long time.
+
+414
+00:11:38,480 --> 00:11:41,680
+Even when we went to China, I'm not just
+
+415
+00:11:39,880 --> 00:11:43,040
+going to the fabric market, we're
+
+416
+00:11:41,680 --> 00:11:44,520
+explaining how everything works, we're
+
+417
+00:11:43,040 --> 00:11:46,280
+tactically giving advice. We have this
+
+418
+00:11:44,520 --> 00:11:47,800
+layers deeper than anyone else can go
+
+419
+00:11:46,280 --> 00:11:49,600
+where they can go repeat a big bit of
+
+420
+00:11:47,800 --> 00:11:51,160
+the virality, but not the same value
+
+421
+00:11:49,600 --> 00:11:52,760
+that comes with it. And I have ideas on
+
+422
+00:11:51,160 --> 00:11:54,520
+how we're going to do Japan differently,
+
+423
+00:11:52,760 --> 00:11:57,560
+but it leads to this overarching feeling
+
+424
+00:11:54,520 --> 00:11:59,720
+among the creator populace and among the
+
+425
+00:11:57,560 --> 00:12:01,160
+tastemaker populace that nothing is
+
+426
+00:11:59,720 --> 00:12:03,800
+interesting. That's a worthwhile thing
+
+427
+00:12:01,160 --> 00:12:05,480
+to call out because it basically dulls
+
+428
+00:12:03,800 --> 00:12:07,360
+the resonance of anything actually
+
+429
+00:12:05,480 --> 00:12:09,160
+interesting. And so then I want to talk
+
+430
+00:12:07,360 --> 00:12:10,440
+about TikTok and specifically what's
+
+431
+00:12:09,160 --> 00:12:12,720
+happened now that it's moved into more
+
+432
+00:12:10,440 --> 00:12:14,520
+of a US control. So in the weeks since
+
+433
+00:12:12,720 --> 00:12:16,360
+we've seen new ownership on TikTok,
+
+434
+00:12:14,520 --> 00:12:17,920
+we've had two basically breaks where
+
+435
+00:12:16,360 --> 00:12:20,440
+views have stopped showing, people can't
+
+436
+00:12:17,920 --> 00:12:22,600
+post, CapCut's down, and views plummet.
+
+437
+00:12:20,440 --> 00:12:23,800
+And then existing large creators, when
+
+438
+00:12:22,600 --> 00:12:25,240
+they come back from that they're getting
+
+439
+00:12:23,800 --> 00:12:27,360
+videos with a thousand views or ten
+
+440
+00:12:25,240 --> 00:12:28,960
+thousand views. Numbers are now all over
+
+441
+00:12:27,360 --> 00:12:30,520
+the place. There's no consistency. What
+
+442
+00:12:28,960 --> 00:12:32,080
+was great about TikTok before is if you
+
+443
+00:12:30,520 --> 00:12:33,600
+got real resonance, if you had a real
+
+444
+00:12:32,080 --> 00:12:35,160
+fan base and had a real cultural set
+
+445
+00:12:33,600 --> 00:12:37,360
+around you that you basically had this
+
+446
+00:12:35,160 --> 00:12:39,440
+built-in movement through the algorithm
+
+447
+00:12:37,360 --> 00:12:41,160
+around your personality. And now for
+
+448
+00:12:39,440 --> 00:12:43,000
+even the biggest creators like all that
+
+449
+00:12:41,160 --> 00:12:45,160
+is disintegrating. It is a pure
+
+450
+00:12:43,000 --> 00:12:46,560
+free-for-all every single post. And it
+
+451
+00:12:45,160 --> 00:12:47,839
+was for most of us. Even my content,
+
+452
+00:12:46,560 --> 00:12:49,160
+I've never resonated on there the way I
+
+453
+00:12:47,839 --> 00:12:50,800
+have on Instagram or YouTube. It was
+
+454
+00:12:49,160 --> 00:12:52,160
+always a fight. But now everyone's in
+
+455
+00:12:50,800 --> 00:12:54,480
+that. All the people I knew that were a
+
+456
+00:12:52,160 --> 00:12:56,000
+TikTok first, I'm TikTok third in terms
+
+457
+00:12:54,480 --> 00:12:57,880
+of my network importance. They're
+
+458
+00:12:56,000 --> 00:13:00,040
+battling against that. And that changes
+
+459
+00:12:57,880 --> 00:13:01,839
+things significantly because so much
+
+460
+00:13:00,040 --> 00:13:04,120
+culture was birthed on TikTok. The last
+
+461
+00:13:01,839 --> 00:13:06,080
+36 months, more culture was birthed on
+
+462
+00:13:04,120 --> 00:13:07,920
+TikTok than any other social network and
+
+463
+00:13:06,080 --> 00:13:09,560
+that is not the case in the last 60
+
+464
+00:13:07,920 --> 00:13:11,600
+days. Things are happening elsewhere.
+
+465
+00:13:09,560 --> 00:13:13,080
+Streaming is birthing culture in a way
+
+466
+00:13:11,600 --> 00:13:14,360
+more interesting way. The conversations
+
+467
+00:13:13,080 --> 00:13:15,880
+are happening in these splintering
+
+468
+00:13:14,360 --> 00:13:18,080
+social networks. But what is still
+
+469
+00:13:15,880 --> 00:13:19,839
+strong there is TikTok Shop is a real
+
+470
+00:13:18,080 --> 00:13:22,400
+mover for real brands, especially in
+
+471
+00:13:19,839 --> 00:13:25,600
+consumer packaged goods, is a truly
+
+472
+00:13:22,400 --> 00:13:27,560
+arc-changing, established way now to
+
+473
+00:13:25,600 --> 00:13:29,000
+bring real volume and awareness into
+
+474
+00:13:27,560 --> 00:13:31,560
+what you do. It's no longer like a
+
+475
+00:13:29,000 --> 00:13:33,360
+fringe thing. It is fully arrived as a
+
+476
+00:13:31,560 --> 00:13:35,080
+e-commerce opportunity brands can take
+
+477
+00:13:33,360 --> 00:13:37,040
+advantage of. And then the live selling.
+
+478
+00:13:35,080 --> 00:13:38,680
+TikTok live selling still works. It's
+
+479
+00:13:37,040 --> 00:13:40,360
+still impactful. People are doing it.
+
+480
+00:13:38,680 --> 00:13:41,880
+They don't understand it. There is alpha
+
+481
+00:13:40,360 --> 00:13:43,520
+in being at the edge there. And then
+
+482
+00:13:41,880 --> 00:13:45,280
+using those same personalities that are
+
+483
+00:13:43,520 --> 00:13:47,240
+live selling to be on the main feed and
+
+484
+00:13:45,280 --> 00:13:49,280
+begin to establish a world around this.
+
+485
+00:13:47,240 --> 00:13:51,520
+And Whatnot seen this, too. I have a The
+
+486
+00:13:49,280 --> 00:13:52,800
+parents of a kid my son went to school
+
+487
+00:13:51,520 --> 00:13:54,080
+goes to school with started their
+
+488
+00:13:52,800 --> 00:13:55,600
+Whatnot business the other week and
+
+489
+00:13:54,080 --> 00:13:57,720
+crushed it from the start. There's a
+
+490
+00:13:55,600 --> 00:13:59,120
+live selling opportunity that is growing
+
+491
+00:13:57,720 --> 00:14:00,520
+there. It's kind of the shift of where
+
+492
+00:13:59,120 --> 00:14:01,920
+some of that impact is going to be. Now,
+
+493
+00:14:00,520 --> 00:14:03,600
+at the same time, while TikTok is
+
+494
+00:14:01,920 --> 00:14:05,080
+beginning to melt, Substack is a social
+
+495
+00:14:03,600 --> 00:14:06,760
+network. I want to call this out because
+
+496
+00:14:05,080 --> 00:14:08,280
+it's important because used to be a lot
+
+497
+00:14:06,760 --> 00:14:09,920
+of people on X. X used to be the primary
+
+498
+00:14:08,280 --> 00:14:12,760
+written network, right? Threads has come
+
+499
+00:14:09,920 --> 00:14:15,440
+out. Threads is okay, but the user on
+
+500
+00:14:12,760 --> 00:14:17,400
+there is more immature to social media
+
+501
+00:14:15,440 --> 00:14:19,320
+and to text-based platform and the value
+
+502
+00:14:17,400 --> 00:14:20,640
+ecosystem around it and ideas that come
+
+503
+00:14:19,320 --> 00:14:22,200
+out of it is kind of non-existent. It's
+
+504
+00:14:20,640 --> 00:14:23,680
+just a place to scroll and interact. It
+
+505
+00:14:22,200 --> 00:14:25,720
+has potential, but it's not like a
+
+506
+00:14:23,680 --> 00:14:28,040
+zeitgeist builder yet. But basically,
+
+507
+00:14:25,720 --> 00:14:29,560
+the female users, right? Are not on X. I
+
+508
+00:14:28,040 --> 00:14:30,839
+know a handful of women on X, nothing
+
+509
+00:14:29,560 --> 00:14:33,000
+like the amount of men, and way less
+
+510
+00:14:30,839 --> 00:14:34,680
+than it was 5 years ago. And to the
+
+511
+00:14:33,000 --> 00:14:36,120
+point, you know, I can't name a single
+
+512
+00:14:34,680 --> 00:14:37,400
+of my wife's friends that were on there.
+
+513
+00:14:36,120 --> 00:14:39,080
+Would have been very different even 2
+
+514
+00:14:37,400 --> 00:14:41,160
+years ago. But where they are is on
+
+515
+00:14:39,080 --> 00:14:42,920
+Substack. There is a huge interactive
+
+516
+00:14:41,160 --> 00:14:44,120
+user base because Substack is a social
+
+517
+00:14:42,920 --> 00:14:46,120
+media feed. You see me scrolling here
+
+518
+00:14:44,120 --> 00:14:47,960
+unlogged in. These are all posts with a
+
+519
+00:14:46,120 --> 00:14:49,400
+lot of interaction and views and
+
+520
+00:14:47,960 --> 00:14:51,120
+conversation. And it's video posts. I
+
+521
+00:14:49,400 --> 00:14:52,560
+post all my videos on there. I posted a
+
+522
+00:14:51,120 --> 00:14:54,680
+carousel go viral on here the other
+
+523
+00:14:52,560 --> 00:14:56,480
+week. And the text posts and the the
+
+524
+00:14:54,680 --> 00:14:57,360
+promotion of the email newsletters. And
+
+525
+00:14:56,480 --> 00:14:58,720
+when you interact with them, you get
+
+526
+00:14:57,360 --> 00:15:00,240
+email subscribers from them. So, the
+
+527
+00:14:58,720 --> 00:15:01,880
+stakes are higher. But it needs to be
+
+528
+00:15:00,240 --> 00:15:03,440
+treated like a social network. But
+
+529
+00:15:01,880 --> 00:15:05,400
+really, it's important to note that the
+
+530
+00:15:03,440 --> 00:15:06,960
+splintering is interesting. The X user
+
+531
+00:15:05,400 --> 00:15:08,040
+base, a big chunk of that female user
+
+532
+00:15:06,960 --> 00:15:09,480
+base didn't end up on Blue Sky. They
+
+533
+00:15:08,040 --> 00:15:10,920
+ended up on Substack. Where they're
+
+534
+00:15:09,480 --> 00:15:12,440
+either writing or engaging or
+
+535
+00:15:10,920 --> 00:15:14,280
+participating or reading. And there's
+
+536
+00:15:12,440 --> 00:15:15,520
+male and female audiences on X and
+
+537
+00:15:14,280 --> 00:15:17,839
+Substack, too. And some of them they're
+
+538
+00:15:15,520 --> 00:15:19,160
+from a zeitgeist forward, trend-related
+
+539
+00:15:17,839 --> 00:15:21,400
+perspective. This is where they are
+
+540
+00:15:19,160 --> 00:15:23,360
+consuming media and enjoying it and
+
+541
+00:15:21,400 --> 00:15:24,600
+where ideas are being birthed that have
+
+542
+00:15:23,360 --> 00:15:26,320
+legs bigger than just what their
+
+543
+00:15:24,600 --> 00:15:28,000
+interaction is. And that splintering is
+
+544
+00:15:26,320 --> 00:15:30,360
+interesting because it basically means
+
+545
+00:15:28,000 --> 00:15:31,760
+less resonant big cultural things that
+
+546
+00:15:30,360 --> 00:15:33,720
+can happen than ever in any world that's
+
+547
+00:15:31,760 --> 00:15:35,560
+really not streaming. Instagram has a
+
+548
+00:15:33,720 --> 00:15:36,760
+power that Tik Tok doesn't. It's a very
+
+549
+00:15:35,560 --> 00:15:38,280
+different social network. And then
+
+550
+00:15:36,760 --> 00:15:39,600
+there's all these little places that are
+
+551
+00:15:38,280 --> 00:15:40,560
+coming out underneath it that's a lot
+
+552
+00:15:39,600 --> 00:15:43,280
+different than that when you think of
+
+553
+00:15:40,560 --> 00:15:45,720
+kind of like the big three of the meta,
+
+554
+00:15:43,280 --> 00:15:46,960
+Google, Tik Tok advertising ecosystems.
+
+555
+00:15:45,720 --> 00:15:48,040
+And this relates to a trend I want to
+
+556
+00:15:46,960 --> 00:15:50,480
+talk about called basically the complete
+
+557
+00:15:48,040 --> 00:15:53,760
+loss of media. So, all traditional
+
+558
+00:15:50,480 --> 00:15:56,000
+media, GQ, Highsnobiety, i-D, Vogue, The
+
+559
+00:15:53,760 --> 00:15:57,040
+Cut, they're all behind the curve now.
+
+560
+00:15:56,000 --> 00:15:58,280
+Now, journalism always used to be
+
+561
+00:15:57,040 --> 00:15:59,400
+reporting on things that are happening,
+
+562
+00:15:58,280 --> 00:16:01,200
+but you'd probably hear about things
+
+563
+00:15:59,400 --> 00:16:02,280
+bubbling. Now, they are behind what's
+
+564
+00:16:01,200 --> 00:16:03,640
+being talked about on Tik Tok, what's
+
+565
+00:16:02,280 --> 00:16:05,400
+being talked about on Substack. They are
+
+566
+00:16:03,640 --> 00:16:06,600
+rewriting what's happening on social
+
+567
+00:16:05,400 --> 00:16:08,480
+media for the most part. So, the
+
+568
+00:16:06,600 --> 00:16:10,000
+conversation has already happened. They
+
+569
+00:16:08,480 --> 00:16:11,240
+are late to it. And their resonance is
+
+570
+00:16:10,000 --> 00:16:12,280
+less than ever. Doesn't travel. People
+
+571
+00:16:11,240 --> 00:16:13,640
+don't click it. People don't read it.
+
+572
+00:16:12,280 --> 00:16:15,160
+You basically have New York has
+
+573
+00:16:13,640 --> 00:16:17,720
+resonance. New York Times, The Wall
+
+574
+00:16:15,160 --> 00:16:20,080
+Street Journal, NY Mag, The Cut have an
+
+575
+00:16:17,720 --> 00:16:21,720
+outsized, disproportionate impact on
+
+576
+00:16:20,080 --> 00:16:23,080
+people in New York who actually read it
+
+577
+00:16:21,720 --> 00:16:24,720
+and engage with it and still participate
+
+578
+00:16:23,080 --> 00:16:25,800
+in media. And then those people's belief
+
+579
+00:16:24,720 --> 00:16:26,839
+that that media still has impact
+
+580
+00:16:25,800 --> 00:16:28,480
+elsewhere, which it really doesn't, is
+
+581
+00:16:26,839 --> 00:16:30,160
+basically gone everywhere else in the
+
+582
+00:16:28,480 --> 00:16:31,360
+world except for there. But if you look
+
+583
+00:16:30,160 --> 00:16:32,360
+at what they're You look at what they're
+
+584
+00:16:31,360 --> 00:16:34,520
+doing and where they're promoting it.
+
+585
+00:16:32,360 --> 00:16:35,520
+Like, GQ wrote about the streaming
+
+586
+00:16:34,520 --> 00:16:36,960
+clicking and clubbing and they were
+
+587
+00:16:35,520 --> 00:16:38,560
+late. And they're just rewriting a bunch
+
+588
+00:16:36,960 --> 00:16:40,280
+of stuff that's already happening on Tik
+
+589
+00:16:38,560 --> 00:16:41,800
+Tok. But they're reporting on stuff that
+
+590
+00:16:40,280 --> 00:16:43,320
+there's already been hundreds of Tik
+
+591
+00:16:41,800 --> 00:16:45,560
+Toks and substacks that were out about
+
+592
+00:16:43,320 --> 00:16:47,080
+this that most of their reader base, of
+
+593
+00:16:45,560 --> 00:16:48,560
+what little is left, I mean, there's not
+
+594
+00:16:47,080 --> 00:16:50,000
+a significant reader base there anymore,
+
+595
+00:16:48,560 --> 00:16:51,080
+has already had the conversation
+
+596
+00:16:50,000 --> 00:16:52,560
+participated in it. This is an
+
+597
+00:16:51,080 --> 00:16:54,000
+afterthought that just happens to be in
+
+598
+00:16:52,560 --> 00:16:55,520
+print that you may have the luxury to
+
+599
+00:16:54,000 --> 00:16:57,760
+read. It is no longer a thing that has
+
+600
+00:16:55,520 --> 00:16:59,480
+any ability to showcase culture. Same
+
+601
+00:16:57,760 --> 00:17:01,160
+thing here on The Cut.
+
+602
+00:16:59,480 --> 00:17:02,640
+Again, this is a big problem of why
+
+603
+00:17:01,160 --> 00:17:04,360
+these why these will never work and why
+
+604
+00:17:02,640 --> 00:17:05,480
+every one of these will die is because
+
+605
+00:17:04,360 --> 00:17:07,120
+of these interstitials like this.
+
+606
+00:17:05,480 --> 00:17:09,360
+There's no way. There's just no way
+
+607
+00:17:07,120 --> 00:17:11,199
+anyone's ever going to
+
+608
+00:17:09,360 --> 00:17:12,400
+pay for this, right? No new user is
+
+609
+00:17:11,199 --> 00:17:14,160
+adopting this
+
+610
+00:17:12,400 --> 00:17:15,920
+to read why celebrity GoFundMe's make
+
+611
+00:17:14,160 --> 00:17:18,000
+people so angry, which again is
+
+612
+00:17:15,920 --> 00:17:19,400
+recapping a Tik Tok. And I've seen this
+
+613
+00:17:18,000 --> 00:17:20,760
+now. Like in addition to people like I
+
+614
+00:17:19,400 --> 00:17:21,920
+want to call out Neil Patel stole one of
+
+615
+00:17:20,760 --> 00:17:23,160
+my YouTube's the other day. And that's
+
+616
+00:17:21,920 --> 00:17:24,199
+Look, there's a hundred people that take
+
+617
+00:17:23,160 --> 00:17:25,600
+YouTube's, right? But basically just
+
+618
+00:17:24,199 --> 00:17:26,680
+recounts word for word how like how
+
+619
+00:17:25,600 --> 00:17:28,840
+brands need to think of their social
+
+620
+00:17:26,680 --> 00:17:29,880
+media like a TV show or a TV network and
+
+621
+00:17:28,840 --> 00:17:31,360
+characters. I'm like, "Oh, they're just
+
+622
+00:17:29,880 --> 00:17:33,200
+taking my exact YouTube." That happens
+
+623
+00:17:31,360 --> 00:17:34,000
+all the time. YouTube, it's it's known.
+
+624
+00:17:33,200 --> 00:17:35,400
+He probably doesn't even know. His
+
+625
+00:17:34,000 --> 00:17:37,040
+writing team just took it. Short forms
+
+626
+00:17:35,400 --> 00:17:39,080
+happens all the time. Traditional media
+
+627
+00:17:37,040 --> 00:17:40,600
+are doing it, but they act like, you
+
+628
+00:17:39,080 --> 00:17:42,200
+know, that like that's a like they're
+
+629
+00:17:40,600 --> 00:17:43,880
+having the idea or that it's noble in
+
+630
+00:17:42,200 --> 00:17:45,560
+some capacity when it's just purely
+
+631
+00:17:43,880 --> 00:17:47,040
+behind. that lack of importance is an
+
+632
+00:17:45,560 --> 00:17:48,600
+important thing to think about. Because
+
+633
+00:17:47,040 --> 00:17:50,240
+if you see it being written about there,
+
+634
+00:17:48,600 --> 00:17:51,560
+you have to realize this is already
+
+635
+00:17:50,240 --> 00:17:53,000
+behind the curve. And what I want to
+
+636
+00:17:51,560 --> 00:17:54,400
+call out here is that this Highsnobiety
+
+637
+00:17:53,000 --> 00:17:56,360
+Insights report where they're talking
+
+638
+00:17:54,400 --> 00:17:58,120
+about like popular products, optimized
+
+639
+00:17:56,360 --> 00:17:59,880
+objects, cultural classics, status
+
+640
+00:17:58,120 --> 00:18:01,040
+symbols. They're writing about, you
+
+641
+00:17:59,880 --> 00:18:03,680
+know, they're putting in this big report
+
+642
+00:18:01,040 --> 00:18:06,200
+with Jesus with BCG. Dark. Bunch of
+
+643
+00:18:03,680 --> 00:18:07,840
+washed ideas that were big tech These
+
+644
+00:18:06,200 --> 00:18:09,160
+are all just big Tik Toks from last
+
+645
+00:18:07,840 --> 00:18:10,760
+year. They're trying to recap into
+
+646
+00:18:09,160 --> 00:18:12,320
+something. It's too late for that. This
+
+647
+00:18:10,760 --> 00:18:14,080
+is not where this is at. They're making
+
+648
+00:18:12,320 --> 00:18:16,880
+stuff about the videos that were being
+
+649
+00:18:14,080 --> 00:18:17,960
+made again in 2025. Now the status
+
+650
+00:18:16,880 --> 00:18:19,240
+symbols have already shifted. The
+
+651
+00:18:17,960 --> 00:18:20,520
+objects have already shifted. Everything
+
+652
+00:18:19,240 --> 00:18:21,840
+they're talking about here is cooked.
+
+653
+00:18:20,520 --> 00:18:22,920
+And so we're in this really interesting
+
+654
+00:18:21,840 --> 00:18:24,560
+time where they still have some
+
+655
+00:18:22,920 --> 00:18:25,640
+resonance for for one reason, which is
+
+656
+00:18:24,560 --> 00:18:26,520
+people still when they think of I need
+
+657
+00:18:25,640 --> 00:18:27,520
+to go to a newsletter, I'm going to
+
+658
+00:18:26,520 --> 00:18:28,280
+browse something, they think of all
+
+659
+00:18:27,520 --> 00:18:29,640
+these names they already have
+
+660
+00:18:28,280 --> 00:18:30,960
+association with. You might still go to
+
+661
+00:18:29,640 --> 00:18:32,560
+Highsnob. You might see it in the feed
+
+662
+00:18:30,960 --> 00:18:33,520
+and stop because you know it. ID is
+
+663
+00:18:32,560 --> 00:18:34,920
+doing well with Carousels. You're
+
+664
+00:18:33,520 --> 00:18:36,120
+stopping because it's ID, not because
+
+665
+00:18:34,920 --> 00:18:38,360
+the Carousel itself is good. There's
+
+666
+00:18:36,120 --> 00:18:40,200
+some merit to stopping the scroll with
+
+667
+00:18:38,360 --> 00:18:41,360
+familiarity. That's the only thing that
+
+668
+00:18:40,200 --> 00:18:42,640
+these have left. And so we're in this
+
+669
+00:18:41,360 --> 00:18:44,080
+kind of precarious position where that
+
+670
+00:18:42,640 --> 00:18:45,840
+still has some relevance. And all these
+
+671
+00:18:44,080 --> 00:18:47,520
+new interesting properties haven't built
+
+672
+00:18:45,840 --> 00:18:48,960
+out above that. But at the same time,
+
+673
+00:18:47,520 --> 00:18:50,360
+like whenever I read Puck, I'm just kind
+
+674
+00:18:48,960 --> 00:18:51,600
+of shocked at the lack of editorial
+
+675
+00:18:50,360 --> 00:18:52,680
+oversight, right? People aren't reading
+
+676
+00:18:51,600 --> 00:18:53,840
+it. It's not researched. It's not
+
+677
+00:18:52,680 --> 00:18:55,200
+double-checked. You can tell people
+
+678
+00:18:53,840 --> 00:18:56,720
+don't know the culture that they're
+
+679
+00:18:55,200 --> 00:18:59,000
+talking about. That's going to be a hard
+
+680
+00:18:56,720 --> 00:19:00,880
+reality for people to work around and
+
+681
+00:18:59,000 --> 00:19:02,400
+for us to function in in terms of what
+
+682
+00:19:00,880 --> 00:19:04,320
+is the importance of media going
+
+683
+00:19:02,400 --> 00:19:06,080
+forward. And so related to this, um I
+
+684
+00:19:04,320 --> 00:19:07,600
+want to talk about probably the most
+
+685
+00:19:06,080 --> 00:19:08,800
+selfish placement that I've had inside
+
+686
+00:19:07,600 --> 00:19:10,720
+of a YouTube video because I get to show
+
+687
+00:19:08,800 --> 00:19:12,280
+off my website. I want to talk about the
+
+688
+00:19:10,720 --> 00:19:13,760
+ease with which you can design and
+
+689
+00:19:12,280 --> 00:19:15,520
+publish and work through some of the
+
+690
+00:19:13,760 --> 00:19:17,400
+things now that a lot of that media used
+
+691
+00:19:15,520 --> 00:19:19,280
+to have, right? There used to be a gate
+
+692
+00:19:17,400 --> 00:19:21,360
+to having beautiful looking media
+
+693
+00:19:19,280 --> 00:19:22,880
+websites, opt-ins, etc. And I want to
+
+694
+00:19:21,360 --> 00:19:24,560
+talk about Framer, who I partnered with
+
+695
+00:19:22,880 --> 00:19:26,600
+on this video. I'm about to do a series
+
+696
+00:19:24,560 --> 00:19:28,320
+with on portfolios and web building, and
+
+697
+00:19:26,600 --> 00:19:29,800
+show you a bit of just how great and
+
+698
+00:19:28,320 --> 00:19:32,160
+easy it is to build these online
+
+699
+00:19:29,800 --> 00:19:34,680
+experiences now. So, I have been redoing
+
+700
+00:19:32,160 --> 00:19:35,720
+all of my online media to look and feel
+
+701
+00:19:34,680 --> 00:19:37,280
+akin to some of the things that I've
+
+702
+00:19:35,720 --> 00:19:38,520
+done with my brand on social media. And
+
+703
+00:19:37,280 --> 00:19:40,080
+this is an example, just to see in the
+
+704
+00:19:38,520 --> 00:19:41,400
+back end of Framer, of what that looks
+
+705
+00:19:40,080 --> 00:19:42,640
+like. So, if you've never edited a
+
+706
+00:19:41,400 --> 00:19:44,200
+website, you want something to look
+
+707
+00:19:42,640 --> 00:19:45,480
+something good, this is how easy it is
+
+708
+00:19:44,200 --> 00:19:47,480
+to go in and be able to say, "Hey, I can
+
+709
+00:19:45,480 --> 00:19:48,400
+just adjust text like this." And all I
+
+710
+00:19:47,480 --> 00:19:51,760
+have to do to adjust that, I actually
+
+711
+00:19:48,400 --> 00:19:53,800
+adjust the break points of mobile and
+
+712
+00:19:51,760 --> 00:19:55,440
+tabs as well. I can have persistent
+
+713
+00:19:53,800 --> 00:19:57,040
+elements, so components that are in
+
+714
+00:19:55,440 --> 00:19:59,280
+here, where I'm able to edit this
+
+715
+00:19:57,040 --> 00:20:00,280
+navigation and it sits on all of the
+
+716
+00:19:59,280 --> 00:20:02,560
+different sites that I have with
+
+717
+00:20:00,280 --> 00:20:05,000
+different variants. And there's so many
+
+718
+00:20:02,560 --> 00:20:07,280
+abilities to position and build a cool
+
+719
+00:20:05,000 --> 00:20:08,760
+looking experience that in such an easy
+
+720
+00:20:07,280 --> 00:20:10,040
+way, it's almost shocking to someone who
+
+721
+00:20:08,760 --> 00:20:11,120
+had to work through WordPress and stuff
+
+722
+00:20:10,040 --> 00:20:12,480
+my whole life, but like, look at what we
+
+723
+00:20:11,120 --> 00:20:13,720
+have here. It's just this is the webinar
+
+724
+00:20:12,480 --> 00:20:15,320
+sign-up. What we're able to do really
+
+725
+00:20:13,720 --> 00:20:17,040
+quickly on Framer is cloud animation
+
+726
+00:20:15,320 --> 00:20:18,400
+that goes up over the form. And so, a
+
+727
+00:20:17,040 --> 00:20:20,240
+bit on the flow that I used to put that
+
+728
+00:20:18,400 --> 00:20:21,920
+together. So, I hired the developer that
+
+729
+00:20:20,240 --> 00:20:23,160
+worked on this from Contra. It's a great
+
+730
+00:20:21,920 --> 00:20:24,120
+place to find professionals if you want
+
+731
+00:20:23,160 --> 00:20:25,920
+to build a website and something like
+
+732
+00:20:24,120 --> 00:20:28,320
+this. I have my brand kit. You'll see a
+
+733
+00:20:25,920 --> 00:20:29,680
+lot of these visuals match the look and
+
+734
+00:20:28,320 --> 00:20:31,080
+feel of the things you see inside my
+
+735
+00:20:29,680 --> 00:20:32,800
+carousels. I have a bunch of those
+
+736
+00:20:31,080 --> 00:20:34,240
+existing elements that tie together. And
+
+737
+00:20:32,800 --> 00:20:35,200
+then once something is made, it's not
+
+738
+00:20:34,240 --> 00:20:36,480
+like, "Okay, cool. I got to go to a
+
+739
+00:20:35,200 --> 00:20:37,840
+developer to make changes each time."
+
+740
+00:20:36,480 --> 00:20:39,280
+We're able to duplicate the webinar page
+
+741
+00:20:37,840 --> 00:20:40,720
+out and change the copy. And so, for
+
+742
+00:20:39,280 --> 00:20:41,880
+instance, this is the the the next one
+
+743
+00:20:40,720 --> 00:20:43,160
+we have coming where I've swapped out
+
+744
+00:20:41,880 --> 00:20:44,800
+some of the graphics, I've swapped out
+
+745
+00:20:43,160 --> 00:20:46,760
+some of the text, but I'm using the same
+
+746
+00:20:44,800 --> 00:20:49,120
+format and formula just with a new
+
+747
+00:20:46,760 --> 00:20:50,520
+setup, right? And there are tons and
+
+748
+00:20:49,120 --> 00:20:51,720
+tons of really interesting themes that
+
+749
+00:20:50,520 --> 00:20:53,240
+work with this. There's all that motion
+
+750
+00:20:51,720 --> 00:20:54,480
+animation, which you can use or not use
+
+751
+00:20:53,240 --> 00:20:55,680
+depending on what you want to do. And
+
+752
+00:20:54,480 --> 00:20:56,720
+there's forms, there's forms that
+
+753
+00:20:55,680 --> 00:20:58,080
+connect directly to a Google Sheet or
+
+754
+00:20:56,720 --> 00:20:59,440
+they'll connect to services like Kit.
+
+755
+00:20:58,080 --> 00:21:01,440
+But, I say all this to say that if you
+
+756
+00:20:59,440 --> 00:21:02,640
+want to have a beautiful website, you
+
+757
+00:21:01,440 --> 00:21:03,800
+want to be able to edit the majority of
+
+758
+00:21:02,640 --> 00:21:05,360
+it yourself. And you'll see here, you
+
+759
+00:21:03,800 --> 00:21:07,040
+see this little icon right here. This is
+
+760
+00:21:05,360 --> 00:21:08,760
+I can edit the content of anything on
+
+761
+00:21:07,040 --> 00:21:10,120
+the live page as well. It's one of the
+
+762
+00:21:08,760 --> 00:21:11,640
+beauties of Framer. To the point
+
+763
+00:21:10,120 --> 00:21:13,840
+basically, we're interacting like this
+
+764
+00:21:11,640 --> 00:21:16,120
+is like interacting with your favorite
+
+765
+00:21:13,840 --> 00:21:17,560
+design software, even easier to be able
+
+766
+00:21:16,120 --> 00:21:18,840
+to make changes that are live on the
+
+767
+00:21:17,560 --> 00:21:21,160
+internet. That anything where you
+
+768
+00:21:18,840 --> 00:21:22,480
+thought it required some huge budget to
+
+769
+00:21:21,160 --> 00:21:24,640
+work through stuff like that, that era
+
+770
+00:21:22,480 --> 00:21:26,000
+is now completely done and empowered by
+
+771
+00:21:24,640 --> 00:21:27,280
+stuff like Framer. So, you can learn
+
+772
+00:21:26,000 --> 00:21:28,520
+more about Framer at the link of the
+
+773
+00:21:27,280 --> 00:21:30,320
+description here. I'm actually going to
+
+774
+00:21:28,520 --> 00:21:32,600
+do a series with them coming up about
+
+775
+00:21:30,320 --> 00:21:33,920
+creative portfolios and thinking through
+
+776
+00:21:32,600 --> 00:21:35,840
+kind of the web. We're going to get into
+
+777
+00:21:33,920 --> 00:21:37,400
+pretty in-depth on it. Uh so, more on
+
+778
+00:21:35,840 --> 00:21:39,640
+that soon. So, now I want to hit this
+
+779
+00:21:37,400 --> 00:21:41,240
+idea of the 15 minutes of fame. There
+
+780
+00:21:39,640 --> 00:21:43,720
+has been more coverage of this girl as a
+
+781
+00:21:41,240 --> 00:21:45,560
+Staples baddie by marketing influencers
+
+782
+00:21:43,720 --> 00:21:46,720
+and creative influencers than I again,
+
+783
+00:21:45,560 --> 00:21:48,600
+with everything is back to the idea of
+
+784
+00:21:46,720 --> 00:21:50,600
+nothing being cool. It is not It is so
+
+785
+00:21:48,600 --> 00:21:52,240
+torched to talk about this now. So, like
+
+786
+00:21:50,600 --> 00:21:53,880
+every single marketing creator is I
+
+787
+00:21:52,240 --> 00:21:55,000
+can't touch stuff like that here. Like
+
+788
+00:21:53,880 --> 00:21:56,440
+when I'm on short form, I'll talk about
+
+789
+00:21:55,000 --> 00:21:57,880
+it a bit here. What I want to call out
+
+790
+00:21:56,440 --> 00:21:59,080
+why this exists. Used to be okay, 15
+
+791
+00:21:57,880 --> 00:22:00,640
+minutes of fame. Everyone can get on the
+
+792
+00:21:59,080 --> 00:22:02,200
+news for a second or have their moment
+
+793
+00:22:00,640 --> 00:22:05,080
+in the sun. We're no longer in the 15
+
+794
+00:22:02,200 --> 00:22:07,000
+minutes of fame era. It is 150 posts to
+
+795
+00:22:05,080 --> 00:22:08,080
+escape the permanent underclass. That is
+
+796
+00:22:07,000 --> 00:22:09,080
+what the trend looks like. Where it's
+
+797
+00:22:08,080 --> 00:22:11,160
+not like, cool, I'm going to go viral
+
+798
+00:22:09,080 --> 00:22:12,360
+once. If you post 150 times and you have
+
+799
+00:22:11,160 --> 00:22:14,240
+some degree of charisma or something
+
+800
+00:22:12,360 --> 00:22:16,080
+interesting to go on, you have an
+
+801
+00:22:14,240 --> 00:22:17,480
+ability to project your life into a
+
+802
+00:22:16,080 --> 00:22:19,160
+completely different scenario. Her life
+
+803
+00:22:17,480 --> 00:22:21,200
+will be different forever because she
+
+804
+00:22:19,160 --> 00:22:22,800
+posted at her job about being at Staples
+
+805
+00:22:21,200 --> 00:22:23,600
+with her vibe and her characteristic.
+
+806
+00:22:22,800 --> 00:22:24,920
+Now, there are plenty of people that
+
+807
+00:22:23,600 --> 00:22:26,960
+aren't interesting enough to be able to
+
+808
+00:22:24,920 --> 00:22:28,560
+cross that boundary, but there are tons
+
+809
+00:22:26,960 --> 00:22:30,640
+and tons of interesting people who are
+
+810
+00:22:28,560 --> 00:22:31,920
+150 posts in their lives away from
+
+811
+00:22:30,640 --> 00:22:33,280
+again, not just the 15 minutes of fame,
+
+812
+00:22:31,920 --> 00:22:35,160
+oh, she's famous here. This will change
+
+813
+00:22:33,280 --> 00:22:36,720
+her life forever. It will change how
+
+814
+00:22:35,160 --> 00:22:37,960
+she's able to interact with the media
+
+815
+00:22:36,720 --> 00:22:39,640
+landscape, what jobs she gets in the
+
+816
+00:22:37,960 --> 00:22:41,440
+future, her compensation. It's not like
+
+817
+00:22:39,640 --> 00:22:43,280
+she just got shown on CNN once or she's
+
+818
+00:22:41,440 --> 00:22:46,240
+on an episode of ridiculousness. This is
+
+819
+00:22:43,280 --> 00:22:48,040
+a fiscal life change, the likes of which
+
+820
+00:22:46,240 --> 00:22:49,760
+are are almost impossible to navigate
+
+821
+00:22:48,040 --> 00:22:50,920
+for people prior. It's important concept
+
+822
+00:22:49,760 --> 00:22:52,240
+to understand. I'm going to zip through
+
+823
+00:22:50,920 --> 00:22:53,160
+a few more of these to wrap up this
+
+824
+00:22:52,240 --> 00:22:55,120
+video. I'm going to talk about the
+
+825
+00:22:53,160 --> 00:22:56,720
+gimmicks of real life is another one. Do
+
+826
+00:22:55,120 --> 00:22:57,840
+people really want to go to in real life
+
+827
+00:22:56,720 --> 00:22:59,640
+events now? And you saw things like the
+
+828
+00:22:57,840 --> 00:23:00,560
+Timothée Chalamet look-alike contest or
+
+829
+00:22:59,640 --> 00:23:02,480
+whatever, but they're a lot of them have
+
+830
+00:23:00,560 --> 00:23:03,840
+a gimmick or an idea. And I've seen some
+
+831
+00:23:02,480 --> 00:23:05,280
+media write about how that's like a bad
+
+832
+00:23:03,840 --> 00:23:06,640
+thing, how can things not just be normal
+
+833
+00:23:05,280 --> 00:23:08,000
+now. But honestly, people want to be
+
+834
+00:23:06,640 --> 00:23:10,080
+excited and want to participate in
+
+835
+00:23:08,000 --> 00:23:11,640
+things that are fun, and I leaned into
+
+836
+00:23:10,080 --> 00:23:12,920
+this trend here this last week. So, Expo
+
+837
+00:23:11,640 --> 00:23:14,400
+West is a snack convention here in
+
+838
+00:23:12,920 --> 00:23:16,640
+Orange County. It's a natural foods
+
+839
+00:23:14,400 --> 00:23:18,560
+expo. I go every year. And so, I was
+
+840
+00:23:16,640 --> 00:23:19,600
+with some uh people I know, so the Air
+
+841
+00:23:18,560 --> 00:23:21,480
+team,
+
+842
+00:23:19,600 --> 00:23:24,560
+Andrea from SnackShot, Taylor the Rens.
+
+843
+00:23:21,480 --> 00:23:26,920
+We put together and judged a pretty
+
+844
+00:23:24,560 --> 00:23:29,120
+popping contest for America's Next Top
+
+845
+00:23:26,920 --> 00:23:31,600
+Snack. So, we modeled it after Shark
+
+846
+00:23:29,120 --> 00:23:33,440
+Tank, America's Next Top Model, where we
+
+847
+00:23:31,600 --> 00:23:35,320
+selected 50 brands submitted, we
+
+848
+00:23:33,440 --> 00:23:38,520
+selected six.
+
+849
+00:23:35,320 --> 00:23:40,360
+They came and presented on stage their
+
+850
+00:23:38,520 --> 00:23:42,480
+brand to a big crowd of people,
+
+851
+00:23:40,360 --> 00:23:43,960
+including like the Kroger buying team,
+
+852
+00:23:42,480 --> 00:23:45,640
+like in the front like with legitimate
+
+853
+00:23:43,960 --> 00:23:46,640
+people in the industry, plus just a lot
+
+854
+00:23:45,640 --> 00:23:48,520
+of people who are excited about the
+
+855
+00:23:46,640 --> 00:23:49,680
+niche, people from my social media, that
+
+856
+00:23:48,520 --> 00:23:50,920
+kind of thing. And then one of them won,
+
+857
+00:23:49,680 --> 00:23:52,920
+and they won a photo shoot, they won a
+
+858
+00:23:50,920 --> 00:23:54,880
+pop-up store space in New York. I
+
+859
+00:23:52,920 --> 00:23:56,320
+invested money into them along with Air.
+
+860
+00:23:54,880 --> 00:23:58,360
+This brand, Bezzito, who makes an
+
+861
+00:23:56,320 --> 00:23:59,840
+amazing labneh snack, won. But people
+
+862
+00:23:58,360 --> 00:24:01,040
+came because it's in it's interesting,
+
+863
+00:23:59,840 --> 00:24:02,720
+it's fun. There's something completely
+
+864
+00:24:01,040 --> 00:24:04,600
+different. Oh, we're going to see six
+
+865
+00:24:02,720 --> 00:24:05,800
+brands basically do a 3-minute pitch on
+
+866
+00:24:04,600 --> 00:24:07,160
+their product, people are going to be
+
+867
+00:24:05,800 --> 00:24:08,560
+like screaming or yelling, or they're
+
+868
+00:24:07,160 --> 00:24:10,800
+getting asked hard questions, and that's
+
+869
+00:24:08,560 --> 00:24:12,080
+all happening live. And this experience
+
+870
+00:24:10,800 --> 00:24:13,400
+era, like that's why I like call out
+
+871
+00:24:12,080 --> 00:24:15,320
+that, like we rented a Bubba Gump
+
+872
+00:24:13,400 --> 00:24:18,600
+Shrimp, that we had a step and repeat, a
+
+873
+00:24:15,320 --> 00:24:20,760
+table, like a extremely mediocre AV
+
+874
+00:24:18,600 --> 00:24:21,960
+system, and that is the extent of the
+
+875
+00:24:20,760 --> 00:24:23,400
+event production, right? To turn
+
+876
+00:24:21,960 --> 00:24:25,000
+something from your average party to
+
+877
+00:24:23,400 --> 00:24:26,720
+just something interesting. And still,
+
+878
+00:24:25,000 --> 00:24:28,240
+in and around the core hour of the
+
+879
+00:24:26,720 --> 00:24:30,440
+actual activity, there's tons of hangout
+
+880
+00:24:28,240 --> 00:24:31,920
+and tons of whatever. But that is where
+
+881
+00:24:30,440 --> 00:24:33,480
+the whether it's a brand event or a
+
+882
+00:24:31,920 --> 00:24:35,640
+personal event, people are so attached
+
+883
+00:24:33,480 --> 00:24:37,000
+to having something be more than just a
+
+884
+00:24:35,640 --> 00:24:38,040
+hang. That's an interesting thing to
+
+885
+00:24:37,000 --> 00:24:39,640
+think about if you're building any
+
+886
+00:24:38,040 --> 00:24:42,000
+experience. Moving on, I want to talk
+
+887
+00:24:39,640 --> 00:24:43,240
+about the the AI fight. I want you to
+
+888
+00:24:42,000 --> 00:24:44,440
+understand this in context of the
+
+889
+00:24:43,240 --> 00:24:46,040
+future. So, obviously, you'll see a lot
+
+890
+00:24:44,440 --> 00:24:47,720
+of backlash about AI-generated imagery
+
+891
+00:24:46,040 --> 00:24:49,360
+and video online. Totally get it.
+
+892
+00:24:47,720 --> 00:24:50,800
+There's a is a conversation to have. But
+
+893
+00:24:49,360 --> 00:24:52,600
+you have to understand where it is in
+
+894
+00:24:50,800 --> 00:24:54,120
+terms of what the generations look like,
+
+895
+00:24:52,600 --> 00:24:55,800
+and and what's coming in the future. So,
+
+896
+00:24:54,120 --> 00:24:57,520
+you can be as mad as you want at that,
+
+897
+00:24:55,800 --> 00:24:59,040
+or think that it can be avoided or
+
+898
+00:24:57,520 --> 00:25:00,720
+stopped now. But, if you look at what
+
+899
+00:24:59,040 --> 00:25:02,120
+the adoption looks like for the previous
+
+900
+00:25:00,720 --> 00:25:04,320
+generations, it's a completely different
+
+901
+00:25:02,120 --> 00:25:05,640
+thing. So, I was with a group of college
+
+902
+00:25:04,320 --> 00:25:07,040
+designers the other week, and one of
+
+903
+00:25:05,640 --> 00:25:08,160
+them was working on his clothing line.
+
+904
+00:25:07,040 --> 00:25:09,600
+And so, basically, they had designed
+
+905
+00:25:08,160 --> 00:25:11,120
+this entire thing in FreePik. They'd
+
+906
+00:25:09,600 --> 00:25:13,600
+taken their iconography, they had
+
+907
+00:25:11,120 --> 00:25:14,960
+generated that into flats, they had
+
+908
+00:25:13,600 --> 00:25:16,280
+brought those flats into mock-ups,
+
+909
+00:25:14,960 --> 00:25:18,160
+they're bringing into materials. It's an
+
+910
+00:25:16,280 --> 00:25:19,960
+entire collection design. Even starting
+
+911
+00:25:18,160 --> 00:25:21,960
+to go into what patterns and grading
+
+912
+00:25:19,960 --> 00:25:23,080
+look like, completely prompted by AI.
+
+913
+00:25:21,960 --> 00:25:23,880
+And I'm not saying it was perfect, but I
+
+914
+00:25:23,080 --> 00:25:25,440
+looked at it and I was like, "Oh, this
+
+915
+00:25:23,880 --> 00:25:26,680
+is actually good." And this is just
+
+916
+00:25:25,440 --> 00:25:28,200
+built in, this is how they are
+
+917
+00:25:26,680 --> 00:25:30,080
+interacting with the future. This is the
+
+918
+00:25:28,200 --> 00:25:32,360
+next generation of those people. You
+
+919
+00:25:30,080 --> 00:25:34,320
+cannot stop the momentum of that. And to
+
+920
+00:25:32,360 --> 00:25:36,280
+take that a step further, I look at um
+
+921
+00:25:34,320 --> 00:25:38,040
+in my son's school, he's nine, he uses
+
+922
+00:25:36,280 --> 00:25:39,640
+Canva. Canva's built into their
+
+923
+00:25:38,040 --> 00:25:41,080
+curriculum. And inside that, we got him
+
+924
+00:25:39,640 --> 00:25:42,160
+the the pro version, or whatever it is,
+
+925
+00:25:41,080 --> 00:25:43,040
+cuz he's spending a lot of time working
+
+926
+00:25:42,160 --> 00:25:44,600
+in it and creating stuff. They're
+
+927
+00:25:43,040 --> 00:25:45,760
+generating images. The images that are
+
+928
+00:25:44,600 --> 00:25:46,760
+showing up inside there, it's not even a
+
+929
+00:25:45,760 --> 00:25:48,560
+question, it's not even like, "Oh, I'm
+
+930
+00:25:46,760 --> 00:25:49,920
+using AI to do this," or X or Y.
+
+931
+00:25:48,560 --> 00:25:51,120
+Generating is just a thing that they can
+
+932
+00:25:49,920 --> 00:25:52,160
+do, and they type in the stuff, and it's
+
+933
+00:25:51,120 --> 00:25:53,920
+just built into the workflow. It's
+
+934
+00:25:52,160 --> 00:25:56,040
+second nature, it's inherent. And I just
+
+935
+00:25:53,920 --> 00:25:57,680
+want to call out those two things as any
+
+936
+00:25:56,040 --> 00:25:59,640
+conversation or battle that we're having
+
+937
+00:25:57,680 --> 00:26:01,120
+around this now is lost. In a
+
+938
+00:25:59,640 --> 00:26:02,680
+generational shift, they're growing up
+
+939
+00:26:01,120 --> 00:26:04,920
+with it in a way that's not even
+
+940
+00:26:02,680 --> 00:26:06,440
+decipherable from reality. And that's
+
+941
+00:26:04,920 --> 00:26:07,840
+when you know that there is no turning
+
+942
+00:26:06,440 --> 00:26:09,400
+point. I just want that to be kind of
+
+943
+00:26:07,840 --> 00:26:10,160
+understood when you look at what the
+
+944
+00:26:09,400 --> 00:26:12,200
+difference is going to be
+
+945
+00:26:10,160 --> 00:26:13,400
+generationally, that's already gone.
+
+946
+00:26:12,200 --> 00:26:15,720
+Now, I want to have a quick conversation
+
+947
+00:26:13,400 --> 00:26:17,800
+about the legacy media trying to
+
+948
+00:26:15,720 --> 00:26:19,800
+understand the new media landscape. So,
+
+949
+00:26:17,800 --> 00:26:21,440
+Netflix recently added podcasts. This is
+
+950
+00:26:19,800 --> 00:26:23,000
+a good example of this. So, you can get
+
+951
+00:26:21,440 --> 00:26:25,000
+a lot of you can get podcasts from The
+
+952
+00:26:23,000 --> 00:26:26,480
+Ringer, you can get Barstool podcasts,
+
+953
+00:26:25,000 --> 00:26:27,920
+to others, you can get like Breakfast
+
+954
+00:26:26,480 --> 00:26:29,040
+Club on Netflix. But, what was
+
+955
+00:26:27,920 --> 00:26:30,840
+interesting to me about that is you
+
+956
+00:26:29,040 --> 00:26:31,960
+can't find them. I went I want to see
+
+957
+00:26:30,840 --> 00:26:33,320
+what this looked like. I'm thinking
+
+958
+00:26:31,960 --> 00:26:34,800
+about what my media looks like in a
+
+959
+00:26:33,320 --> 00:26:36,560
+streaming and TV world. So, I was
+
+960
+00:26:34,800 --> 00:26:37,880
+looking for examples. You can't navigate
+
+961
+00:26:36,560 --> 00:26:39,800
+to them. There's no podcast tab, you
+
+962
+00:26:37,880 --> 00:26:40,720
+can't find them. You have to search. So,
+
+963
+00:26:39,800 --> 00:26:42,200
+for instance, if I want to actually go
+
+964
+00:26:40,720 --> 00:26:43,800
+and engage with that podcast, you have
+
+965
+00:26:42,200 --> 00:26:45,080
+to be searched down to get to Bill
+
+966
+00:26:43,800 --> 00:26:46,200
+Simmons, or something like that. Now,
+
+967
+00:26:45,080 --> 00:26:48,040
+this kind of defeats the point, right?
+
+968
+00:26:46,200 --> 00:26:49,280
+Because what podcast are going to want
+
+969
+00:26:48,040 --> 00:26:50,760
+to promote themselves so hard that
+
+970
+00:26:49,280 --> 00:26:52,240
+they're on Netflix that enough people
+
+971
+00:26:50,760 --> 00:26:54,200
+search to watch them that it actually
+
+972
+00:26:52,240 --> 00:26:55,320
+becomes relevant. Even the biggest ones
+
+973
+00:26:54,200 --> 00:26:56,680
+aren't going to be able to do numbers
+
+974
+00:26:55,320 --> 00:26:58,360
+like that that would matter in any way,
+
+975
+00:26:56,680 --> 00:27:00,760
+shape, or form. Without discovery, there
+
+976
+00:26:58,360 --> 00:27:01,960
+is inherently no use of those platforms.
+
+977
+00:27:00,760 --> 00:27:03,360
+But then when you actually get to them,
+
+978
+00:27:01,960 --> 00:27:05,480
+these podcasts are unwatchable. I
+
+979
+00:27:03,360 --> 00:27:06,560
+There's never been a darker moment than
+
+980
+00:27:05,480 --> 00:27:08,000
+actually seeing what some of these
+
+981
+00:27:06,560 --> 00:27:09,400
+people look like, right? And I'm sure
+
+982
+00:27:08,000 --> 00:27:10,600
+many of you consume podcasts on YouTube.
+
+983
+00:27:09,400 --> 00:27:12,480
+If you go watch like I looked at the
+
+984
+00:27:10,600 --> 00:27:13,600
+Russillo podcast or some of the Barstool
+
+985
+00:27:12,480 --> 00:27:14,720
+stuff, you're like you would once you
+
+986
+00:27:13,600 --> 00:27:16,040
+start looking at these people, you
+
+987
+00:27:14,720 --> 00:27:17,400
+realize you would never want to listen
+
+988
+00:27:16,040 --> 00:27:18,440
+to them. There's a There's a dissonance
+
+989
+00:27:17,400 --> 00:27:19,720
+there. And the production value's
+
+990
+00:27:18,440 --> 00:27:20,800
+terrible. At least the Bill Simmons one
+
+991
+00:27:19,720 --> 00:27:22,360
+at least kind of like looks all right,
+
+992
+00:27:20,800 --> 00:27:23,800
+but again, it's not compelling enough
+
+993
+00:27:22,360 --> 00:27:24,760
+that you'd want to watch it on TV versus
+
+994
+00:27:23,800 --> 00:27:27,240
+even what we're able to do with
+
+995
+00:27:24,760 --> 00:27:28,880
+overlays, etc. inside a bunch of these
+
+996
+00:27:27,240 --> 00:27:30,440
+YouTube videos. And we saw this with
+
+997
+00:27:28,880 --> 00:27:31,600
+Amazon that has been Prime that's been
+
+998
+00:27:30,440 --> 00:27:33,280
+basically been giving some shows to
+
+999
+00:27:31,600 --> 00:27:34,760
+YouTubers that are like they're they're
+
+1000
+00:27:33,280 --> 00:27:36,640
+quasi working out, they're getting
+
+1001
+00:27:34,760 --> 00:27:38,760
+there. But this navigation is going to
+
+1002
+00:27:36,640 --> 00:27:39,720
+be a huge thing because there is no
+
+1003
+00:27:38,760 --> 00:27:41,240
+longer the needed Hollywood
+
+1004
+00:27:39,720 --> 00:27:42,680
+infrastructure to push this. Production
+
+1005
+00:27:41,240 --> 00:27:44,040
+is significantly easier than it was.
+
+1006
+00:27:42,680 --> 00:27:45,240
+People want to consume the type of media
+
+1007
+00:27:44,040 --> 00:27:46,760
+they're consuming on YouTube. It's going
+
+1008
+00:27:45,240 --> 00:27:48,680
+to be hard for those streaming networks
+
+1009
+00:27:46,760 --> 00:27:50,200
+to compete without IP and promotion. And
+
+1010
+00:27:48,680 --> 00:27:52,120
+a lot of this it's going to come out of
+
+1011
+00:27:50,200 --> 00:27:54,000
+social media. way that they started to
+
+1012
+00:27:52,120 --> 00:27:55,880
+solve it is not right. It was kind of
+
+1013
+00:27:54,000 --> 00:27:57,760
+rushed. And I think there's just a huge
+
+1014
+00:27:55,880 --> 00:27:58,720
+opportunity in Delta to understand that
+
+1015
+00:27:57,760 --> 00:28:00,480
+and go back to what I've mentioned
+
+1016
+00:27:58,720 --> 00:28:01,720
+before about clipping, about all the
+
+1017
+00:28:00,480 --> 00:28:03,520
+infrastructure we have around media
+
+1018
+00:28:01,720 --> 00:28:05,280
+today, and build something unique. And
+
+1019
+00:28:03,520 --> 00:28:06,360
+the second gen of this, the second gen
+
+1020
+00:28:05,280 --> 00:28:08,800
+of what these companies look like that
+
+1021
+00:28:06,360 --> 00:28:11,200
+end up on there are going to likely be
+
+1022
+00:28:08,800 --> 00:28:12,400
+uh huge cultural moments. And I know I'm
+
+1023
+00:28:11,200 --> 00:28:14,080
+a little far back to be able to
+
+1024
+00:28:12,400 --> 00:28:15,960
+participate in that. Maybe I get to gen
+
+1025
+00:28:14,080 --> 00:28:17,680
+three, but uh we're going to get there
+
+1026
+00:28:15,960 --> 00:28:19,200
+even on the tail end. And the last three
+
+1027
+00:28:17,680 --> 00:28:21,600
+points I want to have here, we'll talk
+
+1028
+00:28:19,200 --> 00:28:23,080
+briefly about Polymarket calls she in
+
+1029
+00:28:21,600 --> 00:28:24,240
+the conversations there. I don't support
+
+1030
+00:28:23,080 --> 00:28:26,160
+or condone these. I want people to
+
+1031
+00:28:24,240 --> 00:28:28,200
+understand their implications. So, I
+
+1032
+00:28:26,160 --> 00:28:29,080
+learned a lot about this when I uh was
+
+1033
+00:28:28,200 --> 00:28:30,360
+going through this with some friends
+
+1034
+00:28:29,080 --> 00:28:32,400
+around the Super Bowl cuz there were
+
+1035
+00:28:30,360 --> 00:28:34,840
+odds on if certain brands were going to
+
+1036
+00:28:32,400 --> 00:28:36,360
+run ads on the Super Bowl. And I had I
+
+1037
+00:28:34,840 --> 00:28:37,520
+won't say insider information, I'm not
+
+1038
+00:28:36,360 --> 00:28:38,840
+betting on it, but I had information. I
+
+1039
+00:28:37,520 --> 00:28:40,320
+know some people were running Super Bowl
+
+1040
+00:28:38,840 --> 00:28:41,400
+ads. I know for sure. And there are odds
+
+1041
+00:28:40,320 --> 00:28:43,560
+on this. Let's look at this Entropic.
+
+1042
+00:28:41,400 --> 00:28:45,240
+Entropic had 50/50 odds you could bet on
+
+1043
+00:28:43,560 --> 00:28:46,840
+and return real money. And people were
+
+1044
+00:28:45,240 --> 00:28:48,560
+able to bet and put context on it and
+
+1045
+00:28:46,840 --> 00:28:50,280
+they have that information. And the odds
+
+1046
+00:28:48,560 --> 00:28:51,920
+kind of adjust based on this. And the
+
+1047
+00:28:50,280 --> 00:28:53,520
+fact that this exists and there's like
+
+1048
+00:28:51,920 --> 00:28:54,720
+this legality and morality that we're
+
+1049
+00:28:53,520 --> 00:28:56,160
+sort of struggling with of okay, well,
+
+1050
+00:28:54,720 --> 00:28:57,600
+can I use what information is usable or
+
+1051
+00:28:56,160 --> 00:28:58,760
+not? Where does the legality lie?
+
+1052
+00:28:57,600 --> 00:29:00,320
+Obviously, someone in Mr. Beast's camp
+
+1053
+00:28:58,760 --> 00:29:02,680
+was like arrested for working inside of
+
+1054
+00:29:00,320 --> 00:29:03,640
+this. The people know more than anything
+
+1055
+00:29:02,680 --> 00:29:05,360
+traditional and they're able to
+
+1056
+00:29:03,640 --> 00:29:06,800
+participate in that online. And I don't
+
+1057
+00:29:05,360 --> 00:29:08,600
+think this is the final incarnation of
+
+1058
+00:29:06,800 --> 00:29:10,080
+this is the point. This idea of
+
+1059
+00:29:08,600 --> 00:29:12,280
+prediction itself, this idea of the
+
+1060
+00:29:10,080 --> 00:29:13,280
+knowledge of the crowd, of the usage of
+
+1061
+00:29:12,280 --> 00:29:15,640
+that insider knowledge and how
+
+1062
+00:29:13,280 --> 00:29:17,360
+monetizable that is. This is like stage
+
+1063
+00:29:15,640 --> 00:29:18,960
+one. So, I wouldn't just ignore this
+
+1064
+00:29:17,360 --> 00:29:20,720
+purely because it's like a casino. I
+
+1065
+00:29:18,960 --> 00:29:22,440
+don't even I don't think of it from that
+
+1066
+00:29:20,720 --> 00:29:24,000
+regard. And I would really look at what
+
+1067
+00:29:22,440 --> 00:29:25,880
+is those implications mean for the
+
+1068
+00:29:24,000 --> 00:29:27,040
+future of how we interact. Something to
+
+1069
+00:29:25,880 --> 00:29:29,160
+think about. And then next, I want to
+
+1070
+00:29:27,040 --> 00:29:30,240
+call out monoculture. You would think in
+
+1071
+00:29:29,160 --> 00:29:31,520
+this social media era, all the things
+
+1072
+00:29:30,240 --> 00:29:34,200
+we've talked about, we would lose
+
+1073
+00:29:31,520 --> 00:29:35,720
+resonance on so many of these cultural
+
+1074
+00:29:34,200 --> 00:29:37,360
+items that were institutions. But the
+
+1075
+00:29:35,720 --> 00:29:39,160
+few things that we have left that people
+
+1076
+00:29:37,360 --> 00:29:40,280
+actually care enough about are massively
+
+1077
+00:29:39,160 --> 00:29:41,600
+important. And I'll call this out even
+
+1078
+00:29:40,280 --> 00:29:44,160
+in my own content. I talked about the
+
+1079
+00:29:41,600 --> 00:29:45,600
+Olympic uniforms for the winter games.
+
+1080
+00:29:44,160 --> 00:29:47,400
+It's a really successful video of mine.
+
+1081
+00:29:45,600 --> 00:29:48,920
+Same thing with the Super Bowl ads. I
+
+1082
+00:29:47,400 --> 00:29:50,680
+recapped that. Did a bunch of coverage
+
+1083
+00:29:48,920 --> 00:29:52,120
+on X that went really viral and then did
+
+1084
+00:29:50,680 --> 00:29:53,600
+same thing on TikTok and Instagram that
+
+1085
+00:29:52,120 --> 00:29:55,320
+also uh did really well. We have so
+
+1086
+00:29:53,600 --> 00:29:56,840
+little to talk about that everyone does
+
+1087
+00:29:55,320 --> 00:29:58,040
+that those exact moments become more
+
+1088
+00:29:56,840 --> 00:29:59,000
+influential than ever. And they
+
+1089
+00:29:58,040 --> 00:30:00,360
+basically give them their own
+
+1090
+00:29:59,000 --> 00:30:01,760
+algorithms. What I noticed about that
+
+1091
+00:30:00,360 --> 00:30:03,080
+Olympic video is there's all these
+
+1092
+00:30:01,760 --> 00:30:04,720
+people in the Olympic Village that are
+
+1093
+00:30:03,080 --> 00:30:05,840
+going viral, posting all their stuff.
+
+1094
+00:30:04,720 --> 00:30:06,880
+And then my video would be shown right
+
+1095
+00:30:05,840 --> 00:30:08,800
+after a bunch of that, right? The
+
+1096
+00:30:06,880 --> 00:30:10,240
+algorithms know what to do with a moment
+
+1097
+00:30:08,800 --> 00:30:11,840
+in time. And there's only so many
+
+1098
+00:30:10,240 --> 00:30:13,200
+moments in time to do it. And so, we
+
+1099
+00:30:11,840 --> 00:30:14,320
+have Black Friday, stuff like that. You
+
+1100
+00:30:13,200 --> 00:30:15,560
+have Valen tine's Day. You have your
+
+1101
+00:30:14,320 --> 00:30:16,760
+kind of standard events. But then you
+
+1102
+00:30:15,560 --> 00:30:18,360
+have stuff like the World Cup or the
+
+1103
+00:30:16,760 --> 00:30:20,320
+Super Bowl or any of those. That is a
+
+1104
+00:30:18,360 --> 00:30:21,760
+worthwhile looking at when you're where
+
+1105
+00:30:20,320 --> 00:30:23,680
+your media spend goes, what the impact
+
+1106
+00:30:21,760 --> 00:30:25,360
+is. I have gone now from thinking that
+
+1107
+00:30:23,680 --> 00:30:26,640
+traditional media wouldn't be as useful
+
+1108
+00:30:25,360 --> 00:30:28,280
+to saying the highest end of it, your
+
+1109
+00:30:26,640 --> 00:30:30,120
+Super Bowl TV ad is probably one of the
+
+1110
+00:30:28,280 --> 00:30:31,560
+most impactful things you can buy if you
+
+1111
+00:30:30,120 --> 00:30:33,080
+build around it. And so, it's worth
+
+1112
+00:30:31,560 --> 00:30:34,520
+thinking about whether it's for you or
+
+1113
+00:30:33,080 --> 00:30:36,520
+for your brand, what you interact with,
+
+1114
+00:30:34,520 --> 00:30:37,920
+what those remaining monoculture moments
+
+1115
+00:30:36,520 --> 00:30:39,680
+are cuz I actually think they have more
+
+1116
+00:30:37,920 --> 00:30:41,560
+leverage than ever. And the last thing I
+
+1117
+00:30:39,680 --> 00:30:43,600
+want to end on here is the monetization
+
+1118
+00:30:41,560 --> 00:30:45,120
+of information. I made a video Um it
+
+1119
+00:30:43,600 --> 00:30:46,520
+didn't do super well because cuz it's
+
+1120
+00:30:45,120 --> 00:30:48,240
+niche. I made a video about how
+
+1121
+00:30:46,520 --> 00:30:50,080
+basically so many businesses are also
+
+1122
+00:30:48,240 --> 00:30:51,480
+selling workshops and courses now.
+
+1123
+00:30:50,080 --> 00:30:53,000
+Basically I look at it like the post
+
+1124
+00:30:51,480 --> 00:30:54,960
+master class era. Master class
+
+1125
+00:30:53,000 --> 00:30:56,640
+normalized the selling of information to
+
+1126
+00:30:54,960 --> 00:30:58,240
+your average people to be able to gain a
+
+1127
+00:30:56,640 --> 00:31:00,480
+level of knowledge. But now we're also
+
+1128
+00:30:58,240 --> 00:31:02,280
+seeing to monetize businesses in retail
+
+1129
+00:31:00,480 --> 00:31:04,200
+or with growing costs your bouquet
+
+1130
+00:31:02,280 --> 00:31:06,400
+flower company is selling how to make a
+
+1131
+00:31:04,200 --> 00:31:08,960
+luxury flower arrangement. Your Japanese
+
+1132
+00:31:06,400 --> 00:31:11,200
+gardening store is doing actually like
+
+1133
+00:31:08,960 --> 00:31:13,040
+lessons online via Zoom. There is this
+
+1134
+00:31:11,200 --> 00:31:14,080
+idea of the value of information that
+
+1135
+00:31:13,040 --> 00:31:15,760
+people would have thought would have
+
+1136
+00:31:14,080 --> 00:31:17,280
+been bad. With chat GPT I can answer
+
+1137
+00:31:15,760 --> 00:31:18,720
+anything now. I can learn anything on
+
+1138
+00:31:17,280 --> 00:31:21,560
+YouTube. I think what people are missing
+
+1139
+00:31:18,720 --> 00:31:23,320
+is how disserved the world's population
+
+1140
+00:31:21,560 --> 00:31:26,080
+is by their educational institutions.
+
+1141
+00:31:23,320 --> 00:31:27,400
+Their desire for learning and actually
+
+1142
+00:31:26,080 --> 00:31:29,320
+learning it like with a group where they
+
+1143
+00:31:27,400 --> 00:31:31,080
+can participate and the kind of dollars
+
+1144
+00:31:29,320 --> 00:31:33,160
+around that and the trend and basically
+
+1145
+00:31:31,080 --> 00:31:34,600
+like the replacement of enough of the
+
+1146
+00:31:33,160 --> 00:31:36,080
+traditional educational infrastructure
+
+1147
+00:31:34,600 --> 00:31:37,920
+with the ability to get exactly what you
+
+1148
+00:31:36,080 --> 00:31:39,600
+want online. But that monetization of
+
+1149
+00:31:37,920 --> 00:31:40,640
+information has not hit the middle of
+
+1150
+00:31:39,600 --> 00:31:42,160
+the bell curve yet. There's a
+
+1151
+00:31:40,640 --> 00:31:44,200
+significant amount of alpha there to
+
+1152
+00:31:42,160 --> 00:31:45,920
+think about for any business of any
+
+1153
+00:31:44,200 --> 00:31:47,000
+kind. So I know this was a long video
+
+1154
+00:31:45,920 --> 00:31:48,640
+but I think it's important to understand
+
+1155
+00:31:47,000 --> 00:31:50,720
+all of these repercussions of the things
+
+1156
+00:31:48,640 --> 00:31:52,160
+happening on the internet for your life,
+
+1157
+00:31:50,720 --> 00:31:53,640
+for the brand you work out or for the
+
+1158
+00:31:52,160 --> 00:31:55,080
+brand you own. Like I mentioned we're
+
+1159
+00:31:53,640 --> 00:31:57,040
+going to have a discussion about this in
+
+1160
+00:31:55,080 --> 00:31:58,760
+the next community call. Info on that is
+
+1161
+00:31:57,040 --> 00:32:00,640
+down below specifically in terms of how
+
+1162
+00:31:58,760 --> 00:32:01,840
+do you build brand and marketing teams
+
+1163
+00:32:00,640 --> 00:32:03,600
+around it cuz obviously that's my
+
+1164
+00:32:01,840 --> 00:32:04,680
+specialty. I've been a lot to Japan so a
+
+1165
+00:32:03,600 --> 00:32:06,120
+bunch of that content is going to be
+
+1166
+00:32:04,680 --> 00:32:07,160
+coming out here in the coming weeks.
+
+1167
+00:32:06,120 --> 00:32:08,440
+We're going to talk a bit about that.
+
+1168
+00:32:07,160 --> 00:32:09,720
+It's an interesting cultural moment that
+
+1169
+00:32:08,440 --> 00:32:11,240
+we have. Love to have a conversation
+
+1170
+00:32:09,720 --> 00:32:12,720
+about any of these things that you see
+
+1171
+00:32:11,240 --> 00:32:13,920
+or disagree with down below. I'm most
+
+1172
+00:32:12,720 --> 00:32:15,800
+interested to see how people are
+
+1173
+00:32:13,920 --> 00:32:17,360
+interacting with these same pieces of
+
+1174
+00:32:15,800 --> 00:32:19,800
+media. Thank you all so much for
+
+1175
+00:32:17,360 --> 00:32:19,800
+watching.
+

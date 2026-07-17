@@ -1,0 +1,3272 @@
+1
+00:00:00,000 --> 00:00:03,400
+In this video, we are going to talk
+
+2
+00:00:01,520 --> 00:00:06,000
+about the art direction, creative
+
+3
+00:00:03,400 --> 00:00:08,000
+direction, and marketing of technology.
+
+4
+00:00:06,000 --> 00:00:10,000
+And thank you to HubSpot for sponsoring
+
+5
+00:00:08,000 --> 00:00:11,520
+this video. There's a million things
+
+6
+00:00:10,000 --> 00:00:14,040
+here we can do. We're going to zone in
+
+7
+00:00:11,520 --> 00:00:16,240
+on one, visual worlds. How do you create
+
+8
+00:00:14,040 --> 00:00:17,560
+a visual language for a modern brand?
+
+9
+00:00:16,240 --> 00:00:19,200
+Where does that even play out? And then
+
+10
+00:00:17,560 --> 00:00:20,800
+we're going to dive into Apple. Why I
+
+11
+00:00:19,200 --> 00:00:22,160
+love to use them as an example is not
+
+12
+00:00:20,800 --> 00:00:24,160
+just cuz they're iconic, but because
+
+13
+00:00:22,160 --> 00:00:25,400
+people focus on the wrong things.
+
+14
+00:00:24,160 --> 00:00:27,000
+Really, I feel like the best way to
+
+15
+00:00:25,400 --> 00:00:29,040
+learn from them is to look at all of
+
+16
+00:00:27,000 --> 00:00:30,920
+their different eras and then map that
+
+17
+00:00:29,040 --> 00:00:33,320
+to things you can learn about how you
+
+18
+00:00:30,920 --> 00:00:35,280
+visually present a brand and orchestrate
+
+19
+00:00:33,320 --> 00:00:36,840
+campaigns at different points in a
+
+20
+00:00:35,280 --> 00:00:38,280
+brand's arc. We're going to go through
+
+21
+00:00:36,840 --> 00:00:39,000
+some of their best campaigns. We're
+
+22
+00:00:38,280 --> 00:00:40,840
+going to go through their different
+
+23
+00:00:39,000 --> 00:00:42,360
+stages in history and then dive into a
+
+24
+00:00:40,840 --> 00:00:44,440
+bunch of other really interesting
+
+25
+00:00:42,360 --> 00:00:46,160
+brands. Cash App and how they developed
+
+26
+00:00:44,440 --> 00:00:47,520
+a new unique visual world around
+
+27
+00:00:46,160 --> 00:00:49,360
+finance. What's happening with
+
+28
+00:00:47,520 --> 00:00:51,800
+technology and media and how people
+
+29
+00:00:49,360 --> 00:00:53,600
+present it. The era of artifacts and how
+
+30
+00:00:51,800 --> 00:00:55,320
+brands are using product as marketing
+
+31
+00:00:53,600 --> 00:00:56,760
+even when they make completely different
+
+32
+00:00:55,320 --> 00:00:58,120
+things. We'll cover nothing. We're going
+
+33
+00:00:56,760 --> 00:01:00,080
+to cover venture capital, Teenage
+
+34
+00:00:58,120 --> 00:01:02,280
+Engineering, Teenage Engineering. I'm
+
+35
+00:01:00,080 --> 00:01:03,640
+super excited to make this video. But I
+
+36
+00:01:02,280 --> 00:01:05,280
+think that anyone who's a creative,
+
+37
+00:01:03,640 --> 00:01:07,600
+anyone that works in technology, is a
+
+38
+00:01:05,280 --> 00:01:09,680
+part of this ongoing kind of complex
+
+39
+00:01:07,600 --> 00:01:11,480
+taste discord there will really enjoy.
+
+40
+00:01:09,680 --> 00:01:13,360
+Let's lock in. So first, why listen to
+
+41
+00:01:11,480 --> 00:01:15,080
+me about this? For those unfamiliar with
+
+42
+00:01:13,360 --> 00:01:16,760
+my full arc, after my career as a
+
+43
+00:01:15,080 --> 00:01:18,760
+designer where I started in lifestyle
+
+44
+00:01:16,760 --> 00:01:20,240
+brands, food and beverage, hospitality,
+
+45
+00:01:18,760 --> 00:01:21,880
+I worked in technology for an extended
+
+46
+00:01:20,240 --> 00:01:23,760
+period. I worked for defense companies
+
+47
+00:01:21,880 --> 00:01:25,440
+on campaigns there, for optics in the
+
+48
+00:01:23,760 --> 00:01:27,600
+outdoor space. And then where I gained a
+
+49
+00:01:25,440 --> 00:01:29,440
+lot of rungs in my career was working in
+
+50
+00:01:27,600 --> 00:01:31,520
+marketing for consumer and commercial
+
+51
+00:01:29,440 --> 00:01:32,960
+drones. From before they were regulated
+
+52
+00:01:31,520 --> 00:01:34,320
+camera drones as we know them, to when
+
+53
+00:01:32,960 --> 00:01:36,560
+they were first sold into big box
+
+54
+00:01:34,320 --> 00:01:38,120
+retail, to their applications in the
+
+55
+00:01:36,560 --> 00:01:39,760
+world we see them today. And from there,
+
+56
+00:01:38,120 --> 00:01:41,320
+I was one of the partners that started a
+
+57
+00:01:39,760 --> 00:01:43,160
+contract engineering firm that still
+
+58
+00:01:41,320 --> 00:01:44,760
+exists and has 40 plus engineers. Where
+
+59
+00:01:43,160 --> 00:01:46,880
+we have everything from government
+
+60
+00:01:44,760 --> 00:01:49,080
+security contracts to doing development
+
+61
+00:01:46,880 --> 00:01:51,400
+for software, hardware, anything that
+
+62
+00:01:49,080 --> 00:01:52,960
+touches an autopilot or telemetry has
+
+63
+00:01:51,400 --> 00:01:53,920
+been our specialty there. And it's funny
+
+64
+00:01:52,960 --> 00:01:56,160
+because that's where so much of my
+
+65
+00:01:53,920 --> 00:01:57,760
+expertise is, up until the last about
+
+66
+00:01:56,160 --> 00:01:59,400
+decade, was the one I've done the least
+
+67
+00:01:57,760 --> 00:02:00,440
+content about because often when you're
+
+68
+00:01:59,400 --> 00:02:01,880
+working you want to do content about
+
+69
+00:02:00,440 --> 00:02:03,479
+things you love, not necessarily the
+
+70
+00:02:01,880 --> 00:02:05,080
+things that you're in deep on. But now
+
+71
+00:02:03,479 --> 00:02:06,600
+with the discourse where it is around
+
+72
+00:02:05,080 --> 00:02:07,760
+technology, it's a perfect time to put
+
+73
+00:02:06,600 --> 00:02:09,360
+some of that expertise into the
+
+74
+00:02:07,760 --> 00:02:11,480
+zeitgeist and talk about some of these
+
+75
+00:02:09,360 --> 00:02:13,320
+things. Now starting with Apple, if I
+
+76
+00:02:11,480 --> 00:02:14,800
+was being generic, if this was a generic
+
+77
+00:02:13,320 --> 00:02:17,000
+design video, I would talk about
+
+78
+00:02:14,800 --> 00:02:18,560
+simplicity is power. Look at the text on
+
+79
+00:02:17,000 --> 00:02:20,000
+this page. Look at the white space. Look
+
+80
+00:02:18,560 --> 00:02:21,480
+at how they photograph their product.
+
+81
+00:02:20,000 --> 00:02:23,320
+Apple doesn't design minimal because
+
+82
+00:02:21,480 --> 00:02:25,040
+it's trendy. They design minimal because
+
+83
+00:02:23,320 --> 00:02:27,040
+it clarifies intelligence. That's what
+
+84
+00:02:25,040 --> 00:02:28,520
+Chat GPT would say. Clarity signals
+
+85
+00:02:27,040 --> 00:02:30,360
+intelligence. But this was a different
+
+86
+00:02:28,520 --> 00:02:31,640
+era. This doesn't work for your average
+
+87
+00:02:30,360 --> 00:02:33,280
+company anymore. That's not what you
+
+88
+00:02:31,640 --> 00:02:34,720
+should learn from them. So many things
+
+89
+00:02:33,280 --> 00:02:36,320
+have been pulled from this and inspired
+
+90
+00:02:34,720 --> 00:02:38,959
+this. Like this Garamond font is a great
+
+91
+00:02:36,320 --> 00:02:41,480
+example. I saw a note when the new
+
+92
+00:02:38,959 --> 00:02:43,240
+National Design Institute put out this
+
+93
+00:02:41,480 --> 00:02:44,520
+this new website and incredible looking
+
+94
+00:02:43,240 --> 00:02:45,720
+government website. And there are a lot
+
+95
+00:02:44,520 --> 00:02:47,840
+of people being like, well, it looks so
+
+96
+00:02:45,720 --> 00:02:49,480
+good because it's using Garamond. It's
+
+97
+00:02:47,840 --> 00:02:51,120
+using a derivative of the Apple font.
+
+98
+00:02:49,480 --> 00:02:52,959
+Instrument Serif is the I think the
+
+99
+00:02:51,120 --> 00:02:55,000
+generic Google font version. And that's
+
+100
+00:02:52,959 --> 00:02:56,959
+why it feels so credible. That's one of
+
+101
+00:02:55,000 --> 00:02:58,640
+many reasons the design is. But everyone
+
+102
+00:02:56,959 --> 00:03:00,600
+will always refer back to Apple as the
+
+103
+00:02:58,640 --> 00:03:02,040
+minimalist king, as the font king. And
+
+104
+00:03:00,600 --> 00:03:03,519
+that's not what we can learn from this.
+
+105
+00:03:02,040 --> 00:03:04,880
+What we can learn is stages where you're
+
+106
+00:03:03,519 --> 00:03:07,000
+at as a company. Let's start with one of
+
+107
+00:03:04,880 --> 00:03:08,480
+the most known Apple campaigns, Think
+
+108
+00:03:07,000 --> 00:03:10,000
+Different. This is a campaign that's
+
+109
+00:03:08,480 --> 00:03:11,519
+constantly referenced as one of the best
+
+110
+00:03:10,000 --> 00:03:13,920
+marketing campaigns in history. Where
+
+111
+00:03:11,519 --> 00:03:16,000
+they put iconic people at the top of
+
+112
+00:03:13,920 --> 00:03:17,840
+their fields and had them represent the
+
+113
+00:03:16,000 --> 00:03:19,840
+Apple brand. Someone who thinks
+
+114
+00:03:17,840 --> 00:03:21,320
+different. This was an important part
+
+115
+00:03:19,840 --> 00:03:22,640
+for Apple at this arc in its brand.
+
+116
+00:03:21,320 --> 00:03:24,640
+Steve Jobs had just come back. They
+
+117
+00:03:22,640 --> 00:03:26,519
+needed a campaign to signify what they
+
+118
+00:03:24,640 --> 00:03:28,080
+stand for. When we talk about the eras
+
+119
+00:03:26,519 --> 00:03:30,080
+of Apple, I want you to map to whatever
+
+120
+00:03:28,080 --> 00:03:32,680
+brand you work for or have, where it is
+
+121
+00:03:30,080 --> 00:03:34,080
+inside its cycle of its life. For many
+
+122
+00:03:32,680 --> 00:03:35,600
+brands, whether you've just started in a
+
+123
+00:03:34,080 --> 00:03:37,040
+product or you're in the market but
+
+124
+00:03:35,600 --> 00:03:38,400
+haven't really gotten that fit, that
+
+125
+00:03:37,040 --> 00:03:40,239
+take off, what you're missing is you
+
+126
+00:03:38,400 --> 00:03:42,040
+haven't developed a brand worth
+
+127
+00:03:40,239 --> 00:03:44,040
+watching. This was Apple at that same
+
+128
+00:03:42,040 --> 00:03:45,600
+time, where they had existed, they were
+
+129
+00:03:44,040 --> 00:03:47,640
+in the market, but they weren't worth
+
+130
+00:03:45,600 --> 00:03:49,120
+paying super close attention to. And if
+
+131
+00:03:47,640 --> 00:03:51,040
+that attention was paid, they didn't
+
+132
+00:03:49,120 --> 00:03:52,440
+know what that brand really stood for.
+
+133
+00:03:51,040 --> 00:03:54,160
+Or it stood for something kind of far
+
+134
+00:03:52,440 --> 00:03:55,960
+different than where they wanted to go.
+
+135
+00:03:54,160 --> 00:03:57,440
+This is a common problem in many brands'
+
+136
+00:03:55,960 --> 00:03:59,960
+arcs. And this is where something like
+
+137
+00:03:57,440 --> 00:04:02,400
+an extremely strong campaign can begin
+
+138
+00:03:59,960 --> 00:04:03,680
+to bridge the gap. Now, in 1997, they
+
+139
+00:04:02,400 --> 00:04:06,000
+leveraged the tools they had at the
+
+140
+00:04:03,680 --> 00:04:08,200
+time. That was an era of monoculture.
+
+141
+00:04:06,000 --> 00:04:10,200
+Celebrity themes where all these people
+
+142
+00:04:08,200 --> 00:04:11,520
+were known by everybody. That's not the
+
+143
+00:04:10,200 --> 00:04:13,520
+era that we're in today. And we've
+
+144
+00:04:11,520 --> 00:04:15,680
+actually seen a company in a almost
+
+145
+00:04:13,520 --> 00:04:17,519
+similar scenario, not quite the Steve
+
+146
+00:04:15,680 --> 00:04:19,480
+Jobs coming back, but a company trying
+
+147
+00:04:17,519 --> 00:04:21,560
+to give you a reason why should I watch
+
+148
+00:04:19,480 --> 00:04:23,160
+this brand? What do they stand for in a
+
+149
+00:04:21,560 --> 00:04:25,760
+complicated space? Riff off this
+
+150
+00:04:23,160 --> 00:04:27,919
+campaign. So, this is Claude's campaign.
+
+151
+00:04:25,760 --> 00:04:29,640
+Keep thinking. It's a direct play on
+
+152
+00:04:27,919 --> 00:04:31,400
+Think Different. It wants to encourage
+
+153
+00:04:29,640 --> 00:04:34,040
+those same people in the new iterations
+
+154
+00:04:31,400 --> 00:04:35,760
+of them what they can do to be their own
+
+155
+00:04:34,040 --> 00:04:37,480
+unique selves. But, this is the biggest
+
+156
+00:04:35,760 --> 00:04:40,120
+shift that we have in terms of how you
+
+157
+00:04:37,480 --> 00:04:42,000
+think about creative direction, culture,
+
+158
+00:04:40,120 --> 00:04:43,800
+celebrity, and who and how concepts
+
+159
+00:04:42,000 --> 00:04:45,400
+represent your brand to today. Is there
+
+160
+00:04:43,800 --> 00:04:47,560
+aren't famous figures in this. They're
+
+161
+00:04:45,400 --> 00:04:49,320
+not going and getting Miles Davis, or
+
+162
+00:04:47,560 --> 00:04:51,240
+even the popular people of our time.
+
+163
+00:04:49,320 --> 00:04:52,880
+Instead, it is in the hands of the
+
+164
+00:04:51,240 --> 00:04:54,600
+people. They are showing you a version
+
+165
+00:04:52,880 --> 00:04:56,240
+of you, a person with a garage band, a
+
+166
+00:04:54,600 --> 00:04:58,560
+person out hiking, a person trying to
+
+167
+00:04:56,240 --> 00:05:00,280
+tinker and solve with nary a phone in
+
+168
+00:04:58,560 --> 00:05:02,640
+sight. They're putting normal people in
+
+169
+00:05:00,280 --> 00:05:04,280
+aspirational scenarios, and using that
+
+170
+00:05:02,640 --> 00:05:05,640
+as the thinking. That's a perspective
+
+171
+00:05:04,280 --> 00:05:07,320
+shift I think everyone should be
+
+172
+00:05:05,640 --> 00:05:09,080
+thinking about in this era, is that the
+
+173
+00:05:07,320 --> 00:05:11,680
+individual in our world where it's not
+
+174
+00:05:09,080 --> 00:05:13,960
+15 minutes of fame, everyone has years
+
+175
+00:05:11,680 --> 00:05:15,560
+of micro fame, basically. How do you put
+
+176
+00:05:13,960 --> 00:05:17,280
+everyone front and center inside a
+
+177
+00:05:15,560 --> 00:05:19,520
+campaign? That's an iteration on that.
+
+178
+00:05:17,280 --> 00:05:22,320
+Going into their second era I'll discuss
+
+179
+00:05:19,520 --> 00:05:24,400
+here, the iconic product era, the iPod
+
+180
+00:05:22,320 --> 00:05:25,880
+era. This iPod campaign, quite
+
+181
+00:05:24,400 --> 00:05:27,640
+legendary, and it positioned the
+
+182
+00:05:25,880 --> 00:05:29,640
+product, the artifact itself, as
+
+183
+00:05:27,640 --> 00:05:31,440
+something that by its form factor could
+
+184
+00:05:29,640 --> 00:05:33,200
+become prolific within the market. And
+
+185
+00:05:31,440 --> 00:05:34,680
+this is another thing that a brand at a
+
+186
+00:05:33,200 --> 00:05:36,320
+certain stage in its arc should think
+
+187
+00:05:34,680 --> 00:05:37,919
+about. I talked about the Claude Keep
+
+188
+00:05:36,320 --> 00:05:39,200
+Thinking campaign. And if that got you
+
+189
+00:05:37,919 --> 00:05:41,000
+thinking about how to actually put
+
+190
+00:05:39,200 --> 00:05:42,760
+Claude to work beyond just prompting it
+
+191
+00:05:41,000 --> 00:05:44,520
+back and forth, then this free guide
+
+192
+00:05:42,760 --> 00:05:46,200
+from HubSpot called the Claude Co-Work
+
+193
+00:05:44,520 --> 00:05:47,320
+Stack is worth checking out. So, here's
+
+194
+00:05:46,200 --> 00:05:49,720
+what's happening. Co-workers
+
+195
+00:05:47,320 --> 00:05:51,160
+fundamentally different from regular AI
+
+196
+00:05:49,720 --> 00:05:52,600
+flows. You've probably heard about it,
+
+197
+00:05:51,160 --> 00:05:54,200
+don't know how to actually use it. Right
+
+198
+00:05:52,600 --> 00:05:56,520
+now, most marketers are copy-pasting
+
+199
+00:05:54,200 --> 00:05:58,440
+context into AI one prompt or project at
+
+200
+00:05:56,520 --> 00:05:59,920
+a time. Then their output is device
+
+201
+00:05:58,440 --> 00:06:01,880
+versus deliverables. You still have to
+
+202
+00:05:59,920 --> 00:06:03,760
+go actually build the thing or complete
+
+203
+00:06:01,880 --> 00:06:05,720
+the work. So, Co-work flips that. You
+
+204
+00:06:03,760 --> 00:06:07,640
+give Claude access to your actual files,
+
+205
+00:06:05,720 --> 00:06:08,560
+your campaign data, your browser, and it
+
+206
+00:06:07,640 --> 00:06:10,160
+works through the problem in the
+
+207
+00:06:08,560 --> 00:06:11,920
+background while you do something else.
+
+208
+00:06:10,160 --> 00:06:13,400
+HubSpot put together 12 prompts
+
+209
+00:06:11,920 --> 00:06:14,880
+specifically engineered around this.
+
+210
+00:06:13,400 --> 00:06:17,040
+Local folder access, background
+
+211
+00:06:14,880 --> 00:06:18,720
+processing, real file creation, not like
+
+212
+00:06:17,040 --> 00:06:20,440
+generic write me a blog post stuff.
+
+213
+00:06:18,720 --> 00:06:22,520
+Think about entire campaign assets built
+
+214
+00:06:20,440 --> 00:06:23,760
+out across channels, deep research done
+
+215
+00:06:22,520 --> 00:06:24,840
+while you're working on something else.
+
+216
+00:06:23,760 --> 00:06:26,520
+And my favorite part is the marketing
+
+217
+00:06:24,840 --> 00:06:28,120
+campaign builder. You drop in your brief
+
+218
+00:06:26,520 --> 00:06:29,680
+and your brand assets, and Claude does
+
+219
+00:06:28,120 --> 00:06:31,200
+the heavy lifting of what can happen
+
+220
+00:06:29,680 --> 00:06:33,360
+across every channel. So, go check out
+
+221
+00:06:31,200 --> 00:06:34,600
+the free Claude Co-work stack under the
+
+222
+00:06:33,360 --> 00:06:36,320
+link in the description. And thanks to
+
+223
+00:06:34,600 --> 00:06:38,360
+HubSpot for making this resource and
+
+224
+00:06:36,320 --> 00:06:40,440
+sponsoring this video. We are in a
+
+225
+00:06:38,360 --> 00:06:41,800
+visual era, a packaging era. I saw a
+
+226
+00:06:40,440 --> 00:06:43,160
+video from Casey Lewis who does the
+
+227
+00:06:41,800 --> 00:06:44,680
+After School newsletter the other week
+
+228
+00:06:43,160 --> 00:06:46,320
+where she was talking about how Gen Z
+
+229
+00:06:44,680 --> 00:06:48,200
+was consuming things that look good on
+
+230
+00:06:46,320 --> 00:06:49,480
+camera. That was There was an article
+
+231
+00:06:48,200 --> 00:06:50,480
+written about this and like data out
+
+232
+00:06:49,480 --> 00:06:51,760
+there supporting it, which makes
+
+233
+00:06:50,480 --> 00:06:53,560
+complete sense if you live on the
+
+234
+00:06:51,760 --> 00:06:55,000
+internet, but is a new concept for older
+
+235
+00:06:53,560 --> 00:06:56,960
+people, for technology people. And we're
+
+236
+00:06:55,000 --> 00:06:58,320
+in this era where your value proposition
+
+237
+00:06:56,960 --> 00:07:00,080
+is a lot based on the aesthetics of your
+
+238
+00:06:58,320 --> 00:07:01,520
+product. In almost any consumer good, in
+
+239
+00:07:00,080 --> 00:07:03,320
+almost any piece of hardware, it has to
+
+240
+00:07:01,520 --> 00:07:04,880
+be a flex in itself. You may have saw
+
+241
+00:07:03,320 --> 00:07:06,360
+the video where I reviewed the friend,
+
+242
+00:07:04,880 --> 00:07:07,960
+the AI pendant, and a lot of it came
+
+243
+00:07:06,360 --> 00:07:09,600
+down to just a bad industrial design,
+
+244
+00:07:07,960 --> 00:07:11,080
+right? Where if that was a industrial
+
+245
+00:07:09,600 --> 00:07:12,880
+design, whether the product works or
+
+246
+00:07:11,080 --> 00:07:15,040
+not, it signaled something that looked
+
+247
+00:07:12,880 --> 00:07:16,800
+more akin to what Frank Ocean did with
+
+248
+00:07:15,040 --> 00:07:18,400
+Homer or had a cultural play. There's
+
+249
+00:07:16,800 --> 00:07:19,560
+more of a chance for acceptance. You see
+
+250
+00:07:18,400 --> 00:07:20,840
+this now in all these headphones
+
+251
+00:07:19,560 --> 00:07:22,240
+beginning to look like earrings. It's
+
+252
+00:07:20,840 --> 00:07:24,160
+how do you engineer the product into an
+
+253
+00:07:22,240 --> 00:07:25,080
+artifact? But then campaigns like this
+
+254
+00:07:24,160 --> 00:07:26,760
+and the art direction, creative
+
+255
+00:07:25,080 --> 00:07:28,320
+direction of it have to accentuate that.
+
+256
+00:07:26,760 --> 00:07:29,919
+They have to put the product out into
+
+257
+00:07:28,320 --> 00:07:31,160
+the culture. You need to reinforce that
+
+258
+00:07:29,919 --> 00:07:32,160
+visual language. And so, it's a
+
+259
+00:07:31,160 --> 00:07:33,440
+worthwhile thing to think about when you
+
+260
+00:07:32,160 --> 00:07:34,880
+look at through lines. What am I going
+
+261
+00:07:33,440 --> 00:07:36,640
+to do for my visual campaign, for my
+
+262
+00:07:34,880 --> 00:07:38,240
+social media, for what I'm putting
+
+263
+00:07:36,640 --> 00:07:39,360
+inside my ads? How do I continue these
+
+264
+00:07:38,240 --> 00:07:41,240
+things? Do you have an iconic
+
+265
+00:07:39,360 --> 00:07:42,640
+silhouette? Or do you have a unique look
+
+266
+00:07:41,240 --> 00:07:43,960
+and feel? And if not, do you have a
+
+267
+00:07:42,640 --> 00:07:45,520
+unique visual language for your
+
+268
+00:07:43,960 --> 00:07:47,320
+products? Teenage Engineering has done a
+
+269
+00:07:45,520 --> 00:07:50,040
+decent job of this, where you kind of
+
+270
+00:07:47,320 --> 00:07:51,920
+expect this look and feel that they have
+
+271
+00:07:50,040 --> 00:07:53,480
+on everything, and they extend it into
+
+272
+00:07:51,920 --> 00:07:55,000
+different universes. Where you begin to
+
+273
+00:07:53,480 --> 00:07:57,040
+recognize the sampler, you know that
+
+274
+00:07:55,000 --> 00:07:59,560
+they can live as much in the world of
+
+275
+00:07:57,040 --> 00:08:02,480
+reggae as they can live in a medieval
+
+276
+00:07:59,560 --> 00:08:04,360
+world. The colors, the combos, it feels
+
+277
+00:08:02,480 --> 00:08:05,720
+a certain way. And in the marketing,
+
+278
+00:08:04,360 --> 00:08:07,480
+their product form factors, this
+
+279
+00:08:05,720 --> 00:08:09,640
+language can kind of take over. But
+
+280
+00:08:07,480 --> 00:08:11,080
+nothing near where where Apple has gone.
+
+281
+00:08:09,640 --> 00:08:13,080
+Perhaps one of the biggest plays on this
+
+282
+00:08:11,080 --> 00:08:14,840
+would be the Rhode lip gloss iPhone
+
+283
+00:08:13,080 --> 00:08:17,120
+holder, where they were able to not just
+
+284
+00:08:14,840 --> 00:08:18,800
+make the lip gloss with its lightly
+
+285
+00:08:17,120 --> 00:08:20,760
+unique form factor into a marketing
+
+286
+00:08:18,800 --> 00:08:22,880
+play. The They are selling a product
+
+287
+00:08:20,760 --> 00:08:24,200
+that is also the marketing. Nothing has
+
+288
+00:08:22,880 --> 00:08:25,400
+been working hard on doing this in a
+
+289
+00:08:24,200 --> 00:08:26,320
+competitive space to Apple, right?
+
+290
+00:08:25,400 --> 00:08:27,640
+because there's always going to be
+
+291
+00:08:26,320 --> 00:08:29,760
+someone to position against, no matter
+
+292
+00:08:27,640 --> 00:08:30,960
+how big a company becomes. So, they have
+
+293
+00:08:29,760 --> 00:08:33,560
+been looking at how do they have this
+
+294
+00:08:30,960 --> 00:08:34,960
+almost like noisier visual language that
+
+295
+00:08:33,560 --> 00:08:36,479
+counter positions itself against the
+
+296
+00:08:34,960 --> 00:08:38,800
+clean lines of Apple and all their
+
+297
+00:08:36,479 --> 00:08:40,560
+clones. The dot matrix aesthetic. But
+
+298
+00:08:38,800 --> 00:08:42,760
+the campaign I think the most people can
+
+299
+00:08:40,560 --> 00:08:44,960
+learn from. In the era of Apple that I
+
+300
+00:08:42,760 --> 00:08:46,360
+think is actually the most impactful
+
+301
+00:08:44,960 --> 00:08:48,400
+from a marketing perspective, is the
+
+302
+00:08:46,360 --> 00:08:49,880
+shot on iPhone era. As part of my
+
+303
+00:08:48,400 --> 00:08:51,240
+toolkit when I work on creative strategy
+
+304
+00:08:49,880 --> 00:08:53,960
+for brands, whether it's organic or for
+
+305
+00:08:51,240 --> 00:08:56,560
+ads, I have a list of formats I know
+
+306
+00:08:53,960 --> 00:08:57,920
+work psychologically inside of a piece
+
+307
+00:08:56,560 --> 00:09:00,120
+of content. And one of them is what's
+
+308
+00:08:57,920 --> 00:09:01,160
+called prove it. So, for instance, if
+
+309
+00:09:00,120 --> 00:09:03,440
+you're working on a product that has a
+
+310
+00:09:01,160 --> 00:09:05,600
+24 hours and it doesn't wear off, how
+
+311
+00:09:03,440 --> 00:09:07,400
+can you show a full 24 hours? Like
+
+312
+00:09:05,600 --> 00:09:09,640
+inside your video or your ad? How can
+
+313
+00:09:07,400 --> 00:09:11,320
+you take someone on that journey? Prove
+
+314
+00:09:09,640 --> 00:09:13,320
+that the 24 hours there in the harshest
+
+315
+00:09:11,320 --> 00:09:14,600
+circumstances. Morphe was a brand I work
+
+316
+00:09:13,320 --> 00:09:16,080
+with is always doing this well, right?
+
+317
+00:09:14,600 --> 00:09:17,560
+They allow us the setting spray for
+
+318
+00:09:16,080 --> 00:09:18,760
+makeup, and they're on their stories
+
+319
+00:09:17,560 --> 00:09:20,400
+they are doing
+
+320
+00:09:18,760 --> 00:09:22,160
+like some super intense workout in
+
+321
+00:09:20,400 --> 00:09:23,680
+Pilates classes in partnership with a
+
+322
+00:09:22,160 --> 00:09:25,200
+studio, where they have the girls
+
+323
+00:09:23,680 --> 00:09:26,720
+showing before and after you get a deep
+
+324
+00:09:25,200 --> 00:09:28,520
+sweat or you get whatever in there, how
+
+325
+00:09:26,720 --> 00:09:30,560
+the makeup stays on. Prove it is in
+
+326
+00:09:28,520 --> 00:09:32,640
+their DNA. But shot on iPhone is one of
+
+327
+00:09:30,560 --> 00:09:33,839
+the most interesting examples of this,
+
+328
+00:09:32,640 --> 00:09:35,440
+in that you want to prove that it takes
+
+329
+00:09:33,839 --> 00:09:38,080
+good pictures, use the pictures in the
+
+330
+00:09:35,440 --> 00:09:39,240
+campaigns. That's an easy line to to
+
+331
+00:09:38,080 --> 00:09:39,960
+cross. But then, when you start to
+
+332
+00:09:39,240 --> 00:09:41,440
+really think about it, you're like,
+
+333
+00:09:39,960 --> 00:09:43,160
+"Wow, they can blow those up to the
+
+334
+00:09:41,440 --> 00:09:45,040
+sides of buildings. You can put an
+
+335
+00:09:43,160 --> 00:09:46,880
+iPhone image on a billboard." When you
+
+336
+00:09:45,040 --> 00:09:48,160
+begin to look at this as it compounds
+
+337
+00:09:46,880 --> 00:09:50,400
+over time, when sometimes it's
+
+338
+00:09:48,160 --> 00:09:52,440
+relatively normal photos, and sometimes
+
+339
+00:09:50,400 --> 00:09:53,600
+it's really artful, interesting photos,
+
+340
+00:09:52,440 --> 00:09:55,760
+they're showing you the arc of the
+
+341
+00:09:53,600 --> 00:09:57,240
+complete depth of possibility there. And
+
+342
+00:09:55,760 --> 00:09:59,320
+they carried this over into full music
+
+343
+00:09:57,240 --> 00:10:01,000
+video shot on iPhone. It was prove it
+
+344
+00:09:59,320 --> 00:10:03,120
+embodied, and obviously even better
+
+345
+00:10:01,000 --> 00:10:05,320
+because you can actually turn it into
+
+346
+00:10:03,120 --> 00:10:07,120
+the asset of the campaign. But for every
+
+347
+00:10:05,320 --> 00:10:08,720
+brand that has a value proposition where
+
+348
+00:10:07,120 --> 00:10:10,800
+you are selling a transformation, which
+
+349
+00:10:08,720 --> 00:10:12,160
+is so many products, and Apple for a lot
+
+350
+00:10:10,800 --> 00:10:13,760
+of people is basically selling in your
+
+351
+00:10:12,160 --> 00:10:15,680
+hand that you have creativity at your
+
+352
+00:10:13,760 --> 00:10:17,640
+fingertips. You have better photos. You
+
+353
+00:10:15,680 --> 00:10:19,600
+can capture your life in an amazing way.
+
+354
+00:10:17,640 --> 00:10:21,240
+How you show that transformation is one
+
+355
+00:10:19,600 --> 00:10:22,560
+of the most effective techniques to
+
+356
+00:10:21,240 --> 00:10:23,600
+bring into our direction. So, if you're
+
+357
+00:10:22,560 --> 00:10:24,960
+thinking about, "What is the visual
+
+358
+00:10:23,600 --> 00:10:27,040
+theme for a shoot? What are we going to
+
+359
+00:10:24,960 --> 00:10:28,400
+show?" How are you doing that prove it?
+
+360
+00:10:27,040 --> 00:10:30,120
+How is that happening within it? If you
+
+361
+00:10:28,400 --> 00:10:32,000
+have a rain jacket, and you're taking it
+
+362
+00:10:30,120 --> 00:10:33,720
+out inside the harshest conditions, and
+
+363
+00:10:32,000 --> 00:10:35,240
+showing that they're dry underneath. And
+
+364
+00:10:33,720 --> 00:10:36,600
+then, how do you elevate that visually
+
+365
+00:10:35,240 --> 00:10:38,000
+and conceptually on top of it? But the
+
+366
+00:10:36,600 --> 00:10:39,680
+root of that is going to be one of the
+
+367
+00:10:38,000 --> 00:10:41,760
+most effective things you have in your
+
+368
+00:10:39,680 --> 00:10:43,160
+toolkit for any level of creative work
+
+369
+00:10:41,760 --> 00:10:44,839
+is getting back to that core point of
+
+370
+00:10:43,160 --> 00:10:46,160
+how you integrate the product is proving
+
+371
+00:10:44,839 --> 00:10:47,760
+it. And there's obviously a million
+
+372
+00:10:46,160 --> 00:10:50,040
+other ways you can do it, and selling
+
+373
+00:10:47,760 --> 00:10:51,760
+the lifestyle, and concepts, and themes,
+
+374
+00:10:50,040 --> 00:10:53,000
+and ideas, and user journeys. But when
+
+375
+00:10:51,760 --> 00:10:54,520
+it comes back to it at its root, what is
+
+376
+00:10:53,000 --> 00:10:55,720
+going to be the most effective? Well,
+
+377
+00:10:54,520 --> 00:10:57,040
+likely be this. Then I want to talk
+
+378
+00:10:55,720 --> 00:10:58,400
+about the era we're in now, because a
+
+379
+00:10:57,040 --> 00:10:59,839
+lot of people do look at Apple. I
+
+380
+00:10:58,400 --> 00:11:01,240
+remember thinking this myself, too. I
+
+381
+00:10:59,839 --> 00:11:03,720
+was one of the creators that was invited
+
+382
+00:11:01,240 --> 00:11:05,040
+to Apple's WWDC last year. So, I'm
+
+383
+00:11:03,720 --> 00:11:06,440
+there. It's iJustine. It's Marques
+
+384
+00:11:05,040 --> 00:11:08,040
+Brownlee. It's Rachel from Linus Tech
+
+385
+00:11:06,440 --> 00:11:09,000
+Tips. It's Emily from Feed Me. And I'm
+
+386
+00:11:08,040 --> 00:11:10,640
+watching all the things that are
+
+387
+00:11:09,000 --> 00:11:11,520
+happening. I'm watching the campaigns,
+
+388
+00:11:10,640 --> 00:11:13,000
+and what they're rolling out. And this
+
+389
+00:11:11,520 --> 00:11:14,760
+all of a sudden is around F1, the F1
+
+390
+00:11:13,000 --> 00:11:16,240
+movie. Apple's like extremely integrated
+
+391
+00:11:14,760 --> 00:11:17,160
+in the F1 movie, right? And they have
+
+392
+00:11:16,240 --> 00:11:18,400
+all the cinema that they're integrated
+
+393
+00:11:17,160 --> 00:11:20,160
+with, cuz now they have their own doing
+
+394
+00:11:18,400 --> 00:11:21,560
+TV. And you begin to realize this is not
+
+395
+00:11:20,160 --> 00:11:23,560
+I mean, look at the eras. Like, they
+
+396
+00:11:21,560 --> 00:11:25,080
+don't want to compete inside this the
+
+397
+00:11:23,560 --> 00:11:26,720
+social media grind that the rest of us
+
+398
+00:11:25,080 --> 00:11:28,920
+are on, inside the normal ad buying
+
+399
+00:11:26,720 --> 00:11:31,120
+grind. When you are at a level of which
+
+400
+00:11:28,920 --> 00:11:32,920
+they are, you need to be be intertwined
+
+401
+00:11:31,120 --> 00:11:34,960
+with culture at the highest level with
+
+402
+00:11:32,920 --> 00:11:36,480
+true monoculture action that represents
+
+403
+00:11:34,960 --> 00:11:38,120
+the brand right, which is Brad Pitt
+
+404
+00:11:36,480 --> 00:11:39,480
+movies, which is the Apple Music is the
+
+405
+00:11:38,120 --> 00:11:41,000
+Super Bowl halftime show sponsor
+
+406
+00:11:39,480 --> 00:11:43,040
+multiple years in a row. Now if we look
+
+407
+00:11:41,000 --> 00:11:44,960
+at what does a company that is a leader,
+
+408
+00:11:43,040 --> 00:11:46,560
+what do they do to capture the premise
+
+409
+00:11:44,960 --> 00:11:48,360
+that they're on top in that same way?
+
+410
+00:11:46,560 --> 00:11:49,720
+That's a very different challenge than
+
+411
+00:11:48,360 --> 00:11:51,400
+thinking about a campaign like think
+
+412
+00:11:49,720 --> 00:11:52,600
+different. They have no need for that at
+
+413
+00:11:51,400 --> 00:11:53,840
+this current point until they reach
+
+414
+00:11:52,600 --> 00:11:55,040
+another inflection point like that,
+
+415
+00:11:53,840 --> 00:11:56,400
+which maybe they get to at a certain
+
+416
+00:11:55,040 --> 00:11:58,120
+time. But it's not the same. We can't
+
+417
+00:11:56,400 --> 00:11:59,360
+expect the same marketing at companies
+
+418
+00:11:58,120 --> 00:12:00,840
+at different points in their arc. And if
+
+419
+00:11:59,360 --> 00:12:02,320
+you are working at a big business like
+
+420
+00:12:00,840 --> 00:12:04,200
+that and you are trying to get some like
+
+421
+00:12:02,320 --> 00:12:05,120
+interesting niche initiative or campaign
+
+422
+00:12:04,200 --> 00:12:07,160
+off the ground, you have to really
+
+423
+00:12:05,120 --> 00:12:09,240
+think, is this at enough scale that it
+
+424
+00:12:07,160 --> 00:12:10,840
+aligns with the vision? If you are
+
+425
+00:12:09,240 --> 00:12:12,000
+working at a Fortune 500 company and you
+
+426
+00:12:10,840 --> 00:12:13,920
+really want to be the one that gets them
+
+427
+00:12:12,000 --> 00:12:15,200
+into streaming as a marketing engine, we
+
+428
+00:12:13,920 --> 00:12:16,800
+want to do campaigns with these light
+
+429
+00:12:15,200 --> 00:12:18,840
+personalities, that may not have the
+
+430
+00:12:16,800 --> 00:12:19,920
+scale that's necessary to make an impact
+
+431
+00:12:18,840 --> 00:12:21,560
+there. But if you were like, hey, we
+
+432
+00:12:19,920 --> 00:12:22,760
+could do this with a hundred streamers.
+
+433
+00:12:21,560 --> 00:12:24,280
+If you can corner the market on
+
+434
+00:12:22,760 --> 00:12:25,880
+something, the ambition level needs to
+
+435
+00:12:24,280 --> 00:12:27,760
+rise with the level at which the company
+
+436
+00:12:25,880 --> 00:12:29,280
+executes. It's a big reason why
+
+437
+00:12:27,760 --> 00:12:30,680
+creatives who have more niche ideas
+
+438
+00:12:29,280 --> 00:12:32,080
+struggle inside some of these larger
+
+439
+00:12:30,680 --> 00:12:33,520
+scenarios. Now I want to talk about
+
+440
+00:12:32,080 --> 00:12:35,240
+building a visual world today. Who's
+
+441
+00:12:33,520 --> 00:12:37,160
+doing it differently now? And one of the
+
+442
+00:12:35,240 --> 00:12:38,800
+most interesting ones to me is Cash App.
+
+443
+00:12:37,160 --> 00:12:40,520
+And they have their design and brand
+
+444
+00:12:38,800 --> 00:12:41,880
+guidelines public, which I think is fun.
+
+445
+00:12:40,520 --> 00:12:43,680
+But where I'm most interested in them is
+
+446
+00:12:41,880 --> 00:12:45,040
+they are extremely counter-positioned,
+
+447
+00:12:43,680 --> 00:12:46,680
+right? So you look at all the existing
+
+448
+00:12:45,040 --> 00:12:48,560
+banking and finance infrastructure. The
+
+449
+00:12:46,680 --> 00:12:51,920
+colors, the visuals, everything wants to
+
+450
+00:12:48,560 --> 00:12:53,480
+promote safety, security, longevity. But
+
+451
+00:12:51,920 --> 00:12:54,839
+it's from these institutions that people
+
+452
+00:12:53,480 --> 00:12:56,360
+don't really trust. They're not really
+
+453
+00:12:54,839 --> 00:12:58,080
+built into their lives. They feel
+
+454
+00:12:56,360 --> 00:12:59,040
+antiquated. And Cash App from every
+
+455
+00:12:58,080 --> 00:13:00,680
+piece of visual is meant to feel
+
+456
+00:12:59,040 --> 00:13:02,120
+integrated into its users' life. And
+
+457
+00:13:00,680 --> 00:13:03,720
+they've built this design language
+
+458
+00:13:02,120 --> 00:13:05,360
+around that. And so I was at the last
+
+459
+00:13:03,720 --> 00:13:07,640
+Cash App event in New York, too, where
+
+460
+00:13:05,360 --> 00:13:08,880
+they were debuting their their fall 25,
+
+461
+00:13:07,640 --> 00:13:10,320
+like all their new releases. And I was
+
+462
+00:13:08,880 --> 00:13:11,520
+chatting with the design team there, and
+
+463
+00:13:10,320 --> 00:13:13,040
+they were talking about the process with
+
+464
+00:13:11,520 --> 00:13:14,080
+which they do that. And some of the
+
+465
+00:13:13,040 --> 00:13:15,360
+concepts that really stood out to me in
+
+466
+00:13:14,080 --> 00:13:17,760
+that conversation was the idea like
+
+467
+00:13:15,360 --> 00:13:19,040
+having fun in the mundane. So basically,
+
+468
+00:13:17,760 --> 00:13:21,040
+there are all these little micro moments
+
+469
+00:13:19,040 --> 00:13:22,400
+in your day. How do you have some joy in
+
+470
+00:13:21,040 --> 00:13:23,760
+them? How do you make them personal? And
+
+471
+00:13:22,400 --> 00:13:24,839
+in this fall release is when they were
+
+472
+00:13:23,760 --> 00:13:26,520
+giving people the option to be able to
+
+473
+00:13:24,839 --> 00:13:28,080
+choose from photos behind when they send
+
+474
+00:13:26,520 --> 00:13:29,800
+people money. You could choose all these
+
+475
+00:13:28,080 --> 00:13:31,440
+interesting graphics that you could send
+
+476
+00:13:29,800 --> 00:13:33,160
+along with reimbursing somebody for
+
+477
+00:13:31,440 --> 00:13:34,240
+dinner, etc. A little micro moment in
+
+478
+00:13:33,160 --> 00:13:36,120
+there. When when the brand was talking
+
+479
+00:13:34,240 --> 00:13:37,280
+about how they made all the items they
+
+480
+00:13:36,120 --> 00:13:38,720
+had, they're basically they just gave
+
+481
+00:13:37,280 --> 00:13:39,800
+all these different graphics. The ones
+
+482
+00:13:38,720 --> 00:13:42,240
+that you see here inside these
+
+483
+00:13:39,800 --> 00:13:44,320
+animations, everything from bread to
+
+484
+00:13:42,240 --> 00:13:46,480
+croissants made of dollars to matcha to
+
+485
+00:13:44,320 --> 00:13:47,400
+like these slices of cake. And when they
+
+486
+00:13:46,480 --> 00:13:48,200
+were talking about the process to come
+
+487
+00:13:47,400 --> 00:13:49,360
+up with all this, they were basically
+
+488
+00:13:48,200 --> 00:13:50,800
+saying that the design team's coming up
+
+489
+00:13:49,360 --> 00:13:51,840
+with thousands and thousands of items.
+
+490
+00:13:50,800 --> 00:13:53,040
+Where they're looking at the data from
+
+491
+00:13:51,840 --> 00:13:55,600
+the transactions people make. What do
+
+492
+00:13:53,040 --> 00:13:56,680
+people actually buy? And that starts as
+
+493
+00:13:55,600 --> 00:13:57,640
+basically their starting point. All
+
+494
+00:13:56,680 --> 00:13:59,160
+these things people are purchasing,
+
+495
+00:13:57,640 --> 00:14:00,120
+let's use those to create iconography.
+
+496
+00:13:59,160 --> 00:14:01,640
+They're rooting it in the visual
+
+497
+00:14:00,120 --> 00:14:03,600
+language of the user and it's in mass. I
+
+498
+00:14:01,640 --> 00:14:05,120
+said thousands of items. And they're 3D
+
+499
+00:14:03,600 --> 00:14:06,360
+scanning a lot of things in the real
+
+500
+00:14:05,120 --> 00:14:08,280
+world. So they have these kind of
+
+501
+00:14:06,360 --> 00:14:09,760
+realistic things that they're able to
+
+502
+00:14:08,280 --> 00:14:11,360
+then pull on to make graphics like what
+
+503
+00:14:09,760 --> 00:14:12,880
+you see here. And that visual language
+
+504
+00:14:11,360 --> 00:14:14,200
+of the user is a really important thing
+
+505
+00:14:12,880 --> 00:14:15,480
+to think about as you look at what the
+
+506
+00:14:14,200 --> 00:14:16,600
+visual language of technology looks
+
+507
+00:14:15,480 --> 00:14:18,160
+like. Back to that theme I had
+
+508
+00:14:16,600 --> 00:14:19,680
+discussing the claw app, it's no longer
+
+509
+00:14:18,160 --> 00:14:20,920
+about this hero celebrity or this hero
+
+510
+00:14:19,680 --> 00:14:22,280
+answer. It's about empowering that
+
+511
+00:14:20,920 --> 00:14:24,240
+individual and about showing that you
+
+512
+00:14:22,280 --> 00:14:25,880
+recognize their life. That's a marketing
+
+513
+00:14:24,240 --> 00:14:26,800
+concept that technologists need to wrap
+
+514
+00:14:25,880 --> 00:14:28,480
+their heads around. Especially in this
+
+515
+00:14:26,800 --> 00:14:29,600
+taste economy era where everyone's like,
+
+516
+00:14:28,480 --> 00:14:31,200
+"Oh, I need to have this taste or that
+
+517
+00:14:29,600 --> 00:14:32,360
+taste." What is the taste of your users?
+
+518
+00:14:31,200 --> 00:14:34,080
+What are they consuming? How can you
+
+519
+00:14:32,360 --> 00:14:35,640
+surprise them, delight them, educate
+
+520
+00:14:34,080 --> 00:14:37,560
+them, mirror them? Where you're showing
+
+521
+00:14:35,640 --> 00:14:38,920
+them that you understand them back. And
+
+522
+00:14:37,560 --> 00:14:40,080
+Cash App has done this in a few ways
+
+523
+00:14:38,920 --> 00:14:41,760
+that are interesting as well. One is the
+
+524
+00:14:40,080 --> 00:14:42,839
+design of the card. Right, this is an
+
+525
+00:14:41,760 --> 00:14:44,640
+artifacts in carousel where they've
+
+526
+00:14:42,839 --> 00:14:45,280
+actually collected the unique designs
+
+527
+00:14:44,640 --> 00:14:46,800
+people have done where they can
+
+528
+00:14:45,280 --> 00:14:49,200
+customize their own Cash App card. From
+
+529
+00:14:46,800 --> 00:14:50,960
+MF Doom to Vape Nation memes, all these
+
+530
+00:14:49,200 --> 00:14:52,440
+kind of funny sketches, the yin yang in
+
+531
+00:14:50,960 --> 00:14:54,800
+the design, all the way to like now
+
+532
+00:14:52,440 --> 00:14:56,200
+there's a Brat Charli XCX card, right?
+
+533
+00:14:54,800 --> 00:14:57,400
+But it's turned into something that like
+
+534
+00:14:56,200 --> 00:14:58,839
+means something to somebody. Again, for
+
+535
+00:14:57,400 --> 00:15:00,440
+a little transactional thing, these are
+
+536
+00:14:58,839 --> 00:15:02,680
+fun, they're funny, and it's a moment
+
+537
+00:15:00,440 --> 00:15:03,920
+inside their users' lives that another
+
+538
+00:15:02,680 --> 00:15:06,080
+company doesn't own. They have it
+
+539
+00:15:03,920 --> 00:15:08,160
+uniquely. As just as unique as a metal
+
+540
+00:15:06,080 --> 00:15:09,680
+card from MX was where everyone took it.
+
+541
+00:15:08,160 --> 00:15:11,720
+I love to point to them as someone doing
+
+542
+00:15:09,680 --> 00:15:12,680
+it differently in a large established
+
+543
+00:15:11,720 --> 00:15:14,400
+industry. And they've done this on
+
+544
+00:15:12,680 --> 00:15:16,160
+social, too. As you may have noticed if
+
+545
+00:15:14,400 --> 00:15:17,680
+you are on the Cash App social media,
+
+546
+00:15:16,160 --> 00:15:18,600
+it's a wide array of content. Yeah,
+
+547
+00:15:17,680 --> 00:15:20,240
+yeah, you should see look at the top
+
+548
+00:15:18,600 --> 00:15:22,120
+here. I'm three of these last eight
+
+549
+00:15:20,240 --> 00:15:24,040
+reels. I'm one of several creators that
+
+550
+00:15:22,120 --> 00:15:25,640
+work with them. They have BK, Coffee, uh
+
+551
+00:15:24,040 --> 00:15:27,080
+the like skit creators. They have their
+
+552
+00:15:25,640 --> 00:15:28,560
+racers. So, they have a wide variety
+
+553
+00:15:27,080 --> 00:15:30,000
+from a from more business intellectual
+
+554
+00:15:28,560 --> 00:15:31,200
+creator like myself to more like skit
+
+555
+00:15:30,000 --> 00:15:32,680
+creators to what they have in racing.
+
+556
+00:15:31,200 --> 00:15:33,880
+They're building a world that mirrors
+
+557
+00:15:32,680 --> 00:15:35,840
+all the different things around their
+
+558
+00:15:33,880 --> 00:15:38,880
+users. Where it's going to be a variety
+
+559
+00:15:35,840 --> 00:15:39,680
+show versus just a singular brand ethos.
+
+560
+00:15:38,880 --> 00:15:41,640
+So, if you're not familiar with the
+
+561
+00:15:39,680 --> 00:15:42,960
+podcast TBPN, they're an extremely
+
+562
+00:15:41,640 --> 00:15:44,640
+popular podcast in technology. And they
+
+563
+00:15:42,960 --> 00:15:46,520
+announced a rebrand recently assisted by
+
+564
+00:15:44,640 --> 00:15:48,640
+Area. And this brand identity is applied
+
+565
+00:15:46,520 --> 00:15:50,160
+to their podcast and YouTube. You'll see
+
+566
+00:15:48,640 --> 00:15:51,200
+it's in the shyrons. They're doing a
+
+567
+00:15:50,160 --> 00:15:52,160
+couple things here I think are really
+
+568
+00:15:51,200 --> 00:15:54,080
+interesting that brands should be aware
+
+569
+00:15:52,160 --> 00:15:55,800
+of. One is they're using their brand
+
+570
+00:15:54,080 --> 00:15:57,080
+identity to establish credibility and
+
+571
+00:15:55,800 --> 00:15:58,280
+recognition, right? Which is what most
+
+572
+00:15:57,080 --> 00:15:59,760
+brand identities are. People seem to
+
+573
+00:15:58,280 --> 00:16:00,880
+have lost that. They'll think, "Oh, just
+
+574
+00:15:59,760 --> 00:16:02,680
+having it be nice establishes
+
+575
+00:16:00,880 --> 00:16:04,360
+credibility." For them, having it look
+
+576
+00:16:02,680 --> 00:16:06,880
+like a news network that's been around
+
+577
+00:16:04,360 --> 00:16:08,720
+forever, that operates at that level,
+
+578
+00:16:06,880 --> 00:16:10,520
+that's unique on a YouTube feed. Again,
+
+579
+00:16:08,720 --> 00:16:12,760
+I see this live streaming. It does not
+
+580
+00:16:10,520 --> 00:16:14,680
+look like anyone else's podcast. There's
+
+581
+00:16:12,760 --> 00:16:16,080
+a visual power there. It's done that
+
+582
+00:16:14,680 --> 00:16:17,520
+well. And then thinking about the
+
+583
+00:16:16,080 --> 00:16:18,880
+applications. So, obviously there's the
+
+584
+00:16:17,520 --> 00:16:20,280
+shyrons they have while they're talking
+
+585
+00:16:18,880 --> 00:16:21,520
+where they're able to cut a call out
+
+586
+00:16:20,280 --> 00:16:23,040
+different things that are going on and
+
+587
+00:16:21,520 --> 00:16:24,880
+different colorways and looks. How it
+
+588
+00:16:23,040 --> 00:16:26,240
+actually applies to social media. This
+
+589
+00:16:24,880 --> 00:16:27,440
+is one of the biggest things we look at
+
+590
+00:16:26,240 --> 00:16:28,960
+when you actually get into social.
+
+591
+00:16:27,440 --> 00:16:30,640
+First, branded content like this doesn't
+
+592
+00:16:28,960 --> 00:16:31,920
+work for everyone. But for podcasts or
+
+593
+00:16:30,640 --> 00:16:33,080
+for media networks or for people that
+
+594
+00:16:31,920 --> 00:16:35,160
+are making announcements, doing
+
+595
+00:16:33,080 --> 00:16:36,480
+carousels, it matters. Don't over design
+
+596
+00:16:35,160 --> 00:16:37,800
+into this. But if you are participating
+
+597
+00:16:36,480 --> 00:16:39,040
+in the culture and can do it at a high
+
+598
+00:16:37,800 --> 00:16:39,760
+level, you should. And this is something
+
+599
+00:16:39,040 --> 00:16:40,800
+we looked at when we were doing the
+
+600
+00:16:39,760 --> 00:16:42,200
+Brand Father's pod when we were trying
+
+601
+00:16:40,800 --> 00:16:43,120
+to get our identity redesigned. One of
+
+602
+00:16:42,200 --> 00:16:44,600
+the things we were requesting is stuff
+
+603
+00:16:43,120 --> 00:16:45,800
+like this, right? We want social
+
+604
+00:16:44,600 --> 00:16:47,760
+graphics where we want to call out
+
+605
+00:16:45,800 --> 00:16:49,160
+different events or news or things. And
+
+606
+00:16:47,760 --> 00:16:50,480
+the designers just kind of couldn't get
+
+607
+00:16:49,160 --> 00:16:52,360
+what actually works on social. There's a
+
+608
+00:16:50,480 --> 00:16:53,680
+dissonance there where you have a unique
+
+609
+00:16:52,360 --> 00:16:55,240
+advantage you can take advantage of if
+
+610
+00:16:53,680 --> 00:16:56,440
+you do understand it of I understand how
+
+611
+00:16:55,240 --> 00:16:57,680
+visuals are cool and I understand what
+
+612
+00:16:56,440 --> 00:16:59,480
+works on social media and I understand
+
+613
+00:16:57,680 --> 00:17:02,120
+what people are trying to do with their
+
+614
+00:16:59,480 --> 00:17:04,760
+content. And I can build identities and
+
+615
+00:17:02,120 --> 00:17:06,120
+systems and design to push that. And
+
+616
+00:17:04,760 --> 00:17:07,920
+this is something Area has done. I
+
+617
+00:17:06,120 --> 00:17:09,680
+imagine it's collaborative with what
+
+618
+00:17:07,920 --> 00:17:11,199
+TBPN is already working on to create
+
+619
+00:17:09,680 --> 00:17:13,560
+that level of identity. But this ties
+
+620
+00:17:11,199 --> 00:17:14,839
+into this idea of artifacts. Creative
+
+621
+00:17:13,560 --> 00:17:16,640
+direction and art direction now are more
+
+622
+00:17:14,839 --> 00:17:17,920
+tied into the fabrication of things than
+
+623
+00:17:16,640 --> 00:17:19,720
+ever. And do we have to make some big
+
+624
+00:17:17,920 --> 00:17:21,160
+blown up thing or create some set for
+
+625
+00:17:19,720 --> 00:17:23,480
+whatever video we're going to make or
+
+626
+00:17:21,160 --> 00:17:24,760
+the product itself is so tied into how
+
+627
+00:17:23,480 --> 00:17:26,560
+the content is made because of the
+
+628
+00:17:24,760 --> 00:17:28,960
+virality of product. But the TVP and
+
+629
+00:17:26,560 --> 00:17:30,120
+hats and jackets and polos have become
+
+630
+00:17:28,960 --> 00:17:31,600
+part of the identity, right? You can
+
+631
+00:17:30,120 --> 00:17:33,040
+only get them if you're a guest. They
+
+632
+00:17:31,600 --> 00:17:34,920
+send them to people after they're on the
+
+633
+00:17:33,040 --> 00:17:36,360
+show. But it's an artifact for the
+
+634
+00:17:34,920 --> 00:17:37,600
+brand. That's an extension of the brand.
+
+635
+00:17:36,360 --> 00:17:39,480
+It's a big part of the identity we look
+
+636
+00:17:37,600 --> 00:17:41,000
+at now for such a product driven, post
+
+637
+00:17:39,480 --> 00:17:42,160
+driven culture. And I think brands,
+
+638
+00:17:41,000 --> 00:17:44,280
+especially older technology brands,
+
+639
+00:17:42,160 --> 00:17:46,320
+don't realize what their brands can kind
+
+640
+00:17:44,280 --> 00:17:48,240
+of mean to people over time. Like the If
+
+641
+00:17:46,320 --> 00:17:50,480
+you haven't seen the Lockheed Martin
+
+642
+00:17:48,240 --> 00:17:52,960
+streetwear brand in Korea where they
+
+643
+00:17:50,480 --> 00:17:55,280
+have a kind of completely like full
+
+644
+00:17:52,960 --> 00:17:57,080
+complete selling lines. Perhaps the best
+
+645
+00:17:55,280 --> 00:17:59,560
+example is Anduril, the defense tech
+
+646
+00:17:57,080 --> 00:18:01,920
+company, making Game Boys out of the
+
+647
+00:17:59,560 --> 00:18:04,040
+same metal that they use inside their
+
+648
+00:18:01,920 --> 00:18:06,280
+rockets. Yeah, the same metal as attack
+
+649
+00:18:04,040 --> 00:18:07,440
+drones. Creating the artifacts and lore
+
+650
+00:18:06,280 --> 00:18:09,120
+is as much of creative direction, art
+
+651
+00:18:07,440 --> 00:18:10,800
+direction, and marketing now as some of
+
+652
+00:18:09,120 --> 00:18:12,760
+the initial value proposition stuff. The
+
+653
+00:18:10,800 --> 00:18:14,080
+objects matter and when they're whack,
+
+654
+00:18:12,760 --> 00:18:15,440
+it's actually the much worse. When it's
+
+655
+00:18:14,080 --> 00:18:16,880
+the same generic thing with another
+
+656
+00:18:15,440 --> 00:18:18,160
+piece of trash you have to throw away
+
+657
+00:18:16,880 --> 00:18:19,760
+versus taking the time to make anything
+
+658
+00:18:18,160 --> 00:18:21,000
+with a story. Now after artifacts, I
+
+659
+00:18:19,760 --> 00:18:23,080
+want to talk about the concept of
+
+660
+00:18:21,000 --> 00:18:24,400
+rituals as well. So when I was still
+
+661
+00:18:23,080 --> 00:18:26,160
+working in technology, one of the
+
+662
+00:18:24,400 --> 00:18:27,600
+software companies that I worked at was
+
+663
+00:18:26,160 --> 00:18:29,000
+funded by this company Lux Capital. We
+
+664
+00:18:27,600 --> 00:18:30,240
+got a six and a half million dollar seed
+
+665
+00:18:29,000 --> 00:18:31,960
+from them. And I remember at the time
+
+666
+00:18:30,240 --> 00:18:33,880
+they did a thing they did a quarterly
+
+667
+00:18:31,960 --> 00:18:35,560
+letter that they would send out about
+
+668
+00:18:33,880 --> 00:18:36,680
+the things that they were focused on as
+
+669
+00:18:35,560 --> 00:18:38,200
+a fund, what they're seeing, the
+
+670
+00:18:36,680 --> 00:18:39,600
+conditions everyone should be aware of.
+
+671
+00:18:38,200 --> 00:18:41,960
+It became a regular thing that everyone
+
+672
+00:18:39,600 --> 00:18:43,400
+who was kind of privy to it wanted to be
+
+673
+00:18:41,960 --> 00:18:44,520
+able to engage with it, read it, know
+
+674
+00:18:43,400 --> 00:18:45,960
+what they were saying. Then they began
+
+675
+00:18:44,520 --> 00:18:47,160
+releasing versions of this publicly as
+
+676
+00:18:45,960 --> 00:18:48,600
+well and you began to expect, what are
+
+677
+00:18:47,160 --> 00:18:50,160
+these people's regular thoughts on
+
+678
+00:18:48,600 --> 00:18:51,960
+technology? I think rituals like that
+
+679
+00:18:50,160 --> 00:18:53,720
+are really important for brands in this
+
+680
+00:18:51,960 --> 00:18:56,400
+space in particular to consider. The way
+
+681
+00:18:53,720 --> 00:18:57,880
+you see an Apple WWDC each year, even if
+
+682
+00:18:56,400 --> 00:18:59,240
+you're only doing it at the size that
+
+683
+00:18:57,880 --> 00:19:00,440
+you're at. And another one I want to
+
+684
+00:18:59,240 --> 00:19:01,960
+call out from them is they also have
+
+685
+00:19:00,440 --> 00:19:03,480
+like an event thing that they've done as
+
+686
+00:19:01,960 --> 00:19:04,640
+well. You can function them online but
+
+687
+00:19:03,480 --> 00:19:06,600
+they just have this risk gaming like
+
+688
+00:19:04,640 --> 00:19:10,320
+scenario based walk-throughs. Like
+
+689
+00:19:06,600 --> 00:19:12,160
+strategic multi-hour scenarios you can
+
+690
+00:19:10,320 --> 00:19:14,520
+work through with other people, salon
+
+691
+00:19:12,160 --> 00:19:15,880
+experiences. They are taking their idea
+
+692
+00:19:14,520 --> 00:19:17,440
+of venture capital, their idea of them
+
+693
+00:19:15,880 --> 00:19:18,360
+marketing these scenarios happening in
+
+694
+00:19:17,440 --> 00:19:19,560
+the world. They have to think through
+
+695
+00:19:18,360 --> 00:19:21,200
+from a fiscal perspective and how do
+
+696
+00:19:19,560 --> 00:19:22,400
+their portfolio companies navigate them.
+
+697
+00:19:21,200 --> 00:19:23,520
+And then putting scenarios out there of
+
+698
+00:19:22,400 --> 00:19:24,800
+those same problems that people can
+
+699
+00:19:23,520 --> 00:19:26,560
+actually go in and work and try to
+
+700
+00:19:24,800 --> 00:19:28,120
+solve. I thought it was a really unique
+
+701
+00:19:26,560 --> 00:19:29,560
+way to approach the marketing of venture
+
+702
+00:19:28,120 --> 00:19:31,040
+capital cuz we're seeing a lot of that
+
+703
+00:19:29,560 --> 00:19:32,920
+capital have to market way more now. And
+
+704
+00:19:31,040 --> 00:19:35,280
+what I want to call out on this is A16Z.
+
+705
+00:19:32,920 --> 00:19:37,080
+So, Andreessen Horowitz rebranded this
+
+706
+00:19:35,280 --> 00:19:38,680
+American dynamism rebrand you've likely
+
+707
+00:19:37,080 --> 00:19:40,480
+seen. They hired some of the initial
+
+708
+00:19:38,680 --> 00:19:41,680
+workers at TVPN who are understanding
+
+709
+00:19:40,480 --> 00:19:43,200
+savvy of new media. And they're doing
+
+710
+00:19:41,680 --> 00:19:45,880
+things like this, putting out American
+
+711
+00:19:43,200 --> 00:19:48,560
+dynamism carousels, right? Doing actual
+
+712
+00:19:45,880 --> 00:19:50,320
+well-edited interview reels. Carousels
+
+713
+00:19:48,560 --> 00:19:52,040
+from insights from Sam Altman using that
+
+714
+00:19:50,320 --> 00:19:53,760
+new branding. They're navigating the
+
+715
+00:19:52,040 --> 00:19:55,840
+modern language in a way that almost no
+
+716
+00:19:53,760 --> 00:19:57,400
+other VC firm is. This one actually did
+
+717
+00:19:55,840 --> 00:19:58,320
+well. These startups don't exist yet,
+
+718
+00:19:57,400 --> 00:20:00,040
+right? A lot And what's interesting
+
+719
+00:19:58,320 --> 00:20:01,320
+about this is they're in the carousel
+
+720
+00:20:00,040 --> 00:20:02,040
+game, right? The carousel game on
+
+721
+00:20:01,320 --> 00:20:03,360
+Instagram right now, if you have
+
+722
+00:20:02,040 --> 00:20:04,400
+credibility, is a great one. If you
+
+723
+00:20:03,360 --> 00:20:06,000
+don't have credibility, you're just
+
+724
+00:20:04,400 --> 00:20:07,080
+another carousel in the noise. You are
+
+725
+00:20:06,000 --> 00:20:08,480
+literally putting stuff out there that
+
+726
+00:20:07,080 --> 00:20:10,040
+no one's going to ever associate with
+
+727
+00:20:08,480 --> 00:20:11,720
+you. It's why I put my face on all my
+
+728
+00:20:10,040 --> 00:20:13,160
+carousels. At least I'm associated with
+
+729
+00:20:11,720 --> 00:20:14,560
+it. But if you're A16Z, if you're
+
+730
+00:20:13,160 --> 00:20:15,720
+someone who has that clout, like ID
+
+731
+00:20:14,560 --> 00:20:17,320
+Magazine is another good example. ID
+
+732
+00:20:15,720 --> 00:20:18,720
+Magazine is putting out you know, a lot
+
+733
+00:20:17,320 --> 00:20:19,840
+of publications that finally caught on
+
+734
+00:20:18,720 --> 00:20:20,760
+that oh, there's some social media we
+
+735
+00:20:19,840 --> 00:20:22,400
+understand we're not going to get
+
+736
+00:20:20,760 --> 00:20:23,720
+torched at. It's going to be carousels.
+
+737
+00:20:22,400 --> 00:20:25,000
+Basically, A16Z has done this where it's
+
+738
+00:20:23,720 --> 00:20:26,080
+it gives them immediate cred, right?
+
+739
+00:20:25,000 --> 00:20:27,360
+Where you're like, wow, this stuff is a
+
+740
+00:20:26,080 --> 00:20:29,680
+thing I've heard of if I'm in that
+
+741
+00:20:27,360 --> 00:20:31,320
+niche. There's content coming out here
+
+742
+00:20:29,680 --> 00:20:32,680
+and they're in that social conversation
+
+743
+00:20:31,320 --> 00:20:35,200
+effectively. What I think is interesting
+
+744
+00:20:32,680 --> 00:20:36,720
+is it's a few steps from right. And this
+
+745
+00:20:35,200 --> 00:20:38,520
+is another big thing we look at Apple in
+
+746
+00:20:36,720 --> 00:20:40,080
+context. Everything for Apple is always
+
+747
+00:20:38,520 --> 00:20:41,680
+perfect. Everything is always set up
+
+748
+00:20:40,080 --> 00:20:44,160
+exactly right. They are the brand
+
+749
+00:20:41,680 --> 00:20:45,720
+marquee of perfection as a brand value.
+
+750
+00:20:44,160 --> 00:20:47,240
+Is it up to the standard? Was it Steve
+
+751
+00:20:45,720 --> 00:20:49,440
+Jobs' standard or the standard they have
+
+752
+00:20:47,240 --> 00:20:50,640
+now? But this is not where A16Z is.
+
+753
+00:20:49,440 --> 00:20:52,400
+That's an important distinction cuz it's
+
+754
+00:20:50,640 --> 00:20:54,080
+happening for a reason. They are trying.
+
+755
+00:20:52,400 --> 00:20:55,560
+These are attempts. They are new at
+
+756
+00:20:54,080 --> 00:20:57,360
+social. They are figuring it out. A lot
+
+757
+00:20:55,560 --> 00:20:58,880
+of it is not good. It's several steps
+
+758
+00:20:57,360 --> 00:21:00,160
+from right. But enough of it is good.
+
+759
+00:20:58,880 --> 00:21:01,840
+They're putting wins on the board and
+
+760
+00:21:00,160 --> 00:21:02,960
+they're actually actively participating.
+
+761
+00:21:01,840 --> 00:21:04,200
+And that's what most technology
+
+762
+00:21:02,960 --> 00:21:05,840
+companies are missing now, especially
+
+763
+00:21:04,200 --> 00:21:07,200
+established, especially VCs. They're so
+
+764
+00:21:05,840 --> 00:21:08,520
+afraid not have the perfect strategy.
+
+765
+00:21:07,200 --> 00:21:10,280
+They're so afraid to have things flop.
+
+766
+00:21:08,520 --> 00:21:12,200
+Well, this is an iterative scenario. You
+
+767
+00:21:10,280 --> 00:21:14,080
+have to be in the arena. There is no way
+
+768
+00:21:12,200 --> 00:21:15,240
+you can be out of the arena trying
+
+769
+00:21:14,080 --> 00:21:16,760
+You cannot have eight levels of
+
+770
+00:21:15,240 --> 00:21:18,360
+approval. You cannot have the perfect
+
+771
+00:21:16,760 --> 00:21:19,480
+campaign. You have to be iterating.
+
+772
+00:21:18,360 --> 00:21:21,840
+You're not going to figure it out
+
+773
+00:21:19,480 --> 00:21:23,560
+because every single brand has to have
+
+774
+00:21:21,840 --> 00:21:26,160
+the combination of its account, its
+
+775
+00:21:23,560 --> 00:21:27,640
+team, its fans, and each algorithm. You
+
+776
+00:21:26,160 --> 00:21:29,240
+have to decipher that. There is no
+
+777
+00:21:27,640 --> 00:21:31,080
+silver bullet. I'm one of the foremost
+
+778
+00:21:29,240 --> 00:21:32,400
+experts in the world on brand social
+
+779
+00:21:31,080 --> 00:21:34,280
+media after we've done thousands of
+
+780
+00:21:32,400 --> 00:21:35,960
+brands in Cut 30. And I will tell you as
+
+781
+00:21:34,280 --> 00:21:37,360
+that expert that you cannot I cannot
+
+782
+00:21:35,960 --> 00:21:39,080
+walk in and give you a silver bullet
+
+783
+00:21:37,360 --> 00:21:40,640
+that will 100% succeed until we
+
+784
+00:21:39,080 --> 00:21:42,480
+understand the interaction between your
+
+785
+00:21:40,640 --> 00:21:44,040
+customers on social media, your brand on
+
+786
+00:21:42,480 --> 00:21:45,320
+social media, and the content formats
+
+787
+00:21:44,040 --> 00:21:46,960
+that are there, and what's happening in
+
+788
+00:21:45,320 --> 00:21:48,920
+the algorithm at any given time. It is a
+
+789
+00:21:46,960 --> 00:21:50,160
+moving target. And by the time you do
+
+790
+00:21:48,920 --> 00:21:51,560
+some fancy approved campaign, that
+
+791
+00:21:50,160 --> 00:21:52,800
+target may already have moved again. So,
+
+792
+00:21:51,560 --> 00:21:54,800
+they're doing the exact right thing
+
+793
+00:21:52,800 --> 00:21:57,480
+here. It's not the Steve Jobs era. It's
+
+794
+00:21:54,800 --> 00:21:58,840
+the in the arena era, the imperfect era.
+
+795
+00:21:57,480 --> 00:22:00,160
+That's what any technology company
+
+796
+00:21:58,840 --> 00:22:01,360
+watching this, one of the big things I
+
+797
+00:22:00,160 --> 00:22:02,880
+would take away. So, we've covered a lot
+
+798
+00:22:01,360 --> 00:22:05,080
+of concepts here. I could yap about this
+
+799
+00:22:02,880 --> 00:22:06,720
+for hours, honestly. Maybe we'll do more
+
+800
+00:22:05,080 --> 00:22:07,600
+If you like more technology videos, if
+
+801
+00:22:06,720 --> 00:22:09,000
+you want me to break down other
+
+802
+00:22:07,600 --> 00:22:10,640
+companies or all things in there. I'm
+
+803
+00:22:09,000 --> 00:22:12,200
+debating trying this more. I'd love to
+
+804
+00:22:10,640 --> 00:22:13,240
+talk about tech. If it does resonate,
+
+805
+00:22:12,200 --> 00:22:15,000
+something I would love to talk about
+
+806
+00:22:13,240 --> 00:22:16,120
+significantly more. And if you are in
+
+807
+00:22:15,000 --> 00:22:18,160
+this space, you're looking to learn
+
+808
+00:22:16,120 --> 00:22:19,840
+these creative strategy toolkits, all of
+
+809
+00:22:18,160 --> 00:22:21,960
+the various programs and newsletters I
+
+810
+00:22:19,840 --> 00:22:23,960
+think uh that I have are down below. We
+
+811
+00:22:21,960 --> 00:22:25,120
+are working with brands to train their
+
+812
+00:22:23,960 --> 00:22:26,920
+teams. We're working with individual
+
+813
+00:22:25,120 --> 00:22:28,800
+people all the time on working through
+
+814
+00:22:26,920 --> 00:22:30,000
+these exact scenarios. As always, I
+
+815
+00:22:28,800 --> 00:22:31,560
+appreciate y'all watching. We're going
+
+816
+00:22:30,000 --> 00:22:32,920
+to keep doing new topics and new things,
+
+817
+00:22:31,560 --> 00:22:35,320
+and I appreciate y'all bearing with it.
+
+818
+00:22:32,920 --> 00:22:35,320
+Thank you.
+

@@ -1,0 +1,2276 @@
+1
+00:00:00,000 --> 00:00:04,840
+In this video, we're going to talk about
+
+2
+00:00:01,680 --> 00:00:06,720
+the psychology of why people buy. Every
+
+3
+00:00:04,840 --> 00:00:08,560
+single day, whether you shop online or
+
+4
+00:00:06,720 --> 00:00:12,080
+shop in real life, you are inundated
+
+5
+00:00:08,560 --> 00:00:14,240
+with tricks from $9.99 as a dollar value
+
+6
+00:00:12,080 --> 00:00:16,080
+to sample packs to marketing tailored
+
+7
+00:00:14,240 --> 00:00:17,960
+specifically to you without you even
+
+8
+00:00:16,080 --> 00:00:19,760
+knowing it. And all these are tools in
+
+9
+00:00:17,960 --> 00:00:21,520
+any brand or marketer's toolkit that
+
+10
+00:00:19,760 --> 00:00:23,280
+they can use to better perform in their
+
+11
+00:00:21,520 --> 00:00:25,000
+business. It's also things that every
+
+12
+00:00:23,280 --> 00:00:27,040
+consumer should be aware of so you
+
+13
+00:00:25,000 --> 00:00:28,640
+understand how you're being sold to and
+
+14
+00:00:27,040 --> 00:00:30,640
+more about why you make the decisions
+
+15
+00:00:28,640 --> 00:00:32,000
+you make when consuming. In this video,
+
+16
+00:00:30,640 --> 00:00:34,280
+we're going to walk through pricing
+
+17
+00:00:32,000 --> 00:00:36,200
+strategies that will help your products
+
+18
+00:00:34,280 --> 00:00:38,600
+sell more and give examples of how
+
+19
+00:00:36,200 --> 00:00:40,480
+pricing and product tie together to form
+
+20
+00:00:38,600 --> 00:00:41,840
+brand strategy in all kinds of different
+
+21
+00:00:40,480 --> 00:00:43,880
+niches. And then we're going to dive
+
+22
+00:00:41,840 --> 00:00:46,000
+into personas, how to break your
+
+23
+00:00:43,880 --> 00:00:48,240
+customers into specific segments and
+
+24
+00:00:46,000 --> 00:00:50,240
+give value propositions right to them.
+
+25
+00:00:48,240 --> 00:00:51,920
+And look at the technology stack to do
+
+26
+00:00:50,240 --> 00:00:54,320
+that effectively. This is a super
+
+27
+00:00:51,920 --> 00:00:56,360
+tactical video you can actually apply in
+
+28
+00:00:54,320 --> 00:00:58,400
+your marketing career as a brand or
+
+29
+00:00:56,360 --> 00:00:59,960
+really in any business. But as always,
+
+30
+00:00:58,400 --> 00:01:02,240
+my video's really rooted in the
+
+31
+00:00:59,960 --> 00:01:04,160
+sociology and psychology of why we buy,
+
+32
+00:01:02,240 --> 00:01:05,680
+why we think, why we consume, why we
+
+33
+00:01:04,160 --> 00:01:07,480
+love the brands we do. I hope you'll
+
+34
+00:01:05,680 --> 00:01:09,520
+have fun no matter what your background
+
+35
+00:01:07,480 --> 00:01:11,200
+is. There is a super comprehensive free
+
+36
+00:01:09,520 --> 00:01:12,960
+download that comes with this you can
+
+37
+00:01:11,200 --> 00:01:15,280
+grab below. It includes how to build
+
+38
+00:01:12,960 --> 00:01:16,800
+personas, all the pricing tactics, even
+
+39
+00:01:15,280 --> 00:01:18,640
+info on things like how to connect in
+
+40
+00:01:16,800 --> 00:01:20,360
+your social strategy. And in the first
+
+41
+00:01:18,640 --> 00:01:22,000
+week of May, our next community call,
+
+42
+00:01:20,360 --> 00:01:23,600
+any questions you have, you can come
+
+43
+00:01:22,000 --> 00:01:25,360
+dive in. There's a link to that below as
+
+44
+00:01:23,600 --> 00:01:27,160
+well. Let's lock in. So first, I'm going
+
+45
+00:01:25,360 --> 00:01:28,640
+to speed run through five pricing
+
+46
+00:01:27,160 --> 00:01:30,240
+psychology techniques. Then we're going
+
+47
+00:01:28,640 --> 00:01:32,080
+to get into some examples of how brands
+
+48
+00:01:30,240 --> 00:01:34,640
+structure their product mix to take
+
+49
+00:01:32,080 --> 00:01:36,640
+advantage of these. So the first concept
+
+50
+00:01:34,640 --> 00:01:39,760
+is anchoring. The first number that
+
+51
+00:01:36,640 --> 00:01:41,400
+someone sees on a page reframes every
+
+52
+00:01:39,760 --> 00:01:43,160
+number they see after it. This is why
+
+53
+00:01:41,400 --> 00:01:45,080
+you will always see when someone sells
+
+54
+00:01:43,160 --> 00:01:47,040
+you something in software or similar
+
+55
+00:01:45,080 --> 00:01:48,840
+that they will have tiers of a high
+
+56
+00:01:47,040 --> 00:01:50,920
+anchor on the right, a mid-tier in the
+
+57
+00:01:48,840 --> 00:01:53,040
+middle, and a low option that often
+
+58
+00:01:50,920 --> 00:01:55,360
+mostly exists to make the center feel
+
+59
+00:01:53,040 --> 00:01:57,760
+justified or to get someone to buy in to
+
+60
+00:01:55,360 --> 00:01:59,640
+later upsell them into the other tiers.
+
+61
+00:01:57,760 --> 00:02:02,280
+This is all about making the product
+
+62
+00:01:59,640 --> 00:02:04,320
+feel reasonable by strategically pricing
+
+63
+00:02:02,280 --> 00:02:06,760
+all three. And then retail does the same
+
+64
+00:02:04,320 --> 00:02:07,800
+thing. Luxury stores don't stock a $900
+
+65
+00:02:06,760 --> 00:02:10,039
+candle cuz they think you're going to
+
+66
+00:02:07,800 --> 00:02:12,160
+buy it. They do it to make the $200
+
+67
+00:02:10,039 --> 00:02:13,920
+candle seem affordable. And the anchor
+
+68
+00:02:12,160 --> 00:02:15,720
+doesn't have to be your product. It just
+
+69
+00:02:13,920 --> 00:02:17,720
+needs to be in the frame. In a bit of a
+
+70
+00:02:15,720 --> 00:02:19,920
+great tactic, Keens does this by
+
+71
+00:02:17,720 --> 00:02:22,160
+actually listing the typical retail
+
+72
+00:02:19,920 --> 00:02:23,959
+price that they position against with
+
+73
+00:02:22,160 --> 00:02:25,840
+their lower price. And you'll see retail
+
+74
+00:02:23,959 --> 00:02:27,120
+structures a lot like this. Best Buy
+
+75
+00:02:25,840 --> 00:02:29,240
+will go in, you'll see almost every
+
+76
+00:02:27,120 --> 00:02:31,800
+category they have, headphones, washers,
+
+77
+00:02:29,240 --> 00:02:33,520
+TVs have a good, better, and a best.
+
+78
+00:02:31,800 --> 00:02:35,400
+Someone just wants the price option can
+
+79
+00:02:33,520 --> 00:02:37,280
+get the good, the best sells a lot
+
+80
+00:02:35,400 --> 00:02:38,959
+rarer, but helps anchor the price of the
+
+81
+00:02:37,280 --> 00:02:40,680
+middle, and the middle tends to be a big
+
+82
+00:02:38,959 --> 00:02:42,680
+selling category. Now, let's talk about
+
+83
+00:02:40,680 --> 00:02:44,680
+price as a quality signal cuz this is a
+
+84
+00:02:42,680 --> 00:02:46,200
+big one and one I've had a hard time
+
+85
+00:02:44,680 --> 00:02:47,720
+learning in my career. But people don't
+
+86
+00:02:46,200 --> 00:02:49,360
+have perfect information about product
+
+87
+00:02:47,720 --> 00:02:50,760
+quality. If you saw my videos in prior
+
+88
+00:02:49,360 --> 00:02:52,520
+weeks where I talk about cashmere,
+
+89
+00:02:50,760 --> 00:02:54,360
+you'll know that 100% cashmere can mean
+
+90
+00:02:52,520 --> 00:02:55,600
+completely different things, but still
+
+91
+00:02:54,360 --> 00:02:56,959
+have the same label. And so on
+
+92
+00:02:55,600 --> 00:02:59,040
+e-commerce, it's almost impossible to
+
+93
+00:02:56,959 --> 00:03:00,880
+tell. This is why brands will use price
+
+94
+00:02:59,040 --> 00:03:02,480
+as a proxy. You may think that your
+
+95
+00:03:00,880 --> 00:03:03,440
+brand you want to offer people a deal.
+
+96
+00:03:02,480 --> 00:03:04,880
+You're going to give them an excellent
+
+97
+00:03:03,440 --> 00:03:07,080
+product at an excellent price. But the
+
+98
+00:03:04,880 --> 00:03:08,800
+problem is the perception based on price
+
+99
+00:03:07,080 --> 00:03:10,640
+maybe that your product isn't actually
+
+100
+00:03:08,800 --> 00:03:12,200
+excellent. So a lot less people even
+
+101
+00:03:10,640 --> 00:03:13,320
+make the choice of buying it to
+
+102
+00:03:12,200 --> 00:03:15,200
+understand. I look at this in
+
+103
+00:03:13,320 --> 00:03:18,200
+streetwear. People always ask, "How do
+
+104
+00:03:15,200 --> 00:03:20,280
+these brands sell $400, $500 shirts?" In
+
+105
+00:03:18,200 --> 00:03:21,440
+fact, as someone who sells $80 shirts,
+
+106
+00:03:20,280 --> 00:03:23,680
+I'll get a lot of people that will say,
+
+107
+00:03:21,440 --> 00:03:25,400
+"That seems too expensive, $80, $100
+
+108
+00:03:23,680 --> 00:03:27,120
+shipped." But they're better quality
+
+109
+00:03:25,400 --> 00:03:28,480
+shirts than the 500. But the boutique
+
+110
+00:03:27,120 --> 00:03:30,320
+owners and the buyers especially will
+
+111
+00:03:28,480 --> 00:03:32,720
+go, "Is a sign that something is of a
+
+112
+00:03:30,320 --> 00:03:34,920
+specific level of designer or a specific
+
+113
+00:03:32,720 --> 00:03:36,640
+level of value just to be priced in that
+
+114
+00:03:34,920 --> 00:03:38,040
+range? Of course it's a telltale. Of
+
+115
+00:03:36,640 --> 00:03:39,720
+course it's not a blank." And if you're
+
+116
+00:03:38,040 --> 00:03:40,959
+positioning any lower than that, you're
+
+117
+00:03:39,720 --> 00:03:42,840
+actually lowering the customer
+
+118
+00:03:40,959 --> 00:03:44,560
+expectation, and you may never even get
+
+119
+00:03:42,840 --> 00:03:46,160
+a chance to exceed it. This makes sense.
+
+120
+00:03:44,560 --> 00:03:47,680
+This is a reasonable heuristic in a
+
+121
+00:03:46,160 --> 00:03:49,519
+world where people can't try everything
+
+122
+00:03:47,680 --> 00:03:51,519
+before buying. Price things in an
+
+123
+00:03:49,519 --> 00:03:53,640
+expected way, and know that underpricing
+
+124
+00:03:51,519 --> 00:03:55,480
+is a brand problem, not just a margin
+
+125
+00:03:53,640 --> 00:03:58,120
+problem. Then we have charm pricing and
+
+126
+00:03:55,480 --> 00:03:59,640
+rounded pricing. So $9.99 versus $10.
+
+127
+00:03:58,120 --> 00:04:01,000
+The difference is 1 cent, but the
+
+128
+00:03:59,640 --> 00:04:02,600
+psychological difference is actually
+
+129
+00:04:01,000 --> 00:04:04,800
+much bigger. Prices ending in nine
+
+130
+00:04:02,600 --> 00:04:07,080
+consistently drive higher volume. This
+
+131
+00:04:04,800 --> 00:04:08,400
+is true in mass and value categories.
+
+132
+00:04:07,080 --> 00:04:09,920
+But in premium and luxury categories,
+
+133
+00:04:08,400 --> 00:04:11,920
+the opposite is true. The rounded
+
+134
+00:04:09,920 --> 00:04:13,320
+number. Basically, the $10 says we're
+
+135
+00:04:11,920 --> 00:04:15,240
+not trying to trick you into thinking
+
+136
+00:04:13,320 --> 00:04:16,920
+that $9.99 is a good deal. We know
+
+137
+00:04:15,240 --> 00:04:19,000
+you're smarter than that. You will see
+
+138
+00:04:16,920 --> 00:04:20,600
+that play out in a lot of luxury versus
+
+139
+00:04:19,000 --> 00:04:22,360
+value brands. And at the same time, you
+
+140
+00:04:20,600 --> 00:04:25,520
+have what we call lost price points.
+
+141
+00:04:22,360 --> 00:04:27,960
+$69. There's a reason why everything is
+
+142
+00:04:25,520 --> 00:04:30,600
+59 or 99. If you go all the way up to
+
+143
+00:04:27,960 --> 00:04:31,960
+79, you might as well be 99. 69 is so
+
+144
+00:04:30,600 --> 00:04:33,800
+much more than 50, you're looking for a
+
+145
+00:04:31,960 --> 00:04:35,640
+49. There's little things in there we
+
+146
+00:04:33,800 --> 00:04:37,200
+will notice that people gravitationally
+
+147
+00:04:35,640 --> 00:04:38,960
+pull towards some of these price points
+
+148
+00:04:37,200 --> 00:04:40,520
+that make sense for them. So now let's
+
+149
+00:04:38,960 --> 00:04:42,360
+get advanced and let's talk about
+
+150
+00:04:40,520 --> 00:04:44,560
+pricing as it relates to product and
+
+151
+00:04:42,360 --> 00:04:46,640
+what different products do to fill in
+
+152
+00:04:44,560 --> 00:04:48,520
+the consumer experience as a full
+
+153
+00:04:46,640 --> 00:04:49,760
+product mix or how all the products in a
+
+154
+00:04:48,520 --> 00:04:51,280
+brand work together. We'll get some
+
+155
+00:04:49,760 --> 00:04:52,800
+concrete examples. So for instance, when
+
+156
+00:04:51,280 --> 00:04:54,880
+you go into an Aesop, you'll notice they
+
+157
+00:04:52,800 --> 00:04:56,080
+have affordable products, $27. You can
+
+158
+00:04:54,880 --> 00:04:58,040
+get a hand soap in the store. It's
+
+159
+00:04:56,080 --> 00:04:59,720
+really expensive for a hand soap, but
+
+160
+00:04:58,040 --> 00:05:01,680
+it's cheap for Aesop overall. This is
+
+161
+00:04:59,720 --> 00:05:03,480
+what we call an entry-level product. It
+
+162
+00:05:01,680 --> 00:05:04,960
+gets you into the ecosystem. It's low
+
+163
+00:05:03,480 --> 00:05:06,840
+risk, it's high trial. They want to make
+
+164
+00:05:04,960 --> 00:05:08,600
+sure you have a banger for that low that
+
+165
+00:05:06,840 --> 00:05:09,919
+low price product. So that they want to
+
+166
+00:05:08,600 --> 00:05:11,120
+then buy more cuz they had a good
+
+167
+00:05:09,919 --> 00:05:12,919
+experience with it. And then you'll get
+
+168
+00:05:11,120 --> 00:05:14,919
+the core product. The thing most people
+
+169
+00:05:12,919 --> 00:05:17,200
+actually buy, the real business. So for
+
+170
+00:05:14,919 --> 00:05:19,000
+Aesop, a lot of that is 60 to $100 skin
+
+171
+00:05:17,200 --> 00:05:20,440
+care, expensive premium skin care. And
+
+172
+00:05:19,000 --> 00:05:22,200
+actual repeat business that people buy
+
+173
+00:05:20,440 --> 00:05:24,520
+into. And then you have aspirational
+
+174
+00:05:22,200 --> 00:05:26,160
+SKUs. Dream pieces that sell very little
+
+175
+00:05:24,520 --> 00:05:27,480
+but help anchor the brand and move
+
+176
+00:05:26,160 --> 00:05:29,240
+everything else. So if you've ever gone
+
+177
+00:05:27,480 --> 00:05:30,640
+to a brand page and it's a lot of denim
+
+178
+00:05:29,240 --> 00:05:32,440
+and shirts but they have a $2,000
+
+179
+00:05:30,640 --> 00:05:34,520
+jacket, that's an aspirational SKU. And
+
+180
+00:05:32,440 --> 00:05:36,919
+then for Aesop, they have $200 kits and
+
+181
+00:05:34,520 --> 00:05:38,760
+fragrances, position Aesop as a luxury,
+
+182
+00:05:36,919 --> 00:05:40,240
+not just a nice soap by really getting
+
+183
+00:05:38,760 --> 00:05:41,760
+into higher price points. And they don't
+
+184
+00:05:40,240 --> 00:05:42,800
+even take full advantage of this the way
+
+185
+00:05:41,760 --> 00:05:44,120
+some of the brands that we're going to
+
+186
+00:05:42,800 --> 00:05:45,919
+talk about too. And with them, that
+
+187
+00:05:44,120 --> 00:05:47,400
+store experience kind of helps close the
+
+188
+00:05:45,919 --> 00:05:48,640
+deal, right? And then we'll go into Halo
+
+189
+00:05:47,400 --> 00:05:51,120
+products. These might not even be for
+
+190
+00:05:48,640 --> 00:05:52,320
+sale. So, for instance, Palace had a car
+
+191
+00:05:51,120 --> 00:05:53,840
+that they put inside their shoot they
+
+192
+00:05:52,320 --> 00:05:55,520
+listed for I think it was like 40 grand
+
+193
+00:05:53,840 --> 00:05:56,440
+or something. You actually buy the car.
+
+194
+00:05:55,520 --> 00:05:58,200
+District Vision when they launched
+
+195
+00:05:56,440 --> 00:06:00,120
+cycling had a $10,000 bike. It'll be
+
+196
+00:05:58,200 --> 00:06:02,320
+like a one-of-one. No one may even buy
+
+197
+00:06:00,120 --> 00:06:04,440
+it, but it exists to define the ceiling
+
+198
+00:06:02,320 --> 00:06:06,360
+of what the brand could be. And all of
+
+199
+00:06:04,440 --> 00:06:08,160
+these work in concert to build an
+
+200
+00:06:06,360 --> 00:06:10,080
+effective product mix. And you'll notice
+
+201
+00:06:08,160 --> 00:06:11,480
+if you build out your core product and
+
+202
+00:06:10,080 --> 00:06:12,560
+you have success with it, you begin
+
+203
+00:06:11,480 --> 00:06:14,600
+playing in some of those other
+
+204
+00:06:12,560 --> 00:06:15,920
+categories and they'll drive more sales
+
+205
+00:06:14,600 --> 00:06:18,000
+to the core. One of the perhaps
+
+206
+00:06:15,920 --> 00:06:19,800
+legendary examples is this when
+
+207
+00:06:18,000 --> 00:06:21,120
+Oreo started doing all these legendary
+
+208
+00:06:19,800 --> 00:06:23,960
+collabs, right? Where they were doing
+
+209
+00:06:21,120 --> 00:06:26,160
+Swedish Fish Oreos, crazy flavors, Lady
+
+210
+00:06:23,960 --> 00:06:28,320
+Gaga Oreos. And what they found from the
+
+211
+00:06:26,160 --> 00:06:29,680
+data is those collabs sell like a little
+
+212
+00:06:28,320 --> 00:06:31,440
+bit and the flavors sell like a little
+
+213
+00:06:29,680 --> 00:06:33,440
+bit, but they drive way more sales of
+
+214
+00:06:31,440 --> 00:06:34,919
+the main line Oreo. They bring people
+
+215
+00:06:33,440 --> 00:06:36,440
+over to the shelf, they get people
+
+216
+00:06:34,919 --> 00:06:38,040
+talking about the brand, and they might
+
+217
+00:06:36,440 --> 00:06:40,840
+laugh and buy a vanity product once, but
+
+218
+00:06:38,040 --> 00:06:42,680
+they buy more Oreo overall. Apple, they
+
+219
+00:06:40,840 --> 00:06:45,280
+execute this to a T as you would expect.
+
+220
+00:06:42,680 --> 00:06:47,040
+Entry-level iPhone SE, the AirPods, low
+
+221
+00:06:45,280 --> 00:06:48,480
+barrier and you're in the ecosystem. And
+
+222
+00:06:47,040 --> 00:06:50,720
+you have the core, their iPhones, the
+
+223
+00:06:48,480 --> 00:06:52,520
+MacBooks, the Airs, the majority of the
+
+224
+00:06:50,720 --> 00:06:53,680
+product. The Neo, for instance, is a new
+
+225
+00:06:52,520 --> 00:06:55,400
+entry-level for them. And you have
+
+226
+00:06:53,680 --> 00:06:57,000
+aspirational, the MacBook Pro, the Pro
+
+227
+00:06:55,400 --> 00:06:58,240
+Displays. People buy a lot of the
+
+228
+00:06:57,000 --> 00:06:59,840
+aspirational products, but they're not
+
+229
+00:06:58,240 --> 00:07:01,400
+for everybody. It positions Apple as a
+
+230
+00:06:59,840 --> 00:07:02,840
+professional tool you're buying into
+
+231
+00:07:01,400 --> 00:07:04,600
+even if you get your Air. And then the
+
+232
+00:07:02,840 --> 00:07:06,320
+Halo is stuff like the Vision Pro. It
+
+233
+00:07:04,600 --> 00:07:07,560
+exists to say that this is the future
+
+234
+00:07:06,320 --> 00:07:09,720
+and they're investing in it. It makes a
+
+235
+00:07:07,560 --> 00:07:11,400
+$1,600 phone feel reasonable. Whether
+
+236
+00:07:09,720 --> 00:07:13,200
+the Vision Pro works or not. Over at
+
+237
+00:07:11,400 --> 00:07:15,280
+luxury, we got Loro Piana. Entry-level
+
+238
+00:07:13,200 --> 00:07:16,960
+$400 to $600 cashmere accessories,
+
+239
+00:07:15,280 --> 00:07:18,280
+scarves, beanies, small leather goods.
+
+240
+00:07:16,960 --> 00:07:19,680
+They sell a lot of these cuz people want
+
+241
+00:07:18,280 --> 00:07:21,160
+to buy into the brand, but they can't
+
+242
+00:07:19,680 --> 00:07:24,120
+afford the core. The core is frankly
+
+243
+00:07:21,160 --> 00:07:26,200
+ridiculous. $1,500 to $3,000 sweaters
+
+244
+00:07:24,120 --> 00:07:27,280
+and outerwear, it's for very few people.
+
+245
+00:07:26,200 --> 00:07:29,160
+But there's a lot of people that will
+
+246
+00:07:27,280 --> 00:07:31,240
+flex their way up to that one beanie or
+
+247
+00:07:29,160 --> 00:07:32,440
+scarf, a pair of shoes even. And then
+
+248
+00:07:31,240 --> 00:07:35,080
+aspirational, you have to gift the
+
+249
+00:07:32,440 --> 00:07:37,160
+King's Wool, a $12,000 jacket. That just
+
+250
+00:07:35,080 --> 00:07:39,160
+exists to help anchor the $3,000
+
+251
+00:07:37,160 --> 00:07:40,640
+products. You don't need luxury prices
+
+252
+00:07:39,160 --> 00:07:42,880
+to do this. Glossier is another great
+
+253
+00:07:40,640 --> 00:07:45,480
+example. Their brow product at $18 gets
+
+254
+00:07:42,880 --> 00:07:47,560
+someone in. Skin care at $35 keeps you,
+
+255
+00:07:45,480 --> 00:07:49,600
+and then they upsell into fragrances at
+
+256
+00:07:47,560 --> 00:07:51,680
+75. Makes them a brand. They do many
+
+257
+00:07:49,600 --> 00:07:53,160
+things. You can live their experience.
+
+258
+00:07:51,680 --> 00:07:55,160
+And so, a lot of brands make one of two
+
+259
+00:07:53,160 --> 00:07:56,880
+mistakes. One is they build too many too
+
+260
+00:07:55,160 --> 00:07:59,080
+quick. First, you need to build your
+
+261
+00:07:56,880 --> 00:08:00,840
+core. Get something people want to buy,
+
+262
+00:07:59,080 --> 00:08:02,080
+and then hit some walls before you start
+
+263
+00:08:00,840 --> 00:08:03,400
+thinking through all these other things.
+
+264
+00:08:02,080 --> 00:08:04,800
+Or the second is they only build the
+
+265
+00:08:03,400 --> 00:08:06,160
+middle. They only build that core.
+
+266
+00:08:04,800 --> 00:08:07,680
+There's no entry point to help easily
+
+267
+00:08:06,160 --> 00:08:09,600
+acquire new customers, or they only do
+
+268
+00:08:07,680 --> 00:08:11,400
+that entry point with sale on core. And
+
+269
+00:08:09,600 --> 00:08:12,880
+there's no aspirational tier. Nothing to
+
+270
+00:08:11,400 --> 00:08:14,240
+anchor your prices against. Nothing to
+
+271
+00:08:12,880 --> 00:08:16,000
+for people to believe there's something
+
+272
+00:08:14,240 --> 00:08:17,280
+bigger. And if you take this approach in
+
+273
+00:08:16,000 --> 00:08:18,480
+any level, whether you're a designer,
+
+274
+00:08:17,280 --> 00:08:19,320
+whether you're a marketer, you work at a
+
+275
+00:08:18,480 --> 00:08:20,720
+brand, you're launching your own
+
+276
+00:08:19,320 --> 00:08:22,240
+products, you and whether you're just
+
+277
+00:08:20,720 --> 00:08:24,040
+consuming, you now understand the
+
+278
+00:08:22,240 --> 00:08:26,880
+ladders of how you engage. But now to
+
+279
+00:08:24,040 --> 00:08:28,800
+really put this into impactful tactical
+
+280
+00:08:26,880 --> 00:08:30,960
+stuff that will help you crush it at
+
+281
+00:08:28,800 --> 00:08:32,440
+work, I want to talk about personas. So,
+
+282
+00:08:30,960 --> 00:08:34,640
+what do I mean by that? I mean by the
+
+283
+00:08:32,440 --> 00:08:36,440
+customers of your brand fall into
+
+284
+00:08:34,640 --> 00:08:38,400
+categories. They fall into groups based
+
+285
+00:08:36,440 --> 00:08:39,560
+on similarities of their demographics,
+
+286
+00:08:38,400 --> 00:08:41,360
+like their age, their race, their
+
+287
+00:08:39,560 --> 00:08:42,960
+location, and their habits. How they
+
+288
+00:08:41,360 --> 00:08:44,280
+buy, how they consume online, what they
+
+289
+00:08:42,960 --> 00:08:45,920
+listen to, what they follow. By
+
+290
+00:08:44,280 --> 00:08:47,960
+understanding those personas, you can
+
+291
+00:08:45,920 --> 00:08:50,280
+better craft messaging, you can better
+
+292
+00:08:47,960 --> 00:08:51,920
+design products, you can better look at
+
+293
+00:08:50,280 --> 00:08:54,000
+collaborations and marketing and
+
+294
+00:08:51,920 --> 00:08:55,440
+content. It informs everything. And so,
+
+295
+00:08:54,000 --> 00:08:56,800
+traditionally, what would happen inside
+
+296
+00:08:55,440 --> 00:08:58,120
+marketing companies, I've been a part of
+
+297
+00:08:56,800 --> 00:08:59,960
+this process a hundred times, people
+
+298
+00:08:58,120 --> 00:09:01,360
+would map those personas out on like a
+
+299
+00:08:59,960 --> 00:09:03,200
+whiteboard, list them out with a
+
+300
+00:09:01,360 --> 00:09:05,160
+marketing agency, do this big exercise,
+
+301
+00:09:03,200 --> 00:09:06,520
+but they would mostly be made up. If
+
+302
+00:09:05,160 --> 00:09:08,360
+they did get data, they would go and
+
+303
+00:09:06,520 --> 00:09:09,360
+they'd pay for surveys, right? got to
+
+304
+00:09:08,360 --> 00:09:11,440
+understand, the only people that would
+
+305
+00:09:09,360 --> 00:09:13,839
+actually do a paid survey for a brand
+
+306
+00:09:11,440 --> 00:09:15,240
+are generally one type of customer. And
+
+307
+00:09:13,839 --> 00:09:17,240
+even if you got those couple thousand,
+
+308
+00:09:15,240 --> 00:09:19,160
+it's just so heavily skewed. And people
+
+309
+00:09:17,240 --> 00:09:20,200
+really rely on that data, and you'll see
+
+310
+00:09:19,160 --> 00:09:21,320
+people that are really in touch with the
+
+311
+00:09:20,200 --> 00:09:22,680
+consumer, the street team, or the
+
+312
+00:09:21,320 --> 00:09:23,839
+marketing, or people on social, or
+
+313
+00:09:22,680 --> 00:09:25,760
+customer support be like, "That's not
+
+314
+00:09:23,839 --> 00:09:27,600
+quite right." But now you can get way
+
+315
+00:09:25,760 --> 00:09:29,560
+more tactical. So, one of my absolute
+
+316
+00:09:27,600 --> 00:09:31,000
+favorite pieces of software, not a
+
+317
+00:09:29,560 --> 00:09:32,320
+sponsored video, just something that I
+
+318
+00:09:31,000 --> 00:09:34,000
+use and believe in that I'm trying to
+
+319
+00:09:32,320 --> 00:09:36,000
+get them to let me invest in, is called
+
+320
+00:09:34,000 --> 00:09:38,680
+Outer Signal. So, what this does it goes
+
+321
+00:09:36,000 --> 00:09:40,560
+through your customer base in Shopify or
+
+322
+00:09:38,680 --> 00:09:42,320
+your email list and basically builds
+
+323
+00:09:40,560 --> 00:09:44,240
+your personas for you based on the
+
+324
+00:09:42,320 --> 00:09:45,400
+actual data. So, when I found this, I
+
+325
+00:09:44,240 --> 00:09:46,800
+was using it for something different.
+
+326
+00:09:45,400 --> 00:09:48,520
+So, one of the other things that they
+
+327
+00:09:46,800 --> 00:09:50,360
+do, they just analyze your customers as
+
+328
+00:09:48,520 --> 00:09:52,360
+they come in. So, for instance, if I got
+
+329
+00:09:50,360 --> 00:09:54,800
+133 orders like you'll see inside the
+
+330
+00:09:52,360 --> 00:09:56,240
+screenshot in the last 7 days, it will
+
+331
+00:09:54,800 --> 00:09:57,440
+tell me, "Okay, seven of them are ultra
+
+332
+00:09:56,240 --> 00:09:59,680
+high net worth, six of them are
+
+333
+00:09:57,440 --> 00:10:01,520
+influencers, three are industry experts,
+
+334
+00:09:59,680 --> 00:10:03,240
+two are relationships to me or the team
+
+335
+00:10:01,520 --> 00:10:04,720
+somehow, two of media or content
+
+336
+00:10:03,240 --> 00:10:06,320
+businesses." And it'll actually give me
+
+337
+00:10:04,720 --> 00:10:07,520
+their information. So, this is a great
+
+338
+00:10:06,320 --> 00:10:08,880
+tool for actually hunting down
+
+339
+00:10:07,520 --> 00:10:10,360
+influencers to represent your brand or
+
+340
+00:10:08,880 --> 00:10:11,320
+to make your UGC content cuz they
+
+341
+00:10:10,360 --> 00:10:12,880
+probably already have them in their
+
+342
+00:10:11,320 --> 00:10:14,720
+customers. That's how I found the tool,
+
+343
+00:10:12,880 --> 00:10:16,520
+but now what we use it for a lot more is
+
+344
+00:10:14,720 --> 00:10:18,040
+these segments. So, for instance, this
+
+345
+00:10:16,520 --> 00:10:19,600
+brand is broken down into
+
+346
+00:10:18,040 --> 00:10:21,320
+high-performance executive, affluent
+
+347
+00:10:19,600 --> 00:10:23,720
+health investor, wellness professional,
+
+348
+00:10:21,320 --> 00:10:25,360
+athlete biohacker as a key personas. And
+
+349
+00:10:23,720 --> 00:10:26,880
+it shows the percent of their customer
+
+350
+00:10:25,360 --> 00:10:28,880
+base. 14% of their customers are
+
+351
+00:10:26,880 --> 00:10:30,640
+high-performance executives, 10.8 are
+
+352
+00:10:28,880 --> 00:10:32,720
+affluent health investors, et cetera. It
+
+353
+00:10:30,640 --> 00:10:34,520
+also shows the difference in their LTV,
+
+354
+00:10:32,720 --> 00:10:36,120
+their lifetime value, how much they buy
+
+355
+00:10:34,520 --> 00:10:37,600
+for you. This matters. This is where you
+
+356
+00:10:36,120 --> 00:10:39,120
+start to get into the sweet spot where
+
+357
+00:10:37,600 --> 00:10:40,880
+you can do with messaging. How often do
+
+358
+00:10:39,120 --> 00:10:42,400
+they repeat? That all gets put inside
+
+359
+00:10:40,880 --> 00:10:43,600
+this data set. You can actually build
+
+360
+00:10:42,400 --> 00:10:44,960
+your real personas out. You can say,
+
+361
+00:10:43,600 --> 00:10:46,360
+"This is the real data from our
+
+362
+00:10:44,960 --> 00:10:48,280
+customers online or from our email
+
+363
+00:10:46,360 --> 00:10:49,760
+list." So, related to Claude workflow, I
+
+364
+00:10:48,280 --> 00:10:50,960
+want to talk about Granola who I've
+
+365
+00:10:49,760 --> 00:10:52,080
+partnered with on this video. If you're
+
+366
+00:10:50,960 --> 00:10:53,800
+in a lot of meetings, you probably use
+
+367
+00:10:52,080 --> 00:10:55,520
+your AI note taker or have someone on
+
+368
+00:10:53,800 --> 00:10:56,360
+the team that does. And a lot of times
+
+369
+00:10:55,520 --> 00:10:58,000
+you'll find that what you've actually
+
+370
+00:10:56,360 --> 00:10:59,720
+done with that goes nowhere. So, I use
+
+371
+00:10:58,000 --> 00:11:01,000
+Granola to connect my meeting notes to
+
+372
+00:10:59,720 --> 00:11:02,360
+my real workflow and it's been
+
+373
+00:11:01,000 --> 00:11:04,280
+invaluable. So, let's talk about it.
+
+374
+00:11:02,360 --> 00:11:05,880
+Granola's an AI notepad that transcribes
+
+375
+00:11:04,280 --> 00:11:07,520
+your meetings in the background without
+
+376
+00:11:05,880 --> 00:11:09,000
+a bot joining the call, no weird robot
+
+377
+00:11:07,520 --> 00:11:10,200
+participant in Zoom. If you've been in
+
+378
+00:11:09,000 --> 00:11:11,720
+my Cut 30 chat, you've heard plenty
+
+379
+00:11:10,200 --> 00:11:13,760
+jokes about that. But listens directly
+
+380
+00:11:11,720 --> 00:11:15,360
+off your computer audio across every
+
+381
+00:11:13,760 --> 00:11:16,720
+platform or on your phone for in person.
+
+382
+00:11:15,360 --> 00:11:18,040
+You can jot a few notes if you want it,
+
+383
+00:11:16,720 --> 00:11:19,120
+fill in everything around them or you do
+
+384
+00:11:18,040 --> 00:11:20,760
+nothing. You come out with clean
+
+385
+00:11:19,120 --> 00:11:21,760
+structured notes, action items, and a
+
+386
+00:11:20,760 --> 00:11:23,240
+searchable record of the whole
+
+387
+00:11:21,760 --> 00:11:25,200
+conversation. But the part that changes
+
+388
+00:11:23,240 --> 00:11:27,000
+my workflow does the MCP integration
+
+389
+00:11:25,200 --> 00:11:28,200
+with Claude. Granola connects directly
+
+390
+00:11:27,000 --> 00:11:30,120
+in Claude, which means your meeting
+
+391
+00:11:28,200 --> 00:11:31,560
+notes become live context inside of it
+
+392
+00:11:30,120 --> 00:11:32,880
+that you can ask in any chat. You can
+
+393
+00:11:31,560 --> 00:11:34,320
+reference it or you can just pull up the
+
+394
+00:11:32,880 --> 00:11:35,640
+notes. You're not hunting for it. You
+
+395
+00:11:34,320 --> 00:11:37,240
+don't switch tabs, you don't hunt down a
+
+396
+00:11:35,640 --> 00:11:38,880
+transcript and copy-paste it. It is
+
+397
+00:11:37,240 --> 00:11:40,120
+there. Claude knows what's discussed and
+
+398
+00:11:38,880 --> 00:11:41,560
+there's an app there's a connector there
+
+399
+00:11:40,120 --> 00:11:42,760
+and there's a ChatGPT app. I just happen
+
+400
+00:11:41,560 --> 00:11:44,120
+to use Claude more and they're both for
+
+401
+00:11:42,760 --> 00:11:45,480
+Granola. Once you set this up and give
+
+402
+00:11:44,120 --> 00:11:47,200
+it permission, which is a super easy
+
+403
+00:11:45,480 --> 00:11:48,600
+process, you can just query your chat,
+
+404
+00:11:47,200 --> 00:11:49,920
+bring up the date or just the topic that
+
+405
+00:11:48,600 --> 00:11:51,160
+was discussed and it's going to find it.
+
+406
+00:11:49,920 --> 00:11:52,760
+It's super useful for bringing up things
+
+407
+00:11:51,160 --> 00:11:53,800
+in the past you only have light context
+
+408
+00:11:52,760 --> 00:11:55,200
+for. Remember when we were talking about
+
+409
+00:11:53,800 --> 00:11:57,040
+that photo shoot or what was the plan
+
+410
+00:11:55,200 --> 00:11:59,200
+for the social post? I even use it to
+
+411
+00:11:57,040 --> 00:12:00,640
+suggest video ideas for me personally
+
+412
+00:11:59,200 --> 00:12:01,640
+based on conversations I've had
+
+413
+00:12:00,640 --> 00:12:02,760
+throughout the week. What were
+
+414
+00:12:01,640 --> 00:12:04,280
+interesting topics? What did I talk
+
+415
+00:12:02,760 --> 00:12:06,400
+about? What were questions people had
+
+416
+00:12:04,280 --> 00:12:07,480
+inside my Zoom calls? The meeting feeds
+
+417
+00:12:06,400 --> 00:12:08,960
+the work instead of just sitting in a
+
+418
+00:12:07,480 --> 00:12:10,120
+folder somewhere. So, somewhat unrelated
+
+419
+00:12:08,960 --> 00:12:11,760
+but I want to shout out their use of a
+
+420
+00:12:10,120 --> 00:12:13,720
+spoon as corporate merchandise. It's
+
+421
+00:12:11,760 --> 00:12:15,520
+clever. You can try Granola for free at
+
+422
+00:12:13,720 --> 00:12:17,160
+the link below and thanks to them for
+
+423
+00:12:15,520 --> 00:12:18,560
+sponsoring this video. And so now, what
+
+424
+00:12:17,160 --> 00:12:19,880
+do you do with that in the modern era?
+
+425
+00:12:18,560 --> 00:12:21,680
+So, a couple things. Because this is
+
+426
+00:12:19,880 --> 00:12:23,800
+based on email, you can segment your
+
+427
+00:12:21,680 --> 00:12:25,400
+email and SMS communications in software
+
+428
+00:12:23,800 --> 00:12:27,160
+like Clavio or whatever you use to
+
+429
+00:12:25,400 --> 00:12:28,680
+actually send different messages to
+
+430
+00:12:27,160 --> 00:12:30,440
+those people based on what they do,
+
+431
+00:12:28,680 --> 00:12:31,840
+especially based on the lifetime value.
+
+432
+00:12:30,440 --> 00:12:33,760
+If you have a category that only buys
+
+433
+00:12:31,840 --> 00:12:35,400
+once and doesn't buy again, specifically
+
+434
+00:12:33,760 --> 00:12:36,880
+work on targeting them to increase that
+
+435
+00:12:35,400 --> 00:12:38,240
+LTV over time. If you have people that
+
+436
+00:12:36,880 --> 00:12:39,839
+buy from you all the time but you're not
+
+437
+00:12:38,240 --> 00:12:41,880
+marketing to them a lot, market to them
+
+438
+00:12:39,839 --> 00:12:43,600
+more. Can you build that LTV out way
+
+439
+00:12:41,880 --> 00:12:44,960
+higher by being more active? Those are
+
+440
+00:12:43,600 --> 00:12:46,000
+the kind of things you can test. And
+
+441
+00:12:44,960 --> 00:12:47,640
+used to be with personas you have to
+
+442
+00:12:46,000 --> 00:12:49,320
+then brainstorm what the angles are. One
+
+443
+00:12:47,640 --> 00:12:50,400
+thing I love and I include in the guide
+
+444
+00:12:49,320 --> 00:12:52,120
+that you can get in the free download, I
+
+445
+00:12:50,400 --> 00:12:54,120
+have my prompt for this. Bring this into
+
+446
+00:12:52,120 --> 00:12:55,600
+Claude. Bring all the information from
+
+447
+00:12:54,120 --> 00:12:56,680
+your persona. It's this person, they
+
+448
+00:12:55,600 --> 00:12:58,040
+have this income, they're from these
+
+449
+00:12:56,680 --> 00:13:00,280
+places. All the information you can
+
+450
+00:12:58,040 --> 00:13:01,960
+download or get, put it into Claude
+
+451
+00:13:00,280 --> 00:13:03,160
+project. Use the prompt that I have that
+
+452
+00:13:01,960 --> 00:13:04,720
+basically describes how to create
+
+453
+00:13:03,160 --> 00:13:06,480
+marketing copy. It's designed to create
+
+454
+00:13:04,720 --> 00:13:08,080
+marketing copy. And what you do with
+
+455
+00:13:06,480 --> 00:13:09,520
+this, with this specific project, which
+
+456
+00:13:08,080 --> 00:13:11,280
+again is a collection of the information
+
+457
+00:13:09,520 --> 00:13:12,760
+about the persona, any brand or product
+
+458
+00:13:11,280 --> 00:13:14,160
+materials you can add in, and then the
+
+459
+00:13:12,760 --> 00:13:15,680
+core of this this prompt is basically
+
+460
+00:13:14,160 --> 00:13:17,120
+the project description. That you're a
+
+461
+00:13:15,680 --> 00:13:18,480
+copywriter who thinks a certain way,
+
+462
+00:13:17,120 --> 00:13:19,800
+like a certain marketer. You can adjust
+
+463
+00:13:18,480 --> 00:13:21,800
+any way you want. Now, you can do three
+
+464
+00:13:19,800 --> 00:13:25,400
+things. You can write copy for your
+
+465
+00:13:21,800 --> 00:13:27,640
+landing pages, your emails, and SMS, and
+
+466
+00:13:25,400 --> 00:13:29,440
+your ads based on this. That's number
+
+467
+00:13:27,640 --> 00:13:31,040
+one. Number two, you can design the
+
+468
+00:13:29,440 --> 00:13:32,960
+messaging for your products overall to
+
+469
+00:13:31,040 --> 00:13:34,760
+be in tune with your customers. And then
+
+470
+00:13:32,960 --> 00:13:35,800
+three, you can decide how to segment
+
+471
+00:13:34,760 --> 00:13:37,560
+because just because you have four or
+
+472
+00:13:35,800 --> 00:13:39,680
+five personas doesn't mean you need four
+
+473
+00:13:37,560 --> 00:13:41,520
+or five messages. Ask the all-seeing
+
+474
+00:13:39,680 --> 00:13:43,080
+claw oracle what message would appeal to
+
+475
+00:13:41,520 --> 00:13:44,440
+multiple. What messages should we
+
+476
+00:13:43,080 --> 00:13:46,240
+segment when we're launching a product
+
+477
+00:13:44,440 --> 00:13:47,480
+that has this value proposition? How
+
+478
+00:13:46,240 --> 00:13:49,040
+does this message stack up against
+
+479
+00:13:47,480 --> 00:13:50,920
+competition? And it will research it.
+
+480
+00:13:49,040 --> 00:13:52,080
+Now you're able to do just like actual
+
+481
+00:13:50,920 --> 00:13:53,320
+interesting marketing. And so what do I
+
+482
+00:13:52,080 --> 00:13:55,680
+mean by the copy that we get to in the
+
+483
+00:13:53,320 --> 00:13:57,240
+front? So every e-commerce experience
+
+484
+00:13:55,680 --> 00:13:59,040
+and also every experience of buying a
+
+485
+00:13:57,240 --> 00:14:01,000
+high-ticket product or a service or from
+
+486
+00:13:59,040 --> 00:14:02,880
+an agency or a piece of software comes
+
+487
+00:14:01,000 --> 00:14:04,400
+down to the ad that gets the person
+
+488
+00:14:02,880 --> 00:14:05,520
+there. So what is the content you put in
+
+489
+00:14:04,400 --> 00:14:07,000
+front of them? What are the messages you
+
+490
+00:14:05,520 --> 00:14:09,000
+can test? What are the pain points
+
+491
+00:14:07,000 --> 00:14:10,720
+people have? Ask that claw project for
+
+492
+00:14:09,000 --> 00:14:12,000
+these people's pain points relative to
+
+493
+00:14:10,720 --> 00:14:13,520
+your product. That's going to give you
+
+494
+00:14:12,000 --> 00:14:15,280
+ad ideas. But most important is the
+
+495
+00:14:13,520 --> 00:14:17,400
+landing page. They land somewhere where
+
+496
+00:14:15,280 --> 00:14:19,440
+you have to sell them with the copy. A
+
+497
+00:14:17,400 --> 00:14:21,040
+headline, a sub-headline, some bullet
+
+498
+00:14:19,440 --> 00:14:22,960
+points on why they buy, some frequently
+
+499
+00:14:21,040 --> 00:14:24,960
+asked questions, maybe a video. And
+
+500
+00:14:22,960 --> 00:14:26,320
+doing that by persona is going to work
+
+501
+00:14:24,960 --> 00:14:28,360
+way better because guess what? The
+
+502
+00:14:26,320 --> 00:14:29,640
+wellness professional that we saw inside
+
+503
+00:14:28,360 --> 00:14:31,880
+this here who's buying something for
+
+504
+00:14:29,640 --> 00:14:33,800
+their job is very different than the
+
+505
+00:14:31,880 --> 00:14:35,080
+biohacker who's trying that same
+
+506
+00:14:33,800 --> 00:14:36,560
+wellness product because they want to
+
+507
+00:14:35,080 --> 00:14:38,080
+work on themselves. If you have two
+
+508
+00:14:36,560 --> 00:14:39,760
+separate landing pages for those and the
+
+509
+00:14:38,080 --> 00:14:41,160
+messages are great, your conversion
+
+510
+00:14:39,760 --> 00:14:42,600
+rate's going to raise. And guess what?
+
+511
+00:14:41,160 --> 00:14:44,440
+Writing that copy with something like
+
+512
+00:14:42,600 --> 00:14:46,120
+this, putting it into a platform, you
+
+513
+00:14:44,440 --> 00:14:47,360
+can do landing pages inside of most
+
+514
+00:14:46,120 --> 00:14:49,040
+email providers, you can do your landing
+
+515
+00:14:47,360 --> 00:14:51,360
+pages directly in Shopify. There's
+
+516
+00:14:49,040 --> 00:14:52,920
+software like Replo and Fermat. You can
+
+517
+00:14:51,360 --> 00:14:54,320
+do it in like InFramer if you have an
+
+518
+00:14:52,920 --> 00:14:55,960
+agency website, whatever it is. Just
+
+519
+00:14:54,320 --> 00:14:57,880
+spin up another lander. It's a quick
+
+520
+00:14:55,960 --> 00:14:59,120
+thing. Once you build one lander, you
+
+521
+00:14:57,880 --> 00:15:01,000
+can and you already have your
+
+522
+00:14:59,120 --> 00:15:03,160
+placeholders for your copy and for your
+
+523
+00:15:01,000 --> 00:15:04,640
+images, just duplicate it and swap it
+
+524
+00:15:03,160 --> 00:15:06,240
+out with the new ones and you will raise
+
+525
+00:15:04,640 --> 00:15:07,320
+your conversion rate. And the last one
+
+526
+00:15:06,240 --> 00:15:08,839
+is the emails. You're sending out a new
+
+527
+00:15:07,320 --> 00:15:10,800
+campaign, you're doing an automation
+
+528
+00:15:08,839 --> 00:15:13,000
+sequence. You can build segments based
+
+529
+00:15:10,800 --> 00:15:14,839
+on these personas automatically. And so
+
+530
+00:15:13,000 --> 00:15:16,400
+you may have someone who needs more
+
+531
+00:15:14,839 --> 00:15:18,040
+touches. They need more touch points to
+
+532
+00:15:16,400 --> 00:15:19,800
+sell or someone who needs a longer form
+
+533
+00:15:18,040 --> 00:15:21,400
+message. Again, the professional versus
+
+534
+00:15:19,800 --> 00:15:23,120
+individual consumer is one of the most
+
+535
+00:15:21,400 --> 00:15:25,160
+blatant ones. That's not even that's a
+
+536
+00:15:23,120 --> 00:15:26,640
+that's a huge persona rift of I'm buying
+
+537
+00:15:25,160 --> 00:15:28,120
+this for work versus I'm buying this for
+
+538
+00:15:26,640 --> 00:15:29,400
+me. If you can segment your email
+
+539
+00:15:28,120 --> 00:15:30,760
+communications with different messages
+
+540
+00:15:29,400 --> 00:15:33,040
+around that, it's going to perform
+
+541
+00:15:30,760 --> 00:15:34,680
+better. This combination of all the
+
+542
+00:15:33,040 --> 00:15:36,080
+pricing and all the techniques you can
+
+543
+00:15:34,680 --> 00:15:37,880
+use to price a product, how those
+
+544
+00:15:36,080 --> 00:15:40,080
+products stack in a mix, whether that's
+
+545
+00:15:37,880 --> 00:15:42,160
+software, whether that's a consumer good
+
+546
+00:15:40,080 --> 00:15:43,280
+or food, even a service offering, it's
+
+547
+00:15:42,160 --> 00:15:45,680
+the same exact thing. What's your
+
+548
+00:15:43,280 --> 00:15:47,360
+entry-level $99 audit? Really, I want
+
+549
+00:15:45,680 --> 00:15:49,400
+you to end up buying the $1,000 monthly
+
+550
+00:15:47,360 --> 00:15:51,680
+package. Then, do I know who my customer
+
+551
+00:15:49,400 --> 00:15:53,400
+is and do I make messages for them? This
+
+552
+00:15:51,680 --> 00:15:56,320
+is the time in our world where you used
+
+553
+00:15:53,400 --> 00:15:58,080
+to have such deep expertise in research
+
+554
+00:15:56,320 --> 00:16:00,480
+and copy and messaging and marketing to
+
+555
+00:15:58,080 --> 00:16:03,040
+do this. And you can do an amazing B+
+
+556
+00:16:00,480 --> 00:16:04,800
+job with a combination of software tools
+
+557
+00:16:03,040 --> 00:16:06,880
+and some basic street smarts that will
+
+558
+00:16:04,800 --> 00:16:08,600
+accelerate your career or accelerate
+
+559
+00:16:06,880 --> 00:16:10,160
+your brand. I would not lose that
+
+560
+00:16:08,600 --> 00:16:13,040
+opportunity. So, again, this is all
+
+561
+00:16:10,160 --> 00:16:14,640
+broken down inside a really thorough doc
+
+562
+00:16:13,040 --> 00:16:15,800
+that you can get for free below. And
+
+563
+00:16:14,640 --> 00:16:17,600
+there'll be a webinar at the end of the
+
+564
+00:16:15,800 --> 00:16:19,560
+month to discuss all of it. I would be
+
+565
+00:16:17,600 --> 00:16:21,160
+stoked to have you there. Uh any
+
+566
+00:16:19,560 --> 00:16:23,360
+questions you have on brand building,
+
+567
+00:16:21,160 --> 00:16:24,920
+etc., we can dive into. I appreciate
+
+568
+00:16:23,360 --> 00:16:28,600
+y'all watching and there's a guide to
+
+569
+00:16:24,920 --> 00:16:28,600
+yapping coming next week.
+

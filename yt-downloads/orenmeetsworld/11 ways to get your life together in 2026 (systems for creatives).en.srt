@@ -1,0 +1,2304 @@
+1
+00:00:00,160 --> 00:00:04,720
+All right, welcome back. Today, this is
+
+2
+00:00:02,000 --> 00:00:07,839
+a video I am doing by request and it is
+
+3
+00:00:04,720 --> 00:00:10,080
+about creative systems, putting docs
+
+4
+00:00:07,839 --> 00:00:12,400
+together, organizing your life and your
+
+5
+00:00:10,080 --> 00:00:15,120
+workflows. Essentially, 11 ways to get
+
+6
+00:00:12,400 --> 00:00:17,760
+your life together in 2026. I just got
+
+7
+00:00:15,120 --> 00:00:20,320
+off the road for tour. We had 50 brands
+
+8
+00:00:17,760 --> 00:00:22,320
+come to Toronto, Miami, and both New
+
+9
+00:00:20,320 --> 00:00:24,560
+York days each day where I was coaching
+
+10
+00:00:22,320 --> 00:00:26,240
+brands on exercises for their year, for
+
+11
+00:00:24,560 --> 00:00:27,519
+organizing their content, for organizing
+
+12
+00:00:26,240 --> 00:00:29,359
+their marketing funnels. I'm going to
+
+13
+00:00:27,519 --> 00:00:31,599
+get a whole video on doing things like
+
+14
+00:00:29,359 --> 00:00:33,280
+this to organize your brand live from
+
+15
+00:00:31,599 --> 00:00:35,120
+one of those dates that you'll see soon.
+
+16
+00:00:33,280 --> 00:00:36,960
+But on this, I want to concentrate on
+
+17
+00:00:35,120 --> 00:00:40,320
+what are the things that can have the
+
+18
+00:00:36,960 --> 00:00:42,960
+most efficacy to get you systematized,
+
+19
+00:00:40,320 --> 00:00:44,540
+organized, and making the most impact on
+
+20
+00:00:42,960 --> 00:00:46,640
+your creative work. Whether that is
+
+21
+00:00:44,540 --> 00:00:48,559
+[music] being an artist, a designer,
+
+22
+00:00:46,640 --> 00:00:50,435
+owning your own brand, a writer, and
+
+23
+00:00:48,559 --> 00:00:51,760
+even just working in a creative field
+
+24
+00:00:50,435 --> 00:00:53,760
+[music] at a job. So, we're going to
+
+25
+00:00:51,760 --> 00:00:55,760
+cover building a reference repository,
+
+26
+00:00:53,760 --> 00:00:57,840
+managing your ideas list, getting a
+
+27
+00:00:55,760 --> 00:00:59,359
+content calendar together, folders and
+
+28
+00:00:57,840 --> 00:01:01,039
+workflows for content creators,
+
+29
+00:00:59,359 --> 00:01:03,039
+capturing stuff in your phone, doing a
+
+30
+00:01:01,039 --> 00:01:04,720
+weekly update for your bosses, having a
+
+31
+00:01:03,039 --> 00:01:06,720
+team tracker together if you have a
+
+32
+00:01:04,720 --> 00:01:08,799
+small agency or group working together,
+
+33
+00:01:06,720 --> 00:01:10,320
+putting together process docs, planning
+
+34
+00:01:08,799 --> 00:01:12,560
+and putting together your content,
+
+35
+00:01:10,320 --> 00:01:14,159
+managing emails out to leads. This is
+
+36
+00:01:12,560 --> 00:01:15,840
+the kind of stuff that you really need
+
+37
+00:01:14,159 --> 00:01:17,200
+inside your creative life, but there's
+
+38
+00:01:15,840 --> 00:01:18,880
+no way to learn it if you're not really
+
+39
+00:01:17,200 --> 00:01:20,479
+in the job and have really organized
+
+40
+00:01:18,880 --> 00:01:21,600
+people around you. and I'm super excited
+
+41
+00:01:20,479 --> 00:01:23,280
+to [music] share it with y'all. Let's
+
+42
+00:01:21,600 --> 00:01:25,119
+lock in. So, for the majority of these,
+
+43
+00:01:23,280 --> 00:01:27,360
+I'm just going to show you my workflow
+
+44
+00:01:25,119 --> 00:01:28,720
+so you can see an actual example of what
+
+45
+00:01:27,360 --> 00:01:30,320
+goes on there. So, first I'm going to
+
+46
+00:01:28,720 --> 00:01:32,240
+start with a reference list. If you've
+
+47
+00:01:30,320 --> 00:01:33,520
+watched some of my older videos, you may
+
+48
+00:01:32,240 --> 00:01:35,119
+have seen this before. We'll show it to
+
+49
+00:01:33,520 --> 00:01:37,040
+you in action. This is one of the most
+
+50
+00:01:35,119 --> 00:01:38,960
+important things that any creative
+
+51
+00:01:37,040 --> 00:01:40,880
+person can do that will really genuinely
+
+52
+00:01:38,960 --> 00:01:43,040
+help you get your life together over the
+
+53
+00:01:40,880 --> 00:01:45,040
+long term. So, for instance, this is a
+
+54
+00:01:43,040 --> 00:01:47,360
+notion doc that I have that has a bunch
+
+55
+00:01:45,040 --> 00:01:48,880
+of references I can pull from for the
+
+56
+00:01:47,360 --> 00:01:50,880
+creative work I do. So, as many of you
+
+57
+00:01:48,880 --> 00:01:52,320
+know, I do creative strategy for brands
+
+58
+00:01:50,880 --> 00:01:54,159
+as well as art direction and creative
+
+59
+00:01:52,320 --> 00:01:56,240
+direction work where I am working on
+
+60
+00:01:54,159 --> 00:01:59,040
+briefs and ideiation for specific
+
+61
+00:01:56,240 --> 00:02:01,439
+campaigns and I have a large amount of
+
+62
+00:01:59,040 --> 00:02:03,200
+things, bookmarks, etc. like everyone
+
+63
+00:02:01,439 --> 00:02:05,360
+does that I need to be able to bring
+
+64
+00:02:03,200 --> 00:02:07,520
+into that work. And this could be
+
+65
+00:02:05,360 --> 00:02:09,280
+certain specific writing styles, essay
+
+66
+00:02:07,520 --> 00:02:10,800
+styles if you're a writer. This could be
+
+67
+00:02:09,280 --> 00:02:12,959
+techniques or things that you like or
+
+68
+00:02:10,800 --> 00:02:14,959
+want to try as a designer. You need a
+
+69
+00:02:12,959 --> 00:02:16,800
+way to organize them. I use notion for
+
+70
+00:02:14,959 --> 00:02:18,800
+this and I really like notion for it. It
+
+71
+00:02:16,800 --> 00:02:21,360
+could also just be a spreadsheet, but
+
+72
+00:02:18,800 --> 00:02:22,879
+really this has the name of the asset
+
+73
+00:02:21,360 --> 00:02:24,879
+has a type. So for instance, for me,
+
+74
+00:02:22,879 --> 00:02:27,040
+this is a content tracker for me. I have
+
+75
+00:02:24,879 --> 00:02:28,800
+content for events, content for emails,
+
+76
+00:02:27,040 --> 00:02:30,319
+content for carousels, content for
+
+77
+00:02:28,800 --> 00:02:31,840
+launches or content that's product
+
+78
+00:02:30,319 --> 00:02:33,120
+specific. I have a separate one of this
+
+79
+00:02:31,840 --> 00:02:34,720
+for personal brand. We have like
+
+80
+00:02:33,120 --> 00:02:36,879
+different expert stuff. There's a link
+
+81
+00:02:34,720 --> 00:02:39,120
+to the actual asset and I have a status.
+
+82
+00:02:36,879 --> 00:02:41,120
+Is this a reference or have I used it?
+
+83
+00:02:39,120 --> 00:02:43,120
+And if we used it, was it a winner? Some
+
+84
+00:02:41,120 --> 00:02:44,319
+notes around it there. That is a pretty
+
+85
+00:02:43,120 --> 00:02:45,760
+thorough. You don't need to be this
+
+86
+00:02:44,319 --> 00:02:47,280
+thorough. What I would recommend is you
+
+87
+00:02:45,760 --> 00:02:49,120
+have a name for it. You have all of your
+
+88
+00:02:47,280 --> 00:02:51,040
+types added. Um, again, you can just
+
+89
+00:02:49,120 --> 00:02:52,640
+click and add a type. You'll see I have
+
+90
+00:02:51,040 --> 00:02:54,080
+a hell of types in here. And then a link
+
+91
+00:02:52,640 --> 00:02:55,440
+to it there. You don't necessarily need
+
+92
+00:02:54,080 --> 00:02:56,879
+to track whether you've used it or it's
+
+93
+00:02:55,440 --> 00:02:58,560
+a winner or a reference, whatever. But
+
+94
+00:02:56,879 --> 00:03:00,080
+it's important to think, okay, I am
+
+95
+00:02:58,560 --> 00:03:01,920
+going to be doing creative work for a
+
+96
+00:03:00,080 --> 00:03:03,599
+long time. Every time I do it, I'm going
+
+97
+00:03:01,920 --> 00:03:05,680
+and gathering references or trying to
+
+98
+00:03:03,599 --> 00:03:07,360
+find that one link. As soon as you start
+
+99
+00:03:05,680 --> 00:03:09,440
+building this library and adding
+
+100
+00:03:07,360 --> 00:03:11,280
+regularly to it, all of a sudden, that
+
+101
+00:03:09,440 --> 00:03:13,280
+time goes so much faster. And then
+
+102
+00:03:11,280 --> 00:03:14,319
+whenever you're applying for a job or
+
+103
+00:03:13,280 --> 00:03:15,840
+you're showing people why you should
+
+104
+00:03:14,319 --> 00:03:17,519
+work on a campaign and you pull up,
+
+105
+00:03:15,840 --> 00:03:19,280
+you're like, "Oh, here's my master
+
+106
+00:03:17,519 --> 00:03:20,720
+matrix. Let's pull up all my event
+
+107
+00:03:19,280 --> 00:03:22,640
+examples. Let's walk through how we
+
+108
+00:03:20,720 --> 00:03:24,319
+could use this." You are coming across
+
+109
+00:03:22,640 --> 00:03:26,400
+in a way that most other creatives
+
+110
+00:03:24,319 --> 00:03:27,840
+aren't and setting yourself apart. So,
+
+111
+00:03:26,400 --> 00:03:29,440
+how to put this together. So, first,
+
+112
+00:03:27,840 --> 00:03:31,120
+choose your weapon of choice. You can
+
+113
+00:03:29,440 --> 00:03:32,799
+can do a spreadsheet. I do a lot in
+
+114
+00:03:31,120 --> 00:03:34,400
+notion as you can see here. We have hell
+
+115
+00:03:32,799 --> 00:03:36,720
+of stuff inside here. So, it makes sense
+
+116
+00:03:34,400 --> 00:03:39,040
+for me to do that. Create a table and
+
+117
+00:03:36,720 --> 00:03:40,879
+set a time regularly to add to it. I do
+
+118
+00:03:39,040 --> 00:03:42,720
+this every Sunday night. I would get a
+
+119
+00:03:40,879 --> 00:03:44,319
+time on your calendar where your job
+
+120
+00:03:42,720 --> 00:03:46,799
+specifically is to take your bookmarks
+
+121
+00:03:44,319 --> 00:03:48,799
+from your web browser, X, Instagram, Tik
+
+122
+00:03:46,799 --> 00:03:50,560
+Tok, see if any of that's relevant,
+
+123
+00:03:48,799 --> 00:03:52,400
+label it, and put it in here. So, the
+
+124
+00:03:50,560 --> 00:03:54,159
+other half of this, you have to actively
+
+125
+00:03:52,400 --> 00:03:55,840
+be doing that bookmarking and that
+
+126
+00:03:54,159 --> 00:03:57,040
+finding when you scroll and find things,
+
+127
+00:03:55,840 --> 00:03:58,799
+which I think a lot of people actually
+
+128
+00:03:57,040 --> 00:04:00,159
+end up really enjoying because they feel
+
+129
+00:03:58,799 --> 00:04:02,159
+more value and start to be more
+
+130
+00:04:00,159 --> 00:04:04,080
+intentional about their time online when
+
+131
+00:04:02,159 --> 00:04:06,959
+they have a system like this. Which ties
+
+132
+00:04:04,080 --> 00:04:08,480
+really quickly into an ideas list. So if
+
+133
+00:04:06,959 --> 00:04:09,920
+you are a content creator or you are
+
+134
+00:04:08,480 --> 00:04:12,799
+doing work or putting out work
+
+135
+00:04:09,920 --> 00:04:14,319
+regularly, I recommend just having a big
+
+136
+00:04:12,799 --> 00:04:15,920
+dock for ideas. If you have no other
+
+137
+00:04:14,319 --> 00:04:17,359
+organization, just getting a massive
+
+138
+00:04:15,920 --> 00:04:19,040
+doc. So this is basically what I have
+
+139
+00:04:17,359 --> 00:04:20,560
+for this is an older version. I've moved
+
+140
+00:04:19,040 --> 00:04:22,240
+this now, but is one I'm willing to
+
+141
+00:04:20,560 --> 00:04:23,600
+share where I basically just have bullet
+
+142
+00:04:22,240 --> 00:04:25,759
+lists of things I like. So these are all
+
+143
+00:04:23,600 --> 00:04:28,000
+carousel ideas I have. So all oneshot
+
+144
+00:04:25,759 --> 00:04:29,199
+ideas I have, ideas of things I was
+
+145
+00:04:28,000 --> 00:04:30,320
+doing in Paris. I'm just basically
+
+146
+00:04:29,199 --> 00:04:32,320
+putting out anything that might be a
+
+147
+00:04:30,320 --> 00:04:34,479
+good video idea inside this doc. But
+
+148
+00:04:32,320 --> 00:04:36,160
+importantly, it has a calendar on top of
+
+149
+00:04:34,479 --> 00:04:38,320
+it. And in notion, you can go from
+
+150
+00:04:36,160 --> 00:04:40,400
+calendar view or even item view. And
+
+151
+00:04:38,320 --> 00:04:42,080
+item view, I can basically go and have
+
+152
+00:04:40,400 --> 00:04:43,520
+the same kind of table format. What was
+
+153
+00:04:42,080 --> 00:04:45,120
+the name of the item? What date did I
+
+154
+00:04:43,520 --> 00:04:47,919
+want to publish it? Is it a video? Is it
+
+155
+00:04:45,120 --> 00:04:50,000
+an ad? What's the status? Edit, record,
+
+156
+00:04:47,919 --> 00:04:51,759
+who's the editor? This is how I used to
+
+157
+00:04:50,000 --> 00:04:53,440
+manage all my content. We do this in a
+
+158
+00:04:51,759 --> 00:04:55,360
+sauna now, which we'll get to in a bit.
+
+159
+00:04:53,440 --> 00:04:57,680
+But that combination of list and
+
+160
+00:04:55,360 --> 00:04:59,520
+calendar takes you from no organization
+
+161
+00:04:57,680 --> 00:05:01,520
+to some organization. There's way more
+
+162
+00:04:59,520 --> 00:05:03,199
+robust stuff there. But if you are
+
+163
+00:05:01,520 --> 00:05:05,600
+struggling to put that together in a
+
+164
+00:05:03,199 --> 00:05:06,639
+basic way, this is the best entry level
+
+165
+00:05:05,600 --> 00:05:07,919
+and I find where you basically have all
+
+166
+00:05:06,639 --> 00:05:09,919
+your ideas in one place and you can
+
+167
+00:05:07,919 --> 00:05:11,840
+assign your ideas to a place on the
+
+168
+00:05:09,919 --> 00:05:13,919
+calendar. And again, if you want to put
+
+169
+00:05:11,840 --> 00:05:16,240
+this um together, you would open up a
+
+170
+00:05:13,919 --> 00:05:18,000
+new doc, you can just add all your text.
+
+171
+00:05:16,240 --> 00:05:19,840
+Then if you have a table, turn that
+
+172
+00:05:18,000 --> 00:05:21,680
+table into a database and you have all
+
+173
+00:05:19,840 --> 00:05:23,440
+these types of columns underneath a
+
+174
+00:05:21,680 --> 00:05:25,360
+database. You are functioning inside
+
+175
+00:05:23,440 --> 00:05:27,360
+notion for something like this related.
+
+176
+00:05:25,360 --> 00:05:29,199
+People are always asking, "How do you
+
+177
+00:05:27,360 --> 00:05:30,880
+capture content?" If you're doing vlogs
+
+178
+00:05:29,199 --> 00:05:32,560
+or you want to be organized or you're
+
+179
+00:05:30,880 --> 00:05:34,160
+traveling, what's an effective way to
+
+180
+00:05:32,560 --> 00:05:36,800
+capture content? I want to talk about
+
+181
+00:05:34,160 --> 00:05:38,720
+content folders. Just a simple structure
+
+182
+00:05:36,800 --> 00:05:40,720
+you can have on your phone for when you
+
+183
+00:05:38,720 --> 00:05:42,720
+do this. So, two ways to do it. First,
+
+184
+00:05:40,720 --> 00:05:44,639
+if you are traveling a lot, setting up
+
+185
+00:05:42,720 --> 00:05:46,800
+an album when you travel. If you're
+
+186
+00:05:44,639 --> 00:05:49,680
+really organized, you can do sub albums.
+
+187
+00:05:46,800 --> 00:05:51,600
+I tend to do people, places, and things
+
+188
+00:05:49,680 --> 00:05:53,199
+cuz it's really easy for me to find, but
+
+189
+00:05:51,600 --> 00:05:54,639
+often times I'll just do one album for
+
+190
+00:05:53,199 --> 00:05:56,880
+the place. And then the other key
+
+191
+00:05:54,639 --> 00:05:58,720
+workflow hack is to heart or favorite
+
+192
+00:05:56,880 --> 00:06:00,560
+anything that could be a hook. Like any
+
+193
+00:05:58,720 --> 00:06:02,000
+awesome shot that you have, hit it with
+
+194
+00:06:00,560 --> 00:06:04,160
+the heart and then you have an easy
+
+195
+00:06:02,000 --> 00:06:05,680
+access to all of those on your phone
+
+196
+00:06:04,160 --> 00:06:07,600
+whenever you need like that banger hook
+
+197
+00:06:05,680 --> 00:06:09,360
+shot. But the flow that I have when I'm
+
+198
+00:06:07,600 --> 00:06:11,440
+not traveling, just my day-to-day is I
+
+199
+00:06:09,360 --> 00:06:14,160
+literally have a folder for me, folder
+
+200
+00:06:11,440 --> 00:06:17,120
+for people, places, and things. Those
+
+201
+00:06:14,160 --> 00:06:18,479
+are four folders on my iPhone. So I know
+
+202
+00:06:17,120 --> 00:06:20,000
+things are easy to find. So whenever
+
+203
+00:06:18,479 --> 00:06:21,840
+I've shot for a day, if I'm just in an
+
+204
+00:06:20,000 --> 00:06:23,199
+Uber or whatever it is, I will organize
+
+205
+00:06:21,840 --> 00:06:25,039
+that footage. So, I will say basically I
+
+206
+00:06:23,199 --> 00:06:26,639
+will make sure all of the videos that
+
+207
+00:06:25,039 --> 00:06:27,919
+I'm in go in one place cuz typically
+
+208
+00:06:26,639 --> 00:06:29,680
+that's actually something I'm hunting
+
+209
+00:06:27,919 --> 00:06:31,199
+down for carousels or B-roll for
+
+210
+00:06:29,680 --> 00:06:33,120
+whatever things. I shoot a lot of
+
+211
+00:06:31,199 --> 00:06:34,319
+packaging and stuff and food [snorts]
+
+212
+00:06:33,120 --> 00:06:35,919
+and stuff like that. Put it all in one
+
+213
+00:06:34,319 --> 00:06:36,720
+place. Easy to find. Place is another
+
+214
+00:06:35,919 --> 00:06:38,479
+good one if you're trying to get
+
+215
+00:06:36,720 --> 00:06:40,319
+establishing shots or like visuals or
+
+216
+00:06:38,479 --> 00:06:41,840
+facads. Put it all in one place. And
+
+217
+00:06:40,319 --> 00:06:43,440
+then people. If I'm with other people or
+
+218
+00:06:41,840 --> 00:06:44,639
+I'm shooting individuals, all that goes
+
+219
+00:06:43,440 --> 00:06:47,039
+in one place. So, when I'm getting
+
+220
+00:06:44,639 --> 00:06:48,400
+videos of any kind, I can easily know if
+
+221
+00:06:47,039 --> 00:06:49,840
+okay, I can grab more footage of me. Am
+
+222
+00:06:48,400 --> 00:06:52,400
+I trying to find that packaging? I need
+
+223
+00:06:49,840 --> 00:06:54,000
+a quick shot of a China trip. It's all
+
+224
+00:06:52,400 --> 00:06:55,600
+there. That's another one where if your
+
+225
+00:06:54,000 --> 00:06:57,199
+phone is disorganized, you're trying to
+
+226
+00:06:55,600 --> 00:06:59,440
+find footage, you're doing lots of
+
+227
+00:06:57,199 --> 00:07:01,440
+edits, it's a lifesaver. Today's video
+
+228
+00:06:59,440 --> 00:07:02,720
+is in partnership with Zero, who are a
+
+229
+00:07:01,440 --> 00:07:04,720
+perfect fit for what we're talking
+
+230
+00:07:02,720 --> 00:07:06,560
+about. Zero provides accounting, tax
+
+231
+00:07:04,720 --> 00:07:08,160
+calculation, and invoices, payment
+
+232
+00:07:06,560 --> 00:07:09,360
+acceptance. Then in Australia, New
+
+233
+00:07:08,160 --> 00:07:11,039
+Zealand, and the UK, they even offer
+
+234
+00:07:09,360 --> 00:07:12,560
+payroll. Built for small businesses,
+
+235
+00:07:11,039 --> 00:07:14,240
+perfect for freelancers and creative
+
+236
+00:07:12,560 --> 00:07:16,080
+agencies. It's helpful to businesses of
+
+237
+00:07:14,240 --> 00:07:17,759
+all kinds. Zero helps you organize all
+
+238
+00:07:16,080 --> 00:07:19,919
+your financial operations from invoices
+
+239
+00:07:17,759 --> 00:07:21,120
+to accounting to tax in one place. If I
+
+240
+00:07:19,919 --> 00:07:22,880
+can recommend one thing if you're
+
+241
+00:07:21,120 --> 00:07:24,720
+building a creative business is you want
+
+242
+00:07:22,880 --> 00:07:26,319
+to start with systems you can grow into
+
+243
+00:07:24,720 --> 00:07:27,840
+as your business scales. You don't want
+
+244
+00:07:26,319 --> 00:07:29,199
+to have 10 different platforms for 10
+
+245
+00:07:27,840 --> 00:07:30,560
+different things. A few of my favorite
+
+246
+00:07:29,199 --> 00:07:32,240
+features are that you can connect and
+
+247
+00:07:30,560 --> 00:07:34,160
+import transactions from your banks,
+
+248
+00:07:32,240 --> 00:07:35,840
+track inventory levels, collaborate with
+
+249
+00:07:34,160 --> 00:07:37,599
+unlimited users, and you have an
+
+250
+00:07:35,840 --> 00:07:39,120
+accounting dashboard for a real-time
+
+251
+00:07:37,599 --> 00:07:40,880
+view of your business performance. Being
+
+252
+00:07:39,120 --> 00:07:42,479
+able to handle invoicing, payroll, and
+
+253
+00:07:40,880 --> 00:07:44,240
+accounting all in one place that you
+
+254
+00:07:42,479 --> 00:07:45,520
+simply use more of as you need it is
+
+255
+00:07:44,240 --> 00:07:47,360
+going to give you a lot of relief. And
+
+256
+00:07:45,520 --> 00:07:48,880
+Zero unlocks that supercharged feeling
+
+257
+00:07:47,360 --> 00:07:50,560
+that as you grow, we've got an
+
+258
+00:07:48,880 --> 00:07:52,240
+all-in-one platform to help you make
+
+259
+00:07:50,560 --> 00:07:53,520
+complex tasks simple. So, if you want to
+
+260
+00:07:52,240 --> 00:07:55,440
+stop piecing together your business
+
+261
+00:07:53,520 --> 00:07:58,160
+finances in the new year, you can get
+
+262
+00:07:55,440 --> 00:07:59,680
+90% off for 6 months using the link in
+
+263
+00:07:58,160 --> 00:08:01,520
+the description. And thank you so much
+
+264
+00:07:59,680 --> 00:08:04,479
+to Zero for partnering on this video.
+
+265
+00:08:01,520 --> 00:08:07,120
+But getting more tactical, if you have
+
+266
+00:08:04,479 --> 00:08:09,039
+clients or if you work at a job, the
+
+267
+00:08:07,120 --> 00:08:10,879
+weekly update is something I did all
+
+268
+00:08:09,039 --> 00:08:12,400
+through my professional career because a
+
+269
+00:08:10,879 --> 00:08:14,240
+boss asked for it and I just kept it
+
+270
+00:08:12,400 --> 00:08:15,360
+going. but will save you so much
+
+271
+00:08:14,240 --> 00:08:16,720
+heartache, especially if you do
+
+272
+00:08:15,360 --> 00:08:18,000
+freelance or client work. So, what do I
+
+273
+00:08:16,720 --> 00:08:19,840
+mean by this? At the end of every week,
+
+274
+00:08:18,000 --> 00:08:21,680
+you send out a simple email. It says,
+
+275
+00:08:19,840 --> 00:08:23,199
+"Too long, didn't read. Here's like two
+
+276
+00:08:21,680 --> 00:08:25,039
+or three highlights of this week." You
+
+277
+00:08:23,199 --> 00:08:26,319
+pull from the below, which is what got
+
+278
+00:08:25,039 --> 00:08:27,840
+accomplished this week. So, just a
+
+279
+00:08:26,319 --> 00:08:30,000
+checklist. We these are the things that
+
+280
+00:08:27,840 --> 00:08:32,240
+happened. This is what's going to happen
+
+281
+00:08:30,000 --> 00:08:34,000
+next week. What the plan looks like. And
+
+282
+00:08:32,240 --> 00:08:36,080
+then blockers, anything that's holding
+
+283
+00:08:34,000 --> 00:08:38,000
+you back from achieving a goal or
+
+284
+00:08:36,080 --> 00:08:39,200
+anything that didn't go as expected so
+
+285
+00:08:38,000 --> 00:08:40,560
+that people know and if there's
+
+286
+00:08:39,200 --> 00:08:42,320
+something that needs to be resolved,
+
+287
+00:08:40,560 --> 00:08:44,000
+it's being escalated. So you've
+
+288
+00:08:42,320 --> 00:08:45,839
+identified it, you've pulled it out. I
+
+289
+00:08:44,000 --> 00:08:47,519
+still haven't received that doc. Jenny
+
+290
+00:08:45,839 --> 00:08:49,120
+still hasn't gotten this or that. So you
+
+291
+00:08:47,519 --> 00:08:50,959
+can very practically call out where
+
+292
+00:08:49,120 --> 00:08:52,720
+things are. So then whoever client you
+
+293
+00:08:50,959 --> 00:08:54,720
+have knows what you've done, knows what
+
+294
+00:08:52,720 --> 00:08:56,640
+their expectation is of you next week,
+
+295
+00:08:54,720 --> 00:08:58,000
+knows if they or their team or anything
+
+296
+00:08:56,640 --> 00:08:59,760
+else is blocking you from getting the
+
+297
+00:08:58,000 --> 00:09:01,519
+things they have done and can adjust
+
+298
+00:08:59,760 --> 00:09:02,959
+from it. And if you follow this pretty
+
+299
+00:09:01,519 --> 00:09:04,480
+simple structure, you are going to have
+
+300
+00:09:02,959 --> 00:09:05,920
+way less issues with clients, people
+
+301
+00:09:04,480 --> 00:09:07,279
+being mad about this or that. And it
+
+302
+00:09:05,920 --> 00:09:08,880
+doesn't take long. And if you are
+
+303
+00:09:07,279 --> 00:09:10,640
+managing a team, this is a great thing
+
+304
+00:09:08,880 --> 00:09:12,080
+to ask for from them because then you
+
+305
+00:09:10,640 --> 00:09:13,360
+have a view of what everyone is looking
+
+306
+00:09:12,080 --> 00:09:14,560
+at and what everyone's doing and what
+
+307
+00:09:13,360 --> 00:09:16,080
+they're doing next and where they're
+
+308
+00:09:14,560 --> 00:09:17,839
+held up. The blocker section is really
+
+309
+00:09:16,080 --> 00:09:19,279
+important. You are able to compile those
+
+310
+00:09:17,839 --> 00:09:21,440
+things together in terms of what your
+
+311
+00:09:19,279 --> 00:09:23,600
+team did to then present to a client or
+
+312
+00:09:21,440 --> 00:09:25,760
+then present to an executive team and
+
+313
+00:09:23,600 --> 00:09:27,839
+you're beginning to level all of that
+
+314
+00:09:25,760 --> 00:09:29,360
+up. And this ties in this idea of a team
+
+315
+00:09:27,839 --> 00:09:31,760
+tracker. So this is one of the tracker I
+
+316
+00:09:29,360 --> 00:09:34,080
+have for carousels where basically it
+
+317
+00:09:31,760 --> 00:09:36,080
+has a process dock up top has another
+
+318
+00:09:34,080 --> 00:09:37,760
+database down here with a name who on
+
+319
+00:09:36,080 --> 00:09:39,440
+the team is the designer what's the
+
+320
+00:09:37,760 --> 00:09:41,360
+status what's the due date what's the
+
+321
+00:09:39,440 --> 00:09:43,360
+link for the final if you are working
+
+322
+00:09:41,360 --> 00:09:45,600
+with multiple people in any freelance
+
+323
+00:09:43,360 --> 00:09:47,839
+scenario as a team in a small agency as
+
+324
+00:09:45,600 --> 00:09:49,120
+a team at a company as a team on a shoot
+
+325
+00:09:47,839 --> 00:09:50,480
+if all the things that people are
+
+326
+00:09:49,120 --> 00:09:52,000
+supposed to do are tracked in one
+
+327
+00:09:50,480 --> 00:09:53,200
+database if they all have dates and
+
+328
+00:09:52,000 --> 00:09:54,880
+people assigned to them and they're
+
+329
+00:09:53,200 --> 00:09:56,880
+getting checked off you can easily look
+
+330
+00:09:54,880 --> 00:09:58,560
+at you can even autogenerate reports
+
+331
+00:09:56,880 --> 00:10:00,080
+with stuff like notation Notion AI will
+
+332
+00:09:58,560 --> 00:10:02,560
+just give you a summary of this of
+
+333
+00:10:00,080 --> 00:10:04,160
+what's gotten done, what remains, who's
+
+334
+00:10:02,560 --> 00:10:05,839
+assigned to what. At one of my previous
+
+335
+00:10:04,160 --> 00:10:07,839
+jobs, we managed a pretty big creative
+
+336
+00:10:05,839 --> 00:10:09,600
+team. We had four graphic designers. We
+
+337
+00:10:07,839 --> 00:10:11,440
+had three people on the video team. And
+
+338
+00:10:09,600 --> 00:10:12,480
+it was a very assetbased. What asset are
+
+339
+00:10:11,440 --> 00:10:14,160
+you doing for who? There's tons of
+
+340
+00:10:12,480 --> 00:10:15,440
+assets coming in and out. All the people
+
+341
+00:10:14,160 --> 00:10:17,040
+around us were complaining. They weren't
+
+342
+00:10:15,440 --> 00:10:18,720
+getting their assets fast enough. When I
+
+343
+00:10:17,040 --> 00:10:19,760
+came in to manage that team, one of the
+
+344
+00:10:18,720 --> 00:10:20,959
+first things I did was put something
+
+345
+00:10:19,760 --> 00:10:22,399
+like this into place where we actually
+
+346
+00:10:20,959 --> 00:10:24,160
+had a form on the front end where people
+
+347
+00:10:22,399 --> 00:10:25,360
+could request assets. The managers of
+
+348
+00:10:24,160 --> 00:10:27,040
+the team would then review those and
+
+349
+00:10:25,360 --> 00:10:28,079
+assign them to individuals. Then a date
+
+350
+00:10:27,040 --> 00:10:29,680
+would get added, the person that
+
+351
+00:10:28,079 --> 00:10:31,040
+requested it, had visibility on what the
+
+352
+00:10:29,680 --> 00:10:32,480
+date looked like. We did all this in
+
+353
+00:10:31,040 --> 00:10:34,160
+ClickUp, and then you could literally
+
+354
+00:10:32,480 --> 00:10:35,680
+see what the queue looks like, how many
+
+355
+00:10:34,160 --> 00:10:36,959
+were in front of it. We could review how
+
+356
+00:10:35,680 --> 00:10:38,959
+many assets people were getting done
+
+357
+00:10:36,959 --> 00:10:40,480
+each week, are these requests tedious,
+
+358
+00:10:38,959 --> 00:10:42,399
+was there already an existing asset that
+
+359
+00:10:40,480 --> 00:10:44,320
+was that was done. Does one person have
+
+360
+00:10:42,399 --> 00:10:45,920
+more bandwidth than the others? If new
+
+361
+00:10:44,320 --> 00:10:47,360
+requests come in, we're logging it all
+
+362
+00:10:45,920 --> 00:10:48,800
+one place. And importantly, I could go
+
+363
+00:10:47,360 --> 00:10:50,000
+back to the sales team or the product
+
+364
+00:10:48,800 --> 00:10:51,600
+team or people requesting it and being
+
+365
+00:10:50,000 --> 00:10:53,200
+like, "Hey, there's 21 assets done this
+
+366
+00:10:51,600 --> 00:10:55,120
+week, 11 for your team, seven for your
+
+367
+00:10:53,200 --> 00:10:56,880
+team. We have these many in the queue.
+
+368
+00:10:55,120 --> 00:10:58,399
+would you like to rep prioritize any of
+
+369
+00:10:56,880 --> 00:11:00,079
+these ones remaining and all of a sudden
+
+370
+00:10:58,399 --> 00:11:02,079
+everyone feels better about that
+
+371
+00:11:00,079 --> 00:11:03,360
+process? But it starts again with just a
+
+372
+00:11:02,079 --> 00:11:04,640
+simple database like this with the
+
+373
+00:11:03,360 --> 00:11:06,079
+people you're working on for some
+
+374
+00:11:04,640 --> 00:11:07,920
+accountability. And that relates to the
+
+375
+00:11:06,079 --> 00:11:09,440
+idea of a process doc. So if you ever
+
+376
+00:11:07,920 --> 00:11:11,360
+want to hire people or have people help
+
+377
+00:11:09,440 --> 00:11:13,680
+you to do stuff, whether that's video
+
+378
+00:11:11,360 --> 00:11:15,519
+editing you want done for you, writing,
+
+379
+00:11:13,680 --> 00:11:16,720
+social media posting, whatever, most
+
+380
+00:11:15,519 --> 00:11:18,160
+people assume, oh, I'm just going to
+
+381
+00:11:16,720 --> 00:11:20,480
+hire this person. They're going to do it
+
+382
+00:11:18,160 --> 00:11:22,320
+all for me. But the more you have
+
+383
+00:11:20,480 --> 00:11:23,519
+process in place, the better off it's
+
+384
+00:11:22,320 --> 00:11:25,360
+going to go to actually bring them into
+
+385
+00:11:23,519 --> 00:11:26,720
+your org. So the simplest way to look at
+
+386
+00:11:25,360 --> 00:11:29,360
+process because everyone gets a little
+
+387
+00:11:26,720 --> 00:11:31,519
+turned off by that word is for every
+
+388
+00:11:29,360 --> 00:11:33,680
+single thing that you want someone else
+
+389
+00:11:31,519 --> 00:11:35,839
+to work on there is a document in that
+
+390
+00:11:33,680 --> 00:11:38,000
+document there is a loom just a video
+
+391
+00:11:35,839 --> 00:11:40,000
+screen share showing what you do. So for
+
+392
+00:11:38,000 --> 00:11:41,600
+instance how you log into this or the
+
+393
+00:11:40,000 --> 00:11:43,360
+different walking through whatever board
+
+394
+00:11:41,600 --> 00:11:45,200
+you're showing just give people video
+
+395
+00:11:43,360 --> 00:11:46,800
+documentation doesn't have to be fancy
+
+396
+00:11:45,200 --> 00:11:48,480
+or greatl looking is really helpful so
+
+397
+00:11:46,800 --> 00:11:50,000
+they can watch and that's step-by-step
+
+398
+00:11:48,480 --> 00:11:51,680
+breakdown. You can take that loom,
+
+399
+00:11:50,000 --> 00:11:52,880
+transcribe it, put it into chat GBT, and
+
+400
+00:11:51,680 --> 00:11:54,560
+it will give you a step-by-step
+
+401
+00:11:52,880 --> 00:11:55,920
+breakdown that you can review. But for
+
+402
+00:11:54,560 --> 00:11:57,279
+anything, even from those like that
+
+403
+00:11:55,920 --> 00:11:58,880
+carousel example I showed, those
+
+404
+00:11:57,279 --> 00:12:00,320
+carousels, the first slide is very
+
+405
+00:11:58,880 --> 00:12:01,920
+specific. The core text needs to fit
+
+406
+00:12:00,320 --> 00:12:03,519
+within the square in the middle. I need
+
+407
+00:12:01,920 --> 00:12:05,279
+to have a photo inside each of those
+
+408
+00:12:03,519 --> 00:12:07,040
+needs to be readable with a size on the
+
+409
+00:12:05,279 --> 00:12:08,639
+explore page. So having a checklist for
+
+410
+00:12:07,040 --> 00:12:10,160
+that where people have to say, is is
+
+411
+00:12:08,639 --> 00:12:11,760
+this in the middle? Is orange in the
+
+412
+00:12:10,160 --> 00:12:13,200
+photo? Is it readable with a small size
+
+413
+00:12:11,760 --> 00:12:14,480
+on the explore page? Same thing on the
+
+414
+00:12:13,200 --> 00:12:16,639
+back end. We have two variants for each
+
+415
+00:12:14,480 --> 00:12:18,399
+one. One is a mini chat with a comment.
+
+416
+00:12:16,639 --> 00:12:20,000
+One is just a go find whatever
+
+417
+00:12:18,399 --> 00:12:21,440
+deliverable we have in a BIOS. We have
+
+418
+00:12:20,000 --> 00:12:23,120
+two variants of all those. That's in the
+
+419
+00:12:21,440 --> 00:12:24,720
+doc. We always do two variants. And then
+
+420
+00:12:23,120 --> 00:12:25,839
+we have a Figma board of existing assets
+
+421
+00:12:24,720 --> 00:12:27,200
+that we have. And so being able to have
+
+422
+00:12:25,839 --> 00:12:28,880
+a loom and walk through what that looks
+
+423
+00:12:27,200 --> 00:12:30,079
+like, show examples so people can look
+
+424
+00:12:28,880 --> 00:12:31,519
+through it visually. They have a
+
+425
+00:12:30,079 --> 00:12:33,760
+checklist of all those steps. That
+
+426
+00:12:31,519 --> 00:12:35,279
+becomes a process doc. So anytime a new
+
+427
+00:12:33,760 --> 00:12:36,560
+designer comes on, we can add that into
+
+428
+00:12:35,279 --> 00:12:37,839
+it. The last step on there, if you're
+
+429
+00:12:36,560 --> 00:12:39,519
+hiring multiple roles, you begin to add
+
+430
+00:12:37,839 --> 00:12:40,639
+FAQ on the bottom. What comes up every
+
+431
+00:12:39,519 --> 00:12:42,079
+time when you're onboarding, what are
+
+432
+00:12:40,639 --> 00:12:43,519
+the issues we hit? You add it to the
+
+433
+00:12:42,079 --> 00:12:44,720
+process dock. So whenever someone new
+
+434
+00:12:43,519 --> 00:12:46,480
+comes in, you're beginning to have to
+
+435
+00:12:44,720 --> 00:12:48,639
+handle less of those same repetitive
+
+436
+00:12:46,480 --> 00:12:50,480
+questions. So anyone who has scaled an
+
+437
+00:12:48,639 --> 00:12:51,760
+agency, has scaled freelance work, has
+
+438
+00:12:50,480 --> 00:12:53,839
+worked on a lot of shoots, has brought
+
+439
+00:12:51,760 --> 00:12:55,440
+on remote help, has begun to do that
+
+440
+00:12:53,839 --> 00:12:57,920
+kind of process. It's literally just a
+
+441
+00:12:55,440 --> 00:12:59,360
+folder inside your drive or your air or
+
+442
+00:12:57,920 --> 00:13:01,120
+inside your notion where you basically
+
+443
+00:12:59,360 --> 00:13:02,560
+have these for all of the things that
+
+444
+00:13:01,120 --> 00:13:04,560
+people are going to do to help you. They
+
+445
+00:13:02,560 --> 00:13:06,240
+do not take long to set up. It will save
+
+446
+00:13:04,560 --> 00:13:07,519
+you tons of time on the back end. And so
+
+447
+00:13:06,240 --> 00:13:08,880
+if your goal this year is I'm going to
+
+448
+00:13:07,519 --> 00:13:10,560
+get help or I've been trying to have
+
+449
+00:13:08,880 --> 00:13:12,399
+YouTube editors or whoever and it hasn't
+
+450
+00:13:10,560 --> 00:13:13,519
+worked out, it's usually not the editor.
+
+451
+00:13:12,399 --> 00:13:15,279
+It's usually that you don't have enough
+
+452
+00:13:13,519 --> 00:13:17,120
+process and documentation in place. So
+
+453
+00:13:15,279 --> 00:13:18,560
+this is a key thing to wrap your head
+
+454
+00:13:17,120 --> 00:13:20,959
+around that will really help. And so
+
+455
+00:13:18,560 --> 00:13:22,800
+those have all been really tactical
+
+456
+00:13:20,959 --> 00:13:24,240
+database driven stuff. And that's not
+
+457
+00:13:22,800 --> 00:13:26,320
+all the ways that you can get your
+
+458
+00:13:24,240 --> 00:13:28,880
+creative life together. One that is
+
+459
+00:13:26,320 --> 00:13:31,040
+still the best use for stuff like this,
+
+460
+00:13:28,880 --> 00:13:33,519
+this best promotional tool for creatives
+
+461
+00:13:31,040 --> 00:13:34,720
+is signature series for content. So if
+
+462
+00:13:33,519 --> 00:13:36,240
+you're looking at how do I improve my
+
+463
+00:13:34,720 --> 00:13:38,240
+content this year? How do I have a real
+
+464
+00:13:36,240 --> 00:13:39,760
+plan? It's all around what is the most
+
+465
+00:13:38,240 --> 00:13:41,040
+effective thing I've done. How do I
+
+466
+00:13:39,760 --> 00:13:42,320
+serialize it? So, for those of you that
+
+467
+00:13:41,040 --> 00:13:44,160
+know me, you know I have this ser
+
+468
+00:13:42,320 --> 00:13:46,079
+series, product versus brand. I review
+
+469
+00:13:44,160 --> 00:13:47,600
+different products as a signature series
+
+470
+00:13:46,079 --> 00:13:49,680
+that lots of people know me for. I want
+
+471
+00:13:47,600 --> 00:13:51,040
+to shout out David. He's in Cut 30 right
+
+472
+00:13:49,680 --> 00:13:53,200
+now. I was crushing it before he came in
+
+473
+00:13:51,040 --> 00:13:55,040
+in Cut 32 and he has a signature series
+
+474
+00:13:53,200 --> 00:13:56,560
+where basically brand building lessons
+
+475
+00:13:55,040 --> 00:13:58,399
+like behind the brand and he's done
+
+476
+00:13:56,560 --> 00:14:00,240
+Gentle Monster. He's done Beams, but he
+
+477
+00:13:58,399 --> 00:14:02,160
+sits down. He has a very similar style
+
+478
+00:14:00,240 --> 00:14:04,000
+each time and he walks through in a
+
+479
+00:14:02,160 --> 00:14:05,680
+similar visual way and a similar
+
+480
+00:14:04,000 --> 00:14:07,040
+structural way. the stories behind some
+
+481
+00:14:05,680 --> 00:14:08,320
+of these brands and in particular their
+
+482
+00:14:07,040 --> 00:14:09,279
+founders. He taps in there. It's a
+
+483
+00:14:08,320 --> 00:14:10,800
+little different than everybody else,
+
+484
+00:14:09,279 --> 00:14:12,480
+but he's kind of found his signature
+
+485
+00:14:10,800 --> 00:14:13,600
+series. You can see him going from
+
+486
+00:14:12,480 --> 00:14:16,079
+talking about all these different things
+
+487
+00:14:13,600 --> 00:14:17,360
+to, oh, I found my thing. And so, if you
+
+488
+00:14:16,079 --> 00:14:18,720
+are doing anything this year, is
+
+489
+00:14:17,360 --> 00:14:19,920
+thinking about from my signature,
+
+490
+00:14:18,720 --> 00:14:21,839
+whether it's something in my portfolio
+
+491
+00:14:19,920 --> 00:14:24,000
+or it's a content piece I'm making. If I
+
+492
+00:14:21,839 --> 00:14:25,760
+was only to make one thing a week or one
+
+493
+00:14:24,000 --> 00:14:27,360
+thing a month, how can I have that
+
+494
+00:14:25,760 --> 00:14:28,800
+signature that unique thing to me and
+
+495
+00:14:27,360 --> 00:14:30,480
+then actually act on it? And then if you
+
+496
+00:14:28,800 --> 00:14:33,360
+are working on social media for yourself
+
+497
+00:14:30,480 --> 00:14:35,120
+or for a brand, etc. A content pillar
+
+498
+00:14:33,360 --> 00:14:36,480
+system is the system that I teach all
+
+499
+00:14:35,120 --> 00:14:38,320
+the time. It's what I work with brands
+
+500
+00:14:36,480 --> 00:14:40,079
+on. It's what we teach inside Cut 30 for
+
+501
+00:14:38,320 --> 00:14:41,680
+individuals. Instituting a pillar system
+
+502
+00:14:40,079 --> 00:14:43,279
+will get you good. What do I mean by a
+
+503
+00:14:41,680 --> 00:14:44,880
+pillar? If you don't know, pillar is a
+
+504
+00:14:43,279 --> 00:14:46,560
+concept. Talking about food, I'm talking
+
+505
+00:14:44,880 --> 00:14:48,160
+about my portfolio videos, design,
+
+506
+00:14:46,560 --> 00:14:50,800
+whatever. Plus one or two formats.
+
+507
+00:14:48,160 --> 00:14:53,440
+Carousels, green screen, vlogs, videos.
+
+508
+00:14:50,800 --> 00:14:55,600
+Every good creative who's online has
+
+509
+00:14:53,440 --> 00:14:56,720
+three to five pillars at any given time.
+
+510
+00:14:55,600 --> 00:14:58,480
+Same thing with brands. They have three
+
+511
+00:14:56,720 --> 00:15:00,560
+to five types of content. We do
+
+512
+00:14:58,480 --> 00:15:01,920
+carousels documenting our journey. We do
+
+513
+00:15:00,560 --> 00:15:03,120
+product reels that are art director
+
+514
+00:15:01,920 --> 00:15:04,639
+whatever it is they have three to five
+
+515
+00:15:03,120 --> 00:15:06,480
+things but how you get good at it how
+
+516
+00:15:04,639 --> 00:15:08,079
+you can basically make the plunge this
+
+517
+00:15:06,480 --> 00:15:10,079
+year to be excellent at this is measure
+
+518
+00:15:08,079 --> 00:15:11,680
+that pillar system so it's a spreadsheet
+
+519
+00:15:10,079 --> 00:15:13,360
+that actually breaks down the views of
+
+520
+00:15:11,680 --> 00:15:15,839
+each pillar each month their average
+
+521
+00:15:13,360 --> 00:15:17,839
+views per the saves the shares the reach
+
+522
+00:15:15,839 --> 00:15:19,839
+to new audiences versus old audiences
+
+523
+00:15:17,839 --> 00:15:22,000
+and the hook rate I will put my pillars
+
+524
+00:15:19,839 --> 00:15:23,920
+doc down inside the description here so
+
+525
+00:15:22,000 --> 00:15:25,360
+you can see it if you measure those
+
+526
+00:15:23,920 --> 00:15:27,120
+every month and you look at if it's
+
+527
+00:15:25,360 --> 00:15:28,639
+going up or down then you decide are we
+
+528
+00:15:27,120 --> 00:15:30,480
+going to improve our hooks are we going
+
+529
+00:15:28,639 --> 00:15:32,000
+to change the production value or are we
+
+530
+00:15:30,480 --> 00:15:33,680
+going to double down and swap this video
+
+531
+00:15:32,000 --> 00:15:35,199
+some other way every month to see how
+
+532
+00:15:33,680 --> 00:15:36,639
+you improve it? Don't change anything if
+
+533
+00:15:35,199 --> 00:15:37,839
+it's steady state or remove it. You
+
+534
+00:15:36,639 --> 00:15:39,360
+basically have a decision matrix
+
+535
+00:15:37,839 --> 00:15:40,480
+wherever every month you choose one of
+
+536
+00:15:39,360 --> 00:15:42,320
+those improvements, you choose to keep
+
+537
+00:15:40,480 --> 00:15:44,000
+it the same or you choose to put it away
+
+538
+00:15:42,320 --> 00:15:45,600
+and replace it with a new pillar. Within
+
+539
+00:15:44,000 --> 00:15:46,959
+3 months of being like, we're going to
+
+540
+00:15:45,600 --> 00:15:48,800
+change hooks. We're going to evaluate it
+
+541
+00:15:46,959 --> 00:15:50,880
+the entire next month. Your social media
+
+542
+00:15:48,800 --> 00:15:52,480
+will be in extreme better shape. This
+
+543
+00:15:50,880 --> 00:15:54,079
+works for any brand, too. And it'll be
+
+544
+00:15:52,480 --> 00:15:55,600
+defensible. This wasn't working, so we
+
+545
+00:15:54,079 --> 00:15:57,199
+changed this thing. This was working, so
+
+546
+00:15:55,600 --> 00:15:58,720
+we kept going. This wasn't working, so
+
+547
+00:15:57,199 --> 00:16:01,040
+we swapped it out. And putting a
+
+548
+00:15:58,720 --> 00:16:03,120
+framework like that in place for you or
+
+549
+00:16:01,040 --> 00:16:04,959
+the brand you work for for the year is a
+
+550
+00:16:03,120 --> 00:16:06,720
+surefire way to actually quantify things
+
+551
+00:16:04,959 --> 00:16:08,560
+and get to improvement that I cannot
+
+552
+00:16:06,720 --> 00:16:09,759
+recommend more. There's a ton more that
+
+553
+00:16:08,560 --> 00:16:11,440
+I want to walk through, but I know in
+
+554
+00:16:09,759 --> 00:16:13,040
+these more like technical videos that
+
+555
+00:16:11,440 --> 00:16:14,639
+often some of this can be overwhelming.
+
+556
+00:16:13,040 --> 00:16:15,920
+Um, like I mentioned before, I will put
+
+557
+00:16:14,639 --> 00:16:17,440
+the content pillars [music] kind of
+
+558
+00:16:15,920 --> 00:16:18,480
+spreadsheet template I have down below.
+
+559
+00:16:17,440 --> 00:16:20,320
+So, if you're looking to do something
+
+560
+00:16:18,480 --> 00:16:22,160
+like that, you can have an example for
+
+561
+00:16:20,320 --> 00:16:24,399
+it. But overall, I cannot encourage you
+
+562
+00:16:22,160 --> 00:16:25,839
+enough to just pick one thing, one thing
+
+563
+00:16:24,399 --> 00:16:27,440
+here. Similar to my start of the year
+
+564
+00:16:25,839 --> 00:16:28,880
+video, concentrate on adding one thing
+
+565
+00:16:27,440 --> 00:16:30,240
+to your life. I'm going to organize the
+
+566
+00:16:28,880 --> 00:16:31,920
+footage I shoot in my iPhone. I'm going
+
+567
+00:16:30,240 --> 00:16:33,279
+to put together the reference database I
+
+568
+00:16:31,920 --> 00:16:34,560
+have. Oh, I'm working with a small team
+
+569
+00:16:33,279 --> 00:16:35,759
+and we're chaotic. I'm going to put the
+
+570
+00:16:34,560 --> 00:16:37,519
+tracker together and I'm going to stay
+
+571
+00:16:35,759 --> 00:16:39,440
+on people to do it. Facilitating that
+
+572
+00:16:37,519 --> 00:16:40,959
+stuff, acting on it will have a major
+
+573
+00:16:39,440 --> 00:16:43,120
+impact [music] in your creative life and
+
+574
+00:16:40,959 --> 00:16:45,040
+I cannot recommend it enough. I
+
+575
+00:16:43,120 --> 00:16:48,440
+appreciate y'all so much for watching.
+
+576
+00:16:45,040 --> 00:16:48,440
+Thank you again.
+

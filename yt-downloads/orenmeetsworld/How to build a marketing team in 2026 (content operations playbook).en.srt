@@ -1,0 +1,3736 @@
+1
+00:00:00,000 --> 00:00:05,239
+In this video, we are going to cover a
+
+2
+00:00:02,120 --> 00:00:07,800
+full guide how to build a content-first
+
+3
+00:00:05,239 --> 00:00:10,120
+[music] marketing team in 2026, no
+
+4
+00:00:07,800 --> 00:00:11,280
+matter what the size of your org is. So,
+
+5
+00:00:10,120 --> 00:00:13,880
+we're going to cover this from the
+
+6
+00:00:11,280 --> 00:00:15,480
+smallest to the largest of companies.
+
+7
+00:00:13,880 --> 00:00:17,480
+I'm going to go through examples, small
+
+8
+00:00:15,480 --> 00:00:19,880
+and large, to kick this off, all kinds
+
+9
+00:00:17,480 --> 00:00:21,800
+of brands that are going media company
+
+10
+00:00:19,880 --> 00:00:24,120
+first. We've all heard this trend, you
+
+11
+00:00:21,800 --> 00:00:25,920
+love to talk about on LinkedIn, every
+
+12
+00:00:24,120 --> 00:00:27,560
+marketing guru that brands are media
+
+13
+00:00:25,920 --> 00:00:30,040
+companies now, but no one talks about
+
+14
+00:00:27,560 --> 00:00:31,440
+how you actually execute it tactically.
+
+15
+00:00:30,040 --> 00:00:33,360
+After those examples, I'm going to talk
+
+16
+00:00:31,440 --> 00:00:35,000
+about how to build a marketing plan in
+
+17
+00:00:33,360 --> 00:00:36,440
+the content world. What does your team
+
+18
+00:00:35,000 --> 00:00:38,000
+look like? What are the goals to give
+
+19
+00:00:36,440 --> 00:00:39,840
+that team? What are anchors? What are
+
+20
+00:00:38,000 --> 00:00:41,920
+goals? Do you actually have the ability
+
+21
+00:00:39,840 --> 00:00:43,960
+to navigate if you're pivoting to this
+
+22
+00:00:41,920 --> 00:00:45,440
+new world, starting from scratch, or
+
+23
+00:00:43,960 --> 00:00:47,480
+just want to understand your place in
+
+24
+00:00:45,440 --> 00:00:50,480
+the world as a creative and a marketer
+
+25
+00:00:47,480 --> 00:00:51,800
+in this brand as media company era? And
+
+26
+00:00:50,480 --> 00:00:53,920
+I've been involved in this on every
+
+27
+00:00:51,800 --> 00:00:55,600
+level. I started as a content creator
+
+28
+00:00:53,920 --> 00:00:57,080
+when I was an SVP of marketing, and I
+
+29
+00:00:55,600 --> 00:00:58,600
+was pivoting my more traditional
+
+30
+00:00:57,080 --> 00:01:00,280
+marketing org to have to think like
+
+31
+00:00:58,600 --> 00:01:01,960
+this, and it was hard. Recently, I
+
+32
+00:01:00,280 --> 00:01:04,239
+advised on the build-out of an entire
+
+33
+00:01:01,960 --> 00:01:06,160
+studio system for an existing brand that
+
+34
+00:01:04,239 --> 00:01:07,840
+wanted to bring its expensive six-figure
+
+35
+00:01:06,160 --> 00:01:09,400
+productions in-house, working through
+
+36
+00:01:07,840 --> 00:01:11,080
+everything from their gear to the
+
+37
+00:01:09,400 --> 00:01:13,080
+facilities to what staff would look
+
+38
+00:01:11,080 --> 00:01:14,400
+like. And I saw that every single time
+
+39
+00:01:13,080 --> 00:01:16,120
+they brought in a traditional media
+
+40
+00:01:14,400 --> 00:01:17,960
+professional, the costs were going
+
+41
+00:01:16,120 --> 00:01:19,360
+radically out of control. It's a big
+
+42
+00:01:17,960 --> 00:01:21,040
+part of why I decided to make this
+
+43
+00:01:19,360 --> 00:01:22,720
+video. It's going to be super thorough.
+
+44
+00:01:21,040 --> 00:01:24,520
+I'm super excited for it. A lot of prep
+
+45
+00:01:22,720 --> 00:01:26,720
+went into this. Let's lock in. A quick
+
+46
+00:01:24,520 --> 00:01:28,560
+heads-up on the 24th, my next community
+
+47
+00:01:26,720 --> 00:01:30,360
+call, we're going to go through Q&A and
+
+48
+00:01:28,560 --> 00:01:32,320
+training just on this. If you want to go
+
+49
+00:01:30,360 --> 00:01:34,120
+deeper and ask questions, you can sign
+
+50
+00:01:32,320 --> 00:01:36,240
+up at the link below. We'll also have a
+
+51
+00:01:34,120 --> 00:01:37,120
+PDF summary of all the stuff I talk
+
+52
+00:01:36,240 --> 00:01:38,880
+about in here that's going to be
+
+53
+00:01:37,120 --> 00:01:41,280
+available for anyone that comes to the
+
+54
+00:01:38,880 --> 00:01:42,920
+call. Let's kick off with examples,
+
+55
+00:01:41,280 --> 00:01:44,400
+because becoming a media company,
+
+56
+00:01:42,920 --> 00:01:46,800
+building a content team, doesn't mean
+
+57
+00:01:44,400 --> 00:01:49,080
+just posting more TikToks or asking for
+
+58
+00:01:46,800 --> 00:01:50,800
+more from your social media manager. It
+
+59
+00:01:49,080 --> 00:01:52,720
+means structuring your marketing team
+
+60
+00:01:50,800 --> 00:01:54,520
+and your organization to be content
+
+61
+00:01:52,720 --> 00:01:56,280
+first. And you'll see a lot of hot in
+
+62
+00:01:54,520 --> 00:01:57,840
+the moment concepts, like social shows
+
+63
+00:01:56,280 --> 00:01:59,680
+are really hot concept right now, but
+
+64
+00:01:57,840 --> 00:02:00,760
+most people who are doing them flop
+
+65
+00:01:59,680 --> 00:02:03,440
+because they didn't know how to make a
+
+66
+00:02:00,760 --> 00:02:04,960
+content first org before that. A social
+
+67
+00:02:03,440 --> 00:02:06,080
+show won't solve all your problems if
+
+68
+00:02:04,960 --> 00:02:08,200
+you don't know how to make great
+
+69
+00:02:06,080 --> 00:02:09,679
+content. It's just a tool that you have
+
+70
+00:02:08,200 --> 00:02:11,120
+once you do. And so everyone when they
+
+71
+00:02:09,679 --> 00:02:13,000
+think of brands that are also media
+
+72
+00:02:11,120 --> 00:02:14,480
+companies, they start with Red Bull. Red
+
+73
+00:02:13,000 --> 00:02:16,160
+Bull was the original masters of this.
+
+74
+00:02:14,480 --> 00:02:18,080
+And I do want to shout out, this is not
+
+75
+00:02:16,160 --> 00:02:20,640
+a new concept. Social media has changed
+
+76
+00:02:18,080 --> 00:02:22,160
+it, but Red Bull did this. Patagonia's
+
+77
+00:02:20,640 --> 00:02:24,280
+had documentaries and ripping that
+
+78
+00:02:22,160 --> 00:02:25,840
+forever. Salomon the same way, early on
+
+79
+00:02:24,280 --> 00:02:27,240
+YouTube and just dominated with it. I
+
+80
+00:02:25,840 --> 00:02:28,800
+remember Arc'teryx used to have a
+
+81
+00:02:27,240 --> 00:02:30,320
+massive explorer section of their
+
+82
+00:02:28,800 --> 00:02:32,200
+website with all these deep dive
+
+83
+00:02:30,320 --> 00:02:33,880
+documentaries, etc. that I would spend a
+
+84
+00:02:32,200 --> 00:02:36,080
+lot of time on. And this used to be a
+
+85
+00:02:33,880 --> 00:02:38,680
+advantage for those brands to stand out
+
+86
+00:02:36,080 --> 00:02:40,520
+in their niches, and now it is more of a
+
+87
+00:02:38,680 --> 00:02:42,240
+thought of how you have to compete if
+
+88
+00:02:40,520 --> 00:02:43,480
+you want to last in this era. So Red
+
+89
+00:02:42,240 --> 00:02:45,400
+Bull still does this today, right? Where
+
+90
+00:02:43,480 --> 00:02:47,080
+they basically replaced a certain type
+
+91
+00:02:45,400 --> 00:02:50,080
+of TV that no longer really exists, the
+
+92
+00:02:47,080 --> 00:02:52,000
+Tosh 2.0, the ridiculousness, the action
+
+93
+00:02:50,080 --> 00:02:53,560
+sports era. Now it just lives out on
+
+94
+00:02:52,000 --> 00:02:55,160
+their Instagram. They've adapted it to
+
+95
+00:02:53,560 --> 00:02:56,720
+be very good for social media. But I
+
+96
+00:02:55,160 --> 00:02:58,360
+want you to think there's a lot of ways
+
+97
+00:02:56,720 --> 00:03:00,040
+to accomplish this of all different
+
+98
+00:02:58,360 --> 00:03:01,400
+sizes. So one of my favorites is Rapha,
+
+99
+00:03:00,040 --> 00:03:02,320
+they're a cycling brand. So they're
+
+100
+00:03:01,400 --> 00:03:04,600
+interesting because they actually do
+
+101
+00:03:02,320 --> 00:03:06,160
+long-form cycling documentary. They do
+
+102
+00:03:04,600 --> 00:03:08,280
+their great social media content
+
+103
+00:03:06,160 --> 00:03:10,160
+including really artful, well-shot stuff
+
+104
+00:03:08,280 --> 00:03:11,760
+like this as well as kind of more
+
+105
+00:03:10,160 --> 00:03:13,040
+conceptual carousel-based stuff like
+
+106
+00:03:11,760 --> 00:03:15,120
+this. But they really focus on
+
+107
+00:03:13,040 --> 00:03:17,320
+documentary films and using their retail
+
+108
+00:03:15,120 --> 00:03:18,720
+locations, calling them clubhouses,
+
+109
+00:03:17,320 --> 00:03:20,600
+putting screens inside them and doing
+
+110
+00:03:18,720 --> 00:03:22,360
+screenings of these documentaries and
+
+111
+00:03:20,600 --> 00:03:24,000
+other films and participatory
+
+112
+00:03:22,360 --> 00:03:25,920
+experiential marketing within their
+
+113
+00:03:24,000 --> 00:03:28,000
+network of retail. So it became a hub
+
+114
+00:03:25,920 --> 00:03:29,920
+for cycling media. Now it also gave them
+
+115
+00:03:28,000 --> 00:03:31,600
+the ability to debut the media that they
+
+116
+00:03:29,920 --> 00:03:33,680
+were creating, this long-form stuff, in
+
+117
+00:03:31,600 --> 00:03:35,239
+a way that builds real community with
+
+118
+00:03:33,680 --> 00:03:36,280
+their active users. That's why I want to
+
+119
+00:03:35,239 --> 00:03:37,800
+call out that being a media company
+
+120
+00:03:36,280 --> 00:03:39,239
+doesn't always just involve putting out
+
+121
+00:03:37,800 --> 00:03:40,720
+tons and tons of TikToks. You can do
+
+122
+00:03:39,239 --> 00:03:42,320
+this in more refined ways as well. One
+
+123
+00:03:40,720 --> 00:03:43,360
+of my favorites is Flamingo Estate,
+
+124
+00:03:42,320 --> 00:03:44,720
+where they obviously have amazing
+
+125
+00:03:43,360 --> 00:03:46,400
+editorial content. If you go to their
+
+126
+00:03:44,720 --> 00:03:48,760
+website any given day, you see all this
+
+127
+00:03:46,400 --> 00:03:50,200
+beautiful photography and brand content.
+
+128
+00:03:48,760 --> 00:03:52,000
+They really care about the editorial
+
+129
+00:03:50,200 --> 00:03:54,360
+look and feel that they have. But they
+
+130
+00:03:52,000 --> 00:03:56,080
+also do this, I believe, weekly letter
+
+131
+00:03:54,360 --> 00:03:57,960
+from the garden from the founder where
+
+132
+00:03:56,080 --> 00:03:59,720
+he talks not just about the brand, but
+
+133
+00:03:57,960 --> 00:04:01,880
+about the experiences, the places he's
+
+134
+00:03:59,720 --> 00:04:03,200
+traveling. They curate boxes from around
+
+135
+00:04:01,880 --> 00:04:05,160
+the world, and he'll break down the
+
+136
+00:04:03,200 --> 00:04:07,520
+intricacies of them. It's a combination
+
+137
+00:04:05,160 --> 00:04:09,240
+of the editorial that happens on written
+
+138
+00:04:07,520 --> 00:04:10,360
+as well as what happens on social media.
+
+139
+00:04:09,240 --> 00:04:11,840
+And I love to look at this brand as an
+
+140
+00:04:10,360 --> 00:04:13,400
+example because I believe the backstory
+
+141
+00:04:11,840 --> 00:04:15,400
+of this was during COVID, the founder
+
+142
+00:04:13,400 --> 00:04:17,480
+ran an agency, and they wanted to focus
+
+143
+00:04:15,400 --> 00:04:19,480
+their efforts on a brand as work went
+
+144
+00:04:17,480 --> 00:04:21,519
+away. And they basically turned the
+
+145
+00:04:19,480 --> 00:04:23,240
+media that they produced as an agency
+
+146
+00:04:21,519 --> 00:04:24,800
+into the media team that worked on the
+
+147
+00:04:23,240 --> 00:04:26,440
+brand. So, a common example of a direct
+
+148
+00:04:24,800 --> 00:04:28,040
+transition into "Hey, we have all this
+
+149
+00:04:26,440 --> 00:04:29,760
+quality. We have this network of
+
+150
+00:04:28,040 --> 00:04:31,120
+creatives. Let's apply that to a really
+
+151
+00:04:29,760 --> 00:04:32,360
+amazing story." And then they centered
+
+152
+00:04:31,120 --> 00:04:34,240
+it around the location. The Ling Long
+
+153
+00:04:32,360 --> 00:04:36,320
+Estate is the story of this physical
+
+154
+00:04:34,240 --> 00:04:37,919
+estate. It gives it this amazing world
+
+155
+00:04:36,320 --> 00:04:39,560
+they can document. Tracksmith is another
+
+156
+00:04:37,919 --> 00:04:41,240
+one where they have stories, they have
+
+157
+00:04:39,560 --> 00:04:43,320
+documentary films, they have Meter
+
+158
+00:04:41,240 --> 00:04:44,520
+magazine, a physical issue that they do.
+
+159
+00:04:43,320 --> 00:04:46,400
+They have these documents of this
+
+160
+00:04:44,520 --> 00:04:47,720
+amateur running that they've done online
+
+161
+00:04:46,400 --> 00:04:49,360
+on social media. They'll publish
+
+162
+00:04:47,720 --> 00:04:51,200
+everything from gift guides. It's built
+
+163
+00:04:49,360 --> 00:04:53,160
+into their flow as a brand that's come
+
+164
+00:04:51,200 --> 00:04:55,200
+up. They're ideally aesthetic. And then
+
+165
+00:04:53,160 --> 00:04:56,680
+the storytelling in the written world,
+
+166
+00:04:55,200 --> 00:04:58,520
+in the documentary world, and in the
+
+167
+00:04:56,680 --> 00:05:00,280
+short form world is a core part of the
+
+168
+00:04:58,520 --> 00:05:01,440
+brand. Now, in more social native, one
+
+169
+00:05:00,280 --> 00:05:02,760
+of my favorites I've called out before
+
+170
+00:05:01,440 --> 00:05:04,200
+that's local to me is the Cheese Store
+
+171
+00:05:02,760 --> 00:05:05,720
+of Beverly Hills that my friend Greg
+
+172
+00:05:04,200 --> 00:05:06,919
+works on. And I love calling this out as
+
+173
+00:05:05,720 --> 00:05:08,320
+an example of a small business. They
+
+174
+00:05:06,919 --> 00:05:10,400
+have a retail store that has a
+
+175
+00:05:08,320 --> 00:05:12,200
+immaculate selection of cheese, and they
+
+176
+00:05:10,400 --> 00:05:13,960
+literally just have their employees
+
+177
+00:05:12,200 --> 00:05:16,040
+interacting with customers, getting a
+
+178
+00:05:13,960 --> 00:05:18,160
+gift, recommending different cheeses for
+
+179
+00:05:16,040 --> 00:05:20,000
+different styles, explaining what came
+
+180
+00:05:18,160 --> 00:05:22,160
+into the store with all the characters
+
+181
+00:05:20,000 --> 00:05:24,400
+throughout that. All shot on iPhone, all
+
+182
+00:05:22,160 --> 00:05:25,919
+straightforward in a constant stream of
+
+183
+00:05:24,400 --> 00:05:28,160
+every single day. This is one post a
+
+184
+00:05:25,919 --> 00:05:29,440
+day, a new story from the store in that
+
+185
+00:05:28,160 --> 00:05:30,840
+location. They're documenting the same
+
+186
+00:05:29,440 --> 00:05:32,120
+thing at a pop-up. So, I like to
+
+187
+00:05:30,840 --> 00:05:34,160
+highlight this as it's become a
+
+188
+00:05:32,120 --> 00:05:35,800
+content-focused org, right? You can
+
+189
+00:05:34,160 --> 00:05:37,480
+execute something like this by spending
+
+190
+00:05:35,800 --> 00:05:39,320
+one day a week documenting a bunch of
+
+191
+00:05:37,480 --> 00:05:41,120
+what actually happens in the physical
+
+192
+00:05:39,320 --> 00:05:42,840
+location with a videographer actually
+
+193
+00:05:41,120 --> 00:05:44,640
+working through that. Shoot it all on
+
+194
+00:05:42,840 --> 00:05:46,520
+iPhone, and you have a content-first
+
+195
+00:05:44,640 --> 00:05:48,320
+promotion machine that works on all
+
+196
+00:05:46,520 --> 00:05:50,360
+social media. This happens for orgs
+
+197
+00:05:48,320 --> 00:05:51,880
+without a team or a contractor, too. One
+
+198
+00:05:50,360 --> 00:05:53,760
+of the recurring guests that we have on
+
+199
+00:05:51,880 --> 00:05:55,240
+Cut 30 is Chunky Fit Cookie. So, the
+
+200
+00:05:53,760 --> 00:05:56,960
+founders have come on. What I love about
+
+201
+00:05:55,240 --> 00:05:58,680
+them is they'll have come on and given
+
+202
+00:05:56,960 --> 00:06:00,400
+talks to the people we have in inside
+
+203
+00:05:58,680 --> 00:06:01,680
+the Zooms at the high points and the low
+
+204
+00:06:00,400 --> 00:06:02,960
+points of content. They're solving it
+
+205
+00:06:01,680 --> 00:06:03,840
+like anybody else, but at a founder
+
+206
+00:06:02,960 --> 00:06:04,960
+level. They're saying, "Hey, our
+
+207
+00:06:03,840 --> 00:06:05,920
+content's flopping right now. Here's
+
+208
+00:06:04,960 --> 00:06:07,280
+what we're about to test. Oh, our
+
+209
+00:06:05,920 --> 00:06:08,560
+content's at a high. We're going viral.
+
+210
+00:06:07,280 --> 00:06:09,720
+Here's what worked." They live and
+
+211
+00:06:08,560 --> 00:06:11,280
+breathe this as much as they live and
+
+212
+00:06:09,720 --> 00:06:12,920
+breathe the recipes of their product.
+
+213
+00:06:11,280 --> 00:06:14,480
+And that's the core how to start with a
+
+214
+00:06:12,920 --> 00:06:16,120
+media team. We'll get into actual team
+
+215
+00:06:14,480 --> 00:06:18,320
+later. You'll see they are shooting
+
+216
+00:06:16,120 --> 00:06:20,360
+iPhone content constantly. Founders are
+
+217
+00:06:18,320 --> 00:06:21,720
+on camera. They're documenting inside
+
+218
+00:06:20,360 --> 00:06:23,560
+the commercial kitchen that they work
+
+219
+00:06:21,720 --> 00:06:24,919
+in. They found a couple viral things
+
+220
+00:06:23,560 --> 00:06:26,400
+that work for them. They're documenting
+
+221
+00:06:24,919 --> 00:06:28,480
+the journey that they have. And you'll
+
+222
+00:06:26,400 --> 00:06:30,280
+see a brand that starts with this at its
+
+223
+00:06:28,480 --> 00:06:31,720
+core when it's just two employees and
+
+224
+00:06:30,280 --> 00:06:33,080
+how that can build to when you're much
+
+225
+00:06:31,720 --> 00:06:35,520
+bigger. One of my favorite examples at
+
+226
+00:06:33,080 --> 00:06:37,040
+scale, probably heard me mention before,
+
+227
+00:06:35,520 --> 00:06:37,840
+is Ladder, the workout app. When I talk
+
+228
+00:06:37,040 --> 00:06:39,120
+about team, they're going to be a
+
+229
+00:06:37,840 --> 00:06:40,240
+perfect example of what I mean by this.
+
+230
+00:06:39,120 --> 00:06:41,919
+So, they have their own internal social
+
+231
+00:06:40,240 --> 00:06:43,680
+media team who are creating content on
+
+232
+00:06:41,919 --> 00:06:45,280
+main, but then also, they've all the
+
+233
+00:06:43,680 --> 00:06:46,720
+coaches that work in on their app, their
+
+234
+00:06:45,280 --> 00:06:48,560
+fitness app, who all work with the
+
+235
+00:06:46,720 --> 00:06:50,480
+brand. I believe there's 10 or 20 or
+
+236
+00:06:48,560 --> 00:06:51,720
+more, who create content on their own
+
+237
+00:06:50,480 --> 00:06:53,880
+that also promotes the app. And they're
+
+238
+00:06:51,720 --> 00:06:54,960
+interacting characters with this. And
+
+239
+00:06:53,880 --> 00:06:56,440
+this is interesting because basically
+
+240
+00:06:54,960 --> 00:06:57,800
+every representative of their brand is a
+
+241
+00:06:56,440 --> 00:06:59,400
+content creator of their own right. They
+
+242
+00:06:57,800 --> 00:07:01,000
+have to interact with the main account
+
+243
+00:06:59,400 --> 00:07:03,040
+and they're all working towards one goal
+
+244
+00:07:01,000 --> 00:07:04,360
+and actually sharing advice. I spoke at
+
+245
+00:07:03,040 --> 00:07:05,520
+one of their offsites, I believe a year
+
+246
+00:07:04,360 --> 00:07:07,800
+or two ago, cuz they were looking to
+
+247
+00:07:05,520 --> 00:07:09,280
+educate more of their content team about
+
+248
+00:07:07,800 --> 00:07:10,680
+different tactics and techniques. So,
+
+249
+00:07:09,280 --> 00:07:12,080
+not only are they working together, but
+
+250
+00:07:10,680 --> 00:07:13,400
+they're investing in bringing in outside
+
+251
+00:07:12,080 --> 00:07:14,800
+people to actually talk to them and
+
+252
+00:07:13,400 --> 00:07:16,400
+help. And I'm going to overwhelm you
+
+253
+00:07:14,800 --> 00:07:18,360
+with examples here because I want you to
+
+254
+00:07:16,400 --> 00:07:20,400
+understand that every size, every
+
+255
+00:07:18,360 --> 00:07:22,480
+industry, there is somebody doing this
+
+256
+00:07:20,400 --> 00:07:23,520
+and it is working. Rare form, number one
+
+257
+00:07:22,480 --> 00:07:24,800
+of my favorites, they're taking all the
+
+258
+00:07:23,520 --> 00:07:26,000
+stuff they sell. They're a curated
+
+259
+00:07:24,800 --> 00:07:27,760
+marketplace. This is such a good
+
+260
+00:07:26,000 --> 00:07:29,880
+strategy for anything like second-hand
+
+261
+00:07:27,760 --> 00:07:31,640
+or anyone who runs a store distribution
+
+262
+00:07:29,880 --> 00:07:34,080
+operation. Every big retailer,
+
+263
+00:07:31,640 --> 00:07:36,480
+Nordstrom, QuickTrip, 7-Eleven, like has
+
+264
+00:07:34,080 --> 00:07:37,760
+the best opportunity to act on stuff
+
+265
+00:07:36,480 --> 00:07:39,320
+like this. But Rare form will go break
+
+266
+00:07:37,760 --> 00:07:40,640
+down the history of the different pieces
+
+267
+00:07:39,320 --> 00:07:42,160
+of furniture that they have in house
+
+268
+00:07:40,640 --> 00:07:43,640
+with their team members in all of these
+
+269
+00:07:42,160 --> 00:07:45,600
+different ways. They have an infinite
+
+270
+00:07:43,640 --> 00:07:47,320
+library of their own products to go to
+
+271
+00:07:45,600 --> 00:07:49,000
+work from. And then perhaps the best who
+
+272
+00:07:47,320 --> 00:07:51,560
+I look at kind of the gold standard of
+
+273
+00:07:49,000 --> 00:07:53,280
+this is Represent. So Represent has done
+
+274
+00:07:51,560 --> 00:07:54,480
+this in long form and short form
+
+275
+00:07:53,280 --> 00:07:55,800
+excellently. So not only do they have
+
+276
+00:07:54,480 --> 00:07:57,320
+the Represent YouTube, George the
+
+277
+00:07:55,800 --> 00:08:00,000
+founder has his own YouTube, they have a
+
+278
+00:07:57,320 --> 00:08:01,200
+24/7 YouTube for their athletic side
+
+279
+00:08:00,000 --> 00:08:02,640
+where they've created the persona of the
+
+280
+00:08:01,200 --> 00:08:03,800
+brand and they're documenting it there.
+
+281
+00:08:02,640 --> 00:08:05,120
+They also created the persona of the
+
+282
+00:08:03,800 --> 00:08:06,760
+founders. Then you go to their actual
+
+283
+00:08:05,120 --> 00:08:08,600
+social media, you have the Represent
+
+284
+00:08:06,760 --> 00:08:10,800
+core social media, very kind of
+
+285
+00:08:08,600 --> 00:08:13,320
+straightforward clothing brand content
+
+286
+00:08:10,800 --> 00:08:14,360
+at a high level, lifestyle, lookbooks.
+
+287
+00:08:13,320 --> 00:08:16,360
+Then you have the founder content that's
+
+288
+00:08:14,360 --> 00:08:18,080
+a little more personable storytelling
+
+289
+00:08:16,360 --> 00:08:19,720
+showing both behind the scenes and all
+
+290
+00:08:18,080 --> 00:08:21,280
+the action that's arguably more
+
+291
+00:08:19,720 --> 00:08:22,840
+important than the core brand account.
+
+292
+00:08:21,280 --> 00:08:24,560
+And they're not just doing that from
+
+293
+00:08:22,840 --> 00:08:25,600
+George and the charismatic leader angle,
+
+294
+00:08:24,560 --> 00:08:26,960
+they're also doing it from his brother
+
+295
+00:08:25,600 --> 00:08:28,640
+Michael and the creative angle and the
+
+296
+00:08:26,960 --> 00:08:30,320
+design angle. So you get to see all of
+
+297
+00:08:28,640 --> 00:08:32,039
+that happen and the core account and
+
+298
+00:08:30,320 --> 00:08:33,919
+they are the embodiment themselves of
+
+299
+00:08:32,039 --> 00:08:35,120
+what the brand looks like. Multiply them
+
+300
+00:08:33,919 --> 00:08:37,000
+by all the other characters in their
+
+301
+00:08:35,120 --> 00:08:38,760
+story, the people that they sponsor. And
+
+302
+00:08:37,000 --> 00:08:39,840
+you'll see if you are on TikTok and you
+
+303
+00:08:38,760 --> 00:08:41,599
+interact with Represent, you're going to
+
+304
+00:08:39,840 --> 00:08:43,560
+get with an onslaught of sponsored
+
+305
+00:08:41,599 --> 00:08:45,800
+TikToks from them of creators of all
+
+306
+00:08:43,560 --> 00:08:46,960
+kinds, small to large, doing sponsored
+
+307
+00:08:45,800 --> 00:08:49,000
+fit checks that they're running through
+
+308
+00:08:46,960 --> 00:08:50,880
+Spark ads. This is a sophisticated media
+
+309
+00:08:49,000 --> 00:08:53,040
+system operating at the highest level on
+
+310
+00:08:50,880 --> 00:08:55,400
+short and long form on all networks,
+
+311
+00:08:53,040 --> 00:08:57,480
+personal brands, and core brand and what
+
+312
+00:08:55,400 --> 00:08:59,400
+a modern media company looks like. And
+
+313
+00:08:57,480 --> 00:09:01,080
+it takes a lot of planning and time and
+
+314
+00:08:59,400 --> 00:09:02,160
+dedication and obsession to execute at
+
+315
+00:09:01,080 --> 00:09:03,720
+that level. We're going to talk about
+
+316
+00:09:02,160 --> 00:09:05,560
+events at the end of this and I'll tack
+
+317
+00:09:03,720 --> 00:09:06,720
+on the Kosis and Merit and a few that do
+
+318
+00:09:05,560 --> 00:09:08,400
+well there. But I'm going to end with an
+
+319
+00:09:06,720 --> 00:09:10,400
+example for software and an example in
+
+320
+00:09:08,400 --> 00:09:12,000
+the agency world. So Cloudera changed
+
+321
+00:09:10,400 --> 00:09:13,560
+how everyone markets software. Cloudera
+
+322
+00:09:12,000 --> 00:09:15,360
+has done a number of different things in
+
+323
+00:09:13,560 --> 00:09:17,040
+terms of spinning out tons of accounts,
+
+324
+00:09:15,360 --> 00:09:18,000
+obviously the much talked about. They're
+
+325
+00:09:17,040 --> 00:09:19,520
+one of the examples of someone whose
+
+326
+00:09:18,000 --> 00:09:20,800
+marketing goes further than their
+
+327
+00:09:19,520 --> 00:09:22,720
+product, right? They don't have a
+
+328
+00:09:20,800 --> 00:09:24,240
+product anyone's buying, arguably a
+
+329
+00:09:22,720 --> 00:09:26,000
+product that works. Maybe they're doing
+
+330
+00:09:24,240 --> 00:09:27,240
+okay, but their content's incredible.
+
+331
+00:09:26,000 --> 00:09:28,640
+They built a machine that whenever they
+
+332
+00:09:27,240 --> 00:09:30,120
+do find that fit, they'll be able to
+
+333
+00:09:28,640 --> 00:09:31,680
+work into. And I see a hundred software
+
+334
+00:09:30,120 --> 00:09:33,040
+companies who are copying this and
+
+335
+00:09:31,680 --> 00:09:34,320
+there's a website for this Social Growth
+
+336
+00:09:33,040 --> 00:09:36,040
+Engineers that documents a lot of this
+
+337
+00:09:34,320 --> 00:09:39,080
+really well. They are going and creating
+
+338
+00:09:36,040 --> 00:09:40,720
+episodic funny content around the Clewly
+
+339
+00:09:39,080 --> 00:09:42,240
+world. And they're doing this again for
+
+340
+00:09:40,720 --> 00:09:43,640
+software. It's why I want everyone to
+
+341
+00:09:42,240 --> 00:09:45,400
+think there's there's no way this can't
+
+342
+00:09:43,640 --> 00:09:46,760
+work for whatever program you're on,
+
+343
+00:09:45,400 --> 00:09:48,480
+right? If you remember, I'm a recurring
+
+344
+00:09:46,760 --> 00:09:49,720
+face on the Cash App social media.
+
+345
+00:09:48,480 --> 00:09:51,480
+Whether you're in finance, whether
+
+346
+00:09:49,720 --> 00:09:53,040
+you're in software, it works. And the
+
+347
+00:09:51,480 --> 00:09:54,560
+last example I'll give before we dive
+
+348
+00:09:53,040 --> 00:09:55,840
+into the tactic side of this is on the
+
+349
+00:09:54,560 --> 00:09:58,080
+agency side. So, many of you are
+
+350
+00:09:55,840 --> 00:09:59,640
+familiar with Darkroom, who I've
+
+351
+00:09:58,080 --> 00:10:01,160
+interviewed their founder on this
+
+352
+00:09:59,640 --> 00:10:02,520
+channel in my Art of Advertising video.
+
+353
+00:10:01,160 --> 00:10:04,240
+So, they have a world of creators on
+
+354
+00:10:02,520 --> 00:10:06,160
+their account, too. So, you'll see Max
+
+355
+00:10:04,240 --> 00:10:08,200
+Nodet, Cut 30 Brad is a recurring
+
+356
+00:10:06,160 --> 00:10:10,400
+creator they have on there. 600K on this
+
+357
+00:10:08,200 --> 00:10:11,800
+video. Tatum, another Cut 30 creator,
+
+358
+00:10:10,400 --> 00:10:13,320
+has recurring content on there. They're
+
+359
+00:10:11,800 --> 00:10:15,360
+collaborating with people to help them
+
+360
+00:10:13,320 --> 00:10:17,000
+make media about the core niche. They
+
+361
+00:10:15,360 --> 00:10:18,480
+designed my carousels, and we collab
+
+362
+00:10:17,000 --> 00:10:19,720
+post on those carousels. So, I'm
+
+363
+00:10:18,480 --> 00:10:21,040
+basically if I do a carousel about the
+
+364
+00:10:19,720 --> 00:10:22,720
+art of the marketing campaign, they're a
+
+365
+00:10:21,040 --> 00:10:23,840
+collaborator on it. They're also gaining
+
+366
+00:10:22,720 --> 00:10:25,600
+the followers, someone who provides a
+
+367
+00:10:23,840 --> 00:10:27,200
+service inside this niche. So, they
+
+368
+00:10:25,600 --> 00:10:28,360
+decided to build the world around the
+
+369
+00:10:27,200 --> 00:10:30,000
+creator economy, which is something that
+
+370
+00:10:28,360 --> 00:10:31,120
+they believe in as an agency. And we'll
+
+371
+00:10:30,000 --> 00:10:32,840
+talk about this when we get to team.
+
+372
+00:10:31,120 --> 00:10:33,840
+But, finding an agency that understands
+
+373
+00:10:32,840 --> 00:10:35,320
+something like this, the way someone
+
+374
+00:10:33,840 --> 00:10:36,640
+like Darkroom does, that runs your paid,
+
+375
+00:10:35,320 --> 00:10:38,080
+that runs your email, that understands
+
+376
+00:10:36,640 --> 00:10:40,040
+the creator flywheel, that's the
+
+377
+00:10:38,080 --> 00:10:42,160
+storytelling, the media co-component,
+
+378
+00:10:40,040 --> 00:10:43,960
+and then can use those assets to make
+
+379
+00:10:42,160 --> 00:10:45,400
+you money is a core part of
+
+380
+00:10:43,960 --> 00:10:47,680
+understanding how this new marketing
+
+381
+00:10:45,400 --> 00:10:49,440
+world works, not just the actual content
+
+382
+00:10:47,680 --> 00:10:50,920
+creation. Anyway, now that we've walked
+
+383
+00:10:49,440 --> 00:10:53,000
+through a ton of the examples, I'm going
+
+384
+00:10:50,920 --> 00:10:54,640
+to explain the actual world of how all
+
+385
+00:10:53,000 --> 00:10:55,760
+this marketing works and ties together.
+
+386
+00:10:54,640 --> 00:10:57,200
+I'm going to go through what you need to
+
+387
+00:10:55,760 --> 00:10:58,560
+do it and the team that needs to create
+
+388
+00:10:57,200 --> 00:11:00,960
+it. And we're going to talk about goals
+
+389
+00:10:58,560 --> 00:11:03,280
+and anchors. First, let me explain the
+
+390
+00:11:00,960 --> 00:11:05,400
+world. So, every marketing org needs to
+
+391
+00:11:03,280 --> 00:11:07,280
+look at what they're doing like this.
+
+392
+00:11:05,400 --> 00:11:09,000
+You have your owned organics, your owned
+
+393
+00:11:07,280 --> 00:11:10,560
+social media organic accounts. Maybe you
+
+394
+00:11:09,000 --> 00:11:11,839
+have one Instagram, one TikTok, maybe
+
+395
+00:11:10,560 --> 00:11:13,200
+you have multiple, but that is the stuff
+
+396
+00:11:11,839 --> 00:11:15,360
+that you own and control. Then you need
+
+397
+00:11:13,200 --> 00:11:17,040
+to have your owned paid, ads that you
+
+398
+00:11:15,360 --> 00:11:18,960
+run, that you create assets for. So,
+
+399
+00:11:17,040 --> 00:11:20,440
+your content team that you have is
+
+400
+00:11:18,960 --> 00:11:22,040
+making content for your owned organic
+
+401
+00:11:20,440 --> 00:11:23,760
+and is making content for your paid ad
+
+402
+00:11:22,040 --> 00:11:25,040
+accounts, whether you're doing full TV
+
+403
+00:11:23,760 --> 00:11:26,560
+ads, whether you're doing ads just on
+
+404
+00:11:25,040 --> 00:11:28,720
+Meta or TikTok. Someone needs to be like
+
+405
+00:11:26,560 --> 00:11:30,160
+be creating that. And then that ideally
+
+406
+00:11:28,720 --> 00:11:31,920
+in this generation starts in-house.
+
+407
+00:11:30,160 --> 00:11:33,240
+Maybe you have external partners once
+
+408
+00:11:31,920 --> 00:11:34,320
+you have an in-house team. We'll explain
+
+409
+00:11:33,240 --> 00:11:35,680
+that in a minute. But then you have your
+
+410
+00:11:34,320 --> 00:11:37,000
+world, you have your organic world with
+
+411
+00:11:35,680 --> 00:11:38,240
+people outside of that. So for instance
+
+412
+00:11:37,000 --> 00:11:39,480
+in the Represent example, George and
+
+413
+00:11:38,240 --> 00:11:40,760
+Michael are extensions of the brand.
+
+414
+00:11:39,480 --> 00:11:42,040
+They're part of the brand world. Same
+
+415
+00:11:40,760 --> 00:11:43,640
+thing in the Dark Room example. So your
+
+416
+00:11:42,040 --> 00:11:45,160
+organic world begins to get pretty big
+
+417
+00:11:43,640 --> 00:11:46,640
+pretty fast. Many of you know the brand
+
+418
+00:11:45,160 --> 00:11:47,880
+I've worked with this last year, Morphe.
+
+419
+00:11:46,640 --> 00:11:49,480
+They have thousands of creators that are
+
+420
+00:11:47,880 --> 00:11:50,560
+being seated product all the time.
+
+421
+00:11:49,480 --> 00:11:52,000
+There's thousands of creators
+
+422
+00:11:50,560 --> 00:11:53,080
+participating in their brand world.
+
+423
+00:11:52,000 --> 00:11:54,440
+They're posting organically, they're
+
+424
+00:11:53,080 --> 00:11:55,840
+getting their content sparked, where
+
+425
+00:11:54,440 --> 00:11:57,920
+paid dollars are going behind it to get
+
+426
+00:11:55,840 --> 00:11:59,080
+it more reach. And then for any brand
+
+427
+00:11:57,920 --> 00:12:00,640
+that's smart about this, they're taking
+
+428
+00:11:59,080 --> 00:12:01,840
+content from that world and pulling it
+
+429
+00:12:00,640 --> 00:12:03,320
+into their ad account. They're
+
+430
+00:12:01,840 --> 00:12:04,920
+additional assets that they're spending
+
+431
+00:12:03,320 --> 00:12:06,640
+advertising dollars behind. If you
+
+432
+00:12:04,920 --> 00:12:08,080
+understand that core thing, you
+
+433
+00:12:06,640 --> 00:12:10,200
+understand how this new marketing world
+
+434
+00:12:08,080 --> 00:12:11,680
+works. Cuz the efficacy of this is so
+
+435
+00:12:10,200 --> 00:12:13,600
+much higher than basically any other
+
+436
+00:12:11,680 --> 00:12:15,600
+media buying that you can do. Creating a
+
+437
+00:12:13,600 --> 00:12:17,120
+flywheel for this is the marketing. And
+
+438
+00:12:15,600 --> 00:12:18,640
+then you have the conversion aspect of
+
+439
+00:12:17,120 --> 00:12:20,040
+that. What are the landing pages that
+
+440
+00:12:18,640 --> 00:12:21,800
+people go to, whether that's the product
+
+441
+00:12:20,040 --> 00:12:23,680
+detail pages or pages to sign up for a
+
+442
+00:12:21,800 --> 00:12:25,200
+call or get a free download, whatever it
+
+443
+00:12:23,680 --> 00:12:26,360
+is. How good are those pages? What are
+
+444
+00:12:25,200 --> 00:12:28,560
+its messaging? And then what is your
+
+445
+00:12:26,360 --> 00:12:29,760
+communications? Your email and your SMS
+
+446
+00:12:28,560 --> 00:12:31,360
+that go out. And how all this
+
+447
+00:12:29,760 --> 00:12:32,920
+intertwine? Do you have the same assets,
+
+448
+00:12:31,360 --> 00:12:34,800
+the same characters, the same media, the
+
+449
+00:12:32,920 --> 00:12:36,040
+same faces? How do you fill up your
+
+450
+00:12:34,800 --> 00:12:37,520
+email automation and your email
+
+451
+00:12:36,040 --> 00:12:39,720
+marketing with the content that you're
+
+452
+00:12:37,520 --> 00:12:41,960
+making inside the rest of that that I
+
+453
+00:12:39,720 --> 00:12:44,080
+just discussed? That is your marketing
+
+454
+00:12:41,960 --> 00:12:45,880
+world. And everything outside of that,
+
+455
+00:12:44,080 --> 00:12:48,040
+anything else you are considering doing,
+
+456
+00:12:45,880 --> 00:12:50,120
+trade shows, buying banner ads on
+
+457
+00:12:48,040 --> 00:12:52,480
+whatever, sponsorships, any of this,
+
+458
+00:12:50,120 --> 00:12:55,080
+forget any of that until this part is a
+
+459
+00:12:52,480 --> 00:12:57,040
+money-making machine. Cuz any industry
+
+460
+00:12:55,080 --> 00:12:59,440
+that you are in from a retail store to a
+
+461
+00:12:57,040 --> 00:13:02,040
+fashion brand to financial services to
+
+462
+00:12:59,440 --> 00:13:04,080
+legal, this is the flywheel that gets
+
+463
+00:13:02,040 --> 00:13:06,000
+you the most results for the least
+
+464
+00:13:04,080 --> 00:13:08,400
+dollars in a combo of organic and
+
+465
+00:13:06,000 --> 00:13:09,680
+advertising that is extremely scalable.
+
+466
+00:13:08,400 --> 00:13:11,440
+And once this is a money printing
+
+467
+00:13:09,680 --> 00:13:12,560
+machine for you, you can expand outside.
+
+468
+00:13:11,440 --> 00:13:13,720
+Now we're going to talk about the team
+
+469
+00:13:12,560 --> 00:13:15,800
+and what you need to get it together.
+
+470
+00:13:13,720 --> 00:13:17,240
+But first, if you're like me, you keep
+
+471
+00:13:15,800 --> 00:13:19,400
+reading and hearing about agentic
+
+472
+00:13:17,240 --> 00:13:21,200
+commerce. But what exactly is it and do
+
+473
+00:13:19,400 --> 00:13:23,160
+you need to care yet? Let me explain. So
+
+474
+00:13:21,200 --> 00:13:25,000
+right now most e-commerce stores are a
+
+475
+00:13:23,160 --> 00:13:26,680
+collection of static pages, product
+
+476
+00:13:25,000 --> 00:13:28,200
+detail pages, checkout, your homepage,
+
+477
+00:13:26,680 --> 00:13:29,440
+your cart. And the shopper does the work
+
+478
+00:13:28,200 --> 00:13:30,760
+navigating through all of this. They
+
+479
+00:13:29,440 --> 00:13:32,120
+read the reviews, they may even leave
+
+480
+00:13:30,760 --> 00:13:33,480
+the site as part of the experience to
+
+481
+00:13:32,120 --> 00:13:34,760
+find validation for what they want to
+
+482
+00:13:33,480 --> 00:13:35,800
+buy. The journey is the same whether
+
+483
+00:13:34,760 --> 00:13:37,200
+it's their first visit or their
+
+484
+00:13:35,800 --> 00:13:39,160
+hundredth visit. And the data that the
+
+485
+00:13:37,200 --> 00:13:40,960
+store captures and gives the brand owner
+
+486
+00:13:39,160 --> 00:13:43,160
+on the back end doesn't actually inform
+
+487
+00:13:40,960 --> 00:13:44,760
+their experience as they browse. Now, I
+
+488
+00:13:43,160 --> 00:13:46,320
+want to make it very clear that this is
+
+489
+00:13:44,760 --> 00:13:47,840
+absolutely changing. We all understand
+
+490
+00:13:46,320 --> 00:13:49,520
+that LLMs are a component of search
+
+491
+00:13:47,840 --> 00:13:51,440
+discovery now, so you can discover
+
+492
+00:13:49,520 --> 00:13:53,560
+products or get to a website from Claude
+
+493
+00:13:51,440 --> 00:13:55,000
+or ChatGPT the same way that you might
+
+494
+00:13:53,560 --> 00:13:56,960
+from Google search. But, that's not
+
+495
+00:13:55,000 --> 00:13:58,200
+enough. The idea of agentic commerce is
+
+496
+00:13:56,960 --> 00:14:00,240
+you're actually bringing that into your
+
+497
+00:13:58,200 --> 00:14:01,680
+store. This near future of e-commerce is
+
+498
+00:14:00,240 --> 00:14:03,320
+beginning to happen right now. What's
+
+499
+00:14:01,680 --> 00:14:04,520
+called agentic shopping is where people
+
+500
+00:14:03,320 --> 00:14:06,120
+are going to interact with the site that
+
+501
+00:14:04,520 --> 00:14:07,800
+knows their budget, knows their sizing,
+
+502
+00:14:06,120 --> 00:14:09,480
+what they've navigated on before. It's
+
+503
+00:14:07,800 --> 00:14:10,880
+able to change in real time as they
+
+504
+00:14:09,480 --> 00:14:12,720
+move, answer their questions, and
+
+505
+00:14:10,880 --> 00:14:14,120
+present options. Give real advice on
+
+506
+00:14:12,720 --> 00:14:15,440
+mixing and matching, what works for
+
+507
+00:14:14,120 --> 00:14:16,760
+their skin or their body type. There's
+
+508
+00:14:15,440 --> 00:14:18,640
+going to be a significant shift in how
+
+509
+00:14:16,760 --> 00:14:20,240
+people shop online. So, Swap, who I
+
+510
+00:14:18,640 --> 00:14:21,200
+partnered with on this video, is leading
+
+511
+00:14:20,240 --> 00:14:22,640
+the curve here. They're the first
+
+512
+00:14:21,200 --> 00:14:23,760
+agentic storefront company. They've
+
+513
+00:14:22,640 --> 00:14:26,440
+already partnered with Drake's,
+
+514
+00:14:23,760 --> 00:14:27,680
+Percival, Frankie Shop, Retrofet, Tala,
+
+515
+00:14:26,440 --> 00:14:29,440
+brand names you've heard me talk about
+
+516
+00:14:27,680 --> 00:14:31,000
+on this channel, and many more to begin
+
+517
+00:14:29,440 --> 00:14:32,560
+implementing this agentic layer in
+
+518
+00:14:31,000 --> 00:14:34,000
+addition to your standard e-commerce
+
+519
+00:14:32,560 --> 00:14:35,720
+store, just like a new channel. But,
+
+520
+00:14:34,000 --> 00:14:37,760
+what's most exciting is the stats of
+
+521
+00:14:35,720 --> 00:14:39,880
+what this leads to. 2x conversion rates
+
+522
+00:14:37,760 --> 00:14:41,640
+with the AI-guided storefront, 3x time
+
+523
+00:14:39,880 --> 00:14:43,480
+on site with deeper customer engagement,
+
+524
+00:14:41,640 --> 00:14:45,000
+up to 20% reduction in returns with
+
+525
+00:14:43,480 --> 00:14:46,240
+better fit guidance, and repeat
+
+526
+00:14:45,000 --> 00:14:47,600
+customers increasingly prefer the
+
+527
+00:14:46,240 --> 00:14:49,320
+agentic experience. This is just the
+
+528
+00:14:47,600 --> 00:14:51,040
+early results. There's an entire
+
+529
+00:14:49,320 --> 00:14:52,040
+ecosystem that's coming here. For
+
+530
+00:14:51,040 --> 00:14:53,120
+everyone watching this right now, my
+
+531
+00:14:52,040 --> 00:14:54,560
+main focus in this video is just
+
+532
+00:14:53,120 --> 00:14:56,160
+awareness. I want you to understand
+
+533
+00:14:54,560 --> 00:14:57,440
+what's coming. Go to the Swap site and
+
+534
+00:14:56,160 --> 00:14:58,680
+visit it. Look at some of the examples,
+
+535
+00:14:57,440 --> 00:15:00,360
+look at some of the products, some of
+
+536
+00:14:58,680 --> 00:15:01,320
+the customer stories, and just begin to
+
+537
+00:15:00,360 --> 00:15:02,800
+think about what that could mean for
+
+538
+00:15:01,320 --> 00:15:04,040
+your business and how you might build a
+
+539
+00:15:02,800 --> 00:15:05,760
+strategy on it. And people who make a
+
+540
+00:15:04,040 --> 00:15:06,880
+bet on this for their career or with
+
+541
+00:15:05,760 --> 00:15:08,120
+their brands may be able to see a
+
+542
+00:15:06,880 --> 00:15:09,880
+radical amount of growth. And
+
+543
+00:15:08,120 --> 00:15:11,120
+opportunities at this scale do not come
+
+544
+00:15:09,880 --> 00:15:12,600
+around very often. You can learn more
+
+545
+00:15:11,120 --> 00:15:13,800
+about Swap at the link in the
+
+546
+00:15:12,600 --> 00:15:15,839
+description. All right, so now we talked
+
+547
+00:15:13,800 --> 00:15:17,200
+about all the examples of who's running
+
+548
+00:15:15,839 --> 00:15:18,440
+their brand like a media company. We
+
+549
+00:15:17,200 --> 00:15:20,000
+talked a bit through what the world of
+
+550
+00:15:18,440 --> 00:15:21,839
+marketing looks like. Now, let's get
+
+551
+00:15:20,000 --> 00:15:23,080
+into what you need and what the team
+
+552
+00:15:21,839 --> 00:15:25,280
+looks like. What do I mean by what you
+
+553
+00:15:23,080 --> 00:15:26,800
+need? So, to make media, you need a few
+
+554
+00:15:25,280 --> 00:15:28,000
+things. There's actual editorial and
+
+555
+00:15:26,800 --> 00:15:29,480
+media concepts. It's not just about the
+
+556
+00:15:28,000 --> 00:15:31,280
+cameras and the shooting of it. You need
+
+557
+00:15:29,480 --> 00:15:32,760
+a point of view. What is your content
+
+558
+00:15:31,280 --> 00:15:34,640
+saying? Why is it different? What are
+
+559
+00:15:32,760 --> 00:15:36,160
+you saying to your customer beyond just
+
+560
+00:15:34,640 --> 00:15:37,920
+pushing the product? Are you selling
+
+561
+00:15:36,160 --> 00:15:40,120
+them on a lifestyle or a function or
+
+562
+00:15:37,920 --> 00:15:42,000
+humor or a key insight? You also need
+
+563
+00:15:40,120 --> 00:15:43,520
+patience. Testing through this level of
+
+564
+00:15:42,000 --> 00:15:45,360
+media isn't something where you go viral
+
+565
+00:15:43,520 --> 00:15:46,560
+right away. It takes repetition over
+
+566
+00:15:45,360 --> 00:15:47,960
+time. If you watch any of my videos
+
+567
+00:15:46,560 --> 00:15:49,400
+where I talk about creating a brand
+
+568
+00:15:47,960 --> 00:15:51,280
+social media from scratch and the pillar
+
+569
+00:15:49,400 --> 00:15:53,280
+system and refinement, you are 90 days
+
+570
+00:15:51,280 --> 00:15:55,160
+away from publishing four to five times
+
+571
+00:15:53,280 --> 00:15:56,880
+a week and getting into a groove based
+
+572
+00:15:55,160 --> 00:15:57,880
+on real metrics. You can dive into those
+
+573
+00:15:56,880 --> 00:15:59,200
+in those videos. And you need some
+
+574
+00:15:57,880 --> 00:16:00,440
+editorial standards. You need to be able
+
+575
+00:15:59,200 --> 00:16:02,480
+to say, "This is good enough." or "This
+
+576
+00:16:00,440 --> 00:16:03,480
+is not good enough." and why. And then
+
+577
+00:16:02,480 --> 00:16:04,760
+you need some process. You need the
+
+578
+00:16:03,480 --> 00:16:05,640
+characters your brand's going to talk
+
+579
+00:16:04,760 --> 00:16:07,240
+about. We're going to get to that in
+
+580
+00:16:05,640 --> 00:16:09,240
+team. And you need product dev and
+
+581
+00:16:07,240 --> 00:16:10,800
+content dev to work side by side. When
+
+582
+00:16:09,240 --> 00:16:12,080
+you're coming up with product, content
+
+583
+00:16:10,800 --> 00:16:13,440
+needs to be in the room. They need to be
+
+584
+00:16:12,080 --> 00:16:14,720
+documenting the process as it goes
+
+585
+00:16:13,440 --> 00:16:16,000
+along. You need to be thinking through
+
+586
+00:16:14,720 --> 00:16:17,120
+the future of your content in the same
+
+587
+00:16:16,000 --> 00:16:18,560
+way you're thinking through your product
+
+588
+00:16:17,120 --> 00:16:20,400
+roadmap. And the best orgs are going to
+
+589
+00:16:18,560 --> 00:16:21,680
+integrate these at the core level.
+
+590
+00:16:20,400 --> 00:16:23,040
+They're going to be side by side
+
+591
+00:16:21,680 --> 00:16:24,839
+throughout this process. So, what does
+
+592
+00:16:23,040 --> 00:16:26,000
+this team look like? So, the key person
+
+593
+00:16:24,839 --> 00:16:27,560
+here, the most important and one of the
+
+594
+00:16:26,000 --> 00:16:29,120
+hardest roles to hire right now, is the
+
+595
+00:16:27,560 --> 00:16:30,400
+head of growth. Some call it a head of
+
+596
+00:16:29,120 --> 00:16:31,839
+social. Sometimes it's a really
+
+597
+00:16:30,400 --> 00:16:33,560
+high-level creative strategist,
+
+598
+00:16:31,839 --> 00:16:35,400
+marketing director. It's basically this
+
+599
+00:16:33,560 --> 00:16:38,520
+director, senior-level role that's not a
+
+600
+00:16:35,400 --> 00:16:41,040
+CMO, but whose job is to pull that world
+
+601
+00:16:38,520 --> 00:16:43,720
+I described from conceptual idea into
+
+602
+00:16:41,040 --> 00:16:45,240
+reality, action by action, relentlessly
+
+603
+00:16:43,720 --> 00:16:47,000
+every single day. This is usually
+
+604
+00:16:45,240 --> 00:16:48,320
+supplemented by an agency that gets it.
+
+605
+00:16:47,000 --> 00:16:50,240
+Like I brought up Darkroom before, but
+
+606
+00:16:48,320 --> 00:16:51,960
+someone who is going to be able to make
+
+607
+00:16:50,240 --> 00:16:53,480
+the assets that your team can't, that's
+
+608
+00:16:51,960 --> 00:16:55,240
+able to run some of the email campaigns
+
+609
+00:16:53,480 --> 00:16:57,280
+or put together the ads, or you have
+
+610
+00:16:55,240 --> 00:16:59,040
+some level of media buying and standard
+
+611
+00:16:57,280 --> 00:17:00,680
+operational support in-house. But then
+
+612
+00:16:59,040 --> 00:17:02,040
+the content teams itself, everyone's
+
+613
+00:17:00,680 --> 00:17:03,480
+asking, "How do I hire those? How do I
+
+614
+00:17:02,040 --> 00:17:05,680
+structure those?" So, what I recommend
+
+615
+00:17:03,480 --> 00:17:06,920
+is doing this in pods. You can't ever
+
+616
+00:17:05,680 --> 00:17:08,800
+have one person that day. I have a
+
+617
+00:17:06,920 --> 00:17:10,199
+social media manager that does this is
+
+618
+00:17:08,800 --> 00:17:12,240
+no longer the way this works. It's
+
+619
+00:17:10,199 --> 00:17:14,079
+always at least a two-person group
+
+620
+00:17:12,240 --> 00:17:15,640
+inside one of these pods. So, one person
+
+621
+00:17:14,079 --> 00:17:17,280
+is always a social media
+
+622
+00:17:15,640 --> 00:17:18,520
+manager/strategist.
+
+623
+00:17:17,280 --> 00:17:20,520
+This is someone whose job is to make
+
+624
+00:17:18,520 --> 00:17:21,839
+briefs, put together shot lists, run the
+
+625
+00:17:20,520 --> 00:17:24,040
+analytics for the accounts, do the
+
+626
+00:17:21,839 --> 00:17:25,880
+actual posting, do coordination of when
+
+627
+00:17:24,040 --> 00:17:27,640
+shooting etc. is happening, and
+
+628
+00:17:25,880 --> 00:17:29,840
+communications between orgs and media
+
+629
+00:17:27,640 --> 00:17:31,920
+buyers, and doing ideation. This is what
+
+630
+00:17:29,840 --> 00:17:33,240
+I train inside of creative strategy, the
+
+631
+00:17:31,920 --> 00:17:35,000
+program I have that's like cut 30 but
+
+632
+00:17:33,240 --> 00:17:36,840
+for brand strategy, and this is what the
+
+633
+00:17:35,000 --> 00:17:38,440
+orgs need to basically be the brain of a
+
+634
+00:17:36,840 --> 00:17:40,280
+pod. So, what does the rest of the pod
+
+635
+00:17:38,440 --> 00:17:41,880
+look like? So, most often the next hire
+
+636
+00:17:40,280 --> 00:17:43,680
+is a creator, someone whose job is to
+
+637
+00:17:41,880 --> 00:17:44,720
+make content. They're also working on
+
+638
+00:17:43,680 --> 00:17:46,240
+ideation but then they're actually
+
+639
+00:17:44,720 --> 00:17:47,280
+recording and making content, whether
+
+640
+00:17:46,240 --> 00:17:48,640
+they're the face or they're just
+
+641
+00:17:47,280 --> 00:17:49,800
+shooting. And ideally they're editing
+
+642
+00:17:48,640 --> 00:17:51,640
+it, too, at the start. A lot of this is
+
+643
+00:17:49,800 --> 00:17:53,480
+being done in CapCut. You will see brand
+
+644
+00:17:51,640 --> 00:17:55,200
+after brand that has one really savvy
+
+645
+00:17:53,480 --> 00:17:56,760
+girl or guy who shoots an absolute ton
+
+646
+00:17:55,200 --> 00:17:58,440
+of content and does all the social media
+
+647
+00:17:56,760 --> 00:17:59,880
+edits for it. When you pair them with a
+
+648
+00:17:58,440 --> 00:18:01,440
+social media manager or a strategist and
+
+649
+00:17:59,880 --> 00:18:03,080
+don't ask them to pull the analytics,
+
+650
+00:18:01,440 --> 00:18:04,560
+attend a ton of meetings, have to brief
+
+651
+00:18:03,080 --> 00:18:06,280
+all kinds of stuff, and you separate
+
+652
+00:18:04,560 --> 00:18:07,680
+that right and left brain, is where this
+
+653
+00:18:06,280 --> 00:18:08,640
+really starts to hammer. Someone else is
+
+654
+00:18:07,680 --> 00:18:10,080
+responsible for a lot of the
+
+655
+00:18:08,640 --> 00:18:11,560
+organization, someone's responsible for
+
+656
+00:18:10,080 --> 00:18:13,440
+a ton of the creation, and they work
+
+657
+00:18:11,560 --> 00:18:15,280
+together. And that's the core of a pod.
+
+658
+00:18:13,440 --> 00:18:17,400
+But what's great about the pod system is
+
+659
+00:18:15,280 --> 00:18:18,760
+that creative strategist can manage more
+
+660
+00:18:17,400 --> 00:18:19,880
+than just that one creator. So,
+
+661
+00:18:18,760 --> 00:18:21,680
+typically you'll end up seeing these
+
+662
+00:18:19,880 --> 00:18:23,640
+pods look like an internal creator,
+
+663
+00:18:21,680 --> 00:18:25,320
+three to four external people. You can
+
+664
+00:18:23,640 --> 00:18:27,440
+pull them from like Many Social or Super
+
+665
+00:18:25,320 --> 00:18:29,000
+Affiliate, allows you to now go into the
+
+666
+00:18:27,440 --> 00:18:30,320
+Meta Creators and like search through
+
+667
+00:18:29,000 --> 00:18:32,400
+there. You're basically finding people
+
+668
+00:18:30,320 --> 00:18:34,000
+that contribute at a cost per video or a
+
+669
+00:18:32,400 --> 00:18:35,840
+monthly retainer basis that you're also
+
+670
+00:18:34,000 --> 00:18:37,520
+briefing and ideating on, and then using
+
+671
+00:18:35,840 --> 00:18:39,520
+that for your either organic socials or
+
+672
+00:18:37,520 --> 00:18:40,880
+your ads. Going back to that chart I had
+
+673
+00:18:39,520 --> 00:18:42,160
+of what your brand world looks like.
+
+674
+00:18:40,880 --> 00:18:43,680
+Another great way to pull people from
+
+675
+00:18:42,160 --> 00:18:44,600
+these externals is Outer Signal. If you
+
+676
+00:18:43,680 --> 00:18:46,160
+haven't seen Outer Signal, it's a
+
+677
+00:18:44,600 --> 00:18:47,560
+software I highly recommend. It actually
+
+678
+00:18:46,160 --> 00:18:48,680
+goes through your customer base, and
+
+679
+00:18:47,560 --> 00:18:49,760
+this is one of the things it does, but
+
+680
+00:18:48,680 --> 00:18:50,880
+it actually pulls all the people that
+
+681
+00:18:49,760 --> 00:18:52,600
+are influential who are your existing
+
+682
+00:18:50,880 --> 00:18:54,280
+customers. Who are great people to hit
+
+683
+00:18:52,600 --> 00:18:55,640
+up and offer to pay to make content cuz
+
+684
+00:18:54,280 --> 00:18:56,680
+they already get it. And so, that pod
+
+685
+00:18:55,640 --> 00:18:58,920
+will usually end up being that
+
+686
+00:18:56,680 --> 00:18:59,880
+strategist, we'll say one to five people
+
+687
+00:18:58,920 --> 00:19:01,560
+working under there that they can
+
+688
+00:18:59,880 --> 00:19:02,960
+actually take care of the briefing and
+
+689
+00:19:01,560 --> 00:19:04,800
+ideation and reporting from. Their
+
+690
+00:19:02,960 --> 00:19:06,440
+meeting cadence, one-on-ones with the
+
+691
+00:19:04,800 --> 00:19:08,480
+strategist and those people every single
+
+692
+00:19:06,440 --> 00:19:09,600
+week. Maximum one-on-ones you want any
+
+693
+00:19:08,480 --> 00:19:11,160
+one of your team members doing every
+
+694
+00:19:09,600 --> 00:19:12,320
+week is maybe five. Creative review,
+
+695
+00:19:11,160 --> 00:19:13,640
+where everyone sits down and goes
+
+696
+00:19:12,320 --> 00:19:15,360
+through the creative that's about to go
+
+697
+00:19:13,640 --> 00:19:17,280
+live. Feedbacks that works on the hooks,
+
+698
+00:19:15,360 --> 00:19:18,400
+etc. Analytics reviews where you pull
+
+699
+00:19:17,280 --> 00:19:19,440
+the analytics from the previous weeks
+
+700
+00:19:18,400 --> 00:19:20,800
+and you're looking at this week over
+
+701
+00:19:19,440 --> 00:19:22,160
+week, month over month. You have to be
+
+702
+00:19:20,800 --> 00:19:23,400
+doing this. Have to be running something
+
+703
+00:19:22,160 --> 00:19:25,160
+like the pillar system I've described
+
+704
+00:19:23,400 --> 00:19:26,320
+before. This is absolutely crucial to
+
+705
+00:19:25,160 --> 00:19:27,360
+success here. And the reason that
+
+706
+00:19:26,320 --> 00:19:29,160
+everyone that comes out of creative
+
+707
+00:19:27,360 --> 00:19:30,440
+strategy knows how to win is cuz they're
+
+708
+00:19:29,160 --> 00:19:31,840
+running analytics and then they're
+
+709
+00:19:30,440 --> 00:19:33,480
+running it with their creators. People
+
+710
+00:19:31,840 --> 00:19:34,920
+know what to improve and say in testing
+
+711
+00:19:33,480 --> 00:19:36,120
+and saying, "Yes, this worked. No, this
+
+712
+00:19:34,920 --> 00:19:37,600
+didn't." Research where everyone's
+
+713
+00:19:36,120 --> 00:19:38,840
+reviewing the links and ideation and
+
+714
+00:19:37,600 --> 00:19:40,360
+stuff that they have. And use some sort
+
+715
+00:19:38,840 --> 00:19:41,520
+of product management tool that ties it
+
+716
+00:19:40,360 --> 00:19:42,920
+together. It doesn't matter what it is
+
+717
+00:19:41,520 --> 00:19:44,240
+as long as you have it. I run a ton in
+
+718
+00:19:42,920 --> 00:19:45,800
+Notion. At Gel Blaster when we were
+
+719
+00:19:44,240 --> 00:19:48,440
+running an org like this, we did uh it
+
+720
+00:19:45,800 --> 00:19:49,920
+all in ClickUp. Monday, Asana, it truly
+
+721
+00:19:48,440 --> 00:19:51,640
+does not matter. You just need to have
+
+722
+00:19:49,920 --> 00:19:53,000
+the tool. At the end of every week, the
+
+723
+00:19:51,640 --> 00:19:54,120
+social media media manager or the
+
+724
+00:19:53,000 --> 00:19:55,000
+strategist goes through and they
+
+725
+00:19:54,120 --> 00:19:56,360
+actually go through, "Okay, what did
+
+726
+00:19:55,000 --> 00:19:57,800
+every creator do? What are all the
+
+727
+00:19:56,360 --> 00:19:59,440
+assets that came out? What is on our
+
+728
+00:19:57,800 --> 00:20:01,440
+schedule for next week?" And they recap
+
+729
+00:19:59,440 --> 00:20:02,800
+that to their team and to management.
+
+730
+00:20:01,440 --> 00:20:04,280
+Everyone understands what's happening in
+
+731
+00:20:02,800 --> 00:20:05,520
+the media company side of this. That's
+
+732
+00:20:04,280 --> 00:20:06,480
+when you begin to get a machine. And
+
+733
+00:20:05,520 --> 00:20:08,040
+what's beautiful is you then get
+
+734
+00:20:06,480 --> 00:20:09,520
+multiple pods. You will see the smart
+
+735
+00:20:08,040 --> 00:20:11,280
+org start to have multiple of these. You
+
+736
+00:20:09,520 --> 00:20:12,840
+have their strategist or their manager,
+
+737
+00:20:11,280 --> 00:20:14,080
+have a couple people them creating
+
+738
+00:20:12,840 --> 00:20:15,240
+content they're getting briefed into and
+
+739
+00:20:14,080 --> 00:20:17,320
+reporting on. And all of a sudden you
+
+740
+00:20:15,240 --> 00:20:18,640
+might spin a second one up for TikTok.
+
+741
+00:20:17,320 --> 00:20:20,040
+Or hey, we're going to do the founder
+
+742
+00:20:18,640 --> 00:20:21,280
+content, right? There's a videographer
+
+743
+00:20:20,040 --> 00:20:22,600
+that follows the founder around. There's
+
+744
+00:20:21,280 --> 00:20:23,960
+someone that's helping strategize that.
+
+745
+00:20:22,600 --> 00:20:25,080
+There's an editor that works on it. All
+
+746
+00:20:23,960 --> 00:20:26,440
+of a sudden you're going to put a pod
+
+747
+00:20:25,080 --> 00:20:28,320
+together in that combination of
+
+748
+00:20:26,440 --> 00:20:29,920
+creators, outside creators, editors,
+
+749
+00:20:28,320 --> 00:20:31,800
+shooters, whoever can put together a
+
+750
+00:20:29,920 --> 00:20:33,280
+particular size of media around this.
+
+751
+00:20:31,800 --> 00:20:34,960
+And once you start to get multiple pods,
+
+752
+00:20:33,280 --> 00:20:36,400
+you may begin to have shared resources.
+
+753
+00:20:34,960 --> 00:20:38,720
+You can look at your marketing org as
+
+754
+00:20:36,400 --> 00:20:39,840
+pod, pod, shared resources. Editors
+
+755
+00:20:38,720 --> 00:20:41,280
+become a shared resource cuz they can
+
+756
+00:20:39,840 --> 00:20:42,840
+work across everything that you have.
+
+757
+00:20:41,280 --> 00:20:43,920
+Designers become a shared resource.
+
+758
+00:20:42,840 --> 00:20:45,120
+Someone needs to brief them. You can be
+
+759
+00:20:43,920 --> 00:20:46,160
+hiring people off contract for this.
+
+760
+00:20:45,120 --> 00:20:47,520
+We're hiring more designers than ever
+
+761
+00:20:46,160 --> 00:20:49,240
+off of there. None of these mentions I
+
+762
+00:20:47,520 --> 00:20:50,480
+have of software are affiliate or
+
+763
+00:20:49,240 --> 00:20:51,960
+anything like that. I'm just mentioning
+
+764
+00:20:50,480 --> 00:20:52,920
+the stuff we actually use. Production,
+
+765
+00:20:51,960 --> 00:20:54,600
+you end up getting a producer who's
+
+766
+00:20:52,920 --> 00:20:56,520
+working on the objects and the settings
+
+767
+00:20:54,600 --> 00:20:58,120
+and the booking of places and things. A
+
+768
+00:20:56,520 --> 00:20:59,720
+lot of times it can simply happen at the
+
+769
+00:20:58,120 --> 00:21:01,000
+pod level, but as you begin to become a
+
+770
+00:20:59,720 --> 00:21:02,360
+bigger org, it may be worth having
+
+771
+00:21:01,000 --> 00:21:03,400
+someone dedicated to that. This is what
+
+772
+00:21:02,360 --> 00:21:05,560
+you'll see when you start getting into
+
+773
+00:21:03,400 --> 00:21:06,800
+20-person teams. Then you want leads.
+
+774
+00:21:05,560 --> 00:21:08,000
+Someone leading e-com related
+
+775
+00:21:06,800 --> 00:21:09,200
+repurposing. Hey, all these pods are
+
+776
+00:21:08,000 --> 00:21:10,640
+making all this content. I want to make
+
+777
+00:21:09,200 --> 00:21:12,160
+sure everything being generated and
+
+778
+00:21:10,640 --> 00:21:13,560
+seeding and influencer and all these
+
+779
+00:21:12,160 --> 00:21:15,000
+different other aspects of the org are
+
+780
+00:21:13,560 --> 00:21:16,520
+all going back into content. Someone who
+
+781
+00:21:15,000 --> 00:21:17,720
+leads channel comms. Hey, I want to make
+
+782
+00:21:16,520 --> 00:21:19,320
+sure our marketing is supporting all of
+
+783
+00:21:17,720 --> 00:21:20,800
+our channel partners. I'm communicating
+
+784
+00:21:19,320 --> 00:21:22,160
+all the things our marketing is doing to
+
+785
+00:21:20,800 --> 00:21:23,520
+those channel partners and the people we
+
+786
+00:21:22,160 --> 00:21:25,360
+sell with. And eventually you land up
+
+787
+00:21:23,520 --> 00:21:27,520
+with actual creative director or someone
+
+788
+00:21:25,360 --> 00:21:28,960
+who has a vision for what all this looks
+
+789
+00:21:27,520 --> 00:21:30,560
+like. Can help coach the creative
+
+790
+00:21:28,960 --> 00:21:32,320
+strategist. Can help put a comprehensive
+
+791
+00:21:30,560 --> 00:21:33,920
+vision and standards into place. Has an
+
+792
+00:21:32,320 --> 00:21:35,040
+extremely hard job to find the right
+
+793
+00:21:33,920 --> 00:21:36,200
+people for. And that's what the team
+
+794
+00:21:35,040 --> 00:21:37,480
+looks like. And it complements your
+
+795
+00:21:36,200 --> 00:21:39,200
+traditional marketing org you may have.
+
+796
+00:21:37,480 --> 00:21:40,960
+A media buyer you may have an e-commerce
+
+797
+00:21:39,200 --> 00:21:42,400
+operations person. May have an email.
+
+798
+00:21:40,960 --> 00:21:44,120
+May have an influencer marketing person
+
+799
+00:21:42,400 --> 00:21:46,120
+or any of those going out to an agency.
+
+800
+00:21:44,120 --> 00:21:47,680
+Complemented by this media pod system.
+
+801
+00:21:46,120 --> 00:21:49,120
+So, what do you actually ask them to do
+
+802
+00:21:47,680 --> 00:21:50,800
+every week? Let's get into goals. Your
+
+803
+00:21:49,120 --> 00:21:52,280
+goals, net new creative in the ad
+
+804
+00:21:50,800 --> 00:21:53,880
+account. You want new ads that are
+
+805
+00:21:52,280 --> 00:21:55,320
+published every single week. I say a
+
+806
+00:21:53,880 --> 00:21:57,560
+good goal for a pod, even if it's two
+
+807
+00:21:55,320 --> 00:21:59,520
+people, is 10 really strong concepts a
+
+808
+00:21:57,560 --> 00:22:01,200
+week in the ad account or on organic
+
+809
+00:21:59,520 --> 00:22:02,720
+social. It's also worth it when you get
+
+810
+00:22:01,200 --> 00:22:04,800
+off from beyond those first two people
+
+811
+00:22:02,720 --> 00:22:06,080
+to have a unique concept to your team
+
+812
+00:22:04,800 --> 00:22:07,160
+with traction. The way we saw Cheese
+
+813
+00:22:06,080 --> 00:22:08,680
+Store Beverly Hills, there's a couple
+
+814
+00:22:07,160 --> 00:22:10,360
+really unique things that they show. You
+
+815
+00:22:08,680 --> 00:22:12,240
+want a unique repeatable thing. Your
+
+816
+00:22:10,360 --> 00:22:14,000
+goal should be to get your team trying
+
+817
+00:22:12,240 --> 00:22:15,520
+that and basically trying new ideas at
+
+818
+00:22:14,000 --> 00:22:17,040
+that until they lock it in. A social
+
+819
+00:22:15,520 --> 00:22:18,600
+show, a founder series, whatever it is.
+
+820
+00:22:17,040 --> 00:22:20,280
+And you're going to test into something
+
+821
+00:22:18,600 --> 00:22:22,080
+like that. Basically, like a film. You
+
+822
+00:22:20,280 --> 00:22:23,760
+try a pilot. You four to six test
+
+823
+00:22:22,080 --> 00:22:25,200
+episodes of something and you iterate on
+
+824
+00:22:23,760 --> 00:22:26,600
+it to improve it. You'll see wildly
+
+825
+00:22:25,200 --> 00:22:27,960
+different amounts of creative depending
+
+826
+00:22:26,600 --> 00:22:28,960
+on what the brand of the org is like.
+
+827
+00:22:27,960 --> 00:22:30,360
+Some people will be doing hundreds of
+
+828
+00:22:28,960 --> 00:22:31,560
+ads. Some people will be doing a handful
+
+829
+00:22:30,360 --> 00:22:33,200
+of really strong ones. But a good
+
+830
+00:22:31,560 --> 00:22:35,000
+starting point is 10 unique assets.
+
+831
+00:22:33,200 --> 00:22:36,320
+Let's just say five in the ad account.
+
+832
+00:22:35,000 --> 00:22:37,680
+Five that are going on organic of which
+
+833
+00:22:36,320 --> 00:22:39,360
+some are also repurposed in the ad
+
+834
+00:22:37,680 --> 00:22:40,440
+account is an excellent place to start.
+
+835
+00:22:39,360 --> 00:22:41,840
+And you'll end up seeing orgs that do
+
+836
+00:22:40,440 --> 00:22:43,440
+far more. And then last, what are the
+
+837
+00:22:41,840 --> 00:22:44,520
+anchors? How do we build the rest of our
+
+838
+00:22:43,440 --> 00:22:46,160
+world around this? What makes this
+
+839
+00:22:44,520 --> 00:22:47,680
+unique or what makes this work? So, fame
+
+840
+00:22:46,160 --> 00:22:49,240
+is always helpful. A celebrity, anyone
+
+841
+00:22:47,680 --> 00:22:50,520
+you can work in on that. Influence is
+
+842
+00:22:49,240 --> 00:22:51,880
+another one. You'll be able to tie an
+
+843
+00:22:50,520 --> 00:22:53,280
+influencer into this at any level. The
+
+844
+00:22:51,880 --> 00:22:55,480
+way AllSaints has done their recurring
+
+845
+00:22:53,280 --> 00:22:56,840
+series with a really famous influencer
+
+846
+00:22:55,480 --> 00:22:58,280
+in their niche and he anchors some of
+
+847
+00:22:56,840 --> 00:22:59,880
+the content they have on organic. If you
+
+848
+00:22:58,280 --> 00:23:01,040
+have an amazing story that you're able
+
+849
+00:22:59,880 --> 00:23:02,240
+to tell. If you have different
+
+850
+00:23:01,040 --> 00:23:04,120
+production elements, the way we have a
+
+851
+00:23:02,240 --> 00:23:05,160
+set, the spaces you have. Like Chunky
+
+852
+00:23:04,120 --> 00:23:06,920
+Fit was filming inside of this
+
+853
+00:23:05,160 --> 00:23:08,560
+commercial kitchen tells a certain story
+
+854
+00:23:06,920 --> 00:23:09,800
+for the brand. I love to call it F Zonal
+
+855
+00:23:08,560 --> 00:23:11,800
+where he's basically showing his house
+
+856
+00:23:09,800 --> 00:23:14,000
+and his lab and his personal collection
+
+857
+00:23:11,800 --> 00:23:15,680
+of fragrances is a big key part of the
+
+858
+00:23:14,000 --> 00:23:17,360
+story of that brand on social media. And
+
+859
+00:23:15,680 --> 00:23:18,480
+then events, a brand I love to call out
+
+860
+00:23:17,360 --> 00:23:20,200
+is doing real great world building
+
+861
+00:23:18,480 --> 00:23:21,280
+around events is Kosas. Kosas is a great
+
+862
+00:23:20,200 --> 00:23:22,400
+example of this. They have core social
+
+863
+00:23:21,280 --> 00:23:23,640
+media, they have their influencers,
+
+864
+00:23:22,400 --> 00:23:25,160
+their founder has developed social
+
+865
+00:23:23,640 --> 00:23:26,520
+media, she didn't start as an influencer
+
+866
+00:23:25,160 --> 00:23:27,920
+and does it really well and tells a
+
+867
+00:23:26,520 --> 00:23:29,440
+certain side of the brand in a
+
+868
+00:23:27,920 --> 00:23:30,400
+compelling way. And then they do brand
+
+869
+00:23:29,440 --> 00:23:31,560
+trips. They have this whole thing,
+
+870
+00:23:30,400 --> 00:23:32,360
+"We're going to get influencers out
+
+871
+00:23:31,560 --> 00:23:34,160
+there, we're going to create this
+
+872
+00:23:32,360 --> 00:23:35,480
+cultural moment that's unique to us."
+
+873
+00:23:34,160 --> 00:23:37,000
+And it's not like a huge brand like
+
+874
+00:23:35,480 --> 00:23:38,320
+Tarte doing that, it's an upstart brand
+
+875
+00:23:37,000 --> 00:23:39,800
+that's gotten somewhere. Merit is
+
+876
+00:23:38,320 --> 00:23:41,280
+another great example of this where
+
+877
+00:23:39,800 --> 00:23:43,080
+they're doing these like smart little
+
+878
+00:23:41,280 --> 00:23:45,000
+activations like they had they're doing
+
+879
+00:23:43,080 --> 00:23:46,600
+editor deliveries on branded Vespas
+
+880
+00:23:45,000 --> 00:23:48,480
+during Paris Fashion Week. An excellent
+
+881
+00:23:46,600 --> 00:23:50,800
+example of those branded Vespas and
+
+882
+00:23:48,480 --> 00:23:52,440
+delivery drivers is not a 100K
+
+883
+00:23:50,800 --> 00:23:53,760
+investment, right? Significantly less
+
+884
+00:23:52,440 --> 00:23:55,120
+than that and they're documenting it for
+
+885
+00:23:53,760 --> 00:23:56,560
+content and they're getting the actual
+
+886
+00:23:55,120 --> 00:23:58,200
+use out of it. And I'm going to end on
+
+887
+00:23:56,560 --> 00:23:59,680
+gear because I just went through this
+
+888
+00:23:58,200 --> 00:24:01,440
+exercise where people are recommending
+
+889
+00:23:59,680 --> 00:24:02,680
+like buying this ridiculous equipment to
+
+890
+00:24:01,440 --> 00:24:04,280
+do this stuff and how many people you
+
+891
+00:24:02,680 --> 00:24:05,400
+need to have on set. And I cannot
+
+892
+00:24:04,280 --> 00:24:07,400
+emphasize enough that you can do this
+
+893
+00:24:05,400 --> 00:24:09,440
+with an iPhone, an Osmo, and some decent
+
+894
+00:24:07,400 --> 00:24:11,560
+lights. Amaran 300s from filming this
+
+895
+00:24:09,440 --> 00:24:13,280
+on. If you do need something, a Nikon Z8
+
+896
+00:24:11,560 --> 00:24:15,160
+or an FX3, if the Arris are coming out
+
+897
+00:24:13,280 --> 00:24:17,840
+or people want Reds, you're going too
+
+898
+00:24:15,160 --> 00:24:19,920
+far. Stop. Use that money elsewhere.
+
+899
+00:24:17,840 --> 00:24:21,840
+Give your team gear and an excuse to
+
+900
+00:24:19,920 --> 00:24:24,120
+learn. This is the social media era. The
+
+901
+00:24:21,840 --> 00:24:26,320
+emphasis has to be on workflow, speed,
+
+902
+00:24:24,120 --> 00:24:27,320
+speed of in-camera to usage. You can cut
+
+903
+00:24:26,320 --> 00:24:29,080
+down editing cuz you're actually
+
+904
+00:24:27,320 --> 00:24:30,200
+shooting. You're not even shooting log,
+
+905
+00:24:29,080 --> 00:24:32,480
+you're shooting with color that's just
+
+906
+00:24:30,200 --> 00:24:34,920
+going to go right to social anyway. Fast
+
+907
+00:24:32,480 --> 00:24:36,880
+editing. Workflow is everything.
+
+908
+00:24:34,920 --> 00:24:38,640
+Optimize for that. But anytime you have
+
+909
+00:24:36,880 --> 00:24:39,960
+like a sound specific person, there's
+
+910
+00:24:38,640 --> 00:24:41,680
+more than two to three people on the
+
+911
+00:24:39,960 --> 00:24:43,880
+shoot team, anything with those hours
+
+912
+00:24:41,680 --> 00:24:45,920
+doing color, you are losing. It is not
+
+913
+00:24:43,880 --> 00:24:47,160
+that era. I cannot encourage you enough
+
+914
+00:24:45,920 --> 00:24:48,880
+to be focusing on this in a different
+
+915
+00:24:47,160 --> 00:24:50,280
+way. So like I mentioned, I am doing a
+
+916
+00:24:48,880 --> 00:24:51,640
+community call where I'm going to answer
+
+917
+00:24:50,280 --> 00:24:53,440
+all of your questions around this. You
+
+918
+00:24:51,640 --> 00:24:54,760
+can hop on here it is the 24th, it will
+
+919
+00:24:53,440 --> 00:24:56,360
+be recorded and we're going to do
+
+920
+00:24:54,760 --> 00:24:57,880
+basically Q&A around building these
+
+921
+00:24:56,360 --> 00:24:59,360
+modern teams and thinking through this
+
+922
+00:24:57,880 --> 00:25:00,680
+world. Anyone that comes to that too,
+
+923
+00:24:59,360 --> 00:25:02,480
+we're going to summarize all of what we
+
+924
+00:25:00,680 --> 00:25:04,280
+have here in a PDF, all the examples,
+
+925
+00:25:02,480 --> 00:25:06,480
+all the tactics, all the charts. You can
+
+926
+00:25:04,280 --> 00:25:07,760
+sign up for that a link below. Next week
+
+927
+00:25:06,480 --> 00:25:09,320
+a bunch of my Japan content is going to
+
+928
+00:25:07,760 --> 00:25:10,240
+start coming out. So I'm super excited
+
+929
+00:25:09,320 --> 00:25:11,360
+for that and for you to check out a
+
+930
+00:25:10,240 --> 00:25:12,800
+bunch of what's happened there. If you
+
+931
+00:25:11,360 --> 00:25:13,880
+have questions about this, drop them
+
+932
+00:25:12,800 --> 00:25:15,680
+because I'm going to hit a bunch of them
+
+933
+00:25:13,880 --> 00:25:19,280
+in the webinar. And as [music] always,
+
+934
+00:25:15,680 --> 00:25:19,280
+thank you so much for watching.
+

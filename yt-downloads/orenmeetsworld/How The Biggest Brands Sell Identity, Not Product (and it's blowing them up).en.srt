@@ -1,0 +1,2692 @@
+1
+00:00:00,000 --> 00:00:03,320
+Today we are going to talk about the
+
+2
+00:00:01,400 --> 00:00:05,040
+identity marketing playbook. Thank you
+
+3
+00:00:03,320 --> 00:00:06,480
+to HubSpot for sponsoring this video.
+
+4
+00:00:05,040 --> 00:00:08,400
+You may have noticed if you walk into a
+
+5
+00:00:06,480 --> 00:00:10,480
+new environment or a new job, people
+
+6
+00:00:08,400 --> 00:00:11,960
+gravitate together. One of the easiest
+
+7
+00:00:10,480 --> 00:00:13,640
+ways they recognize who they might be
+
+8
+00:00:11,960 --> 00:00:15,920
+friends with is by the products they
+
+9
+00:00:13,640 --> 00:00:17,600
+use. Say you started a new job, you're a
+
+10
+00:00:15,920 --> 00:00:19,080
+sneakerhead and you recognize somebody
+
+11
+00:00:17,600 --> 00:00:20,840
+else wearing whatever cursed pair of
+
+12
+00:00:19,080 --> 00:00:23,080
+Travis Scott's or perhaps someone with
+
+13
+00:00:20,840 --> 00:00:24,720
+the road lip gloss phone case. It's an
+
+14
+00:00:23,080 --> 00:00:26,000
+easy question to ask about one about
+
+15
+00:00:24,720 --> 00:00:27,640
+sneakers, another one if they're going
+
+16
+00:00:26,000 --> 00:00:29,600
+to Pilates later. In a world where our
+
+17
+00:00:27,640 --> 00:00:31,720
+relationships are continually online,
+
+18
+00:00:29,600 --> 00:00:33,600
+products become a signaller. We all know
+
+19
+00:00:31,720 --> 00:00:35,480
+that brands signal identity. But growing
+
+20
+00:00:33,600 --> 00:00:37,040
+up, brands used to use identity as one
+
+21
+00:00:35,480 --> 00:00:39,440
+tool in their sales toolkit. Now it's
+
+22
+00:00:37,040 --> 00:00:40,880
+become one of the primary tools, a core
+
+23
+00:00:39,440 --> 00:00:42,280
+piece of marketing. So in this video,
+
+24
+00:00:40,880 --> 00:00:44,200
+I'm going to go through what happened,
+
+25
+00:00:42,280 --> 00:00:46,120
+how the modern world has got us here and
+
+26
+00:00:44,200 --> 00:00:47,600
+the idea of the loneliness economy and
+
+27
+00:00:46,120 --> 00:00:48,760
+how brands participated in it whether
+
+28
+00:00:47,600 --> 00:00:50,080
+they planned to or not. We're going to
+
+29
+00:00:48,760 --> 00:00:52,160
+talk about the transition of how brands
+
+30
+00:00:50,080 --> 00:00:53,880
+are now facilitators for experiences in
+
+31
+00:00:52,160 --> 00:00:55,160
+life that culture has left behind. We're
+
+32
+00:00:53,880 --> 00:00:56,680
+going to talk about early adopters of
+
+33
+00:00:55,160 --> 00:00:58,480
+this playbook, go a bit into the Stussy
+
+34
+00:00:56,680 --> 00:01:00,080
+and brands like that who defined
+
+35
+00:00:58,480 --> 00:01:01,640
+identity as part of brand on their own
+
+36
+00:01:00,080 --> 00:01:03,520
+terms. And I'm going to go into how to
+
+37
+00:01:01,640 --> 00:01:05,519
+think about identity in terms of any
+
+38
+00:01:03,520 --> 00:01:06,840
+brand you represent or work for or
+
+39
+00:01:05,519 --> 00:01:09,080
+anything you consume. We're going to
+
+40
+00:01:06,840 --> 00:01:11,320
+talk about personas, signature designs,
+
+41
+00:01:09,080 --> 00:01:12,960
+different archetypes of consumers, what
+
+42
+00:01:11,320 --> 00:01:14,320
+type of identity they're playing into.
+
+43
+00:01:12,960 --> 00:01:16,320
+Then we're going to end with identity
+
+44
+00:01:14,320 --> 00:01:18,040
+beyond affiliation around things that we
+
+45
+00:01:16,320 --> 00:01:19,760
+all want to be and aspire to and how
+
+46
+00:01:18,040 --> 00:01:20,760
+brands positively can help solve that.
+
+47
+00:01:19,760 --> 00:01:23,000
+If you've ever been interested in the
+
+48
+00:01:20,760 --> 00:01:24,960
+psychology of why we buy or how culture
+
+49
+00:01:23,000 --> 00:01:26,280
+is changing and sort of driving us apart
+
+50
+00:01:24,960 --> 00:01:27,920
+and the role brands play in connecting
+
+51
+00:01:26,280 --> 00:01:30,600
+us back together, this is the video for
+
+52
+00:01:27,920 --> 00:01:32,280
+you. Let's lock in. So I am on my way to
+
+53
+00:01:30,600 --> 00:01:33,680
+Cannes Lions, the advertising and
+
+54
+00:01:32,280 --> 00:01:35,600
+marketing film festival where I will be
+
+55
+00:01:33,680 --> 00:01:37,320
+all week in a villa with a bunch of
+
+56
+00:01:35,600 --> 00:01:38,800
+other creators making a lot of content.
+
+57
+00:01:37,320 --> 00:01:42,000
+And one of the panels that I am giving
+
+58
+00:01:38,800 --> 00:01:43,440
+is about how advertising and organic
+
+59
+00:01:42,000 --> 00:01:45,280
+content like you see on social media
+
+60
+00:01:43,440 --> 00:01:46,720
+have started to become one in the same.
+
+61
+00:01:45,280 --> 00:01:48,520
+They're more similar than ever. The Venn
+
+62
+00:01:46,720 --> 00:01:50,240
+diagram doesn't have a small overlap in
+
+63
+00:01:48,520 --> 00:01:51,680
+the middle, the vesica piscis has grown
+
+64
+00:01:50,240 --> 00:01:52,920
+a lot bigger. And in preparing that
+
+65
+00:01:51,680 --> 00:01:54,840
+talk, it got me thinking a lot about how
+
+66
+00:01:52,920 --> 00:01:56,840
+do we actually get here where what we
+
+67
+00:01:54,840 --> 00:01:58,200
+consume for fun and consume for ads is
+
+68
+00:01:56,840 --> 00:01:59,880
+basically the same. If you'll be in the
+
+69
+00:01:58,200 --> 00:02:01,400
+South of France this week, I'll link
+
+70
+00:01:59,880 --> 00:02:02,920
+some of the events down below. But
+
+71
+00:02:01,400 --> 00:02:05,520
+diving into it, it started with this
+
+72
+00:02:02,920 --> 00:02:08,119
+idea of loneliness. The modern world has
+
+73
+00:02:05,520 --> 00:02:09,800
+made us alone, and then made us justify
+
+74
+00:02:08,119 --> 00:02:11,200
+that feeling of being alone and consume
+
+75
+00:02:09,800 --> 00:02:13,000
+around it. So you see things like the
+
+76
+00:02:11,200 --> 00:02:14,400
+solo trip economy. Don't wait for your
+
+77
+00:02:13,000 --> 00:02:16,560
+friends to go travel the world.
+
+78
+00:02:14,400 --> 00:02:18,400
+Restaurants redesigning to allow for
+
+79
+00:02:16,560 --> 00:02:20,360
+more single person dining. Products you
+
+80
+00:02:18,400 --> 00:02:21,840
+can buy as a signal to help you attract
+
+81
+00:02:20,360 --> 00:02:23,520
+other people. Now many people will say
+
+82
+00:02:21,840 --> 00:02:25,440
+there's a difference between being alone
+
+83
+00:02:23,520 --> 00:02:27,959
+and being lonely, but more people spend
+
+84
+00:02:25,440 --> 00:02:30,040
+more time not around other people than
+
+85
+00:02:27,959 --> 00:02:31,840
+ever in history, which is not an innate
+
+86
+00:02:30,040 --> 00:02:33,400
+human experience. And so we
+
+87
+00:02:31,840 --> 00:02:34,920
+subconsciously, no matter what we
+
+88
+00:02:33,400 --> 00:02:36,000
+believe our culture has taught us to
+
+89
+00:02:34,920 --> 00:02:37,440
+believe, will always want those
+
+90
+00:02:36,000 --> 00:02:38,600
+experiences to bring us back to each
+
+91
+00:02:37,440 --> 00:02:40,480
+other, and we'll connect around the
+
+92
+00:02:38,600 --> 00:02:42,240
+things we have. One of those big shifts
+
+93
+00:02:40,480 --> 00:02:43,600
+is this idea of third spaces going away.
+
+94
+00:02:42,240 --> 00:02:45,920
+The fact that people would all go hang
+
+95
+00:02:43,600 --> 00:02:47,800
+out at a bar, or a bowling alley, or a
+
+96
+00:02:45,920 --> 00:02:49,200
+Knights of Columbus, or whatever it is.
+
+97
+00:02:47,800 --> 00:02:50,480
+You used to have those places they would
+
+98
+00:02:49,200 --> 00:02:52,120
+share with each other, where they would
+
+99
+00:02:50,480 --> 00:02:53,720
+be able to congregate and make friends
+
+100
+00:02:52,120 --> 00:02:55,440
+and have a locality. We have less of
+
+101
+00:02:53,720 --> 00:02:57,120
+those than we did before. And the ones
+
+102
+00:02:55,440 --> 00:02:59,120
+we do have are all kind of built around
+
+103
+00:02:57,120 --> 00:03:01,080
+consumption. The line for matcha,
+
+104
+00:02:59,120 --> 00:03:03,720
+whatever it is. And that's shifted a lot
+
+105
+00:03:01,080 --> 00:03:05,519
+to experiences. Because we don't have
+
+106
+00:03:03,720 --> 00:03:07,280
+those same third places, we gravitate
+
+107
+00:03:05,519 --> 00:03:09,160
+towards everyone getting ready and going
+
+108
+00:03:07,280 --> 00:03:11,720
+to the festival season together. The
+
+109
+00:03:09,160 --> 00:03:13,720
+event, waiting in line New York. The big
+
+110
+00:03:11,720 --> 00:03:15,400
+experiences of the run club. It's funny,
+
+111
+00:03:13,720 --> 00:03:17,560
+of my friends who are still single, and
+
+112
+00:03:15,400 --> 00:03:19,000
+I was married young compared to a lot of
+
+113
+00:03:17,560 --> 00:03:21,040
+my friend group, four [snorts] of the
+
+114
+00:03:19,000 --> 00:03:22,920
+six of my boys who are still single all
+
+115
+00:03:21,040 --> 00:03:25,160
+met their recent girlfriends in run
+
+116
+00:03:22,920 --> 00:03:26,720
+clubs or like workout related activity.
+
+117
+00:03:25,160 --> 00:03:28,160
+That is now one of these congregations,
+
+118
+00:03:26,720 --> 00:03:29,920
+and their events all the ones near me
+
+119
+00:03:28,160 --> 00:03:31,519
+are put on by brands. A lot of them
+
+120
+00:03:29,920 --> 00:03:32,959
+start just as congregations and build
+
+121
+00:03:31,519 --> 00:03:34,640
+brands on top of that, or are run by
+
+122
+00:03:32,959 --> 00:03:36,080
+influencers. This is all slightly
+
+123
+00:03:34,640 --> 00:03:38,040
+related to commerce. And none of this is
+
+124
+00:03:36,080 --> 00:03:39,440
+bad, it's just a shift we have. But
+
+125
+00:03:38,040 --> 00:03:41,160
+what's gotten interesting is brands now
+
+126
+00:03:39,440 --> 00:03:43,400
+have double duty. They serve both as
+
+127
+00:03:41,160 --> 00:03:45,160
+products and connection points. Because
+
+128
+00:03:43,400 --> 00:03:47,160
+we associate so much of our identity in
+
+129
+00:03:45,160 --> 00:03:48,440
+what we buy, which again, is not a bad
+
+130
+00:03:47,160 --> 00:03:50,080
+thing. People can argue against that,
+
+131
+00:03:48,440 --> 00:03:51,519
+but it's one of the consumable things we
+
+132
+00:03:50,080 --> 00:03:53,320
+do. It's something that we as human
+
+133
+00:03:51,519 --> 00:03:55,120
+beings, we buy things, we make decisions
+
+134
+00:03:53,320 --> 00:03:56,480
+about it, we're proud of it, we justify
+
+135
+00:03:55,120 --> 00:03:58,360
+it. It's part of our lives. It gives us
+
+136
+00:03:56,480 --> 00:03:59,440
+an opportunity to reflect ourselves. And
+
+137
+00:03:58,360 --> 00:04:00,760
+brands are dragged into this whether
+
+138
+00:03:59,440 --> 00:04:03,040
+they want to or not. If you have a
+
+139
+00:04:00,760 --> 00:04:04,080
+Stanley or an Owala, it says a specific
+
+140
+00:04:03,040 --> 00:04:06,080
+thing about you. If you have the
+
+141
+00:04:04,080 --> 00:04:08,560
+specific workout set of the moment, if
+
+142
+00:04:06,080 --> 00:04:10,400
+you have a Represent 24/7 pair of pants
+
+143
+00:04:08,560 --> 00:04:12,520
+or shirt with a big logo on it, the
+
+144
+00:04:10,400 --> 00:04:14,040
+Outdoor Voices sorority dress, other
+
+145
+00:04:12,520 --> 00:04:15,520
+people who know what that is,
+
+146
+00:04:14,040 --> 00:04:16,799
+acknowledge it and represent it and they
+
+147
+00:04:15,520 --> 00:04:18,519
+think it's a good thing and they like to
+
+148
+00:04:16,799 --> 00:04:20,440
+meet other people that are into those
+
+149
+00:04:18,519 --> 00:04:22,080
+similar things. It is a connection point
+
+150
+00:04:20,440 --> 00:04:23,880
+established through our experiences. And
+
+151
+00:04:22,080 --> 00:04:24,960
+this is exaggerated by algorithms. Now,
+
+152
+00:04:23,880 --> 00:04:26,520
+I'll talk about the pre-algorithm
+
+153
+00:04:24,960 --> 00:04:27,400
+version of this in Stussy in a sec. So,
+
+154
+00:04:26,520 --> 00:04:28,560
+first, if you want to take what we're
+
+155
+00:04:27,400 --> 00:04:30,280
+talking about, actually apply it to
+
+156
+00:04:28,560 --> 00:04:31,960
+really tactical marketing, I would take
+
+157
+00:04:30,280 --> 00:04:33,160
+insights, like all the stuff you see in
+
+158
+00:04:31,960 --> 00:04:34,080
+this video, any of these videos you've
+
+159
+00:04:33,160 --> 00:04:35,480
+watched from me, and take them right
+
+160
+00:04:34,080 --> 00:04:36,880
+into your ad account in Meta. And
+
+161
+00:04:35,480 --> 00:04:39,000
+HubSpot's put together an excellent
+
+162
+00:04:36,880 --> 00:04:40,600
+download, the 20 highest converting Meta
+
+163
+00:04:39,000 --> 00:04:41,720
+ad swipe file, that can help get you
+
+164
+00:04:40,600 --> 00:04:43,840
+started. So, the difference between like
+
+165
+00:04:41,720 --> 00:04:45,520
+a $10 cost per action and a $40 cost per
+
+166
+00:04:43,840 --> 00:04:46,840
+action is usually one of three things in
+
+167
+00:04:45,520 --> 00:04:48,320
+an ad. It's your hook, how you're
+
+168
+00:04:46,840 --> 00:04:49,600
+reeling people in, it's the offer, what
+
+169
+00:04:48,320 --> 00:04:51,880
+you're actually selling, and then the
+
+170
+00:04:49,600 --> 00:04:52,960
+structure of the copy, the idea, the
+
+171
+00:04:51,880 --> 00:04:54,280
+script. And if you don't have a
+
+172
+00:04:52,960 --> 00:04:55,600
+reference point for what works, you risk
+
+173
+00:04:54,280 --> 00:04:56,960
+you starting from scratch each time.
+
+174
+00:04:55,600 --> 00:04:58,840
+That's where Ben Heath comes in from
+
+175
+00:04:56,960 --> 00:05:00,840
+Heath Media. He's managed over 300
+
+176
+00:04:58,840 --> 00:05:02,560
+million in ad spend, generated 1.2
+
+177
+00:05:00,840 --> 00:05:04,280
+billion in client revenue. And HubSpot's
+
+178
+00:05:02,560 --> 00:05:06,040
+put together a free swipe file of his 20
+
+179
+00:05:04,280 --> 00:05:07,520
+top performing ads. These are frameworks
+
+180
+00:05:06,040 --> 00:05:09,400
+that are built out by business type,
+
+181
+00:05:07,520 --> 00:05:11,120
+covered e-commerce, local, lead gen,
+
+182
+00:05:09,400 --> 00:05:13,360
+SaaS. They have hooks, they have body
+
+183
+00:05:11,120 --> 00:05:14,880
+copy, and CTAs you can adapt to your
+
+184
+00:05:13,360 --> 00:05:17,240
+offer in minutes. You can take things
+
+185
+00:05:14,880 --> 00:05:18,640
+like identity, personas, and put them
+
+186
+00:05:17,240 --> 00:05:20,240
+into these frameworks. The part I like
+
+187
+00:05:18,640 --> 00:05:21,440
+most is how the guide shows you how to
+
+188
+00:05:20,240 --> 00:05:23,360
+make these your own ads. You know, just
+
+189
+00:05:21,440 --> 00:05:25,200
+copy willy-nilly. There's an structural
+
+190
+00:05:23,360 --> 00:05:26,160
+logic behind what makes it work. So, if
+
+191
+00:05:25,200 --> 00:05:27,560
+you're running Meta ads or you're
+
+192
+00:05:26,160 --> 00:05:28,919
+briefing someone that is, this is a
+
+193
+00:05:27,560 --> 00:05:30,240
+reference doc you want to open before
+
+194
+00:05:28,919 --> 00:05:31,760
+you start. Link is in the description,
+
+195
+00:05:30,240 --> 00:05:33,280
+it's free, and thank you to HubSpot for
+
+196
+00:05:31,760 --> 00:05:35,960
+sponsoring this video. Cuz now
+
+197
+00:05:33,280 --> 00:05:38,160
+algorithms are very much driven towards
+
+198
+00:05:35,960 --> 00:05:39,919
+people performing for the same gender.
+
+199
+00:05:38,160 --> 00:05:42,080
+We talked about this in my boy marketing
+
+200
+00:05:39,919 --> 00:05:43,560
+versus girl marketing algorithm video.
+
+201
+00:05:42,080 --> 00:05:45,800
+But right now, more so than ever in
+
+202
+00:05:43,560 --> 00:05:47,520
+history, guys do things to impress guys,
+
+203
+00:05:45,800 --> 00:05:49,040
+girls do things to impress girls. One of
+
+204
+00:05:47,520 --> 00:05:50,680
+the big viral things that was on the
+
+205
+00:05:49,040 --> 00:05:53,240
+internet the other week was all these
+
+206
+00:05:50,680 --> 00:05:55,440
+street interview TikTokers asking girls
+
+207
+00:05:53,240 --> 00:05:57,120
+what the preferred arm size of guys is.
+
+208
+00:05:55,440 --> 00:05:58,640
+And this is a topic I talk about a lot
+
+209
+00:05:57,120 --> 00:06:00,160
+cuz I work a lot in in health and
+
+210
+00:05:58,640 --> 00:06:01,320
+wellness and you've seen a lot of videos
+
+211
+00:06:00,160 --> 00:06:02,400
+I have where I have peptides and stuff
+
+212
+00:06:01,320 --> 00:06:04,040
+like that. Where guys have been
+
+213
+00:06:02,400 --> 00:06:05,800
+basically trained by performance for
+
+214
+00:06:04,040 --> 00:06:07,840
+other guys to over lift, to engineer
+
+215
+00:06:05,800 --> 00:06:09,400
+themselves to a body type that isn't
+
+216
+00:06:07,840 --> 00:06:10,840
+actually appealing to the opposite sex.
+
+217
+00:06:09,400 --> 00:06:12,000
+It's been done by these performative
+
+218
+00:06:10,840 --> 00:06:13,200
+algorithms. And the same thing's
+
+219
+00:06:12,000 --> 00:06:14,840
+happened to women in completely other
+
+220
+00:06:13,200 --> 00:06:16,720
+ways on the other side. Cuz there's less
+
+221
+00:06:14,840 --> 00:06:18,280
+overlap than ever. And so they end up in
+
+222
+00:06:16,720 --> 00:06:19,880
+communities and with clothes and with
+
+223
+00:06:18,280 --> 00:06:21,440
+activities that only signal to their
+
+224
+00:06:19,880 --> 00:06:22,680
+existing gender. We've been performing
+
+225
+00:06:21,440 --> 00:06:24,880
+in a very different way than we did
+
+226
+00:06:22,680 --> 00:06:26,040
+before and then the actual products
+
+227
+00:06:24,880 --> 00:06:27,320
+shift and adapt to that. And what we
+
+228
+00:06:26,040 --> 00:06:29,040
+talked about in that video that ended up
+
+229
+00:06:27,320 --> 00:06:31,280
+was a brands have to have different
+
+230
+00:06:29,040 --> 00:06:32,960
+marketing strategies. Hugely different
+
+231
+00:06:31,280 --> 00:06:34,200
+to reach those two demographics. You
+
+232
+00:06:32,960 --> 00:06:36,200
+can't hit them with the same
+
+233
+00:06:34,200 --> 00:06:38,240
+advertisement even if you sell to a wide
+
+234
+00:06:36,200 --> 00:06:39,960
+base. And I actually look at in a world
+
+235
+00:06:38,240 --> 00:06:41,640
+where algorithms have taken over a lot
+
+236
+00:06:39,960 --> 00:06:44,040
+of how we communicate and shown true
+
+237
+00:06:41,640 --> 00:06:45,480
+desires in weird ways, brands serving as
+
+238
+00:06:44,040 --> 00:06:47,320
+facilitators as connectors, as
+
+239
+00:06:45,480 --> 00:06:49,080
+representations of our identities, and
+
+240
+00:06:47,320 --> 00:06:50,600
+ability to go meet somebody is a good
+
+241
+00:06:49,080 --> 00:06:52,200
+thing. And it also gives if you work in
+
+242
+00:06:50,600 --> 00:06:53,880
+marketing the ability to understand and
+
+243
+00:06:52,200 --> 00:06:55,440
+more nuance communicate your value
+
+244
+00:06:53,880 --> 00:06:56,760
+proposition to other people. So going
+
+245
+00:06:55,440 --> 00:06:58,600
+into identity marketing, I want to call
+
+246
+00:06:56,760 --> 00:06:59,960
+out the early hitter here, which was
+
+247
+00:06:58,600 --> 00:07:01,800
+Stussy. I've done a whole video on
+
+248
+00:06:59,960 --> 00:07:03,400
+Stussy's art direction, but they were
+
+249
+00:07:01,800 --> 00:07:06,080
+one of the original streetwear brands
+
+250
+00:07:03,400 --> 00:07:07,320
+that was hyper focused on who you are as
+
+251
+00:07:06,080 --> 00:07:08,840
+someone they decided. You could talk
+
+252
+00:07:07,320 --> 00:07:10,919
+about Polo Ralph Lauren as a kind of
+
+253
+00:07:08,840 --> 00:07:12,720
+interesting other case where they made
+
+254
+00:07:10,919 --> 00:07:14,160
+the products for certain demographics
+
+255
+00:07:12,720 --> 00:07:15,840
+and it was co-opted by people around the
+
+256
+00:07:14,160 --> 00:07:17,840
+city. The whole the low life movement,
+
+257
+00:07:15,840 --> 00:07:19,440
+etc. People began to form the brand into
+
+258
+00:07:17,840 --> 00:07:21,040
+their own identity, whatever they wanted
+
+259
+00:07:19,440 --> 00:07:22,800
+it to be. It grew beyond what the brand
+
+260
+00:07:21,040 --> 00:07:24,720
+wanted. Whereas Stussy was surgical.
+
+261
+00:07:22,800 --> 00:07:26,160
+They introduced the Stussy tribe, people
+
+262
+00:07:24,720 --> 00:07:27,760
+that represented them, friend groups,
+
+263
+00:07:26,160 --> 00:07:29,280
+not necessarily famous people or always
+
+264
+00:07:27,760 --> 00:07:30,720
+pros. Had a lot of overlap with pro
+
+265
+00:07:29,280 --> 00:07:32,520
+athletes and musicians, but also just a
+
+266
+00:07:30,720 --> 00:07:34,080
+lot of people, designers, creatives,
+
+267
+00:07:32,520 --> 00:07:35,680
+interesting people in the world. They
+
+268
+00:07:34,080 --> 00:07:37,720
+put chapters in different cities. They
+
+269
+00:07:35,680 --> 00:07:39,400
+facilitated connection between cool and
+
+270
+00:07:37,720 --> 00:07:40,880
+interesting people. Their lookbooks were
+
+271
+00:07:39,400 --> 00:07:42,160
+what we now call the homie lookbook.
+
+272
+00:07:40,880 --> 00:07:43,640
+Where it's your friends and members of
+
+273
+00:07:42,160 --> 00:07:45,440
+your community versus traditional
+
+274
+00:07:43,640 --> 00:07:47,000
+models. So, them taking that idea,
+
+275
+00:07:45,440 --> 00:07:48,640
+multiplying it by the locations and the
+
+276
+00:07:47,000 --> 00:07:50,280
+chapters, has been adopted by a lot of
+
+277
+00:07:48,640 --> 00:07:51,640
+people. This is why you see storefronts
+
+278
+00:07:50,280 --> 00:07:54,080
+early. That location had a huge
+
+279
+00:07:51,640 --> 00:07:55,840
+presence. When I was in the UK and I did
+
+280
+00:07:54,080 --> 00:07:56,960
+the video with about Blank, you may have
+
+281
+00:07:55,840 --> 00:07:58,080
+seen, they were talking about how the
+
+282
+00:07:56,960 --> 00:07:59,880
+London pop-ups were kind of a
+
+283
+00:07:58,080 --> 00:08:01,560
+relentlessly part of their part of their
+
+284
+00:07:59,880 --> 00:08:03,640
+growth. They began to realize that those
+
+285
+00:08:01,560 --> 00:08:04,920
+experiences and and house music and a
+
+286
+00:08:03,640 --> 00:08:06,360
+few of the kind of connection points
+
+287
+00:08:04,920 --> 00:08:07,480
+they had there were actually bigger than
+
+288
+00:08:06,360 --> 00:08:09,000
+just the brand itself. They were
+
+289
+00:08:07,480 --> 00:08:10,760
+bringing people together and they're
+
+290
+00:08:09,000 --> 00:08:12,360
+able to grow legs beyond your kind of
+
+291
+00:08:10,760 --> 00:08:13,760
+typical one-to-one advertising
+
+292
+00:08:12,360 --> 00:08:15,480
+connection and there's a power in that.
+
+293
+00:08:13,760 --> 00:08:16,560
+But then also influence draws people in,
+
+294
+00:08:15,480 --> 00:08:17,960
+right? Yeah, that's a multiplier. And
+
+295
+00:08:16,560 --> 00:08:19,760
+Stussy had that right, too. Very They're
+
+296
+00:08:17,960 --> 00:08:22,040
+picking the right influential people in
+
+297
+00:08:19,760 --> 00:08:23,520
+skate, in surf, in music. Not
+
+298
+00:08:22,040 --> 00:08:24,960
+necessarily the biggest, but the ones
+
+299
+00:08:23,520 --> 00:08:25,960
+that would fit into their existing
+
+300
+00:08:24,960 --> 00:08:27,720
+community. That you would feel an
+
+301
+00:08:25,960 --> 00:08:29,240
+identity because you knew about. And
+
+302
+00:08:27,720 --> 00:08:31,280
+then they adapt that with lookbooks and
+
+303
+00:08:29,240 --> 00:08:32,680
+content that shows that lifestyle
+
+304
+00:08:31,280 --> 00:08:34,159
+visually. And you still see that to
+
+305
+00:08:32,680 --> 00:08:36,200
+today, right? Where a lot of their
+
+306
+00:08:34,159 --> 00:08:37,520
+campaigns today are shot around where I
+
+307
+00:08:36,200 --> 00:08:39,880
+am in California. They shot with a lot
+
+308
+00:08:37,520 --> 00:08:41,200
+of specific cars and specific looks and
+
+309
+00:08:39,880 --> 00:08:43,039
+people that look and feel like your
+
+310
+00:08:41,200 --> 00:08:44,360
+friends, not like some other models. At
+
+311
+00:08:43,039 --> 00:08:45,520
+least for me as someone squarely in
+
+312
+00:08:44,360 --> 00:08:47,360
+their target demographic. And this has
+
+313
+00:08:45,520 --> 00:08:48,880
+been adapted in a million ways. Rod took
+
+314
+00:08:47,360 --> 00:08:50,560
+that idea of the lookbook and basically
+
+315
+00:08:48,880 --> 00:08:51,800
+made an aspirational identity version.
+
+316
+00:08:50,560 --> 00:08:53,320
+They would do emails where they have a
+
+317
+00:08:51,800 --> 00:08:54,760
+night out with one of their models and
+
+318
+00:08:53,320 --> 00:08:56,600
+they would show the espresso martini
+
+319
+00:08:54,760 --> 00:08:57,960
+with the lip gloss next to it and the
+
+320
+00:08:56,600 --> 00:09:00,160
+club that they were going to to be a
+
+321
+00:08:57,960 --> 00:09:02,200
+profile of an individual person. A woman
+
+322
+00:09:00,160 --> 00:09:03,400
+that their consumer might aspire to be
+
+323
+00:09:02,200 --> 00:09:04,400
+or would might just know that was in
+
+324
+00:09:03,400 --> 00:09:06,560
+their friend group. And they got to
+
+325
+00:09:04,400 --> 00:09:08,160
+adopt that identity even just by opening
+
+326
+00:09:06,560 --> 00:09:10,000
+and consuming an email. That's not like
+
+327
+00:09:08,160 --> 00:09:11,640
+a whole section, here's why you buy.
+
+328
+00:09:10,000 --> 00:09:13,480
+It's showing a life. So, they brands
+
+329
+00:09:11,640 --> 00:09:15,000
+show a life that you want or are in.
+
+330
+00:09:13,480 --> 00:09:16,200
+Then how do you begin to develop this
+
+331
+00:09:15,000 --> 00:09:17,880
+for a brand or how do you begin to think
+
+332
+00:09:16,200 --> 00:09:19,240
+about what a brand is trying to say to
+
+333
+00:09:17,880 --> 00:09:20,280
+you? I'll get there in a second. All
+
+334
+00:09:19,240 --> 00:09:21,520
+right, so how do you begin to think
+
+335
+00:09:20,280 --> 00:09:23,720
+about personas and anything you're
+
+336
+00:09:21,520 --> 00:09:25,320
+marketing or selling or begin to wonder
+
+337
+00:09:23,720 --> 00:09:26,480
+how you're being classified and sold to?
+
+338
+00:09:25,320 --> 00:09:28,120
+So, first, if you have a brand, you
+
+339
+00:09:26,480 --> 00:09:29,560
+don't have any idea who your customer
+
+340
+00:09:28,120 --> 00:09:30,880
+might be. You want to start with what
+
+341
+00:09:29,560 --> 00:09:32,720
+you have. And so, what do I mean by
+
+342
+00:09:30,880 --> 00:09:34,200
+that? Location is a big one. Is your
+
+343
+00:09:32,720 --> 00:09:35,600
+brand based in a place? Is there an
+
+344
+00:09:34,200 --> 00:09:37,480
+identity around that place? Being a
+
+345
+00:09:35,600 --> 00:09:38,960
+northwest outdoors brand versus a
+
+346
+00:09:37,480 --> 00:09:40,280
+Southwest outdoors brand say
+
+347
+00:09:38,960 --> 00:09:41,960
+significantly different things. An
+
+348
+00:09:40,280 --> 00:09:43,520
+Americana racing company versus a
+
+349
+00:09:41,960 --> 00:09:45,040
+British racing company versus an
+
+350
+00:09:43,520 --> 00:09:46,400
+Australian racing company or a Chinese
+
+351
+00:09:45,040 --> 00:09:47,840
+racing company. You can make a unique
+
+352
+00:09:46,400 --> 00:09:49,120
+brand off any of those angles. That
+
+353
+00:09:47,840 --> 00:09:50,520
+could come from your background as a
+
+354
+00:09:49,120 --> 00:09:51,680
+founder. It could come from someone
+
+355
+00:09:50,520 --> 00:09:52,960
+you're working with's background, the
+
+356
+00:09:51,680 --> 00:09:54,120
+place where you're located, or just the
+
+357
+00:09:52,960 --> 00:09:55,720
+place where you took intense
+
+358
+00:09:54,120 --> 00:09:57,040
+inspiration. If you already have some of
+
+359
+00:09:55,720 --> 00:09:58,840
+that data, what you'll start to find is
+
+360
+00:09:57,040 --> 00:10:00,360
+over time, the customer may not be what
+
+361
+00:09:58,840 --> 00:10:02,000
+you expected. I have a whole video about
+
+362
+00:10:00,360 --> 00:10:03,600
+archetypes and personas, but you'll know
+
+363
+00:10:02,000 --> 00:10:05,040
+that my go-to there is you basically
+
+364
+00:10:03,600 --> 00:10:06,280
+take your email list, run it through
+
+365
+00:10:05,040 --> 00:10:08,000
+Audience Signal. I'll link them down
+
+366
+00:10:06,280 --> 00:10:09,480
+below, too. And it'll basically build
+
+367
+00:10:08,000 --> 00:10:10,840
+you out personas from your email list.
+
+368
+00:10:09,480 --> 00:10:12,400
+And I love to do this exercise with
+
+369
+00:10:10,840 --> 00:10:13,840
+brands cuz often they'll think they have
+
+370
+00:10:12,400 --> 00:10:15,600
+one persona. Oh, well, we sell to like
+
+371
+00:10:13,840 --> 00:10:16,480
+the hip Gen Z girl. But then you pull it
+
+372
+00:10:15,600 --> 00:10:18,960
+up and you're like, well, actually you
+
+373
+00:10:16,480 --> 00:10:21,400
+sell to the older Gen X woman. But that
+
+374
+00:10:18,960 --> 00:10:23,320
+perception you have of maybe that older
+
+375
+00:10:21,400 --> 00:10:24,920
+Gen X woman wants to be that younger Gen
+
+376
+00:10:23,320 --> 00:10:26,640
+Z woman. You begin to start noticing
+
+377
+00:10:24,920 --> 00:10:27,880
+these shifts of, okay, we're marketing
+
+378
+00:10:26,640 --> 00:10:29,160
+to one person, but the customer that
+
+379
+00:10:27,880 --> 00:10:30,640
+attracts actually has a different
+
+380
+00:10:29,160 --> 00:10:32,000
+desire. Or our marketing isn't
+
+381
+00:10:30,640 --> 00:10:33,240
+connecting cuz we're actually marketing
+
+382
+00:10:32,000 --> 00:10:34,920
+to the wrong person. The person actually
+
+383
+00:10:33,240 --> 00:10:36,080
+ends up buying us isn't even discovering
+
+384
+00:10:34,920 --> 00:10:37,440
+it through our funnel. This is how you
+
+385
+00:10:36,080 --> 00:10:38,640
+can begin to have those conversations
+
+386
+00:10:37,440 --> 00:10:40,280
+that are important. So you start with
+
+387
+00:10:38,640 --> 00:10:42,200
+your persona knowledge. And then you
+
+388
+00:10:40,280 --> 00:10:43,480
+begin to think about signature designs.
+
+389
+00:10:42,200 --> 00:10:44,960
+What you'll notice about all the
+
+390
+00:10:43,480 --> 00:10:46,120
+identity marketing products that we
+
+391
+00:10:44,960 --> 00:10:47,480
+talked about, whether that's a No walla
+
+392
+00:10:46,120 --> 00:10:49,080
+water bottle, whether that's a Rep
+
+393
+00:10:47,480 --> 00:10:51,480
+T-shirt, whether it's the choice of your
+
+394
+00:10:49,080 --> 00:10:53,480
+company to be a Google versus a Teams
+
+395
+00:10:51,480 --> 00:10:55,040
+organization, all of these have visual
+
+396
+00:10:53,480 --> 00:10:57,560
+signatures. It could be colorways. It
+
+397
+00:10:55,040 --> 00:10:59,160
+could be form factors. When Dior had
+
+398
+00:10:57,560 --> 00:11:00,800
+cosmetics that went viral, it's cuz they
+
+399
+00:10:59,160 --> 00:11:02,839
+had basically like a little Dior
+
+400
+00:11:00,800 --> 00:11:04,360
+keychain attachment to it. It would
+
+401
+00:11:02,839 --> 00:11:06,120
+signal that you're a Dior person, give
+
+402
+00:11:04,360 --> 00:11:08,080
+you a luxury signaler from their their
+
+403
+00:11:06,120 --> 00:11:10,600
+logo on a low-cost purchase. It's an
+
+404
+00:11:08,080 --> 00:11:11,560
+identity play. Patterns, tags, like
+
+405
+00:11:10,600 --> 00:11:13,240
+subtle things like you see with
+
+406
+00:11:11,560 --> 00:11:14,800
+Margiela. I did this video with Grant
+
+407
+00:11:13,240 --> 00:11:16,400
+Owens, I got a lot of comment on my Bad
+
+408
+00:11:14,800 --> 00:11:18,360
+Son jacket. You can immediately tell
+
+409
+00:11:16,400 --> 00:11:19,960
+it's Bad Son because they have that
+
+410
+00:11:18,360 --> 00:11:20,960
+particular raised stitching pattern that
+
+411
+00:11:19,960 --> 00:11:22,560
+they do. These are all visual
+
+412
+00:11:20,960 --> 00:11:24,160
+signatures. They can apply to basically
+
+413
+00:11:22,560 --> 00:11:25,640
+anything. So people will associate
+
+414
+00:11:24,160 --> 00:11:26,839
+themselves with those brands. Color does
+
+415
+00:11:25,640 --> 00:11:29,040
+this as well. When I was in the toy
+
+416
+00:11:26,839 --> 00:11:31,040
+category, Nerf associated itself with
+
+417
+00:11:29,040 --> 00:11:33,200
+orange. Zuru was competing with them and
+
+418
+00:11:31,040 --> 00:11:35,240
+owned red. At Gel Blaster, hyper-focused
+
+419
+00:11:33,200 --> 00:11:36,840
+on green. You could see in big color
+
+420
+00:11:35,240 --> 00:11:38,920
+blocking on the shelf. You want people
+
+421
+00:11:36,840 --> 00:11:39,960
+to know, not get confused about which
+
+422
+00:11:38,920 --> 00:11:40,880
+you're buying. You want to be able to
+
+423
+00:11:39,960 --> 00:11:41,760
+go, "Oh, I'm going to get the green
+
+424
+00:11:40,880 --> 00:11:43,200
+one." These are little things that are
+
+425
+00:11:41,760 --> 00:11:44,320
+associations cuz they want to associate
+
+426
+00:11:43,200 --> 00:11:46,520
+themselves with whatever the marketing
+
+427
+00:11:44,320 --> 00:11:48,240
+was. I was recently talking to a luxury
+
+428
+00:11:46,520 --> 00:11:49,240
+grocer doing meal prep and they were
+
+429
+00:11:48,240 --> 00:11:50,720
+talking about packaging as a
+
+430
+00:11:49,240 --> 00:11:52,000
+differentiator. And everyone has the
+
+431
+00:11:50,720 --> 00:11:53,400
+same meal prep packaging and I was
+
+432
+00:11:52,000 --> 00:11:55,240
+telling them that they should go matte
+
+433
+00:11:53,400 --> 00:11:57,600
+green cuz you could still do that in the
+
+434
+00:11:55,240 --> 00:11:59,680
+same compostable style. Silk or do like
+
+435
+00:11:57,600 --> 00:12:01,440
+a emboss or deboss of their logo on it
+
+436
+00:11:59,680 --> 00:12:03,040
+and they would probably quadruple the
+
+437
+00:12:01,440 --> 00:12:05,520
+amount of people taking pictures of it
+
+438
+00:12:03,040 --> 00:12:07,240
+versus of the plain plastic top. It
+
+439
+00:12:05,520 --> 00:12:08,920
+would become an identity play to signal
+
+440
+00:12:07,240 --> 00:12:10,360
+that you got that meal kit because it
+
+441
+00:12:08,920 --> 00:12:12,040
+would look sick. And stick to that
+
+442
+00:12:10,360 --> 00:12:13,520
+demographic who's buying that kind of
+
+443
+00:12:12,040 --> 00:12:15,000
+luxury thing. And you could also do this
+
+444
+00:12:13,520 --> 00:12:16,680
+with iconography. Obviously, the logos
+
+445
+00:12:15,000 --> 00:12:18,680
+tell this story. And you'll see it white
+
+446
+00:12:16,680 --> 00:12:20,120
+fox, scuffers, all like the hip brands.
+
+447
+00:12:18,680 --> 00:12:22,280
+It's the easiest way to play it. Nude
+
+448
+00:12:20,120 --> 00:12:23,920
+project, iconography and logos tend to
+
+449
+00:12:22,280 --> 00:12:25,680
+work in some regards, especially with
+
+450
+00:12:23,920 --> 00:12:27,440
+younger demographics, but the more
+
+451
+00:12:25,680 --> 00:12:29,080
+subtle way is in kind of more different
+
+452
+00:12:27,440 --> 00:12:30,720
+differentiation when you're working on
+
+453
+00:12:29,080 --> 00:12:32,080
+color and pattern and things like that
+
+454
+00:12:30,720 --> 00:12:33,720
+end up being kind of usually bigger,
+
+455
+00:12:32,080 --> 00:12:35,240
+more sophisticated ways to do it over
+
+456
+00:12:33,720 --> 00:12:36,839
+time and in more categories. And then
+
+457
+00:12:35,240 --> 00:12:38,200
+I'm going to walk you through five
+
+458
+00:12:36,839 --> 00:12:39,600
+archetypes for lack of a better term.
+
+459
+00:12:38,200 --> 00:12:41,360
+Basically, five reasons that people will
+
+460
+00:12:39,600 --> 00:12:43,800
+associate themselves with identity for a
+
+461
+00:12:41,360 --> 00:12:45,320
+brand. So, first is belonging. I want to
+
+462
+00:12:43,800 --> 00:12:47,480
+fit in with people like me. This is
+
+463
+00:12:45,320 --> 00:12:48,880
+sneakers. Sneakers basically only exist
+
+464
+00:12:47,480 --> 00:12:50,400
+to find other people that will think
+
+465
+00:12:48,880 --> 00:12:51,720
+that your sneakers are cool. And by
+
+466
+00:12:50,400 --> 00:12:53,320
+doing that, you immediately have a
+
+467
+00:12:51,720 --> 00:12:55,000
+friend or have someone that will think
+
+468
+00:12:53,320 --> 00:12:57,200
+like have some respect for you and it's
+
+469
+00:12:55,000 --> 00:12:58,760
+completely about belonging. Every single
+
+470
+00:12:57,200 --> 00:13:01,160
+one of those purchases is around that.
+
+471
+00:12:58,760 --> 00:13:02,520
+And that's an excellent way to for a
+
+472
+00:13:01,160 --> 00:13:04,720
+very lonely demographics, right? And
+
+473
+00:13:02,520 --> 00:13:06,560
+sneakers appeal a lot to lonely people.
+
+474
+00:13:04,720 --> 00:13:08,120
+It becomes an obsession point. Fashion
+
+475
+00:13:06,560 --> 00:13:09,400
+in general is a large a larger extension
+
+476
+00:13:08,120 --> 00:13:10,760
+of that. To be able to find people that
+
+477
+00:13:09,400 --> 00:13:12,480
+have that same interest or that same
+
+478
+00:13:10,760 --> 00:13:13,400
+thing becomes a very easy signal. And
+
+479
+00:13:12,480 --> 00:13:14,960
+then there's a second out there. It's
+
+480
+00:13:13,400 --> 00:13:16,080
+hey, I'm better than the others. That's
+
+481
+00:13:14,960 --> 00:13:17,280
+another thing. There's a lot of people
+
+482
+00:13:16,080 --> 00:13:18,680
+that want to prove they're better than
+
+483
+00:13:17,280 --> 00:13:19,960
+other people even subtly. You have
+
+484
+00:13:18,680 --> 00:13:21,720
+brands like The Row that position
+
+485
+00:13:19,960 --> 00:13:23,000
+themselves entirely. I'm more tasteful
+
+486
+00:13:21,720 --> 00:13:25,120
+than everyone else in my friend group. I
+
+487
+00:13:23,000 --> 00:13:26,640
+have The Row playlist. I have a bag that
+
+488
+00:13:25,120 --> 00:13:28,440
+not everyone would know. I have this
+
+489
+00:13:26,640 --> 00:13:30,880
+subtle look. It's the it thing. You are
+
+490
+00:13:28,440 --> 00:13:32,640
+proving something to others and making
+
+491
+00:13:30,880 --> 00:13:34,720
+people aspire to what you have, but
+
+492
+00:13:32,640 --> 00:13:35,960
+subtly. Then you have the rebel. I don't
+
+493
+00:13:34,720 --> 00:13:37,720
+play by your rules. If you're marketing
+
+494
+00:13:35,960 --> 00:13:38,920
+to Gen X, this is like your go-to. I'm
+
+495
+00:13:37,720 --> 00:13:40,480
+going to choose not just the more
+
+496
+00:13:38,920 --> 00:13:41,960
+extreme angle, but the more outsider
+
+497
+00:13:40,480 --> 00:13:43,680
+angle than anything else. Which is
+
+498
+00:13:41,960 --> 00:13:44,680
+Liquid Death to some regard. There's
+
+499
+00:13:43,680 --> 00:13:46,240
+room inside kind of like a
+
+500
+00:13:44,680 --> 00:13:47,320
+counterculture rebel take in every
+
+501
+00:13:46,240 --> 00:13:49,280
+product category. Then you have
+
+502
+00:13:47,320 --> 00:13:51,120
+standout. You have flare. The I'm
+
+503
+00:13:49,280 --> 00:13:52,800
+special call. Look, that bad sun jacket
+
+504
+00:13:51,120 --> 00:13:54,520
+is flare. I own that jacket cuz I know I
+
+505
+00:13:52,800 --> 00:13:57,400
+can go on a podcast and it'll stand out
+
+506
+00:13:54,520 --> 00:13:58,600
+on a feed. is a flare piece. You only
+
+507
+00:13:57,400 --> 00:14:00,400
+have things like that if you are trying
+
+508
+00:13:58,600 --> 00:14:01,560
+to prove a point about standing out from
+
+509
+00:14:00,400 --> 00:14:03,200
+something. There are plenty of brands
+
+510
+00:14:01,560 --> 00:14:04,920
+that say something about you in a loud
+
+511
+00:14:03,200 --> 00:14:06,520
+way. And then there's the idea of pride
+
+512
+00:14:04,920 --> 00:14:08,160
+in a subculture. And if you know, you
+
+513
+00:14:06,520 --> 00:14:10,680
+know. And you can base that around
+
+514
+00:14:08,160 --> 00:14:12,120
+geography, around race, around hobbies,
+
+515
+00:14:10,680 --> 00:14:13,920
+around gender, but saying that you're
+
+516
+00:14:12,120 --> 00:14:15,280
+proud of your background. That yes, of
+
+517
+00:14:13,920 --> 00:14:17,360
+course I'm going to have this
+
+518
+00:14:15,280 --> 00:14:19,160
+Chinese-founded brand or whatever it is
+
+519
+00:14:17,360 --> 00:14:20,960
+that tells that story to a subculture.
+
+520
+00:14:19,160 --> 00:14:22,720
+Those are just five that you can work
+
+521
+00:14:20,960 --> 00:14:24,440
+with. Fitting in, being better than
+
+522
+00:14:22,720 --> 00:14:27,000
+somebody, not playing by anybody's
+
+523
+00:14:24,440 --> 00:14:28,520
+rules, standing out, or having pride in
+
+524
+00:14:27,000 --> 00:14:29,680
+a subculture. It's an amazing way to
+
+525
+00:14:28,520 --> 00:14:31,080
+just begin thinking about how an
+
+526
+00:14:29,680 --> 00:14:32,720
+identity marketing playbook could work
+
+527
+00:14:31,080 --> 00:14:34,520
+for any product. I want to end with
+
+528
+00:14:32,720 --> 00:14:36,880
+identity beyond affiliation. Cuz
+
+529
+00:14:34,520 --> 00:14:38,040
+identity can also be deeply personal. It
+
+530
+00:14:36,880 --> 00:14:39,360
+doesn't have to do anything with others.
+
+531
+00:14:38,040 --> 00:14:40,920
+Almost all of those have to do with a
+
+532
+00:14:39,360 --> 00:14:42,040
+signal you're sending to others. But one
+
+533
+00:14:40,920 --> 00:14:44,000
+of the core points to think about in
+
+534
+00:14:42,040 --> 00:14:45,680
+marketing is if people have a weak point
+
+535
+00:14:44,000 --> 00:14:47,320
+in their internal identity, how can you
+
+536
+00:14:45,680 --> 00:14:48,760
+help resolve it? And a great example of
+
+537
+00:14:47,320 --> 00:14:50,160
+this was uh I worked for years with Lift
+
+538
+00:14:48,760 --> 00:14:52,440
+Foils on their marketing. They're a surf
+
+539
+00:14:50,160 --> 00:14:54,720
+foil company, electric hydrofoils, etc.
+
+540
+00:14:52,440 --> 00:14:56,200
+And we had a big advocate, a customer
+
+541
+00:14:54,720 --> 00:14:58,200
+advocate. Drew Brees. He's a famous
+
+542
+00:14:56,200 --> 00:14:59,320
+quarterback. He bought this product.
+
+543
+00:14:58,200 --> 00:15:01,480
+While I was running marketing there, we
+
+544
+00:14:59,320 --> 00:15:02,920
+had a massive gift given to us that he
+
+545
+00:15:01,480 --> 00:15:04,040
+went on Ellen after he stopped being a
+
+546
+00:15:02,920 --> 00:15:06,000
+quarterback. He talked about one of his
+
+547
+00:15:04,040 --> 00:15:07,160
+favorite things to do was ride on his
+
+548
+00:15:06,000 --> 00:15:09,440
+efoil. And he actually did like a
+
+549
+00:15:07,160 --> 00:15:10,960
+training with Ellen. And it was a huge
+
+550
+00:15:09,440 --> 00:15:12,800
+sales process for us, but not just
+
+551
+00:15:10,960 --> 00:15:14,520
+because a celebrity was showing it off.
+
+552
+00:15:12,800 --> 00:15:15,839
+Because of what it solved. Not to get
+
+553
+00:15:14,520 --> 00:15:17,640
+too deep into hydrofoils, but basically
+
+554
+00:15:15,839 --> 00:15:19,680
+you have classic hydrofoils that have
+
+555
+00:15:17,640 --> 00:15:21,000
+basically a mast and you ride waves and
+
+556
+00:15:19,680 --> 00:15:23,280
+there's no motors or anything on there.
+
+557
+00:15:21,000 --> 00:15:26,120
+And it's a work of modern physical
+
+558
+00:15:23,280 --> 00:15:27,840
+mastery to be able to pump and foil. I
+
+559
+00:15:26,120 --> 00:15:29,720
+have 14 stitches in my forehead from a
+
+560
+00:15:27,840 --> 00:15:31,320
+foil, so my my days of any of these are
+
+561
+00:15:29,720 --> 00:15:32,440
+gone. But then the electric hydrofoils,
+
+562
+00:15:31,320 --> 00:15:34,080
+you're basically flying on water, and
+
+563
+00:15:32,440 --> 00:15:35,720
+you have a motor and a remote control,
+
+564
+00:15:34,080 --> 00:15:37,560
+and it's an incredible feeling and
+
+565
+00:15:35,720 --> 00:15:39,280
+experience. But for either of those
+
+566
+00:15:37,560 --> 00:15:41,200
+product, but in particular the motorized
+
+567
+00:15:39,280 --> 00:15:42,200
+one, there's a lot of guys who get to a
+
+568
+00:15:41,200 --> 00:15:43,880
+certain age, and they have the same
+
+569
+00:15:42,200 --> 00:15:45,720
+experience as me. I got 14 stitches in
+
+570
+00:15:43,880 --> 00:15:46,920
+my head from a hydrofoil. It was proof
+
+571
+00:15:45,720 --> 00:15:48,120
+to me that yeah, I'm not young anymore.
+
+572
+00:15:46,920 --> 00:15:49,400
+I can't do extreme sports anymore. It
+
+573
+00:15:48,120 --> 00:15:51,800
+was like my third injury in a row. I
+
+574
+00:15:49,400 --> 00:15:53,400
+fell off an ATV. I had bruised a rib
+
+575
+00:15:51,800 --> 00:15:55,400
+snowmobiling. I was just I was like,
+
+576
+00:15:53,400 --> 00:15:57,840
+"Okay, I still think I'm 22, and I'm
+
+577
+00:15:55,400 --> 00:15:58,760
+not." Happens to a lot of guys. But you
+
+578
+00:15:57,840 --> 00:16:00,400
+see a product and you're like, "Hey, I
+
+579
+00:15:58,760 --> 00:16:02,440
+can still have that experience. I can
+
+580
+00:16:00,400 --> 00:16:03,800
+still have that feeling of flight, of
+
+581
+00:16:02,440 --> 00:16:05,160
+exhilaration, but I can do it in this
+
+582
+00:16:03,800 --> 00:16:06,600
+really modern way, and that's a problem
+
+583
+00:16:05,160 --> 00:16:08,400
+I can solve with money that's really
+
+584
+00:16:06,600 --> 00:16:10,160
+cool, that someone I respect, a pro
+
+585
+00:16:08,400 --> 00:16:12,040
+athlete, is doing." That solves a weak
+
+586
+00:16:10,160 --> 00:16:14,000
+point in so many guys' identities who
+
+587
+00:16:12,040 --> 00:16:15,360
+had made that water sports a core part
+
+588
+00:16:14,000 --> 00:16:16,520
+of what they do, and who could continue
+
+589
+00:16:15,360 --> 00:16:18,640
+doing that in a way that was cool and
+
+590
+00:16:16,520 --> 00:16:20,280
+fun. And uh and this ties into kind of a
+
+591
+00:16:18,640 --> 00:16:21,520
+last strategy I'll outline here about
+
+592
+00:16:20,280 --> 00:16:23,000
+about testing that. Because what was
+
+593
+00:16:21,520 --> 00:16:24,360
+interesting there is we tested all kinds
+
+594
+00:16:23,000 --> 00:16:25,720
+of ads, right? I was in the same
+
+595
+00:16:24,360 --> 00:16:26,920
+framework I talked about how when I was
+
+596
+00:16:25,720 --> 00:16:28,760
+talking about HubSpot earlier, what I
+
+597
+00:16:26,920 --> 00:16:30,920
+did I ran all the meta with an agency
+
+598
+00:16:28,760 --> 00:16:32,320
+inside there. We worked on ad creative
+
+599
+00:16:30,920 --> 00:16:33,920
+and collateral, etc. I worked with
+
+600
+00:16:32,320 --> 00:16:35,839
+Vervont on that. Shout out Vervont. But
+
+601
+00:16:33,920 --> 00:16:37,400
+we were testing traditional, like, "Hey,
+
+602
+00:16:35,839 --> 00:16:39,400
+let's get our our team on there. Let's
+
+603
+00:16:37,400 --> 00:16:40,839
+get We have We have pro surfers. We have
+
+604
+00:16:39,400 --> 00:16:42,080
+We have Laird Hamilton. We have Brian
+
+605
+00:16:40,839 --> 00:16:43,320
+Grubb. We have a lot of pros we would
+
+606
+00:16:42,080 --> 00:16:44,200
+have in the ad account." And let's test
+
+607
+00:16:43,320 --> 00:16:45,920
+people who look like our customer
+
+608
+00:16:44,200 --> 00:16:47,120
+avatar. Let's test older surfers. You
+
+609
+00:16:45,920 --> 00:16:48,760
+would get this wide swath of different
+
+610
+00:16:47,120 --> 00:16:50,080
+consumer types like inside these ads
+
+611
+00:16:48,760 --> 00:16:51,680
+like to see what worked or not. And we
+
+612
+00:16:50,080 --> 00:16:53,839
+found that it's not the person that our
+
+613
+00:16:51,680 --> 00:16:54,960
+consumer wanted to see themselves in.
+
+614
+00:16:53,839 --> 00:16:56,440
+They didn't necessarily see themselves
+
+615
+00:16:54,960 --> 00:16:57,360
+on the board. Some people did, but a lot
+
+616
+00:16:56,440 --> 00:16:58,880
+of them wanted to see the younger
+
+617
+00:16:57,360 --> 00:17:00,040
+avatar. They wanted to feel like they
+
+618
+00:16:58,880 --> 00:17:01,600
+were the younger person. It was like a
+
+619
+00:17:00,040 --> 00:17:02,680
+50/50 split. And those would go to
+
+620
+00:17:01,600 --> 00:17:03,920
+different landing pages, different
+
+621
+00:17:02,680 --> 00:17:05,040
+experiences, people that bought for
+
+622
+00:17:03,920 --> 00:17:06,839
+different reasons. And that's what I
+
+623
+00:17:05,040 --> 00:17:08,600
+would encourage you to test when you are
+
+624
+00:17:06,839 --> 00:17:10,400
+inside building ads, building organic
+
+625
+00:17:08,600 --> 00:17:12,439
+concepts. Think about who is your actual
+
+626
+00:17:10,400 --> 00:17:13,760
+demo, and who does that demo think they
+
+627
+00:17:12,439 --> 00:17:15,079
+are, and then who do they want to be,
+
+628
+00:17:13,760 --> 00:17:16,880
+and then who do they want to hear from?
+
+629
+00:17:15,079 --> 00:17:18,760
+A friend of mine has a a brand that
+
+630
+00:17:16,880 --> 00:17:21,040
+sells to elder women. He actually found
+
+631
+00:17:18,760 --> 00:17:22,560
+that young UGC from like younger
+
+632
+00:17:21,040 --> 00:17:24,120
+good-looking guys worked a lot better
+
+633
+00:17:22,560 --> 00:17:25,520
+for him than that demographic being
+
+634
+00:17:24,120 --> 00:17:27,000
+shown to themselves. You might find a
+
+635
+00:17:25,520 --> 00:17:28,439
+mix of that. But that combination of
+
+636
+00:17:27,000 --> 00:17:29,960
+what those archetypes look like, why
+
+637
+00:17:28,439 --> 00:17:32,200
+people buy, and who they want to buy it
+
+638
+00:17:29,960 --> 00:17:33,360
+from adds up to sophisticated marketing.
+
+639
+00:17:32,200 --> 00:17:34,400
+And if you're in one of these funnels
+
+640
+00:17:33,360 --> 00:17:35,800
+and you're being advertised, do you
+
+641
+00:17:34,400 --> 00:17:37,120
+start thinking about what does it say?
+
+642
+00:17:35,800 --> 00:17:39,160
+If it's actually solving an internal
+
+643
+00:17:37,120 --> 00:17:40,520
+problem that you have that is a weak
+
+644
+00:17:39,160 --> 00:17:42,720
+point for you, that's a good thing.
+
+645
+00:17:40,520 --> 00:17:44,080
+You're being shown a mirror of something
+
+646
+00:17:42,720 --> 00:17:45,320
+you may want that may actually solve
+
+647
+00:17:44,080 --> 00:17:47,160
+something for you. Or if you're being
+
+648
+00:17:45,320 --> 00:17:49,280
+shown something that's selling you a
+
+649
+00:17:47,160 --> 00:17:50,960
+version that feels kind of dirty, that
+
+650
+00:17:49,280 --> 00:17:52,560
+you don't quite want or feels off,
+
+651
+00:17:50,960 --> 00:17:54,240
+that's a bad sign for a brand. And the
+
+652
+00:17:52,560 --> 00:17:56,320
+more conscious we are on how we're being
+
+653
+00:17:54,240 --> 00:17:57,800
+sold and why and why we buy, the better.
+
+654
+00:17:56,320 --> 00:17:59,520
+So anyway, I'm excited to be cutting
+
+655
+00:17:57,800 --> 00:18:00,920
+some videos from the French Riviera here
+
+656
+00:17:59,520 --> 00:18:03,040
+next week with a bunch of the people
+
+657
+00:18:00,920 --> 00:18:03,960
+that I'm inside our Cannes house with.
+
+658
+00:18:03,040 --> 00:18:05,960
+In the house [music] we have Dara
+
+659
+00:18:03,960 --> 00:18:08,280
+Denney's there, JT Barnett's there,
+
+660
+00:18:05,960 --> 00:18:09,280
+Sammy Cohen's there, Tayden Brandt, a
+
+661
+00:18:08,280 --> 00:18:10,920
+bunch of creators you may or may not
+
+662
+00:18:09,280 --> 00:18:12,640
+have heard of. We're making all kinds of
+
+663
+00:18:10,920 --> 00:18:14,120
+interesting content we have scheduled
+
+664
+00:18:12,640 --> 00:18:15,360
+depending on timing, and so I'm excited
+
+665
+00:18:14,120 --> 00:18:16,120
+to drop some of that on this channel
+
+666
+00:18:15,360 --> 00:18:17,840
+too, so you can see some more
+
+667
+00:18:16,120 --> 00:18:19,920
+conversations over the coming weeks. I'm
+
+668
+00:18:17,840 --> 00:18:21,520
+working on a video about actual French
+
+669
+00:18:19,920 --> 00:18:22,760
+luxury as well. So for those of you
+
+670
+00:18:21,520 --> 00:18:24,440
+waiting for more luxury content, that is
+
+671
+00:18:22,760 --> 00:18:26,962
+coming soon. And as always, thank y'all
+
+672
+00:18:24,440 --> 00:18:28,982
+so much for watching.
+
+673
+00:18:26,962 --> 00:18:28,982
+>> [music]
+

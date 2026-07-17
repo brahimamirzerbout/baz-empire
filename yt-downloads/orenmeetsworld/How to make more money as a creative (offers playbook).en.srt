@@ -1,0 +1,2552 @@
+1
+00:00:01,480 --> 00:00:05,880
+Today, we're going to talk about why
+
+2
+00:00:03,320 --> 00:00:07,560
+creatives are so afraid of money and
+
+3
+00:00:05,880 --> 00:00:09,680
+what you can do about it in your own
+
+4
+00:00:07,560 --> 00:00:11,600
+creative career. We are at a very unique
+
+5
+00:00:09,680 --> 00:00:13,960
+time in history. If you do any type of
+
+6
+00:00:11,600 --> 00:00:15,880
+creative work from design to videography
+
+7
+00:00:13,960 --> 00:00:17,720
+to copywriting, if you're in branding,
+
+8
+00:00:15,880 --> 00:00:19,520
+if you've ever thought of yourself as an
+
+9
+00:00:17,720 --> 00:00:21,720
+artist or artistic related, there is
+
+10
+00:00:19,520 --> 00:00:23,720
+more demand for that work than literally
+
+11
+00:00:21,720 --> 00:00:25,280
+ever before. But at the same time,
+
+12
+00:00:23,720 --> 00:00:27,360
+something I notice constantly with all
+
+13
+00:00:25,280 --> 00:00:29,600
+the creatives in my life is they feel
+
+14
+00:00:27,360 --> 00:00:32,160
+bad about financial success and they
+
+15
+00:00:29,600 --> 00:00:33,640
+feel doing the things, the actions that
+
+16
+00:00:32,160 --> 00:00:35,680
+turn their creative work into a
+
+17
+00:00:33,640 --> 00:00:37,040
+business, they feel almost guilty about
+
+18
+00:00:35,680 --> 00:00:39,400
+it. In this video, we're going to talk a
+
+19
+00:00:37,040 --> 00:00:41,000
+little bit about how you've been forced
+
+20
+00:00:39,400 --> 00:00:43,440
+into that by the functions of your
+
+21
+00:00:41,000 --> 00:00:44,840
+bosses and the psychology of capitalism
+
+22
+00:00:43,440 --> 00:00:46,840
+over time. But also, I'm going to give
+
+23
+00:00:44,840 --> 00:00:48,240
+you a direct blueprint. You're going to
+
+24
+00:00:46,840 --> 00:00:49,760
+learn about offers, you're going to
+
+25
+00:00:48,240 --> 00:00:52,240
+learn about funnels, we're going to talk
+
+26
+00:00:49,760 --> 00:00:54,480
+about CRM, and how to structure those to
+
+27
+00:00:52,240 --> 00:00:56,480
+make the most out of your creative work
+
+28
+00:00:54,480 --> 00:00:57,760
+in this unprecedented era. This video is
+
+29
+00:00:56,480 --> 00:00:58,520
+in partnership with Framer, so I'm
+
+30
+00:00:57,760 --> 00:01:00,520
+actually going to walk through how to
+
+31
+00:00:58,520 --> 00:01:02,040
+build websites around these as well. So,
+
+32
+00:01:00,520 --> 00:01:03,960
+you will have both theoretical and
+
+33
+00:01:02,040 --> 00:01:06,240
+tactical application of stuff that will
+
+34
+00:01:03,960 --> 00:01:08,760
+help you as a creative be able to make
+
+35
+00:01:06,240 --> 00:01:10,360
+more money and also not feel bad about
+
+36
+00:01:08,760 --> 00:01:13,480
+it. My goal for this video is to be the
+
+37
+00:01:10,360 --> 00:01:14,880
+most tactical video on how to structure
+
+38
+00:01:13,480 --> 00:01:16,760
+your creative business and get your
+
+39
+00:01:14,880 --> 00:01:18,160
+creative work that you've ever watched.
+
+40
+00:01:16,760 --> 00:01:19,640
+If you have questions about any of this,
+
+41
+00:01:18,160 --> 00:01:21,520
+please let me know cuz I want to do some
+
+42
+00:01:19,640 --> 00:01:23,440
+follow-up specifically about creative
+
+43
+00:01:21,520 --> 00:01:24,960
+money and creative work. I can dive into
+
+44
+00:01:23,440 --> 00:01:26,480
+it there. I'm excited for you to take
+
+45
+00:01:24,960 --> 00:01:28,440
+advantage of it in this unprecedented
+
+46
+00:01:26,480 --> 00:01:30,120
+time. Let's lock in. I don't usually
+
+47
+00:01:28,440 --> 00:01:32,720
+start my videos with other people's
+
+48
+00:01:30,120 --> 00:01:34,640
+videos, nor do I usually Mr. Wonderful,
+
+49
+00:01:32,720 --> 00:01:36,200
+but Kevin O'Leary had this quote that
+
+50
+00:01:34,640 --> 00:01:37,400
+was going viral that's really important
+
+51
+00:01:36,200 --> 00:01:38,920
+to what we're going to talk about here.
+
+52
+00:01:37,400 --> 00:01:40,960
+In this video, he talks about the
+
+53
+00:01:38,920 --> 00:01:43,520
+transition from the social media as an
+
+54
+00:01:40,960 --> 00:01:45,400
+intern job or one person to a companies
+
+55
+00:01:43,520 --> 00:01:46,960
+have increasingly realized that people
+
+56
+00:01:45,400 --> 00:01:48,800
+that understand the internet and can
+
+57
+00:01:46,960 --> 00:01:50,640
+help acquire customers, whether for
+
+58
+00:01:48,800 --> 00:01:52,960
+products, agencies, services, or
+
+59
+00:01:50,640 --> 00:01:54,520
+personalities, and the teams that do it
+
+60
+00:01:52,960 --> 00:01:56,920
+have become some of the most valuable
+
+61
+00:01:54,520 --> 00:01:58,600
+people inside of a company command far
+
+62
+00:01:56,920 --> 00:02:00,360
+more salary than ever. But more than
+
+63
+00:01:58,600 --> 00:02:01,640
+ever, people don't know what to charge
+
+64
+00:02:00,360 --> 00:02:03,640
+for that. They don't know how to ask for
+
+65
+00:02:01,640 --> 00:02:05,680
+that much money. They're caught inside
+
+66
+00:02:03,640 --> 00:02:07,600
+that barrier of what was my last salary.
+
+67
+00:02:05,680 --> 00:02:10,119
+And this is a function, in a large part,
+
+68
+00:02:07,600 --> 00:02:11,720
+due to the big agency multiplex. Small
+
+69
+00:02:10,119 --> 00:02:13,360
+agencies, you get less than 50 people,
+
+70
+00:02:11,720 --> 00:02:15,520
+they're just trying to get by. Big
+
+71
+00:02:13,360 --> 00:02:16,840
+agencies are structured like they are
+
+72
+00:02:15,520 --> 00:02:19,320
+for a reason. So you will see the
+
+73
+00:02:16,840 --> 00:02:21,520
+Omnicoms, the Saatchis, the Havases, the
+
+74
+00:02:19,320 --> 00:02:22,840
+large agencies of the world employ all
+
+75
+00:02:21,520 --> 00:02:25,120
+these different creatives and they put
+
+76
+00:02:22,840 --> 00:02:26,080
+them into silos. You're an art director,
+
+77
+00:02:25,120 --> 00:02:28,040
+but you don't really get to direct
+
+78
+00:02:26,080 --> 00:02:29,959
+campaigns. You're a copywriter, you're a
+
+79
+00:02:28,040 --> 00:02:31,880
+planner, you're a strategist. You
+
+80
+00:02:29,959 --> 00:02:33,720
+operate inside these little bubbles and
+
+81
+00:02:31,880 --> 00:02:35,760
+those bubbles are worth really specific
+
+82
+00:02:33,720 --> 00:02:37,840
+things by the number of accounts with
+
+83
+00:02:35,760 --> 00:02:39,600
+specific multiples for billable hours.
+
+84
+00:02:37,840 --> 00:02:41,240
+They're designed for the infrastructure
+
+85
+00:02:39,600 --> 00:02:43,120
+around you and the other jobs and the
+
+86
+00:02:41,240 --> 00:02:44,640
+profits at the top to take that money
+
+87
+00:02:43,120 --> 00:02:46,200
+and not the creative and they've held
+
+88
+00:02:44,640 --> 00:02:48,040
+people down for a long time. Now
+
+89
+00:02:46,200 --> 00:02:50,280
+historically, we want to date this back
+
+90
+00:02:48,040 --> 00:02:51,280
+to the origin of arts and commerce. If
+
+91
+00:02:50,280 --> 00:02:53,240
+you've ever looked at the book Caps
+
+92
+00:02:51,280 --> 00:02:55,080
+Lock, it details a lot about how graphic
+
+93
+00:02:53,240 --> 00:02:57,360
+design as a function and a lot of the
+
+94
+00:02:55,080 --> 00:02:59,880
+other artistic functions really came
+
+95
+00:02:57,360 --> 00:03:01,720
+apart as supporting the financial
+
+96
+00:02:59,880 --> 00:03:03,360
+infrastructure. Designs became necessary
+
+97
+00:03:01,720 --> 00:03:05,320
+for currency, for banks to help
+
+98
+00:03:03,360 --> 00:03:06,880
+establish credibility inside monetary
+
+99
+00:03:05,320 --> 00:03:09,120
+systems. Same thing with writing,
+
+100
+00:03:06,880 --> 00:03:11,280
+holding records for the exchange of
+
+101
+00:03:09,120 --> 00:03:13,440
+commerce. And even when artists became
+
+102
+00:03:11,280 --> 00:03:15,080
+great, it was patronage from the rich
+
+103
+00:03:13,440 --> 00:03:16,560
+that would allow people, like famous
+
+104
+00:03:15,080 --> 00:03:18,480
+artists of the past, even be able to
+
+105
+00:03:16,560 --> 00:03:20,519
+operate or scientists. The creative
+
+106
+00:03:18,480 --> 00:03:22,360
+relationship with money is a complicated
+
+107
+00:03:20,519 --> 00:03:24,640
+one for generations. And then we get to
+
+108
+00:03:22,360 --> 00:03:26,360
+a societal shift. In the 70s, in the
+
+109
+00:03:24,640 --> 00:03:28,239
+hippie era, all the way through the 90s
+
+110
+00:03:26,360 --> 00:03:29,519
+and into Gen X and grunge, art was
+
+111
+00:03:28,239 --> 00:03:31,720
+looked at as something that was
+
+112
+00:03:29,519 --> 00:03:33,320
+anti-selling out. If you participated in
+
+113
+00:03:31,720 --> 00:03:34,600
+this, you didn't need the man's money,
+
+114
+00:03:33,320 --> 00:03:36,360
+you didn't want their support, you
+
+115
+00:03:34,600 --> 00:03:38,200
+wouldn't take that McDonald's deal.
+
+116
+00:03:36,360 --> 00:03:40,160
+Anyone of my generation remembers Reel
+
+117
+00:03:38,200 --> 00:03:42,280
+Big Fish's song Sellout. It was a bit of
+
+118
+00:03:40,160 --> 00:03:44,959
+a rallying cry about the willingness or
+
+119
+00:03:42,280 --> 00:03:46,480
+lack of willingness to buy into the
+
+120
+00:03:44,959 --> 00:03:48,440
+commercial infrastructure of music. But
+
+121
+00:03:46,480 --> 00:03:49,800
+that changed and it changed because at
+
+122
+00:03:48,440 --> 00:03:51,160
+the end of the day, a lot of artists
+
+123
+00:03:49,800 --> 00:03:52,760
+want the ability to make a living off
+
+124
+00:03:51,160 --> 00:03:54,520
+their art. And there's been more demand
+
+125
+00:03:52,760 --> 00:03:56,360
+for it than ever because what sells
+
+126
+00:03:54,520 --> 00:03:58,240
+commerce in our world now, that is a
+
+127
+00:03:56,360 --> 00:03:59,760
+world of attention of undifferentiated
+
+128
+00:03:58,240 --> 00:04:01,320
+goods, is increasingly art. Whether it's
+
+129
+00:03:59,760 --> 00:04:02,680
+the cover art of an album, the music
+
+130
+00:04:01,320 --> 00:04:04,640
+associated with the lifestyle, the
+
+131
+00:04:02,680 --> 00:04:06,320
+design of a website, an ad that got
+
+132
+00:04:04,640 --> 00:04:07,920
+created by a creator, all these are
+
+133
+00:04:06,320 --> 00:04:09,320
+extensions of the creative field, and
+
+134
+00:04:07,920 --> 00:04:11,080
+they're all involved in the business of
+
+135
+00:04:09,320 --> 00:04:13,520
+making money. Meta ads allowed us to
+
+136
+00:04:11,080 --> 00:04:15,200
+quantify this. Tracking in UTM systems
+
+137
+00:04:13,520 --> 00:04:16,760
+to websites from social media content
+
+138
+00:04:15,200 --> 00:04:18,560
+allows us to quantify this. The best
+
+139
+00:04:16,760 --> 00:04:20,480
+thing that's ever happened for creatives
+
+140
+00:04:18,560 --> 00:04:22,440
+in terms of their fiscal goals in
+
+141
+00:04:20,480 --> 00:04:24,800
+alignment was TikTok Shop being able to
+
+142
+00:04:22,440 --> 00:04:26,440
+directly measure if your video sold
+
+143
+00:04:24,800 --> 00:04:28,600
+units of a product and assign that a
+
+144
+00:04:26,440 --> 00:04:30,600
+level of value. And Meta ads, where you
+
+145
+00:04:28,600 --> 00:04:32,400
+could say, "I made this ad or I created
+
+146
+00:04:30,600 --> 00:04:34,240
+this thing, and I can track how many
+
+147
+00:04:32,400 --> 00:04:35,960
+dollars that came back directly from
+
+148
+00:04:34,240 --> 00:04:37,320
+it." So, creatives who wanted to go
+
+149
+00:04:35,960 --> 00:04:39,040
+within that mad that mad space
+
+150
+00:04:37,320 --> 00:04:41,000
+infrastructure, all of a sudden realized
+
+151
+00:04:39,040 --> 00:04:42,400
+what they're worth, and it was way more
+
+152
+00:04:41,000 --> 00:04:44,360
+than the agency infrastructure was
+
+153
+00:04:42,400 --> 00:04:46,080
+paying. But all that is just background.
+
+154
+00:04:44,360 --> 00:04:47,320
+What most people have never heard, what
+
+155
+00:04:46,080 --> 00:04:48,919
+most creatives have never heard, that
+
+156
+00:04:47,320 --> 00:04:50,560
+I'm going to tell you right now before
+
+157
+00:04:48,919 --> 00:04:52,160
+we get into the actual tactical part of
+
+158
+00:04:50,560 --> 00:04:54,520
+the video, is a message I want you to
+
+159
+00:04:52,160 --> 00:04:56,720
+remember. Your skills are in the highest
+
+160
+00:04:54,520 --> 00:04:58,400
+of demand. In the world that we operate
+
+161
+00:04:56,720 --> 00:05:00,680
+in now, as long as you are willing to
+
+162
+00:04:58,400 --> 00:05:02,720
+apply yourself, quantify the work, and
+
+163
+00:05:00,680 --> 00:05:05,520
+actually lock in and don't be lazy, your
+
+164
+00:05:02,720 --> 00:05:07,680
+creative abilities can give you fiscal
+
+165
+00:05:05,520 --> 00:05:10,360
+and life success beyond what you can
+
+166
+00:05:07,680 --> 00:05:12,480
+dream of. Act on it. Never feel bad
+
+167
+00:05:10,360 --> 00:05:14,400
+asking for what you're worth. So, with
+
+168
+00:05:12,480 --> 00:05:16,480
+that, there is a gap. There's a gap in
+
+169
+00:05:14,400 --> 00:05:17,960
+learning for creative people to apply
+
+170
+00:05:16,480 --> 00:05:19,440
+this to business. Then there's a gap of
+
+171
+00:05:17,960 --> 00:05:20,880
+actually doing that application and
+
+172
+00:05:19,440 --> 00:05:23,040
+getting it done. And last, there's the
+
+173
+00:05:20,880 --> 00:05:24,320
+willingness to sell. I'm going to tackle
+
+174
+00:05:23,040 --> 00:05:25,560
+that last one first, and then we're
+
+175
+00:05:24,320 --> 00:05:26,919
+going to get tactical. So, first is the
+
+176
+00:05:25,560 --> 00:05:28,720
+willingness to sell, willingness to
+
+177
+00:05:26,919 --> 00:05:31,120
+charge a lot of money. So, first I will
+
+178
+00:05:28,720 --> 00:05:33,080
+say, if you knew what these corporations
+
+179
+00:05:31,120 --> 00:05:35,160
+have made off of the backs of creative
+
+180
+00:05:33,080 --> 00:05:36,480
+work in generations, you would be sick.
+
+181
+00:05:35,160 --> 00:05:38,520
+If you knew what other people made in
+
+182
+00:05:36,480 --> 00:05:40,800
+these companies versus what their work
+
+183
+00:05:38,520 --> 00:05:42,840
+is worth, you would be upset. Hold on to
+
+184
+00:05:40,800 --> 00:05:44,960
+that feeling. But second, creatives that
+
+185
+00:05:42,840 --> 00:05:47,040
+charge a lot for their work enable other
+
+186
+00:05:44,960 --> 00:05:48,760
+creatives to do it and fund other
+
+187
+00:05:47,040 --> 00:05:50,560
+creatives. Let me give you an example.
+
+188
+00:05:48,760 --> 00:05:52,400
+I've done a lot of shoots in my life. If
+
+189
+00:05:50,560 --> 00:05:53,480
+you advocate for a budget for a shoot,
+
+190
+00:05:52,400 --> 00:05:56,240
+the difference between me getting
+
+191
+00:05:53,480 --> 00:05:58,040
+150,000 and 250,000 to put together a
+
+192
+00:05:56,240 --> 00:06:00,320
+commercial shoot isn't money that goes
+
+193
+00:05:58,040 --> 00:06:02,560
+in my pocket. It's my ability to hire
+
+194
+00:06:00,320 --> 00:06:04,240
+more creatives to make a better product.
+
+195
+00:06:02,560 --> 00:06:05,840
+And you will see actual creative
+
+196
+00:06:04,240 --> 00:06:07,360
+operators, the majority of them look at
+
+197
+00:06:05,840 --> 00:06:08,880
+it like that. They know what they're
+
+198
+00:06:07,360 --> 00:06:10,120
+going to make roughly either way. Maybe
+
+199
+00:06:08,880 --> 00:06:12,320
+they'll make a little more, but they get
+
+200
+00:06:10,120 --> 00:06:13,960
+to employ more people to make better
+
+201
+00:06:12,320 --> 00:06:15,600
+art. If you are the kind of person that
+
+202
+00:06:13,960 --> 00:06:17,160
+helps command that that breaks out of
+
+203
+00:06:15,600 --> 00:06:18,800
+the mold, that's able to negotiate in
+
+204
+00:06:17,160 --> 00:06:20,800
+those factors, that brings that in, that
+
+205
+00:06:18,800 --> 00:06:22,400
+brings up the creative ecosystem around
+
+206
+00:06:20,800 --> 00:06:23,760
+you, every creative who's been around
+
+207
+00:06:22,400 --> 00:06:26,200
+for a while knows a few of those people,
+
+208
+00:06:23,760 --> 00:06:27,840
+and those people are great. They get you
+
+209
+00:06:26,200 --> 00:06:29,640
+the work when you need it. They help
+
+210
+00:06:27,840 --> 00:06:31,440
+you, they facilitate things. Do
+
+211
+00:06:29,640 --> 00:06:33,560
+everything you can when you do get that
+
+212
+00:06:31,440 --> 00:06:35,400
+power to be one of those people. But to
+
+213
+00:06:33,560 --> 00:06:36,919
+get tactical, first you need what's
+
+214
+00:06:35,400 --> 00:06:38,400
+known as an offer. And I want you to
+
+215
+00:06:36,919 --> 00:06:40,480
+forget about If you've read any info
+
+216
+00:06:38,400 --> 00:06:42,560
+product books, or if you look down on
+
+217
+00:06:40,480 --> 00:06:45,200
+the Hermozis or the Brunson's of the
+
+218
+00:06:42,560 --> 00:06:47,000
+world, I am not going full This is how
+
+219
+00:06:45,200 --> 00:06:49,000
+you sell guru. I'm breaking down the
+
+220
+00:06:47,000 --> 00:06:50,400
+basics of how every business works, and
+
+221
+00:06:49,000 --> 00:06:52,640
+you're going to find it valuable. So the
+
+222
+00:06:50,400 --> 00:06:54,200
+idea of an offer is what do you sell? So
+
+223
+00:06:52,640 --> 00:06:55,960
+most people will say, "I'm a designer,
+
+224
+00:06:54,200 --> 00:06:57,680
+I'm a copywriter, I'm a video editor,
+
+225
+00:06:55,960 --> 00:06:59,240
+I'm a marketer, I'm a brand strategist,
+
+226
+00:06:57,680 --> 00:07:00,400
+or a creative director. I can do all
+
+227
+00:06:59,240 --> 00:07:02,360
+kinds of things, right?" That's how you
+
+228
+00:07:00,400 --> 00:07:04,480
+approach your look on life. But if you
+
+229
+00:07:02,360 --> 00:07:07,200
+are trying to get clientele, you need to
+
+230
+00:07:04,480 --> 00:07:11,000
+be able to fill in this blank. I do X
+
+231
+00:07:07,200 --> 00:07:13,240
+for Y at Z. I make landing pages for
+
+232
+00:07:11,000 --> 00:07:15,720
+e-commerce businesses for $1,500 a
+
+233
+00:07:13,240 --> 00:07:18,680
+landing page. I do brand identities for
+
+234
+00:07:15,720 --> 00:07:21,120
+tech companies for $5,000 in 2 weeks.
+
+235
+00:07:18,680 --> 00:07:24,480
+That is an offer. It is a singular thing
+
+236
+00:07:21,120 --> 00:07:26,280
+at a set price for a niche. That is how
+
+237
+00:07:24,480 --> 00:07:27,960
+you translate from I'm a designer, I do
+
+238
+00:07:26,280 --> 00:07:29,680
+all sorts of stuff to I can fit a
+
+239
+00:07:27,960 --> 00:07:32,120
+consumer need. Cuz let me play out a
+
+240
+00:07:29,680 --> 00:07:33,760
+scenario for you of how this flow works.
+
+241
+00:07:32,120 --> 00:07:35,200
+You post on social media, or you get a
+
+242
+00:07:33,760 --> 00:07:36,560
+referral, or someone's looking at your
+
+243
+00:07:35,200 --> 00:07:38,040
+work, and they need that service.
+
+244
+00:07:36,560 --> 00:07:39,360
+They're looking for a specific thing, a
+
+245
+00:07:38,040 --> 00:07:40,960
+brand identity, something for their
+
+246
+00:07:39,360 --> 00:07:42,360
+brand. They go to your website, they see
+
+247
+00:07:40,960 --> 00:07:43,360
+a bunch of work, but they don't see any
+
+248
+00:07:42,360 --> 00:07:45,000
+pricing. So I don't know if you're
+
+249
+00:07:43,360 --> 00:07:46,120
+expensive or if you're cheap. And they
+
+250
+00:07:45,000 --> 00:07:47,200
+don't really and you'll see a list of
+
+251
+00:07:46,120 --> 00:07:48,960
+services but you don't really know what
+
+252
+00:07:47,200 --> 00:07:50,800
+it looks like or what it does. Your job
+
+253
+00:07:48,960 --> 00:07:52,440
+as a service provider is to communicate
+
+254
+00:07:50,800 --> 00:07:54,240
+that to them. And to make repeatable
+
+255
+00:07:52,440 --> 00:07:55,920
+things that you know and what to expect.
+
+256
+00:07:54,240 --> 00:07:57,240
+This doesn't limit you from doing all
+
+257
+00:07:55,920 --> 00:07:59,160
+kinds of other stuff once you're in
+
+258
+00:07:57,240 --> 00:08:00,600
+conversation but it makes it easy for
+
+259
+00:07:59,160 --> 00:08:02,320
+someone to buy. Makes it easier for
+
+260
+00:08:00,600 --> 00:08:03,640
+someone to go, I need a logo. It's going
+
+261
+00:08:02,320 --> 00:08:05,560
+to take me 2 weeks. It's going to cost
+
+262
+00:08:03,640 --> 00:08:07,680
+me X and I don't have to get in any
+
+263
+00:08:05,560 --> 00:08:10,080
+awkward scenario or try to book a call
+
+264
+00:08:07,680 --> 00:08:12,680
+to find out. Eliminate that distraction.
+
+265
+00:08:10,080 --> 00:08:14,160
+Productize just one core thing you do.
+
+266
+00:08:12,680 --> 00:08:16,040
+And again, you can still offer a whole
+
+267
+00:08:14,160 --> 00:08:18,080
+world around it but the magic of the
+
+268
+00:08:16,040 --> 00:08:19,560
+offer is you get to see if people care
+
+269
+00:08:18,080 --> 00:08:21,560
+enough to buy it. You get to see if you
+
+270
+00:08:19,560 --> 00:08:24,080
+can develop and refine it, what you can
+
+271
+00:08:21,560 --> 00:08:25,919
+charge, etc. And this all goes down on
+
+272
+00:08:24,080 --> 00:08:27,840
+your website. So one of the most popular
+
+273
+00:08:25,919 --> 00:08:29,680
+ones right now is the brand identity
+
+274
+00:08:27,840 --> 00:08:31,280
+offer. And I'm just picking some from
+
+275
+00:08:29,680 --> 00:08:32,640
+what I showed on X. It's great landing
+
+276
+00:08:31,280 --> 00:08:34,280
+page, your product is sharp, your brand
+
+277
+00:08:32,640 --> 00:08:36,240
+is fuzzy, let's fix that. This guy
+
+278
+00:08:34,280 --> 00:08:38,240
+details himself here, the brands he's
+
+279
+00:08:36,240 --> 00:08:40,560
+worked with. And here is his deal. I
+
+280
+00:08:38,240 --> 00:08:43,479
+will give you a brand in 4 weeks for
+
+281
+00:08:40,560 --> 00:08:45,400
+$15,000. I will give you a strategy for
+
+282
+00:08:43,479 --> 00:08:47,080
+$5,000. You want to see an example of
+
+283
+00:08:45,400 --> 00:08:48,720
+the file? It's there. You can literally
+
+284
+00:08:47,080 --> 00:08:50,240
+click through and see an example of what
+
+285
+00:08:48,720 --> 00:08:52,000
+one of the deliverables will look like
+
+286
+00:08:50,240 --> 00:08:53,520
+in straight up in a Figma file. That is
+
+287
+00:08:52,000 --> 00:08:56,360
+a straightforward offer. Another
+
+288
+00:08:53,520 --> 00:08:58,880
+branding one, $10,000 3 to 4 weeks just
+
+289
+00:08:56,360 --> 00:09:01,280
+for B2B SaaS. They niche down. We do
+
+290
+00:08:58,880 --> 00:09:03,120
+design for this particular type of
+
+291
+00:09:01,280 --> 00:09:04,880
+company. We will do your brand and your
+
+292
+00:09:03,120 --> 00:09:06,600
+website. And they have this locked in.
+
+293
+00:09:04,880 --> 00:09:08,520
+That is their offer. And I want to call
+
+294
+00:09:06,600 --> 00:09:10,320
+out what differentiates a product,
+
+295
+00:09:08,520 --> 00:09:11,880
+right? If you've built anything that you
+
+296
+00:09:10,320 --> 00:09:13,520
+offer as a service, you've probably
+
+297
+00:09:11,880 --> 00:09:15,360
+heard the adage that you are either
+
+298
+00:09:13,520 --> 00:09:16,760
+better, faster, or cheaper. But those
+
+299
+00:09:15,360 --> 00:09:18,720
+are your three options. You have to
+
+300
+00:09:16,760 --> 00:09:20,200
+stand out on one, ideally two of them,
+
+301
+00:09:18,720 --> 00:09:21,520
+and you can never have all three, right?
+
+302
+00:09:20,200 --> 00:09:23,120
+So whatever you offer, are you
+
+303
+00:09:21,520 --> 00:09:25,200
+significantly better than everyone else
+
+304
+00:09:23,120 --> 00:09:27,720
+out there? Your designs, your edits,
+
+305
+00:09:25,200 --> 00:09:29,120
+that good? You can then sit on your
+
+306
+00:09:27,720 --> 00:09:31,080
+laurels. And I would tell you look
+
+307
+00:09:29,120 --> 00:09:32,800
+objectively at your work. Are you really
+
+308
+00:09:31,080 --> 00:09:34,080
+that good? And if you are, leverage it.
+
+309
+00:09:32,800 --> 00:09:36,000
+Don't give up your time. Don't
+
+310
+00:09:34,080 --> 00:09:37,360
+undercharge. Sit on it. But you have to
+
+311
+00:09:36,000 --> 00:09:39,040
+really acknowledge if you're that good
+
+312
+00:09:37,360 --> 00:09:40,840
+or not. And frankly, most people aren't.
+
+313
+00:09:39,040 --> 00:09:43,120
+I offered websites for a long time as a
+
+314
+00:09:40,840 --> 00:09:45,240
+side hustle I had at design jobs. I
+
+315
+00:09:43,120 --> 00:09:46,840
+offered corporate websites. I was not
+
+316
+00:09:45,240 --> 00:09:49,240
+making the best websites in the world.
+
+317
+00:09:46,840 --> 00:09:51,280
+But, I had a 6-week front-end process
+
+318
+00:09:49,240 --> 00:09:52,560
+that included copywriting and messaging
+
+319
+00:09:51,280 --> 00:09:53,840
+was one of the biggest hiccups that
+
+320
+00:09:52,560 --> 00:09:55,200
+people had. They couldn't work through
+
+321
+00:09:53,840 --> 00:09:56,480
+it. I would do the messaging with
+
+322
+00:09:55,200 --> 00:09:58,120
+people. It's something I was good at.
+
+323
+00:09:56,480 --> 00:09:59,320
+And my price was decently low. So, they
+
+324
+00:09:58,120 --> 00:10:01,520
+knew they could get something done in
+
+325
+00:09:59,320 --> 00:10:03,440
+time from me that hit a pain point of
+
+326
+00:10:01,520 --> 00:10:05,440
+messaging, even if it wasn't the best
+
+327
+00:10:03,440 --> 00:10:07,160
+offer out there. And now it's swapped. I
+
+328
+00:10:05,440 --> 00:10:08,920
+don't do much creative strategy anymore
+
+329
+00:10:07,160 --> 00:10:10,640
+except for the biggest brands. I do it
+
+330
+00:10:08,920 --> 00:10:12,400
+at the highest premium. And they work
+
+331
+00:10:10,640 --> 00:10:13,920
+basically on my terms. Cuz I've
+
+332
+00:10:12,400 --> 00:10:15,440
+established through internet credibility
+
+333
+00:10:13,920 --> 00:10:17,480
+in all the campaigns that there's hard
+
+334
+00:10:15,440 --> 00:10:18,720
+to get anyone that good who understands
+
+335
+00:10:17,480 --> 00:10:19,960
+the internet in the same way. And so, I
+
+336
+00:10:18,720 --> 00:10:21,440
+can leverage a different side of it.
+
+337
+00:10:19,960 --> 00:10:23,120
+That's how things translate over a
+
+338
+00:10:21,440 --> 00:10:24,240
+career. And so, to think about where you
+
+339
+00:10:23,120 --> 00:10:25,360
+are and what it is you can offer. If
+
+340
+00:10:24,240 --> 00:10:26,800
+you're new and you're starting out and
+
+341
+00:10:25,360 --> 00:10:28,520
+you're not as good, and you can't offer
+
+342
+00:10:26,800 --> 00:10:30,240
+it as fast, but you're willing to work
+
+343
+00:10:28,520 --> 00:10:32,440
+for the low to put those reps in, you
+
+344
+00:10:30,240 --> 00:10:34,240
+have the cheapness. And time has become
+
+345
+00:10:32,440 --> 00:10:36,000
+a big one. You will see this idea of
+
+346
+00:10:34,240 --> 00:10:38,960
+brand sprints, the ability to book a
+
+347
+00:10:36,000 --> 00:10:40,760
+sprint. 5K for 10 icons, five custom
+
+348
+00:10:38,960 --> 00:10:42,400
+illustrations, two to three polished UI
+
+349
+00:10:40,760 --> 00:10:44,400
+screens from this guy Dmitri. You can
+
+350
+00:10:42,400 --> 00:10:46,120
+get a There's brands that need a lot of
+
+351
+00:10:44,400 --> 00:10:47,800
+this type of illustration work. You can
+
+352
+00:10:46,120 --> 00:10:49,360
+get it at a set cost. You know what
+
+353
+00:10:47,800 --> 00:10:50,720
+you're buying into within a set time.
+
+354
+00:10:49,360 --> 00:10:52,680
+You know when it's going to be done.
+
+355
+00:10:50,720 --> 00:10:53,720
+This is the way that people consume now,
+
+356
+00:10:52,680 --> 00:10:55,760
+especially if they just go to your
+
+357
+00:10:53,720 --> 00:10:57,680
+social media profile to look at your
+
+358
+00:10:55,760 --> 00:10:59,280
+bio, go to your website, and then that
+
+359
+00:10:57,680 --> 00:11:00,800
+may be the last time they interact with
+
+360
+00:10:59,280 --> 00:11:02,200
+you. Give them the ability to purchase
+
+361
+00:11:00,800 --> 00:11:03,720
+what they want. And I purchased from
+
+362
+00:11:02,200 --> 00:11:05,640
+something like this. When I went to redo
+
+363
+00:11:03,720 --> 00:11:07,680
+the landing pages, so I had my website
+
+364
+00:11:05,640 --> 00:11:10,080
+done in Framer. We got all of this from
+
+365
+00:11:07,680 --> 00:11:12,240
+a landing page designer. What he does is
+
+366
+00:11:10,080 --> 00:11:13,480
+landing pages. I cannot buy anything
+
+367
+00:11:12,240 --> 00:11:15,160
+else from him. We tried to get him to do
+
+368
+00:11:13,480 --> 00:11:18,440
+some maintenance, some other stuff. He
+
+369
+00:11:15,160 --> 00:11:20,000
+does landing pages. One single page.
+
+370
+00:11:18,440 --> 00:11:21,720
+He's done pages for me for webinars.
+
+371
+00:11:20,000 --> 00:11:23,360
+He's done sales pages for products that
+
+372
+00:11:21,720 --> 00:11:25,760
+I sell. He's done core websites. But,
+
+373
+00:11:23,360 --> 00:11:26,960
+that is the offer, one page. But, I know
+
+374
+00:11:25,760 --> 00:11:28,400
+anytime I need a landing page for
+
+375
+00:11:26,960 --> 00:11:30,120
+anything, I want it done in Framer, and
+
+376
+00:11:28,400 --> 00:11:31,720
+I want it to look good, I can go to him.
+
+377
+00:11:30,120 --> 00:11:33,080
+And there's others like him on Contra
+
+378
+00:11:31,720 --> 00:11:34,720
+that have different styles and skill
+
+379
+00:11:33,080 --> 00:11:36,560
+sets and capabilities. But now we're
+
+380
+00:11:34,720 --> 00:11:38,200
+going to talk about the funnel. A few
+
+381
+00:11:36,560 --> 00:11:40,120
+key concepts for you to know as a
+
+382
+00:11:38,200 --> 00:11:42,320
+creative. So the funnel is the idea of
+
+383
+00:11:40,120 --> 00:11:43,960
+turning a visitor on your website into a
+
+384
+00:11:42,320 --> 00:11:45,280
+customer. So you look at all the Framer
+
+385
+00:11:43,960 --> 00:11:46,880
+sites that I showed, you'll notice
+
+386
+00:11:45,280 --> 00:11:49,000
+there's lots of call to actions to book
+
+387
+00:11:46,880 --> 00:11:51,040
+a call or get a download or sign up for
+
+388
+00:11:49,000 --> 00:11:52,840
+the waitlist as getting people into a
+
+389
+00:11:51,040 --> 00:11:54,760
+funnel where then they're sold through
+
+390
+00:11:52,840 --> 00:11:56,640
+another page on your website or through
+
+391
+00:11:54,760 --> 00:11:58,000
+emails over time. This is important
+
+392
+00:11:56,640 --> 00:11:59,600
+thing to understand. I'm going to break
+
+393
+00:11:58,000 --> 00:12:00,760
+down several types of funnels and how
+
+394
+00:11:59,600 --> 00:12:02,200
+they work for creative work here in a
+
+395
+00:12:00,760 --> 00:12:03,680
+second. But just understand that concept
+
+396
+00:12:02,200 --> 00:12:05,080
+first. You want to use your website to
+
+397
+00:12:03,680 --> 00:12:07,560
+bring people on a journey. They may not
+
+398
+00:12:05,080 --> 00:12:08,560
+buy off that first page. How do you get
+
+399
+00:12:07,560 --> 00:12:10,160
+them into your world and then
+
+400
+00:12:08,560 --> 00:12:11,440
+communicate with them until they close a
+
+401
+00:12:10,160 --> 00:12:13,360
+sale. And to understand funnels, you
+
+402
+00:12:11,440 --> 00:12:14,600
+also need to understand VSLs or video
+
+403
+00:12:13,360 --> 00:12:16,120
+sales letters. Let's go into the back
+
+404
+00:12:14,600 --> 00:12:17,880
+end of my website here in Framer. So you
+
+405
+00:12:16,120 --> 00:12:19,720
+can see this is an example of a landing
+
+406
+00:12:17,880 --> 00:12:20,800
+page I have in their back end UI. So I
+
+407
+00:12:19,720 --> 00:12:22,320
+can go here and I can click and I can
+
+408
+00:12:20,800 --> 00:12:24,560
+edit anything. But you will see there is
+
+409
+00:12:22,320 --> 00:12:26,160
+an 11-minute video, basically a YouTube
+
+410
+00:12:24,560 --> 00:12:27,480
+video, in the middle of this page. And
+
+411
+00:12:26,160 --> 00:12:28,840
+it's what's called a VSL. So when you
+
+412
+00:12:27,480 --> 00:12:30,280
+put together a description for your
+
+413
+00:12:28,840 --> 00:12:31,480
+offer, I'm going to help you do that
+
+414
+00:12:30,280 --> 00:12:32,560
+here in a minute. One of the tools that
+
+415
+00:12:31,480 --> 00:12:34,040
+you have, whether you're doing it for
+
+416
+00:12:32,560 --> 00:12:35,760
+yourself or you're doing it for others,
+
+417
+00:12:34,040 --> 00:12:37,320
+cuz putting these together is a really
+
+418
+00:12:35,760 --> 00:12:38,480
+valuable skill that people have, is that
+
+419
+00:12:37,320 --> 00:12:40,080
+there's people that read and there's
+
+420
+00:12:38,480 --> 00:12:42,200
+people that watch. And if you're willing
+
+421
+00:12:40,080 --> 00:12:44,240
+to sit down and do a thorough breakdown
+
+422
+00:12:42,200 --> 00:12:45,440
+in a VSL of what you sell, it's going to
+
+423
+00:12:44,240 --> 00:12:46,280
+help your conversion rate. Cuz some
+
+424
+00:12:45,440 --> 00:12:48,040
+people will be like, you know what, I
+
+425
+00:12:46,280 --> 00:12:49,400
+don't want to go read this whole page
+
+426
+00:12:48,040 --> 00:12:50,720
+with all the examples and all the things
+
+427
+00:12:49,400 --> 00:12:52,400
+on it. I just want to watch something.
+
+428
+00:12:50,720 --> 00:12:54,000
+And so in your VSL, you go through in a
+
+429
+00:12:52,400 --> 00:12:55,520
+really specific format. You talk about
+
+430
+00:12:54,000 --> 00:12:57,440
+the problems people are facing that they
+
+431
+00:12:55,520 --> 00:12:59,000
+can't solve. You give your background.
+
+432
+00:12:57,440 --> 00:13:00,760
+You walk through how you help them close
+
+433
+00:12:59,000 --> 00:13:01,920
+the gap on those problems. And then what
+
+434
+00:13:00,760 --> 00:13:03,880
+it looks like to buy from you. There's a
+
+435
+00:13:01,920 --> 00:13:05,240
+million frameworks of formats for that
+
+436
+00:13:03,880 --> 00:13:06,520
+that you can find online. But as a
+
+437
+00:13:05,240 --> 00:13:07,720
+creative, if you're ever going to sell a
+
+438
+00:13:06,520 --> 00:13:09,160
+freelance thing or if you're ever going
+
+439
+00:13:07,720 --> 00:13:11,240
+to have an agency or if you're going to
+
+440
+00:13:09,160 --> 00:13:13,240
+work for creators or people that do,
+
+441
+00:13:11,240 --> 00:13:14,920
+understanding the concept of a funnel,
+
+442
+00:13:13,240 --> 00:13:17,440
+understanding the concept of an offer,
+
+443
+00:13:14,920 --> 00:13:19,960
+and understanding a VSL are crucial
+
+444
+00:13:17,440 --> 00:13:21,520
+parts to knowing how the internet works
+
+445
+00:13:19,960 --> 00:13:22,760
+and how things sell on the internet. And
+
+446
+00:13:21,520 --> 00:13:24,280
+then I'll introduce you to a concept
+
+447
+00:13:22,760 --> 00:13:25,320
+called offer stacking. So some of you
+
+448
+00:13:24,280 --> 00:13:27,400
+have heard, you've probably heard me
+
+449
+00:13:25,320 --> 00:13:29,000
+tell this story before of Eddie who used
+
+450
+00:13:27,400 --> 00:13:30,520
+to film my YouTube videos. He used to be
+
+451
+00:13:29,000 --> 00:13:31,480
+behind this camera right here. He was a
+
+452
+00:13:30,520 --> 00:13:32,960
+videographer and he offered a
+
+453
+00:13:31,480 --> 00:13:34,320
+videography service. And he did what's
+
+454
+00:13:32,960 --> 00:13:35,960
+called offer stacking. So, it turned
+
+455
+00:13:34,320 --> 00:13:37,520
+into, "Hey, I can shoot the videos, but
+
+456
+00:13:35,960 --> 00:13:38,920
+also I can run the meta ads." He had
+
+457
+00:13:37,520 --> 00:13:40,040
+learned that skill through a course or
+
+458
+00:13:38,920 --> 00:13:41,360
+similar. So, you could get multiple
+
+459
+00:13:40,040 --> 00:13:43,000
+things from him. But then it's turned
+
+460
+00:13:41,360 --> 00:13:45,120
+into what he does now where he sells
+
+461
+00:13:43,000 --> 00:13:47,320
+literally he will create edited videos
+
+462
+00:13:45,120 --> 00:13:49,680
+that are VSLs that are meant to work in
+
+463
+00:13:47,320 --> 00:13:51,160
+meta ads for clienteles and services
+
+464
+00:13:49,680 --> 00:13:52,640
+businesses. You can click here to watch
+
+465
+00:13:51,160 --> 00:13:54,320
+some of the ads he does, but he has his
+
+466
+00:13:52,640 --> 00:13:56,480
+specific hooks, he has his specific
+
+467
+00:13:54,320 --> 00:13:57,560
+styles he does to run those ads, and he
+
+468
+00:13:56,480 --> 00:13:59,280
+will help them actually get off the
+
+469
+00:13:57,560 --> 00:14:01,200
+ground in the ad account and generate
+
+470
+00:13:59,280 --> 00:14:03,040
+leads at specific costs. So, he's been
+
+471
+00:14:01,200 --> 00:14:04,560
+able to take his stack of skills, "Hey,
+
+472
+00:14:03,040 --> 00:14:06,720
+I'm a videographer. Hey, I can run meta.
+
+473
+00:14:04,560 --> 00:14:08,560
+Hey, I understand VSLs and scripting and
+
+474
+00:14:06,720 --> 00:14:10,600
+putting together converting ad formats.
+
+475
+00:14:08,560 --> 00:14:12,360
+Now I sell an offer where the sum of
+
+476
+00:14:10,600 --> 00:14:14,200
+that offer allows you to get paid more
+
+477
+00:14:12,360 --> 00:14:16,360
+than its individual parts." That's a
+
+478
+00:14:14,200 --> 00:14:17,920
+great way to think about how you build
+
+479
+00:14:16,360 --> 00:14:20,080
+up your creative toolkit over time. And
+
+480
+00:14:17,920 --> 00:14:21,120
+this goes for the higher end as well.
+
+481
+00:14:20,080 --> 00:14:22,440
+Because if you're already a brand
+
+482
+00:14:21,120 --> 00:14:23,520
+strategist and you're at the top of your
+
+483
+00:14:22,440 --> 00:14:25,440
+game and then you also become a really
+
+484
+00:14:23,520 --> 00:14:26,760
+savvy media buyer or go to down a level,
+
+485
+00:14:25,440 --> 00:14:28,120
+become a creator. Then they begin
+
+486
+00:14:26,760 --> 00:14:29,480
+thinking like a director of production.
+
+487
+00:14:28,120 --> 00:14:31,440
+Adding in that skillset makes you even
+
+488
+00:14:29,480 --> 00:14:32,520
+more of a weapon throughout your career
+
+489
+00:14:31,440 --> 00:14:33,760
+and what you're capable of, what you're
+
+490
+00:14:32,520 --> 00:14:35,560
+going to be able to charge. I've noticed
+
+491
+00:14:33,760 --> 00:14:37,040
+this with several people who were good
+
+492
+00:14:35,560 --> 00:14:39,320
+creators, who were started as
+
+493
+00:14:37,040 --> 00:14:40,560
+videographers, became great creators.
+
+494
+00:14:39,320 --> 00:14:41,800
+Because they became great creators,
+
+495
+00:14:40,560 --> 00:14:43,240
+they're able to script and know what
+
+496
+00:14:41,800 --> 00:14:44,960
+works on the internet and now are able
+
+497
+00:14:43,240 --> 00:14:46,600
+to pitch their small production studios.
+
+498
+00:14:44,960 --> 00:14:48,839
+Instead of doing music videos, they're
+
+499
+00:14:46,600 --> 00:14:50,200
+competing for ads for global brands
+
+500
+00:14:48,839 --> 00:14:53,000
+where your budgets can start stretching
+
+501
+00:14:50,200 --> 00:14:54,400
+from 50K to 500K. But offer stacking and
+
+502
+00:14:53,000 --> 00:14:55,800
+skill stacking in general is worth
+
+503
+00:14:54,400 --> 00:14:56,920
+thinking through. And the last concept
+
+504
+00:14:55,800 --> 00:14:58,839
+before we get into how to actually make
+
+505
+00:14:56,920 --> 00:15:00,160
+some of this is the CRM. I'm not going
+
+506
+00:14:58,839 --> 00:15:01,400
+to dive deep into this in this video. I
+
+507
+00:15:00,160 --> 00:15:02,960
+will hit it thoroughly in a future
+
+508
+00:15:01,400 --> 00:15:05,200
+video. But the idea that you need
+
+509
+00:15:02,960 --> 00:15:06,520
+customer record management. So, all
+
+510
+00:15:05,200 --> 00:15:07,560
+those contacts that you have, people
+
+511
+00:15:06,520 --> 00:15:09,120
+that sign up, people that didn't
+
+512
+00:15:07,560 --> 00:15:10,880
+convert, leads and things you have, you
+
+513
+00:15:09,120 --> 00:15:12,440
+store them somewhere, you communicate
+
+514
+00:15:10,880 --> 00:15:14,080
+with them. If you combine all these
+
+515
+00:15:12,440 --> 00:15:15,080
+concepts we had, the funnel the people
+
+516
+00:15:14,080 --> 00:15:16,160
+are going to go through websites, you're
+
+517
+00:15:15,080 --> 00:15:17,839
+going to have to do more than just show
+
+518
+00:15:16,160 --> 00:15:19,440
+them a page to get them to buy, the
+
+519
+00:15:17,839 --> 00:15:20,600
+offer that you sell a really particular
+
+520
+00:15:19,440 --> 00:15:22,320
+thing, a a
+
+521
+00:15:20,600 --> 00:15:24,600
+or a video that helps you sell doing
+
+522
+00:15:22,320 --> 00:15:25,720
+that, a stack of these offers on top of
+
+523
+00:15:24,600 --> 00:15:27,800
+each other to sell something that's
+
+524
+00:15:25,720 --> 00:15:29,040
+worth more, and records of the customers
+
+525
+00:15:27,800 --> 00:15:30,360
+and people that haven't bought from you
+
+526
+00:15:29,040 --> 00:15:32,840
+that you're able to communicate to to
+
+527
+00:15:30,360 --> 00:15:34,560
+sell new things, you now understand the
+
+528
+00:15:32,840 --> 00:15:36,880
+services business. And so, if you want
+
+529
+00:15:34,560 --> 00:15:38,920
+to get started in making websites like
+
+530
+00:15:36,880 --> 00:15:40,320
+this, actually putting some of this into
+
+531
+00:15:38,920 --> 00:15:42,360
+action, I'm going to walk you through
+
+532
+00:15:40,320 --> 00:15:44,800
+Framer templates, which is the quickest
+
+533
+00:15:42,360 --> 00:15:46,280
+way to stop procrastinating and actually
+
+534
+00:15:44,800 --> 00:15:47,840
+build this. So, first, a few of the
+
+535
+00:15:46,280 --> 00:15:49,400
+templates that I absolutely love that
+
+536
+00:15:47,840 --> 00:15:51,560
+you should be looking at. First is this
+
+537
+00:15:49,400 --> 00:15:53,960
+abstract template. It's a good dark
+
+538
+00:15:51,560 --> 00:15:55,520
+mode, simple template. Artemis is one of
+
+539
+00:15:53,960 --> 00:15:57,760
+my favorite portfolio templates. If
+
+540
+00:15:55,520 --> 00:15:59,320
+you're showing off a wide body of work,
+
+541
+00:15:57,760 --> 00:16:01,000
+they have all these cool little ways you
+
+542
+00:15:59,320 --> 00:16:02,520
+can actually see it. So, you can see how
+
+543
+00:16:01,000 --> 00:16:04,160
+all the cards are related to their
+
+544
+00:16:02,520 --> 00:16:06,160
+various projects. You can see the
+
+545
+00:16:04,160 --> 00:16:07,640
+designs in action. This Drilio theme,
+
+546
+00:16:06,160 --> 00:16:09,200
+when we talk about landing pages and
+
+547
+00:16:07,640 --> 00:16:10,840
+building landing pages, this is a great
+
+548
+00:16:09,200 --> 00:16:12,360
+one. This is built for SaaS landing
+
+549
+00:16:10,840 --> 00:16:13,720
+pages. And what I like in general is you
+
+550
+00:16:12,360 --> 00:16:14,960
+can go to any of the categories on
+
+551
+00:16:13,720 --> 00:16:16,000
+Framer. And so, we were talking about
+
+552
+00:16:14,960 --> 00:16:17,360
+funnels, we're talking about landing
+
+553
+00:16:16,000 --> 00:16:19,320
+pages. You're going to be able to see a
+
+554
+00:16:17,360 --> 00:16:20,560
+ton that are either free, and all of
+
+555
+00:16:19,320 --> 00:16:22,680
+those ones that I showed were also free,
+
+556
+00:16:20,560 --> 00:16:23,920
+all the way up to 80 bucks, $129, that
+
+557
+00:16:22,680 --> 00:16:25,760
+kind of thing. But this one here, this
+
+558
+00:16:23,920 --> 00:16:27,040
+is one I actually chose on a previous
+
+559
+00:16:25,760 --> 00:16:28,400
+project. And I'm going to show you what
+
+560
+00:16:27,040 --> 00:16:30,400
+that looks like. So, we bought this
+
+561
+00:16:28,400 --> 00:16:32,440
+theme, this Swiss style theme, awesome
+
+562
+00:16:30,400 --> 00:16:33,839
+portfolio theme. So, what happens then?
+
+563
+00:16:32,440 --> 00:16:35,640
+So, if you've never been in Framer
+
+564
+00:16:33,839 --> 00:16:37,240
+before, this is what it looks like. So,
+
+565
+00:16:35,640 --> 00:16:39,080
+when you install a theme, you get all
+
+566
+00:16:37,240 --> 00:16:40,480
+the pages here on the left-hand side.
+
+567
+00:16:39,080 --> 00:16:41,960
+You have pages, you have layers, you
+
+568
+00:16:40,480 --> 00:16:43,760
+have assets. But the page will
+
+569
+00:16:41,960 --> 00:16:46,160
+automatically show in its different
+
+570
+00:16:43,760 --> 00:16:48,320
+responsive styles. So, desktop, tablet.
+
+571
+00:16:46,160 --> 00:16:50,040
+And if I change one, and swap that file,
+
+572
+00:16:48,320 --> 00:16:51,520
+it will swap them all. So, I'm going to
+
+573
+00:16:50,040 --> 00:16:53,360
+get all the different pages in this
+
+574
+00:16:51,520 --> 00:16:55,120
+template is going to outline for me. And
+
+575
+00:16:53,360 --> 00:16:56,760
+so, I can literally go, you'll see on
+
+576
+00:16:55,120 --> 00:16:58,360
+this right side here, you have all your
+
+577
+00:16:56,760 --> 00:17:00,000
+controls. So, if I need to link this
+
+578
+00:16:58,360 --> 00:17:02,160
+image, I can go link there. If I want to
+
+579
+00:17:00,000 --> 00:17:03,360
+add effects or styles, there's tons you
+
+580
+00:17:02,160 --> 00:17:04,839
+can dive into, but honestly, I would
+
+581
+00:17:03,360 --> 00:17:06,079
+just keep it super simple. You can see
+
+582
+00:17:04,839 --> 00:17:07,920
+when I go put text in there, I'm just
+
+583
+00:17:06,079 --> 00:17:09,280
+going to change this to my name. So, if
+
+584
+00:17:07,920 --> 00:17:10,520
+I was doing my portfolio site, and
+
+585
+00:17:09,280 --> 00:17:12,439
+you'll see it was going to move this
+
+586
+00:17:10,520 --> 00:17:13,520
+responsively across it. So, literally,
+
+587
+00:17:12,439 --> 00:17:15,600
+when you start working a template, you
+
+588
+00:17:13,520 --> 00:17:17,400
+can just go in and refill in with your
+
+589
+00:17:15,600 --> 00:17:18,800
+content as the first easiest step. And
+
+590
+00:17:17,400 --> 00:17:20,480
+you can get more advanced, you can apply
+
+591
+00:17:18,800 --> 00:17:22,360
+more designs, but even just going in and
+
+592
+00:17:20,480 --> 00:17:24,720
+swapping in your own images, down here
+
+593
+00:17:22,360 --> 00:17:26,439
+you see styles, fill, swap the image,
+
+594
+00:17:24,720 --> 00:17:27,880
+will automatically make it responsive,
+
+595
+00:17:26,439 --> 00:17:30,240
+and everything that I edit will edit
+
+596
+00:17:27,880 --> 00:17:32,360
+across the styles and sizes. And you can
+
+597
+00:17:30,240 --> 00:17:33,720
+see here some of the final results of me
+
+598
+00:17:32,360 --> 00:17:35,160
+working with the template. And I would
+
+599
+00:17:33,720 --> 00:17:37,400
+highly recommend just pick one of the
+
+600
+00:17:35,160 --> 00:17:39,040
+free themes, get it inside of one of
+
+601
+00:17:37,400 --> 00:17:41,000
+these, and play around. Swap your
+
+602
+00:17:39,040 --> 00:17:42,640
+content in, work on some messaging, put
+
+603
+00:17:41,000 --> 00:17:44,680
+together a portfolio. You will find as
+
+604
+00:17:42,640 --> 00:17:46,000
+soon as you start, it is so much less
+
+605
+00:17:44,680 --> 00:17:47,240
+intimidating anything. And so I know we
+
+606
+00:17:46,000 --> 00:17:48,760
+dove deep into offers here. I want to
+
+607
+00:17:47,240 --> 00:17:51,480
+get into funnels, too. I'm going to do a
+
+608
+00:17:48,760 --> 00:17:52,680
+whole separate video just on funnels. My
+
+609
+00:17:51,480 --> 00:17:54,120
+goal is to have you structure your
+
+610
+00:17:52,680 --> 00:17:56,360
+creative business, and then build a
+
+611
+00:17:54,120 --> 00:17:57,760
+toolkit to know how to sell it, and to
+
+612
+00:17:56,360 --> 00:17:59,240
+know what better to sell others, right?
+
+613
+00:17:57,760 --> 00:18:01,000
+Cuz you get good at offers and landing
+
+614
+00:17:59,240 --> 00:18:02,400
+pages for yourself, all of a sudden you
+
+615
+00:18:01,000 --> 00:18:03,640
+can begin to actually think in your
+
+616
+00:18:02,400 --> 00:18:05,280
+client's shoes for how they should
+
+617
+00:18:03,640 --> 00:18:06,720
+approach their business. You know, find
+
+618
+00:18:05,280 --> 00:18:08,000
+us where a lot of savvy creatives are
+
+619
+00:18:06,720 --> 00:18:09,480
+like. But as you do that, you're going
+
+620
+00:18:08,000 --> 00:18:11,080
+to get more and more confidence to ask
+
+621
+00:18:09,480 --> 00:18:12,280
+for the money that you deserve. Now, if
+
+622
+00:18:11,080 --> 00:18:13,960
+you have questions on building your
+
+623
+00:18:12,280 --> 00:18:15,360
+creative practice, structuring your
+
+624
+00:18:13,960 --> 00:18:16,400
+offers, things on the funnels, please
+
+625
+00:18:15,360 --> 00:18:17,520
+drop them below cuz like I mentioned,
+
+626
+00:18:16,400 --> 00:18:19,120
+I'm going to do funnels. I will keep
+
+627
+00:18:17,520 --> 00:18:20,760
+this series going, and I want to make
+
+628
+00:18:19,120 --> 00:18:22,040
+sure I can tap all those questions. And
+
+629
+00:18:20,760 --> 00:18:23,600
+you can feel free to ask them on the
+
+630
+00:18:22,040 --> 00:18:25,120
+next community call. I have the details
+
+631
+00:18:23,600 --> 00:18:27,040
+on that down below as well. So you'll be
+
+632
+00:18:25,120 --> 00:18:28,920
+able to find links to go tap in with
+
+633
+00:18:27,040 --> 00:18:30,120
+Framer, or join the next kind of group
+
+634
+00:18:28,920 --> 00:18:31,880
+community meeting where I'll go through
+
+635
+00:18:30,120 --> 00:18:34,000
+Q&A. And we can do some website building
+
+636
+00:18:31,880 --> 00:18:35,200
+inside there if you want as well. Hope
+
+637
+00:18:34,000 --> 00:18:39,280
+you found some value here, and as
+
+638
+00:18:35,200 --> 00:18:39,280
+always, thank you so much for watching.
+

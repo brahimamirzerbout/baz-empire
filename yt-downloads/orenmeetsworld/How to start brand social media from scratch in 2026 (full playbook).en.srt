@@ -1,0 +1,4556 @@
+1
+00:00:00,080 --> 00:00:03,040
+In this video, we are going to walk
+
+2
+00:00:01,360 --> 00:00:06,080
+through starting social media for a
+
+3
+00:00:03,040 --> 00:00:08,559
+brand from scratch going into 2026 or
+
+4
+00:00:06,080 --> 00:00:10,559
+how to fix and scale one that you
+
+5
+00:00:08,559 --> 00:00:11,679
+already have. I am fired up for this
+
+6
+00:00:10,559 --> 00:00:13,440
+because this is something I get asked
+
+7
+00:00:11,679 --> 00:00:14,880
+about in the comments all the time.
+
+8
+00:00:13,440 --> 00:00:16,960
+Since I work with all kinds of big
+
+9
+00:00:14,880 --> 00:00:18,800
+brands, I am deep in our direction,
+
+10
+00:00:16,960 --> 00:00:21,199
+content strategy. I know a lot of you
+
+11
+00:00:18,800 --> 00:00:22,880
+are just trying to get off the ground or
+
+12
+00:00:21,199 --> 00:00:24,400
+fix something that has gone off the
+
+13
+00:00:22,880 --> 00:00:26,560
+rails and we're going to tap into that
+
+14
+00:00:24,400 --> 00:00:28,240
+in this video. We are going to cover the
+
+15
+00:00:26,560 --> 00:00:29,920
+three content types that you should
+
+16
+00:00:28,240 --> 00:00:31,599
+really be doing that will give you the
+
+17
+00:00:29,920 --> 00:00:33,600
+biggest bang for your buck in terms of
+
+18
+00:00:31,599 --> 00:00:34,960
+return, virality, and generating real
+
+19
+00:00:33,600 --> 00:00:37,120
+business value. We're going to cover
+
+20
+00:00:34,960 --> 00:00:39,280
+your posting cadence, what analytics to
+
+21
+00:00:37,120 --> 00:00:40,879
+pay attention to, how content plays into
+
+22
+00:00:39,280 --> 00:00:41,840
+your bigger overall marketing funnel.
+
+23
+00:00:40,879 --> 00:00:43,920
+It's basically going to be like a
+
+24
+00:00:41,840 --> 00:00:46,079
+7minute MBA of what they should teach
+
+25
+00:00:43,920 --> 00:00:47,760
+you about business, all presented here
+
+26
+00:00:46,079 --> 00:00:49,039
+in context of social. And I'm actually
+
+27
+00:00:47,760 --> 00:00:50,879
+going to rip through all the common
+
+28
+00:00:49,039 --> 00:00:52,320
+misconceptions that people have about
+
+29
+00:00:50,879 --> 00:00:53,840
+social media, what account types to
+
+30
+00:00:52,320 --> 00:00:55,760
+have, where to start them from, so you
+
+31
+00:00:53,840 --> 00:00:57,840
+can just cross all that off. My goal in
+
+32
+00:00:55,760 --> 00:01:00,000
+this video is that you have no excuse
+
+33
+00:00:57,840 --> 00:01:01,520
+not to get started with a plan or fix
+
+34
+00:01:00,000 --> 00:01:03,039
+your existing social media, and we'll
+
+35
+00:01:01,520 --> 00:01:05,119
+have some fun along the way. Let's lock
+
+36
+00:01:03,039 --> 00:01:07,280
+in. To make this even more actionable,
+
+37
+00:01:05,119 --> 00:01:09,119
+we are bringing back the Cut 30 free
+
+38
+00:01:07,280 --> 00:01:10,400
+3-day challenge. I've linked it down in
+
+39
+00:01:09,119 --> 00:01:12,159
+the description, but you can make
+
+40
+00:01:10,400 --> 00:01:14,159
+content with us for three days with
+
+41
+00:01:12,159 --> 00:01:16,240
+Zooms where we will feedback it live
+
+42
+00:01:14,159 --> 00:01:17,920
+each day and a curriculum to show you
+
+43
+00:01:16,240 --> 00:01:19,520
+exactly what to do. Videos on how to
+
+44
+00:01:17,920 --> 00:01:21,439
+record that is coming at the end of
+
+45
+00:01:19,520 --> 00:01:22,799
+October. We only do this a couple times
+
+46
+00:01:21,439 --> 00:01:24,159
+a year. So, if you want to take action
+
+47
+00:01:22,799 --> 00:01:26,400
+from some of this, you can lock in with
+
+48
+00:01:24,159 --> 00:01:27,920
+us below. So, first to start, who am I
+
+49
+00:01:26,400 --> 00:01:29,360
+to talk to you about this? And if you're
+
+50
+00:01:27,920 --> 00:01:31,119
+new here, I want to break a bit of this
+
+51
+00:01:29,360 --> 00:01:33,360
+down. So, not only have I built pretty
+
+52
+00:01:31,119 --> 00:01:35,200
+massive social media for myself and for
+
+53
+00:01:33,360 --> 00:01:37,439
+brands that I have led, now I actually
+
+54
+00:01:35,200 --> 00:01:39,119
+work with large brands specifically on
+
+55
+00:01:37,439 --> 00:01:40,560
+their creative strategy. So, I get to
+
+56
+00:01:39,119 --> 00:01:42,400
+see this from a high level and a
+
+57
+00:01:40,560 --> 00:01:45,119
+personal level. I am in the trenches.
+
+58
+00:01:42,400 --> 00:01:46,479
+But also, I have now gotten over 2,000
+
+59
+00:01:45,119 --> 00:01:48,479
+people through Cut 30, which is a
+
+60
+00:01:46,479 --> 00:01:50,240
+program I do with Alex from Sweat Equity
+
+61
+00:01:48,479 --> 00:01:51,600
+and Lambforce, teaching them how to do
+
+62
+00:01:50,240 --> 00:01:52,960
+social media. We've had hundreds of
+
+63
+00:01:51,600 --> 00:01:54,159
+success stories. And here's why this is
+
+64
+00:01:52,960 --> 00:01:56,320
+important is that the people that have
+
+65
+00:01:54,159 --> 00:01:58,079
+succeeded there are all kinds. dentists,
+
+66
+00:01:56,320 --> 00:01:59,680
+doctors, lawyers, people that make
+
+67
+00:01:58,079 --> 00:02:02,159
+baseball slide training tools,
+
+68
+00:01:59,680 --> 00:02:03,840
+homegoods. We have frameworks that work
+
+69
+00:02:02,159 --> 00:02:05,759
+no matter what product you are working
+
+70
+00:02:03,840 --> 00:02:07,759
+on. But also, we get to see the data.
+
+71
+00:02:05,759 --> 00:02:09,440
+There is a 100 people in each cut 30.
+
+72
+00:02:07,759 --> 00:02:11,280
+And we get to see exactly what is
+
+73
+00:02:09,440 --> 00:02:12,800
+working for them every moment, every
+
+74
+00:02:11,280 --> 00:02:14,400
+month. Between all of these things, I
+
+75
+00:02:12,800 --> 00:02:16,720
+feel like I have a pulse on social media
+
+76
+00:02:14,400 --> 00:02:18,560
+that nobody else has. And I love being
+
+77
+00:02:16,720 --> 00:02:20,640
+able to share all of that information
+
+78
+00:02:18,560 --> 00:02:22,879
+right out. But in this video, before we
+
+79
+00:02:20,640 --> 00:02:24,720
+even get to the exciting content side,
+
+80
+00:02:22,879 --> 00:02:27,040
+we are going to talk about the why. I'm
+
+81
+00:02:24,720 --> 00:02:28,239
+going to give you a 7minute MBA and what
+
+82
+00:02:27,040 --> 00:02:29,920
+they should teach you in business
+
+83
+00:02:28,239 --> 00:02:31,599
+school. And in this video, I'm going to
+
+84
+00:02:29,920 --> 00:02:32,800
+zone in on what I think is the best
+
+85
+00:02:31,599 --> 00:02:34,560
+thing you could be doing on social right
+
+86
+00:02:32,800 --> 00:02:36,319
+now. And that is one, a services
+
+87
+00:02:34,560 --> 00:02:38,000
+business. So, if you have an agency or
+
+88
+00:02:36,319 --> 00:02:39,599
+you are a freelancer, that could be
+
+89
+00:02:38,000 --> 00:02:41,200
+website design services, that could be
+
+90
+00:02:39,599 --> 00:02:43,200
+roofing, that could be dentistry,
+
+91
+00:02:41,200 --> 00:02:44,959
+whatever it is. If you have a service,
+
+92
+00:02:43,200 --> 00:02:46,080
+this is going to be ultra applicable to
+
+93
+00:02:44,959 --> 00:02:47,360
+you. And that's one of my biggest
+
+94
+00:02:46,080 --> 00:02:48,879
+requests is okay what if I don't have
+
+95
+00:02:47,360 --> 00:02:50,480
+some amazing looking product in creative
+
+96
+00:02:48,879 --> 00:02:51,840
+direction. So we are tackling that. And
+
+97
+00:02:50,480 --> 00:02:54,080
+the second piece is if you have a
+
+98
+00:02:51,840 --> 00:02:55,599
+product that you can make expert driven.
+
+99
+00:02:54,080 --> 00:02:58,080
+So what do I mean by that? The cheat
+
+100
+00:02:55,599 --> 00:02:59,920
+code right now for branded content that
+
+101
+00:02:58,080 --> 00:03:02,000
+really drives sales and leads is when
+
+102
+00:02:59,920 --> 00:03:03,360
+there is a person or a lens. You can do
+
+103
+00:03:02,000 --> 00:03:05,680
+this with carousels too and we'll get
+
+104
+00:03:03,360 --> 00:03:07,920
+into that. That delivers expertise
+
+105
+00:03:05,680 --> 00:03:09,519
+around the product category to somebody.
+
+106
+00:03:07,920 --> 00:03:11,519
+That is the content that performs the
+
+107
+00:03:09,519 --> 00:03:12,800
+best right now in this moment in 2025.
+
+108
+00:03:11,519 --> 00:03:15,120
+And I'm going to break down those exact
+
+109
+00:03:12,800 --> 00:03:17,120
+formats. scenario, content, breakdowns,
+
+110
+00:03:15,120 --> 00:03:19,519
+rankings, all that. And you could apply
+
+111
+00:03:17,120 --> 00:03:21,360
+this expert approach to services, to
+
+112
+00:03:19,519 --> 00:03:22,879
+retail locations, and to physical
+
+113
+00:03:21,360 --> 00:03:24,480
+products. But to do this, you have to
+
+114
+00:03:22,879 --> 00:03:25,680
+take a step back. Everyone's views on
+
+115
+00:03:24,480 --> 00:03:27,040
+social. Everyone wants success. Every
+
+116
+00:03:25,680 --> 00:03:28,159
+wants to go viral, but they don't really
+
+117
+00:03:27,040 --> 00:03:29,280
+understand what they want to do with
+
+118
+00:03:28,159 --> 00:03:31,360
+that in their business. We're going to
+
+119
+00:03:29,280 --> 00:03:33,440
+lay that out. So, every business follows
+
+120
+00:03:31,360 --> 00:03:34,560
+this marketing master plan. At the top
+
+121
+00:03:33,440 --> 00:03:36,319
+level, you have how do you have
+
+122
+00:03:34,560 --> 00:03:37,760
+awareness for new customers? You can pay
+
+123
+00:03:36,319 --> 00:03:39,040
+for that awareness with advertising.
+
+124
+00:03:37,760 --> 00:03:40,799
+That's type number one. You can get
+
+125
+00:03:39,040 --> 00:03:42,239
+referrals from your existing customers.
+
+126
+00:03:40,799 --> 00:03:44,400
+That's type number two, word of mouth.
+
+127
+00:03:42,239 --> 00:03:46,560
+Number three, you can go cold and chase
+
+128
+00:03:44,400 --> 00:03:49,040
+those down. Cold calling, cold emailing.
+
+129
+00:03:46,560 --> 00:03:50,480
+The last agency that I ran was based
+
+130
+00:03:49,040 --> 00:03:52,319
+entirely off those last two. It was
+
+131
+00:03:50,480 --> 00:03:53,920
+referral and word of mouth. A little bit
+
+132
+00:03:52,319 --> 00:03:56,000
+of content, but the majority was like
+
+133
+00:03:53,920 --> 00:03:57,840
+cold calling, cold DMing. It still
+
+134
+00:03:56,000 --> 00:04:00,000
+works. And then the biggest opportunity
+
+135
+00:03:57,840 --> 00:04:02,000
+being organic social where basically you
+
+136
+00:04:00,000 --> 00:04:04,720
+put time and energy into production, but
+
+137
+00:04:02,000 --> 00:04:06,400
+you get uncapped rewards. How far that
+
+138
+00:04:04,720 --> 00:04:08,400
+can travel on the internet and how long
+
+139
+00:04:06,400 --> 00:04:09,519
+it lasts. And this is one of the first
+
+140
+00:04:08,400 --> 00:04:11,040
+misconceptions I'm going to talk about
+
+141
+00:04:09,519 --> 00:04:12,560
+is people think that short form content
+
+142
+00:04:11,040 --> 00:04:15,040
+in particular is ephemeral. It's done in
+
+143
+00:04:12,560 --> 00:04:17,040
+24 hours, 48 hours. But now, especially
+
+144
+00:04:15,040 --> 00:04:18,079
+that Instagram has been added to Google
+
+145
+00:04:17,040 --> 00:04:19,600
+search. Something I've been talking
+
+146
+00:04:18,079 --> 00:04:21,199
+about with Ash and Jordan and the brand
+
+147
+00:04:19,600 --> 00:04:22,479
+fathers a lot is like the ripple effects
+
+148
+00:04:21,199 --> 00:04:24,240
+of our content. Right now, you can
+
+149
+00:04:22,479 --> 00:04:26,320
+search a lot of sports marketing terms
+
+150
+00:04:24,240 --> 00:04:27,759
+or specific campaigns, etc. Our content
+
+151
+00:04:26,320 --> 00:04:30,080
+comes up in Google and it keeps getting
+
+152
+00:04:27,759 --> 00:04:32,400
+views 3 months later, 6 months later.
+
+153
+00:04:30,080 --> 00:04:34,240
+Seasonality, too. Every time Canton Fair
+
+154
+00:04:32,400 --> 00:04:36,080
+happens in China, all my Canton Fair
+
+155
+00:04:34,240 --> 00:04:38,080
+content blips right back up. You would
+
+156
+00:04:36,080 --> 00:04:40,160
+be shocked at the longl lasting nature
+
+157
+00:04:38,080 --> 00:04:42,240
+of content on short form if it has
+
+158
+00:04:40,160 --> 00:04:44,479
+value. If it's not a skit or something
+
+159
+00:04:42,240 --> 00:04:45,840
+ephemeral in itself and this is why in
+
+160
+00:04:44,479 --> 00:04:48,080
+this video we're going to preach no
+
+161
+00:04:45,840 --> 00:04:49,600
+slop, no quick wins, no I'm going to
+
+162
+00:04:48,080 --> 00:04:50,800
+throw up some jokes to get views. That
+
+163
+00:04:49,600 --> 00:04:52,479
+is not what this is about. It's about
+
+164
+00:04:50,800 --> 00:04:54,160
+business value. You are replacing that
+
+165
+00:04:52,479 --> 00:04:55,520
+layer of advertising cold calling. So
+
+166
+00:04:54,160 --> 00:04:56,800
+what happens there? That follows a
+
+167
+00:04:55,520 --> 00:04:58,080
+traditional marketing funnel. If you're
+
+168
+00:04:56,800 --> 00:04:59,680
+not aware of the funnel at the top is
+
+169
+00:04:58,080 --> 00:05:01,680
+awareness. You generate attention. Then
+
+170
+00:04:59,680 --> 00:05:02,960
+you go down to nurtures. Gives people an
+
+171
+00:05:01,680 --> 00:05:04,080
+affinity for you. How do you make people
+
+172
+00:05:02,960 --> 00:05:05,360
+like you and want to work with you?
+
+173
+00:05:04,080 --> 00:05:06,639
+That's level two. And then level three
+
+174
+00:05:05,360 --> 00:05:08,000
+is actually closing them and converting
+
+175
+00:05:06,639 --> 00:05:08,880
+them. And so for the majority of
+
+176
+00:05:08,000 --> 00:05:10,320
+companies we're going to talk about
+
+177
+00:05:08,880 --> 00:05:12,320
+here, you they think that they need to
+
+178
+00:05:10,320 --> 00:05:15,039
+go from social media content to a sale.
+
+179
+00:05:12,320 --> 00:05:17,440
+But that is not how real sales processes
+
+180
+00:05:15,039 --> 00:05:19,039
+work, especially for a service. And also
+
+181
+00:05:17,440 --> 00:05:20,800
+most products, people do not typically
+
+182
+00:05:19,039 --> 00:05:22,240
+go see the content, go to the landing
+
+183
+00:05:20,800 --> 00:05:24,080
+page, buy the first time. So we're going
+
+184
+00:05:22,240 --> 00:05:26,160
+to talk about hard and soft sales and
+
+185
+00:05:24,080 --> 00:05:27,280
+landing pages next. So when you begin
+
+186
+00:05:26,160 --> 00:05:28,320
+putting together your social content,
+
+187
+00:05:27,280 --> 00:05:29,919
+you have to think about where are they
+
+188
+00:05:28,320 --> 00:05:31,120
+going to go? What is the call to action?
+
+189
+00:05:29,919 --> 00:05:32,880
+And they're going to end up on a landing
+
+190
+00:05:31,120 --> 00:05:34,240
+page on your website 90% of the time.
+
+191
+00:05:32,880 --> 00:05:35,840
+And that landing page is a website
+
+192
+00:05:34,240 --> 00:05:37,280
+that's designed to take an action.
+
+193
+00:05:35,840 --> 00:05:38,720
+There's two actions they can take. One,
+
+194
+00:05:37,280 --> 00:05:41,440
+buy right there. It's a hard call to
+
+195
+00:05:38,720 --> 00:05:43,280
+action. Number two is get their info.
+
+196
+00:05:41,440 --> 00:05:44,800
+Have them become a lead. That's a soft
+
+197
+00:05:43,280 --> 00:05:46,000
+call to action. So, let's go to example
+
+198
+00:05:44,800 --> 00:05:47,199
+one. So, if you want people to convert
+
+199
+00:05:46,000 --> 00:05:48,800
+right away, you need to make sure on
+
+200
+00:05:47,199 --> 00:05:50,080
+your landing pages that you have called
+
+201
+00:05:48,800 --> 00:05:51,680
+out the objective they're trying to
+
+202
+00:05:50,080 --> 00:05:53,759
+solve. Are they trying to grow on social
+
+203
+00:05:51,680 --> 00:05:55,520
+media so that they can go on more dates?
+
+204
+00:05:53,759 --> 00:05:57,039
+Are they trying to lose weight to
+
+205
+00:05:55,520 --> 00:05:59,120
+achieve X goal? They're trying to cut
+
+206
+00:05:57,039 --> 00:06:00,800
+down their runtime, get the most protein
+
+207
+00:05:59,120 --> 00:06:02,240
+and the least amount of calories,
+
+208
+00:06:00,800 --> 00:06:04,319
+whatever that is. calling out their
+
+209
+00:06:02,240 --> 00:06:05,759
+objective there, listing the benefits to
+
+210
+00:06:04,319 --> 00:06:07,600
+the person of what your product has, not
+
+211
+00:06:05,759 --> 00:06:09,120
+just your specs, testimonials and
+
+212
+00:06:07,600 --> 00:06:10,319
+reviews right there on the page. And
+
+213
+00:06:09,120 --> 00:06:11,600
+then frequently asked questions, what
+
+214
+00:06:10,319 --> 00:06:13,440
+objections they have, can you solve that
+
+215
+00:06:11,600 --> 00:06:15,120
+in the lander? That is the core of what
+
+216
+00:06:13,440 --> 00:06:17,360
+a conversionbased landing page will have
+
+217
+00:06:15,120 --> 00:06:18,960
+on it. But soft CTAs are often much more
+
+218
+00:06:17,360 --> 00:06:20,560
+important, especially for businesses
+
+219
+00:06:18,960 --> 00:06:21,919
+that sell a service and also for
+
+220
+00:06:20,560 --> 00:06:23,360
+businesses that require some education
+
+221
+00:06:21,919 --> 00:06:24,800
+to get someone to buy, which is way more
+
+222
+00:06:23,360 --> 00:06:26,400
+businesses than you think. You want to
+
+223
+00:06:24,800 --> 00:06:28,479
+just get someone's email. So for that,
+
+224
+00:06:26,400 --> 00:06:30,080
+we have what's called lead magnets. This
+
+225
+00:06:28,479 --> 00:06:32,240
+is when you give somebody something
+
+226
+00:06:30,080 --> 00:06:33,840
+information typically in exchange for
+
+227
+00:06:32,240 --> 00:06:35,919
+their information. So this could be a
+
+228
+00:06:33,840 --> 00:06:37,600
+PDF like a checklist or a diet plan. It
+
+229
+00:06:35,919 --> 00:06:38,800
+could be a free quote or an estimate.
+
+230
+00:06:37,600 --> 00:06:40,479
+And so for instance, a great example of
+
+231
+00:06:38,800 --> 00:06:42,160
+this is those big reports I do with Vang
+
+232
+00:06:40,479 --> 00:06:43,919
+Group. We did our big luxury online
+
+233
+00:06:42,160 --> 00:06:45,520
+report about websites and luxury. That
+
+234
+00:06:43,919 --> 00:06:48,080
+is a lead magnet for them for people
+
+235
+00:06:45,520 --> 00:06:49,919
+that want to get a luxury website done.
+
+236
+00:06:48,080 --> 00:06:51,120
+And here's how that exact flow works,
+
+237
+00:06:49,919 --> 00:06:52,479
+right? Thousands of people sign up for
+
+238
+00:06:51,120 --> 00:06:53,919
+those reports. We get 5 to 6 thousand
+
+239
+00:06:52,479 --> 00:06:55,440
+people on a report. Only a fraction of
+
+240
+00:06:53,919 --> 00:06:57,199
+those are their end customers. But
+
+241
+00:06:55,440 --> 00:06:58,560
+that's fine. Those customers take it's a
+
+242
+00:06:57,199 --> 00:07:00,080
+long sales cycle. When you decide you
+
+243
+00:06:58,560 --> 00:07:01,280
+need a website, you actually make the
+
+244
+00:07:00,080 --> 00:07:02,639
+decision to go on it. You build a
+
+245
+00:07:01,280 --> 00:07:03,919
+budget. It's often like a year. So, they
+
+246
+00:07:02,639 --> 00:07:05,599
+are just getting those people on their
+
+247
+00:07:03,919 --> 00:07:06,880
+list then educate them and nurture them
+
+248
+00:07:05,599 --> 00:07:08,160
+over time until they're ready to make
+
+249
+00:07:06,880 --> 00:07:09,840
+that decision. But when they have, they
+
+250
+00:07:08,160 --> 00:07:11,039
+now have read this incredibly immaculate
+
+251
+00:07:09,840 --> 00:07:12,319
+piece of content created with an
+
+252
+00:07:11,039 --> 00:07:14,000
+influencer and people know what they're
+
+253
+00:07:12,319 --> 00:07:15,520
+doing, promoted that drives a ton of
+
+254
+00:07:14,000 --> 00:07:17,199
+value for them to think about and they
+
+255
+00:07:15,520 --> 00:07:18,720
+become top of mind for that choice. Now,
+
+256
+00:07:17,199 --> 00:07:20,400
+you can have more tactical content that
+
+257
+00:07:18,720 --> 00:07:22,080
+leads to a quicker release, but that is
+
+258
+00:07:20,400 --> 00:07:23,520
+the idea. Get that information, get them
+
+259
+00:07:22,080 --> 00:07:25,360
+on your list, communicate with them
+
+260
+00:07:23,520 --> 00:07:26,720
+regularly. That is typically where you
+
+261
+00:07:25,360 --> 00:07:28,479
+want to go for social media. You want to
+
+262
+00:07:26,720 --> 00:07:29,680
+get people then into the next stage of
+
+263
+00:07:28,479 --> 00:07:30,720
+your funnel, right? Like, okay, they
+
+264
+00:07:29,680 --> 00:07:32,240
+follow you on social, now they're on
+
+265
+00:07:30,720 --> 00:07:33,680
+your email list, they're on your SMS,
+
+266
+00:07:32,240 --> 00:07:35,280
+they've signed up for a call, whatever.
+
+267
+00:07:33,680 --> 00:07:36,639
+Now, a typical business flow for
+
+268
+00:07:35,280 --> 00:07:38,000
+anything is usually there's a call
+
+269
+00:07:36,639 --> 00:07:39,120
+involved, right? A pitch of some kind.
+
+270
+00:07:38,000 --> 00:07:40,319
+So, what happens is they'll sign up as a
+
+271
+00:07:39,120 --> 00:07:41,680
+lead and you want someone to get on a
+
+272
+00:07:40,319 --> 00:07:42,800
+call and you have what's called pre-all
+
+273
+00:07:41,680 --> 00:07:44,000
+assets. These are really important for
+
+274
+00:07:42,800 --> 00:07:45,440
+every marketer and social media person
+
+275
+00:07:44,000 --> 00:07:46,720
+to understand is before someone gets on
+
+276
+00:07:45,440 --> 00:07:47,919
+a call or makes a decision, you want to
+
+277
+00:07:46,720 --> 00:07:49,360
+give them as much information as you
+
+278
+00:07:47,919 --> 00:07:51,280
+can. So, sales people can send it over
+
+279
+00:07:49,360 --> 00:07:52,960
+in an email. You can send it an email
+
+280
+00:07:51,280 --> 00:07:54,160
+automation. If it's an e-commerce brand,
+
+281
+00:07:52,960 --> 00:07:55,759
+using something like Omnisand or even
+
+282
+00:07:54,160 --> 00:07:56,960
+just a regular band services brand, send
+
+283
+00:07:55,759 --> 00:07:58,160
+it over. You're basically giving them
+
+284
+00:07:56,960 --> 00:07:59,599
+information before they actually get on
+
+285
+00:07:58,160 --> 00:08:00,800
+a call to make a decision. And after
+
+286
+00:07:59,599 --> 00:08:03,280
+they get on the call and you pitch them
+
+287
+00:08:00,800 --> 00:08:04,800
+on a new roof or power car washing or a
+
+288
+00:08:03,280 --> 00:08:06,160
+website, whatever it is, afterwards, you
+
+289
+00:08:04,800 --> 00:08:07,680
+want to give them even more stuff to get
+
+290
+00:08:06,160 --> 00:08:09,280
+them to actually finalize and get to the
+
+291
+00:08:07,680 --> 00:08:10,800
+purchase. And all of that is content.
+
+292
+00:08:09,280 --> 00:08:12,400
+It's why I call this out. Every single
+
+293
+00:08:10,800 --> 00:08:14,160
+one of those stages has content. Content
+
+294
+00:08:12,400 --> 00:08:15,599
+on the landing page, content pre-all,
+
+295
+00:08:14,160 --> 00:08:16,960
+content they show on the call, content
+
+296
+00:08:15,599 --> 00:08:18,160
+after the call. And if there's no call
+
+297
+00:08:16,960 --> 00:08:19,599
+involved and they're just buying, it's
+
+298
+00:08:18,160 --> 00:08:20,960
+just emails that go to them, SMS that
+
+299
+00:08:19,599 --> 00:08:22,800
+goes to them. Every piece of content
+
+300
+00:08:20,960 --> 00:08:24,560
+that you make should be used in all of
+
+301
+00:08:22,800 --> 00:08:26,080
+these places. So even if it only gets a
+
+302
+00:08:24,560 --> 00:08:27,440
+couple thousand views up front, if it's
+
+303
+00:08:26,080 --> 00:08:29,599
+then used these other places in the
+
+304
+00:08:27,440 --> 00:08:30,960
+funnel because it achieves an objective,
+
+305
+00:08:29,599 --> 00:08:32,240
+that is how content should be thought
+
+306
+00:08:30,960 --> 00:08:33,599
+about for marketing. Used to think about
+
+307
+00:08:32,240 --> 00:08:35,120
+a marketing budget and content's a small
+
+308
+00:08:33,599 --> 00:08:36,959
+amount. Now it's like what is my content
+
+309
+00:08:35,120 --> 00:08:38,640
+plan and where can I use it in marketing
+
+310
+00:08:36,959 --> 00:08:40,159
+is the new way to think about this. So
+
+311
+00:08:38,640 --> 00:08:41,360
+having that framework going into this is
+
+312
+00:08:40,159 --> 00:08:42,560
+really important versus just like I need
+
+313
+00:08:41,360 --> 00:08:43,680
+to put up views and make sales for my
+
+314
+00:08:42,560 --> 00:08:44,800
+business. It's like no, I need to get
+
+315
+00:08:43,680 --> 00:08:45,760
+people I need to be able to give them a
+
+316
+00:08:44,800 --> 00:08:46,959
+lead magnet. I need to be able to give
+
+317
+00:08:45,760 --> 00:08:48,080
+them a reason to give me their info.
+
+318
+00:08:46,959 --> 00:08:49,600
+Then I need to be able to educate them
+
+319
+00:08:48,080 --> 00:08:51,279
+enough to actually get them to make a
+
+320
+00:08:49,600 --> 00:08:52,320
+sale. And I do that by repurposing a
+
+321
+00:08:51,279 --> 00:08:53,920
+bunch of this content and thinking about
+
+322
+00:08:52,320 --> 00:08:56,160
+content more holistically. That is the
+
+323
+00:08:53,920 --> 00:08:57,200
+end of the 7minute roughly MBA. Now
+
+324
+00:08:56,160 --> 00:08:59,200
+let's get into the fun part. Let's get
+
+325
+00:08:57,200 --> 00:09:01,040
+into the content types. There are four
+
+326
+00:08:59,200 --> 00:09:03,200
+types of content you are going to zone
+
+327
+00:09:01,040 --> 00:09:06,399
+in on. Storytelling, rankings and
+
+328
+00:09:03,200 --> 00:09:07,600
+ratings, breakdowns, and scenarios.
+
+329
+00:09:06,399 --> 00:09:09,200
+Those are your four content types. And
+
+330
+00:09:07,600 --> 00:09:11,200
+you can do them in two formats.
+
+331
+00:09:09,200 --> 00:09:12,560
+Carousels visual or in video. And the
+
+332
+00:09:11,200 --> 00:09:14,399
+video could be a talking head, it could
+
+333
+00:09:12,560 --> 00:09:15,839
+be an edited vlog, it could be a green
+
+334
+00:09:14,399 --> 00:09:16,959
+screen. whatever that you want to be.
+
+335
+00:09:15,839 --> 00:09:18,720
+But that means with carousels
+
+336
+00:09:16,959 --> 00:09:20,080
+especially, you don't have to be on
+
+337
+00:09:18,720 --> 00:09:21,600
+camera and on video to do this. You can
+
+338
+00:09:20,080 --> 00:09:23,120
+do succeed on social media purely with
+
+339
+00:09:21,600 --> 00:09:25,040
+carousels. You just have to care about
+
+340
+00:09:23,120 --> 00:09:26,480
+the design and the editing of them. But
+
+341
+00:09:25,040 --> 00:09:27,920
+what are these four things? So
+
+342
+00:09:26,480 --> 00:09:30,160
+storytelling is actually telling the
+
+343
+00:09:27,920 --> 00:09:32,240
+story of your business. 64 days ago, I
+
+344
+00:09:30,160 --> 00:09:33,600
+decided to buy a bowling alley, etc. You
+
+345
+00:09:32,240 --> 00:09:34,959
+are going through the process of the
+
+346
+00:09:33,600 --> 00:09:36,800
+things that you are doing every day. So
+
+347
+00:09:34,959 --> 00:09:38,399
+a great example of this is this Yon
+
+348
+00:09:36,800 --> 00:09:40,000
+Mavan. He literally bought a bowling
+
+349
+00:09:38,399 --> 00:09:41,839
+alley. It's a great visual example for
+
+350
+00:09:40,000 --> 00:09:43,600
+this. Not everyone has that. And Carson,
+
+351
+00:09:41,839 --> 00:09:45,200
+shout out, Carson is a designer for his
+
+352
+00:09:43,600 --> 00:09:46,959
+freelance graphic design business and
+
+353
+00:09:45,200 --> 00:09:48,240
+for the job he works for. He was able to
+
+354
+00:09:46,959 --> 00:09:49,440
+make content where he's just showing the
+
+355
+00:09:48,240 --> 00:09:51,040
+process. He's telling the story of
+
+356
+00:09:49,440 --> 00:09:52,320
+creating something. That's content type
+
+357
+00:09:51,040 --> 00:09:53,839
+number one. Now, storytelling doesn't
+
+358
+00:09:52,320 --> 00:09:55,040
+always have to be your story. So,
+
+359
+00:09:53,839 --> 00:09:56,720
+someone who's done an amazing job with
+
+360
+00:09:55,040 --> 00:09:58,240
+this is Ken from Front Office. And I
+
+361
+00:09:56,720 --> 00:09:59,440
+wouldn't aspire to have his content. His
+
+362
+00:09:58,240 --> 00:10:01,120
+content is amazing. But even if you did
+
+363
+00:09:59,440 --> 00:10:02,959
+a dumb down version of it, he talks
+
+364
+00:10:01,120 --> 00:10:04,640
+about stuff that he likes and respects
+
+365
+00:10:02,959 --> 00:10:06,080
+that he is learning from to build his
+
+366
+00:10:04,640 --> 00:10:07,839
+clothing brand. So, for instance, he's
+
+367
+00:10:06,080 --> 00:10:09,279
+talking about salvage denim, cashmere
+
+368
+00:10:07,839 --> 00:10:10,560
+sweaters. He's talking about hunting
+
+369
+00:10:09,279 --> 00:10:11,920
+jackets. They're not the ones that he
+
+370
+00:10:10,560 --> 00:10:13,600
+makes. He ties in his products
+
+371
+00:10:11,920 --> 00:10:15,360
+sometimes, but also he just tells the
+
+372
+00:10:13,600 --> 00:10:16,800
+story of these two different hunting
+
+373
+00:10:15,360 --> 00:10:18,399
+jackets, for instance. And this is why
+
+374
+00:10:16,800 --> 00:10:19,839
+expertisedriven content is so important.
+
+375
+00:10:18,399 --> 00:10:21,440
+So, if you sell hunting jackets and you
+
+376
+00:10:19,839 --> 00:10:22,800
+sell the tell the story of other hunting
+
+377
+00:10:21,440 --> 00:10:24,560
+jackets, how could that possibly make
+
+378
+00:10:22,800 --> 00:10:26,560
+sense for your business? Well, it shows
+
+379
+00:10:24,560 --> 00:10:27,920
+your expertise in the content. People
+
+380
+00:10:26,560 --> 00:10:29,360
+want to know about these things, but
+
+381
+00:10:27,920 --> 00:10:31,120
+they don't inherently want to be sold.
+
+382
+00:10:29,360 --> 00:10:32,640
+So, his ability to say, "I care so much
+
+383
+00:10:31,120 --> 00:10:34,560
+about hunting jackets. I can tell this
+
+384
+00:10:32,640 --> 00:10:35,920
+immaculate history of why they're
+
+385
+00:10:34,560 --> 00:10:37,519
+important or why this material is
+
+386
+00:10:35,920 --> 00:10:39,440
+important." gives him credibility that
+
+387
+00:10:37,519 --> 00:10:40,880
+when he goes and drops denim or drops
+
+388
+00:10:39,440 --> 00:10:42,560
+his own jacket, people are like, "Wow, I
+
+389
+00:10:40,880 --> 00:10:44,320
+really resonate with the how the care
+
+390
+00:10:42,560 --> 00:10:46,720
+and intensity this person puts into
+
+391
+00:10:44,320 --> 00:10:48,880
+their craft and I pay more attention to
+
+392
+00:10:46,720 --> 00:10:51,200
+it is a lower stage in the funnel. He's
+
+393
+00:10:48,880 --> 00:10:53,040
+used his expertise at the higher stage
+
+394
+00:10:51,200 --> 00:10:54,320
+and this expertise can be used studying
+
+395
+00:10:53,040 --> 00:10:55,760
+it, right? But for instance, like a
+
+396
+00:10:54,320 --> 00:10:57,360
+fragrance brand that educates people on
+
+397
+00:10:55,760 --> 00:10:58,480
+the most interesting fragrances in the
+
+398
+00:10:57,360 --> 00:11:00,399
+world and then releases their own
+
+399
+00:10:58,480 --> 00:11:02,720
+fragrance and tells that story is the
+
+400
+00:11:00,399 --> 00:11:04,240
+one of the best ways to get real actual
+
+401
+00:11:02,720 --> 00:11:05,680
+credible attention on the internet. And
+
+402
+00:11:04,240 --> 00:11:07,440
+you can do this from the perspective of
+
+403
+00:11:05,680 --> 00:11:09,120
+the student or the perspective of the
+
+404
+00:11:07,440 --> 00:11:10,480
+expert. So Ken positions himself a bit
+
+405
+00:11:09,120 --> 00:11:11,920
+in the middle where he says, "Hey, I
+
+406
+00:11:10,480 --> 00:11:13,120
+love clothes to this extent, but I'm a
+
+407
+00:11:11,920 --> 00:11:14,880
+doctor. I don't know a lot about
+
+408
+00:11:13,120 --> 00:11:16,560
+clothes." So I am like a student of the
+
+409
+00:11:14,880 --> 00:11:17,279
+game who's growing into an expert. Now,
+
+410
+00:11:16,560 --> 00:11:18,640
+if you're at the beginning, you're like,
+
+411
+00:11:17,279 --> 00:11:20,399
+"Hey, I just discovered these scents.
+
+412
+00:11:18,640 --> 00:11:22,640
+What makes them tick?" You're showing
+
+413
+00:11:20,399 --> 00:11:23,839
+your journey through a story. On the
+
+414
+00:11:22,640 --> 00:11:24,959
+other hand, if you are a doctor and
+
+415
+00:11:23,839 --> 00:11:26,480
+you're being like, "I know everything
+
+416
+00:11:24,959 --> 00:11:27,440
+about this and here's exactly how it
+
+417
+00:11:26,480 --> 00:11:28,800
+works." You're able to do it from a
+
+418
+00:11:27,440 --> 00:11:30,320
+really credible standpoint. They both
+
+419
+00:11:28,800 --> 00:11:32,480
+work. But your job with storytelling
+
+420
+00:11:30,320 --> 00:11:33,519
+content is to pick your story or the
+
+421
+00:11:32,480 --> 00:11:34,880
+story of interesting things in your
+
+422
+00:11:33,519 --> 00:11:36,160
+niche. And are you approaching it from a
+
+423
+00:11:34,880 --> 00:11:38,000
+student perspective or an expert
+
+424
+00:11:36,160 --> 00:11:39,839
+perspective and to then make that
+
+425
+00:11:38,000 --> 00:11:41,040
+content and to do that content well, you
+
+426
+00:11:39,839 --> 00:11:43,040
+often want to follow what's called the
+
+427
+00:11:41,040 --> 00:11:44,720
+hero's journey format. This idea that
+
+428
+00:11:43,040 --> 00:11:46,640
+when you make a story, people are
+
+429
+00:11:44,720 --> 00:11:48,480
+compelled to follow it if they have a
+
+430
+00:11:46,640 --> 00:11:49,760
+setup that's interesting, some big
+
+431
+00:11:48,480 --> 00:11:51,200
+conflict that happens, the conflict
+
+432
+00:11:49,760 --> 00:11:52,800
+tries to get solved, it doesn't quite,
+
+433
+00:11:51,200 --> 00:11:54,560
+they try again, they make it, oh, now
+
+434
+00:11:52,800 --> 00:11:56,320
+they persevere. That is just a common
+
+435
+00:11:54,560 --> 00:11:57,600
+thread. And being able to use that
+
+436
+00:11:56,320 --> 00:11:58,800
+storytelling perspective is a really
+
+437
+00:11:57,600 --> 00:12:00,160
+important thing in story content. But
+
+438
+00:11:58,800 --> 00:12:02,000
+that is definitely the hardest of the
+
+439
+00:12:00,160 --> 00:12:04,079
+options we have here. Next up, we have
+
+440
+00:12:02,000 --> 00:12:05,760
+ratings and rankings. So, this is a
+
+441
+00:12:04,079 --> 00:12:07,120
+dentist that was in this last cut 30.
+
+442
+00:12:05,760 --> 00:12:08,639
+This video has hundreds of thousands, I
+
+443
+00:12:07,120 --> 00:12:10,000
+think, coming up on a million views. He
+
+444
+00:12:08,639 --> 00:12:11,760
+is a dentist sitting in the dentist
+
+445
+00:12:10,000 --> 00:12:13,120
+chair rating whitening toothpaste on
+
+446
+00:12:11,760 --> 00:12:14,560
+whether you should use it. This is the
+
+447
+00:12:13,120 --> 00:12:16,079
+power of expertise. If you have it,
+
+448
+00:12:14,560 --> 00:12:17,360
+again, student perspective or teacher
+
+449
+00:12:16,079 --> 00:12:19,120
+perspective as a crucial thing to bang
+
+450
+00:12:17,360 --> 00:12:20,560
+in your head is this same video may not
+
+451
+00:12:19,120 --> 00:12:21,839
+succeed to the same extent, but if you
+
+452
+00:12:20,560 --> 00:12:23,120
+were not a dentist and you were trying
+
+453
+00:12:21,839 --> 00:12:24,480
+to build credibility in this niche, it
+
+454
+00:12:23,120 --> 00:12:25,680
+would literally be like, I bought every
+
+455
+00:12:24,480 --> 00:12:26,800
+one of these toothpaste or I'm
+
+456
+00:12:25,680 --> 00:12:27,839
+researching every toothpaste to
+
+457
+00:12:26,800 --> 00:12:28,800
+determine if it's the one I should use
+
+458
+00:12:27,839 --> 00:12:30,000
+or not. you are building that
+
+459
+00:12:28,800 --> 00:12:31,600
+credibility, again if you had your own
+
+460
+00:12:30,000 --> 00:12:32,959
+dental care brand or whatever, you are
+
+461
+00:12:31,600 --> 00:12:34,800
+showing people that you are putting in
+
+462
+00:12:32,959 --> 00:12:36,880
+the work to learn it and you're giving
+
+463
+00:12:34,800 --> 00:12:37,839
+value along the way. But if you have the
+
+464
+00:12:36,880 --> 00:12:39,120
+credibility, which a lot of people
+
+465
+00:12:37,839 --> 00:12:40,000
+inherently do, especially if you have a
+
+466
+00:12:39,120 --> 00:12:42,240
+business and you're a roofer or
+
+467
+00:12:40,000 --> 00:12:44,160
+whatever, giving your opinion and
+
+468
+00:12:42,240 --> 00:12:45,440
+sharing why is crucial and people want
+
+469
+00:12:44,160 --> 00:12:47,040
+to know. And why this is important,
+
+470
+00:12:45,440 --> 00:12:48,639
+there's a bigger sociological thing
+
+471
+00:12:47,040 --> 00:12:49,760
+happening here where the media doesn't
+
+472
+00:12:48,639 --> 00:12:51,360
+educate anymore. You don't read
+
+473
+00:12:49,760 --> 00:12:52,880
+magazines and learn about toothpaste,
+
+474
+00:12:51,360 --> 00:12:54,720
+right? And everything on the internet is
+
+475
+00:12:52,880 --> 00:12:55,920
+so crowded in just these like Google SEO
+
+476
+00:12:54,720 --> 00:12:57,680
+results that maybe you learn some stuff
+
+477
+00:12:55,920 --> 00:12:59,519
+from chatbt if you ask it. But we just
+
+478
+00:12:57,680 --> 00:13:01,120
+don't get real human information from
+
+479
+00:12:59,519 --> 00:13:02,240
+people in the same way. I go see the
+
+480
+00:13:01,120 --> 00:13:03,440
+dentist. I don't really get a chance to
+
+481
+00:13:02,240 --> 00:13:04,560
+have a 20-minute conversation with them
+
+482
+00:13:03,440 --> 00:13:05,600
+about whitening toothpaste. Right?
+
+483
+00:13:04,560 --> 00:13:06,639
+You're in the chair, you get your stuff
+
+484
+00:13:05,600 --> 00:13:07,760
+clean or any questions. All right,
+
+485
+00:13:06,639 --> 00:13:09,519
+you're out. And I'm not going to engage
+
+486
+00:13:07,760 --> 00:13:11,120
+them on a lengthy conversation about the
+
+487
+00:13:09,519 --> 00:13:12,800
+ingredients of whatever it is I'm using.
+
+488
+00:13:11,120 --> 00:13:15,360
+But the access we have via the internet
+
+489
+00:13:12,800 --> 00:13:16,720
+is an amazing thing and gives that same
+
+490
+00:13:15,360 --> 00:13:18,240
+perspective. And this applies to
+
+491
+00:13:16,720 --> 00:13:20,079
+anything. Another cut 30 student. This
+
+492
+00:13:18,240 --> 00:13:21,760
+is an exercise we do in inside cut 30.
+
+493
+00:13:20,079 --> 00:13:23,360
+This woman has a bakery in Vermont and
+
+494
+00:13:21,760 --> 00:13:25,040
+she's literally ranking premium
+
+495
+00:13:23,360 --> 00:13:26,480
+ingredients that are used in food and
+
+496
+00:13:25,040 --> 00:13:27,920
+why people are inherently interested in
+
+497
+00:13:26,480 --> 00:13:29,120
+someone who's an expert's opinion. And
+
+498
+00:13:27,920 --> 00:13:30,560
+you'll notice some of the subtle things
+
+499
+00:13:29,120 --> 00:13:31,920
+here. He looked like a dentist in
+
+500
+00:13:30,560 --> 00:13:34,079
+dentist chair looking like a dentist.
+
+501
+00:13:31,920 --> 00:13:35,440
+She is wearing the baker's guard. Stuff
+
+502
+00:13:34,079 --> 00:13:36,720
+like that matters if you again you are
+
+503
+00:13:35,440 --> 00:13:38,560
+coming from the extra perspective versus
+
+504
+00:13:36,720 --> 00:13:40,480
+the student perspective. Use it. Wear
+
+505
+00:13:38,560 --> 00:13:41,760
+the scrubs. Look in the outfit. Look the
+
+506
+00:13:40,480 --> 00:13:43,120
+part. Do it in the kitchen. We'll talk
+
+507
+00:13:41,760 --> 00:13:44,240
+about sets later, but it's a crucial
+
+508
+00:13:43,120 --> 00:13:45,440
+thing to think about. And then know this
+
+509
+00:13:44,240 --> 00:13:46,800
+is in a different language. This is out
+
+510
+00:13:45,440 --> 00:13:48,639
+here to go to prove like this is a video
+
+511
+00:13:46,800 --> 00:13:50,480
+that's doing great from four days ago. a
+
+512
+00:13:48,639 --> 00:13:52,079
+thousand plus likes already about golf
+
+513
+00:13:50,480 --> 00:13:53,600
+in whatever country this language is
+
+514
+00:13:52,079 --> 00:13:54,480
+from. Apologies to all my Nordics, but
+
+515
+00:13:53,600 --> 00:13:56,160
+he's just talking through golf
+
+516
+00:13:54,480 --> 00:13:57,680
+misconceptions as a passionate person
+
+517
+00:13:56,160 --> 00:13:59,279
+about that that has a golf business.
+
+518
+00:13:57,680 --> 00:14:00,800
+Same thing, another cut 30 student
+
+519
+00:13:59,279 --> 00:14:02,079
+talking about roof sighting. Again,
+
+520
+00:14:00,800 --> 00:14:03,199
+they're pro promoting a service of
+
+521
+00:14:02,079 --> 00:14:04,320
+business for roofing by talking about
+
+522
+00:14:03,199 --> 00:14:05,680
+the types of things that they like to
+
+523
+00:14:04,320 --> 00:14:07,680
+use, why they think someone should use
+
+524
+00:14:05,680 --> 00:14:09,040
+it or not with candid opinions. And so,
+
+525
+00:14:07,680 --> 00:14:10,639
+the reason this content does so well is
+
+526
+00:14:09,040 --> 00:14:12,160
+it shows real personality, proves your
+
+527
+00:14:10,639 --> 00:14:13,760
+business is real, starts conversation,
+
+528
+00:14:12,160 --> 00:14:14,880
+and drives value for people things are
+
+529
+00:14:13,760 --> 00:14:16,320
+already thinking about. And this won't
+
+530
+00:14:14,880 --> 00:14:17,680
+last forever. This period of expertise
+
+531
+00:14:16,320 --> 00:14:19,760
+won't be forever. But for the next 9
+
+532
+00:14:17,680 --> 00:14:21,519
+months, this is your surefire solution
+
+533
+00:14:19,760 --> 00:14:22,639
+to win. A year and a half ago when we
+
+534
+00:14:21,519 --> 00:14:24,160
+were really getting into cut 30 to
+
+535
+00:14:22,639 --> 00:14:26,000
+start, this this didn't work. This has
+
+536
+00:14:24,160 --> 00:14:27,360
+become the zeitgeist over time. And this
+
+537
+00:14:26,000 --> 00:14:28,639
+is the stage we're in. So we had
+
+538
+00:14:27,360 --> 00:14:30,240
+storytelling. We had rankings and
+
+539
+00:14:28,639 --> 00:14:31,920
+ratings. And I will keep banging in
+
+540
+00:14:30,240 --> 00:14:33,680
+there. Perspective, student perspective,
+
+541
+00:14:31,920 --> 00:14:34,880
+expert perspective. There's no excuse
+
+542
+00:14:33,680 --> 00:14:36,399
+not to be able to do this kind of
+
+543
+00:14:34,880 --> 00:14:38,079
+content. You either know enough or you
+
+544
+00:14:36,399 --> 00:14:39,839
+are learning at the same time. And the
+
+545
+00:14:38,079 --> 00:14:41,920
+next is breakdowns. How do you take
+
+546
+00:14:39,839 --> 00:14:43,680
+things that your target user wants to
+
+547
+00:14:41,920 --> 00:14:44,720
+know, needs to know, or that are
+
+548
+00:14:43,680 --> 00:14:46,000
+happening in the world and talk about
+
+549
+00:14:44,720 --> 00:14:47,120
+them. So, back to the Carson example.
+
+550
+00:14:46,000 --> 00:14:48,639
+Shout out Carson if you're watching this
+
+551
+00:14:47,120 --> 00:14:50,560
+video. He's giving great packaging
+
+552
+00:14:48,639 --> 00:14:52,079
+examples that his audience of aspiring
+
+553
+00:14:50,560 --> 00:14:54,079
+graphic designers and if people that
+
+554
+00:14:52,079 --> 00:14:55,519
+would want his design services both
+
+555
+00:14:54,079 --> 00:14:56,800
+would want to know. And he's just
+
+556
+00:14:55,519 --> 00:14:58,720
+sharing that with a breakdown of why
+
+557
+00:14:56,800 --> 00:15:00,240
+it's good. And I call out this video
+
+558
+00:14:58,720 --> 00:15:02,000
+because this would work if you are a
+
+559
+00:15:00,240 --> 00:15:03,600
+packaging company, if you are a design
+
+560
+00:15:02,000 --> 00:15:05,120
+services company and you can design
+
+561
+00:15:03,600 --> 00:15:06,880
+stuff like this. There are a lot of ways
+
+562
+00:15:05,120 --> 00:15:08,639
+to crack through this breakdown. Josh,
+
+563
+00:15:06,880 --> 00:15:10,079
+another cut 30 grab. He's breaking down
+
+564
+00:15:08,639 --> 00:15:11,440
+advertising for meta ads and he's
+
+565
+00:15:10,079 --> 00:15:12,639
+basically giving away the playbook. And
+
+566
+00:15:11,440 --> 00:15:13,920
+this is people are always afraid of this
+
+567
+00:15:12,639 --> 00:15:15,040
+when they do breakdowns. Oh, what if if
+
+568
+00:15:13,920 --> 00:15:16,800
+I give people the whole workout, they're
+
+569
+00:15:15,040 --> 00:15:18,959
+not going to hire me as a gym coach.
+
+570
+00:15:16,800 --> 00:15:20,880
+Yeah, they they are. I give away
+
+571
+00:15:18,959 --> 00:15:22,720
+literally everything. You could never
+
+572
+00:15:20,880 --> 00:15:25,199
+buy a thing from me, never hire me to
+
+573
+00:15:22,720 --> 00:15:27,440
+consult, and I've given away 99% of the
+
+574
+00:15:25,199 --> 00:15:28,720
+things that I know and do on all these
+
+575
+00:15:27,440 --> 00:15:29,440
+YouTube videos. But guess what? Most
+
+576
+00:15:28,720 --> 00:15:30,480
+people aren't actually going to go
+
+577
+00:15:29,440 --> 00:15:31,519
+through all the YouTube videos. And if
+
+578
+00:15:30,480 --> 00:15:32,880
+they do, they aren't going to do the
+
+579
+00:15:31,519 --> 00:15:34,480
+actions themselves. And if they do,
+
+580
+00:15:32,880 --> 00:15:36,560
+amazing. Great for them. But the people
+
+581
+00:15:34,480 --> 00:15:38,240
+that are in my demographic of the
+
+582
+00:15:36,560 --> 00:15:39,839
+executives that want to hire me at a
+
+583
+00:15:38,240 --> 00:15:41,279
+high budget level, they just want me to
+
+584
+00:15:39,839 --> 00:15:42,560
+prove my expertise. They're like, "That
+
+585
+00:15:41,279 --> 00:15:43,680
+guy knows what he's doing. he knows what
+
+586
+00:15:42,560 --> 00:15:45,279
+he's talking about. He has a proven
+
+587
+00:15:43,680 --> 00:15:46,560
+system for this. Let's bring him in. And
+
+588
+00:15:45,279 --> 00:15:47,839
+that is the same thing you're doing.
+
+589
+00:15:46,560 --> 00:15:49,120
+Most people don't want to go just
+
+590
+00:15:47,839 --> 00:15:50,880
+replicate all the things you said. They
+
+591
+00:15:49,120 --> 00:15:52,399
+want your proof of expertise to then
+
+592
+00:15:50,880 --> 00:15:53,759
+hire you to do it. And any of the people
+
+593
+00:15:52,399 --> 00:15:55,360
+that then go do it, you're just building
+
+594
+00:15:53,759 --> 00:15:57,120
+advocacy and people that will recommend
+
+595
+00:15:55,360 --> 00:15:59,040
+you and people that are gaining value
+
+596
+00:15:57,120 --> 00:16:00,639
+and affinity for you. Your customer is
+
+597
+00:15:59,040 --> 00:16:02,240
+hiding within that. You are proving to
+
+598
+00:16:00,639 --> 00:16:04,320
+them your expertise. So he walks through
+
+599
+00:16:02,240 --> 00:16:05,440
+literally this entire flow of Facebook
+
+600
+00:16:04,320 --> 00:16:06,880
+ads and how you have to think through
+
+601
+00:16:05,440 --> 00:16:08,079
+all the stages of awareness and what
+
+602
+00:16:06,880 --> 00:16:09,600
+kind of ads you need to design there for
+
+603
+00:16:08,079 --> 00:16:11,440
+them. It's a complete breakdown. He's
+
+604
+00:16:09,600 --> 00:16:12,959
+selling ads as a service. And while some
+
+605
+00:16:11,440 --> 00:16:14,560
+people may find find value and roll with
+
+606
+00:16:12,959 --> 00:16:15,759
+it themselves, if you were like, man, I
+
+607
+00:16:14,560 --> 00:16:17,199
+like the way this guy thinks about this.
+
+608
+00:16:15,759 --> 00:16:19,120
+My business needs that, you are becoming
+
+609
+00:16:17,199 --> 00:16:21,600
+a lead. And the last type of breakdown
+
+610
+00:16:19,120 --> 00:16:23,839
+from the need to know or want to know is
+
+611
+00:16:21,600 --> 00:16:25,440
+to what's happening now. So Scott,
+
+612
+00:16:23,839 --> 00:16:26,880
+another cut 30 grad. All he does is
+
+613
+00:16:25,440 --> 00:16:28,320
+naming. He has a brand naming
+
+614
+00:16:26,880 --> 00:16:29,440
+specialist, hard niche. A lot of videos
+
+615
+00:16:28,320 --> 00:16:30,880
+are going to flop in that niche. That's
+
+616
+00:16:29,440 --> 00:16:32,079
+totally okay because the ones that hit
+
+617
+00:16:30,880 --> 00:16:34,079
+are really going to hit. And so he's
+
+618
+00:16:32,079 --> 00:16:35,440
+doing a content about Stiller's new
+
+619
+00:16:34,079 --> 00:16:37,040
+launch. So Ben Stiller's new soda
+
+620
+00:16:35,440 --> 00:16:38,160
+company, the name, other root beer
+
+621
+00:16:37,040 --> 00:16:39,600
+names, kind of talking about his
+
+622
+00:16:38,160 --> 00:16:41,279
+expertise and context of this thing that
+
+623
+00:16:39,600 --> 00:16:42,639
+happened. And if you care about soda or
+
+624
+00:16:41,279 --> 00:16:44,399
+you care about Ben Stiller or you care
+
+625
+00:16:42,639 --> 00:16:45,680
+about naming you're interested in in a
+
+626
+00:16:44,399 --> 00:16:47,440
+whole variety of ways. It gives him good
+
+627
+00:16:45,680 --> 00:16:48,959
+top offunnel content. But now we've gone
+
+628
+00:16:47,440 --> 00:16:50,560
+through storytelling. We've gone through
+
+629
+00:16:48,959 --> 00:16:52,079
+ratings and rankings. We've gone through
+
+630
+00:16:50,560 --> 00:16:53,519
+breakdowns. The last one I'm going to
+
+631
+00:16:52,079 --> 00:16:55,600
+talk about is scenarios. Putting
+
+632
+00:16:53,519 --> 00:16:57,519
+yourself in someone's shoes. So Ryan his
+
+633
+00:16:55,600 --> 00:16:58,800
+plan to save country style and dethrone
+
+634
+00:16:57,519 --> 00:17:00,480
+Tim Hortons. He's talking about a chain
+
+635
+00:16:58,800 --> 00:17:01,839
+that he would redo. And he is a business
+
+636
+00:17:00,480 --> 00:17:02,880
+person who provides consulting services.
+
+637
+00:17:01,839 --> 00:17:04,959
+And he's talking about what he would do
+
+638
+00:17:02,880 --> 00:17:06,880
+to bring back a noted chain. So scenario
+
+639
+00:17:04,959 --> 00:17:08,720
+video. Scenario videos are amazing.
+
+640
+00:17:06,880 --> 00:17:10,720
+Another great example of this, uh, one
+
+641
+00:17:08,720 --> 00:17:12,799
+of my favorites, my guy Bobby Maximus,
+
+642
+00:17:10,720 --> 00:17:15,520
+absolute legend. Five exercises to fix
+
+643
+00:17:12,799 --> 00:17:17,839
+95% of problems after 40. He is zoned in
+
+644
+00:17:15,520 --> 00:17:19,039
+on scenarios for guys after 40 in a
+
+645
+00:17:17,839 --> 00:17:20,880
+bunch of his videos. The best
+
+646
+00:17:19,039 --> 00:17:22,559
+testosterone boosting diet for men over
+
+647
+00:17:20,880 --> 00:17:24,160
+40, six exercises that do years of
+
+648
+00:17:22,559 --> 00:17:26,480
+damage, how to get rid of man boobs,
+
+649
+00:17:24,160 --> 00:17:28,400
+he's zoning in on an exact scenario. If
+
+650
+00:17:26,480 --> 00:17:29,840
+you are a guy over 40, that's what makes
+
+651
+00:17:28,400 --> 00:17:31,679
+this an exact scenario, not just in
+
+652
+00:17:29,840 --> 00:17:33,520
+general, and you want to do X thing, get
+
+653
+00:17:31,679 --> 00:17:35,679
+rid of man boobs. Here is a playbook for
+
+654
+00:17:33,520 --> 00:17:37,360
+interior designers. If you have 700
+
+655
+00:17:35,679 --> 00:17:39,200
+square f feet of space, this is exactly
+
+656
+00:17:37,360 --> 00:17:41,120
+what you can do to make it feel X.
+
+657
+00:17:39,200 --> 00:17:43,600
+Again, it's developing a scenario that
+
+658
+00:17:41,120 --> 00:17:45,280
+your target market might be in. Scenario
+
+659
+00:17:43,600 --> 00:17:46,480
+building content has the fourth style of
+
+660
+00:17:45,280 --> 00:17:47,760
+content. Now, one thing you may notice
+
+661
+00:17:46,480 --> 00:17:49,360
+about all these content, this is all
+
+662
+00:17:47,760 --> 00:17:50,799
+intellectual content. This is all not
+
+663
+00:17:49,360 --> 00:17:52,240
+the simplest content to write. Guess
+
+664
+00:17:50,799 --> 00:17:53,360
+what? That's what works. If you try to
+
+665
+00:17:52,240 --> 00:17:54,640
+do simple stuff, you're looking for the
+
+666
+00:17:53,360 --> 00:17:56,240
+easiest answer, you're not going to make
+
+667
+00:17:54,640 --> 00:17:57,120
+it on social. But if you're willing to
+
+668
+00:17:56,240 --> 00:17:58,799
+think about it from a student
+
+669
+00:17:57,120 --> 00:18:01,360
+perspective or an expert perspective and
+
+670
+00:17:58,799 --> 00:18:02,799
+attack these angles and actually write
+
+671
+00:18:01,360 --> 00:18:04,160
+useful stuff for people, it's going to
+
+672
+00:18:02,799 --> 00:18:05,520
+be really hard to go wrong. And the best
+
+673
+00:18:04,160 --> 00:18:07,440
+part about this content is if you get
+
+674
+00:18:05,520 --> 00:18:08,799
+600 views on it, you get 600 views.
+
+675
+00:18:07,440 --> 00:18:10,799
+Anyone that actually watched 30 seconds
+
+676
+00:18:08,799 --> 00:18:12,080
+of it got a tremendous amount of value.
+
+677
+00:18:10,799 --> 00:18:13,600
+You are building people that will become
+
+678
+00:18:12,080 --> 00:18:14,960
+real customers out of that. All right,
+
+679
+00:18:13,600 --> 00:18:16,160
+60second blitz. We're going to put 60
+
+680
+00:18:14,960 --> 00:18:17,520
+seconds on the clock. I'm going to walk
+
+681
+00:18:16,160 --> 00:18:18,880
+through all the common questions and
+
+682
+00:18:17,520 --> 00:18:20,240
+misconceptions you have starting an
+
+683
+00:18:18,880 --> 00:18:21,600
+account before we get into a flow. So,
+
+684
+00:18:20,240 --> 00:18:22,720
+the first is what network should I do?
+
+685
+00:18:21,600 --> 00:18:24,559
+You should focus on Tik Tok and
+
+686
+00:18:22,720 --> 00:18:25,679
+Instagram. If you're already active on X
+
+687
+00:18:24,559 --> 00:18:27,280
+and LinkedIn and you're willing to put
+
+688
+00:18:25,679 --> 00:18:28,640
+in some work, I would also crossost
+
+689
+00:18:27,280 --> 00:18:29,840
+there. And you can crossost a YouTube
+
+690
+00:18:28,640 --> 00:18:31,200
+shorts, but it's not going to drive a
+
+691
+00:18:29,840 --> 00:18:32,960
+bunch of value, but worth just throwing
+
+692
+00:18:31,200 --> 00:18:35,360
+on there. So why Tik Tok and Instagram
+
+693
+00:18:32,960 --> 00:18:36,480
+give you the most value for what you're
+
+694
+00:18:35,360 --> 00:18:37,919
+posting? They give you free views no
+
+695
+00:18:36,480 --> 00:18:39,360
+matter what. From view one, you can go
+
+696
+00:18:37,919 --> 00:18:40,799
+viral from video one. You have the
+
+697
+00:18:39,360 --> 00:18:42,000
+biggest total available market for your
+
+698
+00:18:40,799 --> 00:18:43,440
+business on there. Also, the content
+
+699
+00:18:42,000 --> 00:18:44,720
+that does good on one is good enough on
+
+700
+00:18:43,440 --> 00:18:45,919
+the other. You may specialize in one
+
+701
+00:18:44,720 --> 00:18:47,520
+more than the other over time, but at
+
+702
+00:18:45,919 --> 00:18:49,120
+the end of the day, both carousels and
+
+703
+00:18:47,520 --> 00:18:50,400
+videos do great on both of them and you
+
+704
+00:18:49,120 --> 00:18:52,160
+should just roll with that. Post on
+
+705
+00:18:50,400 --> 00:18:53,840
+both. LinkedIn and X, if you are willing
+
+706
+00:18:52,160 --> 00:18:55,280
+to be on there and talking to people and
+
+707
+00:18:53,840 --> 00:18:56,640
+engaging and commenting, that can do
+
+708
+00:18:55,280 --> 00:18:58,240
+well as well. I wouldn't base it on
+
+709
+00:18:56,640 --> 00:18:59,600
+that, but it is a great place to add on
+
+710
+00:18:58,240 --> 00:19:00,880
+if you want to drive more value from
+
+711
+00:18:59,600 --> 00:19:02,000
+things you already created. YouTube
+
+712
+00:19:00,880 --> 00:19:03,120
+shorts is not going to drive much
+
+713
+00:19:02,000 --> 00:19:04,480
+business value for you. Even if you put
+
+714
+00:19:03,120 --> 00:19:05,360
+up a bunch of views, 30,000 views
+
+715
+00:19:04,480 --> 00:19:06,880
+doesn't really do [ __ ] for you. A
+
+716
+00:19:05,360 --> 00:19:08,880
+million views maybe does some stuff for
+
+717
+00:19:06,880 --> 00:19:10,240
+you. Maybe is not good viewers. It's
+
+718
+00:19:08,880 --> 00:19:11,840
+against find a cross post, get the
+
+719
+00:19:10,240 --> 00:19:12,799
+awareness. Do not expect anything for
+
+720
+00:19:11,840 --> 00:19:13,840
+your business from it. You got to go
+
+721
+00:19:12,799 --> 00:19:15,280
+into YouTube shorts with zero
+
+722
+00:19:13,840 --> 00:19:16,640
+expectations. For your type of account,
+
+723
+00:19:15,280 --> 00:19:18,160
+you should always have a creator account
+
+724
+00:19:16,640 --> 00:19:19,520
+on Tik Tok and on Instagram. You can
+
+725
+00:19:18,160 --> 00:19:20,880
+still run ads on Instagram with a Tik
+
+726
+00:19:19,520 --> 00:19:22,240
+Tok account. Doesn't affect your ad
+
+727
+00:19:20,880 --> 00:19:23,360
+account. Tik Tok, the only reason to
+
+728
+00:19:22,240 --> 00:19:25,200
+have a brand account is if you have a
+
+729
+00:19:23,360 --> 00:19:26,480
+Tik Tok shop store. And even with that,
+
+730
+00:19:25,200 --> 00:19:27,919
+you'll see most people will then have a
+
+731
+00:19:26,480 --> 00:19:29,280
+business account the store is on and a
+
+732
+00:19:27,919 --> 00:19:30,799
+separate creator account they use to
+
+733
+00:19:29,280 --> 00:19:32,559
+make videos because those brand accounts
+
+734
+00:19:30,799 --> 00:19:34,960
+are deweeded in the algorithm. Everyone
+
+735
+00:19:32,559 --> 00:19:36,799
+else creator accounts country. Your
+
+736
+00:19:34,960 --> 00:19:38,799
+account should be started in the country
+
+737
+00:19:36,799 --> 00:19:40,559
+that you want to target for Tik Tok. For
+
+738
+00:19:38,799 --> 00:19:42,400
+Instagram, it should be set to that also
+
+739
+00:19:40,559 --> 00:19:43,440
+ideally set up in that country as well.
+
+740
+00:19:42,400 --> 00:19:44,640
+This is why if you have an account in
+
+741
+00:19:43,440 --> 00:19:45,679
+Singapore and you can't actually reach
+
+742
+00:19:44,640 --> 00:19:46,960
+anybody because you're trying to reach
+
+743
+00:19:45,679 --> 00:19:48,559
+the US and you wonder why. It's cuz it's
+
+744
+00:19:46,960 --> 00:19:50,240
+showing it to people in Singapore. Start
+
+745
+00:19:48,559 --> 00:19:52,000
+and get the location set up and post
+
+746
+00:19:50,240 --> 00:19:53,760
+mostly from that country or else it's
+
+747
+00:19:52,000 --> 00:19:55,280
+going to really impact the organic reach
+
+748
+00:19:53,760 --> 00:19:56,720
+you have. If you're traveling naturally,
+
+749
+00:19:55,280 --> 00:19:58,480
+totally fine. The algorithm knows, they
+
+750
+00:19:56,720 --> 00:19:59,919
+know you're a South American traveling
+
+751
+00:19:58,480 --> 00:20:01,919
+in Europe and they're going to show your
+
+752
+00:19:59,919 --> 00:20:03,280
+content and then show you content based
+
+753
+00:20:01,919 --> 00:20:04,559
+on those things. So, it's important to
+
+754
+00:20:03,280 --> 00:20:05,520
+consider. Again, it doesn't always have
+
+755
+00:20:04,559 --> 00:20:06,720
+to be like that, but it's really
+
+756
+00:20:05,520 --> 00:20:08,320
+important where you start and build the
+
+757
+00:20:06,720 --> 00:20:09,679
+basis of your account. US and Canada
+
+758
+00:20:08,320 --> 00:20:10,720
+kind of has a lot of overlap. It's not
+
+759
+00:20:09,679 --> 00:20:12,000
+as important. Same thing with like
+
+760
+00:20:10,720 --> 00:20:13,760
+English speaking Europe countries, but
+
+761
+00:20:12,000 --> 00:20:14,880
+it makes a lot of difference uh for
+
+762
+00:20:13,760 --> 00:20:16,320
+basically everywhere else in the world.
+
+763
+00:20:14,880 --> 00:20:17,679
+And if you cannot do that, you should
+
+764
+00:20:16,320 --> 00:20:19,120
+hire someone. Hire someone on Upwork to
+
+765
+00:20:17,679 --> 00:20:20,559
+set up the account, use the phone number
+
+766
+00:20:19,120 --> 00:20:22,000
+in the right place, and then maintain
+
+767
+00:20:20,559 --> 00:20:23,679
+and post that content and make sure you
+
+768
+00:20:22,000 --> 00:20:25,600
+have access to it. maybe a backup person
+
+769
+00:20:23,679 --> 00:20:27,360
+to use in case that goes south. But that
+
+770
+00:20:25,600 --> 00:20:28,320
+is a huge thing of why people wonder why
+
+771
+00:20:27,360 --> 00:20:29,280
+their account doesn't work cuz they
+
+772
+00:20:28,320 --> 00:20:30,559
+literally have it set up in a country
+
+773
+00:20:29,280 --> 00:20:31,760
+that doesn't matter. If you go and you
+
+774
+00:20:30,559 --> 00:20:33,039
+set up your account in Sri Lanka while
+
+775
+00:20:31,760 --> 00:20:35,039
+you're on vacation, that's actually a
+
+776
+00:20:33,039 --> 00:20:36,640
+problem. And then no schedulers, no, we
+
+777
+00:20:35,039 --> 00:20:38,080
+actually tested this in Cut 30 for
+
+778
+00:20:36,640 --> 00:20:39,600
+hundreds of videos and could prove
+
+779
+00:20:38,080 --> 00:20:40,880
+definitively that every single
+
+780
+00:20:39,600 --> 00:20:42,559
+scheduling app, including the ones
+
+781
+00:20:40,880 --> 00:20:44,400
+native to the platforms, hurts the
+
+782
+00:20:42,559 --> 00:20:46,000
+performance. You should be uploading and
+
+783
+00:20:44,400 --> 00:20:46,960
+posting exactly whenever you want to do
+
+784
+00:20:46,000 --> 00:20:49,360
+it. And then people are always like,
+
+785
+00:20:46,960 --> 00:20:50,799
+"Oh, can I crossost or I do X and Y or
+
+786
+00:20:49,360 --> 00:20:52,080
+like can I hire someone to post out my
+
+787
+00:20:50,799 --> 00:20:53,679
+other stuff from overseas?" is no, just
+
+788
+00:20:52,080 --> 00:20:55,360
+post it. Guess what? It takes an average
+
+789
+00:20:53,679 --> 00:20:56,320
+of 2 to 3 minutes for every post you're
+
+790
+00:20:55,360 --> 00:20:59,120
+going to do. So, if you're posting on
+
+791
+00:20:56,320 --> 00:21:00,640
+Tik Tok, Instagram, LinkedIn, X, YouTube
+
+792
+00:20:59,120 --> 00:21:01,679
+Shorts, just throw in Snapchat Spotlight
+
+793
+00:21:00,640 --> 00:21:03,440
+for the hell of it. That is going to
+
+794
+00:21:01,679 --> 00:21:04,960
+take you 12 to 15 minutes and you can do
+
+795
+00:21:03,440 --> 00:21:06,159
+it. It's not deep work. You can do it
+
+796
+00:21:04,960 --> 00:21:07,840
+while you're on another call. You can do
+
+797
+00:21:06,159 --> 00:21:09,280
+it while you're walking the dog. Just do
+
+798
+00:21:07,840 --> 00:21:10,480
+it. If you are trying to optimize and
+
+799
+00:21:09,280 --> 00:21:11,840
+that is too much work for you, that's
+
+800
+00:21:10,480 --> 00:21:13,840
+actually a symptom of a bigger problem
+
+801
+00:21:11,840 --> 00:21:15,919
+of you not wanting to do the work. Just
+
+802
+00:21:13,840 --> 00:21:19,720
+crossost. End of my 60cond rant. I hope
+
+803
+00:21:15,919 --> 00:21:19,720
+I hope I made it in time.
+
+804
+00:21:20,559 --> 00:21:24,640
+This week's video is brought to you by
+
+805
+00:21:22,320 --> 00:21:27,200
+Omnisend. They are my email marketing
+
+806
+00:21:24,640 --> 00:21:29,120
+platform of choice for e-commerce email.
+
+807
+00:21:27,200 --> 00:21:31,360
+If you are using Shopify, it is a
+
+808
+00:21:29,120 --> 00:21:32,559
+no-brainer to use Omniscent. But as
+
+809
+00:21:31,360 --> 00:21:34,559
+always, I want to make sure these
+
+810
+00:21:32,559 --> 00:21:36,400
+placements are full of value. So, we are
+
+811
+00:21:34,559 --> 00:21:38,240
+going to talk about founder email, how
+
+812
+00:21:36,400 --> 00:21:39,840
+to use plain text in your email
+
+813
+00:21:38,240 --> 00:21:41,440
+marketing. So, a common misconception
+
+814
+00:21:39,840 --> 00:21:43,600
+with brands is that all their emails
+
+815
+00:21:41,440 --> 00:21:45,679
+have to be these immaculately designed
+
+816
+00:21:43,600 --> 00:21:47,200
+product promo heavy emails. But one
+
+817
+00:21:45,679 --> 00:21:49,120
+thing that you should absolutely
+
+818
+00:21:47,200 --> 00:21:50,799
+consider, especially as we go into Black
+
+819
+00:21:49,120 --> 00:21:52,640
+Friday, Cyber Monday, and the holiday
+
+820
+00:21:50,799 --> 00:21:55,200
+season, is what we call the founder
+
+821
+00:21:52,640 --> 00:21:56,960
+email. This is a plain text email
+
+822
+00:21:55,200 --> 00:21:59,039
+written in the voice of the founder or
+
+823
+00:21:56,960 --> 00:22:00,799
+the CEO or a personality at the brand.
+
+824
+00:21:59,039 --> 00:22:02,480
+It comes from a human, doesn't have a
+
+825
+00:22:00,799 --> 00:22:04,400
+bunch of fancy graphics, if any, and
+
+826
+00:22:02,480 --> 00:22:06,080
+tells a story and isn't just a one-off.
+
+827
+00:22:04,400 --> 00:22:08,480
+If you need something, you can introduce
+
+828
+00:22:06,080 --> 00:22:10,640
+a sale, explain a product release, tell
+
+829
+00:22:08,480 --> 00:22:12,480
+the story behind an ignored product,
+
+830
+00:22:10,640 --> 00:22:14,320
+celebrate a milestone that the brand is
+
+831
+00:22:12,480 --> 00:22:16,240
+going through, or explain a mistake or
+
+832
+00:22:14,320 --> 00:22:18,080
+issue. This is a recurring tool that you
+
+833
+00:22:16,240 --> 00:22:19,760
+should start and use for your brand to
+
+834
+00:22:18,080 --> 00:22:22,000
+basically have in your email toolkit and
+
+835
+00:22:19,760 --> 00:22:23,440
+you will note the plain text email
+
+836
+00:22:22,000 --> 00:22:25,039
+asking people for something or
+
+837
+00:22:23,440 --> 00:22:27,039
+explaining something can be a part of
+
+838
+00:22:25,039 --> 00:22:29,039
+that ongoing repertoire you pull out for
+
+839
+00:22:27,039 --> 00:22:30,640
+big moments and also when the brand
+
+840
+00:22:29,039 --> 00:22:32,400
+messes up. I'd also recommend using
+
+841
+00:22:30,640 --> 00:22:34,080
+features like the automations in
+
+842
+00:22:32,400 --> 00:22:35,520
+Omnisense. For instance, your welcome
+
+843
+00:22:34,080 --> 00:22:37,200
+automation when someone first becomes a
+
+844
+00:22:35,520 --> 00:22:38,640
+subscriber or the automation after they
+
+845
+00:22:37,200 --> 00:22:40,480
+make their first purchase where you kind
+
+846
+00:22:38,640 --> 00:22:42,480
+of can introduce them to more about the
+
+847
+00:22:40,480 --> 00:22:44,000
+brand. throw one of these plain text
+
+848
+00:22:42,480 --> 00:22:45,760
+emails in there so the founder
+
+849
+00:22:44,000 --> 00:22:48,080
+introduces themselves and maybe explains
+
+850
+00:22:45,760 --> 00:22:49,760
+the backstory, etc. So, it's something
+
+851
+00:22:48,080 --> 00:22:50,960
+your consumers are used to seeing from
+
+852
+00:22:49,760 --> 00:22:52,480
+the start. Anyway, if you are looking
+
+853
+00:22:50,960 --> 00:22:54,720
+for a strategy to kick off your Black
+
+854
+00:22:52,480 --> 00:22:56,480
+Friday, Cyber Monday, or your holiday
+
+855
+00:22:54,720 --> 00:22:58,240
+season, you haven't done that yet, a
+
+856
+00:22:56,480 --> 00:22:59,520
+plain text founder email is an awesome
+
+857
+00:22:58,240 --> 00:23:00,880
+way to do it, walking through some of
+
+858
+00:22:59,520 --> 00:23:02,400
+their favorite picks or some of the
+
+859
+00:23:00,880 --> 00:23:03,679
+stories behind the brand, which I'll
+
+860
+00:23:02,400 --> 00:23:05,039
+have done getting into this holiday
+
+861
+00:23:03,679 --> 00:23:07,360
+season. And I would highly recommend
+
+862
+00:23:05,039 --> 00:23:08,559
+using Omnisend. A they are significantly
+
+863
+00:23:07,360 --> 00:23:10,080
+more affordable than some of the
+
+864
+00:23:08,559 --> 00:23:12,159
+competition and they have full features
+
+865
+00:23:10,080 --> 00:23:14,000
+from segmentation to automation to
+
+866
+00:23:12,159 --> 00:23:15,440
+analytics for your brand. You can learn
+
+867
+00:23:14,000 --> 00:23:17,440
+more about them at the link in my
+
+868
+00:23:15,440 --> 00:23:18,960
+description. And I do have a fulllength
+
+869
+00:23:17,440 --> 00:23:20,240
+email marketing video that's also on
+
+870
+00:23:18,960 --> 00:23:21,520
+this channel if you want to really dive
+
+871
+00:23:20,240 --> 00:23:23,919
+in. So now we're going to what are you
+
+872
+00:23:21,520 --> 00:23:25,840
+actually going to do? You are going to
+
+873
+00:23:23,919 --> 00:23:27,679
+pick two of the things that I put up
+
+874
+00:23:25,840 --> 00:23:28,559
+there. Three if you are ambitious. And
+
+875
+00:23:27,679 --> 00:23:29,840
+what do I mean by we're going to pick
+
+876
+00:23:28,559 --> 00:23:32,240
+from these charts. You got video and you
+
+877
+00:23:29,840 --> 00:23:34,559
+got carousels. So you have storytelling,
+
+878
+00:23:32,240 --> 00:23:35,679
+breakdowns, ratings, scenarios. You can
+
+879
+00:23:34,559 --> 00:23:37,120
+make videos of each of those. You can
+
+880
+00:23:35,679 --> 00:23:38,559
+make carousels of each of those. Choose
+
+881
+00:23:37,120 --> 00:23:39,919
+three. Two is probably for the week, but
+
+882
+00:23:38,559 --> 00:23:41,600
+two is the minimum you choose. Choose
+
+883
+00:23:39,919 --> 00:23:42,960
+two. Choose three if you want of that
+
+884
+00:23:41,600 --> 00:23:43,919
+combo of video and carousels of any of
+
+885
+00:23:42,960 --> 00:23:45,360
+those. It could be all carousels, could
+
+886
+00:23:43,919 --> 00:23:47,360
+be all videos, could be a mix. And your
+
+887
+00:23:45,360 --> 00:23:49,120
+job is for those three you picked. Two
+
+888
+00:23:47,360 --> 00:23:50,720
+to three you picked. You are going to do
+
+889
+00:23:49,120 --> 00:23:52,320
+two of those every week. That is your
+
+890
+00:23:50,720 --> 00:23:53,600
+four to six posts. You are going to make
+
+891
+00:23:52,320 --> 00:23:55,200
+four to six posts a week. You don't need
+
+892
+00:23:53,600 --> 00:23:56,240
+to post every day. You should post four
+
+893
+00:23:55,200 --> 00:23:57,360
+if you want to really do this and get
+
+894
+00:23:56,240 --> 00:23:58,480
+after this. If you're like, man, I
+
+895
+00:23:57,360 --> 00:24:00,240
+really just don't have the time. Pick
+
+896
+00:23:58,480 --> 00:24:02,159
+four. Do two of two things. And you're
+
+897
+00:24:00,240 --> 00:24:04,400
+going to do each of those for a month
+
+898
+00:24:02,159 --> 00:24:05,919
+before you even evaluate or decide on
+
+899
+00:24:04,400 --> 00:24:07,919
+anything. That is the core of the social
+
+900
+00:24:05,919 --> 00:24:09,760
+strategy to go from from scratch. Two of
+
+901
+00:24:07,919 --> 00:24:10,799
+each a week. That's your four to six
+
+902
+00:24:09,760 --> 00:24:12,080
+posts. And you're going to do each of
+
+903
+00:24:10,799 --> 00:24:13,520
+those four times. And then you can
+
+904
+00:24:12,080 --> 00:24:14,880
+actually start to look at some data and
+
+905
+00:24:13,520 --> 00:24:16,000
+and make some decisions on getting
+
+906
+00:24:14,880 --> 00:24:17,279
+better. And then you're going to layer
+
+907
+00:24:16,000 --> 00:24:18,640
+on some of those are going to start
+
+908
+00:24:17,279 --> 00:24:19,919
+doing well. It may take you a month. It
+
+909
+00:24:18,640 --> 00:24:21,200
+may take you three months. But if you
+
+910
+00:24:19,919 --> 00:24:22,240
+follow that formula, you're going to see
+
+911
+00:24:21,200 --> 00:24:23,120
+some of that content is going to start
+
+912
+00:24:22,240 --> 00:24:24,159
+doing better than others. And you're
+
+913
+00:24:23,120 --> 00:24:25,600
+going to start getting comments and
+
+914
+00:24:24,159 --> 00:24:27,200
+questions. So you can layer on top of
+
+915
+00:24:25,600 --> 00:24:28,799
+that to get to more posts. You're going
+
+916
+00:24:27,200 --> 00:24:30,240
+to attack the common questions and
+
+917
+00:24:28,799 --> 00:24:32,320
+responses. So, say you did that ratings
+
+918
+00:24:30,240 --> 00:24:33,360
+and rankings videos on cameras as a
+
+919
+00:24:32,320 --> 00:24:34,480
+cinematographer and people really
+
+920
+00:24:33,360 --> 00:24:35,840
+started asking you about color
+
+921
+00:24:34,480 --> 00:24:37,039
+correction. Then you can basically take
+
+922
+00:24:35,840 --> 00:24:38,240
+those common questions and say, "I'm
+
+923
+00:24:37,039 --> 00:24:39,440
+going to hook my video with that common
+
+924
+00:24:38,240 --> 00:24:41,039
+question and I'm going to answer it."
+
+925
+00:24:39,440 --> 00:24:42,640
+You can layer in more content around
+
+926
+00:24:41,039 --> 00:24:43,919
+that expert driven content. And if
+
+927
+00:24:42,640 --> 00:24:45,279
+you're a student, you are going to go
+
+928
+00:24:43,919 --> 00:24:47,279
+find out the answers to that and come
+
+929
+00:24:45,279 --> 00:24:49,120
+back and present that as what you think
+
+930
+00:24:47,279 --> 00:24:51,360
+and engage in that conversation. And you
+
+931
+00:24:49,120 --> 00:24:53,360
+never stop. All right. So, that that is
+
+932
+00:24:51,360 --> 00:24:55,520
+your basis. That is your plan for every
+
+933
+00:24:53,360 --> 00:24:56,880
+month for the next 3 months. And then
+
+934
+00:24:55,520 --> 00:24:58,240
+we're going to get to level two. Once
+
+935
+00:24:56,880 --> 00:24:59,760
+those videos start to hit, once you get
+
+936
+00:24:58,240 --> 00:25:02,240
+some traction, don't even think about a
+
+937
+00:24:59,760 --> 00:25:03,600
+CTA. No CTAs in your videos, no buy my
+
+938
+00:25:02,240 --> 00:25:05,760
+stuff, go to my email list, go to my
+
+939
+00:25:03,600 --> 00:25:07,120
+page, until you have traction. If you
+
+940
+00:25:05,760 --> 00:25:08,320
+would do that, you are hurting yourself.
+
+941
+00:25:07,120 --> 00:25:10,240
+You are shooting yourself in the foot.
+
+942
+00:25:08,320 --> 00:25:11,919
+Get traction first. All your videos are
+
+943
+00:25:10,240 --> 00:25:13,679
+getting 5,000 plus views. Then think
+
+944
+00:25:11,919 --> 00:25:15,279
+about CTAs. If you're in a really niche
+
+945
+00:25:13,679 --> 00:25:16,880
+thing, construction, SEO, then that can
+
+946
+00:25:15,279 --> 00:25:18,480
+be like 2,000 views. Then you start to
+
+947
+00:25:16,880 --> 00:25:20,000
+think about driving to lead magnets.
+
+948
+00:25:18,480 --> 00:25:21,440
+What can I give that has value that they
+
+949
+00:25:20,000 --> 00:25:23,360
+will download? Or is there some sort of
+
+950
+00:25:21,440 --> 00:25:25,279
+like advertorial page I can do? You can
+
+951
+00:25:23,360 --> 00:25:27,279
+ask people to go there in the bio or on
+
+952
+00:25:25,279 --> 00:25:29,039
+Instagram you can use many chat or stand
+
+953
+00:25:27,279 --> 00:25:30,640
+to comment and you can DM people the
+
+954
+00:25:29,039 --> 00:25:31,919
+link. Those both work very well. But the
+
+955
+00:25:30,640 --> 00:25:33,600
+biggest note the biggest thing I'm going
+
+956
+00:25:31,919 --> 00:25:35,200
+to call out here that no one does that
+
+957
+00:25:33,600 --> 00:25:36,799
+is an absolute driver and the people
+
+958
+00:25:35,200 --> 00:25:38,000
+that do it are get way more value out of
+
+959
+00:25:36,799 --> 00:25:41,310
+social than anyone else is you need to
+
+960
+00:25:38,000 --> 00:25:43,120
+engage and DM reactive and proactively.
+
+961
+00:25:41,310 --> 00:25:44,480
+[Music]
+
+962
+00:25:43,120 --> 00:25:45,840
+>> If you are not responding to every
+
+963
+00:25:44,480 --> 00:25:47,039
+comment with a personalized thing,
+
+964
+00:25:45,840 --> 00:25:48,559
+responding to every DM with a
+
+965
+00:25:47,039 --> 00:25:50,080
+personalized thing and then trying to
+
+966
+00:25:48,559 --> 00:25:51,520
+sell those people, you are leaving money
+
+967
+00:25:50,080 --> 00:25:53,360
+on the table. And then if people comment
+
+968
+00:25:51,520 --> 00:25:55,440
+and they seem like legit leads, you DM
+
+969
+00:25:53,360 --> 00:25:57,520
+them. This is a sales process. Social
+
+970
+00:25:55,440 --> 00:25:59,039
+media is a sales tool and it is social.
+
+971
+00:25:57,520 --> 00:26:00,720
+There's a social in social media. So
+
+972
+00:25:59,039 --> 00:26:02,080
+that if someone on TikTok is asking a
+
+973
+00:26:00,720 --> 00:26:04,000
+bunch of questions about your service or
+
+974
+00:26:02,080 --> 00:26:05,760
+what you do or whatever, DM them and try
+
+975
+00:26:04,000 --> 00:26:06,960
+to sell them or get them on a call with
+
+976
+00:26:05,760 --> 00:26:08,320
+your sales team or whatever it looks
+
+977
+00:26:06,960 --> 00:26:09,919
+like. But you are going to get so many
+
+978
+00:26:08,320 --> 00:26:11,679
+more sales if you proactively do that
+
+979
+00:26:09,919 --> 00:26:13,200
+and you respond to everybody and you go
+
+980
+00:26:11,679 --> 00:26:14,720
+actually be like, "What more information
+
+981
+00:26:13,200 --> 00:26:16,080
+do you need?" You know, like, "Hey, you
+
+982
+00:26:14,720 --> 00:26:17,679
+can get this now with this deal. Here's
+
+983
+00:26:16,080 --> 00:26:19,360
+this 10% code. Hey, you want to get on a
+
+984
+00:26:17,679 --> 00:26:20,880
+call and talk about that today?" That is
+
+985
+00:26:19,360 --> 00:26:22,159
+what separates people who get a little
+
+986
+00:26:20,880 --> 00:26:24,000
+value out of social from people they get
+
+987
+00:26:22,159 --> 00:26:25,679
+a lot of value out of social. I have had
+
+988
+00:26:24,000 --> 00:26:27,039
+this happen to me multiple times where
+
+989
+00:26:25,679 --> 00:26:28,400
+people who would never hit me up as a
+
+990
+00:26:27,039 --> 00:26:30,720
+client, but I'm seeing them commenting
+
+991
+00:26:28,400 --> 00:26:32,880
+on all my stuff and they're like CEOs or
+
+992
+00:26:30,720 --> 00:26:34,559
+CMOs of major companies. I am sliding in
+
+993
+00:26:32,880 --> 00:26:35,679
+those DMs. And the same thing works for
+
+994
+00:26:34,559 --> 00:26:38,159
+a business, especially if you're trying
+
+995
+00:26:35,679 --> 00:26:41,120
+to get clients. Like get after them. You
+
+996
+00:26:38,159 --> 00:26:42,240
+are now warmly in. And it goes down in
+
+997
+00:26:41,120 --> 00:26:44,960
+the DMs.
+
+998
+00:26:42,240 --> 00:26:46,880
+>> Goes down in the DM. And if you don't
+
+999
+00:26:44,960 --> 00:26:49,520
+want to do it, get your sales team in
+
+1000
+00:26:46,880 --> 00:26:51,360
+the DMs and have it be fast. Your goal
+
+1001
+00:26:49,520 --> 00:26:52,720
+is to get people from social media on
+
+1002
+00:26:51,360 --> 00:26:54,480
+calls with your sales and have them
+
+1003
+00:26:52,720 --> 00:26:56,080
+respond as fast as possible or to do
+
+1004
+00:26:54,480 --> 00:26:58,000
+that selling yourself or with a team
+
+1005
+00:26:56,080 --> 00:27:00,000
+that is on there. And remember that that
+
+1006
+00:26:58,000 --> 00:27:01,200
+engagement level and that efficacy is
+
+1007
+00:27:00,000 --> 00:27:02,640
+going to make a huge difference in just
+
+1008
+00:27:01,200 --> 00:27:03,760
+taking advantage of the content. The
+
+1009
+00:27:02,640 --> 00:27:05,039
+biggest thing I I can tell you to give
+
+1010
+00:27:03,760 --> 00:27:06,480
+you any lessons, if you make one piece
+
+1011
+00:27:05,039 --> 00:27:08,000
+of content, you are doing yourself a
+
+1012
+00:27:06,480 --> 00:27:09,120
+disservice not putting as many places as
+
+1013
+00:27:08,000 --> 00:27:10,559
+you can because you already spent all
+
+1014
+00:27:09,120 --> 00:27:12,240
+the time to make it. Push it out there.
+
+1015
+00:27:10,559 --> 00:27:13,840
+And then if you're then not actually
+
+1016
+00:27:12,240 --> 00:27:15,279
+chasing down the leads that come from
+
+1017
+00:27:13,840 --> 00:27:16,480
+that, even the soft ones that's just a
+
+1018
+00:27:15,279 --> 00:27:18,080
+comment, again, you're not making the
+
+1019
+00:27:16,480 --> 00:27:19,039
+most out of all that energy you put in.
+
+1020
+00:27:18,080 --> 00:27:20,960
+That might be someone else at your
+
+1021
+00:27:19,039 --> 00:27:22,480
+company or it might be you, but just
+
+1022
+00:27:20,960 --> 00:27:23,760
+chase it down. You'll be shocked how
+
+1023
+00:27:22,480 --> 00:27:25,279
+your life will change, how many clients
+
+1024
+00:27:23,760 --> 00:27:27,200
+are at your fingertips, even if you're
+
+1025
+00:27:25,279 --> 00:27:30,480
+only getting a handful of comments. Last
+
+1026
+00:27:27,200 --> 00:27:32,320
+tip, ignore every [ __ ] guru hack. 2C
+
+1027
+00:27:30,480 --> 00:27:34,080
+videos. Oh, Tik Tok has text post now.
+
+1028
+00:27:32,320 --> 00:27:35,840
+Post your Tik Toks to your stories. Use
+
+1029
+00:27:34,080 --> 00:27:37,919
+this audio to go viral. None of this
+
+1030
+00:27:35,840 --> 00:27:39,440
+matters. All this is a distraction. The
+
+1031
+00:27:37,919 --> 00:27:41,200
+only thing you should spend time on is
+
+1032
+00:27:39,440 --> 00:27:42,960
+making quality content. Go to that list
+
+1033
+00:27:41,200 --> 00:27:44,320
+of things above and make the best videos
+
+1034
+00:27:42,960 --> 00:27:45,919
+you can in your niche. Everything else
+
+1035
+00:27:44,320 --> 00:27:48,000
+is a hack to get views. It does not
+
+1036
+00:27:45,919 --> 00:27:50,000
+matter. Is a distraction. It is easy
+
+1037
+00:27:48,000 --> 00:27:52,400
+dopamine. You want to build an
+
+1038
+00:27:50,000 --> 00:27:54,480
+expert-based business on social media.
+
+1039
+00:27:52,400 --> 00:27:55,840
+No matter what it is you sell, you want
+
+1040
+00:27:54,480 --> 00:27:57,200
+to have a person front and center. That
+
+1041
+00:27:55,840 --> 00:27:58,480
+could be you. It could be a founder. You
+
+1042
+00:27:57,200 --> 00:28:00,080
+can batch content if it's someone else
+
+1043
+00:27:58,480 --> 00:28:01,440
+in the company. Prep all these ideas and
+
+1044
+00:28:00,080 --> 00:28:02,880
+bunch of the prompts and scripts and go
+
+1045
+00:28:01,440 --> 00:28:04,559
+shoot with them once every two weeks is
+
+1046
+00:28:02,880 --> 00:28:05,919
+the way most companies do it. or do it
+
+1047
+00:28:04,559 --> 00:28:06,960
+through educating through carousels and
+
+1048
+00:28:05,919 --> 00:28:08,000
+kind of faceless videos where you're
+
+1049
+00:28:06,960 --> 00:28:10,080
+telling those stories. It'll be a little
+
+1050
+00:28:08,000 --> 00:28:11,760
+harder that way. Nothing else is going
+
+1051
+00:28:10,080 --> 00:28:12,880
+to drive the efficacy for your business.
+
+1052
+00:28:11,760 --> 00:28:14,559
+And the last thing I want to think if
+
+1053
+00:28:12,880 --> 00:28:15,520
+you if you want to basically a bonus, I
+
+1054
+00:28:14,559 --> 00:28:16,640
+wasn't even going to put this in there
+
+1055
+00:28:15,520 --> 00:28:18,399
+cuz this video is already going too
+
+1056
+00:28:16,640 --> 00:28:19,600
+long. But level up your set. If you want
+
+1057
+00:28:18,399 --> 00:28:20,559
+to stand out from everybody else, you're
+
+1058
+00:28:19,600 --> 00:28:21,840
+looking at this, you might be looking at
+
+1059
+00:28:20,559 --> 00:28:22,960
+this and being like, "This is already so
+
+1060
+00:28:21,840 --> 00:28:24,000
+much. It's going to be overwhelming.
+
+1061
+00:28:22,960 --> 00:28:25,279
+Great. Don't think about this." If you
+
+1062
+00:28:24,000 --> 00:28:26,480
+have any level of budget, any level of
+
+1063
+00:28:25,279 --> 00:28:28,240
+thought, get your set together. What do
+
+1064
+00:28:26,480 --> 00:28:29,360
+I mean by set? Like this setup. One of
+
+1065
+00:28:28,240 --> 00:28:30,960
+my favorite new followers as a creator
+
+1066
+00:28:29,360 --> 00:28:32,799
+is this woman, Internet Anthropology.
+
+1067
+00:28:30,960 --> 00:28:34,000
+She just cares about that setup. She has
+
+1068
+00:28:32,799 --> 00:28:35,520
+probably in her apartment, but there's
+
+1069
+00:28:34,000 --> 00:28:36,720
+there's books, there's a candle. It
+
+1070
+00:28:35,520 --> 00:28:38,640
+looks nice. It looks unique. You know
+
+1071
+00:28:36,720 --> 00:28:40,000
+it's her. Fotic, he was in cut 30. He's
+
+1072
+00:28:38,640 --> 00:28:41,120
+just he's doing his set. He has really
+
+1073
+00:28:40,000 --> 00:28:42,480
+nice carousels to walk through. First of
+
+1074
+00:28:41,120 --> 00:28:43,360
+all, showing that expertise in the same
+
+1075
+00:28:42,480 --> 00:28:44,559
+way. I'll probably have to do a whole
+
+1076
+00:28:43,360 --> 00:28:45,679
+another carousels video later cuz I
+
+1077
+00:28:44,559 --> 00:28:46,880
+couldn't go as deep as I wanted to into
+
+1078
+00:28:45,679 --> 00:28:48,559
+this. He's doing it in front of his
+
+1079
+00:28:46,880 --> 00:28:49,600
+fragrances. Same as this DS Andurga
+
+1080
+00:28:48,559 --> 00:28:50,960
+founder. He's doing a bunch of these
+
+1081
+00:28:49,600 --> 00:28:52,399
+videos in front of the wall fragrances.
+
+1082
+00:28:50,960 --> 00:28:53,520
+It immediately shows credibility. And
+
+1083
+00:28:52,399 --> 00:28:54,559
+again, even if you're a student, you're
+
+1084
+00:28:53,520 --> 00:28:56,159
+just passionate about this and you put
+
+1085
+00:28:54,559 --> 00:28:57,520
+all the ones you've bought so far behind
+
+1086
+00:28:56,159 --> 00:28:58,559
+you. You're showing how much you care
+
+1087
+00:28:57,520 --> 00:28:59,600
+about it. And if you want to step it up
+
+1088
+00:28:58,559 --> 00:29:00,880
+even further, people like Open
+
+1089
+00:28:59,600 --> 00:29:02,720
+Residency, you may have seen me on their
+
+1090
+00:29:00,880 --> 00:29:04,080
+podcast on this podcast here. They're
+
+1091
+00:29:02,720 --> 00:29:05,440
+just taking a studio format and making
+
+1092
+00:29:04,080 --> 00:29:06,720
+it look unique. But that is the one
+
+1093
+00:29:05,440 --> 00:29:07,919
+thing I'd say if you want to go level up
+
+1094
+00:29:06,720 --> 00:29:10,000
+all these things I said you want to add
+
+1095
+00:29:07,919 --> 00:29:10,960
+a multiplier on that, the set is your
+
+1096
+00:29:10,000 --> 00:29:12,720
+multiplier. That's going to be the
+
+1097
+00:29:10,960 --> 00:29:13,760
+biggest creator topic of 26. Again,
+
+1098
+00:29:12,720 --> 00:29:15,039
+that's probably a whole separate video,
+
+1099
+00:29:13,760 --> 00:29:16,559
+but like sets is the new thing
+
+1100
+00:29:15,039 --> 00:29:18,159
+everyone's hyperfocused on. But anyway,
+
+1101
+00:29:16,559 --> 00:29:19,440
+as a reminder, we are doing the free
+
+1102
+00:29:18,159 --> 00:29:21,120
+3-day challenge. If you want to do some
+
+1103
+00:29:19,440 --> 00:29:22,559
+of this in the flesh with us as a group
+
+1104
+00:29:21,120 --> 00:29:24,080
+for free, that is down in the
+
+1105
+00:29:22,559 --> 00:29:25,200
+description. If you have questions about
+
+1106
+00:29:24,080 --> 00:29:26,960
+doing this for your own, I will try to
+
+1107
+00:29:25,200 --> 00:29:28,240
+hit as many as I can that you drop in
+
+1108
+00:29:26,960 --> 00:29:29,840
+the comments about what to do for your
+
+1109
+00:29:28,240 --> 00:29:31,360
+niche. I will note I've asked this
+
+1110
+00:29:29,840 --> 00:29:32,880
+before and you just got to put yourself
+
+1111
+00:29:31,360 --> 00:29:34,559
+in in these shoes, right? You just have
+
+1112
+00:29:32,880 --> 00:29:36,240
+to think intelligently. What can I rate
+
+1113
+00:29:34,559 --> 00:29:38,240
+or rank people or care about? What news
+
+1114
+00:29:36,240 --> 00:29:40,240
+is relevant to my niche? You have to
+
+1115
+00:29:38,240 --> 00:29:41,679
+stop hitting a wall and start reframing
+
+1116
+00:29:40,240 --> 00:29:42,559
+and looking at possibility. I have so
+
+1117
+00:29:41,679 --> 00:29:44,000
+much more I want to talk about, but I
+
+1118
+00:29:42,559 --> 00:29:45,279
+didn't want this to be a 2-hour video.
+
+1119
+00:29:44,000 --> 00:29:46,720
+But this is your framework. Those are
+
+1120
+00:29:45,279 --> 00:29:48,159
+the exact videos. That is your posting
+
+1121
+00:29:46,720 --> 00:29:49,520
+cadence. Those are the types of accounts
+
+1122
+00:29:48,159 --> 00:29:50,559
+and networks that go on. If you are
+
+1123
+00:29:49,520 --> 00:29:52,240
+looking at this, you're like, "Oh, but
+
+1124
+00:29:50,559 --> 00:29:54,320
+do I have to do this or do I have to do
+
+1125
+00:29:52,240 --> 00:29:56,399
+that?" You are the problem. This is not
+
+1126
+00:29:54,320 --> 00:29:57,520
+hard and it's not easy. But there is no
+
+1127
+00:29:56,399 --> 00:29:58,559
+shortcut. None of the things you're
+
+1128
+00:29:57,520 --> 00:30:00,559
+trying to do or you're trying to get out
+
+1129
+00:29:58,559 --> 00:30:02,480
+of or work. The answer is in the work.
+
+1130
+00:30:00,559 --> 00:30:04,399
+The answer is in just doing the thing,
+
+1131
+00:30:02,480 --> 00:30:06,799
+not being like, "Oh, what if I did X or
+
+1132
+00:30:04,399 --> 00:30:09,200
+Y?" No, just bite the bullet. And I
+
+1133
+00:30:06,799 --> 00:30:11,760
+promise you, you will be so happy and
+
+1134
+00:30:09,200 --> 00:30:12,960
+abundant on the other side. That is all.
+
+1135
+00:30:11,760 --> 00:30:14,240
+If you're looking for a personal or
+
+1136
+00:30:12,960 --> 00:30:15,840
+creator version of this, my personal
+
+1137
+00:30:14,240 --> 00:30:20,039
+branding video I'm going to link here. I
+
+1138
+00:30:15,840 --> 00:30:20,039
+appreciate you all so much for watching.
+
+1139
+00:30:21,860 --> 00:30:25,260
+[Music]
+
