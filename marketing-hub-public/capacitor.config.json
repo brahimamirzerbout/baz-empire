@@ -6,8 +6,8 @@
   "server": {
     "androidScheme": "https",
     "iosScheme": "https",
-    "url": "https://roi-marketing.vercel.app",
-    "allowNavigation": ["roi-marketing.vercel.app", "*.vercel.app", "roi.marketing"]
+    "url": "https://marketing-hub-roan.vercel.app",
+    "allowNavigation": ["marketing-hub-roan.vercel.app"]
   },
   "plugins": {
     "PushNotifications": {
