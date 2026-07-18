@@ -80,3 +80,7 @@ fix-frankendebian.sh
 
 # Local junk
 Downloads/
+
+# Build artifacts & logs (do not track)
+*.apk
+tauri-toolchain-bg.log
