@@ -1,0 +1,1120 @@
+{
+  "shadcn": {
+    "url": "https://ui.shadcn.com/",
+    "status": 200,
+    "title": "The Foundation for your Design System - shadcn/ui",
+    "meta_desc": "A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code.",
+    "h1": [
+      "The Foundation for your Design System"
+    ],
+    "h2": [],
+    "h3": [],
+    "emails": [
+      "artist@studio.inc"
+    ],
+    "phones": [],
+    "social": {
+      "github": "https://github.com/shadcn-ui/ui",
+      "twitter": "https://twitter.com/shadcn"
+    },
+    "links_internal": 17,
+    "links_external": 4,
+    "images": 2,
+    "scripts": 164,
+    "text": "The Foundation for your Design System - shadcn/ui Toggle Menu Menu Home Docs Components Blocks Charts Directory Typeset Create Search documentation... Search... 119k Toggle theme New React Aria is now available The Foundation for your Design System A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code. Build Your Own Button Secondary Outline Badge Secondary Outline Alert Dialog Dialog Button Group Group Overview Analytics Transactions Investments Accounts Spending Planning Documents Budget Reports Goals Calendar Support Help Center Docs Contact Us Status Community Account Profile Billing Notifications Security Appearance Savings Targets Active milestones for 2024 across your portfolio. Monitor how close you are to each savings goal. Retirement $420,000 x 65% achieved $273,000 Real Estate $85,000 x 32% achieved $27,200 You have not met your targets for this year. Contribution History Last 6 months of activity Dec Jan Feb Mar Apr Upcoming May 2024 Scheduled Savings Plan Accelerated Recurring View Full Report Claimable Balance $ 1,211.29 Pending Setup Net Royalties $ 1,248.75 Processing Fee -$ 37.46 Total Ready to Claim $ 1,211.29 USD Once your bank is connected, balances over $10.00 are automatically eligible for monthly distribution on the 15th of each month. Q2 Dividend Income Quarterly dividend payouts across your portfolio holdings. Vanguard 450 Shares S&P 500 VOO 112 Shares Apple AAPL 85 Shares Realty Income 320 Shares Set a new milestone Define your financial target and we'll help you pace your savings. Goal Name Target Amount Target Date Create Goal Cancel Payout Threshold Set the minimum balance required before a payout is triggered. Preferred Currency USD — United States Dollar ▼ Minimum Payout Amount $2500.00 x $50 (MIN) $10,000 (MAX) Notes Save Threshold Account Access Update your credentials or re-authenticate. Email Address Current Password Forgot? Update Security Danger Zone Archive account and remove catalog Scan to connect your mobile device Open the Ledger mobile app and scan this code to link your device. New Chat How can I help you today? Morning, shadcn! What are we working on today? Press send to start a new conversation I'm building a chat for our app and the scroll behavior is driving me nuts. Every time the AI streams a reply, the whole thread jumps around. Send Demo is read only. Press send to send messages. Home Account options Payments Change transfer limit Adjust how much you can send from your balance. Scheduled transfers Set up a transfer to send at a later date. Recurring card payments Manage your repeated card transactions. Distribute Track Upload your first master to start reaching listeners on Spotify, Apple Music, and more. Create Release Analytics 418.2K Visitors +10% View Analytics Notifications Choose which email and push alerts you want to receive. Transaction alerts Deposits, withdrawals, and transfers. Security alerts Login attempts and account changes. Goal milestones Updates at 25%, 50%, 75%, and 100%. Market updates Daily portfolio summary and price alerts. Save Preferences Power Usage Whole Home 6a 8a 10a 12p 2p 4p 6p 8p Currently Using 3.4 kW Solar Gen +1.2 kW Built by shadcn at Vercel . The source code is available on GitHub . Get Code",
+    "features": [],
+    "effects": [
+      "Glassmorphism",
+      "Dark mode",
+      "Skeleton loading",
+      "3D Tilt",
+      "Count-up numbers",
+      "Custom cursor"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vercel"
+    ],
+    "prices": [
+      "$420",
+      "$273",
+      "$85",
+      "$27",
+      "$10",
+      "$15",
+      "$2500",
+      "$2",
+      "$10",
+      "$50"
+    ]
+  },
+  "magic_ui": {
+    "url": "https://magicui.design/",
+    "status": 200,
+    "title": "Magic UI",
+    "meta_desc": "Beautiful UI components and templates to make your landing page look stunning.",
+    "h1": [
+      "UI library for Design Engineers"
+    ],
+    "h2": [
+      "Command Palette",
+      "Showcase",
+      "What People Are Saying on Twitter",
+      "Featured on YouTube"
+    ],
+    "h3": [
+      "Companies choose Magic UI to build their landing pages."
+    ],
+    "emails": [],
+    "phones": [
+      "+2004-2008",
+      "+2000-2001",
+      "+0370-0377",
+      "+0308-0309",
+      "+0490-0491"
+    ],
+    "social": {
+      "github": "https://github.com/magicuidesign/magicui",
+      "discord": "https://discord.gg/87p2vpsat5",
+      "twitter": "https://twitter.com/dillionverma"
+    },
+    "links_internal": 8,
+    "links_external": 80,
+    "images": 81,
+    "scripts": 173,
+    "text": "Magic UI ✨ Introducing Magic UI Pro - 50+ blocks and templates to build beautiful landing pages in minutes Toggle Menu Magic UI Components Templates Showcase Search documentation... Search... ⌘ K Command Palette Search for a command to run... 21,591 21.6k 144 Toggle theme 🎉 Introducing Glyph Matrix UI library for Design Engineers 150+ free and open-source animated components and effects built with React , Typescript , Tailwind CSS , and Motion . Perfect companion for shadcn/ui . Browse Components Browse Templates React Tailwind CSS Motion Showcase Companies choose Magic UI to build their landing pages. anara.com YC S24 aomni.com Raised seed round from notable investors. Aryan Karma Personal Portfolio cognosys.ai Backed by Google Ventures, raised $2M Darshan Paccha Personal Portfolio elhussary Personal Portfolio guarahooks.com Open Source Project infisical.com YC W23, raised $2.8M langfuse.com YC W23, raised $4M llm.report Vercel AI Accelerator 2023, won $120k lyra.marqraft.com Bootstrapped million.dev YC W24 PulpSense.com n8n Expert Partner querylab.ai Bootstrapped robot-toast Open-source library trysherpa.bot Bootstrapped undrstnd.dev StartUp Act Tunisia writora.xyz Open Source Project shawn Portfolio site anara.com YC S24 aomni.com Raised seed round from notable investors. Aryan Karma Personal Portfolio cognosys.ai Backed by Google Ventures, raised $2M Darshan Paccha Personal Portfolio elhussary Personal Portfolio guarahooks.com Open Source Project infisical.com YC W23, raised $2.8M langfuse.com YC W23, raised $4M llm.report Vercel AI Accelerator 2023, won $120k lyra.marqraft.com Bootstrapped million.dev YC W24 PulpSense.com n8n Expert Partner querylab.ai Bootstrapped robot-toast Open-source library trysherpa.bot Bootstrapped undrstnd.dev StartUp Act Tunisia writora.xyz Open Source Project shawn Portfolio site anara.com YC S24 aomni.com Raised seed round from notable investors. Aryan Karma Personal Portfolio cognosys.ai Backed by Google Ventures, raised $2M Darshan Paccha Personal Portfolio elhussary Personal Portfolio guarahooks.com Open Source Project infisical.com YC W23, raised $2.8M langfuse.com YC W23, raised $4M llm.report Vercel AI Accelerator 2023, won $120k lyra.marqraft.com Bootstrapped million.dev YC W24 PulpSense.com n8n Expert Partner querylab.ai Bootstrapped robot-toast Open-source library trysherpa.bot Bootstrapped undrstnd.dev StartUp Act Tunisia writora.xyz Open Source Project shawn Portfolio site anara.com YC S24 aomni.com Raised seed round from notable investors. Aryan Karma Personal Portfolio cognosys.ai Backed by Google Ventures, raised $2M Darshan Paccha Personal Portfolio elhussary Personal Portfolio guarahooks.com Open Source Project infisical.com YC W23, raised $2.8M langfuse.com YC W23, raised $4M llm.report Vercel AI Accelerator 2023, won $120k lyra.marqraft.com Bootstrapped million.dev YC W24 PulpSense.com n8n Expert Partner querylab.ai Bootstrapped robot-toast Open-source library trysherpa.bot Bootstrapped undrstnd.dev StartUp Act Tunisia writora.xyz Open Source Project shawn Portfolio site What People Are Saying on Twitter Show More Featured on YouTube Play Play Play Play Play Built by dillion . The source code is available on GitHub .",
+    "features": [],
+    "effects": [
+      "framer-motion",
+      "Intersection Observer",
+      "Gradients",
+      "Dark mode",
+      "Skeleton loading",
+      "Aurora effect",
+      "Ripple effect",
+      "3D Tilt",
+      "Marquee/Infinite scroll",
+      "Count-up numbers",
+      "Custom cursor",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vercel"
+    ],
+    "prices": [
+      "$2",
+      "$2",
+      "$4",
+      "$120",
+      "$2",
+      "$2",
+      "$4",
+      "$120",
+      "$2",
+      "$2"
+    ]
+  },
+  "aceternity": {
+    "url": "https://ui.aceternity.com/",
+    "status": 200,
+    "title": "Aceternity UI — Beautiful Tailwind CSS and Framer Motion Components",
+    "meta_desc": "Copy-paste beautiful UI components built with React, Next.js, Tailwind CSS, and Framer Motion. 200+ free components, blocks, and templates.",
+    "h1": [
+      "Ship landing pages at lightning speed."
+    ],
+    "h2": [
+      "Used by companies and people working at",
+      "Idea to website in hours,not days.not days.",
+      "Loved by thousands of people",
+      "Get more done with Aceternity UI All-Access Pass",
+      "Design & Development Studio Template",
+      "Productized Agency Template",
+      "Simplistic SaaS Template",
+      "Featured by popular YouTubers"
+    ],
+    "h3": [
+      "What does lifetime access include?",
+      "How does the purchase and access flow work?",
+      "How do I get the code?",
+      "Do you offer refunds?",
+      "Need help or have a question?"
+    ],
+    "emails": [
+      "support@example.com",
+      "support@aceternity.com"
+    ],
+    "phones": [],
+    "social": {
+      "twitter": "https://x.com/aceternitylabs",
+      "discord": "https://discord.gg/ftZbQvCdN7"
+    },
+    "links_internal": 116,
+    "links_external": 62,
+    "images": 105,
+    "scripts": 135,
+    "text": "Aceternity UI — Beautiful Tailwind CSS and Framer Motion Components Acebuilder is on Product Hunt today, check it out ceternity UI Components Blocks Templates Labs Pricing Changelog Search ⌘ K Toggle theme Get All-Access Toggle theme Changelog 80+ new blocks Ship landing pages at lightning speed. 200+ production-ready components, blocks and templates that make your site feel like you hired a design team. Copy, paste, customize, no wrestling with Framer Motion animations or Tailwind styling. Browse Components Get All-Access Trusted by 120,000+ founders developers and creators Hero Sections Features Bento Grids Parallax Blocks Keyboard Glowing Effect Glare Card Canvas Card Text Reveal Card Globe Used by companies and people working at Idea to website in hours, not days. not days. As easy as copy-pasting. Build great looking websites without worrying about styling. Loved by thousands of people Here's what some of our users have to say about Aceternity UI. Peer Richelsen @ peer_rich amazing to see @calcom find its way into proper templates 🥳\n\nexcited to be powering the next thousands of startups and their demo calls! Striver | Building takeUforward @ striver_79 Just checked out Aceternity (UX components), great work done by @mannupaaji Looks premium, top notch 🧨 Teddy Ni @ Teddarific Wow, this site is an ABSOLUTE GOLDMINE for design engineers.\n\nIt's a huge collection of micro-interactions / animations, all with their respective source code for you to copy and paste.\n\nLove to see such an amazing display of my favorite package, framer-motion Jerem @ geekpreneur_ Looking absolutely awesome ! 👏 metinn @ mjakupiiii Amazing 🚀 Rayhan Rahat @ rh_rahat_dev Absolutely Awesome, Would really love to use some of these in my projects Rexan Wong @ rexan_wong 🔖 Bookmarking it right away sus646 @ sus6461 is amazing ❤️‍🔥❤️‍🔥\nIt is open forever? iOS/MacOS Developer | Swift | Xcode @ InLessimore I really like it.I will try to use it my next app Paarth Agarwal @ PaarthAgarwal17 I just tried it out this is crazy awesome Yousef @ Yousefcopy Looks sick 👌🏼 Oamar @ oamarkanji Man this is awesome Rajdeep Seth @ rajdeepseth1 Stumbled upon ui.aceternity.com today and my mind is blown 🤯 \nThe seamless integration of framer-motion, tailwind CSS, and shadcn showcases a masterclass in UI design. 🚀 Kudos to @mannupaaji for creating such an innovative and inspirational resource for devs! #UI #nextjs Adrian | JavaScript Mastery @ jsmasterypro Have you heard of Aceternity UI? \n\nIt's packed with various animated components that are ready to copy and paste! Mind-blowing stuff... 🤯\n\nClick here ➡️ ui.aceternity.com #framermotion #nextjs #tailwindcss #techinnovation Rajesh David @ rajeshdavidbabu ui.aceternity.com So well done. And its bloody free 🤯🤯\n\nPhenomenal work by @mannupaaji Cody De Arkland @ Codydearkland This library is so dope. Stoked to see more components drop. Micky @ Rasmic Yoo.... This has to be the most beautiful component library I've ever seen!! ui.aceternity.com Shoutout to @mannupaaji for releasing this for free! shubh @ PatniShubh bro just keeps dropping crazy alpha Greg Bergé @ gregberge_ It’s awesome 👏 Ajay @ ajayvignesh01 Wow, this is awesome! RD @ rum_ovo_xo I like the interaction and animation. Beautiful! Greg Bergé @ gregberge_ ✨ Aceternity UI is a complete collections of stunning effects ready to used for your website. It's shadcn/ui for magic effects. Can't believe it's free!\n\n👉 ui.aceternity.com Nahuel Candia @ dncandia This is absolutely mind blowing.\nAnimated UIs are the big leap forward on modern interfaces. Already thinking on how to build our website using these 💡 Hackmamba @ hackmamba This is awesome 👏 Sean brydon @ SeanBrydon13 Wow all for free! Setup a tip jar or buy me a coffee! I’d paid or this Enis @ enisdev Bro this is too beautiful, why is this even free?? Vinay @ vinayisactive Upon my return from a short break every time,  I consistently find innovative additions by you✨🤌🏻 YOLO ツ @ torytang025 Amazing, why are you so productive 🫡",
+    "features": [],
+    "effects": [
+      "framer-motion",
+      "Parallax",
+      "Gradients",
+      "Dark mode",
+      "Skeleton loading",
+      "Spotlight/Beam",
+      "Aurora effect",
+      "3D Tilt",
+      "Marquee/Infinite scroll",
+      "Count-up numbers",
+      "Custom cursor",
+      "Grain/Noise texture",
+      "Video backgrounds",
+      "Mesh gradients",
+      "Bento grid"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vercel"
+    ],
+    "prices": [
+      "$1",
+      "$1",
+      "$1",
+      "$1",
+      "$1",
+      "$10",
+      "$1",
+      "$1",
+      "$1",
+      "$1"
+    ]
+  },
+  "tremor": {
+    "url": "https://www.tremor.so/",
+    "status": 200,
+    "title": "Tremor – Copy-and-Paste Tailwind CSS UI Components for Charts and Dashboards",
+    "meta_desc": "Open-source, accessible React UI components styled with Tailwind CSS to build charts and dashboards.",
+    "h1": [
+      "React components to build charts and dashboardsReact components to build dashboards"
+    ],
+    "h2": [
+      "Tremor Blocks & Templates",
+      "Customer voices onX (formely twitter)",
+      "Get started in seconds",
+      "Footer"
+    ],
+    "h3": [
+      "Portfolio Value",
+      "Online payments",
+      "Dashboard Template",
+      "SaaS Marketing Website",
+      "Report Pages",
+      "SaaS Template",
+      "One-Pager Website",
+      "Dashboard Template",
+      "Tremor copy-and-paste",
+      "35+"
+    ],
+    "emails": [
+      "hello@tremor.so"
+    ],
+    "phones": [],
+    "social": {
+      "github": "https://github.com/tremorlabs/tremor",
+      "twitter": "https://twitter.com/tremorlabs"
+    },
+    "links_internal": 0,
+    "links_external": 38,
+    "images": 20,
+    "scripts": 43,
+    "text": "Tremor – Copy-and-Paste Tailwind CSS UI Components for Charts and Dashboards Tremor is joining Vercel . Read more about our journey Components Charts Blocks & Templates Docs Open main menu New Build faster with 300+ Premium Blocks Built for React Tailwind CSS React components to build charts and dashboards React components to build dashboards 35+ fully open-source, accessible components for dashboards and charts. Built with React, Tailwind CSS and Radix UI. 35+ fully open-source, accessible components for dashboards and charts. Built with React, Tailwind CSS and Radix UI. Built for React Tailwind CSS Get started Blocks & Templates Portfolio Value $25.00 Beautiful defaults, and simple props for every component We already pushed the pixels so that you can focus on data. Customize quickly, spend less time on design. Online payments Europe North America Successful 263 Refunded 18 Fraudulent 9 Accessible by design Built on Recharts and Radix UI, Tremor provides the essentials for production-ready UI. Date (Range) Picker 02 Dec, 2025 - 12 Dec, 2025 Range slider 55 – 75 Range slider with bins $186 - $11,768 Select with groups Multi-Checkbox Filter Selected Locations 0 Multi-Logic Filter Costs Is between $100.00 and $5,000.00 Build the most complex filters Modular input components for better interaction with your data, with full support for keyboard navigation. example.com 99.9% uptime Advanced visualizations Tracker, Bar Lists, and many more components to visualize complex use cases gracefully. 9.3% 1.9% 0.6% Hover me Click me Open me Starter 10k requests Premium 50k requests Enterprise Individual Overview Reports Forecast All the helpers you need Components to enhance analytical interfaces, providing the perfect finishing touch. Storage used 1.85GB 18.5% 1.85 of 10GB Acme Holding $45.1K +$1.1K +9.1% 20% Data Workspaces 1 of 5 used Data Bars, Spark Charts, and Progress Circles Micro visualizations to highlight even the smallest details better. Over 250 blocks and templates to give you a head start From advanced tables to pre-defined dashboards, get access to over 250 blocks and templates to kickstart your next application. Workspace Owner Status Region Capacity Costs Last edited sales_by_day_api John Doe live US-West 1 99% $3,509.00 23/09/2023 13:00 marketing_campaign Jane Smith live US-East 2 80% $5,720.00 22/09/2023 10:45 sales_campaign Jane Smith live US-East 2 80% $5,720.00 22/09/2023 10:45 development_env Mike Johnson live EU-West 1 60% $4,200.00 21/09/2023 14:30 new_workspace_1 Alice Brown live US-West 2 75% $2,100.00 24/09/2023 09:15 test_environment David Clark inactive EU-Central 1 40% $800.00 25/09/2023 16:20 Tremor Blocks & Templates Production-ready templates to launch tomorrow Carefully crafted templates built by experts with the latest technology stack based on React and Next.js. Get templates for anything to build and launch your idea. Carefully crafted templates built by experts with the latest technology stack based on React and Next.js. Get templates for anything to build and launch your idea. Dashboard Template Analytical interfaces that allow your audience to better understand their data. Drive revenue and provide an advanced data visualization experience. View Template SaaS Marketing Website Launch your next idea with a beautiful website template. View Template Report Pages Overview dashboard pages to summarize data. View Template SaaS Template Feed and track your data in the best way possible. Everything you need to build your first data application. View Template One-Pager Website Launch your next idea with a beautiful website template. Delight in beautifully crafted illustrations, already built with Tailwind CSS v4. View Template Dashboard Template Simple interfaces designed to present data easily. View Template Customer voices on X (formely twitter) Leading developers build with Tremor Tremor makes it so easy to build beautiful dashboards. The ReactJS / Next.js ecosystem just keeps getting better and better. ",
+    "features": [],
+    "effects": [
+      "Gradients",
+      "Dark mode",
+      "3D Tilt",
+      "Custom cursor"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vercel",
+      "Stripe"
+    ],
+    "prices": [
+      "$25",
+      "$186",
+      "$11",
+      "$100",
+      "$5",
+      "$45",
+      "$1",
+      "$3",
+      "$5",
+      "$5"
+    ]
+  },
+  "21st_dev": {
+    "url": "https://21st.dev/",
+    "status": 200,
+    "title": "21st.dev - Crafted React components and templates, not AI slop | 21st",
+    "meta_desc": "A community registry of hand-crafted React components and templates. Start from real, polished UI instead of the bland AI average, and ship products that look like you, not everyone else.",
+    "h1": [
+      "Build somethingbeautiful"
+    ],
+    "h2": [],
+    "h3": [
+      "Explore",
+      "Build"
+    ],
+    "emails": [],
+    "phones": [],
+    "social": {},
+    "links_internal": 16,
+    "links_external": 0,
+    "images": 0,
+    "scripts": 104,
+    "text": "21st.dev - Crafted React components and templates, not AI slop | 21st Components / Home Explore Components Themes Templates CLI & MCP New Build 21st AI New Build something beautiful Thousands of components and templates from the community. Find the exact one with full filters. Switch to create K Switch to create No theme Choose models Advanced search filters Browse Components Templates CLI & MCP Themes ASCII art Gradients Shaders Bookmarks Build Creator Studio 21st AI new tab Publish a component Account Settings Changelog Components Explore new Popular Announcements Backgrounds Borders Calls to Action Clients Comparisons Docks FAQs Features Footers Galleries Heroes Hooks Images Maps Marquees Navigation Menus Pricing Sections Scroll Areas Shaders Stats & KPIs Steppers Team Sections Testimonials Texts Timelines Videos Accordions AI Chats Alerts Avatars Badges Buttons Calendars Cards Carousels Charts & Data Viz Checkboxes Cursors Dashboards Date Pickers Dialogs / Modals Dropdowns Empty States File Trees File Uploads Forms Globes Grids & Bento Icons Inputs Links Lists Menus Notifications Numbers Onboarding Paginations Popovers Profiles Progress Radio Groups Search Bars Selects Sidebars Sign Ins Sign ups Sliders Spinner Loaders Tables Tabs Tags Text Areas Toasts Toggles Tooltips Templates Landing Page Marketing Personal Website Portfolio Blog Documentation Startup Agency Dashboard Admin Panel SaaS Developer Tool Boilerplate AI Chat Analytics Mobile App Ecommerce Directory CMS Authentication Latest components Themes Templates ASCII New Shaders New Heroes Backgrounds Features",
+    "features": [],
+    "effects": [
+      "Gradients",
+      "Dark mode",
+      "3D Tilt",
+      "Marquee/Infinite scroll",
+      "Count-up numbers",
+      "Custom cursor",
+      "Video backgrounds",
+      "Bento grid"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind"
+    ],
+    "prices": [
+      "$1",
+      "$1",
+      "$1",
+      "$6",
+      "$1",
+      "$6",
+      "$6",
+      "$17"
+    ]
+  },
+  "origin_ui": {
+    "url": "https://originui.com",
+    "error": "HTTPSConnectionPool(host='originui.com', port=443): Max retries exceeded with url: / (Caused by NewC"
+  },
+  "cult_ui": {
+    "url": "https://www.cult-ui.com/",
+    "status": 200,
+    "title": "Cult UI – Shadcn UI Components, Blocks & Templates",
+    "meta_desc": "Open-source Shadcn UI components, animated blocks, and full templates you can copy-paste into any TypeScript/Next.js project.",
+    "h1": [
+      "Shadcn,expanded"
+    ],
+    "h2": [
+      "AI SDK Agents",
+      "100+ AI Blocks",
+      "4Full-Stack Templates",
+      "Cult Pro",
+      "Premium Components",
+      "Premium UI Blocks",
+      "6Starter Templates",
+      "Support Cult UI open source"
+    ],
+    "h3": [
+      "Shift Card",
+      "Screen CaptureScreen Capture",
+      "Competitor Research Agent",
+      "Data Analysis Agent",
+      "Accessibility Audit Agent",
+      "Table Editor Artifact",
+      "Branding Agent",
+      "Chart Generation Artifact",
+      "Ecommerce Multi-Agent",
+      "Sub Agent Starter"
+    ],
+    "emails": [],
+    "phones": [],
+    "social": {
+      "github": "https://github.com/nolly-studio/cult-ui",
+      "twitter": "https://x.com/mrncst"
+    },
+    "links_internal": 0,
+    "links_external": 85,
+    "images": 119,
+    "scripts": 50,
+    "text": "Cult UI – Shadcn UI Components, Blocks & Templates New AI SDK Agents / 100+ AI agent patterns - just copy & paste cult ui Cult UI – Shadcn UI Components, Blocks & Templates Components Blocks 100+ new Templates 2 new Toggle Menu Get Cult Pro 5.8k GitHub Twitter Shadcn, e x p a n d e d 78+ animated components and effects. Free, open source, built to drop in to any shadcn/ui project. Browse 78 Components GitHub 5.8k React Shadcn/ui Tailwind CSS Highlighted Component Shift Card A card that shows more detail on hover Screen Capture Screen Capture Share your work Share your image to build that audience. Inspired by @mrncst Twitter Post on Twitter Loom Open in Loom View Component AI SDK Agents FULL STACK AI BLOCKS AI SDK Agents aisdkagents.com AI SDK Agents AI SDK AGENTS 100 + AI Blocks Live interactive previews. Copy and paste what you need. Install with shadcn, download as Nextjs app, or open in v0. INT Competitor Research Agent Enter a competitor URL to get comprehensive competitive intelligence. Uses Firecrawl Map + Parallel Scrape for fast extraction (~3-5s). Analyzes positioning, pricing, features, tech stack, and generates sales battle cards. ai agents + 10 OpenAI AISDK Firecrawl Upstash Next.js View INT Data Analysis Agent Upload CSV or JSON data and get AI-powered analysis with interactive visualizations. Detect patterns, correlations, outliers, and generate insights with confidence scores. Export comprehensive reports. ai agents + 10 AISDK Upstash Next.js OpenAI View INT Accessibility Audit Agent Audit any website for WCAG 2.1 accessibility compliance using Firecrawl, then use AI tools to analyze issues by severity, check color contrast, validate heading structure, generate alt text, and create prioritized remediation plans with visual tool outputs. ai agents + 11 AISDK Firecrawl Upstash Next.js Gemini View INT Table Editor Artifact Spreadsheet editor with AI chat for data analysis and manipulation. Edit tables through conversation. ai table + 7 AISDK Next.js OpenAI Upstash View INT Branding Agent Extract brand design systems from any website using Firecrawl, then use AI tools to export tokens, generate color palettes, check accessibility, and analyze brand personality. ai agents + 8 AISDK Firecrawl Upstash Next.js OpenAI View ADV Chart Generation Artifact Generate burn rate charts and financial analysis through AI chat. Creates interactive visualizations from conversation. ai artifacts + 5 AISDK OpenAI Upstash View Browse All 100 Patterns AI SDK Agents AI SDK AGENTS 4 Full-Stack Templates Production-ready starter templates with authentication, payments, databases, and AI integrations. Ship faster with complete codebases. New Ecommerce Multi-Agent A full-featured ecommerce AI assistant with multi-agent orchestration, product browsing, shopping cart management, and real-time artifact streaming built with AI SDK Tools. nextjs ai-sdk-tools typescript tailwind + 2 Full-Stack Template View Sub Agent Starter A hyper minimal sub agent template featuring multi-agent orchestration, tool usage, and artifact streaming with AI SDK Tools. nextjs ai-sdk-tools typescript tailwind + 1 Full-Stack Template View AI SDK Agent Platform Build and deploy RAG agents: create, configure, and deploy AI agents with custom knowledge bases. Upload documents, scrape websites, and build vector embeddings with pgvector. nextjs workflow dev kit better-auth drizzle + 7 Full-Stack Template View Multi Tenant Better Auth Chat A full-featured ChatGPT-style SaaS chat app. Includes multi-tenant organizations, team roles, artifact management, resumable streaming, and persistent conversation history. nextjs tailwind stripe drizzle + 5 Full-Stack Template View View All Templates PREMIUM MARKETING BLOCKS Cult Pro pro.cult-ui.com CULT PRO Premium Components Premium marketing components for landing pages and marketing sites. Agent Suggest Card Stack View Analytics Chart View Apple iPhone 17 Pro Max View Apple Keyboard View Apple Pro Display XDR View Apple Watch Ultra Vi",
+    "features": [],
+    "effects": [
+      "framer-motion",
+      "Intersection Observer",
+      "Stagger animations",
+      "Glassmorphism",
+      "Gradients",
+      "Dark mode",
+      "3D Tilt",
+      "Custom cursor",
+      "Grain/Noise texture",
+      "Bento grid"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vercel",
+      "Supabase",
+      "Stripe"
+    ],
+    "prices": [
+      "$1",
+      "$1",
+      "$12",
+      "$15",
+      "$16",
+      "$0",
+      "$0",
+      "$0",
+      "$0",
+      "$1"
+    ]
+  },
+  "linear": {
+    "url": "https://linear.app/",
+    "status": 200,
+    "title": "Linear – The system for product development",
+    "meta_desc": "Purpose-built for planning and building products with AI agents.",
+    "h1": [
+      "The productdevelopmentsystem for teamsand agentsThe product developmentsystem for teams and agentsTh"
+    ],
+    "h2": [
+      "A new species of product tool.Purpose-built for modern teams with AI workflows at its core, Linear s",
+      "Make product \noperations self-driving",
+      "Define the \nproduct direction",
+      "Move work forward \nacross teams and agents",
+      "Review PRs and agent output",
+      "Understand \nprogress at scale",
+      "Changelog",
+      "Built for the future. Available today."
+    ],
+    "h3": [
+      "Faster app launch",
+      "Product",
+      "Features",
+      "Company",
+      "Resources",
+      "Connect",
+      "Legal"
+    ],
+    "emails": [],
+    "phones": [],
+    "social": {
+      "twitter": "https://x.com/linear",
+      "github": "https://github.com/linear",
+      "youtube": "https://www.youtube.com/@linear"
+    },
+    "links_internal": 72,
+    "links_external": 4,
+    "images": 32,
+    "scripts": 88,
+    "text": "Skip to content → Product Resources Customers Pricing Now Contact Docs Open app Log in Sign up The product development system for teams and agents The product development system for teams and agents The product development system for teams and agents Purpose-built for planning and building products. Designed for the AI era. New Coding Sessions → New Coding Sessions → Linear Inbox My issues Reviews Pulse Workspace Initiatives Projects More Favorites Faster app launch Agent tasks UI Refresh Agents Insights Faster app launch 02 / 145 Faster app launch Render UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup. Activity Linear created the issue via Slack on behalf of karri · 2min ago Triage Intelligence added the label Performance and iOS · 2min ago karri · 4 min ago Right now we show a spinner forever, which makes it look like the car disappeared... jori · just now @Linear can you take a stab at this? Linear connected by jori · 2 min ago Changed 2 files Draft PR awaiting your review · 2 min ago Linear moved from Todo to In Progress · just now Linear Opus 4.8 jori connected Linear to ENG-2703 Examining the startup path... Thinking... ENG-2703 In Progress High jori Linear Labels Performance iOS Cycle Cycle 144 Project Core Performance A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products. Built for purpose Linear is shaped by the practices and principles of world-class product teams. Powered by AI agents Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs. Designed for speed Reduces noise and restores momentum to help teams ship with high velocity and focus. FIG 0.2 Built for purpose Linear is shaped by the practices and principles of world-class product teams. FIG 0.3 Powered by AI agents Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs. Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs. FIG 0.4 Designed for speed Reduces noise and restores momentum to help teams ship with high velocity and focus. Make product \noperations self-driving Turn conversations and customer feedback into actionable issues that are routed, labeled, and prioritized for the right team. 1.0 Intake → Backlog 8 ENG-2085 Reduce UI flicker during autonomy... ENG-2094 Add buffering for autonomy event streams ENG-2092 Reduce startup delay caused by vehicle sync ENG-2200 Fix delayed route updates during rerouting Todo 71 ENG-926 Remove UI inconsistencies Bug Design ENG-2088 TypeError: Cannot read properties Bug ENG-924 Upgrade to Claude Opus 4.8 AI ENG-1882 Optimize load times Performance In Progress 3 ENG-1487 Remove contentData from GraphQL API 61039 MKT-1028 Launch page assets Design ENG-2187 Prevent duplicate ride requests on poor... Bug 62048 Done 53 ENG-2074 Clean up deprecated APIs... API 61002 ENG-1912 Reduce latency in autonomy st... 61005 ENG-1951 Reduce ETA fluctuations durin... 61202 ENG-1960 Improve fallback messaging UI 61149 ENG-1991 Improve rider visibility into veh... Thread in #feedback didier Has anyone been looking into the iOS startup performance issues? lena Anyone else noticing the iOS app feels slow to open if you haven't used it in a bit? didier Yea, we're still blocking initial render on a full vehicle_state sync every time... andreas Feels like we could render sooner and load the rest in the background. Probably also worth tracking startup timing so we know how often this happens! @Linear create issues urgent issues and assign to me 1 . 1 Linear Agent + 1 . 2 Triage + 1 . 3 Customer Requests + 1 . 4 Linear Asks + Define the \nproduct direction Plan and navigate from idea to launch. Align your team with product initiatives, strategic roadmaps, and clear, up-to-date PRDs. 2.0 Plan → FEB MAR APR MAY JUN JUL AUG SEP 2 9 16 23 2 9 16 23 30 6 13 20 27 4 11 18 25 1 8 15 22",
+    "features": [],
+    "effects": [
+      "framer-motion",
+      "Intersection Observer",
+      "Morphing",
+      "Glassmorphism",
+      "Gradients",
+      "Dark mode",
+      "Ripple effect",
+      "3D Tilt",
+      "Marquee/Infinite scroll",
+      "Count-up numbers",
+      "Custom cursor",
+      "Grain/Noise texture",
+      "Video backgrounds",
+      "Bento grid"
+    ],
+    "tech": [
+      "React",
+      "Vercel",
+      "Supabase",
+      "Stripe",
+      "Cloudflare"
+    ],
+    "prices": [
+      "$8",
+      "$12",
+      "$4",
+      "$15",
+      "$15",
+      "$15",
+      "$15",
+      "$15",
+      "$2",
+      "$200"
+    ]
+  },
+  "stripe": {
+    "url": "https://stripe.com/",
+    "status": 200,
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "meta_desc": "Stripe is a financial services platform that helps all types of businesses accept payments, build flexible billing models, and manage money movement.",
+    "h1": [
+      "Financial infrastructure to grow your revenue.Accept payments, offer financial services, and impleme",
+      "Financial infrastructure to grow your revenue.Accept payments, offer financial services, and impleme"
+    ],
+    "h2": [
+      "Flexible solutions for every business model.",
+      "The backbone of global commerce",
+      "Powering businesses of all sizes.",
+      "Reliable, extensible infrastructure for every stack.",
+      "What’s happening"
+    ],
+    "h3": [
+      "Accept and optimize payments globally—online and in person",
+      "Enable any billing model",
+      "Monetize through agentic commerce",
+      "Create a card issuing program",
+      "Access borderless money movement with stablecoins and crypto",
+      "Embed payments in your platform",
+      "Transform your enterprise with agile financial infrastructure",
+      "Hertz unifies commerce with Stripe.",
+      "URBN consolidates $5 billion in online and in-store revenue onto Stripe.",
+      "Instacart powers online grocery delivery with Stripe."
+    ],
+    "emails": [
+      "billing@example.com",
+      "jane.diaz@example.com",
+      "damian.michelfelder@example.com",
+      "taro.yamada@example.com",
+      "jane.diaz@stripe.com"
+    ],
+    "phones": [
+      "+1 888 926 2289"
+    ],
+    "social": {
+      "github": "https://github.com/stripe",
+      "youtube": "https://www.youtube.com/watch?v=eMSqlQMk480"
+    },
+    "links_internal": 175,
+    "links_external": 6,
+    "images": 35,
+    "scripts": 78,
+    "text": "Stripe | Financial Infrastructure to Grow Your Revenue Products Solutions Developers Resources Pricing Sign in Start now Contact sales Back Sign in Sign in Contact sales Global GDP running on Stripe: Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth. Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth. Get started Sign up with Google Flexible solutions for every business model. Grow your business with a comprehensive set of payments and financial tools⁠—⁠designed to work individually or together. Grow your business with the most comprehensive set of payments and financial tools. Accept and optimize payments globally—online and in person Enable any billing model Pro Plan Billed monthly Tokens $0.01 per 1,000 units Usage meter Tokens used in the last 30 days Monetize through agentic commerce Create a card issuing program Access borderless money movement with stablecoins and crypto Embed payments in your platform Building the economic infrastructure for AI Watch now The backbone of global commerce 135+ currencies and payment methods supported $1.9T in payments volume processed in 2025 99.999% historical uptime for Stripe services 200M+ active subscriptions managed on Stripe Billing 135+ currencies and payment methods supported $1.9T in payments volume processed in 2025 99.999% historical uptime for Stripe services 200M+ active subscriptions managed on Stripe Billing Powering businesses of all sizes. Run your business on a reliable platform that adapts to your needs. Transform your enterprise with agile financial infrastructure Stripe for enterprises 50% of Fortune 100 companies have used Stripe to grow their businesses—from expanding internationally to reimagining the customer experience. Hertz unifies commerce with Stripe. Read the story 160 countries 11K+ locations globally Products used Payments, Terminal, Connect, Radar, and Stripe Sigma Read the story URBN consolidates $5 billion in online and in-store revenue onto Stripe. Read the story 5+ consumer brands in retailer portfolio 700+ store locations Products used Payments, Terminal, Connect, Stripe Sigma, Radar, and Link Read the story Instacart powers online grocery delivery with Stripe. Read the story 600K+ shoppers 1.8K retail partners across nearly 100K stores Products used Payments, Connect, Data Pipeline, and Issuing Read the story Le Monde improves local and international payments with Stripe. Read the story 100% of digital and print payments powered by Stripe Less than 3 months to implement and go live Products used Payments, Stripe Sigma, and Radar Read the story Realize value faster with dedicated experts Professional services. Get tailored guidance from Stripe on implementation, complex integrations, or major migrations. View services Stripe-certified experts. Work with a Stripe consulting partner that can integrate and deploy Stripe solutions on your behalf. View partners Support plans. Receive ongoing assistance and day-to-day support for technical questions with tiered plans based on your needs. View plans Build a foundation for your startup that enables faster growth Stripe for startups From stablecoin pioneers to 78% of the Forbes AI 50, Stripe helps startups build what’s next on easy-to-integrate financial infrastructure. Lovable grows into a vibe-coding juggernaut with Stripe. Read Lovable’s story Gamma expands to $100M ARR and 70 million users with Stripe. Read Gamma’s story Runway protects developer time with no-code solutions from Stripe. Read Runway’s story Supabase delivers its backend-as-a-service to 150 countries with Stripe. Read Supabase’s story Linear partners with Stripe to handle billing and payments. Read Linear’s story ElevenLabs grows into a $3B AI audio leader with Stripe. Watch the video Browserbase offe",
+    "features": [],
+    "effects": [
+      "Intersection Observer",
+      "Gradients",
+      "Dark mode",
+      "Skeleton loading",
+      "Spotlight/Beam",
+      "3D Tilt",
+      "Marquee/Infinite scroll",
+      "Count-up numbers",
+      "Custom cursor",
+      "Video backgrounds",
+      "Bento grid"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Vercel",
+      "Supabase",
+      "Stripe"
+    ],
+    "prices": [
+      "$0",
+      "$1",
+      "$1",
+      "$5",
+      "$100",
+      "$3",
+      "$1",
+      "$40",
+      "$1",
+      "$1"
+    ]
+  },
+  "vercel": {
+    "url": "https://vercel.com/",
+    "status": 200,
+    "title": "Agentic Infrastructure - Vercel",
+    "meta_desc": "The autonomous stack for every app and agent.",
+    "h1": [
+      "Agentic Infrastructure"
+    ],
+    "h2": [
+      "Build agents on infrastructure that thinks like them",
+      "Ship apps that scale from zero to millions instantly",
+      "Host platforms that serve every customer",
+      "Recently shipped",
+      "Built by you, or your agents",
+      "Agent Stack",
+      "Core Platform",
+      "Security"
+    ],
+    "h3": [
+      "Agent Stack",
+      "Core Platform",
+      "Tools",
+      "Learn",
+      "Build",
+      "Explore"
+    ],
+    "emails": [],
+    "phones": [],
+    "social": {
+      "github": "https://github.com/vercel",
+      "twitter": "https://x.com/vercel",
+      "linkedin": "https://linkedin.com/company/vercel",
+      "youtube": "https://youtube.com/@VercelHQ",
+      "instagram": "https://www.instagram.com/vercelhq/"
+    },
+    "links_internal": 149,
+    "links_external": 13,
+    "images": 19,
+    "scripts": 66,
+    "text": "Agentic Infrastructure - Vercel Skip to content Copy Logo as SVG Copy Wordmark as SVG Brand Guidelines Products Agent Stack AI SDK AI Gateway Sandbox Workflows Passport eve Core Platform Security Content Delivery Fluid Compute Observability CI/CD Tools Next.js Vercel Agent Vercel Plugin Domains ↗ v0 ↗ Resources Learn Docs About Blog Changelog Knowledge Base Build AI Apps Web Apps Marketing Sites Platforms Commerce Explore Customers Marketplace Partner Finder AWS Community ↗ Enterprise Pricing Get a Demo Log In Sign Up Ask AI Dashboard Products Agent Stack AI SDK AI Gateway Sandbox Workflows Passport eve Core Platform Security Content Delivery Fluid Compute Observability CI/CD Tools Next.js Vercel Agent Vercel Plugin Domains ↗ v0 ↗ Resources Learn Docs About Blog Changelog Knowledge Base Build AI Apps Web Apps Marketing Sites Platforms Commerce Explore Customers Marketplace Partner Finder AWS Community ↗ Enterprise Pricing Get a Demo Log In Sign Up Drop to deploy Loading Agentic Infrastructure To ship apps and agents For coding agents For coding agents to ship apps and agents automated by agents. Deploy now Talk to sales For coding agents to deploy in their native language, with Vercel's API, CLI, MCP, and Skills. To ship apps and agents in Sandboxed VMs, with durable backends, powered by hundreds of models. Automated by agents who autonomously investigate errors, plan fixes, and open PRs. Build agents on infrastructure that thinks like them Notion powers millions of agent conversations daily on Vercel. Features Durable Orchestration Sandboxed Environments AI Model Gateway Fluid Compute Ship apps that scale from zero to millions instantly Zapier serves over 100 million monthly website visits on Vercel. Features Global Delivery Deployment Environments Serverless Functions Web Application Firewall Host platforms that serve every customer Mintlify powers documentation for 20,000+ companies on Vercel Features Tenant Isolation Domain Management Custom SSL Certificates Preview URLs Recently shipped A framework for building durable agents. Vercel Passport Pasaporte Passaporto パスポート Iss 2026 Passport Secure every internal agent, app, and deployment with your identity provider. ▲ vercel deploy Vercel CLI ✓ Building image from Dockerfile.vercel ✓ Stored image in your project's registry ✓ Deployed to Fluid compute Production: https://my-server.vercel.app Containers Run production workloads in isolated containers on Vercel. Built by you, or your agents Deploy now Plugin Plugin $ npx plugins add vercel/vercel-plugin npx plugins add vercel/vercel-plugin Agent Stack AI SDK AI Gateway Sandbox Workflows Connect New Passport New eve New Core Platform CI/CD Content Delivery Fluid Compute Observability Security Platform Security WAF Bot Management Bot ID Tools Vercel Drop New Vercel Agent Vercel Plugin New Agent Skills Next.js Domains v0 Frameworks eve New Nuxt SvelteKit Nitro Turborepo Tanstack Start FastAPI xmcp All frameworks SDKs Vercel SDK Workflow SDK New Flags SDK Chat SDK New Queues SDK New Streamdown Build AI Apps Web Apps Marketing Sites Platforms Commerce Platform Engineers Design Engineers Learn Docs Blog Changelog Knowledge Base Academy Articles Community Explore Customers Marketplace Templates Partner Finder Vercel + AWS Company About Careers Press Events Startups Shipped on Vercel Open Source Program Enterprise Pricing Help Legal & Trust Privacy Policy Terms of Service Cookie Policy DPA Acceptable Use Policy Legal (all documents) Trust Center Status Cookie Preferences Social GitHub X LinkedIn YouTube Instagram Loading status… Select a display theme: system light dark",
+    "features": [],
+    "effects": [
+      "Gradients",
+      "Dark mode",
+      "3D Tilt",
+      "Marquee/Infinite scroll",
+      "Count-up numbers",
+      "Custom cursor",
+      "Grain/Noise texture",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Vercel"
+    ],
+    "prices": [
+      "$1",
+      "$1",
+      "$1",
+      "$1",
+      "$11",
+      "$16",
+      "$1",
+      "$1",
+      "$1",
+      "$1"
+    ]
+  },
+  "raycast": {
+    "url": "https://www.raycast.com/",
+    "status": 200,
+    "title": "Raycast - Your shortcut to everything",
+    "meta_desc": "A collection of powerful productivity tools all within an extendable launcher.",
+    "h1": [
+      "Your shortcut to everything."
+    ],
+    "h2": [
+      "It’s not about saving time.",
+      "There’s an extension for that.",
+      "Your Mac just got smarter.",
+      "Built for professionals like you.",
+      "Don't repeat yourself.",
+      "Stay in the loop.",
+      "Take the short way."
+    ],
+    "h3": [
+      "Plus thousands more...",
+      "Build the perfect tools."
+    ],
+    "emails": [],
+    "phones": [],
+    "social": {
+      "twitter": "https://twitter.com/raycast",
+      "youtube": "https://www.youtube.com/@raycastapp",
+      "github": "https://github.com/raycast"
+    },
+    "links_internal": 17,
+    "links_external": 117,
+    "images": 97,
+    "scripts": 80,
+    "text": "Raycast - Your shortcut to everything Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download Log in Your shortcut to everything. A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable. Download for Mac Download for Windows (beta) Install via homebrew or winget Try the new Raycast beta Meet Glaze Learn more It’s not about saving time. It’s about feeling like you’re never wasting it. Download esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 ± § ! 1 @ 2 # 3 $ 4 % 5 ^ 6 & 7 * 8 ( 9 ) 0 _ - + = delete Fast. Think in milliseconds. Ergonomic. Keyboard First. E R T Y U I O P { [ } ] | \\ Native. Pure performance. Reliable. 99.8% crash-free rate. S D F G H J K L : ; \" , ~ ` Z X C V B N M < , > . ? / fn control option command command option There’s an extension for that. Use your favorite tools without even opening them. Productivity Engineering Design Writing Linear Create, search and modify your issues without leaving your keyboard. Google Translate Use Google Translate to effortlessly translate into multiple languages Spotify Search for music and podcasts, browse your library, and control playback. Arc Navigate your open tabs or search through your browser history. TinyPNG Compress the selected images in Finder with TinyPNG. 1Password Easily grab any password or credential from your 1Password vaults. JIRA Manage your JIRA issues and sprints without leaving your keyboard. Slack Set your presence, see unread messages and search your chats. Zoom See your upcoming calls and jump straight into them from Raycast. Timers Start stopwatches and timers to keep track of your daily tasks. Pomodoro Control pomodoro timers and see the current interval in the menu bar. Notion The fastest way to search and create Notion pages. Todoist Check your Todoist tasks and quickly create new ones Google Search Need to know something fast? Google it straight from Raycast. Obsidian Capture information, manage tasks and pin notes to your menu bar. Google Chrome Search open tabs, bookmarks and history in Google Chrome. CleanShot X Trigger CleanShot X screen captures right from your keyboard. Plus thousands more... Browse the store Browse thousands more AI Your Mac just got smarter. AI where it’s most useful - on your OS. Search for apps and commands... Ask Anything, Anytime, Anywhere. Quick AI combines the power of AI with the web to answer any question. Always On ChatGPT. Stuck while coding? Need help writing an email? Meet your new virtual assistant. Your Automation Assistant. Create your own AI Commands to automate repetitive tasks and eliminate chores. More about AI Built for professionals like you. Used by seriously productive people. Guillermo Rauch @rauchg CEO, Vercel Marques Brownlee @MKBHD Creator, MKBHD Koen Bok @koenbok Founder, Framer Andreas Storm @avstorm Designer & Iconograph Adam Wathan @adamwathan Creator, Tailwind CSS Wes Bos @wesbos Co-host, SyntaxFM Ridd @ridd_design Creator, Dive Club Max Stoiber @mxstbr CEO, Stellate Zach Holman @holman Angel Investor Ansub @justansub Founding Engineer Kitze @thekitze Founder Florian Kiem @flornkm Design Engineer Wojtek Witkowski @pugson Design Engineer Reece Atkinson @reece_dev Student Mariana Castilho @mrncst Designer Oliur @UltraLinx Designer Jia @upinthezone Student Tomek Sułkowski @sulco Developer Advocate Nicolas Neubert @iamneubert Runway AI Jaime Creixems @webjac Design Advocate Gavin Nelson @gavmn Designer, OpenAI Isabel Sá @isabelsoasa Designer Steven Tey @steventey Founder, Dub Adam Whitcroft @AdamWhitcroft Designer, Owner Favorite Feature : AI Chat Realtime knowledge, anywhere in your OS. Top Extension : Notion Search I forked the Notion Search extension so I can easily paste \"tokenized\" doc links into Slack. Raycast is incrementally turning my Mac into an AI-native operating system and I’m so here for it. Don't repeat yourself. Automate the things you do all the time. Snippets Tired of typing the same thing? Create a snippet and inser",
+    "features": [],
+    "effects": [
+      "framer-motion",
+      "Stagger animations",
+      "Glassmorphism",
+      "Gradients",
+      "Dark mode",
+      "Confetti",
+      "Spotlight/Beam",
+      "3D Tilt",
+      "Count-up numbers",
+      "Custom cursor",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vercel"
+    ],
+    "prices": [
+      "$1",
+      "$4",
+      "$1",
+      "$1",
+      "$1",
+      "$13",
+      "$15",
+      "$15",
+      "$34",
+      "$35"
+    ]
+  },
+  "resend": {
+    "url": "https://resend.com/",
+    "status": 200,
+    "title": "Resend · Email for developers",
+    "meta_desc": "The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale.",
+    "h1": [
+      "Email fordevelopers"
+    ],
+    "h2": [
+      "Integrate",
+      "First-classdeveloper experience",
+      "Test mode",
+      "Modular webhooks",
+      "Write using a delightful editor",
+      "Go beyond editing",
+      "Contact management",
+      "Broadcast analytics"
+    ],
+    "h3": [],
+    "emails": [
+      "favicon-marketing@72x72.png",
+      "delivered@resend.dev",
+      "your.name@acme.com",
+      "favicon-marketing@57x57.png",
+      "favicon-marketing@114x114.png",
+      "favicon-marketing@76x76.png",
+      "favicon-marketing@144x144.png",
+      "favicon-marketing@60x60.png",
+      "onboarding@resend.dev",
+      "favicon-marketing@180x180.png",
+      "favicon-marketing@120x120.png",
+      "favicon-marketing@152x152.png"
+    ],
+    "phones": [],
+    "social": {
+      "github": "https://github.com/resend",
+      "twitter": "https://x.com/resend",
+      "linkedin": "https://linkedin.com/company/resend",
+      "youtube": "https://www.youtube.com/channel/UC0FkhoSz2kYqHVBk4L0QYIg"
+    },
+    "links_internal": 48,
+    "links_external": 7,
+    "images": 13,
+    "scripts": 84,
+    "text": "Resend · Email for developers Open main menu Features Company Resources Help Docs AI Pricing Log in Get started Announcing Remote MCP Email for developers The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale. Get started Documentation Companies of all sizes trust Resend to deliver their most important emails. Integrate A simple, elegant interface so you can start sending emails in minutes. It fits right into your code with SDKs for your favorite programming languages. Node.js Serverless Ruby Python PHP CLI Go Rust Java Elixir .NET REST SMTP Node.js Next.js Remix Nuxt Express Hono Redwood Bun Astro 1 import { Resend } from 'resend' ; 2 3 const resend = new Resend ( 're_xxxxxxxxx' ) ; 4 5 ( async function ( ) { 6 const { data , error } = await resend . emails . send ( { 7 from : 'onboarding@resend.dev' , 8 to : 'delivered@resend.dev' , 9 subject : 'Hello World' , 10 html : '<strong>it works!</strong>' 11 } ) ; 12 13 if ( error ) { 14 return console . log ( error ) ; 15 } 16 17 console . log ( data ) ; 18 } ) ( ) ; View on GitHub Download ZIP First-class developer experience We are a team of engineers who love building tools for other engineers. Our goal is to create the email platform we've always wished we had — one that just works . delivered delivered@resend.dev Send HTTP 200: { \"id\": \"26abdd24-36a9-475d-83bf-4d27a31c7def\" } HTTP 200: { \"id\": \"cc3817db-d398-4892-8bc0-8bc589a2cfb3\" } HTTP 200: { \"id\": \"4ea2f827-c3a2-471e-b0a1-8bb0bcb5c67c\" } HTTP 200: { \"id\": \"8e1d73b4-ebe1-485d-bce8-0d7044f1d879\" } HTTP 200: { \"id\": \"a08045a6-122a-4e16-ace1-aa81df4278ac\" } HTTP 200: { \"id\": \"c3be1838-b80e-457a-9fc5-3abf49c3b33e\" } HTTP 200: { \"id\": \"13359f77-466e-436d-9cb2-ff0b0c9a8af4\" } Test mode Simulate events and experiment with our API without the risk of accidentally sending real emails to real people. Learn more delivered to with subject on agent running on clicked from on on agent running on opened from with subject on agent running on complained to with feedback on agent running on bounced to with type on agent running on Modular webhooks Receive real-time notifications directly to your server. Every time an email is delivered, opened, bounces, or a link is clicked. Learn more Write using a delightful editor A modern editor that makes it easy for anyone to write, format, and send emails. Visually build your email and change the design by adding custom styles. Styles Weekly Acme Newsletter a day ago Test Send From your.name@acme.com To Newsletter Subscribers Subject Weekly Newsletter Go beyond editing Group and control your contacts in a simple and intuitive way. Straightforward analytics and reporting tools that will help you send better emails. Contact management Import your list in minutes, regardless the size of your audience. Get full visibility of each contact and their personal attributes. Learn more Broadcast analytics Unlock powerful insights and understand exactly how your audience is interacting with your broadcast emails. Learn more Develop emails using React Create beautiful templates without having to deal with <table> layouts and HTML. Powered by react-email, our open source component library. Get started Check the docs user-welcome.tsx reset-password.tsx user-invite.tsx weekly-digest.tsx 1 import { Body , Button , Column , Container , Head , Heading , Hr , Html , Img , Link , Preview , Row , Section , Text , Tailwind } from 'react-email' ; 2 import * as React from 'react' ; 3 4 const WelcomeEmail = ( { 5 username = 'Steve' , 6 company = 'ACME' , 7 } : WelcomeEmailProps ) => { 8 const previewText = ` Welcome to ${ company } , ${ username } ! ` ; 9 10 return ( 11 < Html > 12 < Head /> 13 < Preview > { previewText } </ Preview > 14 < Tailwind > 15 < Body className = \" bg-white my-auto mx-auto font-sans \" > 16 < Container className = \" my-10 mx-auto p-5 w-[465px] \" > 17 < Section className = \" mt-8 \" > 18 < Img 19 src = { ` ${ baseUrl } /static/example-logo.png ` } 20 w",
+    "features": [],
+    "effects": [
+      "Spline",
+      "Glassmorphism",
+      "Gradients",
+      "Dark mode",
+      "3D Tilt",
+      "Custom cursor",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vercel",
+      "Supabase"
+    ],
+    "prices": [
+      "$1",
+      "$2",
+      "$1",
+      "$1",
+      "$1",
+      "$1",
+      "$32",
+      "$32"
+    ]
+  },
+  "supabase": {
+    "url": "https://supabase.com/",
+    "status": 200,
+    "title": "Supabase | The Postgres Development Platform",
+    "meta_desc": "Build production-grade applications with a Postgres database, Authentication, instant APIs, Realtime, Functions, Storage and Vector embeddings. Start for free.",
+    "h1": [
+      "Build in a weekendScale to millions"
+    ],
+    "h2": [
+      "Postgres Database",
+      "Authentication",
+      "Edge Functions",
+      "Storage",
+      "Realtime",
+      "Vector",
+      "Data APIs",
+      "Open source from day one"
+    ],
+    "h3": [
+      "Stay productive and manage your appwithout leaving the dashboard",
+      "Use Supabase withReact",
+      "Kickstart your next projectwith production ready templates",
+      "How industry leadersare building with Supabase",
+      "Join the community"
+    ],
+    "emails": [],
+    "phones": [],
+    "social": {
+      "github": "https://github.com/supabase/supabase/blob/master/CONTRIBUTING.md",
+      "discord": "https://discord.supabase.com/",
+      "twitter": "https://twitter.com/supabase",
+      "youtube": "https://youtube.com/c/supabase",
+      "instagram": "https://www.instagram.com/supabasecom"
+    },
+    "links_internal": 86,
+    "links_external": 29,
+    "images": 57,
+    "scripts": 80,
+    "text": "Supabase | The Postgres Development Platform Product Developers Solutions Pricing Docs Blog 106.4K Sign in Start your project Open main menu Build in a weekend Scale to millions Start your project with a Postgres database. Add Authentication, Data APIs, Edge Functions, Realtime Data, Storage, and Vector embeddings. Start your project Request a demo Postgres Database Every project is a full Postgres database , the world's most trusted relational database. 100% portable Built-in Auth with RLS Easy to extend Authentication Add user sign ups and logins , securing your data with Row Level Security. Edge Functions Easily write custom code without deploying or scaling servers. $ supabase functions deploy Storage Store, organize, and serve large files, from videos to images. Realtime Build multiplayer experiences with real-time data synchronization. Vector Integrate your favorite ML-models to store, index and search vector embeddings . OpenAI logo OpenAI Hugging Face logo Hugging Face Data APIs Instant ready-to-use REST APIs . Use one or all. Best of breed products. Integrated as a platform. Trusted by fast-growing companies worldwide Stay productive and manage your app without leaving the dashboard Table Editor SQL Editor RLS Policies Use Supabase with React import { createClient } from ' @supabase/supabase-js ' const supabase = createClient ( process.env. SUPABASE_URL , process.env. SUPABASE_ANON_KEY ) export default function App () { const [ todos , setTodos ] = useState ([]) useEffect (() => { supabase. from ( ' todos ' ). select ( ' * ' ) . then (({ data }) => setTodos (data)) }, []) return < TodoList items = {todos} /> } import { createClient } from ' @supabase/supabase-js ' const supabase = createClient ( process . env . SUPABASE_URL , process . env . SUPABASE_ANON_KEY ) export default function App () { const [ todos , setTodos ] = useState ([]) useEffect ( () => { supabase . from ( ' todos ' ) . select ( ' * ' ) . then ( ({ data }) => setTodos (data)) }, []) return < TodoList items = { todos } /> } Read docs for React Kickstart your next project with production ready templates View all examples Stripe Subscriptions Starter The all-in-one subscription starter kit for high-performance SaaS applications, powered by Stripe, Supabase, and Vercel. Next.js Starter A Next.js App Router template configured with cookie-based auth using Supabase, TypeScript and Tailwind CSS. AI Chatbot An open-source AI chatbot app template built with Next.js, the Vercel AI SDK, OpenAI, and Supabase. LangChain + Next.js Starter Starter template and example use-cases for LangChain projects in Next.js, including chat, agents, and retrieval. Flutter User Management Get started with Supabase and Flutter by building a user management app with auth, file storage, and database. Expo React Native Starter An extended version of create-t3-turbo implementing authentication on both the web and mobile applications. How industry leaders are building with Supabase More customer stories Firecrawl Switched from Pinecone to Supabase Vector to boost efficiency and accuracy. We looked at the alternatives and chose Supabase because it's open source, it's simpler, and for all the ways we need to use it, Supabase has been just as performant — if not more performant — than the other vector databases. Caleb Peffer, CEO, Firecrawl Read the story → Firecrawl Switched from Pinecone to Supabase Vector to boost efficiency and accuracy. We looked at the alternatives and chose Supabase because it's open source, it's simpler, and for all the ways we need to use it, Supabase has been just as performant — if not more performant — than the other vector databases. Caleb Peffer, CEO, Firecrawl Read the story → Rally From first line of code to fully licensed fintech in three months. We could not have built this company without Supabase. If I had to go and build all these components myself, we wouldn't even have launched. Thiago Peres, Founder & CTO, Rally Read the story → Hyper An AI-native m",
+    "features": [],
+    "effects": [
+      "Intersection Observer",
+      "Gradients",
+      "Dark mode",
+      "3D Tilt",
+      "Marquee/Infinite scroll",
+      "Custom cursor",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "Next.js",
+      "React",
+      "Tailwind",
+      "Vercel",
+      "Supabase",
+      "Stripe"
+    ],
+    "prices": [
+      "$1",
+      "$1",
+      "$1",
+      "$1",
+      "$12",
+      "$14",
+      "$17",
+      "$18",
+      "$19",
+      "$1"
+    ]
+  },
+  "planetscale": {
+    "url": "https://planetscale.com/",
+    "status": 200,
+    "title": "PlanetScale - the worldâs fastest and most scalable cloud hosting for Vitess and Postgres",
+    "meta_desc": "PlanetScale offers the worldâs fastest and most scalable cloud hosting for Vitess and Postgres.",
+    "h1": [
+      "The worldâs fastest and most scalable cloud databases"
+    ],
+    "h2": [
+      "Performance",
+      "Uptime",
+      "Cost",
+      "Security",
+      "Features",
+      "Company",
+      "Product",
+      "Resources"
+    ],
+    "h3": [
+      "Shared PlanetScale features",
+      "PlanetScale Vitess features",
+      "PlanetScale Postgres features"
+    ],
+    "emails": [
+      "bd81903b44804e22a06bdc0c1a91b303@o499952.ingest.us.sentry.io"
+    ],
+    "phones": [],
+    "social": {
+      "github": "https://github.com/planetscale",
+      "twitter": "https://twitter.com/planetscale",
+      "linkedin": "https://www.linkedin.com/company/planetscale",
+      "youtube": "https://www.youtube.com/planetscale"
+    },
+    "links_internal": 109,
+    "links_external": 18,
+    "images": 1,
+    "scripts": 7,
+    "text": "PlanetScale - the worldâs fastest and most scalable cloud hosting for Vitess and Postgres ð¹ The future of AI infrastructure: optimize and shard your database with agents. Watch the talk Log in | Get started | Get in touch Platform â¾ | Resources â¾ | Documentation | Pricing | Migrate Navigation Platform â¾ | Resources â¾ | Documentation | Pricing | Migrate The worldâs fastest and most scalable cloud databases PlanetScale brings you the fastest databases available in the cloud. Both our Postgres and Vitess databases deliver exceptional speed and reliability, with Vitess adding ultra scalability through horizontal sharding. Our blazing fast NVMe drives unlock unlimited IOPS , bringing data center performance to the cloud. We offer a range of deployment options to cover all of your security and compliance requirements â including bring your own cloud with PlanetScale Managed . PlanetScale powers Tier 0 databases at: Read case study Read case study Read blog post Read case study Read blog post Read case study Read case study We chose PlanetScale to host our most demanding Vitess and Postgres workloads, doing millions of queries per second on hundreds of terabytes of data. â Sualeh Asif - Chief Product Officer @Anysphere (Cursor) Vitess Postgres Neki Vitess allows MySQL databases to scale horizontally through explicit sharding â enabling a shared nothing architecture distributing data across thousands of nodes, all routed through a single database connection. Vitess was developed at YouTube by the founders of PlanetScale to scale their main MySQL database to petabytes of data on 70,000 nodes across 20 data centers. Now maintained and managed by PlanetScale, Vitess powers the databases of some of the web's largest properties: Slack, HubSpot, Blizzard, Etsy, GitHub, Block, Bloomberg, Yelp, and more. ââââââââââââââââââââââââââââââââââ   \n   ââââââââââââââVTGateââââââââââââââ   \n   ââââââââââââââââââââââââââââââââââ   \n                    â                   \n                                        \n          â â â â â â´ â â â â â         \n         â                              \n                              â         \n         â¼                    â¼         \n   âââââââââââââ        âââââââââââââ   \n   â           â        â           â   \n   â  Primary  â        â  Primary  â   \n   â           â        â           â   \n   âââââââââââââ        âââââââââââââ   \n         â                    â         \n                                        \n     â â â´ â â            â â â´ â â     \n    â         â          â         â    \n    â¼         â¼          â¼         â¼    \nâââââââââ âââââââââ  âââââââââ âââââââââ\nâReplicaâ âReplicaâ  âReplicaâ âReplicaâ\nâââââââââ âââââââââ  âââââââââ âââââââââ ââââââââââââââââââââââââââââââââââââ            \n           ââââââââââââââââââââââââââââââââââââ            \n           âââââââââââââââVTGateâââââââââââââââ            \n           ââââââââââââââââââââââââââââââââââââ            \n           ââââââââââââââââââââââââââââââââââââ            \n                             â                             \n         ",
+    "features": [],
+    "effects": [
+      "Dark mode",
+      "Aurora effect",
+      "Count-up numbers",
+      "Custom cursor"
+    ],
+    "tech": [
+      "React",
+      "Supabase"
+    ],
+    "prices": [
+      "$5",
+      "$50",
+      "$5"
+    ]
+  },
+  "ramotion": {
+    "url": "https://www.ramotion.com/",
+    "status": 200,
+    "title": "Digital Product Firm - Design Agency | Ramotion",
+    "meta_desc": "Ramotion is a design agency headquartered in San Francisco, CA and creates brand identity design, marketing websites, and UI/UX design for web & mobile apps.",
+    "h1": [
+      "Product & branddesign agency"
+    ],
+    "h2": [
+      "For companies withtech leverage",
+      "At the intersection ofproduct and brand",
+      "What ourpartners say"
+    ],
+    "h3": [
+      "Brian Beaver",
+      "Malini Leveque",
+      "Dan Brown",
+      "Chris Chen",
+      "Chris Bank",
+      "Andrew Mason",
+      "Mark Opland",
+      "Khoi Vinh",
+      "Edu Carneiro",
+      "Kevin Sproles"
+    ],
+    "emails": [
+      "info@ramotion.com",
+      "newbusiness@ramotion.com"
+    ],
+    "phones": [
+      "+1-323-863-8068",
+      "+1 888 410 8885",
+      "+18884108885",
+      "+1-917-994-8886",
+      "+1-888-410-8885"
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/ramotion/",
+      "instagram": "https://www.instagram.com/ramotion/",
+      "twitter": "https://x.com/ramotion"
+    },
+    "links_internal": 0,
+    "links_external": 107,
+    "images": 48,
+    "scripts": 5,
+    "text": "Digital Product Firm - Design Agency | Ramotion Work Services Programs About Blog Subscribe Contact Branding Web design UX design Design system Web app development Brand Product Product & brand design agency We help marketing & product executives build impactful brands, engage users, and drive growth All works For companies with tech leverage All works We specialize in working with digital products and brands, regardless of the size and lifecycle stage, from startups to established businesses striving to achieve significant tech leverage. Series of visual concepts for improving the user experience Marketing website for a subsidiary of the CBRE Group's co-working space company We crafted Stripe’s iconography, enhancing recognition and usability across millions of global transactions daily. We developed a pixel-perfect Apple TV app UI for NBCUniversal, earning Apple’s “Best in Class” recognition. Firefox’s identity system enhanced brand recognition, improved user engagement, and reinforced its fast, private, user-centric identity. Brand identity design for an internal App Store by Universal Music Visual identity for Adobe-owned company products Ongoing design support for the leading destination for company insights Designing a motion identity for Opera Brand and marketing design support for an open source data structure server company We applied Okta’s brand identity digitally, developed key assets, enhancing UX and supporting revenue growth. We have been elevating Cellebrite’s design since 2018, from their IPO in 2021 and beyond, driving continued growth. A strategic redesign of Turo’s support portal by our agency led to a 30% improvement in users’ ability to find the answers they need. Design for a membership-based healthcare system Our iconography redesign for Citrix enhanced clarity and engagement, supporting 16M+ cloud users seamlessly. Rebranding and website redesign for Cypress, boosting visibility and surpassing 5.3M weekly downloads Our team collaborated with Descript to develop their brand identity and website, driving brand recognition, user engagement and reach. We redesigned Flatfile’s branding and website, driving $50M funding, 1.75M onboarded customers, and 25B records processed. We redesigned Clearbit’s website, boosting engagement and contributing to their $150M acquisition by Hubspot. We redesiged Streamlit’s branding and website, driving 90% Fortune 50 adoption and Snowflake’s $800M acquisition. Branding elevated Volusion’s identity, boosting recognition, engagement, and driving $29B+ in global merchant sales. We designed Filecoin’s first website, boosting visibility and contributing to their successful $250M+ ICO. We delivered rapid UI prototyping for Xero, helping them scale to 4.2M+ global subscribers. Our UX redesign for HealthTap helped grow its network to 90,000 certified doctors across 147 specialties. Iconography design for ColorOS contributed to OPPO’s growth, now reaching over 500 million users. Ongoing UX design and CRO for child care and education company with more than 200,000 children enrolled Developing the Lightning Design System micro-interactions, boosting user engagement and efficiency, enhancing overall user satisfaction. Redesigned Iterable’s website, enhancing user experience and contributing to a $200M+ revenue milestone. We rebranded Kyber Network, enhancing visibility and engagement, contributing to its $10B+ trading volume milestone. Design for a global video game commerce company Upstream Upstream Turning a complex carbon platform into a clear, intuitive product through full cycle design and development. Rizzle Rizzle Comprehensive redesign of Rizzle’s branding, website, and product UI/UX propelled the platform to over 34 million monthly active users. Firefox Firefox Firefox’s identity system enhanced brand recognition, improved user engagement, and reinforced its fast, private, user-centric identity. Clearbit Clearbit We redesigned Clearbit’s website, boosting engagement and contrib",
+    "features": [],
+    "effects": [
+      "Lottie",
+      "Intersection Observer",
+      "3D Tilt",
+      "Count-up numbers",
+      "Custom cursor",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "Stripe",
+      "Cloudflare"
+    ],
+    "prices": [
+      "$50",
+      "$150",
+      "$800",
+      "$29",
+      "$250",
+      "$200",
+      "$10",
+      "$150",
+      "$4"
+    ]
+  },
+  "ninety_nine": {
+    "url": "https://99designs.com.au/",
+    "status": 200,
+    "title": "Logos, Web, Graphic Design & More. | 99designs",
+    "meta_desc": "The global creative platform for custom graphic design: logos, websites and more. Hire a talented designer or start a design contest. 500k+ happy customers have used 99designs to grow their business.",
+    "h1": [
+      "Grow with great design"
+    ],
+    "h2": [
+      "Your business deserves great design",
+      "It all starts with a logo",
+      "Work with creative experts you can trust",
+      "Ready to level up your look with a great design?"
+    ],
+    "h3": [
+      "Design for what you need"
+    ],
+    "emails": [],
+    "phones": [],
+    "social": {
+      "instagram": "https://www.instagram.com/99designs/",
+      "twitter": "https://www.twitter.com/99designs",
+      "linkedin": "https://www.linkedin.com/company/99designs"
+    },
+    "links_internal": 100,
+    "links_external": 8,
+    "images": 66,
+    "scripts": 17,
+    "text": "Logos, Web, Graphic Design & More. | 99designs Categories How it works Find a designer Inspiration Studio 03 9111 5799 Log in Log in Created for Vegan Jerky Co Packaging by Mj.vass Created for Little Danube Branding by Kamilla Oblakova Created for Feel Good Tea Co. Brand Identity by Raveart Created for The Studio Chicago Merchandise by illusive trust Grow with great design No matter what your business needs, we can connect you with a creative expert to make your business look and feel professional. Because good design makes great business. Get a design Popular: Logo design Website Branding Logos, websites, book covers & more... Logos, websites & more... View all design categories Design for what you need View all design categories Logo & branding design Website & app design Business & advertising Art & illustration Packaging & label Your business deserves great design Logos, websites, packaging design and more. Our trusted designer community has helped thousands of businesses launch, grow, expand and rebrand with custom, professional design. Start your brand Logo by :Dunychi Website by SetupShop™ Packaging by Gusz It all starts with a logo Whether you're brand new or on brand two (or three!), we've got a solution that'll suit your business and elevate your branding. Free Logomaker Create your logo design in minutes. It's fast, free and oh-so-easy. The perfect way to get started, or use it as inspiration for our designers to level up your branding. Create a logo, it's free Run a logo contest Take your branding further. Get dozens of professional, custom logo options from our community of freelance designers, and experience next-level creative direction. Logos from A$449 Cyber sale by reza ernanda by Mad pepper by Radovan Ciobanenco Work with creative experts you can trust Feel confident working with our designer community. All our designers are vetted creative experts who've worked with hundreds of businesses to bring their designs to life. Browse designer portfolios by betiobca 99designs is a platform with a good name and a very good service… where entrepreneurs can easily find the right design for their company. The book cover for us was a very important part of the success of the book. Therefore, we entrusted this to experts and ended up being very happy with the result.\" Val Racheeva + Maxi Knust Co-authors, Germany Get this: A new design is created on 99designs every 2 seconds! designs Collaboration is the key to creativity, and we love bringing people together. 697,884 connections by Wintrygrey We wanted something fun and eye-catching that didn’t look like every other coffee logo out there… There were so many designs to choose from and all of the designers were friendly and willing to change things up based on our preferences. In the end, we went with a design from Wintrygrey that we absolutely love. I would definitely recommend 99designs to anyone looking for logos and branding.\" Juliette Simpkins Owner, Black Ring Coffee. USA Global is good. Our designers challenge and inspire each other with their unique perspectives. 192 countries by Steve Hai When it came to developing my own brand, I didn’t really think of other options… I want to make sure I have alignment between who I am and what I am representing. We all gravitated pretty quickly to the design from Steve Hai. He was really responsive and a great designer. —  photo courtesy: instagram @matthewdelly \" Matthew Dellavedova Australian NBA superstar Creativity at work! Right now we’ve got a lot of people discussing design… 11,625 talking design by malzi. It’s a privilege to work from anywhere. I’m enjoying every second of this lifestyle… I fund a good portion of my travel expenses through 99designs, which I am very grateful for. But I also don’t need to worry about client acquisition, so I can concentrate completely on the projects at hand.\" Timo Malzbender (malzi.) UI/UX designer, Germany Designers, join now Folks think we're pretty rad. We're rated 4.8/5 from 37,645",
+    "features": [],
+    "effects": [
+      "Glassmorphism",
+      "Dark mode",
+      "3D Tilt",
+      "Count-up numbers",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "Next.js"
+    ],
+    "prices": [
+      "$449"
+    ]
+  },
+  "framer_motion": {
+    "url": "https://motion.dev",
+    "status": 200,
+    "title": "Motion: JavaScript & React animation library",
+    "meta_desc": "Motion (prev Framer Motion) is a fast, production-grade animation library for React, JavaScript and Vue. Build smooth UI animations at a tiny footprint.",
+    "h1": [
+      "Motion.Production-grade animation for the web."
+    ],
+    "h2": [
+      "Animations that move.",
+      "Copy, paste, ship.",
+      "Made with Motion.",
+      "Trusted by the world's leading teams.",
+      "The professional animation toolkit. Yours forever.",
+      "Find & fix animation performance issues.",
+      "Choose your runtime"
+    ],
+    "h3": [
+      "Independent transforms",
+      "Scroll animation",
+      "Native gestures",
+      "Layout animation",
+      "Spring physics",
+      "Exit animation",
+      "Timeline sequences",
+      "Motion values",
+      "Partners",
+      "Platinum"
+    ],
+    "emails": [
+      "you@example.com"
+    ],
+    "phones": [],
+    "social": {
+      "github": "https://github.com/motiondivision/motion",
+      "twitter": "https://x.com/motiondotdev",
+      "youtube": "https://www.youtube.com/@motiondotdev"
+    },
+    "links_internal": 5,
+    "links_external": 76,
+    "images": 7,
+    "scripts": 10,
+    "text": "Motion: JavaScript & React animation library Motion Docs Examples AI Kit AI Motion+ Motion+ Open source / MIT License v12.42.2 Motion. Production-grade animation for the web. Get started Get started > Available for React JavaScript Vue React JavaScript Vue Motion 12.42.2 01 / Free Completely free to use, MIT licensed and open source. 02 / Production ready Trusted by Framer and Figma across hundreds of thousands of sites. 03 / Hybrid engine JavaScript and hardware-accelerated browser APIs in one library. 04 / Built for AI Agent-compatible documentation, skills and API. 05 / Tiny footprint APIs up to 90% smaller than their GSAP alternative. 01 Animation library Animations that move. Create high-performance web animations with Motion's easy-to-use API, from simple transforms to advanced interactive gestures. 01 Independent transforms Animate x , y , rotate , scale on the same element, without wrappers. { rotate : 15 , x : \"50%\" } 02 Scroll animation Hardware-accelerated scroll-linked motion via ScrollTimeline . scroll () hover press drag 03 Native gestures hover , press , and drag that feel native, not bolted on. drag = true 04 Layout animation Animate between any two layouts with a single layout prop. layout = true 05 Spring physics Real spring math for animations that naturally react to user input. type = \"spring\" 06 Exit animation AnimatePresence keeps elements alive so they can animate as they leave the DOM. exit = {...} 07 Timeline sequences variants , stagger , and timelines orchestrate complex motion. stagger ( 0.04 ) 08 Motion values useMotionValue drives animations and derived state in real time. useTransform (() => x.get () * 10 ) Available for React JavaScript Vue All documentation 02 Examples Copy, paste, ship. Build previously complex effects, like magnetic cursors or infinite scrolling tickers, with 400+ copy and paste examples. Or adapt to your codebase using AI. Browse all examples > Live example / Skeleton Shimmer Open Parallax Confetti Typewriter iOS App Folder iOS pointer animation Pokopia: Modal 03 Showcase Made with Motion. Everything's possible with Motion. Here are some of the best creations from our expert Motion+ community. 05 Sponsors Trusted by the world's leading teams. Motion is deployed and sponsored by the best teams in the industry, powering UI animations across millions of sites. Become a sponsor Partners Motion powers the animations across hundreds of thousands of Framer sites. Visit Framer Motion is partnered with Cursor on one-click open-in-AI examples for every component. Visit Cursor Platinum 04 Motion+ The professional animation toolkit. Yours forever. A production toolkit on top of the open source library: an agent-native AI Kit, premium components, examples, tutorials, an IDE transition editor, and a private community. One payment, yours forever. 01 AI Kit âº 1.1 Motion expert 1.2 MotionScore performance audit 1.3 CSS spring generator 1.4 Transition visualiser 1.5 Documentation search 1.6 Examples search Get Motion+ for Â£299 Get Motion+ for Â£299 02 Components Ticker > Ticker Infinite marquees with true speed control and a unique minimal-clone algorithm. Examples < Ticker velocity={50} /> MOTION â² 2.4% FRAMER â² 128K REACT â² 1.1% VUE â² 0.6% GSAP â¼ 0.3% STRIPE â² 4.0% SPRING LAYOUT SCROLL DRAG GESTURE STAGGER TIMELINE 01 Â· Ticker 03 / Examples Adapt 400+ examples to your codebase with your AI agent. 04 / Early access Get access to new APIs before they're in general release. 05 / Tutorials 110+ step-by-step builds with live code. 06 / Transition editor Visual transition editor in your IDE for Motion and CSS. 07 / Community Private Discord and GitHub repo. Talk to the people building it. 06 / MotionScore Free audit Results in 60 seconds Animation performance audit Find & fix animation performance issues. Audit any live website in under a minute. Every report grades you S through F, breaks the score down finding by finding, and hands your AI agent copy-paste fixes. Grades SâF Vi",
+    "features": [],
+    "effects": [
+      "framer-motion",
+      "GSAP",
+      "Parallax",
+      "Stagger animations",
+      "Dark mode",
+      "Skeleton loading",
+      "Confetti",
+      "Magnetic hover",
+      "3D Tilt",
+      "Marquee/Infinite scroll",
+      "Count-up numbers",
+      "Typewriter text",
+      "Custom cursor",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "React",
+      "Stripe"
+    ],
+    "prices": []
+  },
+  "gsap": {
+    "url": "https://gsap.com/",
+    "status": 200,
+    "title": "Homepage | GSAP",
+    "meta_desc": "Supported by Webflow. Animate Anything - A wildly robust JavaScript animation library built for professionals.",
+    "h1": [
+      "Animate Anything"
+    ],
+    "h2": [
+      "GSAP allows you to effortlessly animate anything JS can touch. Delivering silky-smooth performance a",
+      "GSAP allows you toeffortlesslyanimateanything JS can touch. Deliveringsilky-smoothperformanceand unm",
+      "GSAP",
+      "Scroll",
+      "SVG",
+      "UI",
+      "Text",
+      "Other"
+    ],
+    "h3": [
+      "",
+      "",
+      "Animate Anything",
+      "AnimateAnything",
+      "",
+      "",
+      "Showcase"
+    ],
+    "emails": [],
+    "phones": [],
+    "social": {
+      "youtube": "https://youtube.com/playlist?list=PLLLrVKlAVicLCG0u8WkwLueVU40z0U456&si=FtIszRBdaARjuaAA",
+      "github": "https://github.com/greensock/GreenSock-JS",
+      "linkedin": "https://www.linkedin.com/company/greensock",
+      "twitter": "https://www.x.com/greensock",
+      "discord": "https://gsap.com/discord/"
+    },
+    "links_internal": 87,
+    "links_external": 20,
+    "images": 5,
+    "scripts": 4,
+    "text": "Homepage | GSAP Skip to main content Join our CodeTV Hackathon & win swag! GSAP GSAP Menu Tools Core Scroll SVG UI Text Installation GSAP & React Video Lessons Professional-grade JavaScript animation for the modern web Showcase Community Learn GSAP Docs Demos Notifications Notifications Notification Settings View All Messages Messages Compose new Go to Inbox Login/Create Account Sign In Login Forgot your password? Why create an account? It's free Access the private Discord Learn & share in the forums Hear about new features first Create an Account My Account Dashboard Account Settings Logout Get GSAP Tools Core Scroll SVG UI Text About Showcase Community Learn GSAP Docs Login/Create Account Dashboard Account Settings Logout Messages Notifications Sign In Login Forgot your password? Not got an account? Create an Account CodePen GitHub Facebook LinkedIn x Animate Anything A n a i m a t 1 0 0 e a a n n y t h i n g GSAP â A wildly robust JavaScript animation library built for professionals Get GSAP Why GSAPÂ® GSAP allows you to effortlessly animate anything JS can touch. Delivering silky-smooth performance and unmatched support so you can focus on the fun stuff. GSAP allows you to effortlessly animate anything JS can touch. Delivering silky- smooth performance and unmatched support so you can focus on the fun stuff. Animate Anything Animate Anything That's right, Anything That's right, Anything Whether you're animating UI, SVG or creating immersive WebGL experiences, GSAP has your back. Whether you're animating UI, SVG or creating immersive WebGL experiences, GSAP has your back. Nice and Easy Easings Add personality to your animations with a huge variety of super plug and play eases or build your own custom curves. Arrange, Control and Choreograph animation sequences in a snap. Nice and easy easing. Add personality to your animations with a huge variety of super plug-and-play eases, or build your own custom curves. Choreograph animation sequences in a snap. Nice and Easy Easing Add personality to your animations with a huge variety of Super Plug -and- play eases , or build your own custom curves Choreograph animation sequences in a snap snap GSAPÂ® Tools Scroll Turn scrolling into silky-smooth storytelling. Explore Scroll SVG Move, morph and much more with our SVG plugins Explore SVG Text Leave them lost for words with seamless text effects. Explore Text UI Interactions Create polished, engaging and accessible interactions. Explore UI Brands using GSAPÂ® Showcase GSAP Showreel 2024 Cobloc / Kononenko Architectural Bureau / Noomo Showcase / TRIONN / Longbow / Watch Previous Showreels ScrollTrigger, Draggable, SplitText ScrollTrigger, SplitText ScrollTrigger, ScrollSmoother, SplitText ScrollTrigger, ScrollSmoother, DrawSVG, MotionPath, Draggable, SplitText ScrollTrigger, ScrollSmoother Explore All Showcases GSAP Core Docs All Plugins Scroll ScrollTrigger ScrollSmoother ScrollTo SVG DrawSVG MorphSVG MotionPath MotionPathHelper UI Flip Draggable Inertia Observer Text SplitText ScrambleText Text Replace Other Physics2D PhysicsProps GSDevTools Keep in the loop with the GSAP® newsletter. Email * GSAP Blog Showcase Learn GSAP GSAP & Webflow Contact Us Connect Forums Discord Codepen LinkedIn Bluesky GitHub X ©2026 GSAP - A Webflow Product.  All rights reserved. Privacy Policy. Terms of Use.",
+    "features": [],
+    "effects": [
+      "GSAP",
+      "Morphing",
+      "Gradients",
+      "Dark mode",
+      "3D Tilt",
+      "Count-up numbers",
+      "Custom cursor",
+      "Grain/Noise texture",
+      "Video backgrounds"
+    ],
+    "tech": [
+      "React"
+    ],
+    "prices": []
+  }
+}

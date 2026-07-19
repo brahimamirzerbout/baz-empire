@@ -1,0 +1,945 @@
+{
+  "hivedigit.com": {
+    "url": "https://hivedigit.com",
+    "status": 200,
+    "title": "Hivedigit",
+    "emails": [
+      "info@hivedigit.com"
+    ],
+    "phones": [
+      "+213 556 104 860",
+      "+213 558 100 777",
+      "+604800"
+    ],
+    "social": {
+      "facebook": "http://facebook.com/hivedigit",
+      "instagram": "https://instagram.com/hivedigit",
+      "linkedin": "https://dz.linkedin.com/company/hivedigit"
+    },
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": true,
+      "branding": false,
+      "publicite": false,
+      "video": true,
+      "e_commerce": false,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": true,
+      "ia_ai": true,
+      "pricing_published": false
+    },
+    "prices": [],
+    "tech": [
+      "WordPress",
+      "jQuery"
+    ],
+    "h1": [],
+    "internal_links": 15,
+    "external_links": 11,
+    "images": 66
+  },
+  "fancommunication.dz": {
+    "url": "https://www.fancommunication.dz",
+    "status": 200,
+    "title": "FAN Advertising Algérie – Agence de communication et marketing digital à Alger",
+    "emails": [],
+    "phones": [
+      "0561 00 61 61",
+      "0561 61 00 61"
+    ],
+    "social": {
+      "twitter": "https://twitter.com/FanCommDz",
+      "linkedin": "https://www.linkedin.com/company/fancommdz",
+      "facebook": "https://www.facebook.com/FanCommDz",
+      "youtube": "https://www.youtube.com/@fancommdz"
+    },
+    "services": {
+      "social_media": true,
+      "seo": true,
+      "web_design": true,
+      "branding": true,
+      "publicite": true,
+      "video": true,
+      "e_commerce": false,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      "\n$",
+      "\n\t$",
+      "\n        $",
+      "\n\t$",
+      " $",
+      " $",
+      " $",
+      "            $",
+      "              $",
+      "           $"
+    ],
+    "tech": [
+      "Bootstrap",
+      "jQuery"
+    ],
+    "h1": [
+      "FAN Advertising Algérie – Agence de communication et marketing digital à Alger"
+    ],
+    "internal_links": 86,
+    "external_links": 5,
+    "images": 2
+  },
+  "atakor.studio": {
+    "url": "https://atakor.studio",
+    "status": 200,
+    "title": "BRAND | PACKAGING | WEB | DESIGN STUDIO | ATAKOR STUDIO",
+    "emails": [
+      "hello@atakor.studio"
+    ],
+    "phones": [
+      "+213(0) 778 303",
+      "+213(0)39 68",
+      "+21339689334",
+      "+213778303802",
+      "0517844218"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/atakor.agency",
+      "instagram": "https://instagram.com/we_are_atakor",
+      "linkedin": "https://linkedin.com/company/atakor-studio"
+    },
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": true,
+      "branding": false,
+      "publicite": true,
+      "video": false,
+      "e_commerce": false,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      "\r\n    $",
+      "\r\n    $",
+      "\r\n    $",
+      "\r\n    $"
+    ],
+    "tech": [
+      "WordPress",
+      "Elementor",
+      "jQuery"
+    ],
+    "h1": [
+      "A Design CapturingCórdoba’s Majesty",
+      "WE ARE ATAKOR",
+      "Brand | Packaging | Web",
+      "Design Studio Based in Algeria"
+    ],
+    "internal_links": 52,
+    "external_links": 18,
+    "images": 17
+  },
+  "shiftin.co": {
+    "url": "https://shiftin.co",
+    "status": 200,
+    "title": "SHIFTIN | Agence marketing digital, création site web et application mobile",
+    "emails": [
+      "hello@shiftin.co"
+    ],
+    "phones": [
+      "+213 21 549 323",
+      "+213 770 77 86",
+      "+213770778655",
+      "+213770778699"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/shiftinagency",
+      "twitter": "https://twitter.com/ShiftinAgency",
+      "instagram": "https://www.instagram.com/shiftinagency/",
+      "linkedin": "https://www.linkedin.com/company/shiftinagency/"
+    },
+    "services": {
+      "social_media": true,
+      "seo": true,
+      "web_design": true,
+      "branding": false,
+      "publicite": true,
+      "video": false,
+      "e_commerce": false,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": true,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      "\n\n\t\t$",
+      "\n\t\t\t$",
+      "\n\t\t$",
+      "\n\t\t$",
+      "\n\t\t\t$",
+      " $",
+      "\n\t\t\t\t$",
+      "\n\t\t$",
+      "\n\t\t\t$",
+      " $"
+    ],
+    "tech": [
+      "jQuery"
+    ],
+    "h1": [
+      "SHIFTINAgence Digitale"
+    ],
+    "internal_links": 17,
+    "external_links": 18,
+    "images": 50
+  },
+  "diamond-agency-dz.com": {
+    "url": "https://diamond-agency-dz.com",
+    "status": 200,
+    "title": "Agence de communication pour projets créatifs | Diamond Agency",
+    "emails": [
+      "contact@diamond-agency-dz.com",
+      "diamondagency.dz@gmail.com"
+    ],
+    "phones": [
+      "+00-123-456-789",
+      "+0000",
+      "+213 (0) 554 22",
+      "+213 (0) 554-22",
+      "+213 (0) 554222528",
+      "+213 (0) 797128397",
+      "+604800",
+      "0512427704",
+      "0539140313",
+      "0554.22.25.28",
+      "0652 12.5719",
+      "0728247776",
+      "0751953125",
+      "0777 40.5676",
+      "0780570999",
+      "0797.12.83.97"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/diamondagencydz",
+      "instagram": "https://instagram.com/diamondagencydz/",
+      "linkedin": "https://www.linkedin.com/company/diamond-agency-dzd/%20",
+      "youtube": "https://youtube.com/@diamondagency6715",
+      "twitter": "https://twitter.com"
+    },
+    "services": {
+      "social_media": true,
+      "seo": true,
+      "web_design": true,
+      "branding": true,
+      "publicite": true,
+      "video": true,
+      "e_commerce": true,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      " 20 000 DA",
+      " 80 000 DA",
+      "6148DA",
+      "6148DA",
+      "6148DA",
+      "6148DA",
+      "6148DA"
+    ],
+    "tech": [
+      "WordPress",
+      "Elementor",
+      "Bootstrap",
+      "jQuery"
+    ],
+    "h1": [
+      "Strategic Thinking, TangibleResults for Business!"
+    ],
+    "internal_links": 125,
+    "external_links": 40,
+    "images": 96
+  },
+  "agence-iceberg.com": {
+    "url": "https://agence-iceberg.com",
+    "status": 200,
+    "title": "Agence Iceberg - Agence de communication globale Alger | agence digitale et marketing à Alger | agence de publicité Alger",
+    "emails": [
+      "contact@agence-iceberg.com"
+    ],
+    "phones": [
+      "+213 554 974 288",
+      "+33 608 002 829",
+      "+604800",
+      "0617283950"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/purenaissance/"
+    },
+    "services": {
+      "social_media": true,
+      "seo": true,
+      "web_design": false,
+      "branding": true,
+      "publicite": true,
+      "video": false,
+      "e_commerce": false,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": false
+    },
+    "prices": [
+      "\n\n\t\t\t$",
+      " $",
+      "\n\t\t\t\t\t\t\t$",
+      "\n\n\t\t\t$"
+    ],
+    "tech": [
+      "WordPress",
+      "jQuery"
+    ],
+    "h1": [
+      "Créons ensemble",
+      "votre identité",
+      "Branding - Marketing - Communication",
+      "Au service de",
+      "votre Marque"
+    ],
+    "internal_links": 22,
+    "external_links": 4,
+    "images": 5
+  },
+  "nazhamane.com": {
+    "url": "https://nazhamane.com",
+    "error": "HTTPSConnectionPool(host='nazhamane.com', port=443): Max retries exceeded with url: / (Caused by ConnectTimeoutError(<HTTPSConnection(host='nazhamane.com', port=443) at 0x7f4f6536f9d0>, 'Connection to nazhamane.com timed out. (connect timeout=15)'))"
+  },
+  "tudsa.net": {
+    "url": "https://tudsa.net",
+    "status": 200,
+    "title": "Agence Marketing Digital, Web & IA en Algérie",
+    "emails": [
+      "contact@tudsa.net"
+    ],
+    "phones": [
+      "+0000",
+      "+213 554 370 887",
+      "+213555870423",
+      "+604800"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/Tudsaofficiel",
+      "instagram": "https://www.instagram.com/tudsanet/",
+      "twitter": "http://x.com/tudsaofficielle"
+    },
+    "services": {
+      "social_media": true,
+      "seo": true,
+      "web_design": true,
+      "branding": false,
+      "publicite": true,
+      "video": false,
+      "e_commerce": true,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": false
+    },
+    "prices": [
+      " $",
+      " $"
+    ],
+    "tech": [
+      "WordPress",
+      "Elementor",
+      "jQuery"
+    ],
+    "h1": [
+      "Agence Marketing Digital, Web Design & Automatisation IA en Algérie"
+    ],
+    "internal_links": 23,
+    "external_links": 4,
+    "images": 8
+  },
+  "kyo-conseil.com": {
+    "url": "https://kyo-conseil.com",
+    "status": 200,
+    "title": "KYŌ Conseil, Communication Digitale et Inbound Marketing en Algérie",
+    "emails": [],
+    "phones": [
+      "+0000",
+      "+604800",
+      "0598382940"
+    ],
+    "social": {
+      "twitter": "https://twitter.com/KYO_Conseil",
+      "facebook": "https://www.facebook.com/KYOconseil/",
+      "linkedin": "https://www.linkedin.com/company/kyo-conseil",
+      "youtube": "https://www.youtube.com/channel/UCH0lycJmdz74axY9b1KKVFA"
+    },
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": true,
+      "branding": false,
+      "publicite": false,
+      "video": false,
+      "e_commerce": false,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": false
+    },
+    "prices": [
+      "\n\n$",
+      " $",
+      "\n\n$"
+    ],
+    "tech": [
+      "WordPress",
+      "jQuery"
+    ],
+    "h1": [
+      "",
+      "KYŌ,Agence de Conseil en Communication Digitale"
+    ],
+    "internal_links": 23,
+    "external_links": 6,
+    "images": 59
+  },
+  "adsmedia.dz": {
+    "url": "https://adsmedia.dz",
+    "status": 200,
+    "title": "Accueil - Agence de marketing digital et communication en Algérie",
+    "emails": [
+      "contact@adsmedia.dz"
+    ],
+    "phones": [
+      "+0000-00",
+      "+0100-02",
+      "+0131",
+      "+0152-0153",
+      "+0301",
+      "+0304",
+      "+0308",
+      "+0329",
+      "+0370-0377",
+      "+0384-038",
+      "+0400-045",
+      "+0460-052",
+      "+0490-0491",
+      "+2000-206",
+      "+2020",
+      "+2113",
+      "+2116",
+      "+2122",
+      "+213 (0) 665 150",
+      "+213665150750",
+      "+2191",
+      "+2193",
+      "+2212",
+      "+2215"
+    ],
+    "social": {
+      "linkedin": "https://www.linkedin.com/company/adsmediadz",
+      "facebook": "https://www.facebook.com/adsMedia.dz/"
+    },
+    "services": {
+      "social_media": true,
+      "seo": false,
+      "web_design": true,
+      "branding": false,
+      "publicite": true,
+      "video": false,
+      "e_commerce": false,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": false
+    },
+    "prices": [
+      "02DA",
+      "02DA",
+      "02DA",
+      "02DA",
+      "02DA",
+      "02DA",
+      "02DA",
+      "02DA",
+      "02DA",
+      "02DA"
+    ],
+    "tech": [
+      "WordPress",
+      "jQuery"
+    ],
+    "h1": [
+      "Votre Agence enMarketing Digitalet Communication"
+    ],
+    "internal_links": 7,
+    "external_links": 4,
+    "images": 17
+  },
+  "nresto.com": {
+    "url": "https://nresto.com",
+    "status": 200,
+    "title": "Menu QR Code Algérie | Menu Digital | QR Code Menu DZ | NResto",
+    "emails": [
+      "contact@felhanout.com"
+    ],
+    "phones": [
+      "+213 770 06 46",
+      "+213-549-047-570"
+    ],
+    "social": {},
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": false,
+      "branding": true,
+      "publicite": false,
+      "video": true,
+      "e_commerce": false,
+      "qr": true,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      " 18 000 DZD",
+      " 18 000 DZD",
+      " 6 500 DZD",
+      " 9 000 DZD",
+      " 11 500 DZD",
+      " 40 000 DZD",
+      "400 DA"
+    ],
+    "tech": [],
+    "h1": [
+      "JavaScript requis",
+      "Menu QR pour Restaurant en AlgérieGratuit Pendant 90 Jours"
+    ],
+    "internal_links": 9,
+    "external_links": 7,
+    "images": 18
+  },
+  "restauxsoft.com": {
+    "url": "https://restauxsoft.com",
+    "status": 200,
+    "title": "Solutions Digitales pour Restaurants en Algérie | RestauxSoft",
+    "emails": [
+      "contact@restauxsoft.dz"
+    ],
+    "phones": [
+      "+213 659 55 10"
+    ],
+    "social": {},
+    "services": {
+      "social_media": true,
+      "seo": false,
+      "web_design": false,
+      "branding": true,
+      "publicite": false,
+      "video": false,
+      "e_commerce": false,
+      "qr": true,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      " DZD",
+      "1DA",
+      "1DA",
+      " 15 000 DZD",
+      "\n$",
+      " $"
+    ],
+    "tech": [
+      "React"
+    ],
+    "h1": [
+      "Solutions Digitales pour Restaurants en AlgérieRestauxSoft"
+    ],
+    "internal_links": 16,
+    "external_links": 0,
+    "images": 11
+  },
+  "quiikly.com": {
+    "url": "https://quiikly.com",
+    "status": 403,
+    "title": "LWS Protection DDoS - Vérification en cours",
+    "emails": [],
+    "phones": [],
+    "social": {},
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": false,
+      "branding": false,
+      "publicite": false,
+      "video": false,
+      "e_commerce": false,
+      "qr": false,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": false,
+      "pricing_published": true
+    },
+    "prices": [],
+    "tech": [],
+    "h1": [
+      "Vérification en cours"
+    ],
+    "internal_links": 0,
+    "external_links": 1,
+    "images": 0
+  },
+  "miamms.com": {
+    "url": "https://www.miamms.com",
+    "status": 200,
+    "title": "Miamm's - Menu Digital Qr Code Algérie",
+    "emails": [],
+    "phones": [
+      "+0000",
+      "+0000-00",
+      "+0100-02",
+      "+0102-0103",
+      "+0110-0111",
+      "+0128-0129",
+      "+0131",
+      "+0152-0153",
+      "+0168-0169",
+      "+0300-0301",
+      "+0303-0304",
+      "+0304",
+      "+0308",
+      "+0308-0309",
+      "+0323",
+      "+0329",
+      "+2000-206",
+      "+2020",
+      "+2113",
+      "+2122",
+      "+213541575874",
+      "+2191",
+      "+2193",
+      "+2212",
+      "+2215",
+      "+604800"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/miamms.menu.digital",
+      "tiktok": "https://www.tiktok.com/@miamm_s",
+      "youtube": "https://www.youtube.com/@miamms-menudigital"
+    },
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": true,
+      "branding": false,
+      "publicite": false,
+      "video": false,
+      "e_commerce": false,
+      "qr": true,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": false
+    },
+    "prices": [
+      "02DA",
+      "02DA",
+      "02DA"
+    ],
+    "tech": [
+      "WordPress",
+      "Elementor",
+      "jQuery"
+    ],
+    "h1": [],
+    "internal_links": 45,
+    "external_links": 7,
+    "images": 7
+  },
+  "restolink.net": {
+    "url": "https://restolink.net",
+    "status": 200,
+    "title": "Restolink: Application pour Restaurants en AlgÃ©rie | Restolink",
+    "emails": [
+      "Hello@restolink.net"
+    ],
+    "phones": [
+      "+213 562 20 32",
+      "+213562203279",
+      "0522875816",
+      "0522875817",
+      "0536 14.8607",
+      "0536 15.4554",
+      "0536 22.3446",
+      "0537 17.2722",
+      "0555555555",
+      "0562 20 32 79",
+      "0588235294",
+      "0619 24 12.07",
+      "0620915032",
+      "0653594771",
+      "0653594772",
+      "0665 21.8383",
+      "0714 12.5304",
+      "0718954248",
+      "0731707317",
+      "0755 21.3537",
+      "0784313725",
+      "0784313726"
+    ],
+    "social": {
+      "facebook": "https://www.facebook.com/restolink.dz/",
+      "instagram": "https://www.instagram.com/restolink.app/",
+      "tiktok": "https://www.tiktok.com/@restolink.app"
+    },
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": true,
+      "branding": false,
+      "publicite": false,
+      "video": false,
+      "e_commerce": true,
+      "qr": true,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      "8DA",
+      " $",
+      " $",
+      " $"
+    ],
+    "tech": [],
+    "h1": [
+      "Service Digital pour",
+      "les restaurateurs",
+      "Restolink participe Ã  L'horeca Expo",
+      "Restolink participe ÃSIAHA Equipement",
+      "DÃ©couvrez nos menus digitaux",
+      "RestolinkAppfonctionne sur tout vos appareils",
+      "sans aucun matÃ©riel Ã  changer"
+    ],
+    "internal_links": 43,
+    "external_links": 8,
+    "images": 48
+  },
+  "almawarid.app": {
+    "url": "https://almawarid.app",
+    "status": 200,
+    "title": "ERP, Facturation, RH & Gestion tout-en-un — Almawarid pour entreprises algériennes | Almawarid",
+    "emails": [
+      "ahmed@monentreprise.dz",
+      "amhallam3@gmail.com",
+      "contact@almawarid.app",
+      "contact@masociete.dz"
+    ],
+    "phones": [
+      "+213 6",
+      "+213-40-534-283",
+      "0560 12 34 56",
+      "0560218890"
+    ],
+    "social": {},
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": false,
+      "branding": false,
+      "publicite": false,
+      "video": false,
+      "e_commerce": false,
+      "qr": true,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      " 412 000 DA",
+      "85 000 DA",
+      "142 500 DA",
+      "22 800 DA",
+      "38 200 DA",
+      " DA",
+      "\n     DA",
+      " DZD",
+      " DA"
+    ],
+    "tech": [
+      "Bootstrap"
+    ],
+    "h1": [
+      "La gestion d'entrepriseréinventée pour l'Algérie"
+    ],
+    "internal_links": 81,
+    "external_links": 8,
+    "images": 4
+  },
+  "cirtait.com": {
+    "url": "https://www.cirtait.com",
+    "error": "HTTPSConnectionPool(host='www.cirtait.com', port=443): Max retries exceeded with url: / (Caused by NewConnectionError(\"HTTPSConnection(host='www.cirtait.com', port=443): Failed to establish a new connection: [Errno 101] Network is unreachable\"))"
+  },
+  "winakol.com": {
+    "url": "https://www.winakol.com",
+    "status": 200,
+    "title": "Acceuil | Winakol - Votre Menu QR en Algérie",
+    "emails": [
+      "contact@winakol.com",
+      "email@votrenom.com"
+    ],
+    "phones": [
+      "+0000-00",
+      "+0001-000",
+      "+0100-02",
+      "+0102-0103",
+      "+0110-0111",
+      "+0128-0129",
+      "+0131",
+      "+0152-0153",
+      "+0168-0169",
+      "+0300-0301",
+      "+0301",
+      "+0302-0303",
+      "+0303-0304",
+      "+0304",
+      "+0305",
+      "+0307-0308",
+      "+0308",
+      "+0308-0309",
+      "+0310",
+      "+0312",
+      "+0315",
+      "+0323",
+      "+0326-0327",
+      "+0329",
+      "+0332-0333",
+      "+0338",
+      "+0346",
+      "+0370-0377",
+      "+0384-038",
+      "+0391-03",
+      "+0400-045",
+      "+0460-052",
+      "+0490-0491",
+      "+0590-05",
+      "+0900-097",
+      "+10140-1018",
+      "+10190-1019",
+      "+2000-206",
+      "+2016-2017",
+      "+2020",
+      "+2034-2038",
+      "+2040",
+      "+2043",
+      "+2047",
+      "+2050",
+      "+2057",
+      "+2070-2071",
+      "+2074-208",
+      "+2090-209",
+      "+2100-2112",
+      "+2113",
+      "+2114-2115",
+      "+2116",
+      "+2117-2121",
+      "+2122",
+      "+2123-214",
+      "+2150-218",
+      "+2190",
+      "+2191",
+      "+2192",
+      "+2193",
+      "+2194-21",
+      "+2194-2199",
+      "+2212",
+      "+2213-2214",
+      "+2215",
+      "+2216-22",
+      "+2218-2219",
+      "+2299",
+      "+2300-243",
+      "+2308-230",
+      "+2310",
+      "+2319",
+      "+2336-237",
+      "+2395",
+      "+2440-244",
+      "+2460-24",
+      "+2474-2475",
+      "+2800-28",
+      "+2900-2",
+      "+2921-2922",
+      "+2981",
+      "+3030",
+      "+604800",
+      "0553579005"
+    ],
+    "social": {
+      "facebook": "https://facebook.com/winakoldz",
+      "youtube": "https://www.youtube.com/@ibizapubdz"
+    },
+    "services": {
+      "social_media": false,
+      "seo": false,
+      "web_design": false,
+      "branding": false,
+      "publicite": false,
+      "video": false,
+      "e_commerce": false,
+      "qr": true,
+      "nfc": false,
+      "app_mobile": false,
+      "ia_ai": true,
+      "pricing_published": true
+    },
+    "prices": [
+      "02DA",
+      "02DA",
+      "4DA",
+      "02DA",
+      "4DA",
+      "02DA",
+      "4DA",
+      "02DA",
+      "02DA",
+      "02DA"
+    ],
+    "tech": [
+      "WordPress",
+      "Elementor",
+      "Bootstrap",
+      "jQuery"
+    ],
+    "h1": [
+      "قائمة طعام رقمية في الجزائر"
+    ],
+    "internal_links": 64,
+    "external_links": 11,
+    "images": 48
+  }
+}

@@ -1,0 +1,1966 @@
+{
+  "shadcn_components": {
+    "url": "https://ui.shadcn.com/docs/components/base/accordion",
+    "text_snippet": "Accordion - shadcn/ui\nToggle Menu\nMenu\nHome\nDocs\nComponents\nBlocks\nCharts\nDirectory\nTypeset\nCreate\nSearch documentation...\nSearch...\n119k\nToggle theme\nNew\nSections\nIntroduction\nComponents\nInstallation\nTheming\nCLI\nTypeset\nSkills\nRegistry\nChangelog\nComponents\nAccordion\nAlert\nAlert Dialog\nAspect Ratio\nAttachment\nAvatar\nBadge\nBreadcrumb\nBubble\nButton\nButton Group\nCalendar\nCard\nCarousel\nChart\nCheckbox\nCollapsible\nCombobox\nCommand\nContext Menu\nData Table\nDate Picker\nDialog\nDirection\nDrawer\nDropdown Menu\nEmpty\nField\nHover Card\nInput\nInput Group\nInput OTP\nItem\nKbd\nLabel\nMarker\nMenubar\nMessage\nMessage Scroller\nNative Select\nNavigation Menu\nPagination\nPopover\nProgress\nRadio Group\nResizable\nScroll Area\nSelect\nSeparator\nSheet\nSidebar\nSkeleton\nSlider\nSonner\nSpinner\nSwitch\nTable\nTabs\nTextarea\nToast\nToggle\nToggle Group\nTooltip\nTypography\nGet Started\nInstallation\ncomponents.json\nPackage Imports\nTheming\nTypeset\nDark Mode\nCLI\nMonorepo\nSkills\nJavaScript\nFigma\nllms.txt\nLegacy Docs\n@shadcn/react\nMessage Scroller\n@shadcn/helpers\nAI SDK\nTanStack AI\nForms\nReact Hook Form\nTanStack Form\nFormisch\nUtilities\nscroll-fade\nshimmer\nRegistry\nIntroduction\nGetting Started\nGitHub Registries\nRegistry Directory\nExamples\nNamespaces\nAuthentication\nMCP Server\nOpen in v0\nAPI Reference\nregistry.json\nregistry-item.json\nAccordion\nCopy Page\nPrevious\nNext\nA vertically stacked set of interactive headings that each reveal a section of content.\nBase UI\nReact Aria\nRadix UI\nWhat are your shipping options?\nWe offer standard (5-7 days), express (2-3 days), and overnight shipping. Free shipping on international orders.\nWhat is your return policy?\nHow can I contact customer support?\nCopy\nimport\n{\nAccordion,\nAccordionContent,\nView Code\nInstallation\n#\nCommand\nManual\npnpm\nnpm\nyarn\nbun\npnpm dlx shadcn@latest add accordion\nCopy\nUsage\n#\nCopy\nimport\n{\nAccordion,\nAccordionContent,\nAccordionItem,\nAccordionTrigger,\n}\nfrom\n\"@/components/ui/accordion\"\nCopy\n<\nAccordion\ndefaultValue\n={\n[\n\"item-1\"\n]\n}\n>\n<\nAccordionItem\nvalue\n=\n\"item-1\"\n>\n<\nAccordionTrigger\n>\nIs it accessible?\n</\nAccordionTrigger\n>\n<\nAccordionContent\n>\nYes. It adheres to the WAI-ARIA design pattern.\n</\nAccordionContent\n>\n</\nAccordionItem\n>\n</\nAccordion\n>\nComposition\n#\nUse the following composition to build an\nAccordion\n:\nCopy\nAccordion\n├── AccordionItem\n│   ├── AccordionTrigger\n│   └── AccordionContent\n└── AccordionItem\n├── AccordionTrigger\n└── AccordionContent\nBasic\n#\nA basic accordion that shows one item at a time. The first item is open by default.\nHow do I reset my password?\nClick on 'Forgot Password' on the login page, enter your email address, and we'll send you a link to reset your password. The link will expire in 24 hours.\nCan I change my subscription plan?\nWhat payment methods do you accept?\nCopy\nimport\n{\nAccordion,\nAccordionContent,\nView Code\nMultiple\n#\nUse the\nmultiple\nprop to allow multiple items to be open at the same time.\nNotification Settings\nManage how you receive notifications. You can enable email alerts for updates or push notific",
+    "components": [
+      {
+        "name": "Home",
+        "href": "/"
+      },
+      {
+        "name": "Docs",
+        "href": "/docs/installation"
+      },
+      {
+        "name": "Components",
+        "href": "/docs/components"
+      },
+      {
+        "name": "Blocks",
+        "href": "/blocks"
+      },
+      {
+        "name": "Charts",
+        "href": "/charts/area"
+      },
+      {
+        "name": "Directory",
+        "href": "/docs/directory"
+      },
+      {
+        "name": "Typeset",
+        "href": "/typeset"
+      },
+      {
+        "name": "Create",
+        "href": "/create"
+      },
+      {
+        "name": "119k",
+        "href": "https://github.com/shadcn-ui/ui"
+      },
+      {
+        "name": "New",
+        "href": "/create"
+      },
+      {
+        "name": "Introduction",
+        "href": "/docs"
+      },
+      {
+        "name": "Components",
+        "href": "/docs/components"
+      },
+      {
+        "name": "Installation",
+        "href": "/docs/installation"
+      },
+      {
+        "name": "Theming",
+        "href": "/docs/theming"
+      },
+      {
+        "name": "CLI",
+        "href": "/docs/cli"
+      },
+      {
+        "name": "Typeset",
+        "href": "/docs/typeset"
+      },
+      {
+        "name": "Skills",
+        "href": "/docs/skills"
+      },
+      {
+        "name": "Registry",
+        "href": "/docs/registry"
+      },
+      {
+        "name": "Changelog",
+        "href": "/docs/changelog"
+      },
+      {
+        "name": "Accordion",
+        "href": "/docs/components/base/accordion"
+      },
+      {
+        "name": "Alert",
+        "href": "/docs/components/base/alert"
+      },
+      {
+        "name": "Alert Dialog",
+        "href": "/docs/components/base/alert-dialog"
+      },
+      {
+        "name": "Aspect Ratio",
+        "href": "/docs/components/base/aspect-ratio"
+      },
+      {
+        "name": "Attachment",
+        "href": "/docs/components/base/attachment"
+      },
+      {
+        "name": "Avatar",
+        "href": "/docs/components/base/avatar"
+      },
+      {
+        "name": "Badge",
+        "href": "/docs/components/base/badge"
+      },
+      {
+        "name": "Breadcrumb",
+        "href": "/docs/components/base/breadcrumb"
+      },
+      {
+        "name": "Bubble",
+        "href": "/docs/components/base/bubble"
+      },
+      {
+        "name": "Button",
+        "href": "/docs/components/base/button"
+      },
+      {
+        "name": "Button Group",
+        "href": "/docs/components/base/button-group"
+      },
+      {
+        "name": "Calendar",
+        "href": "/docs/components/base/calendar"
+      },
+      {
+        "name": "Card",
+        "href": "/docs/components/base/card"
+      },
+      {
+        "name": "Carousel",
+        "href": "/docs/components/base/carousel"
+      },
+      {
+        "name": "Chart",
+        "href": "/docs/components/base/chart"
+      },
+      {
+        "name": "Checkbox",
+        "href": "/docs/components/base/checkbox"
+      },
+      {
+        "name": "Collapsible",
+        "href": "/docs/components/base/collapsible"
+      },
+      {
+        "name": "Combobox",
+        "href": "/docs/components/base/combobox"
+      },
+      {
+        "name": "Command",
+        "href": "/docs/components/base/command"
+      },
+      {
+        "name": "Context Menu",
+        "href": "/docs/components/base/context-menu"
+      },
+      {
+        "name": "Data Table",
+        "href": "/docs/components/base/data-table"
+      },
+      {
+        "name": "Date Picker",
+        "href": "/docs/components/base/date-picker"
+      },
+      {
+        "name": "Dialog",
+        "href": "/docs/components/base/dialog"
+      },
+      {
+        "name": "Direction",
+        "href": "/docs/components/base/direction"
+      },
+      {
+        "name": "Drawer",
+        "href": "/docs/components/base/drawer"
+      },
+      {
+        "name": "Dropdown Menu",
+        "href": "/docs/components/base/dropdown-menu"
+      },
+      {
+        "name": "Empty",
+        "href": "/docs/components/base/empty"
+      },
+      {
+        "name": "Field",
+        "href": "/docs/components/base/field"
+      },
+      {
+        "name": "Hover Card",
+        "href": "/docs/components/base/hover-card"
+      },
+      {
+        "name": "Input",
+        "href": "/docs/components/base/input"
+      },
+      {
+        "name": "Input Group",
+        "href": "/docs/components/base/input-group"
+      },
+      {
+        "name": "Input OTP",
+        "href": "/docs/components/base/input-otp"
+      },
+      {
+        "name": "Item",
+        "href": "/docs/components/base/item"
+      },
+      {
+        "name": "Kbd",
+        "href": "/docs/components/base/kbd"
+      },
+      {
+        "name": "Label",
+        "href": "/docs/components/base/label"
+      },
+      {
+        "name": "Marker",
+        "href": "/docs/components/base/marker"
+      },
+      {
+        "name": "Menubar",
+        "href": "/docs/components/base/menubar"
+      },
+      {
+        "name": "Message",
+        "href": "/docs/components/base/message"
+      },
+      {
+        "name": "Message Scroller",
+        "href": "/docs/components/base/message-scroller"
+      },
+      {
+        "name": "Native Select",
+        "href": "/docs/components/base/native-select"
+      },
+      {
+        "name": "Navigation Menu",
+        "href": "/docs/components/base/navigation-menu"
+      },
+      {
+        "name": "Pagination",
+        "href": "/docs/components/base/pagination"
+      },
+      {
+        "name": "Popover",
+        "href": "/docs/components/base/popover"
+      },
+      {
+        "name": "Progress",
+        "href": "/docs/components/base/progress"
+      },
+      {
+        "name": "Radio Group",
+        "href": "/docs/components/base/radio-group"
+      },
+      {
+        "name": "Resizable",
+        "href": "/docs/components/base/resizable"
+      },
+      {
+        "name": "Scroll Area",
+        "href": "/docs/components/base/scroll-area"
+      },
+      {
+        "name": "Select",
+        "href": "/docs/components/base/select"
+      },
+      {
+        "name": "Separator",
+        "href": "/docs/components/base/separator"
+      },
+      {
+        "name": "Sheet",
+        "href": "/docs/components/base/sheet"
+      },
+      {
+        "name": "Sidebar",
+        "href": "/docs/components/base/sidebar"
+      },
+      {
+        "name": "Skeleton",
+        "href": "/docs/components/base/skeleton"
+      },
+      {
+        "name": "Slider",
+        "href": "/docs/components/base/slider"
+      },
+      {
+        "name": "Sonner",
+        "href": "/docs/components/base/sonner"
+      },
+      {
+        "name": "Spinner",
+        "href": "/docs/components/base/spinner"
+      },
+      {
+        "name": "Switch",
+        "href": "/docs/components/base/switch"
+      },
+      {
+        "name": "Table",
+        "href": "/docs/components/base/table"
+      },
+      {
+        "name": "Tabs",
+        "href": "/docs/components/base/tabs"
+      },
+      {
+        "name": "Textarea",
+        "href": "/docs/components/base/textarea"
+      },
+      {
+        "name": "Toast",
+        "href": "/docs/components/base/toast"
+      },
+      {
+        "name": "Toggle",
+        "href": "/docs/components/base/toggle"
+      }
+    ],
+    "links": [
+      "/",
+      "/docs/installation",
+      "/docs/components",
+      "/blocks",
+      "/charts/area",
+      "/docs/directory",
+      "/typeset",
+      "/create",
+      "https://github.com/shadcn-ui/ui",
+      "/create",
+      "/docs",
+      "/docs/components",
+      "/docs/installation",
+      "/docs/theming",
+      "/docs/cli",
+      "/docs/typeset",
+      "/docs/skills",
+      "/docs/registry",
+      "/docs/changelog",
+      "/docs/components/base/accordion",
+      "/docs/components/base/alert",
+      "/docs/components/base/alert-dialog",
+      "/docs/components/base/aspect-ratio",
+      "/docs/components/base/attachment",
+      "/docs/components/base/avatar",
+      "/docs/components/base/badge",
+      "/docs/components/base/breadcrumb",
+      "/docs/components/base/bubble",
+      "/docs/components/base/button",
+      "/docs/components/base/button-group",
+      "/docs/components/base/calendar",
+      "/docs/components/base/card",
+      "/docs/components/base/carousel",
+      "/docs/components/base/chart",
+      "/docs/components/base/checkbox",
+      "/docs/components/base/collapsible",
+      "/docs/components/base/combobox",
+      "/docs/components/base/command",
+      "/docs/components/base/context-menu",
+      "/docs/components/base/data-table",
+      "/docs/components/base/date-picker",
+      "/docs/components/base/dialog",
+      "/docs/components/base/direction",
+      "/docs/components/base/drawer",
+      "/docs/components/base/dropdown-menu",
+      "/docs/components/base/empty",
+      "/docs/components/base/field",
+      "/docs/components/base/hover-card",
+      "/docs/components/base/input",
+      "/docs/components/base/input-group",
+      "/docs/components/base/input-otp",
+      "/docs/components/base/item",
+      "/docs/components/base/kbd",
+      "/docs/components/base/label",
+      "/docs/components/base/marker",
+      "/docs/components/base/menubar",
+      "/docs/components/base/message",
+      "/docs/components/base/message-scroller",
+      "/docs/components/base/native-select",
+      "/docs/components/base/navigation-menu",
+      "/docs/components/base/pagination",
+      "/docs/components/base/popover",
+      "/docs/components/base/progress",
+      "/docs/components/base/radio-group",
+      "/docs/components/base/resizable",
+      "/docs/components/base/scroll-area",
+      "/docs/components/base/select",
+      "/docs/components/base/separator",
+      "/docs/components/base/sheet",
+      "/docs/components/base/sidebar",
+      "/docs/components/base/skeleton",
+      "/docs/components/base/slider",
+      "/docs/components/base/sonner",
+      "/docs/components/base/spinner",
+      "/docs/components/base/switch",
+      "/docs/components/base/table",
+      "/docs/components/base/tabs",
+      "/docs/components/base/textarea",
+      "/docs/components/base/toast",
+      "/docs/components/base/toggle",
+      "/docs/components/base/toggle-group",
+      "/docs/components/base/tooltip",
+      "/docs/components/base/typography",
+      "/docs/installation",
+      "/docs/components-json",
+      "/docs/package-imports",
+      "/docs/theming",
+      "/docs/typeset",
+      "/docs/dark-mode",
+      "/docs/cli",
+      "/docs/monorepo",
+      "/docs/skills",
+      "/docs/javascript",
+      "/docs/figma",
+      "/llms.txt",
+      "/docs/legacy",
+      "/docs/react/message-scroller",
+      "/docs/helpers/ai-sdk",
+      "/docs/helpers/tanstack-ai",
+      "/docs/forms/react-hook-form"
+    ]
+  },
+  "magic_ui_components": {
+    "url": "https://magicui.design/docs/components/marquee",
+    "text_snippet": "Marquee | React Components & Templates\n✨\nIntroducing Magic UI Pro - 50+ blocks and templates to build beautiful landing pages in minutes\nToggle Menu\nMagic UI\nComponents\nTemplates\nShowcase\nSearch documentation...\nSearch...\n⌘\nK\nCommand Palette\nSearch for a command to run...\n21,591\n21.6k\n138\nToggle theme\nGetting Started\nIntroduction\nInstallation\nMCP\nStory\nNew\nLegacy\nTemplates\nCodeForge\nNew\nPro\nAI Agent\nPro\nDev Tool\nPro\nMobile\nPro\nSaaS\nPro\nStartup\nPro\nPortfolio\nChangelog\nNew\nBlog\nNew\nComponents\nMarquee\nTerminal\nHero Video Dialog\nBento Grid\nAnimated List\nDock\nGlobe\nTweet Card\nOrbiting Circles\nAvatar Circles\nIcon Cloud\nLens\nPointer\nSmooth Cursor\nProgressive Blur\nDotted Map\nNew\nSpecial Effects\nAnimated Beam\nBorder Beam\nShine Border\nMagic Card\nGlare Hover\nNew\nMeteors\nConfetti\nParticles\nAnimated Theme Toggler\nNew\nAnimations\nBlur Fade\nText Animations\nText Animate\nTyping Animation\nNew\nLine Shadow Text\nAurora Text\nVideo Text\nNumber Ticker\nAnimated Shiny Text\nAnimated Gradient Text\nText Reveal\nDia Text Reveal\nNew\nHyper Text\nWord Rotate\nScroll Based Velocity\nSparkles Text\nMorphing Text\nSpinning Text\nText Highlighter\nNew\nText 3D Flip\nNew\nDevice Mocks\nSafari\niPhone\nAndroid\nButtons\nRainbow Button\nShimmer Button\nRipple Button\nBackgrounds\nFlickering Grid\nAnimated Grid Pattern\nRetro Grid\nRipple\nDot Pattern\nGrid Pattern\nHexagon Pattern\nNew\nStriped Pattern\nNew\nInteractive Grid Pattern\nLight Rays\nNew\nNoise Texture\nNew\nCommunity\nShiny Button\nFile Tree\nCode Comparison\nScroll Progress\nNeon Gradient Card\nComic Text\nKinetic Text\nNew\nCool Mode\nPixel Image\nPulsating Button\nWarp Background\nInteractive Hover Button\nAnimated Circular Progress Bar\nBacklight\nNew\nGlyph Matrix\nNew\nBuilt by\ndillion\n. The source code is available on\nGitHub\n.\nDocs\n/\nComponents\n/\nMarquee\nMarquee\nCopy Page\nPrevious\nNext\nAn infinite scrolling component that can be used to display text, images, or videos.\nPreview\nCode\nOpen in\nJack\n@jack\nI've never seen anything like this before. It's amazing. I love it.\nJill\n@jill\nI don't know what to say. I'm speechless. This is amazing.\nJohn\n@john\nI'm at a loss for words. This is amazing. I love it.\nJack\n@jack\nI've never seen anything like this before. It's amazing. I love it.\nJill\n@jill\nI don't know what to say. I'm speechless. This is amazing.\nJohn\n@john\nI'm at a loss for words. This is amazing. I love it.\nJack\n@jack\nI've never seen anything like this before. It's amazing. I love it.\nJill\n@jill\nI don't know what to say. I'm speechless. This is amazing.\nJohn\n@john\nI'm at a loss for words. This is amazing. I love it.\nJack\n@jack\nI've never seen anything like this before. It's amazing. I love it.\nJill\n@jill\nI don't know what to say. I'm speechless. This is amazing.\nJohn\n@john\nI'm at a loss for words. This is amazing. I love it.\nJane\n@jane\nI'm at a loss for words. This is amazing. I love it.\nJenny\n@jenny\nI'm at a loss for words. This is amazing. I love it.\nJames\n@james\nI'm at a loss for words. This is amazing. I love it.\nJane\n@jane\nI'm at a loss for words. This is amazing. ",
+    "components": [
+      {
+        "name": "Magic UI",
+        "href": "/"
+      },
+      {
+        "name": "Components",
+        "href": "/components"
+      },
+      {
+        "name": "Templates",
+        "href": "https://pro.magicui.design"
+      },
+      {
+        "name": "Showcase",
+        "href": "/showcase"
+      },
+      {
+        "name": "21,59121.6k",
+        "href": "https://github.com/magicuidesign/magicui"
+      },
+      {
+        "name": "138",
+        "href": "https://discord.gg/87p2vpsat5"
+      },
+      {
+        "name": "Introduction",
+        "href": "/docs"
+      },
+      {
+        "name": "Installation",
+        "href": "/docs/installation"
+      },
+      {
+        "name": "MCP",
+        "href": "/docs/mcp"
+      },
+      {
+        "name": "StoryNew",
+        "href": "/docs/story"
+      },
+      {
+        "name": "Legacy",
+        "href": "/docs/legacy"
+      },
+      {
+        "name": "CodeForgeNewPro",
+        "href": "/docs/templates/codeforge"
+      },
+      {
+        "name": "AI AgentPro",
+        "href": "/docs/templates/agent"
+      },
+      {
+        "name": "Dev ToolPro",
+        "href": "/docs/templates/devtool"
+      },
+      {
+        "name": "MobilePro",
+        "href": "/docs/templates/mobile"
+      },
+      {
+        "name": "SaaSPro",
+        "href": "/docs/templates/saas"
+      },
+      {
+        "name": "StartupPro",
+        "href": "/docs/templates/startup"
+      },
+      {
+        "name": "Portfolio",
+        "href": "/docs/templates/portfolio"
+      },
+      {
+        "name": "ChangelogNew",
+        "href": "/docs/templates/changelog"
+      },
+      {
+        "name": "BlogNew",
+        "href": "/docs/templates/blog"
+      },
+      {
+        "name": "Marquee",
+        "href": "/docs/components/marquee"
+      },
+      {
+        "name": "Terminal",
+        "href": "/docs/components/terminal"
+      },
+      {
+        "name": "Hero Video Dialog",
+        "href": "/docs/components/hero-video-dialog"
+      },
+      {
+        "name": "Bento Grid",
+        "href": "/docs/components/bento-grid"
+      },
+      {
+        "name": "Animated List",
+        "href": "/docs/components/animated-list"
+      },
+      {
+        "name": "Dock",
+        "href": "/docs/components/dock"
+      },
+      {
+        "name": "Globe",
+        "href": "/docs/components/globe"
+      },
+      {
+        "name": "Tweet Card",
+        "href": "/docs/components/tweet-card"
+      },
+      {
+        "name": "Orbiting Circles",
+        "href": "/docs/components/orbiting-circles"
+      },
+      {
+        "name": "Avatar Circles",
+        "href": "/docs/components/avatar-circles"
+      },
+      {
+        "name": "Icon Cloud",
+        "href": "/docs/components/icon-cloud"
+      },
+      {
+        "name": "Lens",
+        "href": "/docs/components/lens"
+      },
+      {
+        "name": "Pointer",
+        "href": "/docs/components/pointer"
+      },
+      {
+        "name": "Smooth Cursor",
+        "href": "/docs/components/smooth-cursor"
+      },
+      {
+        "name": "Progressive Blur",
+        "href": "/docs/components/progressive-blur"
+      },
+      {
+        "name": "Dotted MapNew",
+        "href": "/docs/components/dotted-map"
+      },
+      {
+        "name": "Animated Beam",
+        "href": "/docs/components/animated-beam"
+      },
+      {
+        "name": "Border Beam",
+        "href": "/docs/components/border-beam"
+      },
+      {
+        "name": "Shine Border",
+        "href": "/docs/components/shine-border"
+      },
+      {
+        "name": "Magic Card",
+        "href": "/docs/components/magic-card"
+      },
+      {
+        "name": "Glare HoverNew",
+        "href": "/docs/components/glare-hover"
+      },
+      {
+        "name": "Meteors",
+        "href": "/docs/components/meteors"
+      },
+      {
+        "name": "Confetti",
+        "href": "/docs/components/confetti"
+      },
+      {
+        "name": "Particles",
+        "href": "/docs/components/particles"
+      },
+      {
+        "name": "Animated Theme TogglerNew",
+        "href": "/docs/components/animated-theme-toggler"
+      },
+      {
+        "name": "Blur Fade",
+        "href": "/docs/components/blur-fade"
+      },
+      {
+        "name": "Text Animate",
+        "href": "/docs/components/text-animate"
+      },
+      {
+        "name": "Typing AnimationNew",
+        "href": "/docs/components/typing-animation"
+      },
+      {
+        "name": "Line Shadow Text",
+        "href": "/docs/components/line-shadow-text"
+      },
+      {
+        "name": "Aurora Text",
+        "href": "/docs/components/aurora-text"
+      },
+      {
+        "name": "Video Text",
+        "href": "/docs/components/video-text"
+      },
+      {
+        "name": "Number Ticker",
+        "href": "/docs/components/number-ticker"
+      },
+      {
+        "name": "Animated Shiny Text",
+        "href": "/docs/components/animated-shiny-text"
+      },
+      {
+        "name": "Animated Gradient Text",
+        "href": "/docs/components/animated-gradient-text"
+      },
+      {
+        "name": "Text Reveal",
+        "href": "/docs/components/text-reveal"
+      },
+      {
+        "name": "Dia Text RevealNew",
+        "href": "/docs/components/dia-text-reveal"
+      },
+      {
+        "name": "Hyper Text",
+        "href": "/docs/components/hyper-text"
+      },
+      {
+        "name": "Word Rotate",
+        "href": "/docs/components/word-rotate"
+      },
+      {
+        "name": "Scroll Based Velocity",
+        "href": "/docs/components/scroll-based-velocity"
+      },
+      {
+        "name": "Sparkles Text",
+        "href": "/docs/components/sparkles-text"
+      },
+      {
+        "name": "Morphing Text",
+        "href": "/docs/components/morphing-text"
+      },
+      {
+        "name": "Spinning Text",
+        "href": "/docs/components/spinning-text"
+      },
+      {
+        "name": "Text HighlighterNew",
+        "href": "/docs/components/highlighter"
+      },
+      {
+        "name": "Text 3D FlipNew",
+        "href": "/docs/components/text-3d-flip"
+      },
+      {
+        "name": "Safari",
+        "href": "/docs/components/safari"
+      },
+      {
+        "name": "iPhone",
+        "href": "/docs/components/iphone"
+      },
+      {
+        "name": "Android",
+        "href": "/docs/components/android"
+      },
+      {
+        "name": "Rainbow Button",
+        "href": "/docs/components/rainbow-button"
+      },
+      {
+        "name": "Shimmer Button",
+        "href": "/docs/components/shimmer-button"
+      },
+      {
+        "name": "Ripple Button",
+        "href": "/docs/components/ripple-button"
+      },
+      {
+        "name": "Flickering Grid",
+        "href": "/docs/components/flickering-grid"
+      },
+      {
+        "name": "Animated Grid Pattern",
+        "href": "/docs/components/animated-grid-pattern"
+      },
+      {
+        "name": "Retro Grid",
+        "href": "/docs/components/retro-grid"
+      },
+      {
+        "name": "Ripple",
+        "href": "/docs/components/ripple"
+      },
+      {
+        "name": "Dot Pattern",
+        "href": "/docs/components/dot-pattern"
+      },
+      {
+        "name": "Grid Pattern",
+        "href": "/docs/components/grid-pattern"
+      },
+      {
+        "name": "Hexagon PatternNew",
+        "href": "/docs/components/hexagon-pattern"
+      },
+      {
+        "name": "Striped PatternNew",
+        "href": "/docs/components/striped-pattern"
+      },
+      {
+        "name": "Interactive Grid Pattern",
+        "href": "/docs/components/interactive-grid-pattern"
+      },
+      {
+        "name": "Light RaysNew",
+        "href": "/docs/components/light-rays"
+      }
+    ],
+    "links": [
+      "https://pro.magicui.design",
+      "/",
+      "/components",
+      "https://pro.magicui.design",
+      "/showcase",
+      "https://github.com/magicuidesign/magicui",
+      "https://discord.gg/87p2vpsat5",
+      "/docs",
+      "/docs/installation",
+      "/docs/mcp",
+      "/docs/story",
+      "/docs/legacy",
+      "/docs/templates/codeforge",
+      "/docs/templates/agent",
+      "/docs/templates/devtool",
+      "/docs/templates/mobile",
+      "/docs/templates/saas",
+      "/docs/templates/startup",
+      "/docs/templates/portfolio",
+      "/docs/templates/changelog",
+      "/docs/templates/blog",
+      "/docs/components/marquee",
+      "/docs/components/terminal",
+      "/docs/components/hero-video-dialog",
+      "/docs/components/bento-grid",
+      "/docs/components/animated-list",
+      "/docs/components/dock",
+      "/docs/components/globe",
+      "/docs/components/tweet-card",
+      "/docs/components/orbiting-circles",
+      "/docs/components/avatar-circles",
+      "/docs/components/icon-cloud",
+      "/docs/components/lens",
+      "/docs/components/pointer",
+      "/docs/components/smooth-cursor",
+      "/docs/components/progressive-blur",
+      "/docs/components/dotted-map",
+      "/docs/components/animated-beam",
+      "/docs/components/border-beam",
+      "/docs/components/shine-border",
+      "/docs/components/magic-card",
+      "/docs/components/glare-hover",
+      "/docs/components/meteors",
+      "/docs/components/confetti",
+      "/docs/components/particles",
+      "/docs/components/animated-theme-toggler",
+      "/docs/components/blur-fade",
+      "/docs/components/text-animate",
+      "/docs/components/typing-animation",
+      "/docs/components/line-shadow-text",
+      "/docs/components/aurora-text",
+      "/docs/components/video-text",
+      "/docs/components/number-ticker",
+      "/docs/components/animated-shiny-text",
+      "/docs/components/animated-gradient-text",
+      "/docs/components/text-reveal",
+      "/docs/components/dia-text-reveal",
+      "/docs/components/hyper-text",
+      "/docs/components/word-rotate",
+      "/docs/components/scroll-based-velocity",
+      "/docs/components/sparkles-text",
+      "/docs/components/morphing-text",
+      "/docs/components/spinning-text",
+      "/docs/components/highlighter",
+      "/docs/components/text-3d-flip",
+      "/docs/components/safari",
+      "/docs/components/iphone",
+      "/docs/components/android",
+      "/docs/components/rainbow-button",
+      "/docs/components/shimmer-button",
+      "/docs/components/ripple-button",
+      "/docs/components/flickering-grid",
+      "/docs/components/animated-grid-pattern",
+      "/docs/components/retro-grid",
+      "/docs/components/ripple",
+      "/docs/components/dot-pattern",
+      "/docs/components/grid-pattern",
+      "/docs/components/hexagon-pattern",
+      "/docs/components/striped-pattern",
+      "/docs/components/interactive-grid-pattern",
+      "/docs/components/light-rays",
+      "/docs/components/noise-texture",
+      "/docs/components/shiny-button",
+      "/docs/components/file-tree",
+      "/docs/components/code-comparison",
+      "/docs/components/scroll-progress",
+      "/docs/components/neon-gradient-card",
+      "/docs/components/comic-text",
+      "/docs/components/kinetic-text",
+      "/docs/components/cool-mode",
+      "/docs/components/pixel-image",
+      "/docs/components/pulsating-button",
+      "/docs/components/warp-background",
+      "/docs/components/interactive-hover-button",
+      "/docs/components/animated-circular-progress-bar",
+      "/docs/components/backlight",
+      "/docs/components/glyph-matrix",
+      "https://twitter.com/dillionverma",
+      "https://github.com/magicuidesign/magicui",
+      "/docs"
+    ]
+  },
+  "aceternity_components": {
+    "url": "https://ui.aceternity.com/components",
+    "text_snippet": "Free React & Next.js Components — Tailwind CSS & Framer Motion | Aceternity UI\nAcebuilder\nis on Product Hunt today, check it out\nceternity UI\nComponents\nBlocks\nTemplates\nLabs\nPricing\nChangelog\nSearch\n⌘\nK\nToggle theme\nGet All-Access\nToggle theme\nFollow for updates\nTwitter @mannupaaji\nLearn Tailwind and Motion\nInstallation\nInstall Next.js\nInstall Tailwind CSS\nAdd utilities\nCLI\nTemplates\nProductized Agency Template\nNew\nSimplistic SaaS Template\nNew\nNodus Marketing Template\nAgenforce Marketing Template\nAI SaaS Template\nStartup Landing Page Template\nProactiv Marketing Template\nMinimal Portfolio Template\nMinimalist Portfolio Template\nCryptgen Marketing\nPlayful Marketing Template\nAgenlabs Agency\nDevpro Portfolio\nFoxtrot Marketing\nSidefolio Portfolio\nSchedule Marketing\nSections and Blocks\nHero Sections\nShaders\nNew\nIllustrations\nNew\nLogo Clouds\nBento Grids\nCTA Sections\nTestimonials\nTeam Sections\nNew\nEmpty States\nNew\nFeature sections\nPricing sections\nCards\nNavbars\nFooters\nLogin and Signup\nContact Sections\nBlog Sections\nBlog Content Sections\nFAQs\nSidebars\nStats Sections\nBackgrounds\nNew\nText Animations\nNew\nBackgrounds & Effects\nWebcam Pixel Grid\nNew\nImages Badge\nNew\nParallax Hero Images\nNew\nScales\nNew\nDotted Glow Background\nNew\nBackground Ripple Effect\nNew\nSparkles\nBackground Gradient\nGradient Animation\nWavy Background\nBackground Boxes\nBackground Beams\nBackground Beams With Collision\nBackground Lines\nAurora Background\nMeteors\nGlowing Stars\nShooting Stars\nVortex\nSpotlight\nSpotlight New\nCanvas Reveal Effect\nSVG Mask Effect\nTracing Beam\nLamp effect\nGrid and Dot Backgrounds\nGlowing Effect\nGoogle Gemini Effect\nCard Components\nKeyboard\nTerminal\nNew\nTooltip Card\nNew\nASCII Art\nNew\nPixelated Canvas\nNew\n3D Card Effect\nEvervault Card\nCard Stack\nCard Hover Effect\nWobble Card\nExpandable Card\nCard Spotlight\nFocus Cards\nInfinite Moving Cards\nDraggable Card\nComet Card\nNew\nGlare Card\nDirection Aware Hover\nScroll & Parallax\nParallax Scroll\nSticky Scroll Reveal\nMacbook Scroll\nContainer Scroll Animation\nHero Parallax\nText Components\nCanvas Text\nNew\nEncrypted Text\nNew\nLayout Text Flip\nNew\nColourful Text\nSquiggly Text\nNew\nText Generate Effect\nTypewriter Effect\nFlip Words\nText Hover Effect\nContainer Text Flip\nHero Highlight\nText Reveal Card\nText Flipping Board\nNew\nButtons\nMagnetic Button\nNew\nNoise Background\nNew\nTailwind CSS buttons\nHover Border Gradient\nMoving Border\nStateful Button\nLoaders\nMulti Step Loader\nLoader\nNavigation\nNotch\nNew\nFloating Navbar\nNavbar Menu\nSidebar\nFloating Dock\nTabs\nResizable Navbar\nSticky Banner\nInputs & Forms\nSignup Form\nPlaceholders And Vanish Input\nFile Upload\nGooey Input\nNew\nOverlays & Popovers\nDither Shader\nNew\nAnimated Modal\nAnimated Tooltip\nLink Preview\nCarousels & Sliders\nImages Slider\nCarousel\nApple Cards Carousel\nAnimated Testimonials\nLayout & Grid\nLayout Grid\nBento Grid\nContainer Cover\nData & Visualization\nGitHub Globe\nWorld Map\nTimeline\nCompare\nCodeblock\nCursor & Pointer\nFollowing Pointer\nPointer Highlight\nLens\n3D\n3D Globe\nNew\n3D Pin\n3D Marquee",
+    "components": [
+      {
+        "name": "Acebuilderis on Product Hunt today, check it out",
+        "href": "https://www.producthunt.com/products/acebuilder"
+      },
+      {
+        "name": "ceternity UI",
+        "href": "/"
+      },
+      {
+        "name": "Components",
+        "href": "/components"
+      },
+      {
+        "name": "Blocks",
+        "href": "/blocks"
+      },
+      {
+        "name": "Templates",
+        "href": "/templates"
+      },
+      {
+        "name": "Labs",
+        "href": "/labs"
+      },
+      {
+        "name": "Pricing",
+        "href": "/pricing"
+      },
+      {
+        "name": "Changelog",
+        "href": "/changelog"
+      },
+      {
+        "name": "Get All-Access",
+        "href": "/pricing"
+      },
+      {
+        "name": "Twitter @mannupaaji",
+        "href": "https://twitter.com/mannupaaji"
+      },
+      {
+        "name": "Learn Tailwind and Motion",
+        "href": "https://youtube.com/@manuarora"
+      },
+      {
+        "name": "Install Next.js",
+        "href": "/docs/install-nextjs"
+      },
+      {
+        "name": "Install Tailwind CSS",
+        "href": "/docs/install-tailwindcss"
+      },
+      {
+        "name": "Add utilities",
+        "href": "/docs/add-utilities"
+      },
+      {
+        "name": "CLI",
+        "href": "/docs/cli"
+      },
+      {
+        "name": "Productized Agency TemplateNew",
+        "href": "/templates/productized-agency-template"
+      },
+      {
+        "name": "Simplistic SaaS TemplateNew",
+        "href": "/templates/simplistic-saas-template"
+      },
+      {
+        "name": "Nodus Marketing Template",
+        "href": "/templates/nodus-agent-template"
+      },
+      {
+        "name": "Agenforce Marketing Template",
+        "href": "/templates/agenforce-marketing-template"
+      },
+      {
+        "name": "AI SaaS Template",
+        "href": "/templates/ai-saas-template"
+      },
+      {
+        "name": "Startup Landing Page Template",
+        "href": "/templates/startup-landing-page-template"
+      },
+      {
+        "name": "Proactiv Marketing Template",
+        "href": "/templates/proactiv-marketing-template"
+      },
+      {
+        "name": "Minimal Portfolio Template",
+        "href": "/templates/minimal-portfolio-template"
+      },
+      {
+        "name": "Minimalist Portfolio Template",
+        "href": "/templates/minimalist-portfolio-template"
+      },
+      {
+        "name": "Cryptgen Marketing",
+        "href": "/templates/cryptgen-marketing-aceternity"
+      },
+      {
+        "name": "Playful Marketing Template",
+        "href": "/templates/playful-marketing-aceternity"
+      },
+      {
+        "name": "Agenlabs Agency",
+        "href": "/templates/agenlabs-agency-template"
+      },
+      {
+        "name": "Devpro Portfolio",
+        "href": "/templates/devpro-portfolio-template"
+      },
+      {
+        "name": "Foxtrot Marketing",
+        "href": "/templates/foxtrot-marketing-template"
+      },
+      {
+        "name": "Sidefolio Portfolio",
+        "href": "/templates/sidefolio-portfolio-template"
+      },
+      {
+        "name": "Schedule Marketing",
+        "href": "/templates/schedule-marketing-template"
+      },
+      {
+        "name": "Hero Sections",
+        "href": "/blocks/hero-sections"
+      },
+      {
+        "name": "ShadersNew",
+        "href": "/blocks/shaders"
+      },
+      {
+        "name": "IllustrationsNew",
+        "href": "/blocks/illustrations"
+      },
+      {
+        "name": "Logo Clouds",
+        "href": "/blocks/logo-clouds"
+      },
+      {
+        "name": "Bento Grids",
+        "href": "/blocks/bento-grids"
+      },
+      {
+        "name": "CTA Sections",
+        "href": "/blocks/cta-sections"
+      },
+      {
+        "name": "Testimonials",
+        "href": "/blocks/testimonials"
+      },
+      {
+        "name": "Team SectionsNew",
+        "href": "/blocks/team-sections"
+      },
+      {
+        "name": "Empty StatesNew",
+        "href": "/blocks/empty-states"
+      },
+      {
+        "name": "Feature sections",
+        "href": "/blocks/feature-sections"
+      },
+      {
+        "name": "Pricing sections",
+        "href": "/blocks/pricing-sections"
+      },
+      {
+        "name": "Cards",
+        "href": "/blocks/cards"
+      },
+      {
+        "name": "Navbars",
+        "href": "/blocks/navbars"
+      },
+      {
+        "name": "Footers",
+        "href": "/blocks/footers"
+      },
+      {
+        "name": "Login and Signup",
+        "href": "/blocks/login-and-signup-sections"
+      },
+      {
+        "name": "Contact Sections",
+        "href": "/blocks/contact-sections"
+      },
+      {
+        "name": "Blog Sections",
+        "href": "/blocks/blog-sections"
+      },
+      {
+        "name": "Blog Content Sections",
+        "href": "/blocks/blog-content-sections"
+      },
+      {
+        "name": "FAQs",
+        "href": "/blocks/faqs"
+      },
+      {
+        "name": "Sidebars",
+        "href": "/blocks/sidebars"
+      },
+      {
+        "name": "Stats Sections",
+        "href": "/blocks/stats-sections"
+      },
+      {
+        "name": "BackgroundsNew",
+        "href": "/blocks/backgrounds"
+      },
+      {
+        "name": "Text AnimationsNew",
+        "href": "/blocks/text-animations"
+      },
+      {
+        "name": "Webcam Pixel GridNew",
+        "href": "/components/webcam-pixel-grid"
+      },
+      {
+        "name": "Images BadgeNew",
+        "href": "/components/images-badge"
+      },
+      {
+        "name": "Parallax Hero ImagesNew",
+        "href": "/components/parallax-hero-images"
+      },
+      {
+        "name": "ScalesNew",
+        "href": "/components/scales"
+      },
+      {
+        "name": "Dotted Glow BackgroundNew",
+        "href": "/components/dotted-glow-background"
+      },
+      {
+        "name": "Background Ripple EffectNew",
+        "href": "/components/background-ripple-effect"
+      },
+      {
+        "name": "Sparkles",
+        "href": "/components/sparkles"
+      },
+      {
+        "name": "Background Gradient",
+        "href": "/components/background-gradient"
+      },
+      {
+        "name": "Gradient Animation",
+        "href": "/components/background-gradient-animation"
+      },
+      {
+        "name": "Wavy Background",
+        "href": "/components/wavy-background"
+      },
+      {
+        "name": "Background Boxes",
+        "href": "/components/background-boxes"
+      },
+      {
+        "name": "Background Beams",
+        "href": "/components/background-beams"
+      },
+      {
+        "name": "Background Beams With Collision",
+        "href": "/components/background-beams-with-collision"
+      },
+      {
+        "name": "Background Lines",
+        "href": "/components/background-lines"
+      },
+      {
+        "name": "Aurora Background",
+        "href": "/components/aurora-background"
+      },
+      {
+        "name": "Meteors",
+        "href": "/components/meteors"
+      },
+      {
+        "name": "Glowing Stars",
+        "href": "/components/glowing-stars-effect"
+      },
+      {
+        "name": "Shooting Stars",
+        "href": "/components/shooting-stars-and-stars-background"
+      },
+      {
+        "name": "Vortex",
+        "href": "/components/vortex"
+      },
+      {
+        "name": "Spotlight",
+        "href": "/components/spotlight"
+      },
+      {
+        "name": "Spotlight New",
+        "href": "/components/spotlight-new"
+      },
+      {
+        "name": "Canvas Reveal Effect",
+        "href": "/components/canvas-reveal-effect"
+      },
+      {
+        "name": "SVG Mask Effect",
+        "href": "/components/svg-mask-effect"
+      },
+      {
+        "name": "Tracing Beam",
+        "href": "/components/tracing-beam"
+      },
+      {
+        "name": "Lamp effect",
+        "href": "/components/lamp-effect"
+      },
+      {
+        "name": "Grid and Dot Backgrounds",
+        "href": "/components/grid-and-dot-backgrounds"
+      }
+    ],
+    "links": [
+      "https://www.producthunt.com/products/acebuilder",
+      "/",
+      "/",
+      "/components",
+      "/blocks",
+      "/templates",
+      "/labs",
+      "/pricing",
+      "/changelog",
+      "/pricing",
+      "/",
+      "https://twitter.com/mannupaaji",
+      "https://youtube.com/@manuarora",
+      "/docs/install-nextjs",
+      "/docs/install-tailwindcss",
+      "/docs/add-utilities",
+      "/docs/cli",
+      "/templates/productized-agency-template",
+      "/templates/simplistic-saas-template",
+      "/templates/nodus-agent-template",
+      "/templates/agenforce-marketing-template",
+      "/templates/ai-saas-template",
+      "/templates/startup-landing-page-template",
+      "/templates/proactiv-marketing-template",
+      "/templates/minimal-portfolio-template",
+      "/templates/minimalist-portfolio-template",
+      "/templates/cryptgen-marketing-aceternity",
+      "/templates/playful-marketing-aceternity",
+      "/templates/agenlabs-agency-template",
+      "/templates/devpro-portfolio-template",
+      "/templates/foxtrot-marketing-template",
+      "/templates/sidefolio-portfolio-template",
+      "/templates/schedule-marketing-template",
+      "/blocks/hero-sections",
+      "/blocks/shaders",
+      "/blocks/illustrations",
+      "/blocks/logo-clouds",
+      "/blocks/bento-grids",
+      "/blocks/cta-sections",
+      "/blocks/testimonials",
+      "/blocks/team-sections",
+      "/blocks/empty-states",
+      "/blocks/feature-sections",
+      "/blocks/pricing-sections",
+      "/blocks/cards",
+      "/blocks/navbars",
+      "/blocks/footers",
+      "/blocks/login-and-signup-sections",
+      "/blocks/contact-sections",
+      "/blocks/blog-sections",
+      "/blocks/blog-content-sections",
+      "/blocks/faqs",
+      "/blocks/sidebars",
+      "/blocks/stats-sections",
+      "/blocks/backgrounds",
+      "/blocks/text-animations",
+      "/components/webcam-pixel-grid",
+      "/components/images-badge",
+      "/components/parallax-hero-images",
+      "/components/scales",
+      "/components/dotted-glow-background",
+      "/components/background-ripple-effect",
+      "/components/sparkles",
+      "/components/background-gradient",
+      "/components/background-gradient-animation",
+      "/components/wavy-background",
+      "/components/background-boxes",
+      "/components/background-beams",
+      "/components/background-beams-with-collision",
+      "/components/background-lines",
+      "/components/aurora-background",
+      "/components/meteors",
+      "/components/glowing-stars-effect",
+      "/components/shooting-stars-and-stars-background",
+      "/components/vortex",
+      "/components/spotlight",
+      "/components/spotlight-new",
+      "/components/canvas-reveal-effect",
+      "/components/svg-mask-effect",
+      "/components/tracing-beam",
+      "/components/lamp-effect",
+      "/components/grid-and-dot-backgrounds",
+      "/components/glowing-effect",
+      "/components/google-gemini-effect",
+      "/components/keyboard",
+      "/components/terminal",
+      "/components/tooltip-card",
+      "/components/ascii-art",
+      "/components/pixelated-canvas",
+      "/components/3d-card-effect",
+      "/components/evervault-card",
+      "/components/card-stack",
+      "/components/card-hover-effect",
+      "/components/wobble-card",
+      "/components/expandable-card",
+      "/components/card-spotlight",
+      "/components/focus-cards",
+      "/components/infinite-moving-cards",
+      "/components/draggable-card",
+      "/components/comet-card"
+    ]
+  },
+  "tremor_blocks": {
+    "url": "https://blocks.tremor.so",
+    "text_snippet": "Tremor Blocks – Official Tremor Templates\nTremor\nis joining\nVercel\n.\nRead more about our journey\nTremor\nBlocks\nTemplates\nGetting Started\nOpen main menu\nBlocks & Templates are now\nfree and\nopen-source\nEverything you need to build great apps\nEverything you need to build great apps\nGet access to\n300\n+ carefully crafted blocks and every template to build dashboards, apps, and websites even faster.\nGet access to\n300\n+ carefully crafted blocks to build dashboards even faster. Built on top of Tailwind CSS and Tremor's open-source library.\nBrowse Blocks\nExplore Templates\nExplore Templates\nOperational\nEmma's Online-Shop\n30 days ago\nToday\n9.3%\n3.3%\n1.9%\n0.6%\nPortfolio Value\n$238,505.10\nExpenses\nAmount\nTravel\n$15,730\nIT & equipment\n$4,420\nTraining & development\n$3,920\nOffice supplies\n$1,210\nOnline payments\nEurope\nNorth America\nSuccessful\n263\nRefunded\n18\nSuccessful\n652\nRefunded\n29\nName\nValue\nInvested\nCashflow\nGain\nRealized\nDividends\nETF Shares Vital\n$17,349.30\n$19,698.65\n$20,033.74\n+$15,012.39\n+$177.4\n+$490.97\nVitainvest Core\n$10,943.40\n$19,698.65\n$11,033.74\n+$12,012.39\n+$77.4\n+$290.97\niShares Tech Growth\n$9,443.40\n$12,698.65\n$8,033.74\n+$19,012.39\n+$677.4\n+$990.97\nCalantis Vitainvest\n$4,241.30\n$10,672.31\n$7,020.20\n+$3,012.21\n+$601.2\n+$430.82\nBlocks\nBlocks that will make you love building UI\nWe have created the blocks we wished for when building dashboards, apps and more. From charts to billing pages, build your next idea quickly.\nWe have created the blocks we wished for when building dashboards, apps and more. From charts to billing pages, build your next idea quickly.\nBar Charts\n12\nblocks\nUpdated\nChart Tooltips\n21\nblocks\nChart Compositions\n15\nblocks\nKPI Cards\n29\nblocks\nUpdated\nForm Layouts\n6\nblocks\nBanners\n5\nblocks\nShow more\nBased on our own open-source tech\nBlocks entirely built with Tremor components and Tailwind CSS\nBlocks entirely built with Tremor components and Tailwind CSS\nBuilt with Tailwind CSS\nCopy and paste production-ready blocks. Customize them to your needs solely using Tailwind CSS.\n15K+ GitHub stars\nCore parts of our blocks are based on our open-source components supported by thousands of developers.\n300+ Blocks\nFrom charts to billing pages, we covered all parts when it comes to building dashbords.\nLight and dark mode\nAll of our blocks come with a light and dark mode by default, all based on our Tremor theme.\nTailwind CSS Templates\nProduction-ready templates to launch tomorrow\nCarefully crafted templates built by experts with the latest technology stack based on React and Next.js. Get templates for anything to build and launch your idea.\nCarefully crafted templates built by experts with the latest technology stack based on React and Next.js. Get templates for anything to build and launch your idea.\nDashboard Template\nAnalytical interfaces that allow your audience to better understand their data. Drive revenue and provide an advanced data visualization experience.\nView Templates\nSaaS Marketing Website\nLaunch your next idea with a beautiful we",
+    "components": [
+      {
+        "name": "Blocks",
+        "href": "/blocks"
+      },
+      {
+        "name": "Templates",
+        "href": "/templates"
+      },
+      {
+        "name": "Getting Started",
+        "href": "/getting-started"
+      },
+      {
+        "name": "Browse Blocks",
+        "href": "/blocks"
+      },
+      {
+        "name": "Explore Templates",
+        "href": "/templates"
+      },
+      {
+        "name": "Explore Templates",
+        "href": "/templates"
+      },
+      {
+        "name": "Bar Charts12blocksUpdated",
+        "href": "/blocks/bar-charts"
+      },
+      {
+        "name": "Chart Tooltips21blocks",
+        "href": "/blocks/chart-tooltips"
+      },
+      {
+        "name": "Chart Compositions15blocks",
+        "href": "/blocks/chart-compositions"
+      },
+      {
+        "name": "KPI Cards29blocksUpdated",
+        "href": "/blocks/kpi-cards"
+      },
+      {
+        "name": "Form Layouts6blocks",
+        "href": "/blocks/form-layouts"
+      },
+      {
+        "name": "Banners5blocks",
+        "href": "/blocks/banners"
+      },
+      {
+        "name": "Show more",
+        "href": "/blocks"
+      },
+      {
+        "name": "Area Charts",
+        "href": "/blocks/area-charts"
+      },
+      {
+        "name": "Line Charts",
+        "href": "/blocks/line-charts"
+      },
+      {
+        "name": "Bar Charts",
+        "href": "/blocks/bar-charts"
+      },
+      {
+        "name": "Donut Charts",
+        "href": "/blocks/donut-charts"
+      },
+      {
+        "name": "Chart Tooltips",
+        "href": "/blocks/chart-tooltips"
+      },
+      {
+        "name": "Bar Lists",
+        "href": "/blocks/bar-lists"
+      },
+      {
+        "name": "Status Monitoring",
+        "href": "/blocks/status-monitoring"
+      },
+      {
+        "name": "Spark Charts",
+        "href": "/blocks/spark-charts"
+      },
+      {
+        "name": "KPI Cards",
+        "href": "/blocks/kpi-cards"
+      },
+      {
+        "name": "Chart Compositions",
+        "href": "/blocks/chart-compositions"
+      },
+      {
+        "name": "Standard Forms",
+        "href": "/blocks/form-layouts"
+      },
+      {
+        "name": "File Uploads",
+        "href": "/blocks/file-upload"
+      },
+      {
+        "name": "Standard Tables",
+        "href": "/blocks/tables"
+      },
+      {
+        "name": "Table Actions",
+        "href": "/blocks/table-actions"
+      },
+      {
+        "name": "Table Pagination",
+        "href": "/blocks/table-pagination"
+      },
+      {
+        "name": "Page Shells",
+        "href": "/blocks/page-shells"
+      },
+      {
+        "name": "Filterbar",
+        "href": "/blocks/filterbar"
+      },
+      {
+        "name": "Empty States",
+        "href": "/blocks/empty-states"
+      },
+      {
+        "name": "Dialogs",
+        "href": "/blocks/dialogs"
+      },
+      {
+        "name": "Grid Lists",
+        "href": "/blocks/grid-lists"
+      },
+      {
+        "name": "Banner",
+        "href": "/blocks/banners"
+      },
+      {
+        "name": "Badges",
+        "href": "/blocks/badges"
+      },
+      {
+        "name": "Pricing Sections",
+        "href": "/blocks/pricing-sections"
+      },
+      {
+        "name": "Logins",
+        "href": "/blocks/logins"
+      },
+      {
+        "name": "User Management",
+        "href": "/blocks/account-and-user-management"
+      },
+      {
+        "name": "Onboarding & Feed",
+        "href": "/blocks/onboarding-feed"
+      },
+      {
+        "name": "Billing & Usage",
+        "href": "/blocks/billing-usage"
+      },
+      {
+        "name": "Changelog",
+        "href": "/changelog"
+      },
+      {
+        "name": "License",
+        "href": "/license"
+      },
+      {
+        "name": "Support",
+        "href": "/support"
+      },
+      {
+        "name": "Imprint",
+        "href": "https://tremor.so/imprint"
+      },
+      {
+        "name": "Privacy",
+        "href": "https://tremor.so/privacy"
+      },
+      {
+        "name": "X",
+        "href": "https://twitter.com/tremorlabs"
+      },
+      {
+        "name": "GitHub",
+        "href": "https://github.com/tremorlabs/tremor"
+      }
+    ],
+    "links": [
+      "https://vercel.com/blog/vercel-acquires-tremor?utm_source=tremor-site&utm_medium=banner&utm_campaign=tremor-acquisition",
+      "/",
+      "/blocks",
+      "/templates",
+      "/getting-started",
+      "https://github.com/tremorlabs/tremor-blocks",
+      "/blocks",
+      "/templates",
+      "/templates",
+      "/blocks/bar-charts",
+      "/blocks/chart-tooltips",
+      "/blocks/chart-compositions",
+      "/blocks/kpi-cards",
+      "/blocks/form-layouts",
+      "/blocks/banners",
+      "/blocks",
+      "/templates#template-dashboard",
+      "/templates#template-database",
+      "/templates#template-overview",
+      "/templates#template-insights",
+      "/templates#template-solar",
+      "/templates#template-planner",
+      "/blocks/area-charts",
+      "/blocks/line-charts",
+      "/blocks/bar-charts",
+      "/blocks/donut-charts",
+      "/blocks/chart-tooltips",
+      "/blocks/bar-lists",
+      "/blocks/status-monitoring",
+      "/blocks/spark-charts",
+      "/blocks/kpi-cards",
+      "/blocks/chart-compositions",
+      "/blocks/form-layouts",
+      "/blocks/file-upload",
+      "/blocks/tables",
+      "/blocks/table-actions",
+      "/blocks/table-pagination",
+      "/blocks/page-shells",
+      "/blocks/filterbar",
+      "/blocks/empty-states",
+      "/blocks/dialogs",
+      "/blocks/grid-lists",
+      "/blocks/banners",
+      "/blocks/badges",
+      "/blocks/pricing-sections",
+      "/blocks/logins",
+      "/blocks/account-and-user-management",
+      "/blocks/onboarding-feed",
+      "/blocks/billing-usage",
+      "/changelog",
+      "/license",
+      "/support",
+      "https://tremor.so/imprint",
+      "https://tremor.so/privacy",
+      "https://twitter.com/tremorlabs",
+      "https://github.com/tremorlabs/tremor"
+    ]
+  },
+  "21st_components": {
+    "url": "https://21st.dev/community/components",
+    "text_snippet": "Discover community-made UI components | 21st\nComponents\n/\nFeatured\nNewest\nTop Authors\nMarketing Blocks\nAnnouncements\n13\nASCII Art\nNew\nBackgrounds\n103\nBorders\n32\nCalls to Action\n69\nClients\n27\nComparisons\n8\nDocks\n27\nFAQs\n39\nFeatures\n112\nFooters\n53\nGalleries\n40\nGradients\nNew\nHeroes\n306\nHooks\n26\nImages\n123\nMaps\n50\nMarquees\n16\nNavigation Menus\n17\nPricing Sections\n53\nScroll Areas\n38\nShaders\nNew\nStats & KPIs\n28\nSteppers\n24\nTeam Sections\n15\nTestimonials\n55\nTexts\n140\nTimelines\n20\nVideos\n31\nUI Components\nAccordions\n152\nAI Chats\n77\nAlerts\n80\nAvatars\n147\nBadges\n132\nButtons\n588\nCalendars\n174\nCards\n503\nCarousels\n78\nCharts & Data Viz\n94\nCheckboxes\n116\nCursors\n52\nDashboards\n36\nDate Pickers\n56\nDialogs / Modals\n94\nDropdowns\n85\nEmpty States\n16\nFile Trees\n30\nFile Uploads\n9\nForms\n185\nGlobes\n20\nGrids & Bento\n62\nIcons\n23\nInputs\n362\nLinks\n47\nLists\n39\nMenus\n107\nNotifications\n49\nNumbers\n27\nOnboarding\n15\nPaginations\n53\nPopovers\n55\nProfiles\n45\nProgress\n46\nRadio Groups\n70\nSearch Bars\n56\nSelects\n146\nSidebars\n24\nSign Ins\n34\nSign ups\n24\nSliders\n105\nSpinner Loaders\n37\nTables\n76\nTabs\n146\nTags\n11\nText Areas\n79\nToasts\n33\nToggles\n83\nTooltips\n81\nComponents\nSearch\nK\nFeatured\nNewest\nPopular\nShaders\nHeros\nFeatures\nAI Chat Components\nCalls to Action\nButtons\nTestimonials\nPricing Sections\nText Components\nCommunity UI Components for React & Next.js\nComponents\nSearch\nK\nNewest\nView all\nN\nNm\n1\nN\nM ASCII\nN\nN ASCII\nR\nPortfolio\n1\nY\nIstanblue\n1\nWD\nThread light\n3\nWD\nThread paint\n1\nWD\nLiquid Mosaic\n1\nAK\n111\n6\nG\nPipo\n2\nPopular\nView all\nMA\nContainer Scroll Animation\n7.5k\nA\nScroll media expansion hero\n7.4k\nS\nSpline Scene\n6.5k\nHJ\nSpotlight Card\n6.2k\nJY\nRadial Orbital Timeline\n5.7k\nE\nTestimonials Columns\n4.6k\nKB\nBackground Paths\n4.2k\nTJ\nAnimated hero\n4.1k\nPU\nDisplay Cards\n4.1k\nMA\nGlowing Effect\n3.9k\nShaders\nView all\nE\nDotted Surface\n3.2k\nAI\nShader Animation\n3.1k\nRK\nAnimated Shader Hero\n2.8k\nR\nBackground Paper Shaders\n2.3k\nAI\nWebGL Shader\n2.1k\nS\nAnimate Card Animation\n2.0k\nLT\nAnimated Shader Background\n1.8k\nAI\nShader Lines\n1.8k\nS\nThe Infinite Grid\n1.7k\nLT\nShader Background\n1.7k\nHeros\nView all\nMA\nContainer Scroll Animation\n7.5k\nA\nScroll media expansion hero\n7.4k\nS\nSpline Scene\n6.5k\nKB\nBackground Paths\n4.2k\nTJ\nAnimated hero\n4.1k\nPS\nScroll Morph Hero\n3.7k\nHJ\nCinematic landing Hero\n3.7k\nVW\nGooey Text Morphing\n3.4k\nMA\nAurora Background\n3.4k\nKB\nShape Landing Hero\n3.3k\nFeatures\nView all\nJY\nRadial Orbital Timeline\n5.7k\nPU\nDisplay Cards\n4.1k\nE\nZoom Parallax\n3.9k\nS\nGallery with image cards\n2.2k\nMA\nBento Grid\n2.1k\n0\nFeature Carousel\n2.0k\nKB\nBento Grid\n1.9k\nLD\nCPU Architecture\n1.8k\nMI\nFeatures 8\n1.7k\nS\nHero 195\n1.6k\nAI Chat Components\nView all\nHJ\nAI prompt Box\n2.4k\nI\nAgent Plan\n1.8k\nKB\nAI Voice Input\n1.5k\nJY\nAnimated AI Chat\n1.3k\nJT\nText Shimmer\n1.1k\nKB\nV0 AI Chat\n972\nB\nAI Loader\n960\nMS\nGlowing AI Chat Assistant\n811\nPS\nShining Text\n740\nHJ\nChatgpt Prompt Input\n662\nCalls to Action\nView all\nKB\nBackground Paths\n4.2k\nMA\nSparkles\n3.2k\nDV\nInteractive Hover Button\n1.5k\nMA\nBackground Gradient Animation\n1.2k\nKB\nHand Writing Te",
+    "components": [
+      {
+        "name": "Featured",
+        "href": "/community/components/featured"
+      },
+      {
+        "name": "Newest",
+        "href": "/community/components/week/2026-W29"
+      },
+      {
+        "name": "Top Authors",
+        "href": "/community/authors"
+      },
+      {
+        "name": "Announcements13",
+        "href": "/community/components/s/announcement"
+      },
+      {
+        "name": "ASCII ArtNew",
+        "href": "/community/ascii"
+      },
+      {
+        "name": "Backgrounds103",
+        "href": "/community/components/s/background"
+      },
+      {
+        "name": "Borders32",
+        "href": "/community/components/s/border"
+      },
+      {
+        "name": "Calls to Action69",
+        "href": "/community/components/s/cta"
+      },
+      {
+        "name": "Clients27",
+        "href": "/community/components/s/clients"
+      },
+      {
+        "name": "Comparisons8",
+        "href": "/community/components/s/comparison"
+      },
+      {
+        "name": "Docks27",
+        "href": "/community/components/s/dock"
+      },
+      {
+        "name": "FAQs39",
+        "href": "/community/components/s/faq"
+      },
+      {
+        "name": "Features112",
+        "href": "/community/components/s/features"
+      },
+      {
+        "name": "Footers53",
+        "href": "/community/components/s/footer"
+      },
+      {
+        "name": "Galleries40",
+        "href": "/community/components/s/gallery"
+      },
+      {
+        "name": "GradientsNew",
+        "href": "/community/gradients"
+      },
+      {
+        "name": "Heroes306",
+        "href": "/community/components/s/hero"
+      },
+      {
+        "name": "Hooks26",
+        "href": "/community/components/s/hook"
+      },
+      {
+        "name": "Images123",
+        "href": "/community/components/s/image"
+      },
+      {
+        "name": "Maps50",
+        "href": "/community/components/s/map"
+      },
+      {
+        "name": "Marquees16",
+        "href": "/community/components/s/marquee"
+      },
+      {
+        "name": "Navigation Menus17",
+        "href": "/community/components/s/navigation-menu"
+      },
+      {
+        "name": "Pricing Sections53",
+        "href": "/community/components/s/pricing-section"
+      },
+      {
+        "name": "Scroll Areas38",
+        "href": "/community/components/s/scroll-area"
+      },
+      {
+        "name": "ShadersNew",
+        "href": "/community/shaders"
+      },
+      {
+        "name": "Stats & KPIs28",
+        "href": "/community/components/s/stat"
+      },
+      {
+        "name": "Steppers24",
+        "href": "/community/components/s/steps"
+      },
+      {
+        "name": "Team Sections15",
+        "href": "/community/components/s/team"
+      },
+      {
+        "name": "Testimonials55",
+        "href": "/community/components/s/testimonials"
+      },
+      {
+        "name": "Texts140",
+        "href": "/community/components/s/text"
+      },
+      {
+        "name": "Timelines20",
+        "href": "/community/components/s/timeline"
+      },
+      {
+        "name": "Videos31",
+        "href": "/community/components/s/video"
+      },
+      {
+        "name": "Accordions152",
+        "href": "/community/components/s/accordion"
+      },
+      {
+        "name": "AI Chats77",
+        "href": "/community/components/s/ai-chat"
+      },
+      {
+        "name": "Alerts80",
+        "href": "/community/components/s/alert"
+      },
+      {
+        "name": "Avatars147",
+        "href": "/community/components/s/avatar"
+      },
+      {
+        "name": "Badges132",
+        "href": "/community/components/s/badge"
+      },
+      {
+        "name": "Buttons588",
+        "href": "/community/components/s/button"
+      },
+      {
+        "name": "Calendars174",
+        "href": "/community/components/s/calendar"
+      },
+      {
+        "name": "Cards503",
+        "href": "/community/components/s/card"
+      },
+      {
+        "name": "Carousels78",
+        "href": "/community/components/s/carousel"
+      },
+      {
+        "name": "Charts & Data Viz94",
+        "href": "/community/components/s/data-visualization"
+      },
+      {
+        "name": "Checkboxes116",
+        "href": "/community/components/s/checkbox"
+      },
+      {
+        "name": "Cursors52",
+        "href": "/community/components/s/cursor"
+      },
+      {
+        "name": "Dashboards36",
+        "href": "/community/components/s/dashboard"
+      },
+      {
+        "name": "Date Pickers56",
+        "href": "/community/components/s/date-picker"
+      },
+      {
+        "name": "Dialogs / Modals94",
+        "href": "/community/components/s/modal"
+      },
+      {
+        "name": "Dropdowns85",
+        "href": "/community/components/s/dropdown"
+      },
+      {
+        "name": "Empty States16",
+        "href": "/community/components/s/empty-state"
+      },
+      {
+        "name": "File Trees30",
+        "href": "/community/components/s/file-tree"
+      },
+      {
+        "name": "File Uploads9",
+        "href": "/community/components/s/upload-download"
+      },
+      {
+        "name": "Forms185",
+        "href": "/community/components/s/form"
+      },
+      {
+        "name": "Globes20",
+        "href": "/community/components/s/globe"
+      },
+      {
+        "name": "Grids & Bento62",
+        "href": "/community/components/s/grid"
+      },
+      {
+        "name": "Icons23",
+        "href": "/community/components/s/icon"
+      },
+      {
+        "name": "Inputs362",
+        "href": "/community/components/s/input"
+      },
+      {
+        "name": "Links47",
+        "href": "/community/components/s/link"
+      },
+      {
+        "name": "Lists39",
+        "href": "/community/components/s/list"
+      },
+      {
+        "name": "Menus107",
+        "href": "/community/components/s/menu"
+      },
+      {
+        "name": "Notifications49",
+        "href": "/community/components/s/notification"
+      },
+      {
+        "name": "Numbers27",
+        "href": "/community/components/s/number"
+      },
+      {
+        "name": "Onboarding15",
+        "href": "/community/components/s/onboarding"
+      },
+      {
+        "name": "Paginations53",
+        "href": "/community/components/s/pagination"
+      },
+      {
+        "name": "Popovers55",
+        "href": "/community/components/s/popover"
+      },
+      {
+        "name": "Profiles45",
+        "href": "/community/components/s/profile"
+      },
+      {
+        "name": "Progress46",
+        "href": "/community/components/s/progress"
+      },
+      {
+        "name": "Radio Groups70",
+        "href": "/community/components/s/radio-group"
+      },
+      {
+        "name": "Search Bars56",
+        "href": "/community/components/s/search"
+      },
+      {
+        "name": "Selects146",
+        "href": "/community/components/s/select"
+      },
+      {
+        "name": "Sidebars24",
+        "href": "/community/components/s/sidebar"
+      },
+      {
+        "name": "Sign Ins34",
+        "href": "/community/components/s/sign-in"
+      },
+      {
+        "name": "Sign ups24",
+        "href": "/community/components/s/sign-up"
+      },
+      {
+        "name": "Sliders105",
+        "href": "/community/components/s/slider"
+      },
+      {
+        "name": "Spinner Loaders37",
+        "href": "/community/components/s/spinner"
+      },
+      {
+        "name": "Tables76",
+        "href": "/community/components/s/table"
+      },
+      {
+        "name": "Tabs146",
+        "href": "/community/components/s/tabs"
+      },
+      {
+        "name": "Tags11",
+        "href": "/community/components/s/chip"
+      },
+      {
+        "name": "Text Areas79",
+        "href": "/community/components/s/textarea"
+      },
+      {
+        "name": "Toasts33",
+        "href": "/community/components/s/toast"
+      },
+      {
+        "name": "Toggles83",
+        "href": "/community/components/s/toggle"
+      }
+    ],
+    "links": [
+      "/",
+      "/community/components/featured",
+      "/community/components/week/2026-W29",
+      "/community/authors",
+      "/community/components/s/announcement",
+      "/community/ascii",
+      "/community/components/s/background",
+      "/community/components/s/border",
+      "/community/components/s/cta",
+      "/community/components/s/clients",
+      "/community/components/s/comparison",
+      "/community/components/s/dock",
+      "/community/components/s/faq",
+      "/community/components/s/features",
+      "/community/components/s/footer",
+      "/community/components/s/gallery",
+      "/community/gradients",
+      "/community/components/s/hero",
+      "/community/components/s/hook",
+      "/community/components/s/image",
+      "/community/components/s/map",
+      "/community/components/s/marquee",
+      "/community/components/s/navigation-menu",
+      "/community/components/s/pricing-section",
+      "/community/components/s/scroll-area",
+      "/community/shaders",
+      "/community/components/s/stat",
+      "/community/components/s/steps",
+      "/community/components/s/team",
+      "/community/components/s/testimonials",
+      "/community/components/s/text",
+      "/community/components/s/timeline",
+      "/community/components/s/video",
+      "/community/components/s/accordion",
+      "/community/components/s/ai-chat",
+      "/community/components/s/alert",
+      "/community/components/s/avatar",
+      "/community/components/s/badge",
+      "/community/components/s/button",
+      "/community/components/s/calendar",
+      "/community/components/s/card",
+      "/community/components/s/carousel",
+      "/community/components/s/data-visualization",
+      "/community/components/s/checkbox",
+      "/community/components/s/cursor",
+      "/community/components/s/dashboard",
+      "/community/components/s/date-picker",
+      "/community/components/s/modal",
+      "/community/components/s/dropdown",
+      "/community/components/s/empty-state",
+      "/community/components/s/file-tree",
+      "/community/components/s/upload-download",
+      "/community/components/s/form",
+      "/community/components/s/globe",
+      "/community/components/s/grid",
+      "/community/components/s/icon",
+      "/community/components/s/input",
+      "/community/components/s/link",
+      "/community/components/s/list",
+      "/community/components/s/menu",
+      "/community/components/s/notification",
+      "/community/components/s/number",
+      "/community/components/s/onboarding",
+      "/community/components/s/pagination",
+      "/community/components/s/popover",
+      "/community/components/s/profile",
+      "/community/components/s/progress",
+      "/community/components/s/radio-group",
+      "/community/components/s/search",
+      "/community/components/s/select",
+      "/community/components/s/sidebar",
+      "/community/components/s/sign-in",
+      "/community/components/s/sign-up",
+      "/community/components/s/slider",
+      "/community/components/s/spinner",
+      "/community/components/s/table",
+      "/community/components/s/tabs",
+      "/community/components/s/chip",
+      "/community/components/s/textarea",
+      "/community/components/s/toast",
+      "/community/components/s/toggle",
+      "/community/components/s/tooltip",
+      "/@nblairwalker/components/nm",
+      "/@nblairwalker",
+      "/@nblairwalker/components/m-ascii",
+      "/@nblairwalker",
+      "/@nblairwalker/components/n-ascii",
+      "/@nblairwalker",
+      "/@ricaelmenezes3/components/portfolio",
+      "/@ricaelmenezes3",
+      "/@yaoztorun/components/istanblue",
+      "/@yaoztorun",
+      "/@tempforall9/components/thread-light",
+      "/@tempforall9",
+      "/@tempforall9/components/thread-paint",
+      "/@tempforall9",
+      "/@tempforall9/components/liquid-mosaic",
+      "/@tempforall9",
+      "/@a.tkachenko84/components/111",
+      "/@a.tkachenko84"
+    ]
+  }
+}

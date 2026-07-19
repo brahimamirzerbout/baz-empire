@@ -30,6 +30,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="aether.css">
+  <script async src="js/effects.js"></script>
   <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>Æ</text></svg>">
   <style>
     .hero-anim {
@@ -290,17 +291,24 @@
 
   <main id="main">
 
-    <section class="hero" id="hero">
-      <div class="hero-anim" aria-hidden="true">
-        <div class="hero-anim__orb hero-anim__orb--1"></div>
-        <div class="hero-anim__orb hero-anim__orb--2"></div>
-        <div class="hero-anim__orb hero-anim__orb--3"></div>
+    <section class="hero spotlight hero-effects" id="hero">
+      <div class="spotlight__glow" aria-hidden="true"></div>
+      <div class="aurora" aria-hidden="true">
+        <div class="aurora__orb aurora__orb--1"></div>
+        <div class="aurora__orb aurora__orb--2"></div>
+        <div class="aurora__orb aurora__orb--3"></div>
+      </div>
+      <div class="particles" aria-hidden="true">
+        <div class="particles__dot"></div><div class="particles__dot"></div><div class="particles__dot"></div>
+        <div class="particles__dot"></div><div class="particles__dot"></div><div class="particles__dot"></div>
+        <div class="particles__dot"></div><div class="particles__dot"></div><div class="particles__dot"></div>
+        <div class="particles__dot"></div><div class="particles__dot"></div><div class="particles__dot"></div>
       </div>
       <span class="section__label">Open-Source Design System</span>
-      <h1 class="hero__title">Brand assets,<br><em>algorithmically derived</em></h1>
+      <h1 class="hero__title">Brand assets,<br><em class="gradient-text">algorithmically derived</em></h1>
       <p class="hero__desc">Three CSS variables define an entire brand system. Change the seed — watch 254 tokens, 18 components, and every shadow recompose. Zero JavaScript. Zero build step. The cascade is the algorithm.</p>
       <div class="hero__actions no-print">
-        <a href="showcase.html" class="btn btn--primary btn--lg">Explore Showcase</a>
+        <a href="showcase.html" class="btn btn--primary btn--lg shimmer-btn">Explore Showcase</a>
         <a href="#code" class="btn btn--outline btn--lg">See the Code</a>
       </div>
       <p class="hero__trust" style="margin-top:var(--space-5);font-size:var(--text-sm);color:var(--fg-subtle);font-family:var(--font-mono);">Free &amp; open-source · MIT · zero dependencies · no build step</p>
@@ -308,47 +316,56 @@
 
     <section class="section">
       <div class="stat-row">
-        <div class="stat">
-          <div class="stat__number">3</div>
+        <div class="stat stat-beam beam-border">
+          <div class="stat__number" data-ticker="3">0</div>
           <div class="stat__label">Seed variables</div>
         </div>
-        <div class="stat">
-          <div class="stat__number">254</div>
+        <div class="stat stat-beam beam-border">
+          <div class="stat__number" data-ticker="254">0</div>
           <div class="stat__label">Derived tokens</div>
         </div>
-        <div class="stat">
-          <div class="stat__number">18</div>
+        <div class="stat stat-beam beam-border">
+          <div class="stat__number" data-ticker="18">0</div>
           <div class="stat__label">Components</div>
         </div>
-        <div class="stat">
-          <div class="stat__number">0</div>
+        <div class="stat stat-beam beam-border">
+          <div class="stat__number" data-ticker="0">0</div>
           <div class="stat__label">Dependencies</div>
         </div>
-        <div class="stat">
-          <div class="stat__number">0</div>
+        <div class="stat stat-beam beam-border">
+          <div class="stat__number" data-ticker="0">0</div>
           <div class="stat__label">JavaScript required</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" style="padding:var(--space-6) 0;">
+      <div class="marquee" aria-label="Technologies and standards">
+        <div class="marquee__track">
+          <span style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--fg-muted);white-space:nowrap;">CSS Custom Properties · Dark Mode · Reduced Motion · High Contrast · WCAG AA · Print Styles · Zero Dependencies · Zero JavaScript · Zero Build Step · φ Typography Scale · HSL Color Math · Algorithmic Derivation · 254 Tokens · 18 Components · MIT License</span>
+          <span style="font-family:var(--font-mono);font-size:var(--text-sm);color:var(--fg-muted);white-space:nowrap;">CSS Custom Properties · Dark Mode · Reduced Motion · High Contrast · WCAG AA · Print Styles · Zero Dependencies · Zero JavaScript · Zero Build Step · φ Typography Scale · HSL Color Math · Algorithmic Derivation · 254 Tokens · 18 Components · MIT License</span>
         </div>
       </div>
     </section>
 
     <hr class="separator separator--faded separator--sparse">
 
-    <section class="section" id="features">
+    <section class="section grid-bg" id="features">
       <span class="section__label">Why Æther</span>
       <h2 class="section__heading">Every value derived. Nothing hardcoded.</h2>
       <p class="section__subheading">Change a single hue and watch the entire system transform. Dark mode, reduced motion, high contrast — all automatic.</p>
       <div class="feature-grid">
-        <div class="feature">
+        <div class="feature moving-border"><div class="moving-border__inner">
           <div class="feature__icon">🌱</div>
           <div class="feature__title">One Seed</div>
           <div class="feature__desc">Three CSS custom properties define every color, shadow, and spacing value. Change the seed, rebrand the world.</div>
         </div>
-        <div class="feature">
+        <div class="feature moving-border"><div class="moving-border__inner">
           <div class="feature__icon">🌙</div>
           <div class="feature__title">Dark Mode</div>
           <div class="feature__desc">Automatic via <code style="font-family:var(--font-mono);font-size:0.9em;padding:0.1em 0.4em;background:var(--bg-subtle);border-radius:var(--radius-sm);">prefers-color-scheme</code>. 30+ tokens flip including semantic aliases. Zero config.</div>
         </div>
-        <div class="feature">
+        <div class="feature moving-border"><div class="moving-border__inner">
           <div class="feature__icon">♿</div>
           <div class="feature__title">Accessible</div>
           <div class="feature__desc">Focus rings on every interactive element. Reduced motion respected. High contrast supported. WCAG AA contrast ratios.</div>
@@ -621,7 +638,7 @@
         <h2 class="cta__title">Start building with Æther</h2>
         <p class="cta__desc">Copy the CSS. Import one file. Change three variables. That's it. No npm, no build step, no JavaScript.</p>
         <div class="btn-group" style="justify-content:center;">
-          <a href="showcase.html" class="btn btn--primary btn--lg">Explore Showcase</a>
+          <a href="showcase.html" class="btn btn--primary btn--lg shimmer-btn">Explore Showcase</a>
           <a href="#code" class="btn btn--outline btn--lg">View Source</a>
         </div>
       </div>
