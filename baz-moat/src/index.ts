@@ -29,6 +29,10 @@ import { buildTrendHistory } from "./social-platforms/trends.js";
 import { buildTrendCurve } from "./social-platforms/trend-curve.js";
 import type { SocialInput, SocialPlatform, AwarenessStage as SocialAwareness } from "./social-platforms/types.js";
 import type { TrendDomain } from "./social-platforms/trends.js";
+import { buildLoyalty } from "./loyalty/engine.js";
+import type { LoyaltyInput } from "./loyalty/types.js";
+import { buildIntent } from "./intent/engine.js";
+import type { IntentInput, IntentChannel } from "./intent/types.js";
 import type { AuditFinding, AuditInput, ClientContext, ComponentStatus } from "./types.js";
 
 const VALID_STATUS: ReadonlySet<string> = new Set(["present", "partial", "missing", "broken"]);
@@ -105,10 +109,37 @@ interface ParsedArgs {
   trendAdoption?: number;
   trendVelocity?: number;
   trendFromRegistry?: string;
+  // loyalty-specific
+  loyRetention?: number;
+  loyChurn?: number;
+  loyRepeat?: number;
+  loyNps?: number;
+  loyLtv?: number;
+  loyCac?: number;
+  loyAov?: number;
+  loyFreq?: number;
+  loyOnboarding?: boolean;
+  loyAscension?: boolean;
+  loyContinuity?: boolean;
+  loyReferral?: boolean;
+  loyCommunity?: boolean;
+  loyWinback?: boolean;
+  loyNewCust?: number;
+  loyActive?: number;
+  // intent-specific
+  intIcp?: string;
+  intAwareness?: string;
+  intOffer?: string;
+  intChannels?: string;
+  intSignals: string[];
+  intIntentConv?: number;
+  intColdConv?: number;
+  intIntentCac?: number;
+  intLtv?: number;
 }
 
 function parseArgs(argv: string[]): ParsedArgs {
-  const out: ParsedArgs = { findings: [], gate: {}, croSignals: [], creators: [], socSignals: [] };
+  const out: ParsedArgs = { findings: [], gate: {}, croSignals: [], creators: [], socSignals: [], intSignals: [] };
   const next = (arr: string[], i: number): string => arr[++i]!;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]!;
@@ -178,6 +209,31 @@ function parseArgs(argv: string[]): ParsedArgs {
       case "--trend-adoption": out.trendAdoption = Number(next(argv, i)); break;
       case "--trend-velocity": out.trendVelocity = Number(next(argv, i)); break;
       case "--trend-from-registry": out.trendFromRegistry = next(argv, i); break;
+      case "--loy-retention": out.loyRetention = Number(next(argv, i)); break;
+      case "--loy-churn": out.loyChurn = Number(next(argv, i)); break;
+      case "--loy-repeat": out.loyRepeat = Number(next(argv, i)); break;
+      case "--loy-nps": out.loyNps = Number(next(argv, i)); break;
+      case "--loy-ltv": out.loyLtv = Number(next(argv, i)); break;
+      case "--loy-cac": out.loyCac = Number(next(argv, i)); break;
+      case "--loy-aov": out.loyAov = Number(next(argv, i)); break;
+      case "--loy-freq": out.loyFreq = Number(next(argv, i)); break;
+      case "--loy-onboarding": out.loyOnboarding = true; break;
+      case "--loy-ascension": out.loyAscension = true; break;
+      case "--loy-continuity": out.loyContinuity = true; break;
+      case "--loy-referral": out.loyReferral = true; break;
+      case "--loy-community": out.loyCommunity = true; break;
+      case "--loy-winback": out.loyWinback = true; break;
+      case "--loy-new-cust": out.loyNewCust = Number(next(argv, i)); break;
+      case "--loy-active": out.loyActive = Number(next(argv, i)); break;
+      case "--int-icp": out.intIcp = next(argv, i); break;
+      case "--int-awareness": out.intAwareness = next(argv, i); break;
+      case "--int-offer": out.intOffer = next(argv, i); break;
+      case "--int-channels": out.intChannels = next(argv, i); break;
+      case "--int-signal": out.intSignals.push(next(argv, i) ?? ""); break;
+      case "--int-intent-conv": out.intIntentConv = Number(next(argv, i)); break;
+      case "--int-cold-conv": out.intColdConv = Number(next(argv, i)); break;
+      case "--int-intent-cac": out.intIntentCac = Number(next(argv, i)); break;
+      case "--int-ltv": out.intLtv = Number(next(argv, i)); break;
       case "--cro-signal": {
         const pair = next(argv, i) ?? "";
         const parts = pair.split("|");
@@ -327,6 +383,35 @@ TREND CURVE OPTIONS:
   --trend-adoption N   Observed cumulative adoption % (0-100) — your intel
   --trend-velocity N   Observed velocity (% adoption/week) — your intel
   --trend-from-registry ID  Pull trend + structural stage from the registry (e.g. tt-dance, ig-reels, li-broetry)
+
+LOYALTY MARKETING OPTIONS (post-purchase ladder + leaky bucket + lever ranking):
+  --loy-retention N    % who stay (0-1)
+  --loy-churn N        Observed churn (0-1; defaults to 1-retention)
+  --loy-repeat N       % who buy a 2nd time (0-1)
+  --loy-nps N          Net Promoter Score (-100..100)
+  --loy-ltv N          Lifetime value
+  --loy-cac N          Customer acquisition cost
+  --loy-aov N          Average order value
+  --loy-freq N         Purchases/customer/year
+  --loy-onboarding     Onboarding/Excite flow active
+  --loy-ascension      Ascension ladder (upsells) active
+  --loy-continuity     Continuity/subscription active
+  --loy-referral       Referral system active
+  --loy-community      Community/identity layer active
+  --loy-winback        Win-back flow active
+  --loy-new-cust N     New customers acquired/period
+  --loy-active N       Active customer base size
+
+INTENT MARKETING OPTIONS (capture the already-hungry; intent scoring + routing):
+  --int-icp "I"        The starving crowd
+  --int-awareness S    problem-aware|solution-aware|product-aware|most-aware
+  --int-offer "O"      The offer / what they'd buy
+  --int-channels LIST  Comma-separated: search-sem,seo,retargeting,email,sales,third-party-intent (default: all)
+  --int-signal S       One per observed signal: id=hit|miss|unknown (repeatable; ids: demo-request,pricing-page,brand-search,pql,search-commercial,third-party-intent,comparison-page,repeat-visit,bottom-funnel-email)
+  --int-intent-conv N  Conversion rate on intent traffic (0-1)
+  --int-cold-conv N    Conversion rate on cold traffic (0-1)
+  --int-intent-cac N   Intent traffic CAC
+  --int-ltv N          LTV (for the CAC math)
 
   -h, --help           Show this help
 `);
@@ -554,6 +639,57 @@ function runTrend(args: ParsedArgs): void {
   console.log(out.markdown);
 }
 
+function runLoyalty(args: ParsedArgs): void {
+  const input: LoyaltyInput = {
+    retentionRate: args.loyRetention,
+    churnRate: args.loyChurn,
+    repeatPurchaseRate: args.loyRepeat,
+    nps: args.loyNps,
+    ltv: args.loyLtv,
+    cac: args.loyCac,
+    avgOrderValue: args.loyAov,
+    purchaseFrequency: args.loyFreq,
+    onboardingActive: args.loyOnboarding,
+    ascensionOffers: args.loyAscension,
+    continuityActive: args.loyContinuity,
+    referralSystem: args.loyReferral,
+    communityActive: args.loyCommunity,
+    winbackActive: args.loyWinback,
+    newCustomersPerPeriod: args.loyNewCust,
+    activeCustomers: args.loyActive,
+  };
+  const out = buildLoyalty(input);
+  // eslint-disable-next-line no-console
+  console.log(out.markdown);
+}
+
+function runIntent(args: ParsedArgs): void {
+  const signals: NonNullable<IntentInput["signals"]> = {};
+  for (const pair of args.intSignals) {
+    const [id, st] = pair.split("=");
+    if (!id || !st || !["hit", "miss", "unknown"].includes(st))
+      throw new Error(`Invalid --int-signal "${pair}". Expected id=hit|miss|unknown`);
+    signals[id] = st as "hit" | "miss" | "unknown";
+  }
+  const channels = args.intChannels
+    ? args.intChannels.split(",").map((c) => c.trim() as IntentChannel)
+    : undefined;
+  const input: IntentInput = {
+    signals: Object.keys(signals).length ? signals : undefined,
+    icp: args.intIcp,
+    awareness: args.intAwareness as IntentInput["awareness"],
+    offer: args.intOffer,
+    channels,
+    intentConversionRate: args.intIntentConv,
+    coldConversionRate: args.intColdConv,
+    intentCac: args.intIntentCac,
+    ltv: args.intLtv,
+  };
+  const out = buildIntent(input);
+  // eslint-disable-next-line no-console
+  console.log(out.markdown);
+}
+
 function main(): void {
   const args = parseArgs(process.argv.slice(2));
   const command = args.command ?? "diagnostic";
@@ -565,6 +701,8 @@ function main(): void {
   else if (command === "creator") runCreator(args);
   else if (command === "social") runSocial(args);
   else if (command === "trend") runTrend(args);
+  else if (command === "loyalty") runLoyalty(args);
+  else if (command === "intent") runIntent(args);
   else if (command === "seo") runSEO(args);
   else if (command === "diagnostic") runDiagnostic(args);
   else { printHelp(); process.exit(1); }
