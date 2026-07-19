@@ -24,6 +24,11 @@ import { buildAdCreative } from "./ad-creative/engine.js";
 import type { AdCreativeInput, BrandKit, Platform } from "./ad-creative/types.js";
 import { buildCreatorOps } from "./creator-ops/engine.js";
 import type { CreatorOpsInput, Creator } from "./creator-ops/types.js";
+import { buildSocial } from "./social-platforms/engine.js";
+import { buildTrendHistory } from "./social-platforms/trends.js";
+import { buildTrendCurve } from "./social-platforms/trend-curve.js";
+import type { SocialInput, SocialPlatform, AwarenessStage as SocialAwareness } from "./social-platforms/types.js";
+import type { TrendDomain } from "./social-platforms/trends.js";
 import type { AuditFinding, AuditInput, ClientContext, ComponentStatus } from "./types.js";
 
 const VALID_STATUS: ReadonlySet<string> = new Set(["present", "partial", "missing", "broken"]);
@@ -85,10 +90,25 @@ interface ParsedArgs {
   creatorIcp?: string;
   creatorBudget?: number;
   creators: Creator[];
+  // social-platforms-specific
+  socGoal?: string;
+  socIcp?: string;
+  socAwareness?: SocialAwareness;
+  socTopic?: string;
+  socPlatforms?: string;
+  socTrends?: boolean;
+  socSignals: string[];
+  // trend-curve-specific
+  trendPlatform?: SocialPlatform;
+  trendName?: string;
+  trendDomain?: string;
+  trendAdoption?: number;
+  trendVelocity?: number;
+  trendFromRegistry?: string;
 }
 
 function parseArgs(argv: string[]): ParsedArgs {
-  const out: ParsedArgs = { findings: [], gate: {}, croSignals: [], creators: [] };
+  const out: ParsedArgs = { findings: [], gate: {}, croSignals: [], creators: [], socSignals: [] };
   const next = (arr: string[], i: number): string => arr[++i]!;
   for (let i = 0; i < argv.length; i++) {
     const a = argv[i]!;
@@ -145,6 +165,19 @@ function parseArgs(argv: string[]): ParsedArgs {
         });
         break;
       }
+      case "--soc-goal": out.socGoal = next(argv, i); break;
+      case "--soc-icp": out.socIcp = next(argv, i); break;
+      case "--soc-awareness": out.socAwareness = next(argv, i) as SocialAwareness; break;
+      case "--soc-topic": out.socTopic = next(argv, i); break;
+      case "--soc-platforms": out.socPlatforms = next(argv, i); break;
+      case "--soc-trends": out.socTrends = true; break;
+      case "--soc-signal": out.socSignals.push(next(argv, i) ?? ""); break;
+      case "--trend-platform": out.trendPlatform = next(argv, i) as SocialPlatform; break;
+      case "--trend-name": out.trendName = next(argv, i); break;
+      case "--trend-domain": out.trendDomain = next(argv, i); break;
+      case "--trend-adoption": out.trendAdoption = Number(next(argv, i)); break;
+      case "--trend-velocity": out.trendVelocity = Number(next(argv, i)); break;
+      case "--trend-from-registry": out.trendFromRegistry = next(argv, i); break;
       case "--cro-signal": {
         const pair = next(argv, i) ?? "";
         const parts = pair.split("|");
@@ -277,6 +310,23 @@ CREATOR OPS OPTIONS:
   --creator C           One per creator: id|handle|platform|type|followers|engagement(0-1)|fake(0-1)|match(0-1)[|niche|cost]
                          platform: instagram|tiktok|youtube|x|linkedin
                          type: influencer|creator|ugc|ambassador
+
+SOCIAL PLATFORMS OPTIONS:
+  --soc-goal "G"       Campaign goal
+  --soc-icp "I"        The starving crowd (who + why hungry)
+  --soc-awareness S    unaware|problem-aware|solution-aware|product-aware|most-aware
+  --soc-topic "T"      The content subject / idea to distribute natively
+  --soc-platforms LIST Comma-separated: tiktok,instagram,youtube,linkedin,x,facebook,pinterest (default: all)
+  --soc-signal S       One per observed signal: platform:id=hit|miss|unknown (repeatable)
+  --soc-trends         Emit the full trend-history timeline (origin->adopters->abandoned->successor)
+
+TREND CURVE OPTIONS:
+  --trend-platform P   tiktok|instagram|youtube|linkedin|x|facebook|pinterest
+  --trend-name "N"     Trend name (or use --trend-from-registry)
+  --trend-domain D     format|hook|audio|hashtag|creator-archetype|content-mode
+  --trend-adoption N   Observed cumulative adoption % (0-100) — your intel
+  --trend-velocity N   Observed velocity (% adoption/week) — your intel
+  --trend-from-registry ID  Pull trend + structural stage from the registry (e.g. tt-dance, ig-reels, li-broetry)
 
   -h, --help           Show this help
 `);
@@ -447,6 +497,63 @@ function runCreator(args: ParsedArgs): void {
   console.log(out.markdown);
 }
 
+function runSocial(args: ParsedArgs): void {
+  if (args.socTrends) {
+    const platforms = args.socPlatforms
+      ? args.socPlatforms.split(",").map((p) => p.trim() as SocialPlatform)
+      : undefined;
+    const out = buildTrendHistory(platforms);
+    // eslint-disable-next-line no-console
+    console.log(out.markdown);
+    return;
+  }
+  if (!args.socGoal || !args.socIcp || !args.socAwareness || !args.socTopic) {
+    printHelp();
+    process.exit(1);
+  }
+  const platforms = args.socPlatforms
+    ? args.socPlatforms.split(",").map((p) => p.trim() as SocialPlatform)
+    : undefined;
+  const signals: NonNullable<SocialInput["signals"]> = {};
+  for (const pair of args.socSignals) {
+    const [plat, rest] = pair.split(":");
+    if (!plat || !rest) throw new Error(`Invalid --soc-signal "${pair}". Expected platform:id=hit|miss|unknown`);
+    const [id, st] = rest.split("=");
+    if (!id || !st || !["hit", "miss", "unknown"].includes(st))
+      throw new Error(`Invalid --soc-signal "${pair}". Expected platform:id=hit|miss|unknown`);
+    const p = plat as SocialPlatform;
+    signals[p] = { ...(signals[p] ?? {}), [id]: st as "hit" | "miss" | "unknown" };
+  }
+  const input: SocialInput = {
+    goal: args.socGoal,
+    icp: args.socIcp,
+    awareness: args.socAwareness,
+    topic: args.socTopic,
+    platforms,
+    signals: Object.keys(signals).length ? signals : undefined,
+  };
+  const out = buildSocial(input);
+  // eslint-disable-next-line no-console
+  console.log(out.markdown);
+}
+
+function runTrend(args: ParsedArgs): void {
+  if (!args.trendPlatform) {
+    printHelp();
+    process.exit(1);
+  }
+  const out = buildTrendCurve({
+    platform: args.trendPlatform,
+    trend: args.trendName,
+    domain: args.trendDomain as TrendDomain | undefined,
+    adoptionPct: args.trendAdoption,
+    velocity: args.trendVelocity,
+    fromRegistryId: args.trendFromRegistry,
+  });
+  // eslint-disable-next-line no-console
+  console.log(out.markdown);
+}
+
 function main(): void {
   const args = parseArgs(process.argv.slice(2));
   const command = args.command ?? "diagnostic";
@@ -456,6 +563,8 @@ function main(): void {
   else if (command === "seo") { void runSEO(args); }
   else if (command === "ad") runAd(args);
   else if (command === "creator") runCreator(args);
+  else if (command === "social") runSocial(args);
+  else if (command === "trend") runTrend(args);
   else if (command === "seo") runSEO(args);
   else if (command === "diagnostic") runDiagnostic(args);
   else { printHelp(); process.exit(1); }
