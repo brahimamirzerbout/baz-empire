@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr" class="dark">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0" />
+    <title>ÆTHER — L'invisible qui rend visible | Agence Marketing Digital Algérie</title>
+    <meta name="description" content="ÆTHER — Agence marketing digital en Algérie. Technologie américaine, intelligence compétitive sur 27 concurrents, QR landing pages. À partir de 0 DA." />
+    <meta name="theme-color" content="#0a0a0f" />
+    <meta property="og:title" content="ÆTHER — L'invisible qui rend visible" />
+    <meta property="og:description" content="Agence marketing digital Algérie. 27 concurrents analysés. Prix affichés. Gratuit pour commencer." />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://aether.digital" />
+    <link rel="canonical" href="https://aether.digital/" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Noto+Sans+Arabic:wght@400;500;600;700;800&family=Space+Grotesk:wght@700;800&family=JetBrains+Mono:wght@500;600&display=swap" rel="stylesheet" />
+    <script type="application/ld+json">
+    {"@context":"https://schema.org","@type":"ProfessionalService","name":"ÆTHER","description":"Agence marketing digital Algérie. Tech US, intelligence, QR landing pages. 0 DA pour commencer.","url":"https://aether.digital","address":{"@type":"PostalAddress","addressLocality":"Alger","addressCountry":"DZ"},"priceRange":"0 DA - 50 000 DA/mois"}
+    </script>
+    <style>
+    /* ═══════════════════════════════════════════════════════════════
+       ÆTHER — Monochrome Design System
+       Fibonacci × Da Vinci × Golden Ratio
+       Every value: F(n) spacing, φ typography, golden-ratio easing
+       ═══════════════════════════════════════════════════════════════ */
+
+    /* ─── Grayscale ramp (CIE Lab L* → sRGB) ─── */
+    :root {
+        --g0:#000000;--g5:#0d0d0d;--g10:#1a1a1a;--g15:#262626;--g20:#333333;
+        --g25:#404040;--g30:#4d4d4d;--g35:#5a5a5a;--g40:#666666;--g45:#737373;
+        --g50:#808080;--g55:#8c8c8c;--g60:#999999;--g65:#a6a6a6;--g70:#b3b3b3;
+        --g75:#bfbfbf;--g80:#cccccc;--g85:#d9d9d9;--g90:#e6e6e6;--g95:#f2f2f2;--g100:#ffffff;
+        /* Surfaces */
+        --a-bg:#070707;--a-surface:#0c0c0c;--a-card:#101010;--a-raised:#161616;
+        /* Text — L*97: CR=19.2:1 on bg (AAA) */
+        --a-fg:#f5f5f5;--a-muted:#8a8a8a;--a-faint:#4a4a4a;
+        /* Borders & lines */
+        --a-border:#1c1c1c;--a-line:#2e2e2e;
+        /* Glow & shadows (Fibonacci) */
+        --a-glow:rgba(255,255,255,0.06);
+        --a-shadow-1:0 1px 2px rgba(0,0,0,0.4);
+        --a-shadow-2:0 3px 5px rgba(0,0,0,0.377);
+        --a-shadow-3:0 5px 13px rgba(0,0,0,0.377);
+        --a-shadow-4:0 8px 21px rgba(0,0,0,0.377);
+        --a-shadow-5:0 13px 34px rgba(0,0,0,0.377);
+        --a-shadow-6:0 21px 55px rgba(0,0,0,0.377);
+        --a-shadow-glow:0 0 0 1px rgba(255,255,255,var(--op-hint)),0 8px 34px rgba(0,0,0,0.610),inset 0 1px 0 rgba(255,255,255,0.008);
+        /* Glass materials */
+        --a-card-glass:rgba(16,16,16,0.6);
+        --a-glass-bg:rgba(20,20,22,0.92);--a-glass-blur:21px;--a-glass-saturate:1.0618;
+        --a-glass-border:rgba(255,255,255,0.055);--a-glass-shadow:0 8px 34px rgba(0,0,0,0.610),inset 0 1px 0 rgba(255,255,255,0.008);
+        /* Gold accent (royal mode) */
+        --gold-hi:#F7E3A8;--gold-mid:#C29B5B;--gold-lo:#8C6A30;
+        --gold-gradient:linear-gradient(180deg,#F7E3A8 0%,#C29B5B 55%,#8C6A30 100%);
+        /* Fibonacci spacing */
+        --f1:1px;--f2:2px;--f3:3px;--f5:5px;--f8:8px;--f13:13px;--f21:21px;--f34:34px;--f55:55px;--f89:89px;
+        /* Fibonacci typography */
+        --text-micro:8px;--text-tiny:10px;--text-xs:13px;--text-sm:16px;--text-base:21px;
+        --text-lg:34px;--text-xl:55px;--text-xxl:89px;--text-display:144px;
+        /* Fibonacci radius */
+        --r-sm:3px;--r-base:5px;--r-md:8px;--r-lg:13px;--r-xl:21px;--r-2xl:34px;--r-full:55px;--r-pill:89px;
+        /* Golden ratio easing */
+        --ease-natural:cubic-bezier(0.618,0,0.618,1);
+        --ease-glide:cubic-bezier(0.236,0.618,0.236,1);
+        --ease-snap:cubic-bezier(0.382,0,0.236,1);
+        --ease-expo:cubic-bezier(0.16,1,0.3,1);
+        /* Fibonacci durations */
+        --dur-instant:89ms;--dur-swift:144ms;--dur-fast:233ms;--dur-normal:377ms;--dur-smooth:610ms;--dur-deliberate:987ms;
+        /* Fibonacci line-heights (font-size × φ) */
+        --lh-micro:1.625;--lh-tiny:1.6;--lh-xs:1.615;--lh-sm:1.625;--lh-base:1.619;--lh-lg:1.618;--lh-xl:1.618;
+        /* Fibonacci opacity F(n)/1000 */
+        --op-ghost:0.001;--op-wisp:0.002;--op-trace:0.003;--op-hint:0.005;--op-veil:0.008;--op-mist:0.013;--op-haze:0.021;--op-gaze:0.034;--op-glass:0.055;--op-frost:0.089;--op-cloud:0.144;--op-shade:0.233;--op-deep:0.377;--op-solid:0.610;--op-opaque:0.987;
+        /* Fibonacci blur */
+        --blur-xs:3px;--blur-sm:5px;--blur-base:8px;--blur-md:13px;--blur-lg:21px;--blur-xl:34px;--blur-2xl:55px;
+        /* Fonts */
+        --font-sans:'Inter',-apple-system,system-ui,sans-serif;
+        --font-display:'Space Grotesk','Inter',sans-serif;
+        --font-mono:'JetBrains Mono','Fira Code',monospace;
+        --font-ar:'Noto Sans Arabic','Inter',sans-serif;
+    }
+
+    *,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+    html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+    body{font-family:var(--font-sans);background:var(--a-bg);color:var(--a-fg);line-height:var(--lh-base);overflow-x:hidden;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}
+    [dir="rtl"] body{font-family:var(--font-ar)}
+    a{color:inherit;text-decoration:none;transition:color var(--dur-fast) var(--ease-expo)}
+    a:hover{color:var(--gold-mid)}
+
+    /* ─── NOISE GRAIN OVERLAY ─── */
+    body::before{content:'';position:fixed;inset:0;pointer-events:none;z-index:9999;
+        background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+        opacity:var(--op-veil);mix-blend-mode:overlay}
+
+    /* ─── SILK BACKGROUND ─── */
+    .silk-bg{position:fixed;inset:0;z-index:-1;pointer-events:none;overflow:hidden;background:var(--a-bg)}
+    .silk-layer{position:absolute;inset:-30%;will-change:transform}
+    .silk-layer-1{background:radial-gradient(ellipse 50% 70% at 25% 30%,rgba(255,255,255,.08),transparent 50%),radial-gradient(ellipse 60% 50% at 75% 70%,rgba(255,255,255,.06),transparent 50%),radial-gradient(ellipse 40% 60% at 50% 50%,rgba(255,255,255,.04),transparent 60%);animation:silkFlow1 28s ease-in-out infinite alternate}
+    .silk-layer-2{background:radial-gradient(ellipse 55% 65% at 65% 20%,rgba(255,255,255,.07),transparent 50%),radial-gradient(ellipse 70% 40% at 30% 80%,rgba(255,255,255,.05),transparent 50%),radial-gradient(ellipse 45% 55% at 10% 50%,rgba(255,255,255,.04),transparent 55%);animation:silkFlow2 36s ease-in-out infinite alternate}
+    .silk-layer-3{background:conic-gradient(from 0deg at 50% 50%,transparent 0deg,rgba(255,255,255,.025) 60deg,transparent 120deg,rgba(255,255,255,.02) 240deg,transparent 360deg);animation:silkRotate 80s linear infinite}
+    .silk-layer-4{background:radial-gradient(ellipse 30% 90% at 80% 10%,rgba(255,255,255,.04),transparent 40%),radial-gradient(ellipse 90% 30% at 20% 90%,rgba(255,255,255,.03),transparent 40%);animation:silkFlow3 22s ease-in-out infinite alternate}
+    .silk-sheen{position:absolute;inset:0;background:linear-gradient(125deg,transparent 30%,rgba(255,255,255,.025) 48%,rgba(255,255,255,.015) 52%,transparent 70%);animation:silkSheen 18s ease-in-out infinite}
+    .silk-weave{position:absolute;inset:0;opacity:.03}
+    @keyframes silkFlow1{0%{transform:translate(0,0) scale(1) rotate(0deg)}50%{transform:translate(-3%,2%) scale(1.06) rotate(1.5deg)}100%{transform:translate(2%,-3%) scale(.97) rotate(-1deg)}}
+    @keyframes silkFlow2{0%{transform:translate(0,0) scale(1.1) rotate(0deg)}50%{transform:translate(3%,-2%) scale(1) rotate(-1.5deg)}100%{transform:translate(-2%,3%) scale(1.05) rotate(1deg)}}
+    @keyframes silkRotate{to{transform:rotate(360deg)}}
+    @keyframes silkFlow3{0%{transform:translate(0,0) scale(1) rotate(0deg)}50%{transform:translate(4%,-4%) scale(1.08) rotate(2deg)}100%{transform:translate(-4%,4%) scale(.95) rotate(-2deg)}}
+    @keyframes silkSheen{0%,100%{transform:translateX(-25%) skewX(-2deg);opacity:var(--op-deep)}50%{transform:translateX(25%) skewX(2deg);opacity:1}}
+
+    /* ─── SCROLL PROGRESS ─── */
+    .scroll-progress{position:fixed;top:0;left:0;height:var(--f2);background:var(--a-fg);z-index:10000;width:0;transition:width var(--dur-instant)}
+
+    /* ─── CUSTOM CURSOR ─── */
+    .cursor-dot{position:fixed;width:6px;height:6px;background:var(--a-fg);border-radius:50%;pointer-events:none;z-index:99999;transform:translate(-50%,-50%);transition:width var(--dur-fast),height var(--dur-fast),background var(--dur-fast);mix-blend-mode:difference}
+    .cursor-ring{position:fixed;width:36px;height:36px;border:1px solid var(--a-fg);border-radius:50%;pointer-events:none;z-index:99998;transform:translate(-50%,-50%);transition:width var(--dur-normal) var(--ease-expo),height var(--dur-normal) var(--ease-expo),border-color var(--dur-normal),opacity var(--dur-normal);opacity:var(--op-deep)}
+    .cursor-dot.hovering{width:4px;height:4px}.cursor-ring.hovering{width:56px;height:56px;opacity:var(--op-solid)}
+    .cursor-ring.clicking{width:24px;height:24px;opacity:1}
+    @media(hover:none){.cursor-dot,.cursor-ring{display:none}}
+
+    /* ─── GLASS MATERIALS ─── */
+    .glass{background:var(--a-card-glass);backdrop-filter:blur(13px) saturate(1);-webkit-backdrop-filter:blur(13px) saturate(1);border:1px solid var(--a-border)}
+    .glass-opaque{background:var(--a-glass-bg);backdrop-filter:blur(var(--a-glass-blur)) saturate(var(--a-glass-saturate));-webkit-backdrop-filter:blur(var(--a-glass-blur)) saturate(var(--a-glass-saturate));border:1px solid var(--a-glass-border);box-shadow:var(--a-glass-shadow)}
+    .glass-smoked{background:rgba(18,18,20,.94);backdrop-filter:blur(34px) saturate(1.0618);-webkit-backdrop-filter:blur(34px) saturate(1.0618);border:1px solid rgba(255,255,255,0.089);box-shadow:0 13px 34px rgba(0,0,0,0.610),inset 0 1px 0 rgba(255,255,255,0.008)}
+
+    /* ─── UTILITY ─── */
+    .section-base{max-width:100%;margin-inline:auto;padding:var(--f55) var(--f13);min-height:calc(100vh - 4rem);display:flex;flex-direction:column;justify-content:center}
+    @media(min-width:768px){.section-base{padding:var(--f34) var(--f21)}}
+    @media(min-width:1024px){.section-base{max-width:987px;padding:var(--f55) var(--f34)}}
+    @media(min-width:1440px){.section-base{max-width:987px;padding:var(--f89) var(--f34)}}
+
+    .text-center{text-align:center}
+    .section-label{font-family:var(--font-mono);font-size:var(--text-tiny);font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--a-muted);margin-bottom:var(--f13)}
+    .display-xl{font-size:clamp(3.5rem,10vw,9rem);font-weight:900;line-height:.9;letter-spacing:-.06em}
+    .display-lg{font-size:clamp(2.5rem,6vw,5rem);font-weight:900;line-height:.95;letter-spacing:-.05em}
+    .display-md{font-size:clamp(2rem,4vw,3rem);font-weight:800;line-height:1;letter-spacing:-.04em}
+    .shimmer-text{background:linear-gradient(90deg,var(--a-fg),var(--a-faint) 50%,var(--a-fg));background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;animation:shimmer 6s linear infinite}
+    @keyframes shimmer{0%{background-position:200% center}100%{background-position:-200% center}}
+    .divider-gradient{height:1px;background:linear-gradient(90deg,transparent,var(--a-line) 20%,var(--a-line) 80%,transparent)}
+    .link-underline{position:relative}.link-underline::after{content:'';position:absolute;left:0;bottom:calc(var(--f2) * -1);width:0;height:var(--f1);background:var(--a-fg);transition:width var(--dur-fast) var(--ease-expo)}.link-underline:hover::after{width:100%}
+    .noise-card{position:relative}.noise-card::after{content:'';position:absolute;inset:0;border-radius:inherit;background-image:url("data:image/svg+xml,%3Csvg viewBox='0 0 100 100' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.5' numOctaves='2'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");opacity:.02;pointer-events:none;mix-blend-mode:overlay}
+
+    /* ─── ANIMATIONS ─── */
+    @keyframes fadeUp{from{opacity:0;transform:translateY(var(--f21))}to{opacity:1;transform:translateY(0)}}
+    @keyframes pulseDot{0%,100%{transform:scale(1);opacity:1}50%{transform:scale(1.8);opacity:0}}
+    @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(calc(var(--f8) * -1))}}
+    @keyframes marquee{from{transform:translateX(0)}to{transform:translateX(-50%)}}
+    @keyframes scanLine{0%{transform:translateY(-100%)}100%{transform:translateY(300%)}}
+    @keyframes barReveal{from{transform:scaleY(0)}to{transform:scaleY(1)}}
+    @keyframes glowPulse{0%,100%{opacity:.3}50%{opacity:.7}}
+    @keyframes toastIn{from{transform:translateX(120%);opacity:0}to{transform:translateX(0);opacity:1}}
+    @keyframes toastOut{to{transform:translateX(120%);opacity:0}}
+
+    .reveal{opacity:0}.reveal.in{animation:fadeUp var(--dur-smooth) var(--ease-expo) forwards;animation-delay:calc(var(--stagger,0) * var(--dur-swift))}
+    .float-anim{animation:float 6s ease-in-out infinite}
+    .marquee-track{animation:marquee 30s linear infinite}
+    .bar-reveal{transform-origin:bottom;animation:barReveal var(--dur-smooth) var(--ease-expo) forwards}
+    .spin-slow{animation:spinSlow 20s linear infinite}
+    @keyframes spinSlow{to{transform:rotate(360deg)}}
+
+    /* ─── BUTTONS ─── */
+    .btn-primary{background:var(--a-fg);color:var(--a-bg);padding:var(--f8) var(--f21);border-radius:var(--r-pill);font-weight:600;font-size:var(--text-sm);border:none;cursor:pointer;transition:all var(--dur-fast) var(--ease-expo);display:inline-flex;align-items:center;gap:var(--f5);font-family:var(--font-sans);letter-spacing:-.01em}
+    .btn-primary:hover{filter:brightness(.94);box-shadow:var(--a-shadow-3);transform:translateY(-1px)}
+    .btn-primary:active{transform:scale(0.982)}
+    .btn-secondary{background:transparent;color:var(--a-fg);padding:var(--f8) var(--f21);border-radius:var(--r-pill);font-weight:600;font-size:var(--text-sm);border:1px solid var(--a-line);cursor:pointer;transition:all var(--dur-fast) var(--ease-expo);display:inline-flex;align-items:center;gap:var(--f5);font-family:var(--font-sans)}
+    .btn-secondary:hover{background:rgba(255,255,255,var(--op-glass));border-color:var(--a-muted);transform:translateY(-1px)}
+
+    /* ─── BADGES ─── */
+    .badge-mono{display:inline-flex;align-items:center;gap:var(--f3);font-family:var(--font-mono);font-size:var(--text-micro);font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--a-muted);border:1px solid var(--a-line);padding:var(--f3) var(--f8);border-radius:var(--r-pill)}
+    .badge-gold{display:inline-flex;align-items:center;gap:var(--f3);font-family:var(--font-mono);font-size:var(--text-micro);font-weight:600;letter-spacing:.15em;text-transform:uppercase;color:var(--gold-mid);border:1px solid rgba(194,155,91,.3);padding:var(--f3) var(--f8);border-radius:var(--r-pill);background:rgba(194,155,91,.06)}
+    .badge-live{display:inline-flex;align-items:center;gap:var(--f5);font-size:var(--text-xs);color:var(--a-fg)}.badge-live .dot{width:var(--f5);height:var(--f5);background:var(--a-fg);border-radius:50%;animation:pulseDot 2s ease-out infinite}
+
+    /* ─── NAV ─── */
+    .nav{position:fixed;top:0;left:0;right:0;z-index:1000;background:rgba(7,7,7,.85);backdrop-filter:blur(21px) saturate(1.0618);-webkit-backdrop-filter:blur(21px) saturate(1.0618);border-bottom:1px solid var(--a-border);transition:background var(--dur-fast) var(--ease-expo)}
+    .nav-inner{display:flex;align-items:center;justify-content:space-between;padding:var(--f5) 0}
+    .nav-logo{font-family:var(--font-display);font-size:var(--text-lg);font-weight:800;letter-spacing:-.05em;color:var(--a-fg)}
+    .nav-links{display:flex;gap:var(--f21);align-items:center}
+    .nav-links a{color:var(--a-muted);font-size:var(--text-xs);font-weight:500;font-family:var(--font-sans);position:relative}
+    .nav-links a:hover{color:var(--a-fg)}
+    .nav-links a::after{content:'';position:absolute;bottom:-var(--f3);left:0;width:0;height:1px;background:var(--a-fg);transition:width var(--dur-fast) var(--ease-expo)}
+    .nav-links a:hover::after{width:100%}
+    .mobile-menu-btn{display:none;background:none;border:none;color:var(--a-fg);font-size:var(--text-lg);cursor:pointer}
+
+    /* ─── HERO ─── */
+    .hero{min-height:100vh;display:flex;align-items:center;position:relative;padding-top:var(--f89)}
+    .hero-grid{display:grid;grid-template-columns:1fr 1fr;gap:var(--f55);align-items:center}
+    .hero-content{animation:fadeUp var(--dur-smooth) var(--ease-expo) forwards;animation-delay:calc(var(--stagger,0) * var(--dur-swift))}
+    .hero h1{font-family:var(--font-display);font-size:clamp(3.5rem,8vw,6rem);font-weight:900;line-height:.95;letter-spacing:-.06em;margin-bottom:var(--f21)}
+    .hero p{font-size:var(--text-base);color:var(--a-muted);margin-bottom:var(--f34);max-width:34em}
+    .hero-buttons{display:flex;gap:var(--f8);flex-wrap:wrap}
+
+    /* QR mockup */
+    .qr-mockup{width:min(377px,100%);background:var(--a-card);border:1px solid var(--a-border);border-radius:var(--r-lg);padding:var(--f21);position:relative;overflow:hidden}
+    .qr-mockup::before{content:'';position:absolute;top:0;left:0;right:0;height:var(--f3);background:var(--gold-gradient)}
+    .qr-mockup .mock-header{display:flex;align-items:center;gap:var(--f8);margin-bottom:var(--f21)}
+    .qr-mockup .mock-logo{width:var(--f34);height:var(--f34);background:var(--a-fg);border-radius:var(--f5);display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-weight:800;font-size:var(--text-sm);color:var(--a-bg)}
+    .qr-mockup .mock-name{font-weight:700;font-size:var(--text-sm);color:var(--a-fg)}
+    .qr-mockup .mock-subtitle{font-size:var(--text-tiny);color:var(--a-muted)}
+    .qr-mockup .mock-qr{width:144px;height:144px;margin:0 auto var(--f13);background:var(--a-fg);border-radius:var(--r-md);display:flex;align-items:center;justify-content:center;position:relative;overflow:hidden}
+    .qr-mockup .mock-qr-inner{font-size:var(--text-tiny);color:var(--a-bg);text-align:center;line-height:1.3;font-family:var(--font-mono)}
+    .qr-scan-line{position:absolute;left:0;right:0;height:3px;background:linear-gradient(90deg,transparent,var(--gold-mid),transparent);opacity:.8;animation:scanLine 2s linear infinite}
+    .qr-mockup .mock-items{display:flex;flex-direction:column;gap:var(--f5);margin-top:var(--f8)}
+    .qr-mockup .mock-item{display:flex;align-items:center;gap:var(--f5);font-size:var(--text-xs);color:var(--g75)}
+    .qr-mockup .mock-dot{width:var(--f5);height:var(--f5);background:var(--a-fg);border-radius:50%}
+    .qr-mockup .mock-item.gold .mock-dot{background:var(--gold-mid)}
+
+    /* ─── STATS ─── */
+    .stats-bar{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--f21);padding:var(--f34) 0;border-top:1px solid var(--a-border);border-bottom:1px solid var(--a-border)}
+    .stat{text-align:center}
+    .stat-number{font-family:var(--font-display);font-size:var(--text-xl);font-weight:900;color:var(--a-fg)}
+    .stat-label{font-family:var(--font-mono);font-size:var(--text-micro);letter-spacing:.1em;color:var(--a-muted);margin-top:var(--f3)}
+
+    /* ─── MARQUEE ─── */
+    .marquee-section{overflow:hidden;padding:var(--f13) 0;border-top:1px solid var(--a-border);border-bottom:1px solid var(--a-border);background:var(--a-surface)}
+    .marquee-item{font-size:var(--text-xs);color:var(--a-muted);font-weight:500;white-space:nowrap}.marquee-item .sep{color:var(--gold-mid);margin:0 var(--f5)}
+
+    /* ─── CARDS ─── */
+    .card{background:var(--a-card);border:1px solid var(--a-border);border-radius:var(--r-lg);transition:all var(--dur-fast) var(--ease-expo);position:relative;overflow:hidden}
+    .card:hover{border-color:var(--a-line);transform:translateY(calc(var(--f3) * -1));box-shadow:var(--a-shadow-5)}
+    .card.featured{border-color:var(--gold-lo);box-shadow:0 0 var(--f34) rgba(194,155,91,.089)}
+    .card.featured::before{content:'';position:absolute;top:0;left:0;right:0;height:var(--f3);background:var(--gold-gradient)}
+
+    /* ─── SECTIONS ─── */
+    .section{padding:var(--f89) 0}
+    .section-alt{background:var(--a-surface)}
+    .section-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:var(--f21);margin-top:var(--f55)}
+    .section-grid-2{display:grid;grid-template-columns:repeat(2,1fr);gap:var(--f21);margin-top:var(--f34)}
+
+    /* ─── PRICING ─── */
+    .pricing-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--f13);margin-top:var(--f55)}
+    .pricing-card{background:var(--a-card);border:1px solid var(--a-border);border-radius:var(--r-lg);padding:var(--f21);transition:all var(--dur-fast) var(--ease-expo);position:relative}
+    .pricing-card:hover{transform:translateY(-3px)}
+    .pricing-card.popular{border-color:var(--gold-mid);box-shadow:0 0 var(--f34) rgba(194,155,91,.144)}
+    .pricing-popular{position:absolute;top:-var(--f8);left:50%;transform:translateX(-50%);background:var(--gold-gradient);color:var(--a-bg);padding:var(--f3) var(--f8);border-radius:var(--r-pill);font-family:var(--font-mono);font-size:var(--text-micro);font-weight:700;letter-spacing:.1em}
+    .pricing-name{font-size:var(--text-sm);font-weight:700;margin-bottom:var(--f5)}
+    .pricing-amount{font-family:var(--font-display);font-size:var(--text-lg);font-weight:900;color:var(--a-fg)}
+    .pricing-amount .free{color:var(--a-fg)}
+    .pricing-period{font-size:var(--text-tiny);color:var(--a-muted);margin-bottom:var(--f13)}
+    .pricing-features{list-style:none}.pricing-features li{padding:var(--f5) 0;font-size:var(--text-xs);color:var(--g75);border-bottom:1px solid var(--a-border)}.pricing-features li:last-child{border-bottom:none}
+    .pricing-features li.disabled{color:var(--a-faint);text-decoration:line-through;opacity:.5}
+    .pricing-features li::before{content:'✓ ';color:var(--a-fg);font-weight:700}
+    .pricing-features li.disabled::before{content:'✗ ';color:var(--a-faint)}
+    .pricing-btn{display:block;text-align:center;padding:var(--f5);margin-top:var(--f13);border:1px solid var(--a-line);border-radius:var(--r-pill);color:var(--a-fg);font-weight:600;font-size:var(--text-xs);transition:all var(--dur-fast) var(--ease-expo)}
+    .pricing-btn:hover{background:var(--a-fg);color:var(--a-bg);border-color:var(--a-fg)}
+    .pricing-card.popular .pricing-btn{background:var(--a-fg);color:var(--a-bg);border-color:var(--a-fg)}
+
+    /* ─── COMPARISON TABLE ─── */
+    .comparison-table{width:100%;border-collapse:collapse;font-size:var(--text-xs)}
+    .comparison-table th,.comparison-table td{padding:var(--f5) var(--f8);text-align:left;border-bottom:1px solid var(--a-border)}
+    .comparison-table th{background:var(--a-raised);font-family:var(--font-mono);font-size:var(--text-micro);letter-spacing:.1em;text-transform:uppercase;color:var(--a-muted)}
+    .comparison-table td{color:var(--g75)}
+    .comparison-table .we{background:rgba(255,255,255,.03);color:var(--a-fg);font-weight:600}
+    .comparison-table .check{color:var(--a-fg);font-weight:700}.comparison-table .cross{color:var(--a-faint);font-weight:700}
+
+    /* ─── PROCESS STEPS ─── */
+    .process-steps{display:grid;grid-template-columns:repeat(4,1fr);gap:var(--f21);margin-top:var(--f55)}
+    .process-step{text-align:center}
+    .process-number{width:var(--f34);height:var(--f34);margin:0 auto var(--f8);border:1px solid var(--a-line);border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:var(--font-display);font-size:var(--text-sm);font-weight:800;color:var(--a-fg)}
+    .process-step h3{font-size:var(--text-sm);font-weight:700;margin-bottom:var(--f5)}
+    .process-step p{font-size:var(--text-xs);color:var(--a-muted);line-height:1.6}
+
+    /* ─── FAQ ─── */
+    .faq-grid{max-width:var(--f89);margin:var(--f55) auto 0}
+    .faq-item{border:1px solid var(--a-border);border-radius:var(--f5);margin-bottom:var(--f5);overflow:hidden;transition:border-color var(--dur-fast) var(--ease-expo)}
+    .faq-item:hover{border-color:var(--a-line)}
+    .faq-question{display:flex;justify-content:space-between;align-items:center;padding:var(--f8) var(--f13);cursor:pointer;font-weight:600;font-size:var(--text-xs);transition:color var(--dur-fast) var(--ease-expo)}
+    .faq-question:hover{color:var(--a-fg)}
+    .faq-icon{font-size:var(--text-lg);transition:transform var(--dur-fast);color:var(--a-fg)}
+    .faq-item.open .faq-icon{transform:rotate(45deg)}
+    .faq-answer{max-height:0;overflow:hidden;transition:max-height var(--dur-normal) var(--ease-expo)}
+    .faq-answer p{padding:0 var(--f13) var(--f8);color:var(--a-muted);font-size:var(--text-xs);line-height:1.6}
+
+    /* ─── CTA ─── */
+    .cta-section{text-align:center;padding:var(--f55) var(--f34);background:rgba(255,255,255,.02);border:1px solid var(--a-border);border-radius:var(--r-lg)}
+    .cta-section h2{font-family:var(--font-display);font-size:var(--text-xl);font-weight:800;margin-bottom:var(--f8)}
+
+    /* ─── FOOTER ─── */
+    .footer{padding:var(--f55) 0 var(--f34);border-top:1px solid var(--a-border)}
+    .footer-grid{display:grid;grid-template-columns:2fr 1fr 1fr 1fr;gap:var(--f34)}
+    .footer h4{font-size:var(--text-xs);font-weight:700;margin-bottom:var(--f8)}
+    .footer-links{list-style:none}.footer-links li{margin-bottom:var(--f3)}.footer-links a{font-size:var(--text-xs);color:var(--a-muted)}.footer-links a:hover{color:var(--a-fg)}
+    .footer-bottom{margin-top:var(--f34);padding-top:var(--f21);border-top:1px solid var(--a-border);display:flex;justify-content:space-between;align-items:center;font-size:var(--text-micro);color:var(--a-faint)}
+
+    /* ─── WHATSAPP ─── */
+    .whatsapp-float{position:fixed;bottom:var(--f21);right:var(--f21);z-index:999;width:var(--f34);height:var(--f34);background:#25D366;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 var(--f3) var(--f8) rgba(37,211,102,0.377);transition:transform var(--dur-fast) var(--ease-expo);animation:pulseDot 3s infinite}
+    .whatsapp-float:hover{transform:scale(1.0618)}.whatsapp-float svg{width:var(--f21);height:var(--f21);fill:white}
+
+    /* ─── RESPONSIVE ─── */
+    @media(max-width:1024px){.hero-grid{grid-template-columns:1fr;text-align:center}.hero p{margin-left:auto;margin-right:auto}.hero-buttons{justify-content:center}.hero-visual{display:none}.section-grid,.section-grid-2{grid-template-columns:1fr}.pricing-grid{grid-template-columns:repeat(2,1fr)}.process-steps{grid-template-columns:repeat(2,1fr)}.footer-grid{grid-template-columns:repeat(2,1fr)}}
+    @media(max-width:768px){.nav-links{display:none}.mobile-menu-btn{display:block}.nav-links.open{display:flex;flex-direction:column;position:absolute;top:100%;left:0;right:0;background:var(--a-bg);padding:var(--f8);border-bottom:1px solid var(--a-border)}.hero h1{font-size:clamp(2.5rem,8vw,3.5rem)}.stats-bar{grid-template-columns:repeat(2,1fr);gap:var(--f8)}.stat-number{font-size:var(--text-lg)}.pricing-grid{grid-template-columns:1fr}.process-steps{grid-template-columns:1fr}.comparison-table{font-size:var(--text-micro)}.comparison-table th,.comparison-table td{padding:var(--f3) var(--f5)}.footer-grid{grid-template-columns:1fr}.footer-bottom{flex-direction:column;gap:var(--f5);text-align:center}}
+    /* ─── ACCESSIBILITY ─── */
+    .skip-link{position:absolute;top:-100%;left:var(--f8);padding:var(--f5) var(--f13);background:var(--a-fg);color:var(--a-bg);font-family:var(--font-sans);font-size:var(--text-sm);font-weight:600;border-radius:var(--r-md);z-index:10001;text-decoration:none}.skip-link:focus{top:var(--f8)}
+    .sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+    :focus-visible{outline:var(--f3) solid var(--a-fg);outline-offset:var(--f3)}
+    @media(prefers-reduced-motion:reduce){.silk-layer,.silk-sheen,.marquee-track,.cursor-dot,.cursor-ring,.scroll-progress{animation:none!important;transition:none!important}.reveal{opacity:1!important;animation:none!important}}
+    @media(prefers-contrast:more){:root{--a-border:#555555;--a-line:#777777;--a-muted:#bbbbbb}:focus-visible{outline-width:var(--f5)}}
+    /* ─── GOLDEN TRIANGLE WATERMARK ─── */
+    .golden-triangle{position:absolute;inset:0;pointer-events:none;z-index:0;opacity:var(--op-haze)}
+    .golden-triangle svg{position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);width:80%;height:auto}
+    /* ─── GRID BACKGROUND ─── */
+    .grid-bg{position:relative}.grid-bg::before{content:'';position:absolute;inset:0;background-image:radial-gradient(circle,var(--a-border) var(--f1),transparent var(--f1));background-size:var(--f21) var(--f21);mask-image:radial-gradient(ellipse 60% 50% at 50% 0%,black 30%,transparent 70%);-webkit-mask-image:radial-gradient(ellipse 60% 50% at 50% 0%,black 30%,transparent 70%);pointer-events:none;opacity:0.6;z-index:0}.grid-bg>*{position:relative;z-index:1}
+    /* ─── SHIMMER BUTTON ─── */
+    .shimmer-btn{position:relative;overflow:hidden;z-index:0}
+    .shimmer-btn::after{content:'';position:absolute;inset:0;background:linear-gradient(105deg,transparent 20%,rgba(255,255,255,0.12) 35%,rgba(255,255,255,0.18) 40%,rgba(255,255,255,0.12) 45%,transparent 60%);transform:translateX(-100%);animation:shimmer-sweep 3s ease-in-out infinite;pointer-events:none;z-index:1}
+    @keyframes shimmer-sweep{0%,20%{transform:translateX(-100%)}80%,100%{transform:translateX(100%)}}
+    /* ─── BEAM BORDER (featured card) ─── */
+    .beam-border{position:relative;border-radius:var(--r-lg);overflow:hidden}
+    .beam-border::before{content:'';position:absolute;inset:0;border-radius:inherit;padding:var(--f1);background:conic-gradient(from var(--beam-angle,0deg),transparent 0%,var(--gold-mid) 10%,var(--gold-hi) 20%,transparent 30%,transparent 100%);-webkit-mask:linear-gradient(#fff 0 0) content-box,linear-gradient(#fff 0 0);-webkit-mask-composite:xor;mask-composite:exclude;animation:beam-rotate 4s linear infinite;z-index:0}
+    @keyframes beam-rotate{to{--beam-angle:360deg}}
+    .beam-border>*{position:relative;z-index:1}
+    /* ─── SECTION MARKERS ─── */
+    .section-number{font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);letter-spacing:.1em;margin-bottom:var(--f3)}
+    /* ─── FIBONACCI FOOTER SEQUENCE ─── */
+    .fib-sequence{font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);letter-spacing:.2em;word-spacing:var(--f3)}
+
+    /* ━━━━━━━════════════════════════════════════════════════════════
+       ÆTHER — EFFECTS LAYER
+       Aurora + Particles + Spotlight + Typewriter + Number-Ticker
+       + Stat-Beam + Moving-Border + Royal Mode Toggle
+       Pure CSS + vanilla JS. No dependencies.
+       ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+
+    /* ─── 1. AURORA ─────────────────────────────────────────────────
+       Monochrome aurora: three dark orbs with white/gray gradients.
+       No color — just luminance shifts on the silk. */
+    .aurora{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+    .aurora__orb{position:absolute;border-radius:50%;filter:blur(var(--blur-2xl));opacity:0.08;animation:aurora-float 18s ease-in-out infinite;will-change:transform}
+    .aurora__orb--1{width:50%;height:50%;top:-20%;right:-10%;background:radial-gradient(circle,rgba(255,255,255,0.06) 0%,transparent 70%);animation-duration:20s}
+    .aurora__orb--2{width:40%;height:40%;bottom:-15%;left:-5%;background:radial-gradient(circle,rgba(255,255,255,0.04) 0%,transparent 70%);animation-delay:-7s;animation-duration:24s}
+    .aurora__orb--3{width:30%;height:30%;top:30%;left:40%;background:radial-gradient(circle,rgba(255,255,255,0.03) 0%,transparent 70%);animation-delay:-14s;animation-duration:22s;opacity:0.05}
+    @keyframes aurora-float{0%,100%{transform:translate(0,0) scale(1)}25%{transform:translate(var(--f34),calc(var(--f21) * -1)) scale(1.0618)}50%{transform:translate(calc(var(--f21) * -1),var(--f34)) scale(0.9382)}75%{transform:translate(var(--f34),var(--f8)) scale(1.0618)}}
+
+    /* ─── 2. PARTICLES ────────────────────────────────────────────
+       Monochrome floating dots — barely visible, alive. */
+    .particles{position:absolute;inset:0;overflow:hidden;pointer-events:none;z-index:0}
+    .particles__dot{position:absolute;width:var(--f3);height:var(--f3);border-radius:50%;background:var(--a-fg);opacity:0.03;animation:particle-float var(--dur-deliberate,987ms) ease-in-out infinite}
+    .particles__dot:nth-child(1){left:8%;top:21%;animation-delay:0s;animation-duration:18s}
+    .particles__dot:nth-child(2){left:34%;top:55%;animation-delay:calc(var(--f8) * -1);animation-duration:22s}
+    .particles__dot:nth-child(3){left:55%;top:34%;animation-delay:calc(var(--f13) * -1);animation-duration:var(--dur-smooth,610ms);animation-duration:16s}
+    .particles__dot:nth-child(4){left:89%;top:13%;animation-delay:calc(var(--f21) * -1);animation-duration:24s}
+    .particles__dot:nth-child(5){left:21%;top:79%;animation-delay:calc(var(--f5) * -1);animation-duration:19s}
+    @keyframes particle-float{0%,100%{transform:translate(0,0) scale(1);opacity:0.021}50%{transform:translate(var(--f21),calc(var(--f34) * -1)) scale(1.618);opacity:0.055}}
+
+    /* ─── 3. SPOTLIGHT ────────────────────────────────────────────
+       Mouse-following glow on hero. Monochrome. */
+    .spotlight{position:relative;overflow:hidden}
+    .spotlight__glow{position:absolute;width:40rem;height:40rem;border-radius:50%;background:radial-gradient(circle,rgba(255,255,255,var(--op-glass)) 0%,transparent 60%);opacity:0.5;pointer-events:none;transform:translate(-50%,-50%);transition:opacity var(--dur-normal) var(--ease-out);z-index:0;mix-blend-mode:soft-light}
+    .spotlight:hover .spotlight__glow{opacity:0.7}
+
+    /* ─── 4. TYPEWRITER ──────────────────────────────────────────
+       Cursor blink + character reveal for hero headline. */
+    .typewriter{overflow:hidden;border-right:var(--f1) solid var(--a-fg);white-space:nowrap;display:inline-block;max-width:100%}
+    .typewriter-blink{animation:typewriter-blink calc(var(--dur-normal) * 2) step-end infinite}
+    @keyframes typewriter-blink{from,to{border-color:transparent}50%{border-color:var(--a-fg)}}
+
+    /* ─── 5. NUMBER-TICKER ──────────────────────────────────────
+       Fibonacci-timed count-up: 987ms duration, ease-out cubic. */
+    .number-ticker{display:inline-flex;align-items:baseline;overflow:hidden;line-height:1}
+    .number-ticker__digit{display:inline-block;transition:transform var(--dur-smooth) var(--ease-expo)}
+    .number-ticker__digit--animate{animation:ticker-slide var(--dur-smooth) var(--ease-expo) forwards}
+    @keyframes ticker-slide{0%{transform:translateY(100%);opacity:0}100%{transform:translateY(0);opacity:1}}
+
+    /* ─── 6. STAT-BEAM ──────────────────────────────────────────
+       Stat card with animated border beam. Monochrome version. */
+    .stat-beam{position:relative;background:var(--a-card);border:1px solid var(--a-border);border-radius:var(--r-lg);padding:var(--f21);text-align:center;overflow:hidden;transition:box-shadow var(--dur-fast) var(--ease-expo),border-color var(--dur-fast) var(--ease-expo)}
+    .stat-beam:hover{box-shadow:var(--a-shadow-5);border-color:var(--a-line)}
+    .stat-beam__number{font-family:var(--font-display);font-size:var(--text-xl);font-weight:900;color:var(--a-fg);line-height:1}
+    .stat-beam__label{font-family:var(--font-mono);font-size:var(--text-micro);letter-spacing:0.1em;color:var(--a-muted);margin-top:var(--f3)}
+    .stat-beam::before{content:'';position:absolute;top:0;left:0;right:0;height:var(--f3);background:linear-gradient(90deg,transparent,var(--a-fg),transparent);animation:stat-beam-sweep 4s linear infinite;opacity:0.15}
+    @keyframes stat-beam-sweep{0%,20%{transform:translateX(-100%)}80%,100%{transform:translateX(100%)}}
+
+    /* ─── 7. MOVING-BORDER ──────────────────────────────────────
+       Gradient border that shifts position. For featured cards. */
+    .moving-border{position:relative;border-radius:var(--r-lg);padding:var(--f1);background:linear-gradient(var(--moving-border-angle,135deg),var(--a-faint),transparent 40%,transparent 60%,var(--gold-mid),var(--a-faint));background-size:300% 300%;animation:moving-border-shift 8s ease infinite}
+    @keyframes moving-border-shift{0%,100%{background-position:0% 50%}50%{background-position:100% 50%}}
+    .moving-border__inner{background:var(--a-card);border-radius:calc(var(--r-lg) - var(--f1));padding:var(--f21);height:100%}
+
+    /* ─── 8. ROYAL MODE TOGGLE ───────────────────────────────────
+       Shift+Alt+G toggles gold accent throughout the page.
+       Persists to localStorage. The cherry on top. */
+    .royal .card.featured,.royal .pricing-card.popular{border-color:var(--gold-lo);box-shadow:0 0 var(--f34) rgba(194,155,91,var(--op-frost))}
+    .royal .card.featured::before,.royal .pricing-card.popular::before{background:var(--gold-gradient)}
+    .royal .badge-gold{opacity:1}
+    .royal .shimmer-text{background:linear-gradient(90deg,var(--a-fg),var(--gold-mid) 50%,var(--a-fg));background-size:200% auto;-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+    .royal .stat-beam::before{opacity:0.3;background:linear-gradient(90deg,transparent,var(--gold-mid),transparent)}
+    .royal .section-label,.royal .badge-mono{border-color:var(--a-line);color:var(--a-muted)}
+    .royal .nav-logo{color:var(--gold-mid)}
+    .royal .btn-primary{background:var(--gold-mid);color:var(--a-bg)}
+    .royal .btn-secondary:hover{border-color:var(--gold-mid);color:var(--gold-mid)}
+    .royal .link-underline:hover::after{background:var(--gold-mid)}
+    .royal .process-number{border-color:var(--gold-lo);color:var(--gold-mid)}
+    .royal .scroll-progress{background:var(--gold-mid)}
+    .royal .golden-triangle{opacity:0.08!important}
+    .royal .fib-sequence{color:var(--gold-mid)!important}
+
+    @media(prefers-reduced-motion:reduce){
+        .aurora__orb,.particles__dot,.stat-beam::before,.moving-border{animation:none!important}
+        .typewriter-blink{animation:none!important;border-right:none}
+    }
+    </style>
+</head>
+<body>
+    <a href="#main" class="skip-link">Skip to content</a>
+    <!-- SILK BACKGROUND -->
+    <div class="silk-bg" aria-hidden>
+        <div class="silk-layer silk-layer-1"></div>
+        <div class="silk-layer silk-layer-2"></div>
+        <div class="silk-layer silk-layer-3"></div>
+        <div class="silk-layer silk-layer-4"></div>
+        <div class="silk-sheen"></div>
+        <svg class="silk-weave" width="100%" height="100%" preserveAspectRatio="none"><filter id="silkWeave"><feTurbulence type="fractalNoise" baseFrequency="0.006 0.012" numOctaves="2" seed="4"><animate attributeName="baseFrequency" values="0.006 0.012;0.01 0.008;0.006 0.012" dur="30s" repeatCount="indefinite"/></feTurbulence><feColorMatrix values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 1 0"/></filter><rect width="100%" height="100%" filter="url(#silkWeave)"/></svg>
+    </div>
+
+    <!-- SCROLL PROGRESS -->
+    <div class="scroll-progress" id="scrollProgress" aria-hidden></div>
+
+    <!-- CUSTOM CURSOR -->
+    <div class="cursor-ring" id="cursorRing" aria-hidden></div>
+    <div class="cursor-dot" id="cursorDot" aria-hidden></div>
+
+    <!-- NAV -->
+    <nav class="nav glass-opaque" id="nav">
+        <div style="max-width:987px;margin:0 auto;padding:0 var(--f21)">
+            <div class="nav-inner">
+                <a href="#" class="nav-logo">ÆTHER</a>
+                <div class="nav-links" id="navLinks">
+                    <a href="#advantages" class="link-underline" data-fr="Avantages" data-ar="المزايا">Avantages</a>
+                    <a href="#services" class="link-underline" data-fr="Services" data-ar="الخدمات">Services</a>
+                    <a href="#pricing" class="link-underline" data-fr="Tarifs" data-ar="الأسعار">Tarifs</a>
+                    <a href="#compare" class="link-underline" data-fr="Comparaison" data-ar="مقارنة">Comparaison</a>
+                    <a href="#faq" class="link-underline" data-fr="FAQ" data-ar="الأسئلة">FAQ</a>
+                    <button onclick="toggleLang()" class="badge-mono" style="cursor:pointer">عربي</button>
+                    <a href="#contact" class="btn-primary shimmer-btn" data-fr="Commencer gratuitement →" data-ar="ابدأ مجاناً ←">Commencer gratuitement →</a>
+                </div>
+                <button class="mobile-menu-btn" onclick="toggleMenu()">☰</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <main id="main"><section class="hero" id="hero">
+        <div class="aurora" aria-hidden>
+            <div class="aurora__orb aurora__orb--1"></div>
+            <div class="aurora__orb aurora__orb--2"></div>
+            <div class="aurora__orb aurora__orb--3"></div>
+        </div>
+        <div class="particles" aria-hidden>
+            <div class="particles__dot"></div>
+            <div class="particles__dot"></div>
+            <div class="particles__dot"></div>
+            <div class="particles__dot"></div>
+            <div class="particles__dot"></div>
+        </div>
+        <div class="spotlight" id="heroSpotlight">
+            <div class="spotlight__glow" id="spotlightGlow"></div>
+        </div>
+        <div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+            <div class="hero-grid">
+                <div class="hero-content">
+                    <div class="badge-live" style="margin-bottom:var(--f13)"><span class="dot"></span> <span data-fr="27 agences analysées — 0 font ce que nous faisons" data-ar="27 وكالة محللة — لا واحدة تفعل ما نفعل">27 agences analysées — 0 font ce que nous faisons</span></div>
+                    <h1 data-fr="L'invisible qui rend <span class='shimmer-text'>visible</span>" data-ar="الخفي الذي يجعلك <span class='shimmer-text'>مرئياً</span>">L'invisible qui rend <span class="shimmer-text">visible</span></h1>
+                    <p data-fr="ÆTHER — Agence marketing digital. Tech américaine, intelligence compétitive sur 27 concurrents, QR landing pages. À partir de 0 DA. Prix affichés." data-ar="ÆTHER — وكالة تسويق رقمي. تقنية أمريكية، ذكاء تنافسي على 27 منافساً، صفحات QR. ابتداءً من 0 د.ج. أسعار معلنة.">ÆTHER — Agence marketing digital. Tech américaine, intelligence compétitive, QR landing pages. À partir de 0 DA.</p>
+                    <div class="hero-buttons">
+                        <a href="#contact" class="btn-primary shimmer-btn" data-fr="Commencer gratuitement" data-ar="ابدأ مجاناً">Commencer gratuitement</a>
+                        <a href="#pricing" class="btn-secondary" data-fr="Voir les tarifs" data-ar="شاهد الأسعار">Voir les tarifs</a>
+                    </div>
+                </div>
+                <div style="display:flex;justify-content:center;align-items:center" class="reveal">
+                    <div class="qr-mockup noise-card">
+                        <div class="mock-header">
+                            <div class="mock-logo">Æ</div>
+                            <div><div class="mock-name">ÆTHER QR</div><div class="mock-subtitle" data-fr="Menu Restaurant" data-ar="قائمة مطعم">Menu Restaurant</div></div>
+                        </div>
+                        <div class="mock-qr">
+                            <div class="qr-scan-line"></div>
+                            <div class="mock-qr-inner">▓▓▓▓▓▓▓▓<br>▓▓░░▓░▓▓<br>▓▓░░▓░▓▓<br>▓▓▓▓▓▓▓▓<br><span style="font-size:var(--text-micro)">aether.digital</span></div>
+                        </div>
+                        <div class="mock-items">
+                            <div class="mock-item"><span class="mock-dot"></span> <span data-fr="Menu digital bilingue FR/AR" data-ar="قائمة رقمية ثنائية اللغة">Menu digital bilingue FR/AR</span></div>
+                            <div class="mock-item gold"><span class="mock-dot" style="background:var(--gold-mid)"></span> <span data-fr="Mise à jour instantanée" data-ar="تحديث فوري">Mise à jour instantanée</span></div>
+                            <div class="mock-item"><span class="mock-dot"></span> <span>React / TypeScript</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- STATS -->
+            <div class="stats-bar grid-bg">
+                <div class="stat reveal"><div class="stat-number shimmer-text" data-count="27">0</div><div class="stat-label" data-fr="Concurrents analysés" data-ar="منافسين محللين">Concurrents analysés</div></div>
+                <div class="stat reveal"><div class="stat-number shimmer-text" data-count="0">0</div><div class="stat-label" data-fr="Offrent des QR landing pages" data-ar="يقدمون صفحات QR">Offrent des QR landing pages</div></div>
+                <div class="stat reveal"><div class="stat-number shimmer-text" data-count="24">0</div><div class="stat-label" data-fr="Heures pour livrer" data-ar="ساعة للتسليم">Heures pour livrer</div></div>
+                <div class="stat reveal"><div class="stat-number shimmer-text" data-count="0">0</div><div class="stat-label" data-fr="DA pour commencer" data-ar="د.ج للبدء">DA pour commencer</div></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <section class="marquee-section"><div class="marquee-track"><span class="marquee-item">React / TypeScript / Node.js <span class="sep">•</span></span><span class="marquee-item">QR Landing Pages <span class="sep">•</span></span><span class="marquee-item">27 Concurrents Analysés <span class="sep">•</span></span><span class="marquee-item">Prix Affichés <span class="sep">•</span></span><span class="marquee-item">Livraison 24h <span class="sep">•</span></span><span class="marquee-item">Leadership Direct <span class="sep">•</span></span><span class="marquee-item">Gratuit pour Commencer <span class="sep">•</span></span><span class="marquee-item">Bilingue FR/AR <span class="sep">•</span></span><span class="marquee-item">React / TypeScript / Node.js <span class="sep">•</span></span><span class="marquee-item">QR Landing Pages <span class="sep">•</span></span><span class="marquee-item">27 Concurrents Analysés <span class="sep">•</span></span><span class="marquee-item">Prix Affichés <span class="sep">•</span></span><span class="marquee-item">Livraison 24h <span class="sep">•</span></span><span class="marquee-item">Leadership Direct <span class="sep">•</span></span><span class="marquee-item">Gratuit pour Commencer <span class="sep">•</span></span><span class="marquee-item">Bilingue FR/AR <span class="sep">•</span></span></div></section>
+
+    <!-- ADVANTAGES -->
+    <section class="section" id="advantages"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="text-center">
+            <div class="section-number">01</div><div class="badge-gold">⚡ Pourquoi ÆTHER</div>
+            <h2 class="display-md" style="margin-top:var(--f8)" data-fr="L'invisible qui rend <span class='shimmer-text'>visible</span>" data-ar="الخفي الذي يجعلك <span class='shimmer-text'>مرئياً</span>">L'invisible qui rend <span class="shimmer-text">visible</span></h2>
+            <p style="max-width:34em;margin:var(--f8) auto 0;color:var(--a-muted);font-size:var(--text-base)" data-fr="Tech US, intelligence sur 27 concurrents, leadership direct." data-ar="تقنية أمريكية، ذكاء على 27 منافساً، قيادة مباشرة.">Tech US, intelligence sur 27 concurrents, leadership direct.</p>
+        </div>
+        <div class="section-grid">
+            <div class="card noise-card" style="padding:var(--f21)"><div style="font-size:var(--text-lg);margin-bottom:var(--f8)">🇺🇸</div><h3 style="font-size:var(--text-sm);font-weight:700;margin-bottom:var(--f5)" data-fr="Stack Américain" data-ar="تقنية أمريكية">Stack Américain</h3><p style="font-size:var(--text-xs);color:var(--a-muted);line-height:1.6" data-fr="React, TypeScript, Node.js — même stack que Netflix et Stripe." data-ar="React، TypeScript، Node.js — نفس تقنية Netflix وStripe.">React, TypeScript, Node.js — même stack que Netflix et Stripe.</p></div>
+            <div class="card noise-card" style="padding:var(--f21)"><div style="font-size:var(--text-lg);margin-bottom:var(--f8)">🎯</div><h3 style="font-size:var(--text-sm);font-weight:700;margin-bottom:var(--f5)" data-fr="Intelligence Propre" data-ar="ذكاء خاص">Intelligence Propre</h3><p style="font-size:var(--text-xs);color:var(--a-muted);line-height:1.6" data-fr="27 agences analysées. Personne d'autre n'a cette data." data-ar="27 وكالة محللة. لا أحد آخر يملك هذه البيانات.">27 agences analysées. Personne d'autre n'a cette data.</p></div>
+            <div class="card noise-card" style="padding:var(--f21)"><div style="font-size:var(--text-lg);margin-bottom:var(--f8)">👨‍💼</div><h3 style="font-size:var(--text-sm);font-weight:700;margin-bottom:var(--f5)" data-fr="Leadership Direct" data-ar="قيادة مباشرة">Leadership Direct</h3><p style="font-size:var(--text-xs);color:var(--a-muted);line-height:1.6" data-fr="Chaque projet passe par le fondateur. Pas de chaîne." data-ar="كل مشروع يمر عبر المؤسس. لا سلسلة.">Chaque projet passe par le fondateur. Pas de chaîne.</p></div>
+        </div>
+        <div class="section-grid" style="margin-top:var(--f21)">
+            <div class="card noise-card" style="padding:var(--f21)"><div style="font-size:var(--text-lg);margin-bottom:var(--f8)">📱</div><h3 style="font-size:var(--text-sm);font-weight:700;margin-bottom:var(--f5)" data-fr="QR Landing Pages" data-ar="صفحات QR هبوط">QR Landing Pages</h3><p style="font-size:var(--text-xs);color:var(--a-muted);line-height:1.6" data-fr="0/27 concurrents offrent des QR. Notre arme secrète." data-ar="0 من 27 منافس يقدم QR. سلاحنا السري.">0/27 concurrents offrent des QR. Notre arme secrète.</p></div>
+            <div class="card noise-card" style="padding:var(--f21)"><div style="font-size:var(--text-lg);margin-bottom:var(--f8)">💰</div><h3 style="font-size:var(--text-sm);font-weight:700;margin-bottom:var(--f5)" data-fr="Prix Affichés" data-ar="أسعار معلنة">Prix Affichés</h3><p style="font-size:var(--text-xs);color:var(--a-muted);line-height:1.6" data-fr="1 agence sur 27 affiche ses prix. Nous, on les affiche." data-ar="1 من 27 وكالة تعلن أسعارها. نحن نعلنها.">1 agence sur 27 affiche ses prix. Nous, on les affiche.</p></div>
+            <div class="card noise-card" style="padding:var(--f21)"><div style="font-size:var(--text-lg);margin-bottom:var(--f8)">⚡</div><h3 style="font-size:var(--text-sm);font-weight:700;margin-bottom:var(--f5)" data-fr="24 Heures" data-ar="24 ساعة">24 Heures</h3><p style="font-size:var(--text-xs);color:var(--a-muted);line-height:1.6" data-fr="Notre plateforme livre en 24h ce que les autres mettent 2-4 semaines." data-ar="منصتنا تسلم في 24 ساعة ما يستغرق الآخرون 2-4 أسابيع.">Notre plateforme livre en 24h ce que les autres mettent 2-4 semaines.</p></div>
+        </div>
+    </div></section>
+
+    <!-- SERVICES -->
+    <section class="section section-alt" id="services"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="text-center"><div class="section-number">02</div><div class="badge-gold">Nos Services</div><h2 class="display-md" style="margin-top:var(--f8)">Ce que <span class="shimmer-text">ÆTHER</span> fait pour vous</h2></div>
+        <div class="section-grid" style="margin-top:var(--f55)">
+            <div class="card featured noise-card" style="padding:0;overflow:hidden"><div style="padding:var(--f13);border-bottom:1px solid var(--a-border)"><div style="font-size:var(--text-lg);margin-bottom:var(--f3)">📱</div><h3 style="font-size:var(--text-sm);font-weight:700">ÆTHER QR</h3><div style="font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)"><span data-fr="À partir de" data-ar="ابتداءً من">À partir de</span> <span style="color:var(--a-fg);font-weight:800;font-size:var(--text-base)" data-fr="Gratuit" data-ar="مجاني">Gratuit</span></div></div><div style="padding:var(--f13)"><ul class="pricing-features"><li data-fr="Page QR landing personnalisée" data-ar="صفحة QR هبوط مخصصة">Page QR landing personnalisée</li><li data-fr="Menu restaurant digital" data-ar="قائمة مطعم رقمية">Menu restaurant digital</li><li data-fr="Vitrine business" data-ar="واجهة تجارية">Vitrine business</li><li data-fr="Cartes NFC & stickers" data-ar="بطاقات NFC وملصقات">Cartes NFC & stickers</li><li data-fr="Bilingue FR/AR" data-ar="ثنائي اللغة">Bilingue FR/AR</li></ul></div><a href="#contact" class="pricing-btn" style="background:var(--a-fg);color:var(--a-bg);border-color:var(--a-fg)" data-fr="Commencer gratuitement →" data-ar="ابدأ مجاناً ←">Commencer gratuitement →</a></div>
+            <div class="card noise-card" style="padding:0;overflow:hidden"><div style="padding:var(--f13);border-bottom:1px solid var(--a-border)"><div style="font-size:var(--text-lg);margin-bottom:var(--f3)">📲</div><h3 style="font-size:var(--text-sm);font-weight:700">ÆTHER Social</h3><div style="font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)"><span data-fr="À partir de" data-ar="ابتداءً من">À partir de</span> <span style="color:var(--a-fg);font-weight:800">10 000 DA</span><span data-fr="/mois" data-ar="/شهر">/mois</span></div></div><div style="padding:var(--f13)"><ul class="pricing-features"><li data-fr="3 publications/semaine" data-ar="3 منشورات/أسبوع">3 publications/semaine</li><li data-fr="2 plateformes" data-ar="منصتين">2 plateformes</li><li data-fr="Création de contenu" data-ar="إنشاء المحتوى">Création de contenu</li><li data-fr="Rapport mensuel" data-ar="تقرير شهري">Rapport mensuel</li></ul></div><a href="#contact" class="pricing-btn" data-fr="Demander un devis →" data-ar="اطلب عرض سعر ←">Demander un devis →</a></div>
+            <div class="card noise-card" style="padding:0;overflow:hidden"><div style="padding:var(--f13);border-bottom:1px solid var(--a-border)"><div style="font-size:var(--text-lg);margin-bottom:var(--f3)">🔍</div><h3 style="font-size:var(--text-sm);font-weight:700">ÆTHER SEO</h3><div style="font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)"><span data-fr="À partir de" data-ar="ابتداءً من">À partir de</span> <span style="color:var(--a-fg);font-weight:800">10 000 DA</span><span data-fr="/mois" data-ar="/شهر">/mois</span></div></div><div style="padding:var(--f13)"><ul class="pricing-features"><li data-fr="Audit SEO complet" data-ar="تدقيق SEO كامل">Audit SEO complet</li><li data-fr="SEO local Algérie" data-ar="تحسين محرك البحث المحلي">SEO local Algérie</li><li data-fr="Analyse des concurrents" data-ar="تحليل المنافسين">Analyse des concurrents</li><li data-fr="Suivi de positionnement" data-ar="تتبع الترتيب">Suivi de positionnement</li></ul></div><a href="#contact" class="pricing-btn" data-fr="Demander un devis →" data-ar="اطلب عرض سعر ←">Demander un devis →</a></div>
+        </div>
+        <div class="section-grid" style="margin-top:var(--f21)">
+            <div class="card noise-card" style="padding:0;overflow:hidden"><div style="padding:var(--f13);border-bottom:1px solid var(--a-border)"><div style="font-size:var(--text-lg);margin-bottom:var(--f3)">🎨</div><h3 style="font-size:var(--text-sm);font-weight:700">ÆTHER Brand</h3><div style="font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)"><span data-fr="À partir de" data-ar="ابتداءً من">À partir de</span> <span style="color:var(--a-fg);font-weight:800">15 000 DA</span></div></div><div style="padding:var(--f13)"><ul class="pricing-features"><li data-fr="Logo & charte graphique" data-ar="شعار ودليل العلامة">Logo & charte graphique</li><li data-fr="Cartes NFC" data-ar="بطاقات NFC">Cartes NFC</li><li data-fr="Templates sociaux" data-ar="قوالب التواصل">Templates sociaux</li></ul></div><a href="#contact" class="pricing-btn" data-fr="Demander un devis →" data-ar="اطلب عرض سعر ←">Demander un devis →</a></div>
+            <div class="card noise-card" style="padding:0;overflow:hidden"><div style="padding:var(--f13);border-bottom:1px solid var(--a-border)"><div style="font-size:var(--text-lg);margin-bottom:var(--f3)">🌐</div><h3 style="font-size:var(--text-sm);font-weight:700">ÆTHER Web</h3><div style="font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)"><span data-fr="À partir de" data-ar="ابتداءً من">À partir de</span> <span style="color:var(--a-fg);font-weight:800">15 000 DA</span></div></div><div style="padding:var(--f13)"><ul class="pricing-features"><li data-fr="Landing page responsive" data-ar="صفحة هبوط متجاوبة">Landing page responsive</li><li data-fr="Site vitrine 5-10 pages" data-ar="موقع عرض 5-10 صفحات">Site vitrine 5-10 pages</li><li data-fr="React/Next.js" data-ar="React/Next.js">React/Next.js</li></ul></div><a href="#contact" class="pricing-btn" data-fr="Demander un devis →" data-ar="اطلب عرض سعر ←">Demander un devis →</a></div>
+            <div class="card featured noise-card" style="padding:0;overflow:hidden"><div style="padding:var(--f13);border-bottom:1px solid var(--a-border)"><div style="font-size:var(--text-lg);margin-bottom:var(--f3)">🚀</div><h3 style="font-size:var(--text-sm);font-weight:700">ÆTHER Croissance</h3><div style="font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)"><span data-fr="À partir de" data-ar="ابتداءً من">À partir de</span> <span style="color:var(--a-fg);font-weight:800">25 000 DA</span><span data-fr="/mois" data-ar="/شهر">/mois</span></div></div><div style="padding:var(--f13)"><ul class="pricing-features"><li data-fr="✅ Tout ÆTHER QR" data-ar="✅ كل شيء ÆTHER QR">✅ Tout ÆTHER QR</li><li data-fr="✅ 3 plateformes sociales" data-ar="✅ 3 منصات">✅ 3 plateformes sociales</li><li data-fr="✅ SEO local" data-ar="✅ تحسين محرك البحث">✅ SEO local</li><li data-fr="✅ Site web vitrine" data-ar="✅ موقع ويب">✅ Site web vitrine</li><li data-fr="👨‍💼 Piloté par le fondateur" data-ar="👨‍💼 يديره المؤسس">👨‍💼 Piloté par le fondateur</li></ul></div><a href="#contact" class="pricing-btn" style="background:var(--gold-gradient);color:var(--a-bg);border:none" data-fr="🔥 Commencer maintenant" data-ar="🔥 ابدأ الآن">🔥 Commencer maintenant</a></div>
+        </div>
+    </div></section>
+
+    <!-- PRICING -->
+    <section class="section" id="pricing"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="text-center"><div class="section-number">03</div><div class="badge-mono">Tarifs Transparents</div><h2 class="display-md" style="margin-top:var(--f8)">Prix <span class="shimmer-text">affichés</span>. Pas de surprise.</h2><p style="max-width:34em;margin:var(--f8) auto 0;color:var(--a-muted);font-size:var(--text-base)" data-fr="26 agences sur 27 cachent leurs prix. Nous, on les affiche." data-ar="26 من 27 وكالة تخفي أسعارها. نحن نعلنها.">26 agences sur 27 cachent leurs prix. Nous, on les affiche.</p></div>
+        <div class="pricing-grid">
+            <div class="pricing-card"><div class="pricing-name">🆓 ÆTHER Free</div><div class="pricing-amount"><span class="free">0 DA</span></div><div class="pricing-period" data-fr="Pour toujours" data-ar="للأبد">Pour toujours</div><ul class="pricing-features"><li data-fr="1 page QR basique" data-ar="صفحة QR أساسية">1 page QR basique</li><li data-fr="QR code généré automatiquement" data-ar="رمز QR تلقائي">QR code généré automatiquement</li><li data-fr="Hébergement US" data-ar="استضافة أمريكية">Hébergement US</li><li class="disabled" data-fr="Personnalisation" data-ar="تخصيص">Personnalisation</li><li class="disabled" data-fr="Support prioritaire" data-ar="دعم ذو أولوية">Support prioritaire</li></ul><a href="#contact" class="pricing-btn" data-fr="Commencer gratuitement" data-ar="ابدأ مجاناً">Commencer gratuitement</a></div>
+            <div class="pricing-card"><div class="pricing-name">📱 ÆTHER QR</div><div class="pricing-amount">5 000 DA</div><div class="pricing-period" data-fr="one-shot" data-ar="دفعة واحدة">one-shot</div><ul class="pricing-features"><li data-fr="Page QR personnalisée" data-ar="صفحة QR مخصصة">Page QR personnalisée</li><li data-fr="Couleurs & logo" data-ar="ألوان وشعار">Couleurs & logo</li><li data-fr="Menu OU vitrine" data-ar="قائمة أو واجهة">Menu OU vitrine</li><li data-fr="Bilingue FR/AR" data-ar="ثنائي اللغة">Bilingue FR/AR</li><li data-fr="React/TypeScript" data-ar="React/TypeScript">React/TypeScript</li></ul><a href="#contact" class="pricing-btn" data-fr="Choisir" data-ar="اختر">Choisir</a></div>
+            <div class="pricing-card popular"><div class="pricing-popular" data-fr="POPULAIRE" data-ar="الأكثر شعبية">POPULAIRE</div><div class="pricing-name">🚀 Croissance</div><div class="pricing-amount">25 000 DA<span data-fr="/mois" data-ar="/شهر">/mois</span></div><div class="pricing-period" data-fr="QR + Social + SEO" data-ar="QR + تواصل + تحسين">QR + Social + SEO</div><ul class="pricing-features"><li data-fr="✅ Tout ÆTHER QR" data-ar="✅ كل شيء ÆTHER QR">✅ Tout ÆTHER QR</li><li data-fr="✅ 3 plateformes" data-ar="✅ 3 منصات">✅ 3 plateformes</li><li data-fr="✅ 12 publications/mois" data-ar="✅ 12 منشور/شهر">✅ 12 publications/mois</li><li data-fr="✅ SEO local" data-ar="✅ تحسين محلي">✅ SEO local</li><li data-fr="👨‍💼 Piloté par le fondateur" data-ar="👨‍💼 يديره المؤسس">👨‍💼 Piloté par le fondateur</li></ul><a href="#contact" class="pricing-btn" data-fr="🔥 Commencer" data-ar="🔥 ابدأ">🔥 Commencer</a></div>
+            <div class="pricing-card"><div class="pricing-name">💎 Premium</div><div class="pricing-amount">50 000 DA<span data-fr="/mois" data-ar="/شهر">/mois</span></div><div class="pricing-period" data-fr="Marketing complet" data-ar="تسويق كامل">Marketing complet</div><ul class="pricing-features"><li data-fr="✅ Tout Croissance" data-ar="✅ كل شيء Croissance">✅ Tout Croissance</li><li data-fr="✅ Site web vitrine" data-ar="✅ موقع ويب">✅ Site web vitrine</li><li data-fr="✅ 5 plateformes" data-ar="✅ 5 منصات">✅ 5 plateformes</li><li data-fr="✅ Branding complet" data-ar="✅ علامة تجارية كاملة">✅ Branding complet</li><li data-fr="✅ Intelligence concurrentielle" data-ar="✅ ذكاء تنافسي">✅ Intelligence concurrentielle</li></ul><a href="#contact" class="pricing-btn" data-fr="Contacter" data-ar="اتصل">Contacter</a></div>
+        </div>
+    </div></section>
+
+    <!-- COMPARISON -->
+    <section class="section section-alt" id="compare"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="text-center"><div class="section-number">04</div><div class="badge-mono">Comparaison</div><h2 class="display-md" style="margin-top:var(--f8)">ÆTHER vs. <span class="shimmer-text">Les Autres</span></h2></div>
+        <div style="overflow-x:auto;margin-top:var(--f55)">
+            <table class="comparison-table"><thead><tr><th>Avantage</th><th class="we">✅ ÆTHER</th><th>HiveDigit</th><th>FAN</th><th>ATAKOR</th><th>KYO</th></tr></thead>
+            <tbody>
+                <tr><td>🇺🇸 Tech américaine</td><td class="we"><span class="check">✓</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td></tr>
+                <tr><td>📱 Pages QR landing</td><td class="we"><span class="check">✓</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td></tr>
+                <tr><td>🎯 Intelligence concurrentielle</td><td class="we"><span class="check">✓</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td></tr>
+                <tr><td>👨‍💼 Leadership direct</td><td class="we"><span class="check">✓</span></td><td>23 personnes</td><td>15 personnes</td><td>8 personnes</td><td>58 personnes</td></tr>
+                <tr><td>💰 Prix affichés</td><td class="we"><span class="check">✓</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td></tr>
+                <tr><td>Essai gratuit</td><td class="we"><span class="check">✓</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td><td><span class="cross">✗</span></td></tr>
+                <tr><td>Livraison 24h</td><td class="we"><span class="check">✓</span></td><td>2-4 sem.</td><td>2-4 sem.</td><td>1-2 sem.</td><td>2-4 sem.</td></tr>
+                <tr><td>À partir de</td><td class="we" style="color:var(--a-fg);font-weight:700">Gratuit</td><td>25K DA/mo</td><td>15K DA/mo</td><td>50K DA</td><td>50K DA/mo</td></tr>
+            </tbody></table>
+        </div>
+    </div></section>
+
+    <!-- PROCESS -->
+    <section class="section" id="process"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="text-center"><div class="section-number">05</div><div class="badge-mono">Comment ça marche</div><h2 class="display-md" style="margin-top:var(--f8)">Un scan. Un client. Un <span class="shimmer-text">résultat</span>.</h2></div>
+        <div class="process-steps">
+            <div class="reveal"><div class="process-number">1</div><h3>Scannez</h3><p>Le client scanne votre QR code. Direction votre page en 2 secondes.</p></div>
+            <div class="reveal"><div class="process-number">2</div><h3>Analysez</h3><p>27 agences analysées. Leurs faiblesses identifiées.</p></div>
+            <div class="reveal"><div class="process-number">3</div><h3>Convertissez</h3><p>Menu, vitrine, produits — optimisé pour convertir.</p></div>
+            <div class="reveal"><div class="process-number">Æ</div><h3>Dirigez</h3><p>Le fondateur supervise chaque projet. Résultats garantis.</p></div>
+        </div>
+    </div></section>
+
+    <!-- FAQ -->
+    <section class="section section-alt" id="faq"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="text-center"><div class="section-number">06</div><div class="badge-mono">Questions</div><h2 class="display-md" style="margin-top:var(--f8)">Questions <span class="shimmer-text">Fréquentes</span></h2></div>
+        <div class="faq-grid">
+            <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span>C'est quoi ÆTHER ?</span><span class="faq-icon">+</span></div><div class="faq-answer"><p>ÆTHER est l'invisible qui rend visible. Agence marketing digital en Algérie, propulsée par la tech américaine, avec intelligence compétitive sur 27 concurrents. À partir de 0 DA. Prix affichés.</p></div></div>
+            <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span>Pourquoi c'est gratuit ?</span><span class="faq-icon">+</span></div><div class="faq-answer"><p>0 agence sur 27 offre un essai gratuit. Le QR landing page gratuit prouve notre valeur. Pas de pression.</p></div></div>
+            <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span>C'est quoi la « tech américaine » ?</span><span class="faq-icon">+</span></div><div class="faq-answer"><p>React, TypeScript, Node.js — le même stack que Netflix et Stripe. Pas de WordPress bricolé. Code professionnel américain, adapté au marché algérien.</p></div></div>
+            <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span>Pourquoi les prix sont affichés ?</span><span class="faq-icon">+</span></div><div class="faq-answer"><p>Seule 1 agence sur 27 affiche ses prix. Nous sommes la 2ème. La transparence est notre avantage concurrentiel.</p></div></div>
+            <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span>Comment commencer ?</span><span class="faq-icon">+</span></div><div class="faq-answer"><p>Envoyez-nous un WhatsApp. On crée votre page QR gratuitement en 24h. Pas de carte bancaire, pas d'engagement.</p></div></div>
+            <div class="faq-item"><div class="faq-question" onclick="toggleFaq(this)"><span>Quelle est la différence avec les autres ?</span><span class="faq-icon">+</span></div><div class="faq-answer"><p>Trois choses : 1) Tech américaine React/TypeScript. 2) 27 concurrents analysés. 3) Leadership direct par le fondateur. Aucune autre agence en Algérie ne fait tout ça.</p></div></div>
+        </div>
+    </div></section>
+
+    <!-- DESIGN SYSTEM SHOWCASE -->
+    <section class="section grid-bg" id="design-system"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="text-center">
+            <div class="section-number">07</div>
+            <div class="badge-mono">Design System</div>
+            <h2 class="display-md" style="margin-top:var(--f8)">La mathématique de la <span class="shimmer-text">beauté</span></h2>
+            <p style="max-width:34em;margin:var(--f8) auto 0;color:var(--a-muted);font-size:var(--text-base)">Chaque pixel. Chaque espace. Chaque animation. Dérivé de la suite de Fibonacci et du nombre dor.</p>
+        </div>
+        <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:var(--f13);margin-top:var(--f55)">
+            <div class="card noise-card" style="padding:var(--f21);text-align:center">
+                <div style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);margin-bottom:var(--f5)">FIBONACCI</div>
+                <div style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:900;letter-spacing:-0.04em">1 1 2 3</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)">5 8 13 21</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--a-muted)">34 55 89 144</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);margin-top:var(--f5)">spacing · radius · blur</div>
+            </div>
+            <div class="card noise-card" style="padding:var(--f21);text-align:center">
+                <div style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);margin-bottom:var(--f5)">φ = 1.618</div>
+                <div style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:900;letter-spacing:-0.04em">8 13 21 34</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)">55 89 144</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);margin-top:var(--f5)">typography · line-height</div>
+            </div>
+            <div class="card noise-card" style="padding:var(--f21);text-align:center">
+                <div style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);margin-bottom:var(--f5)">89 144 233</div>
+                <div style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:900;letter-spacing:-0.04em">377 610</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)">987ms</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);margin-top:var(--f5)">duration · easing</div>
+            </div>
+            <div class="card noise-card" style="padding:var(--f21);text-align:center">
+                <div style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);margin-bottom:var(--f5)">0.377</div>
+                <div style="font-family:var(--font-display);font-size:var(--text-xl);font-weight:900;letter-spacing:-0.04em">F(n)/1k</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-xs);color:var(--a-muted);margin-top:var(--f3)">opacity · shadow</div>
+                <div style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);margin-top:var(--f5)">glass · depth · z</div>
+            </div>
+        </div>
+        <div style="margin-top:var(--f34);text-align:center">
+            <p style="font-family:var(--font-mono);font-size:var(--text-micro);color:var(--a-faint);letter-spacing:0.1em">CHAQUE NOMBRE · CHAQUE ESPACE · CHAQUE DURÉE · DERIVÉ DE φ</p>
+        </div>
+    </div></section>
+    <!-- CTA -->
+    <section class="section" id="contact"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="cta-section">
+            <h2>Prêt à rendre votre business <span class="shimmer-text">visible</span> ?</h2>
+            <p style="color:var(--a-muted);font-size:var(--text-base);margin-top:var(--f5)">Tech américaine. Intelligence propre. Leadership direct. Commencez gratuitement.</p>
+            <div style="display:flex;gap:var(--f8);justify-content:center;margin-top:var(--f21);flex-wrap:wrap">
+                <a href="https://wa.me/213000000000?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20%C3%86THER" class="btn-primary shimmer-btn">Commencer gratuitement</a>
+                <a href="https://wa.me/213000000000?text=Bonjour%2C%20je%20veux%20un%20devis" class="btn-secondary">Demander un devis</a>
+            </div>
+            <p style="margin-top:var(--f13);font-size:var(--text-micro);color:var(--a-faint)">ou appelez le +213 XX XX XX XX</p>
+        </div>
+    </div></section>
+
+    <!-- FOOTER -->
+    </main><footer class="footer"><div style="max-width:987px;margin:0 auto;padding:0 var(--f34)">
+        <div class="footer-grid">
+            <div><div class="nav-logo" style="font-size:var(--text-lg);margin-bottom:var(--f8)">ÆTHER</div><p style="font-size:var(--text-xs);color:var(--a-muted);line-height:var(--lh-base);margin-top:var(--f5)">L'invisible qui rend visible. Agence marketing digital Algérie. À partir de 0 DA.</p></div>
+            <div><h4>Services</h4><ul class="footer-links"><li><a href="#services">ÆTHER QR</a></li><li><a href="#services">ÆTHER Social</a></li><li><a href="#services">ÆTHER SEO</a></li><li><a href="#services">ÆTHER Web</a></li><li><a href="#services">ÆTHER Brand</a></li></ul></div>
+            <div><h4>Entreprise</h4><ul class="footer-links"><li><a href="#">À propos</a></li><li><a href="#">Tech US</a></li><li><a href="#">Intelligence</a></li><li><a href="#">Blog</a></li></ul></div>
+            <div><h4>Contact</h4><ul class="footer-links"><li>📍 Alger, Algérie</li><li>📞 +213 XX XX XX XX</li><li>✉️ contact@aether.digital</li></ul></div>
+        </div>
+        <div class="footer-bottom"><p><div class="fib-sequence">1 1 2 3 5 8 13 21 34 55 89 144 233 377 610 987</div><br>© 2026 ÆTHER. L'invisible qui rend visible.</p><p><a href="#">Confidentialité</a> · <a href="#">Mentions légales</a> · <a href="#">CGV</a></p></div>
+    </div></footer>
+
+    <!-- WHATSAPP -->
+    <a href="https://wa.me/213000000000?text=Bonjour%2C%20je%20suis%20int%C3%A9ress%C3%A9%20par%20%C3%86THER" class="whatsapp-float" target="_blank" rel="noopener" aria-label="WhatsApp"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg></a>
+
+    <script>
+    // Language toggle
+    let currentLang='fr';function toggleLang(){currentLang=currentLang==='fr'?'ar':'fr';document.querySelectorAll('[data-fr]').forEach(el=>{const text=el.getAttribute('data-'+currentLang);if(text){if(el.tagName==='H1'||el.tagName==='H2')el.innerHTML=text;else el.textContent=text}});document.documentElement.lang=currentLang==='ar'?'ar':'fr';document.documentElement.dir=currentLang==='ar'?'rtl':'ltr';document.body.style.fontFamily=currentLang==='ar'?'var(--font-ar)':'var(--font-sans)'}
+
+    // FAQ toggle
+    function toggleFaq(el){const item=el.parentElement;const wasOpen=item.classList.contains('open');document.querySelectorAll('.faq-item').forEach(i=>i.classList.remove('open'));if(!wasOpen)item.classList.add('open')}
+
+    // Mobile menu
+    function toggleMenu(){const nav=document.getElementById('navLinks');nav.style.display=nav.style.display==='flex'?'none':'flex'}
+
+    // Scroll animations (reveal on scroll)
+    const revealObserver=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting)entry.target.classList.add('in')})},{threshold:0.1});document.querySelectorAll('.reveal').forEach(el=>revealObserver.observe(el));
+
+    // Nav background on scroll
+    window.addEventListener('scroll',()=>{const nav=document.getElementById('nav');nav.style.background=window.scrollY>50?'rgba(7,7,7,0.95)':'rgba(7,7,7,0.85)'});
+
+    // Number count-up with shimmer
+    function animateCountUp(){document.querySelectorAll('[data-count]').forEach(el=>{const target=parseInt(el.getAttribute('data-count'));if(target===0){el.textContent='0';return}let current=0;const increment=Math.max(1,Math.floor(target/40));const timer=setInterval(()=>{current+=increment;if(current>=target){current=target;clearInterval(timer)}el.textContent=current},30)})}const statsObserver=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){animateCountUp();statsObserver.unobserve(entry.target)}})},{threshold:0.3});const statsBar=document.querySelector('.stats-bar');if(statsBar)statsObserver.observe(statsBar);
+
+    // Scroll progress
+    window.addEventListener('scroll',()=>{const h=document.documentElement.scrollHeight-window.innerHeight;document.getElementById('scrollProgress').style.width=(h>0?(window.scrollY/h)*100:0)+'%'},{passive:true});
+
+    // Custom cursor
+    const cDot=document.getElementById('cursorDot'),cRing=document.getElementById('cursorRing');let mx=0,my=0,rx=0,ry=0;if(cDot&&cRing&&matchMedia('(hover:hover)').matches){document.addEventListener('mousemove',e=>{mx=e.clientX;my=e.clientY;cDot.style.left=mx+'px';cDot.style.top=my+'px'});const raf=()=>{rx+=(mx-rx)*.15;ry+=(my-ry)*.15;cRing.style.left=rx+'px';cRing.style.top=ry+'px';requestAnimationFrame(raf)};raf();document.addEventListener('mousedown',()=>cRing.classList.add('clicking'));document.addEventListener('mouseup',()=>cRing.classList.remove('clicking'));const hoverSel='a,button,input,select,textarea,[role="button"],.hover-lift,.card,.pricing-card,.faq-item';const enter=()=>{cDot.classList.add('hovering');cRing.classList.add('hovering')};const leave=()=>{cDot.classList.remove('hovering');cRing.classList.remove('hovering')};const attach=()=>document.querySelectorAll(hoverSel).forEach(el=>{el.addEventListener('mouseenter',enter);el.addEventListener('mouseleave',leave)});attach();new MutationObserver(attach).observe(document.body,{childList:true,subtree:true})}
+
+    // Smooth scroll
+    document.querySelectorAll('a[href^="#"]').forEach(anchor=>{anchor.addEventListener('click',function(e){e.preventDefault();const target=document.querySelector(this.getAttribute('href'));if(target){target.scrollIntoView({behavior:'smooth',block:'start'});const nav=document.getElementById('navLinks');if(nav)nav.style.display=''}})});
+    
+
+    // ─── ROYAL MODE TOGGLE (Shift+Alt+G) ───
+    // The cherry on top. Gold accent throughout the page.
+    (function(){
+        const KEY='aether-royal';
+        const html=document.documentElement;
+        // Restore from localStorage
+        if(localStorage.getItem(KEY)==='true') html.classList.add('royal');
+        // Toggle on Shift+Alt+G
+        document.addEventListener('keydown',function(e){
+            if(e.shiftKey && e.altKey && (e.key==='g'||e.key==='G'||e.key==='Æ'||e.key==='æ')){
+                e.preventDefault();
+                html.classList.toggle('royal');
+                localStorage.setItem(KEY,html.classList.contains('royal'));
+            }
+        });
+    })();
+
+    // ─── SPOTLIGHT CURSOR ───
+    // Mouse-following glow on hero section
+    (function(){
+        const glow=document.getElementById('spotlightGlow');
+        const hero=document.getElementById('heroSpotlight');
+        if(!glow||!hero) return;
+        hero.addEventListener('mousemove',function(e){
+            const rect=hero.getBoundingClientRect();
+            glow.style.left=(e.clientX-rect.left)+'px';
+            glow.style.top=(e.clientY-rect.top)+'px';
+        });
+        hero.addEventListener('mouseleave',function(){
+            glow.style.opacity='0';
+        });
+        hero.addEventListener('mouseenter',function(){
+            glow.style.opacity='0.5';
+        });
+    })();
+
+    // ─── NUMBER-TICKER ───
+    // Fibonacci-timed count-up: 987ms duration, ease-out cubic
+    (function(){
+        function easeOutCubic(t){return 1-Math.pow(1-t,3)}
+        function formatNumber(n){
+            return n.toLocaleString('fr-FR');
+        }
+        const observer=new IntersectionObserver(function(entries){
+            entries.forEach(function(entry){
+                if(entry.isIntersecting){
+                    animateCountUp(entry.target);
+                    observer.unobserve(entry.target);
+                }
+            });
+        },{threshold:0.3});
+        document.querySelectorAll('[data-count]').forEach(function(el){
+            observer.observe(el);
+        });
+        function animateCountUp(el){
+            const target=parseInt(el.getAttribute('data-count'));
+            if(target===0){el.textContent='0';return}
+            const duration=987; // F(16) ms — deliberate
+            const start=performance.now();
+            function tick(now){
+                const elapsed=(now-start)/duration;
+                const progress=Math.min(1,elapsed);
+                const eased=easeOutCubic(progress);
+                const current=Math.round(eased*target);
+                el.textContent=formatNumber(current);
+                if(progress<1) requestAnimationFrame(tick);
+                else el.textContent=formatNumber(target);
+            }
+            requestAnimationFrame(tick);
+        }
+    })();
+
+    // ─── ENHANCED SCROLL REVEAL WITH STAGGER ───
+    // Apply stagger delay to cards in grids
+    (function(){
+        const grids=document.querySelectorAll('.section-grid,.section-grid-2,.pricing-grid,.process-steps,.faq-grid');
+        grids.forEach(function(grid){
+            const cards=grid.querySelectorAll('.card,.pricing-card,.process-step,.faq-item');
+            cards.forEach(function(card,i){
+                card.style.setProperty('--stagger',i);
+            });
+        });
+    })();
+
+</script>
+</body>
+</html>

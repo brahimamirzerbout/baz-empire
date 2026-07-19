@@ -1,0 +1,192 @@
+#!/usr/bin/env python3
+"""
+ÆTHER — Pricing Calculator (Frontend-adapted from ThinkPad backend)
+Calculate project pricing based on service type, scope, and client size
+Adapted for: aether.digital — Algérie
+"""
+
+import argparse
+import json
+from datetime import datetime
+
+# ÆTHER Pricing in DA (Algerian Dinar)
+PRICING = {
+    "aether-qr": {
+        "name": "ÆTHER QR — Page QR Landing",
+        "description": "Custom QR landing page powered by QrCreator",
+        "tagline": "Un scan. Un client. Un résultat.",
+        "scopes": {
+            "free": {"price": 0, "label": "Page QR basique — Gratuit pour toujours", "delivery": "Instant"},
+            "starter": {"price": 5000, "label": "Page QR personnalisée (couleurs, logo)", "delivery": "2-3 jours"},
+            "medium": {"price": 15000, "label": "Multi-page QR (menu + vitrine + liens)", "delivery": "5-7 jours"},
+            "full": {"price": 30000, "label": "Suite QR complète (menu + vitrine + NFC)", "delivery": "10-14 jours"},
+        },
+        "retainer": 5000,
+        "retainer_includes": "Mises à jour QR, rapports analytics, modifications de contenu",
+        "entry": "Gratuit",
+        "competitive_delta": "Seule agence en Algérie offrant du QR — 0/27 concurrents",
+    },
+    "aether-social": {
+        "name": "ÆTHER Social — Réseaux Sociaux",
+        "description": "Création de contenu, planification, engagement, croissance",
+        "tagline": "Votre présence sociale, pilotée par l'intelligence.",
+        "scopes": {
+            "starter": {"price": 10000, "label": "2 plateformes, 3 publications/semaine", "delivery": "Mensuel"},
+            "growth": {"price": 20000, "label": "3 plateformes, 5 publications/semaine", "delivery": "Mensuel"},
+            "full": {"price": 35000, "label": "5 plateformes, publications quotidiennes + stories", "delivery": "Mensuel"},
+        },
+        "retainer": 15000,
+        "retainer_includes": "Création de contenu, planification, community management",
+        "entry": "10 000 DA/mois",
+        "competitive_delta": "Diamond: ~25K DA/mo | Nous: 10K DA/mo — 2.5x moins cher",
+    },
+    "aether-seo": {
+        "name": "ÆTHER SEO — Visibilité & Référencement",
+        "description": "SEO local, optimisation on-page, suivi de positionnement",
+        "tagline": "Soyez trouvés. Toujours.",
+        "scopes": {
+            "starter": {"price": 10000, "label": "Audit SEO + optimisation de base", "delivery": "3-5 jours"},
+            "growth": {"price": 25000, "label": "SEO complet + 3 mois de contenu", "delivery": "Continu"},
+            "full": {"price": 50000, "label": "Stratégie SEO complète + 6 mois contenu", "delivery": "Continu"},
+        },
+        "retainer": 15000,
+        "retainer_includes": "Rapports mensuels, contenu, link building",
+        "entry": "10 000 DA/mois",
+        "competitive_delta": "Inclut intelligence concurrentielle — personne d'autre ne l'offre",
+    },
+    "aether-brand": {
+        "name": "ÆTHER Brand — Branding & Identité",
+        "description": "Logo, charte graphique, identité visuelle complète",
+        "tagline": "Votre marque, inoubliable.",
+        "scopes": {
+            "starter": {"price": 10000, "label": "Logo design", "delivery": "3-5 jours"},
+            "growth": {"price": 25000, "label": "Logo + charte graphique + templates sociaux", "delivery": "7-10 jours"},
+            "full": {"price": 50000, "label": "Système d'identité de marque complet", "delivery": "14-21 jours"},
+        },
+        "retainer": 5000,
+        "retainer_includes": "Mises à jour des templates de marque",
+        "entry": "10 000 DA",
+        "competitive_delta": "ATAKOR: 50K+ DA pour brand kit | Nous: 10K DA — 5x moins cher",
+    },
+    "aether-web": {
+        "name": "ÆTHER Web — Création de Sites",
+        "description": "Landing pages, sites vitrines, mini-sites",
+        "tagline": "Tech américaine. Design algérien.",
+        "scopes": {
+            "starter": {"price": 15000, "label": "Landing page responsive", "delivery": "3-5 jours"},
+            "growth": {"price": 35000, "label": "Site multi-pages (5-10 pages)", "delivery": "7-14 jours"},
+            "full": {"price": 80000, "label": "Site complet avec CMS", "delivery": "21-30 jours"},
+        },
+        "retainer": 10000,
+        "retainer_includes": "Hébergement, maintenance, mises à jour mineures",
+        "entry": "15 000 DA",
+        "competitive_delta": "React/TypeScript vs. WordPress — même prix, 10x la qualité",
+    },
+    "aether-full": {
+        "name": "ÆTHER Croissance — Pack Complet",
+        "description": "Tout ce dont vous avez besoin. Un seul abonnement.",
+        "tagline": "QR + Social + SEO + Web. Tout. Piloté par le fondateur.",
+        "scopes": {
+            "croissance": {"price": 30000, "label": "QR + Social + SEO de base", "delivery": "7-10 jours", "retainer": 25000},
+            "premium": {"price": 60000, "label": "QR + Web + Social + SEO + Contenu", "delivery": "14-21 jours", "retainer": 50000},
+            "enterprise": {"price": 120000, "label": "Tout ÆTHER — service d'agence complet", "delivery": "21-30 jours", "retainer": 100000},
+        },
+        "retainer": 25000,
+        "retainer_includes": "Tous les services, support prioritaire, stratégie mensuelle, intelligence concurrentielle",
+        "entry": "25 000 DA/mois",
+        "competitive_delta": "Diamond: 80K DA/mo | Nous: 25K DA/mo — 3x moins cher, 10x plus de services",
+    },
+}
+
+# Client size multipliers (ÆTHER pricing philosophy: transparent, no hidden fees)
+CLIENT_MULTIPLIERS = {
+    "micro": 0.8,     # Solo entrepreneur — on baisse le prix
+    "smb": 1.0,       # Standard pricing
+    "enterprise": 1.3, # Larger organizations — légèrement plus cher
+}
+
+def calculate_pricing(args):
+    service = PRICING.get(args.service)
+    if not service:
+        print(f"Unknown service: {args.service}")
+        return
+
+    scope = service["scopes"].get(args.scope)
+    if not scope:
+        print(f"Unknown scope: {args.scope}")
+        print(f"Available scopes: {', '.join(service['scopes'].keys())}")
+        return
+
+    multiplier = CLIENT_MULTIPLIERS.get(args.client, 1.0)
+    base_price = scope["price"]
+    adjusted_price = int(base_price * multiplier)
+    retainer = int(service["retainer"] * multiplier)
+
+    print("\n" + "=" * 60)
+    print(f"  ⚡ ÆTHER — DEVIS")
+    print("=" * 60)
+    print(f"\n  Service:    {service['name']}")
+    print(f"  Tagline:    {service['tagline']}")
+    print(f"  Client:     {args.client.upper()}")
+    print(f"  Scope:      {scope['label']}")
+    print(f"  Delivery:   {scope['delivery']}")
+    print(f"\n  ┌─────────────────────────────────────────────┐")
+    print(f"  │  ONE-TIME:   {adjusted_price:>10,} DA               │")
+    if retainer:
+        print(f"  │  RETAINER:   {retainer:>10,} DA/mois            │")
+    print(f"  └─────────────────────────────────────────────┘")
+    print(f"\n  Retainer inclut:")
+    print(f"    • {service['retainer_includes']}")
+    print(f"\n  ⚡ Avantage concurrentiel:")
+    print(f"    {service['competitive_delta']}")
+
+    # Bundle suggestions
+    if args.service == "aether-qr":
+        print(f"\n  📦 Upsell Suggestions:")
+        print(f"    • QR → ÆTHER Social:  +10 000 DA/mois")
+        print(f"    • QR → ÆTHER Croissance:  25 000 DA/mois (best deal)")
+    elif args.service == "aether-social":
+        print(f"\n  📦 Upsell Suggestions:")
+        print(f"    • Social + SEO:  20 000 DA/mois")
+        print(f"    • ÆTHER Croissance (tout):  25 000 DA/mois")
+    elif args.service != "aether-full":
+        print(f"\n  📦 Best Deal: ÆTHER Croissance à 25 000 DA/mois — tout inclus.")
+
+    print("=" * 60)
+
+def list_services(args):
+    print("\n" + "=" * 60)
+    print("  ⚡ ÆTHER — SERVICES & TARIFS")
+    print("=" * 60)
+    for key, svc in PRICING.items():
+        print(f"\n  {svc['name']}")
+        print(f"  {svc['tagline']}")
+        for scope, details in svc["scopes"].items():
+            price_str = f"{details['price']:,} DA" if details['price'] > 0 else "GRATUIT"
+            print(f"    {scope:>8s}: {details['label']:<45s} {price_str:>8s}")
+        if svc["retainer"]:
+            print(f"    Retainer: {svc['retainer']:,} DA/mois — {svc['retainer_includes']}")
+        print(f"    ⚡ {svc['competitive_delta']}")
+    print("\n" + "=" * 60)
+
+def main():
+    parser = argparse.ArgumentParser(description="ÆTHER Pricing Calculator")
+    subparsers = parser.add_subparsers(dest="command")
+
+    calc_p = subparsers.add_parser("calc", help="Calculate pricing for a service")
+    calc_p.add_argument("--service", "-s", required=True, choices=PRICING.keys())
+    calc_p.add_argument("--scope", choices=["free", "starter", "growth", "medium", "full", "croissance", "premium", "enterprise"], default="starter")
+    calc_p.add_argument("--client", "-c", choices=CLIENT_MULTIPLIERS.keys(), default="smb")
+
+    subparsers.add_parser("list", help="List all services and pricing")
+
+    args = parser.parse_args()
+    if args.command == "calc":
+        calculate_pricing(args)
+    elif args.command == "list":
+        list_services(args)
+    else:
+        parser.print_help()
+
+if __name__ == "__main__":
+    main()

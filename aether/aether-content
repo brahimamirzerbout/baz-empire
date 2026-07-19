@@ -1,0 +1,254 @@
+#!/usr/bin/env python3
+"""
+ÆTHER — Content Generator (Frontend-adapted from ThinkPad backend)
+Generates social media content, captions, hashtags for ÆTHER brand
+Adapted for: aether.digital — Algérie
+"""
+
+import json
+import random
+import argparse
+from datetime import datetime, timedelta
+
+# ÆTHER-specific content templates
+TEMPLATES = {
+    "instagram": {
+        "hooks": [
+            "⚡ {topic} — personne d'autre ne fait ça en Algérie.",
+            "🔥 On a analysé 27 agences. {topic}. Résultat? On est les seuls.",
+            "📱 Un scan. Un client. {topic}. C'est si simple.",
+            "🇺🇸 React. TypeScript. Node.js. {topic}. Pas de WordPress bricolé.",
+            "💰 {topic} — à partir de 5 000 DA. Prix affichés. Pas de surprise.",
+            "🎯 {topic} — 24h chrono. Pas 2 semaines.",
+            "👨‍💼 {topic} — piloté directement par le fondateur. Pas de chaîne.",
+        ],
+        "ctas": [
+            "Commencez gratuitement → lien en bio",
+            "Envoyez-nous un WhatsApp → 💬",
+            "Prix affichés sur aether.digital →",
+            "0 DA pour commencer. Pas de risque. →",
+            "Tag un restaurateur qui doit voir ça! 👇",
+        ],
+        "hashtag_pools": {
+            "brand": ["#AetherDigital", "#AetherQR", "#MarketingAlger"],
+            "niche": ["#QRCodeAlgerie", "#MenuQR", "#AgenceAlger", "#DigitalAlgerie"],
+            "general": ["#marketing", "#digitalmarketing", "#entrepreneur", "#business"],
+            "arabic": ["#تسويق_رقمي_الجزائر", "#رمز_QR", "#وكالة_الجزائر", "#قائمة_رقمية"],
+        }
+    },
+    "facebook": {
+        "hooks": [
+            "Votre menu papier vous coûte 100K DA/an. {topic} — c'est GRATUIT.",
+            "{topic} — 27 agences analysées, 0 offrent ce que nous offrons.",
+            "Pourquoi 26 agences sur 27 cachent leurs prix? {topic} — nous, on les affiche.",
+            "{topic}. Tech américaine. Intelligence propre. Résultats garantis.",
+        ],
+        "ctas": [
+            "→ Messagez-nous sur WhatsApp pour commencer",
+            "→ Visitez aether.digital pour voir nos prix",
+            "→ Commentez ci-dessous pour un devis gratuit",
+        ],
+        "hashtag_pools": {
+            "brand": ["#AetherDigital"],
+            "general": ["#marketing", "#Algerie", "#QRcode"],
+        }
+    },
+    "tiktok": {
+        "hooks": [
+            "POV: Tu découvres que {topic} est GRATUIT en Algérie 🤯",
+            "3 secondes pour comprendre pourquoi {topic} change tout ⚡",
+            "Ce que les 27 agences ne veulent pas que tu saches sur {topic} 👀",
+        ],
+        "ctas": [
+            "Lien dans la bio! → aether.digital",
+            "Follow pour plus de tips marketing DZ 💡",
+        ],
+        "hashtag_pools": {
+            "general": ["#fyp", "#algerie", "#marketing", "#QRcode", "#business"],
+        }
+    },
+    "linkedin": {
+        "hooks": [
+            "J'ai analysé 27 agences marketing en Algérie. {topic} — voici ce que j'ai trouvé.",
+            "Le marché du digital en Algérie est cassé. {topic}. Voici comment on le répare.",
+            "27 agences. 0 offrent des QR landing pages. {topic} — l'opportunité est massive.",
+        ],
+        "ctas": [
+            "Agree? Like 👍\nDisagree? I'd love to hear your perspective.",
+            "Follow for more ÆTHER insights on the Algerian digital market.",
+        ],
+        "hashtag_pools": {
+            "general": ["#marketing", "#digitalmarketing", "#Algeria", "#entrepreneurship"],
+        }
+    }
+}
+
+PLATFORMS = list(TEMPLATES.keys())
+
+# ÆTHER-specific topics
+AETHER_TOPICS = {
+    "qr": "QR Landing Pages",
+    "pricing": "Prix affichés",
+    "speed": "Livraison 24h",
+    "tech": "Tech américaine (React/TypeScript)",
+    "intel": "Intelligence compétitive (27 agences analysées)",
+    "free": "Essai gratuit",
+    "restaurant": "Menu QR restaurant",
+    "social": "Réseaux sociaux gérés",
+    "seo": "SEO local Algérie",
+    "brand": "Branding & identité",
+}
+
+def generate_posts(topic_key="qr", platform="instagram", count=5):
+    """Generate ÆTHER-branded social media posts."""
+    topic = AETHER_TOPICS.get(topic_key, topic_key)
+    tmpl = TEMPLATES.get(platform, TEMPLATES["instagram"])
+    posts = []
+
+    for i in range(count):
+        hook = random.choice(tmpl["hooks"]).format(topic=topic)
+        cta = random.choice(tmpl["ctas"])
+
+        # Build bilingual hashtags
+        hashtags = set()
+        for pool_name, pool in tmpl["hashtag_pools"].items():
+            hashtags.update(random.sample(pool, min(3, len(pool))))
+
+        # ÆTHER brand voice rules
+        post = {
+            "platform": platform,
+            "topic_key": topic_key,
+            "topic": topic,
+            "hook": hook,
+            "body_fr": f"{hook}\n\n{cta}",
+            "body_ar": "",  # Arabic version placeholder
+            "hashtags": " ".join(sorted(hashtags)[:8]),
+            "best_time": get_best_time(platform),
+            "visual_direction": get_visual_direction(platform),
+        }
+
+        # Generate Arabic version for key platforms
+        if platform in ["instagram", "facebook"]:
+            post["body_ar"] = generate_arabic(hook, cta, topic_key)
+
+        posts.append(post)
+
+    return posts
+
+def generate_arabic(hook, cta, topic_key):
+    """Generate Darija/Arabic version of posts."""
+    ar_variants = {
+        "qr": "قائمة QR مجانية — لا وكالة أخرى تقدمها",
+        "pricing": "أسعارنا معلنة — 1 من 27 وكالة تعلن أسعارها",
+        "speed": "تسليم في 24 ساعة — لا 2-4 أسابيع",
+        "tech": "تقنية أمريكية — React، TypeScript — لا ووردبريس",
+        "free": "مجاناً — ابدأ بدون دفع شيء",
+    }
+    ar_topic = ar_variants.get(topic_key, "")
+    if ar_topic:
+        return f"🇩🇿 {ar_topic}\n\n💬 فيريسونا على واتساب"
+    return ""
+
+def get_best_time(platform):
+    """Best posting times for Algeria."""
+    times = {
+        "instagram": "12-14h, 19-21h (Sam-Jeu)",
+        "facebook": "9-11h, 17-19h (Sam-Jeu)",
+        "tiktok": "20-23h (Ven-Sam)",
+        "linkedin": "8-10h, 14-16h (Dim-Mer)",
+    }
+    return times.get(platform, "9-11h en semaine")
+
+def get_visual_direction(platform):
+    """Visual direction for each platform."""
+    directions = {
+        "instagram": "Dark bg (#0F0A1E), Aether gradient accent, Æ ligature, QR code visual, stat number prominent",
+        "facebook": "Dark bg, gradient overlay, clear price in DA, US Tech badge",
+        "tiktok": "Full-screen QR scan animation, text overlay, 15s max",
+        "linkedin": "Data visualization, 27 agencies analyzed stat, professional chart",
+    }
+    return directions.get(platform, "Dark bg, Aether brand colors")
+
+def content_calendar(topic_key="qr", days=7):
+    """Generate a week-long ÆTHER content calendar."""
+    platforms = ["instagram", "facebook", "tiktok", "linkedin"]
+    calendar = []
+
+    for day in range(days):
+        date = (datetime.now() + timedelta(days=day)).strftime("%Y-%m-%d")
+        weekday = (datetime.now() + timedelta(days=day)).strftime("%A")
+        # Rotate topics
+        topics = list(AETHER_TOPICS.keys())
+        day_topic = topics[(day + len(calendar)) % len(topics)]
+        platform = platforms[day % len(platforms)]
+        posts = generate_posts(day_topic, platform, count=1)
+
+        calendar.append({
+            "date": date,
+            "day": weekday,
+            "platform": platform,
+            "topic": day_topic,
+            "post_fr": posts[0]["body_fr"],
+            "post_ar": posts[0].get("body_ar", ""),
+            "hashtags": posts[0]["hashtags"],
+            "best_time": posts[0]["best_time"],
+            "visual": posts[0]["visual_direction"],
+        })
+
+    return calendar
+
+def main():
+    parser = argparse.ArgumentParser(description="ÆTHER Content Generator")
+    parser.add_argument("topic", nargs="?", default="qr",
+                       help=f"Topic key: {', '.join(AETHER_TOPICS.keys())} or free text")
+    parser.add_argument("--platform", "-p", choices=PLATFORMS, default="instagram")
+    parser.add_argument("--count", "-n", type=int, default=5)
+    parser.add_argument("--calendar", "-c", action="store_true", help="Generate weekly calendar")
+    parser.add_argument("--all", "-a", action="store_true", help="Generate for all platforms")
+    parser.add_argument("--json", "-j", action="store_true", help="Output as JSON")
+    args = parser.parse_args()
+
+    topic_key = args.topic if args.topic in AETHER_TOPICS else "qr"
+
+    if args.calendar:
+        cal = content_calendar(topic_key)
+        if args.json:
+            print(json.dumps(cal, indent=2, ensure_ascii=False))
+        else:
+            print(f"\n📅 ÆTHER WEEKLY CONTENT CALENDAR: {AETHER_TOPICS.get(topic_key, topic_key).upper()}")
+            print("=" * 70)
+            for entry in cal:
+                print(f"\n  {entry['day']} ({entry['date']})")
+                print(f"  Platform: {entry['platform'].upper()}")
+                print(f"  Topic: {entry['topic']}")
+                print(f"  FR: {entry['post_fr'][:80]}...")
+                if entry['post_ar']:
+                    print(f"  AR: {entry['post_ar'][:60]}...")
+                print(f"  Tags: {entry['hashtags']}")
+                print(f"  ⏰ Best time: {entry['best_time']}")
+                print(f"  🎨 Visual: {entry['visual'][:60]}...")
+            print()
+        return
+
+    platforms = PLATFORMS if args.all else [args.platform]
+
+    for platform in platforms:
+        posts = generate_posts(topic_key, platform, args.count)
+
+        if args.json:
+            print(json.dumps(posts, indent=2, ensure_ascii=False))
+        else:
+            topic = AETHER_TOPICS.get(topic_key, topic_key)
+            print(f"\n⚡ ÆTHER — {platform.upper()} POSTS: {topic}")
+            print("-" * 55)
+            for i, post in enumerate(posts, 1):
+                print(f"\n  Post #{i}")
+                print(f"  {post['body_fr']}")
+                if post.get('body_ar'):
+                    print(f"  🇩🇿 {post['body_ar']}")
+                print(f"  {post['hashtags']}")
+                print(f"  ⏰ Best time: {post['best_time']}")
+                print(f"  🎨 Visual: {post['visual_direction'][:50]}...")
+
+if __name__ == "__main__":
+    main()
