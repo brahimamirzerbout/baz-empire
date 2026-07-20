@@ -91,6 +91,7 @@ tauri-toolchain-bg.log
 .omniroute/
 .worktrees/
 .face.undercover
+Android/Sdk/
 
 # Raw yt transcript / media dumps (only the .md/.txt digests are tracked)
 yt-downloads/**/*.srt
