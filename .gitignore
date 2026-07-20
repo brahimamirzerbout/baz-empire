@@ -84,3 +84,15 @@ Downloads/
 # Build artifacts & logs (do not track)
 *.apk
 tauri-toolchain-bg.log
+
+# Editor / tool runtime dirs (do not track)
+.kilo/
+.opencode/
+.omniroute/
+.worktrees/
+.face.undercover
+
+# Raw yt transcript / media dumps (only the .md/.txt digests are tracked)
+yt-downloads/**/*.srt
+yt-downloads/**/*.vtt
+yt-downloads/**/*.webm
