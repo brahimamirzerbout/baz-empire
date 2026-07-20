@@ -97,3 +97,8 @@ Android/Sdk/
 yt-downloads/**/*.srt
 yt-downloads/**/*.vtt
 yt-downloads/**/*.webm
+
+# Python bytecode / caches (do not track)
+__pycache__/
+*.pyc
+*.pyo
