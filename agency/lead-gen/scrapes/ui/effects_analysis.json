@@ -1,0 +1,142 @@
+{
+  "magic_ui": {
+    "url": "https://magicui.design",
+    "error": "HTTPSConnectionPool(host='magicui.design', port=443): Max retries exceeded with url: / (Caused by Co"
+  },
+  "aceternity": {
+    "url": "https://ui.aceternity.com/",
+    "status": 200,
+    "title": "Aceternity UI — Beautiful Tailwind CSS and Framer Motion Components",
+    "h1": [
+      "Ship landing pages at lightning speed."
+    ],
+    "effects": [
+      "framer-motion",
+      "Parallax",
+      "Gradients",
+      "Skeleton",
+      "Spotlight/Beam",
+      "Aurora",
+      "Marquee",
+      "Bento grid",
+      "Noise/Grain",
+      "Video BG",
+      "Mesh gradient",
+      "Custom cursor",
+      "3D effects",
+      "Scroll animations",
+      "Dark mode"
+    ],
+    "text": "Aceternity UI — Beautiful Tailwind CSS and Framer Motion Components Acebuilder is on Product Hunt today, check it out ceternity UI Components Blocks Templates Labs Pricing Changelog Search ⌘ K Toggle theme Get All-Access Toggle theme Changelog 80+ new blocks Ship landing pages at lightning speed. 200+ production-ready components, blocks and templates that make your site feel like you hired a design team. Copy, paste, customize, no wrestling with Framer Motion animations or Tailwind styling. Browse Components Get All-Access Trusted by 120,000+ founders developers and creators Hero Sections Features Bento Grids Parallax Blocks Keyboard Glowing Effect Glare Card Canvas Card Text Reveal Card Globe Used by companies and people working at Idea to website in hours, not days. not days. As easy as copy-pasting. Build great looking websites without worrying about styling. Loved by thousands of people Here's what some of our users have to say about Aceternity UI. Peer Richelsen @ peer_rich amazing to see @calcom find its way into proper templates 🥳\n\nexcited to be powering the next thousands of startups and their demo calls! Striver | Building takeUforward @ striver_79 Just checked out Aceternity (UX components), great work done by @mannupaaji Looks premium, top notch 🧨 Teddy Ni @ Teddarific Wow, this site is an ABSOLUTE GOLDMINE for design engineers.\n\nIt's a huge collection of micro-interactions / animations, all with their respective source code for you to copy and paste.\n\nLove to see such an amazing display of my favorite package, framer-motion Jerem @ geekpreneur_ Looking absolutely awesome ! 👏 metinn @ mjakupiiii Amazing 🚀 Rayhan Rahat @ rh_rahat_dev Absolutely Awesome, Would really love to use some of these in my projects Rexan Wong @ rexan_wong 🔖 Bookmarking it right away sus646 @ sus6461 is amazing ❤️‍🔥❤️‍🔥\nIt is open forever? iOS/MacOS Developer | Swift | Xcode @ InLessimore I really like it.I will try to use it my next app Paarth Agarwal @ PaarthAgarwal17 I just tried it out this is crazy awesome Yousef @ Yousefcopy Looks sick 👌🏼 Oamar @ oamarkanji Man this is awesome Rajdeep Seth @ rajdeepseth1 Stumbled upon ui.aceternity.com today and my mind is blown 🤯 \nThe seamless integration of framer-motion, tailwind CSS, and shadcn showcases a masterclass in UI design. 🚀 Kudos to @mannupaaji for creating such an innovative and inspirational resource for devs! #UI #nextjs Adrian | JavaScript Mastery @ jsmasterypro Have you heard of Aceternity UI? \n\nIt's packed with various animated components that are ready to copy and paste! Mind-blowing stuff... 🤯\n\nClick here ➡️ ui.aceternity.com #framermotion #nextjs #tailwindcss #techinnovation Rajesh David @ rajeshdavidbabu ui.aceternity.com So well done. And its bloody free 🤯🤯\n\nPhenomenal work by @mannupaaji Cody De Arkland @ Codydearkland This library is so dope. Stoked to see more components drop. Micky @ Rasmic Yoo.... This has to be the most beautiful component library I've ever seen!! ui.aceternity.com Shoutout to"
+  },
+  "shadcn": {
+    "url": "https://ui.shadcn.com/",
+    "status": 200,
+    "title": "The Foundation for your Design System - shadcn/ui",
+    "h1": [
+      "The Foundation for your Design System"
+    ],
+    "effects": [
+      "Glassmorphism",
+      "Skeleton",
+      "Custom cursor",
+      "3D effects",
+      "Scroll animations",
+      "Dark mode"
+    ],
+    "text": "The Foundation for your Design System - shadcn/ui Toggle Menu Menu Home Docs Components Blocks Charts Directory Typeset Create Search documentation... Search... 119k Toggle theme New React Aria is now available The Foundation for your Design System A set of beautifully designed components that you can customize, extend, and build on. Start here then make it your own. Open Source. Open Code. Build Your Own Button Secondary Outline Badge Secondary Outline Alert Dialog Dialog Button Group Group Overview Analytics Transactions Investments Accounts Spending Planning Documents Budget Reports Goals Calendar Support Help Center Docs Contact Us Status Community Account Profile Billing Notifications Security Appearance Savings Targets Active milestones for 2024 across your portfolio. Monitor how close you are to each savings goal. Retirement $420,000 x 65% achieved $273,000 Real Estate $85,000 x 32% achieved $27,200 You have not met your targets for this year. Contribution History Last 6 months of activity Dec Jan Feb Mar Apr Upcoming May 2024 Scheduled Savings Plan Accelerated Recurring View Full Report Claimable Balance $ 1,211.29 Pending Setup Net Royalties $ 1,248.75 Processing Fee -$ 37.46 Total Ready to Claim $ 1,211.29 USD Once your bank is connected, balances over $10.00 are automatically eligible for monthly distribution on the 15th of each month. Q2 Dividend Income Quarterly dividend payouts across your portfolio holdings. Vanguard 450 Shares S&P 500 VOO 112 Shares Apple AAPL 85 Shares Realty Income 320 Shares Set a new milestone Define your financial target and we'll help you pace your savings. Goal Name Target Amount Target Date Create Goal Cancel Payout Threshold Set the minimum balance required before a payout is triggered. Preferred Currency USD — United States Dollar ▼ Minimum Payout Amount $2500.00 x $50 (MIN) $10,000 (MAX) Notes Save Threshold Account Access Update your credentials or re-authenticate. Email Address Current Password Forgot? Update Security Danger Zone Archive account and remove catalog Scan to connect your mobile device Open the Ledger mobile app and scan this code to link your device. New Chat How can I help you today? Morning, shadcn! What are we working on today? Press send to start a new conversation I'm building a chat for our app and the scroll behavior is driving me nuts. Every time the AI streams a reply, the whole thread jumps around. Send Demo is read only. Press send to send messages. Home Account options Payments Change transfer limit Adjust how much you can send from your balance. Scheduled transfers Set up a transfer to send at a later date. Recurring card payments Manage your repeated card transactions. Distribute Track Upload your first master to start reaching listeners on Spotify, Apple Music, and more. Create Release Analytics 418.2K Visitors +10% View Analytics Notifications Choose which email and push alerts you want to receive. Transaction alerts Deposits, withdrawals, and transfers. Security alerts L"
+  },
+  "linear": {
+    "url": "https://linear.app/",
+    "status": 200,
+    "title": "Linear – The system for product development",
+    "h1": [
+      "The productdevelopmentsystem for teamsand agentsThe product developmentsystem fo"
+    ],
+    "effects": [
+      "framer-motion",
+      "Glassmorphism",
+      "Gradients",
+      "Spotlight/Beam",
+      "Ripple",
+      "Marquee",
+      "Bento grid",
+      "Noise/Grain",
+      "Video BG",
+      "Morphing",
+      "Custom cursor",
+      "3D effects",
+      "Scroll animations",
+      "Dark mode"
+    ],
+    "text": "Skip to content → Product Resources Customers Pricing Now Contact Docs Open app Log in Sign up The product development system for teams and agents The product development system for teams and agents The product development system for teams and agents Purpose-built for planning and building products. Designed for the AI era. New Coding Sessions → New Coding Sessions → Linear Inbox My issues Reviews Pulse Workspace Initiatives Projects More Favorites Faster app launch Agent tasks UI Refresh Agents Insights Faster app launch 02 / 145 Faster app launch Render UI before vehicle_state sync when minimum required state is present, instead of blocking on full refresh during iOS startup. Activity Linear created the issue via Slack on behalf of karri · 2min ago Triage Intelligence added the label Performance and iOS · 2min ago karri · 4 min ago Right now we show a spinner forever, which makes it look like the car disappeared... jori · just now @Linear can you take a stab at this? Linear connected by jori · 2 min ago Changed 2 files Draft PR awaiting your review · 2 min ago Linear moved from Todo to In Progress · just now Linear Opus 4.8 jori connected Linear to ENG-2703 Examining the startup path... Thinking... ENG-2703 In Progress High jori Linear Labels Performance iOS Cycle Cycle 144 Project Core Performance A new species of product tool. Purpose-built for modern teams with AI workflows at its core, Linear sets a new standard for planning and building products. Built for purpose Linear is shaped by the practices and principles of world-class product teams. Powered by AI agents Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs. Designed for speed Reduces noise and restores momentum to help teams ship with high velocity and focus. FIG 0.2 Built for purpose Linear is shaped by the practices and principles of world-class product teams. FIG 0.3 Powered by AI agents Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs. Designed for workflows shared by humans and agents. From drafting PRDs to pushing PRs. FIG 0.4 Designed for speed Reduces noise and restores momentum to help teams ship with high velocity and focus. Make product \noperations self-driving Turn conversations and customer feedback into actionable issues that are routed, labeled, and prioritized for the right team. 1.0 Intake → Backlog 8 ENG-2085 Reduce UI flicker during autonomy... ENG-2094 Add buffering for autonomy event streams ENG-2092 Reduce startup delay caused by vehicle sync ENG-2200 Fix delayed route updates during rerouting Todo 71 ENG-926 Remove UI inconsistencies Bug Design ENG-2088 TypeError: Cannot read properties Bug ENG-924 Upgrade to Claude Opus 4.8 AI ENG-1882 Optimize load times Performance In Progress 3 ENG-1487 Remove contentData from GraphQL API 61039 MKT-1028 Launch page assets Design ENG-2187 Prevent duplicate ride requests on poor... Bug 62048 Done 53 ENG-2074 Clean up deprecated APIs... API 61002 ENG-1912 "
+  },
+  "stripe_home": {
+    "url": "https://stripe.com/",
+    "status": 200,
+    "title": "Stripe | Financial Infrastructure to Grow Your Revenue",
+    "h1": [
+      "Financial infrastructure to grow your revenue.Accept payments, offer financial s",
+      "Financial infrastructure to grow your revenue.Accept payments, offer financial s"
+    ],
+    "effects": [
+      "Gradients",
+      "Skeleton",
+      "Spotlight/Beam",
+      "Marquee",
+      "Bento grid",
+      "Count-up",
+      "Video BG",
+      "Custom cursor",
+      "3D effects",
+      "Scroll animations",
+      "Dark mode"
+    ],
+    "text": "Stripe | Financial Infrastructure to Grow Your Revenue Products Solutions Developers Resources Pricing Sign in Start now Contact sales Back Sign in Sign in Contact sales Global GDP running on Stripe: Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth. Financial infrastructure to grow your revenue. Accept payments, offer financial services, and implement custom revenue models—from your first transaction to your billionth. Get started Sign up with Google Flexible solutions for every business model. Grow your business with a comprehensive set of payments and financial tools⁠—⁠designed to work individually or together. Grow your business with the most comprehensive set of payments and financial tools. Accept and optimize payments globally—online and in person Enable any billing model Pro Plan Billed monthly Tokens $0.01 per 1,000 units Usage meter Tokens used in the last 30 days Monetize through agentic commerce Create a card issuing program Access borderless money movement with stablecoins and crypto Embed payments in your platform Building the economic infrastructure for AI Watch now The backbone of global commerce 135+ currencies and payment methods supported $1.9T in payments volume processed in 2025 99.999% historical uptime for Stripe services 200M+ active subscriptions managed on Stripe Billing 135+ currencies and payment methods supported $1.9T in payments volume processed in 2025 99.999% historical uptime for Stripe services 200M+ active subscriptions managed on Stripe Billing Powering businesses of all sizes. Run your business on a reliable platform that adapts to your needs. Transform your enterprise with agile financial infrastructure Stripe for enterprises 50% of Fortune 100 companies have used Stripe to grow their businesses—from expanding internationally to reimagining the customer experience. Hertz unifies commerce with Stripe. Read the story 160 countries 11K+ locations globally Products used Payments, Terminal, Connect, Radar, and Stripe Sigma Read the story URBN consolidates $5 billion in online and in-store revenue onto Stripe. Read the story 5+ consumer brands in retailer portfolio 700+ store locations Products used Payments, Terminal, Connect, Stripe Sigma, Radar, and Link Read the story Instacart powers online grocery delivery with Stripe. Read the story 600K+ shoppers 1.8K retail partners across nearly 100K stores Products used Payments, Connect, Data Pipeline, and Issuing Read the story Le Monde improves local and international payments with Stripe. Read the story 100% of digital and print payments powered by Stripe Less than 3 months to implement and go live Products used Payments, Stripe Sigma, and Radar Read the story Realize value faster with dedicated experts Professional services. Get tailored guidance from Stripe on implementation, complex integrations, or major migrations. View services Stripe-certi"
+  },
+  "vercel": {
+    "url": "https://vercel.com",
+    "error": "HTTPSConnectionPool(host='vercel.com', port=443): Max retries exceeded with url: / (Caused by NameRe"
+  },
+  "resend": {
+    "url": "https://resend.com/",
+    "status": 200,
+    "title": "Resend · Email for developers",
+    "h1": [
+      "Email fordevelopers"
+    ],
+    "effects": [
+      "Spline",
+      "Glassmorphism",
+      "Gradients",
+      "Video BG",
+      "Custom cursor",
+      "3D effects",
+      "Scroll animations",
+      "Dark mode"
+    ],
+    "text": "Resend · Email for developers Open main menu Features Company Resources Help Docs AI Pricing Log in Get started Announcing Remote MCP Email for developers The best way to reach humans instead of spam folders. Deliver transactional and marketing emails at scale. Get started Documentation Companies of all sizes trust Resend to deliver their most important emails. Integrate A simple, elegant interface so you can start sending emails in minutes. It fits right into your code with SDKs for your favorite programming languages. Node.js Serverless Ruby Python PHP CLI Go Rust Java Elixir .NET REST SMTP Node.js Next.js Remix Nuxt Express Hono Redwood Bun Astro 1 import { Resend } from 'resend' ; 2 3 const resend = new Resend ( 're_xxxxxxxxx' ) ; 4 5 ( async function ( ) { 6 const { data , error } = await resend . emails . send ( { 7 from : 'onboarding@resend.dev' , 8 to : 'delivered@resend.dev' , 9 subject : 'Hello World' , 10 html : '<strong>it works!</strong>' 11 } ) ; 12 13 if ( error ) { 14 return console . log ( error ) ; 15 } 16 17 console . log ( data ) ; 18 } ) ( ) ; View on GitHub Download ZIP First-class developer experience We are a team of engineers who love building tools for other engineers. Our goal is to create the email platform we've always wished we had — one that just works . delivered delivered@resend.dev Send HTTP 200: { \"id\": \"26abdd24-36a9-475d-83bf-4d27a31c7def\" } HTTP 200: { \"id\": \"cc3817db-d398-4892-8bc0-8bc589a2cfb3\" } HTTP 200: { \"id\": \"4ea2f827-c3a2-471e-b0a1-8bb0bcb5c67c\" } HTTP 200: { \"id\": \"8e1d73b4-ebe1-485d-bce8-0d7044f1d879\" } HTTP 200: { \"id\": \"a08045a6-122a-4e16-ace1-aa81df4278ac\" } HTTP 200: { \"id\": \"c3be1838-b80e-457a-9fc5-3abf49c3b33e\" } HTTP 200: { \"id\": \"13359f77-466e-436d-9cb2-ff0b0c9a8af4\" } Test mode Simulate events and experiment with our API without the risk of accidentally sending real emails to real people. Learn more delivered to with subject on agent running on clicked from on on agent running on opened from with subject on agent running on complained to with feedback on agent running on bounced to with type on agent running on Modular webhooks Receive real-time notifications directly to your server. Every time an email is delivered, opened, bounces, or a link is clicked. Learn more Write using a delightful editor A modern editor that makes it easy for anyone to write, format, and send emails. Visually build your email and change the design by adding custom styles. Styles Weekly Acme Newsletter a day ago Test Send From your.name@acme.com To Newsletter Subscribers Subject Weekly Newsletter Go beyond editing Group and control your contacts in a simple and intuitive way. Straightforward analytics and reporting tools that will help you send better emails. Contact management Import your list in minutes, regardless the size of your audience. Get full visibility of each contact and their personal attributes. Learn more Broadcast analytics Unlock powerful insights and understand exactly how your audience is intera"
+  },
+  "raycast": {
+    "url": "https://www.raycast.com/",
+    "status": 200,
+    "title": "Raycast - Your shortcut to everything",
+    "h1": [
+      "Your shortcut to everything."
+    ],
+    "effects": [
+      "framer-motion",
+      "Stagger",
+      "Glassmorphism",
+      "Gradients",
+      "Spotlight/Beam",
+      "Video BG",
+      "Confetti",
+      "Custom cursor",
+      "3D effects",
+      "Scroll animations",
+      "Dark mode"
+    ],
+    "text": "Raycast - Your shortcut to everything Store Pro AI iOS Windows Teams Enterprise Blog Pricing Log in Download Log in Your shortcut to everything. A collection of powerful productivity tools all within an extendable launcher. Fast, ergonomic and reliable. Download for Mac Download for Windows (beta) Install via homebrew or winget Try the new Raycast beta Meet Glaze Learn more It’s not about saving time. It’s about feeling like you’re never wasting it. Download esc F1 F2 F3 F4 F5 F6 F7 F8 F9 F10 F11 F12 ± § ! 1 @ 2 # 3 $ 4 % 5 ^ 6 & 7 * 8 ( 9 ) 0 _ - + = delete Fast. Think in milliseconds. Ergonomic. Keyboard First. E R T Y U I O P { [ } ] | \\ Native. Pure performance. Reliable. 99.8% crash-free rate. S D F G H J K L : ; \" , ~ ` Z X C V B N M < , > . ? / fn control option command command option There’s an extension for that. Use your favorite tools without even opening them. Productivity Engineering Design Writing Linear Create, search and modify your issues without leaving your keyboard. Google Translate Use Google Translate to effortlessly translate into multiple languages Spotify Search for music and podcasts, browse your library, and control playback. Arc Navigate your open tabs or search through your browser history. TinyPNG Compress the selected images in Finder with TinyPNG. 1Password Easily grab any password or credential from your 1Password vaults. JIRA Manage your JIRA issues and sprints without leaving your keyboard. Slack Set your presence, see unread messages and search your chats. Zoom See your upcoming calls and jump straight into them from Raycast. Timers Start stopwatches and timers to keep track of your daily tasks. Pomodoro Control pomodoro timers and see the current interval in the menu bar. Notion The fastest way to search and create Notion pages. Todoist Check your Todoist tasks and quickly create new ones Google Search Need to know something fast? Google it straight from Raycast. Obsidian Capture information, manage tasks and pin notes to your menu bar. Google Chrome Search open tabs, bookmarks and history in Google Chrome. CleanShot X Trigger CleanShot X screen captures right from your keyboard. Plus thousands more... Browse the store Browse thousands more AI Your Mac just got smarter. AI where it’s most useful - on your OS. Search for apps and commands... Ask Anything, Anytime, Anywhere. Quick AI combines the power of AI with the web to answer any question. Always On ChatGPT. Stuck while coding? Need help writing an email? Meet your new virtual assistant. Your Automation Assistant. Create your own AI Commands to automate repetitive tasks and eliminate chores. More about AI Built for professionals like you. Used by seriously productive people. Guillermo Rauch @rauchg CEO, Vercel Marques Brownlee @MKBHD Creator, MKBHD Koen Bok @koenbok Founder, Framer Andreas Storm @avstorm Designer & Iconograph Adam Wathan @adamwathan Creator, Tailwind CSS Wes Bos @wesbos Co-host, SyntaxFM Ridd @ridd_design Creator, Dive Club Max Stoiber @mxs"
+  }
+}

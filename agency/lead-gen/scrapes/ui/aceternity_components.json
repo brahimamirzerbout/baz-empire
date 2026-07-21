@@ -1,0 +1,454 @@
+[
+  {
+    "name": "Webcam Pixel GridNew",
+    "url": "https://ui.aceternity.com/components/webcam-pixel-grid"
+  },
+  {
+    "name": "Images BadgeNew",
+    "url": "https://ui.aceternity.com/components/images-badge"
+  },
+  {
+    "name": "Parallax Hero ImagesNew",
+    "url": "https://ui.aceternity.com/components/parallax-hero-images"
+  },
+  {
+    "name": "ScalesNew",
+    "url": "https://ui.aceternity.com/components/scales"
+  },
+  {
+    "name": "Dotted Glow BackgroundNew",
+    "url": "https://ui.aceternity.com/components/dotted-glow-background"
+  },
+  {
+    "name": "Background Ripple EffectNew",
+    "url": "https://ui.aceternity.com/components/background-ripple-effect"
+  },
+  {
+    "name": "Sparkles",
+    "url": "https://ui.aceternity.com/components/sparkles"
+  },
+  {
+    "name": "Background Gradient",
+    "url": "https://ui.aceternity.com/components/background-gradient"
+  },
+  {
+    "name": "Gradient Animation",
+    "url": "https://ui.aceternity.com/components/background-gradient-animation"
+  },
+  {
+    "name": "Wavy Background",
+    "url": "https://ui.aceternity.com/components/wavy-background"
+  },
+  {
+    "name": "Background Boxes",
+    "url": "https://ui.aceternity.com/components/background-boxes"
+  },
+  {
+    "name": "Background Beams",
+    "url": "https://ui.aceternity.com/components/background-beams"
+  },
+  {
+    "name": "Background Beams With Collision",
+    "url": "https://ui.aceternity.com/components/background-beams-with-collision"
+  },
+  {
+    "name": "Background Lines",
+    "url": "https://ui.aceternity.com/components/background-lines"
+  },
+  {
+    "name": "Aurora Background",
+    "url": "https://ui.aceternity.com/components/aurora-background"
+  },
+  {
+    "name": "Meteors",
+    "url": "https://ui.aceternity.com/components/meteors"
+  },
+  {
+    "name": "Glowing Stars",
+    "url": "https://ui.aceternity.com/components/glowing-stars-effect"
+  },
+  {
+    "name": "Shooting Stars",
+    "url": "https://ui.aceternity.com/components/shooting-stars-and-stars-background"
+  },
+  {
+    "name": "Vortex",
+    "url": "https://ui.aceternity.com/components/vortex"
+  },
+  {
+    "name": "Spotlight",
+    "url": "https://ui.aceternity.com/components/spotlight"
+  },
+  {
+    "name": "Spotlight New",
+    "url": "https://ui.aceternity.com/components/spotlight-new"
+  },
+  {
+    "name": "Canvas Reveal Effect",
+    "url": "https://ui.aceternity.com/components/canvas-reveal-effect"
+  },
+  {
+    "name": "SVG Mask Effect",
+    "url": "https://ui.aceternity.com/components/svg-mask-effect"
+  },
+  {
+    "name": "Tracing Beam",
+    "url": "https://ui.aceternity.com/components/tracing-beam"
+  },
+  {
+    "name": "Lamp effect",
+    "url": "https://ui.aceternity.com/components/lamp-effect"
+  },
+  {
+    "name": "Grid and Dot Backgrounds",
+    "url": "https://ui.aceternity.com/components/grid-and-dot-backgrounds"
+  },
+  {
+    "name": "Glowing Effect",
+    "url": "https://ui.aceternity.com/components/glowing-effect"
+  },
+  {
+    "name": "Google Gemini Effect",
+    "url": "https://ui.aceternity.com/components/google-gemini-effect"
+  },
+  {
+    "name": "Keyboard",
+    "url": "https://ui.aceternity.com/components/keyboard"
+  },
+  {
+    "name": "TerminalNew",
+    "url": "https://ui.aceternity.com/components/terminal"
+  },
+  {
+    "name": "Tooltip CardNew",
+    "url": "https://ui.aceternity.com/components/tooltip-card"
+  },
+  {
+    "name": "ASCII ArtNew",
+    "url": "https://ui.aceternity.com/components/ascii-art"
+  },
+  {
+    "name": "Pixelated CanvasNew",
+    "url": "https://ui.aceternity.com/components/pixelated-canvas"
+  },
+  {
+    "name": "3D Card Effect",
+    "url": "https://ui.aceternity.com/components/3d-card-effect"
+  },
+  {
+    "name": "Evervault Card",
+    "url": "https://ui.aceternity.com/components/evervault-card"
+  },
+  {
+    "name": "Card Stack",
+    "url": "https://ui.aceternity.com/components/card-stack"
+  },
+  {
+    "name": "Card Hover Effect",
+    "url": "https://ui.aceternity.com/components/card-hover-effect"
+  },
+  {
+    "name": "Wobble Card",
+    "url": "https://ui.aceternity.com/components/wobble-card"
+  },
+  {
+    "name": "Expandable Card",
+    "url": "https://ui.aceternity.com/components/expandable-card"
+  },
+  {
+    "name": "Card Spotlight",
+    "url": "https://ui.aceternity.com/components/card-spotlight"
+  },
+  {
+    "name": "Focus Cards",
+    "url": "https://ui.aceternity.com/components/focus-cards"
+  },
+  {
+    "name": "Infinite Moving Cards",
+    "url": "https://ui.aceternity.com/components/infinite-moving-cards"
+  },
+  {
+    "name": "Draggable Card",
+    "url": "https://ui.aceternity.com/components/draggable-card"
+  },
+  {
+    "name": "Comet CardNew",
+    "url": "https://ui.aceternity.com/components/comet-card"
+  },
+  {
+    "name": "Glare Card",
+    "url": "https://ui.aceternity.com/components/glare-card"
+  },
+  {
+    "name": "Direction Aware Hover",
+    "url": "https://ui.aceternity.com/components/direction-aware-hover"
+  },
+  {
+    "name": "Parallax Scroll",
+    "url": "https://ui.aceternity.com/components/parallax-scroll"
+  },
+  {
+    "name": "Sticky Scroll Reveal",
+    "url": "https://ui.aceternity.com/components/sticky-scroll-reveal"
+  },
+  {
+    "name": "Macbook Scroll",
+    "url": "https://ui.aceternity.com/components/macbook-scroll"
+  },
+  {
+    "name": "Container Scroll Animation",
+    "url": "https://ui.aceternity.com/components/container-scroll-animation"
+  },
+  {
+    "name": "Hero Parallax",
+    "url": "https://ui.aceternity.com/components/hero-parallax"
+  },
+  {
+    "name": "Canvas TextNew",
+    "url": "https://ui.aceternity.com/components/canvas-text"
+  },
+  {
+    "name": "Encrypted TextNew",
+    "url": "https://ui.aceternity.com/components/encrypted-text"
+  },
+  {
+    "name": "Layout Text FlipNew",
+    "url": "https://ui.aceternity.com/components/layout-text-flip"
+  },
+  {
+    "name": "Colourful Text",
+    "url": "https://ui.aceternity.com/components/colourful-text"
+  },
+  {
+    "name": "Squiggly TextNew",
+    "url": "https://ui.aceternity.com/components/squiggly-text"
+  },
+  {
+    "name": "Text Generate Effect",
+    "url": "https://ui.aceternity.com/components/text-generate-effect"
+  },
+  {
+    "name": "Typewriter Effect",
+    "url": "https://ui.aceternity.com/components/typewriter-effect"
+  },
+  {
+    "name": "Flip Words",
+    "url": "https://ui.aceternity.com/components/flip-words"
+  },
+  {
+    "name": "Text Hover Effect",
+    "url": "https://ui.aceternity.com/components/text-hover-effect"
+  },
+  {
+    "name": "Container Text Flip",
+    "url": "https://ui.aceternity.com/components/container-text-flip"
+  },
+  {
+    "name": "Hero Highlight",
+    "url": "https://ui.aceternity.com/components/hero-highlight"
+  },
+  {
+    "name": "Text Reveal Card",
+    "url": "https://ui.aceternity.com/components/text-reveal-card"
+  },
+  {
+    "name": "Text Flipping BoardNew",
+    "url": "https://ui.aceternity.com/components/text-flipping-board"
+  },
+  {
+    "name": "Magnetic ButtonNew",
+    "url": "https://ui.aceternity.com/components/magnetic-button"
+  },
+  {
+    "name": "Noise BackgroundNew",
+    "url": "https://ui.aceternity.com/components/noise-background"
+  },
+  {
+    "name": "Tailwind CSS buttons",
+    "url": "https://ui.aceternity.com/components/tailwindcss-buttons"
+  },
+  {
+    "name": "Hover Border Gradient",
+    "url": "https://ui.aceternity.com/components/hover-border-gradient"
+  },
+  {
+    "name": "Moving Border",
+    "url": "https://ui.aceternity.com/components/moving-border"
+  },
+  {
+    "name": "Stateful Button",
+    "url": "https://ui.aceternity.com/components/stateful-button"
+  },
+  {
+    "name": "Multi Step Loader",
+    "url": "https://ui.aceternity.com/components/multi-step-loader"
+  },
+  {
+    "name": "Loader",
+    "url": "https://ui.aceternity.com/components/loader"
+  },
+  {
+    "name": "NotchNew",
+    "url": "https://ui.aceternity.com/components/notch"
+  },
+  {
+    "name": "Floating Navbar",
+    "url": "https://ui.aceternity.com/components/floating-navbar"
+  },
+  {
+    "name": "Navbar Menu",
+    "url": "https://ui.aceternity.com/components/navbar-menu"
+  },
+  {
+    "name": "Sidebar",
+    "url": "https://ui.aceternity.com/components/sidebar"
+  },
+  {
+    "name": "Floating Dock",
+    "url": "https://ui.aceternity.com/components/floating-dock"
+  },
+  {
+    "name": "Tabs",
+    "url": "https://ui.aceternity.com/components/tabs"
+  },
+  {
+    "name": "Resizable Navbar",
+    "url": "https://ui.aceternity.com/components/resizable-navbar"
+  },
+  {
+    "name": "Sticky Banner",
+    "url": "https://ui.aceternity.com/components/sticky-banner"
+  },
+  {
+    "name": "Signup Form",
+    "url": "https://ui.aceternity.com/components/signup-form"
+  },
+  {
+    "name": "Placeholders And Vanish Input",
+    "url": "https://ui.aceternity.com/components/placeholders-and-vanish-input"
+  },
+  {
+    "name": "File Upload",
+    "url": "https://ui.aceternity.com/components/file-upload"
+  },
+  {
+    "name": "Gooey InputNew",
+    "url": "https://ui.aceternity.com/components/gooey-input"
+  },
+  {
+    "name": "Dither ShaderNew",
+    "url": "https://ui.aceternity.com/components/dither-shader"
+  },
+  {
+    "name": "Animated Modal",
+    "url": "https://ui.aceternity.com/components/animated-modal"
+  },
+  {
+    "name": "Animated Tooltip",
+    "url": "https://ui.aceternity.com/components/animated-tooltip"
+  },
+  {
+    "name": "Link Preview",
+    "url": "https://ui.aceternity.com/components/link-preview"
+  },
+  {
+    "name": "Images Slider",
+    "url": "https://ui.aceternity.com/components/images-slider"
+  },
+  {
+    "name": "Carousel",
+    "url": "https://ui.aceternity.com/components/carousel"
+  },
+  {
+    "name": "Apple Cards Carousel",
+    "url": "https://ui.aceternity.com/components/apple-cards-carousel"
+  },
+  {
+    "name": "Animated Testimonials",
+    "url": "https://ui.aceternity.com/components/animated-testimonials"
+  },
+  {
+    "name": "Layout Grid",
+    "url": "https://ui.aceternity.com/components/layout-grid"
+  },
+  {
+    "name": "Bento Grid",
+    "url": "https://ui.aceternity.com/components/bento-grid"
+  },
+  {
+    "name": "Container Cover",
+    "url": "https://ui.aceternity.com/components/container-cover"
+  },
+  {
+    "name": "GitHub Globe",
+    "url": "https://ui.aceternity.com/components/github-globe"
+  },
+  {
+    "name": "World Map",
+    "url": "https://ui.aceternity.com/components/world-map"
+  },
+  {
+    "name": "Timeline",
+    "url": "https://ui.aceternity.com/components/timeline"
+  },
+  {
+    "name": "Compare",
+    "url": "https://ui.aceternity.com/components/compare"
+  },
+  {
+    "name": "Codeblock",
+    "url": "https://ui.aceternity.com/components/code-block"
+  },
+  {
+    "name": "Following Pointer",
+    "url": "https://ui.aceternity.com/components/following-pointer"
+  },
+  {
+    "name": "Pointer Highlight",
+    "url": "https://ui.aceternity.com/components/pointer-highlight"
+  },
+  {
+    "name": "Lens",
+    "url": "https://ui.aceternity.com/components/lens"
+  },
+  {
+    "name": "3D GlobeNew",
+    "url": "https://ui.aceternity.com/components/3d-globe"
+  },
+  {
+    "name": "3D Pin",
+    "url": "https://ui.aceternity.com/components/3d-pin"
+  },
+  {
+    "name": "3D Marquee",
+    "url": "https://ui.aceternity.com/components/3d-marquee"
+  },
+  {
+    "name": "Feature Sections Free",
+    "url": "https://ui.aceternity.com/components/feature-sections-free"
+  },
+  {
+    "name": "Cards Sections Free",
+    "url": "https://ui.aceternity.com/components/cards-free"
+  },
+  {
+    "name": "Hero Sections Free",
+    "url": "https://ui.aceternity.com/components/hero-sections-free"
+  },
+  {
+    "name": "Flip WordsA component that flips through a list of words",
+    "url": "https://ui.aceternity.com/components/flip-words"
+  },
+  {
+    "name": "Link PreviewDynamic link previews for your anchor tags",
+    "url": "https://ui.aceternity.com/components/link-preview"
+  },
+  {
+    "name": "Globe",
+    "url": "https://ui.aceternity.com/components/github-globe"
+  },
+  {
+    "name": "Lamp Effect",
+    "url": "https://ui.aceternity.com/components/lamp-effect"
+  }
+]

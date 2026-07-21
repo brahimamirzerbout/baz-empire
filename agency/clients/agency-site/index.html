@@ -22,6 +22,8 @@
     <meta name="twitter:card" content="summary_large_image" />
     <meta name="twitter:title" content="Zerbout Digital — US Tech · Elite Marketers · Intelligence Propre" />
     <meta name="twitter:description" content="Agence marketing digital Algérie. Technologie US, marketers d'élite, intelligence compétitive." />
+    <meta property="og:image" content="https://zerbout.digital/favicon.svg" />
+    <meta name="twitter:image" content="https://zerbout.digital/favicon.svg" />
 
     <!-- Canonical -->
     <link rel="canonical" href="https://zerbout.digital/" />
@@ -42,7 +44,8 @@
         "name": "Zerbout Digital",
         "description": "Agence marketing digital en Algérie. Technologie américaine, marketers d'élite, intelligence compétitive.",
         "url": "https://zerbout.digital",
-        "telephone": "+213-000-000-000",
+        "telephone": "+213555000000",
+        "email": "contact@zerbout.digital",
         "address": {
             "@type": "PostalAddress",
             "addressLocality": "Alger",
@@ -422,6 +425,56 @@
         .check { color: var(--success); font-weight: bold; }
         .cross { color: #EF4444; }
 
+        /* ========== PROCESS ========== */
+        .process-step {
+            text-align: center; background: var(--dark2);
+            border: 1px solid rgba(108,63,224,0.12); border-radius: var(--radius-lg);
+            padding: 2rem 1.5rem; transition: var(--transition);
+        }
+        .process-step:hover { border-color: rgba(108,63,224,0.35); transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+        .process-number {
+            width: 56px; height: 56px; margin: 0 auto 1rem;
+            display: flex; align-items: center; justify-content: center;
+            font-size: 1.5rem; font-weight: 800; color: var(--white);
+            background: var(--gradient); border-radius: var(--radius-full);
+            box-shadow: 0 6px 18px rgba(108,63,224,0.35);
+        }
+        .process-step h3 { font-size: 1.15rem; font-weight: 700; margin-bottom: 0.6rem; }
+        .process-step p { color: var(--gray); font-size: 0.9rem; line-height: 1.7; }
+        @media (max-width: 1024px) { .process-steps { grid-template-columns: repeat(2, 1fr) !important; } }
+        @media (max-width: 768px) { .process-steps { grid-template-columns: 1fr !important; } }
+
+        /* ========== CONTACT FORM ========== */
+        .contact-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2.5rem; margin-top: 3rem; align-items: start; }
+        .contact-form { background: var(--dark2); border: 1px solid rgba(108,63,224,0.15); border-radius: var(--radius-lg); padding: 2rem; }
+        .form-row { margin-bottom: 1.1rem; }
+        .form-row label { display: block; font-size: 0.85rem; font-weight: 600; margin-bottom: 0.4rem; color: var(--gray-light); }
+        .form-row input, .form-row select, .form-row textarea {
+            width: 100%; padding: 0.8rem 1rem; font-size: 0.95rem; font-family: inherit;
+            background: rgba(15,10,30,0.6); color: var(--white);
+            border: 1px solid rgba(108,63,224,0.2); border-radius: var(--radius);
+            transition: var(--transition);
+        }
+        .form-row input:focus, .form-row select:focus, .form-row textarea:focus {
+            outline: none; border-color: var(--primary); box-shadow: 0 0 0 3px rgba(108,63,224,0.15);
+        }
+        .form-row textarea { resize: vertical; min-height: 110px; }
+        .form-submit { width: 100%; justify-content: center; margin-top: 0.5rem; }
+        .contact-side { display: flex; flex-direction: column; gap: 1rem; }
+        .contact-card {
+            display: flex; align-items: center; gap: 1rem; padding: 1.2rem 1.4rem;
+            background: var(--dark2); border: 1px solid rgba(108,63,224,0.15);
+            border-radius: var(--radius); transition: var(--transition); color: var(--white);
+        }
+        .contact-card:hover { border-color: var(--primary); transform: translateY(-3px); color: var(--white); }
+        .contact-card .cc-icon { font-size: 1.6rem; }
+        .contact-card .cc-label { font-size: 0.75rem; color: var(--gray); }
+        .contact-card .cc-value { font-weight: 700; font-size: 0.95rem; }
+        .contact-card.wa { border-color: rgba(37,211,102,0.35); background: rgba(37,211,102,0.08); }
+        .contact-card.wa:hover { border-color: #25D366; }
+        .form-note { font-size: 0.8rem; color: var(--gray); margin-top: 0.8rem; text-align: center; }
+        @media (max-width: 768px) { .contact-grid { grid-template-columns: 1fr; } }
+
         /* ========== FAQ ========== */
         .faq-grid { max-width: 800px; margin: 3rem auto 0; }
         .faq-item {
@@ -511,6 +564,8 @@
             .cta-section h2 { font-size: 2rem; }
         }
     </style>
+    <link rel="stylesheet" href="vendor/aether/aether.css">
+    <style>:root{ --seed-hue:257; --seed-sat:72%; --seed-lum:56%; --seed-sat-dark:60%; }</style>
 </head>
 <body>
     <!-- NAVIGATION -->
@@ -1009,7 +1064,7 @@
             <div class="faq-grid">
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span data-fr="C'est quoi la « technologie américaine » ?" data-ar="ما هي "التقنية الأمريكية"؟">C'est quoi la « technologie américaine » ?</span>
+                        <span data-fr="C'est quoi la « technologie américaine » ?" data-ar="ما هي « التقنية الأمريكية »؟">C'est quoi la « technologie américaine » ?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
@@ -1018,7 +1073,7 @@
                 </div>
                 <div class="faq-item">
                     <div class="faq-question" onclick="toggleFaq(this)">
-                        <span data-fr="Qu'est-ce que l'intelligence compétitive ?" data-ar="ما هو الذكاء التنافسي؟">Qu'est-ce que l'« intelligence compétitive » ?</span>
+                        <span data-fr="Qu'est-ce que l'« intelligence compétitive » ?" data-ar="ما هو « الذكاء التنافسي »؟">Qu'est-ce que l'« intelligence compétitive » ?</span>
                         <span class="faq-icon">+</span>
                     </div>
                     <div class="faq-answer">
@@ -1065,16 +1120,81 @@
         </div>
     </section>
 
-    <!-- CTA -->
+    <!-- CTA + CONTACT -->
     <section class="section" id="contact">
         <div class="container">
             <div class="cta-section">
                 <h2 data-fr="Prêt à dominer avec la tech US ?" data-ar="مستعد للسيطرة بالتقنية الأمريكية؟">Prêt à dominer avec la tech US ?</h2>
                 <p data-fr="Technologie américaine. Marketers d'élite. Intelligence compétitive. Commencez gratuitement." data-ar="تقنية أمريكية. مسوقو نخبة. ذكاء تنافسي. ابدأ مجاناً">Technologie américaine. Marketers d'élite. Intelligence compétitive. Commencez gratuitement.</p>
-                <a href="#" class="btn-white" onclick="alert('Contact form coming soon! Email: contact@zerbout.digital')">
-                    <span data-fr="🚀 Commencer gratuitement" data-ar="🚀 ابدأ مجاناً">🚀 Commencer gratuitement</span>
+                <a href="#contact-form" class="btn-white">
+                    <span data-fr="🚀 Demander mon devis gratuit" data-ar="🚀 اطلب عرض السعر المجاني">🚀 Demander mon devis gratuit</span>
                 </a>
-                <p style="margin-top:1.5rem;font-size:0.85rem;opacity:0.7;" data-fr="ou appelez le +213 XX XX XX XX" data-ar="أو اتصل على +213 XX XX XX XX">ou appelez le <strong>+213 XX XX XX XX</strong></p>
+            </div>
+
+            <div class="contact-grid" id="contact-form">
+                <form class="contact-form" id="quoteForm" novalidate>
+                    <div class="form-row">
+                        <label for="cf-name" data-fr="Nom complet *" data-ar="الاسم الكامل *">Nom complet *</label>
+                        <input type="text" id="cf-name" name="name" required autocomplete="name"
+                               data-ph-fr="Ex : Ahmed Benali" data-ph-ar="مثال: أحمد بن علي" placeholder="Ex : Ahmed Benali" />
+                    </div>
+                    <div class="form-row">
+                        <label for="cf-phone" data-fr="Téléphone / WhatsApp *" data-ar="الهاتف / واتساب *">Téléphone / WhatsApp *</label>
+                        <input type="tel" id="cf-phone" name="phone" required autocomplete="tel"
+                               placeholder="+213 ..." />
+                    </div>
+                    <div class="form-row">
+                        <label for="cf-service" data-fr="Service souhaité" data-ar="الخدمة المطلوبة">Service souhaité</label>
+                        <select id="cf-service" name="service">
+                            <option value="Solution QR" data-fr="Solution QR (à partir de 5 000 DA)" data-ar="حل QR (من 5,000 د.ج)">Solution QR (à partir de 5 000 DA)</option>
+                            <option value="Réseaux Sociaux" data-fr="Réseaux Sociaux" data-ar="وسائل التواصل الاجتماعي">Réseaux Sociaux</option>
+                            <option value="SEO" data-fr="SEO & Visibilité" data-ar="تحسين محركات البحث">SEO & Visibilité</option>
+                            <option value="Site Web" data-fr="Création Site Web" data-ar="إنشاء موقع ويب">Création Site Web</option>
+                            <option value="Branding" data-fr="Branding & Identité" data-ar="العلامة التجارية والهوية">Branding & Identité</option>
+                            <option value="Pack Complet" data-fr="Pack Complet" data-ar="الباقة الشاملة">Pack Complet</option>
+                        </select>
+                    </div>
+                    <div class="form-row">
+                        <label for="cf-message" data-fr="Votre message" data-ar="رسالتك">Votre message</label>
+                        <textarea id="cf-message" name="message"
+                                  data-ph-fr="Parlez-nous de votre projet..." data-ph-ar="أخبرنا عن مشروعك..." placeholder="Parlez-nous de votre projet..."></textarea>
+                    </div>
+                    <button type="submit" class="btn-primary form-submit">
+                        <span data-fr="📲 Envoyer via WhatsApp" data-ar="📲 إرسال عبر واتساب">📲 Envoyer via WhatsApp</span>
+                    </button>
+                    <p class="form-note" data-fr="Réponse en moins de 24h. Ou contactez-nous directement ➜" data-ar="رد خلال أقل من 24 ساعة. أو اتصل بنا مباشرة ➜">Réponse en moins de 24h. Ou contactez-nous directement ➜</p>
+                </form>
+
+                <div class="contact-side">
+                    <a class="contact-card wa" id="waLink" href="#" target="_blank" rel="noopener">
+                        <span class="cc-icon">💬</span>
+                        <span>
+                            <span class="cc-label" data-fr="Discuter maintenant" data-ar="تحدث الآن">Discuter maintenant</span><br>
+                            <span class="cc-value">WhatsApp</span>
+                        </span>
+                    </a>
+                    <a class="contact-card" id="telLink" href="#">
+                        <span class="cc-icon">📞</span>
+                        <span>
+                            <span class="cc-label" data-fr="Appelez-nous" data-ar="اتصل بنا">Appelez-nous</span><br>
+                            <span class="cc-value" id="telText">+213 555 00 00 00</span>
+                        </span>
+                    </a>
+                    <a class="contact-card" id="mailLink" href="#">
+                        <span class="cc-icon">✉️</span>
+                        <span>
+                            <span class="cc-label" data-fr="Écrivez-nous" data-ar="راسلنا">Écrivez-nous</span><br>
+                            <span class="cc-value">contact@zerbout.digital</span>
+                        </span>
+                    </a>
+                    <div class="contact-card" style="cursor:default;">
+                        <span class="cc-icon">📍</span>
+                        <span>
+                            <span class="cc-label" data-fr="Localisation" data-ar="الموقع">Localisation</span><br>
+                            <span class="cc-value" data-fr="Alger, Algérie · Lun–Sam 9h–18h" data-ar="الجزائر العاصمة · الإثنين–السبت 9ص–6م">Alger, Algérie · Lun–Sam 9h–18h</span>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1117,8 +1237,8 @@
                     <h4 data-fr="Contact" data-ar="اتصل بنا">Contact</h4>
                     <ul class="footer-links">
                         <li>📍 Alger, Algérie</li>
-                        <li>📞 +213 XX XX XX XX</li>
-                        <li>✉️ contact@zerbout.digital</li>
+                        <li>📞 <a href="tel:+213555000000">+213 555 00 00 00</a></li>
+                        <li>✉️ <a href="mailto:contact@zerbout.digital">contact@zerbout.digital</a></li>
                         <li>🕐 <span data-fr="Lun-Sam: 9h-18h" data-ar="الإثنين-السبت: 9ص-6م">Lun-Sam: 9h-18h</span></li>
                     </ul>
                 </div>
@@ -1135,54 +1255,121 @@
     </footer>
 
     <script>
-        // Language toggle
-        let currentLang = 'fr';
-        function toggleLang() {
-            currentLang = currentLang === 'fr' ? 'ar' : 'fr';
-            document.querySelectorAll('[data-fr]').forEach(el => {
-                const text = el.getAttribute('data-' + currentLang);
-                if (text) el.textContent = text;
-            });
-            document.documentElement.lang = currentLang === 'ar' ? 'ar' : 'fr';
-            document.documentElement.dir = currentLang === 'ar' ? 'rtl' : 'ltr';
-            document.querySelector('.lang-toggle').textContent = currentLang === 'fr' ? 'عربي' : 'Français';
-            document.querySelector('.lang-toggle').style.fontFamily = currentLang === 'ar' ? 'var(--font)' : 'var(--font-ar)';
-        }
+        /* ===== SINGLE SOURCE OF TRUTH — update these to go live ===== */
+        const CONTACT = {
+            phoneDisplay: '+213 555 00 00 00',
+            phoneDial: '+213555000000',      // no spaces, for tel:
+            whatsapp: '213555000000',        // country code + number, no + / spaces
+            email: 'contact@zerbout.digital'
+        };
 
-        // FAQ toggle
+        /* ===== i18n helpers ===== */
+        function applyLang(lang) {
+            const isAr = lang === 'ar';
+            document.querySelectorAll('[data-fr]').forEach(el => {
+                const text = el.getAttribute('data-' + lang);
+                if (text != null) el.innerHTML = text;
+            });
+            document.querySelectorAll('[data-ph-fr]').forEach(el => {
+                const ph = el.getAttribute('data-ph-' + lang);
+                if (ph != null) el.placeholder = ph;
+            });
+            document.documentElement.lang = isAr ? 'ar' : 'fr';
+            document.documentElement.dir = isAr ? 'rtl' : 'ltr';
+            const toggle = document.querySelector('.lang-toggle');
+            toggle.textContent = isAr ? 'Français' : 'عربي';
+            toggle.style.fontFamily = isAr ? 'var(--font)' : 'var(--font-ar)';
+            try { localStorage.setItem('lang', lang); } catch (e) {}
+            window.currentLang = lang;
+        }
+        window.currentLang = 'fr';
+        function toggleLang() { applyLang(window.currentLang === 'fr' ? 'ar' : 'fr'); }
+
+        /* ===== FAQ ===== */
         function toggleFaq(el) {
             const item = el.parentElement;
             const wasOpen = item.classList.contains('open');
-            document.querySelectorAll('.faq-item').forEach(i => i.classList.remove('open'));
-            if (!wasOpen) item.classList.add('open');
+            document.querySelectorAll('.faq-item').forEach(i => {
+                i.classList.remove('open');
+                const q = i.querySelector('.faq-question');
+                if (q) q.setAttribute('aria-expanded', 'false');
+            });
+            if (!wasOpen) { item.classList.add('open'); el.setAttribute('aria-expanded', 'true'); }
         }
 
-        // Mobile menu toggle
+        /* ===== Mobile menu ===== */
         function toggleMenu() {
             const nav = document.getElementById('navLinks');
-            nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
+            nav.style.display = nav.style.display === 'flex' ? '' : 'flex';
+        }
+        window.addEventListener('resize', () => {
+            if (window.innerWidth > 768) document.getElementById('navLinks').style.display = '';
+        });
+
+        /* ===== Wire up contact links ===== */
+        function initContact() {
+            const waBase = 'https://wa.me/' + CONTACT.whatsapp;
+            const wa = document.getElementById('waLink');
+            if (wa) wa.href = waBase + '?text=' + encodeURIComponent('Bonjour Zerbout Digital, je souhaite un devis gratuit.');
+            const tel = document.getElementById('telLink');
+            if (tel) tel.href = 'tel:' + CONTACT.phoneDial;
+            const telText = document.getElementById('telText');
+            if (telText) telText.textContent = CONTACT.phoneDisplay;
+            const mail = document.getElementById('mailLink');
+            if (mail) mail.href = 'mailto:' + CONTACT.email + '?subject=' + encodeURIComponent('Demande de devis — Zerbout Digital');
         }
 
-        // Scroll animations
-        const observer = new IntersectionObserver((entries) => {
-            entries.forEach(entry => {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('animate-in');
+        /* ===== Quote form -> WhatsApp (mailto fallback) ===== */
+        function initForm() {
+            const form = document.getElementById('quoteForm');
+            if (!form) return;
+            form.addEventListener('submit', function (e) {
+                e.preventDefault();
+                const name = form.name.value.trim();
+                const phone = form.phone.value.trim();
+                if (!name || !phone) {
+                    const msg = window.currentLang === 'ar'
+                        ? 'يرجى إدخال الاسم ورقم الهاتف.'
+                        : 'Merci d’indiquer votre nom et votre téléphone.';
+                    alert(msg);
+                    return;
                 }
+                const service = form.service.value;
+                const message = form.message.value.trim();
+                const body =
+                    '🚀 Nouvelle demande de devis — Zerbout Digital\n' +
+                    '👤 Nom: ' + name + '\n' +
+                    '📞 Tél: ' + phone + '\n' +
+                    '🎯 Service: ' + service +
+                    (message ? '\n💬 Message: ' + message : '');
+                const wa = 'https://wa.me/' + CONTACT.whatsapp + '?text=' + encodeURIComponent(body);
+                window.open(wa, '_blank', 'noopener');
+                form.reset();
             });
-        }, { threshold: 0.1 });
+        }
 
+        /* ===== Scroll reveal ===== */
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => { if (entry.isIntersecting) entry.target.classList.add('animate-in'); });
+        }, { threshold: 0.1 });
         document.querySelectorAll('.animate-in').forEach(el => observer.observe(el));
 
-        // Nav background on scroll
+        /* ===== Nav background on scroll ===== */
         window.addEventListener('scroll', () => {
             const nav = document.getElementById('nav');
-            if (window.scrollY > 50) {
-                nav.style.background = 'rgba(15, 10, 30, 0.95)';
-            } else {
-                nav.style.background = 'rgba(15, 10, 30, 0.85)';
-            }
+            nav.style.background = window.scrollY > 50 ? 'rgba(15, 10, 30, 0.95)' : 'rgba(15, 10, 30, 0.85)';
+        });
+
+        /* ===== Init ===== */
+        document.addEventListener('DOMContentLoaded', () => {
+            let saved = 'fr';
+            try { saved = localStorage.getItem('lang') || 'fr'; } catch (e) {}
+            if (saved === 'ar') applyLang('ar');
+            document.querySelectorAll('.faq-question').forEach(q => q.setAttribute('aria-expanded', 'false'));
+            initContact();
+            initForm();
         });
     </script>
+<script type="module" src="vendor/aether/js/aether-engine.js"></script>
 </body>
 </html>

@@ -109,3 +109,13 @@ __pycache__/
 /opencode-skills/
 /Projects/
 /.deepdive/
+
+# Sales-agency cluster (Inspiron build)
+/crm/                       # ÆTHER CRM — own git repo @ 3dff620 (standalone, like money-engine)
+/sales-hub/node_modules/
+/sales-hub/dist/
+*.bak
+
+# Tool artifacts + session logs (prevent pi auto-save from sweeping binaries)
+.ngrok/
+Desktop/RECOVERY_SYNC*.log

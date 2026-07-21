@@ -1,0 +1,944 @@
+/* ═════════════════════════════════════════════════════════════════════════
+   Æ T H E R  —  Extended Components
+   
+   15 new Aceternity/Magic UI inspired components, pure CSS + vanilla JS.
+   No React, no build step, no dependencies.
+   
+   Components:
+   1. Lamp Effect (animated glow)
+   2. Tracing Beam (scroll progress)
+   3. 3D Card Tilt (perspective hover)
+   4. Typewriter Effect (character animation)
+   5. Flip Words (word rotation)
+   6. Floating Navbar (glassmorphism nav)
+   7. Text Generate (progressive reveal)
+   8. Bento Grid (responsive bento)
+   9. Animated Testimonials (rotating quotes)
+   10. Timeline (vertical timeline)
+   11. Compare Slider (before/after)
+   12. Code Block (syntax highlighted)
+   13. Progress Ring (circular progress)
+   14. Neon Gradient Card (animated gradient border)
+   15. Shooting Stars (CSS star animation)
+   ═════════════════════════════════════════════════════════════════════════ */
+
+/* ━━━ 1. LAMP EFFECT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Aceternity-style spotlight that expands on hover.
+   A constrained glow that feels like turning on a lamp.
+*/
+.lamp {
+  position: relative;
+  overflow: hidden;
+}
+
+.lamp__conic {
+  position: absolute;
+  top: -50%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  height: 200%;
+  background: conic-gradient(
+    from 90deg at 50% 50%,
+    transparent 0%,
+    transparent 30%,
+    var(--color-primary-5) 40%,
+    var(--color-primary-bg) 50%,
+    var(--color-primary-5) 60%,
+    transparent 70%,
+    transparent 100%
+  );
+  opacity: 0;
+  transition: opacity var(--duration-slow) var(--ease-default);
+  pointer-events: none;
+  z-index: 0;
+}
+
+.lamp:hover .lamp__conic,
+.lamp--on .lamp__conic {
+  opacity: 1;
+}
+
+.lamp__glow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60%;
+  height: 2px;
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+  box-shadow:
+    0 0 10px var(--color-primary),
+    0 0 40px var(--color-primary-40),
+    0 0 80px var(--color-primary-20);
+  opacity: 0;
+  transition: opacity var(--duration-slow) var(--ease-default);
+  pointer-events: none;
+  z-index: 1;
+}
+
+.lamp:hover .lamp__glow,
+.lamp--on .lamp__glow {
+  opacity: 1;
+}
+
+.lamp > *:not(.lamp__conic):not(.lamp__glow) {
+  position: relative;
+  z-index: 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .lamp__conic, .lamp__glow { transition: none; }
+}
+
+/* ━━━ 2. TRACING BEAM ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Aceternity-style scroll progress beam that follows the page.
+*/
+.tracing-beam {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100vh;
+  background: linear-gradient(
+    to bottom,
+    transparent 0%,
+    var(--color-primary) var(--scroll-progress, 0%),
+    var(--color-primary) var(--scroll-progress, 0%),
+    transparent calc(var(--scroll-progress, 0%) + 2%),
+    transparent 100%
+  );
+  z-index: var(--z-sticky);
+  pointer-events: none;
+}
+
+.tracing-beam::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -3px;
+  width: 9px;
+  height: var(--scroll-progress, 0%);
+  background: var(--color-primary);
+  border-radius: var(--radius-full);
+  box-shadow:
+    0 0 8px var(--color-primary),
+    0 0 20px var(--color-primary-40);
+  transition: height 100ms linear;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .tracing-beam { display: none; }
+}
+
+/* ━━━ 3. 3D CARD TILT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Aceternity-style perspective card that tilts toward the cursor.
+   Applied via JS: card-3d element tracks mouse position.
+*/
+.card-3d {
+  position: relative;
+  transform-style: preserve-3d;
+  transition: transform var(--duration-normal) var(--ease-out);
+  will-change: transform;
+}
+
+.card-3d__content {
+  transform: translateZ(40px);
+  transition: transform var(--duration-normal) var(--ease-out);
+}
+
+.card-3d:hover {
+  transform: perspective(1000px) rotateX(0deg) rotateY(0deg);
+}
+
+.card-3d__glare {
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(
+    circle at var(--glare-x, 50%) var(--glare-y, 50%),
+    rgba(255, 255, 255, 0.15) 0%,
+    transparent 60%
+  );
+  pointer-events: none;
+  opacity: 0;
+  transition: opacity var(--duration-normal) var(--ease-default);
+}
+
+.card-3d:hover .card-3d__glare {
+  opacity: 1;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .card-3d { transform: none !important; }
+  .card-3d__content { transform: none !important; }
+  .card-3d__glare { display: none; }
+}
+
+/* ━━━ 4. TYPEWRITER EFFECT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Characters appear one by one with a blinking cursor.
+*/
+.typewriter-cursor {
+  display: inline;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid var(--color-primary);
+  animation:
+    typewriter-blink 0.75s step-end infinite;
+}
+
+@keyframes typewriter-blink {
+  from, to { border-color: transparent; }
+  50%       { border-color: var(--color-primary); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .typewriter-cursor {
+    border-right: none;
+    white-space: normal;
+    animation: none;
+  }
+}
+
+/* ━━━ 5. FLIP WORDS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Words rotate vertically with a flip animation.
+*/
+.flip-words {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  vertical-align: bottom;
+  height: 1.2em;
+}
+
+.flip-words__word {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  opacity: 0;
+  transform: translateY(100%);
+  animation: flip-word-enter var(--duration-slow) var(--ease-default) forwards;
+}
+
+.flip-words__word--active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+@keyframes flip-word-enter {
+  0%   { transform: translateY(100%); opacity: 0; }
+  100% { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes flip-word-exit {
+  0%   { transform: translateY(0); opacity: 1; }
+  100% { transform: translateY(-100%); opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flip-words { height: auto; overflow: visible; }
+  .flip-words__word { position: static; opacity: 1; transform: none; animation: none; }
+}
+
+/* ━━━ 6. FLOATING NAVBAR ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Aceternity-style glassmorphism navbar that floats above content.
+*/
+.navbar-floating {
+  position: fixed;
+  top: var(--space-4);
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: var(--z-sticky);
+  display: flex;
+  align-items: center;
+  gap: var(--space-1);
+  padding: var(--space-1-5) var(--space-2);
+  border-radius: var(--radius-full);
+  background: var(--glass-bg);
+  backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+  -webkit-backdrop-filter: blur(var(--glass-blur)) saturate(var(--glass-saturate));
+  border: 1px solid var(--glass-border);
+  box-shadow: var(--glass-shadow);
+  transition:
+    top var(--duration-normal) var(--ease-default),
+    background var(--duration-normal) var(--ease-default),
+    box-shadow var(--duration-normal) var(--ease-default);
+}
+
+.navbar-floating:hover {
+  box-shadow: var(--shadow-lg), var(--glass-shadow);
+}
+
+.navbar-floating__link {
+  display: flex;
+  align-items: center;
+  gap: var(--space-1-5);
+  padding: var(--space-1-5) var(--space-3);
+  border-radius: var(--radius-full);
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-medium);
+  color: var(--fg-muted);
+  text-decoration: none;
+  transition:
+    color var(--duration-fast) var(--ease-default),
+    background var(--duration-fast) var(--ease-default);
+}
+
+.navbar-floating__link:hover {
+  color: var(--fg);
+  background: var(--color-primary-bg);
+}
+
+.navbar-floating__link--active {
+  color: var(--color-primary-fg);
+  background: var(--color-primary-bg);
+}
+
+/* ━━━ 7. TEXT GENERATE EFFECT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Characters appear one by one with a fade-in.
+   Applied via JS: each character wrapped in a span with staggered delay.
+*/
+.text-generate__char {
+  opacity: 0;
+  filter: blur(4px);
+  animation: text-generate-appear var(--duration-normal) var(--ease-default) forwards;
+  animation-delay: var(--char-delay, 0ms);
+}
+
+@keyframes text-generate-appear {
+  0%   { opacity: 0; filter: blur(4px); transform: translateY(4px); }
+  100% { opacity: 1; filter: blur(0); transform: translateY(0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .text-generate__char {
+    opacity: 1;
+    filter: none;
+    animation: none;
+  }
+}
+
+/* ━━━ 8. BENTO GRID ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Responsive bento-style grid layout.
+*/
+.bento-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: minmax(var(--space-32), auto);
+  gap: var(--space-4);
+}
+
+.bento-grid__item {
+  background: var(--bg);
+  border: 1px solid var(--border);
+  border-radius: var(--radius-xl);
+  padding: var(--space-6);
+  transition:
+    box-shadow var(--duration-normal) var(--ease-default),
+    border-color var(--duration-normal) var(--ease-default),
+    transform var(--duration-normal) var(--ease-bounce);
+}
+
+.bento-grid__item:hover {
+  box-shadow: var(--shadow-lg);
+  border-color: var(--color-primary-border);
+  transform: translateY(-2px);
+}
+
+/* Bento span utilities */
+.bento-span-2 { grid-column: span 2; }
+.bento-span-3 { grid-column: span 3; }
+.bento-span-4 { grid-column: span 4; }
+.bento-row-2  { grid-row: span 2; }
+.bento-row-3  { grid-row: span 3; }
+
+@media (max-width: 1024px) {
+  .bento-grid { grid-template-columns: repeat(2, 1fr); }
+  .bento-span-3, .bento-span-4 { grid-column: span 2; }
+}
+
+@media (max-width: 640px) {
+  .bento-grid { grid-template-columns: 1fr; }
+  .bento-span-2, .bento-span-3, .bento-span-4 { grid-column: span 1; }
+}
+
+/* ━━━ 9. ANIMATED TESTIMONIALS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Rotating testimonials with crossfade.
+*/
+.testimonials {
+  position: relative;
+  overflow: hidden;
+  min-height: 12rem;
+}
+
+.testimonial {
+  position: absolute;
+  inset: 0;
+  opacity: 0;
+  transform: translateY(1rem);
+  transition:
+    opacity var(--duration-slow) var(--ease-default),
+    transform var(--duration-slow) var(--ease-default);
+  pointer-events: none;
+}
+
+.testimonial--active {
+  opacity: 1;
+  transform: translateY(0);
+  pointer-events: auto;
+  position: relative;
+}
+
+.testimonial__quote {
+  font-family: var(--font-serif);
+  font-size: var(--text-lg);
+  font-style: italic;
+  color: var(--fg);
+  line-height: var(--leading-relaxed);
+  margin-bottom: var(--space-4);
+}
+
+.testimonial__author {
+  display: flex;
+  align-items: center;
+  gap: var(--space-3);
+}
+
+.testimonial__name {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-semi);
+  color: var(--fg);
+}
+
+.testimonial__role {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--fg-muted);
+}
+
+.testimonial__avatar {
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-full);
+  background: var(--color-primary-bg);
+  color: var(--color-primary-fg);
+  display: grid;
+  place-items: center;
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  font-weight: var(--weight-bold);
+}
+
+.testimonials__dots {
+  display: flex;
+  justify-content: center;
+  gap: var(--space-2);
+  margin-top: var(--space-6);
+}
+
+.testimonials__dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: var(--radius-full);
+  background: var(--border-strong);
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  transition:
+    background var(--duration-fast) var(--ease-default),
+    width var(--duration-fast) var(--ease-default);
+}
+
+.testimonials__dot--active {
+  background: var(--color-primary);
+  width: 1.5rem;
+}
+
+/* ━━━ 10. TIMELINE ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Vertical timeline with animated connecting line.
+*/
+.timeline {
+  position: relative;
+  padding-left: var(--space-8);
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  left: var(--space-4);
+  top: 0;
+  bottom: 0;
+  width: 2px;
+  background: var(--border);
+}
+
+.timeline__progress {
+  position: absolute;
+  left: var(--space-4);
+  top: 0;
+  width: 2px;
+  background: var(--color-primary);
+  transition: height var(--duration-normal) var(--ease-default);
+  z-index: 1;
+}
+
+.timeline__item {
+  position: relative;
+  padding-bottom: var(--space-8);
+}
+
+.timeline__item:last-child {
+  padding-bottom: 0;
+}
+
+.timeline__dot {
+  position: absolute;
+  left: calc(-1 * var(--space-4) - 5px);
+  top: var(--space-1);
+  width: 12px;
+  height: 12px;
+  border-radius: var(--radius-full);
+  background: var(--bg);
+  border: 2px solid var(--border);
+  z-index: 2;
+  transition:
+    background var(--duration-fast) var(--ease-default),
+    border-color var(--duration-fast) var(--ease-default),
+    box-shadow var(--duration-fast) var(--ease-default);
+}
+
+.timeline__item--active .timeline__dot {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  box-shadow: 0 0 0 4px var(--color-primary-bg);
+}
+
+.timeline__date {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--fg-subtle);
+  margin-bottom: var(--space-1);
+}
+
+.timeline__title {
+  font-family: var(--font-sans);
+  font-size: var(--text-md);
+  font-weight: var(--weight-bold);
+  color: var(--fg);
+  margin-bottom: var(--space-1);
+}
+
+.timeline__desc {
+  font-family: var(--font-sans);
+  font-size: var(--text-sm);
+  color: var(--fg-muted);
+  line-height: var(--leading-relaxed);
+}
+
+/* ━━━ 11. COMPARE SLIDER ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Before/after comparison slider.
+*/
+.compare {
+  position: relative;
+  overflow: hidden;
+  border-radius: var(--radius-xl);
+  user-select: none;
+  touch-action: none;
+}
+
+.compare__before,
+.compare__after {
+  width: 100%;
+  display: block;
+}
+
+.compare__before {
+  position: absolute;
+  inset: 0;
+  clip-path: inset(0 var(--compare-clip, 50%) 0 0);
+}
+
+.compare__slider {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: var(--compare-position, 50%);
+  width: 4px;
+  background: var(--color-primary);
+  cursor: ew-resize;
+  z-index: 2;
+  transform: translateX(-50%);
+}
+
+.compare__slider::before {
+  content: "⟨ ⟩";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: var(--radius-full);
+  background: var(--color-primary);
+  color: var(--fg-on-primary);
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  display: grid;
+  place-items: center;
+  box-shadow: var(--shadow-lg);
+  letter-spacing: 0.15em;
+}
+
+/* ━━━ 12. CODE BLOCK ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Syntax-highlighted code display with copy button.
+*/
+.code-block {
+  position: relative;
+  background: var(--color-neutral-90);
+  color: var(--color-neutral-10);
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-2xl);
+  border: 1px solid var(--color-neutral-80);
+}
+
+.code-block__header {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2);
+  padding: var(--space-3) var(--space-4);
+  background: var(--color-neutral-80);
+  border-bottom: 1px solid var(--color-neutral-70);
+}
+
+.code-block__dot {
+  width: 0.75rem;
+  height: 0.75rem;
+  border-radius: var(--radius-full);
+}
+
+.code-block__dot--red    { background: hsl(0, 78%, 56%); }
+.code-block__dot--yellow { background: hsl(38, 92%, 50%); }
+.code-block__dot--green  { background: hsl(152, 68%, 42%); }
+
+.code-block__title {
+  flex: 1;
+  text-align: center;
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-neutral-40);
+}
+
+.code-block__copy {
+  font-family: var(--font-mono);
+  font-size: var(--text-xs);
+  color: var(--color-neutral-40);
+  background: none;
+  border: 1px solid var(--color-neutral-60);
+  border-radius: var(--radius-sm);
+  padding: var(--space-1) var(--space-2);
+  cursor: pointer;
+  transition: all var(--duration-fast) var(--ease-default);
+}
+
+.code-block__copy:hover {
+  color: var(--color-neutral-10);
+  border-color: var(--color-neutral-40);
+}
+
+.code-block__body {
+  padding: var(--space-5) var(--space-6);
+  font-family: var(--font-mono);
+  font-size: var(--text-sm);
+  line-height: var(--leading-relaxed);
+  overflow-x: auto;
+}
+
+/* Syntax tokens */
+.code-block .tok-keyword  { color: hsl(280, 68%, 70%); }
+.code-block .tok-prop      { color: hsl(200, 70%, 70%); }
+.code-block .tok-value     { color: hsl(152, 60%, 65%); }
+.code-block .tok-comment   { color: var(--color-neutral-50); font-style: italic; }
+.code-block .tok-string    { color: hsl(38, 80%, 70%); }
+.code-block .tok-punct     { color: var(--color-neutral-50); }
+.code-block .tok-tag       { color: hsl(340, 65%, 65%); }
+.code-block .tok-attr      { color: hsl(200, 65%, 70%); }
+.code-block .tok-func      { color: hsl(220, 70%, 75%); }
+
+@media (prefers-color-scheme: dark) {
+  .code-block {
+    background: hsl(220, 0.5%, 6%);
+    border-color: hsl(220, 0.8%, 18%);
+  }
+  .code-block__header {
+    background: hsl(220, 0.5%, 10%);
+    border-bottom-color: hsl(220, 0.8%, 18%);
+  }
+  .code-block .tok-comment,
+  .code-block .tok-punct { color: hsl(220, 2%, 48%); }
+}
+
+/* ━━━ 13. PROGRESS RING ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Circular progress indicator with animated fill.
+*/
+.progress-ring {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.progress-ring__svg {
+  transform: rotate(-90deg);
+}
+
+.progress-ring__track {
+  fill: none;
+  stroke: var(--border);
+  stroke-width: var(--ring-width, 6);
+}
+
+.progress-ring__fill {
+  fill: none;
+  stroke: var(--color-primary);
+  stroke-width: var(--ring-width, 6);
+  stroke-linecap: round;
+  transition: stroke-dashoffset var(--duration-slow) var(--ease-default);
+}
+
+.progress-ring__label {
+  position: absolute;
+  text-align: center;
+}
+
+.progress-ring__value {
+  font-family: var(--font-sans);
+  font-size: var(--text-lg);
+  font-weight: var(--weight-black);
+  color: var(--fg);
+  line-height: var(--leading-none);
+}
+
+.progress-ring__unit {
+  font-family: var(--font-sans);
+  font-size: var(--text-xs);
+  color: var(--fg-muted);
+}
+
+/* Size variants */
+.progress-ring--sm .progress-ring__value { font-size: var(--text-sm); }
+.progress-ring--lg .progress-ring__value { font-size: var(--text-2xl); }
+
+/* Color variants */
+.progress-ring--success .progress-ring__fill { stroke: var(--color-success); }
+.progress-ring--warning .progress-ring__fill { stroke: var(--color-warning); }
+.progress-ring--danger  .progress-ring__fill { stroke: var(--color-danger); }
+
+@media (prefers-reduced-motion: reduce) {
+  .progress-ring__fill { transition: none; }
+}
+
+/* ━━━ 14. NEON GRADIENT CARD ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Magic UI-style card with animated gradient border.
+*/
+.neon-card {
+  position: relative;
+  border-radius: var(--radius-xl);
+  overflow: hidden;
+  padding: 1px;
+  background: linear-gradient(
+    var(--neon-angle, 135deg),
+    var(--color-primary),
+    var(--color-accent),
+    var(--color-primary),
+    var(--color-accent)
+  );
+  background-size: 300% 300%;
+  animation: neon-gradient-shift 8s ease infinite;
+}
+
+@keyframes neon-gradient-shift {
+  0%, 100% { background-position: 0% 50%; }
+  50%      { background-position: 100% 50%; }
+}
+
+.neon-card__inner {
+  background: var(--bg);
+  border-radius: calc(var(--radius-xl) - 1px);
+  padding: var(--space-6);
+  position: relative;
+  z-index: 1;
+}
+
+.neon-card__glow {
+  position: absolute;
+  inset: -1px;
+  border-radius: var(--radius-xl);
+  background: linear-gradient(
+    var(--neon-angle, 135deg),
+    var(--color-primary-20),
+    var(--color-accent-20)
+  );
+  filter: blur(20px);
+  opacity: 0.3;
+  z-index: -1;
+  animation: neon-glow-pulse 4s ease-in-out infinite alternate;
+}
+
+@keyframes neon-glow-pulse {
+  0%   { opacity: 0.2; }
+  100% { opacity: 0.4; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .neon-card { animation: none; background-position: 0% 50%; }
+  .neon-card__glow { animation: none; }
+}
+
+/* ━━━ 15. SHOOTING STARS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Aceternity-style shooting stars background.
+*/
+.shooting-stars {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+
+.shooting-star {
+  position: absolute;
+  width: 100px;
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    var(--color-primary) 0%,
+    transparent 100%
+  );
+  animation: shooting-star-move var(--star-duration, 2s) var(--star-delay, 0s) linear infinite;
+  opacity: 0;
+}
+
+.shooting-star:nth-child(1) {
+  top: 10%;
+  left: 0;
+  --star-duration: 1.5s;
+  --star-delay: 0s;
+  transform: rotate(-35deg);
+}
+
+.shooting-star:nth-child(2) {
+  top: 30%;
+  left: 20%;
+  --star-duration: 2s;
+  --star-delay: 2s;
+  transform: rotate(-30deg);
+}
+
+.shooting-star:nth-child(3) {
+  top: 60%;
+  left: 40%;
+  --star-duration: 1.8s;
+  --star-delay: 4s;
+  transform: rotate(-40deg);
+}
+
+@keyframes shooting-star-move {
+  0% {
+    transform: translateX(0) rotate(var(--star-angle, -35deg));
+    opacity: 0;
+  }
+  5% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 1;
+  }
+  100% {
+    transform: translateX(300px) rotate(var(--star-angle, -35deg));
+    opacity: 0;
+  }
+}
+
+/* Star twinkle for static stars */
+.shooting-stars__star {
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: var(--radius-full);
+  background: var(--fg-muted);
+  animation: star-twinkle 3s ease-in-out infinite alternate;
+}
+
+.shooting-stars__star:nth-child(4)  { top: 5%; left: 15%; animation-delay: 0s; }
+.shooting-stars__star:nth-child(5)  { top: 15%; left: 70%; animation-delay: 0.5s; }
+.shooting-stars__star:nth-child(6)  { top: 40%; left: 85%; animation-delay: 1s; }
+.shooting-stars__star:nth-child(7)  { top: 60%; left: 25%; animation-delay: 1.5s; }
+.shooting-stars__star:nth-child(8)  { top: 80%; left: 55%; animation-delay: 2s; }
+.shooting-stars__star:nth-child(9)  { top: 25%; left: 45%; animation-delay: 0.3s; }
+.shooting-stars__star:nth-child(10) { top: 70%; left: 80%; animation-delay: 1.2s; }
+.shooting-stars__star:nth-child(11) { top: 50%; left: 10%; animation-delay: 0.8s; }
+.shooting-stars__star:nth-child(12) { top: 90%; left: 60%; animation-delay: 1.7s; }
+
+@keyframes star-twinkle {
+  0%, 100% { opacity: 0.15; transform: scale(1); }
+  50%      { opacity: 0.8; transform: scale(1.5); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .shooting-star { animation: none; display: none; }
+  .shooting-stars__star { animation: none; opacity: 0.2; }
+}
+
+/* ━━━ COMBINED: LANDING PAGE SECTIONS ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+   Pre-built section patterns using the new components.
+*/
+
+/* Social proof marquee section */
+.social-proof {
+  padding: var(--space-12) 0;
+  border-top: 1px solid var(--border);
+  border-bottom: 1px solid var(--border);
+  background: var(--bg-muted);
+}
+
+/* CTA section with lamp effect */
+.cta-lamp {
+  text-align: center;
+  padding: var(--space-24) var(--space-6);
+}
+
+/* Feature bento section */
+.features-bento {
+  padding: var(--space-20) var(--space-6);
+  max-width: var(--container-xl);
+  margin: 0 auto;
+}
+
+/* Timeline section */
+.timeline-section {
+  padding: var(--space-20) var(--space-6);
+  max-width: var(--container-md);
+  margin: 0 auto;
+}
+
+/* Code showcase section */
+.code-showcase {
+  padding: var(--space-20) var(--space-6);
+  max-width: var(--container-lg);
+  margin: 0 auto;
+}
+
+/* ━━━ PRINT ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
+@media print {
+  .lamp__conic, .lamp__glow, .tracing-beam,
+  .card-3d__glare, .shooting-stars, .neon-card__glow { display: none; }
+  .neon-card { background: var(--border); }
+  .compare__slider { display: none; }
+  .compare { position: static; }
+  .compare__before { position: static; clip-path: none; }
+}

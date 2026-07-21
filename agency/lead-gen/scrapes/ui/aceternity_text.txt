@@ -1,0 +1,369 @@
+Free React & Next.js Components — Tailwind CSS & Framer Motion | Aceternity UI
+Acebuilder
+is on Product Hunt today, check it out
+ceternity UI
+Components
+Blocks
+Templates
+Labs
+Pricing
+Changelog
+Search
+⌘
+K
+Toggle theme
+Get All-Access
+Toggle theme
+Follow for updates
+Twitter @mannupaaji
+Learn Tailwind and Motion
+Installation
+Install Next.js
+Install Tailwind CSS
+Add utilities
+CLI
+Templates
+Productized Agency Template
+New
+Simplistic SaaS Template
+New
+Nodus Marketing Template
+Agenforce Marketing Template
+AI SaaS Template
+Startup Landing Page Template
+Proactiv Marketing Template
+Minimal Portfolio Template
+Minimalist Portfolio Template
+Cryptgen Marketing
+Playful Marketing Template
+Agenlabs Agency
+Devpro Portfolio
+Foxtrot Marketing
+Sidefolio Portfolio
+Schedule Marketing
+Sections and Blocks
+Hero Sections
+Shaders
+New
+Illustrations
+New
+Logo Clouds
+Bento Grids
+CTA Sections
+Testimonials
+Team Sections
+New
+Empty States
+New
+Feature sections
+Pricing sections
+Cards
+Navbars
+Footers
+Login and Signup
+Contact Sections
+Blog Sections
+Blog Content Sections
+FAQs
+Sidebars
+Stats Sections
+Backgrounds
+New
+Text Animations
+New
+Backgrounds & Effects
+Webcam Pixel Grid
+New
+Images Badge
+New
+Parallax Hero Images
+New
+Scales
+New
+Dotted Glow Background
+New
+Background Ripple Effect
+New
+Sparkles
+Background Gradient
+Gradient Animation
+Wavy Background
+Background Boxes
+Background Beams
+Background Beams With Collision
+Background Lines
+Aurora Background
+Meteors
+Glowing Stars
+Shooting Stars
+Vortex
+Spotlight
+Spotlight New
+Canvas Reveal Effect
+SVG Mask Effect
+Tracing Beam
+Lamp effect
+Grid and Dot Backgrounds
+Glowing Effect
+Google Gemini Effect
+Card Components
+Keyboard
+Terminal
+New
+Tooltip Card
+New
+ASCII Art
+New
+Pixelated Canvas
+New
+3D Card Effect
+Evervault Card
+Card Stack
+Card Hover Effect
+Wobble Card
+Expandable Card
+Card Spotlight
+Focus Cards
+Infinite Moving Cards
+Draggable Card
+Comet Card
+New
+Glare Card
+Direction Aware Hover
+Scroll & Parallax
+Parallax Scroll
+Sticky Scroll Reveal
+Macbook Scroll
+Container Scroll Animation
+Hero Parallax
+Text Components
+Canvas Text
+New
+Encrypted Text
+New
+Layout Text Flip
+New
+Colourful Text
+Squiggly Text
+New
+Text Generate Effect
+Typewriter Effect
+Flip Words
+Text Hover Effect
+Container Text Flip
+Hero Highlight
+Text Reveal Card
+Text Flipping Board
+New
+Buttons
+Magnetic Button
+New
+Noise Background
+New
+Tailwind CSS buttons
+Hover Border Gradient
+Moving Border
+Stateful Button
+Loaders
+Multi Step Loader
+Loader
+Navigation
+Notch
+New
+Floating Navbar
+Navbar Menu
+Sidebar
+Floating Dock
+Tabs
+Resizable Navbar
+Sticky Banner
+Inputs & Forms
+Signup Form
+Placeholders And Vanish Input
+File Upload
+Gooey Input
+New
+Overlays & Popovers
+Dither Shader
+New
+Animated Modal
+Animated Tooltip
+Link Preview
+Carousels & Sliders
+Images Slider
+Carousel
+Apple Cards Carousel
+Animated Testimonials
+Layout & Grid
+Layout Grid
+Bento Grid
+Container Cover
+Data & Visualization
+GitHub Globe
+World Map
+Timeline
+Compare
+Codeblock
+Cursor & Pointer
+Following Pointer
+Pointer Highlight
+Lens
+3D
+3D Globe
+New
+3D Pin
+3D Marquee
+Sections and Blocks Free
+Feature Sections Free
+Cards Sections Free
+Hero Sections Free
+Labs
+GTA VI Poster
+New
+SVG Path Morphing
+New
+Wispr Flow Text Animation
+New
+Interface Crafts Cards
+New
+Fey Cards
+New
+Build faster with All-Access
+Get access to all templates, components and blocks for a one-time payment.
+Get All-Access
+Trusted by 120,000+ users worldwide
+Components
+Explore the best in class, shadcn compatible components with microinteractions and animations.
+all
+components
+blocks
+Text Flipping Board
+A split-flap display component that animates characters with flip transitions, inspired by Vestaboard.
+Fey.com Macbook Scroll
+Scroll through the page and see the image come out of the screen, as seen on Fey.com website.
+Notch
+A floating, configurable notch that pins to the top or bottom of the screen. Pass an array of items with links and it animates the active state as you switch between them.
+Hero Sections
+21
++ blocks
+A collection of hero sections that are modern and stand out
+Included with all-access
+Parallax Hero Images
+Mouse-driven parallax effect, perfect for hero sections. Images blur fade in and move at different depths.
+Squiggly Text
+A squiggly text effect using SVG turbulence and displacement filters, animated with Motion.
+Shaders
+3
++ blocks
+A collection of reusable shaders for your backgrounds.
+Included with all-access
+Tooltip Card
+A tooltip card container that follows mouse pointer when hovered over
+Logo Clouds
+6
++ blocks
+A collection of logo clouds with micro interactions and minimal animations
+Included with all-access
+Gooey Input
+A search-style input that expands with a gooey SVG filter and shared layout animation
+Magnetic Button
+A button that subtly drifts toward the cursor as you hover, with a spring-based return when you leave.
+Terminal
+A mac style terminal component with bash syntax highlighting and typewriter effect.
+3D Card Effect
+A card perspective effect, hover over the card to elevate card elements.
+Feature Sections
+18
++ blocks
+A set of feature sections ranging from bento grids to simple layouts
+Included with all-access
+ASCII Art
+Convert any image to ASCII art with customizable charsets, colors, and animations.
+Canvas Text
+Animated text component with colorful curved lines rendered on canvas, clipped to the text shape.
+Backgrounds
+11
++ blocks
+A set of beautiful, creative backgrounds for landing pages
+Included with all-access
+3D Globe
+A realistic globe component with tooltips and avatar tips
+Dither Shader
+A real-time ordered dithering effect for images, perfect for pixel art and retro aesthetics.
+Dotted Glow Background
+A background effect with opacity animation, glow effect and more.
+Bento Grids
+6
++ blocks
+A set of bento grids for various use cases
+Included with all-access
+Encrypted Text
+A text component that reveals the text gradually, gibberish effect.
+Images Badge
+A badge with images that can be hovered to reveal more images.
+Keyboard
+A mac style keyboard component with mechanical keys sound effects.
+Blog Content Sections
+2
++ blocks
+Content sections for your single blog posts
+Included with all-access
+Noise Background
+A dynamic background effect with animated gradients, noise texture, and smooth motion.
+Scales
+A repeating diagonal, horizontal, or vertical line pattern background effect.
+Text Hover Effect
+A text hover effect that animates and outlines gradient on hover, as seen on x.ai
+Webcam Pixel Grid
+A real-time webcam pixel grid effect, perfect for pixel art and retro aesthetics.
+Animated Testimonials
+Minimal testimonials sections with image and quote.
+Apple Cards Carousel
+A sleek and minimal carousel implementation, as seen on apple.com
+Blog Sections
+4
++ blocks
+Blog sections with search and filters
+Included with all-access
+Background Beams With Collision
+Exploding beams in the background
+Background Lines
+A set of svg paths that animate in a wave pattern. Good for hero sections background, as seen on height.app
+Cards
+4
++ blocks
+A set of cards that can be used for different use cases
+Included with all-access
+Background Ripple Effect
+A grid of cells that ripple when clicked.
+Card Spotlight
+A card component with a spotlight effect revealing a radial gradient background
+Carousel
+A customizable carousel with microinteractions and slider.
+Code Block
+A configurable code block component built on top of react-syntax-highlighter.
+Contact Sections
+4
++ blocks
+Contact sections with forms and micro interactions
+Included with all-access
+Colourful Text
+A text component with various colours, filter and scale effects.
+Comet Card
+A perspective, 3D, Tilt card as seen on Perplexity Comet's website.
+CTA Sections
+6
++ blocks
+CTA sections with modern and minimalist styles
+Included with all-access
+Compare
+A comparison component between two images, slide or drag to compare
+Empty States
+5
++ blocks
+Empty states for your projects and dashboards.
+Included with all-access
+Cover
+A Cover component that wraps any children, providing beams and space effect, hover to reveal speed.
+Container Text Flip
+A container that fli
