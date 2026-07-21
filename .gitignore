@@ -102,3 +102,9 @@ yt-downloads/**/*.webm
 __pycache__/
 *.pyc
 *.pyo
+
+# Recovered via Inspiron sync 2026-07-21 — standalone repos + regenerable data
+/agent-repos/
+/opencode-skills/
+/Projects/
+/.deepdive/

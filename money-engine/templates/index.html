@@ -45,6 +45,20 @@
         .content-block { display: none; }
         .content-block.active { display: block; }
     </style>
+
+    <!-- ÆTHER MONOCHROME UI — vendored design system (do not delete app theme above) -->
+    <link rel="stylesheet" href="/static/vendor/aether/aether.css">
+    <style>
+        /* Aether seed tuned to MONEY ENGINE brand (Bitcoin orange #f7931a).
+           Preserves the app's functional/brand color while adopting the
+           monochrome Aether system. Override wins because it loads after aether.css. */
+        :root {
+            --seed-hue: 36;
+            --seed-sat: 95%;
+            --seed-lum: 55%;
+            --seed-sat-dark: 78%;
+        }
+    </style>
 </head>
 <body>
     <div class="header">
@@ -388,5 +402,6 @@
         }
         loadStats();
     </script>
+<script type="module" src="/static/vendor/aether/js/aether-engine.js"></script>
 </body>
 </html>
