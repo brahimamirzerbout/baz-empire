@@ -1,0 +1,17 @@
+[Unit]
+Description=Deskflow client — auto-reconnect to ThinkPad server (192.168.100.21:24800)
+Documentation=man:deskflow-core
+After=graphical-session.target
+
+[Service]
+Type=simple
+Environment=DISPLAY=:0.0
+Environment=XAUTHORITY=%h/.Xauthority
+Environment=XDG_RUNTIME_DIR=/run/user/%U
+ExecStart=/usr/bin/deskflow-core client
+Restart=always
+RestartSec=3
+TimeoutStopSec=5
+
+[Install]
+WantedBy=default.target
