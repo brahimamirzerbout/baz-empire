@@ -110,6 +110,19 @@ __pycache__/
 /Projects/
 /.deepdive/
 
+# Cross-machine sync 2026-07-21 — cloned from kali/GitHub (own repos, tracked separately)
+/aether-ui/
+/bro-mcp/
+/deepdive/
+/scripts-and-guides/
+/voice-agent/
+/youtube_agent_system/
+/aether/
+/agency/
+/brand-aether/
+/sales-hub/
+/money-engine/
+
 # Sales-agency cluster (Inspiron build)
 /crm/                       # ÆTHER CRM — own git repo @ 3dff620 (standalone, like money-engine)
 /sales-hub/node_modules/
